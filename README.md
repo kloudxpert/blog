@@ -1,50 +1,37 @@
 # KloudXpert gcloud Command Reference
 
-A practical companion to the KloudXpert article **"gcloud Commands: A Practical Google Cloud CLI Guide for Engineers."**
+Companion command indexes, a practical cheat sheet, and a regeneration script for the [gcloud Commands guide](https://blog.kloudxpert.com/gcloud-commands-guide/).
 
-This is not meant to be a dump of command names.
+**Read the tutorial on the KloudXpert blog.** This repository holds supporting reference material, not a second copy of the article.
 
-The generated reference reads the command tree from the installed Google Cloud CLI and then reads each command's built-in help text. Every command entry is written in this format:
+## Browse the reference
 
-    gcloud compute instances list
-    What it does: Lists Compute Engine virtual machine instances.
-    Usage help: gcloud compute instances list --help
-
-That gives readers two levels of help:
-
-- the **KloudXpert article** explains how to think about and use gcloud in real engineering work;
-- the **GitHub reference** gives a searchable command-by-command index with a short explanation of what each command does.
-
-## Browse
-
-- [Practical gcloud cheat sheet](gcloud-command-reference/cheatsheets/practical-gcloud-cheatsheet.md)
-- [Complete GA command reference](gcloud-command-reference/commands/gcloud-ga.md)
-- [Complete Beta command reference](gcloud-command-reference/commands/gcloud-beta.md)
-- [Complete Alpha command reference](gcloud-command-reference/commands/gcloud-alpha.md)
-- [Complete Preview command reference](gcloud-command-reference/commands/gcloud-preview.md)
-- [Full blog article draft](gcloud-command-reference/article/gcloud-commands-guide.md)
+- [Reference home](gcloud-command-reference/README.md)
+- [Practical cheat sheet](gcloud-command-reference/cheatsheets/practical-gcloud-cheatsheet.md)
+- [GA command index](gcloud-command-reference/commands/gcloud-ga.md)
+- [Beta command index](gcloud-command-reference/commands/gcloud-beta.md)
+- [Alpha command index](gcloud-command-reference/commands/gcloud-alpha.md)
 - [Reference generator](gcloud-command-reference/scripts/generate_gcloud_command_reference.py)
 
-> The descriptions come from the built-in help of the same CLI release used to generate the command list. Run `gcloud COMMAND --help` for complete arguments, flags and examples.
+## What is available now
 
-## Release tracks
+The checked-in indexes are a snapshot of the Google Cloud CLI command tree from **Google Cloud SDK 568.0.0**, generated on **2026-09-22**. They list command and group names; they do not currently include per-command descriptions. Use `gcloud COMMAND --help` for arguments, explanations, and examples.
 
-The Google Cloud CLI currently documents **GA, Beta, Alpha and Preview** release levels/components. The generator keeps those tracks separate so readers can see the stability level of the command they are looking at.
+The generator supports collecting built-in help summaries for a future refresh. That is separate from the content currently committed here. Preview output is not currently included.
 
-## Keeping the reference current
+## Refreshing the reference
 
-The GitHub Actions workflow in `.github/workflows/update-gcloud-reference.yml` installs the current CLI, installs the Alpha, Beta and Preview components, generates the command list, reads the help text for each command, and refreshes the Markdown reference automatically.
-
-You can generate the reference locally too:
+The existing GitHub Actions workflow supports scheduled and manual generation. To run the generator locally with the Google Cloud CLI installed:
 
 ```bash
 python gcloud-command-reference/scripts/generate_gcloud_command_reference.py
 ```
 
-## Official references
+Check generated files and workflow results before relying on a new snapshot. This reference does not guarantee every command available in future CLI releases.
 
-- Google Cloud CLI reference: https://cloud.google.com/sdk/gcloud/reference
-- gcloud CLI overview: https://cloud.google.com/sdk/gcloud
-- gcloud cheat sheet: https://cloud.google.com/sdk/docs/cheatsheet
+## Official documentation
 
-Maintained for readers of [KloudXpert](https://blog.kloudxpert.com/).
+- [Google Cloud CLI reference](https://cloud.google.com/sdk/gcloud/reference)
+- [Google Cloud CLI cheat sheet](https://cloud.google.com/sdk/docs/cheatsheet)
+
+Maintained for readers of [KloudXpert](https://blog.kloudxpert.com/gcloud-commands-guide/). Google Cloud is a trademark of Google LLC; this is an independent resource.
