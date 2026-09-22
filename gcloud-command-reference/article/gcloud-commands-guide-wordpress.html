@@ -1,0 +1,257 @@
+<!-- wp:html -->
+<!--
+KLOUDXPERT ARTICLE METADATA
+
+Title:
+gcloud Commands: A Practical Google Cloud CLI Guide for Engineers
+
+SEO Title:
+gcloud Commands: Practical Google Cloud CLI Guide | KloudXpert
+
+Focus Keyword:
+gcloud commands
+
+Suggested Slug:
+/gcloud-commands-guide/
+
+Meta Description:
+Learn gcloud commands through practical Google Cloud examples covering authentication, IAM, Compute Engine, GKE, Cloud Run, Storage, logging and automation.
+
+Category:
+Google Cloud
+
+Suggested Tags:
+Google Cloud, gcloud, Google Cloud CLI, GKE, Cloud Run, IAM, Compute Engine, Cloud Storage, DevOps, Cloud Engineering
+
+Editorial note:
+The GitHub command-reference URL currently points to the private kloudxpert/blog repository. Replace it with the final public command-reference URL before publishing.
+
+Style:
+KloudXpert wide article layout, rounded hero, compact TOC, human-first prose, dark terminal blocks.
+
+Last reviewed:
+September 22, 2026
+-->
+
+<style>
+.kxgcloud,.kxgcloud *,.kxgcloud *::before,.kxgcloud *::after{box-sizing:border-box!important}
+body:has(.kxgcloud) .entry-header,
+body:has(.kxgcloud) .ast-article-single>.entry-header,
+body:has(.kxgcloud) .site-main>article>.entry-header{display:none!important;height:0!important;margin:0!important;padding:0!important;border:0!important;overflow:hidden!important}
+body:has(.kxgcloud) #secondary,
+body:has(.kxgcloud) .widget-area.secondary,
+body:has(.kxgcloud) .sidebar-main{display:none!important}
+body:has(.kxgcloud) #content>.ast-container,
+body:has(.kxgcloud) .site-content>.ast-container,
+body:has(.kxgcloud) #primary,
+body:has(.kxgcloud) .site-main,
+body:has(.kxgcloud) .ast-article-single,
+body:has(.kxgcloud) .entry-content,
+body:has(.kxgcloud) .wp-block-post-content{width:100%!important;max-width:none!important;margin:0!important;padding-top:0!important}
+
+.kxgcloud{
+  --gc-ink:#172033;--gc-muted:#58677c;--gc-line:#e4eaf2;--gc-blue:#4285f4;--gc-green:#34a853;
+  --gc-amber:#f9ab00;--gc-red:#ea4335;--gc-purple:#7c5ce5;--gc-soft:#f7f9fc;
+  width:min(1220px,calc(100vw - 40px))!important;max-width:none!important;margin:0 auto!important;padding:28px 34px 72px!important;
+  color:var(--gc-ink)!important;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif!important;
+  font-size:17px!important;line-height:1.72!important;background:#fff!important;overflow:visible!important
+}
+.kxgcloud a{color:#1557b0!important;text-decoration:underline!important;text-decoration-thickness:1px!important;text-underline-offset:3px!important;font-weight:650!important}
+.kxgcloud strong{color:#111827!important;font-weight:800!important}
+.kxgcloud p{margin:.72em 0!important;color:#46556b!important;font-size:1.01rem!important;line-height:1.75!important;text-wrap:pretty!important}
+.kxgcloud ul,.kxgcloud ol{margin:.8em 0 1.15em!important;padding-left:1.45em!important}
+.kxgcloud li{margin:.4em 0!important;color:#46556b!important;font-size:1rem!important;line-height:1.65!important}
+.kxgcloud code:not(pre code){padding:.1rem .34rem!important;border:1px solid #e2e8f0!important;border-radius:6px!important;background:#f2f5f9!important;color:#25344b!important;font-size:.91em!important}
+
+.gc-hero{position:relative!important;isolation:isolate!important;margin:-4px 0 28px!important;padding:58px 48px 50px!important;border:1px solid #dce5f2!important;border-radius:30px!important;background:linear-gradient(135deg,#f9fbff 0%,#f3f7ff 46%,#fbf7ff 100%)!important;box-shadow:0 20px 60px rgba(15,23,42,.09)!important;overflow:hidden!important}
+.gc-oval{position:absolute!important;border-radius:999px!important;z-index:0!important;pointer-events:none!important}
+.gc-oval-a{width:330px!important;height:138px!important;right:-80px!important;top:-18px!important;background:linear-gradient(120deg,rgba(66,133,244,.33),rgba(124,92,229,.20))!important;transform:rotate(-13deg)!important}
+.gc-oval-b{width:210px!important;height:82px!important;right:160px!important;bottom:-30px!important;background:linear-gradient(120deg,rgba(52,168,83,.25),rgba(66,133,244,.17))!important;transform:rotate(12deg)!important}
+.gc-oval-c{width:150px!important;height:58px!important;left:-44px!important;top:34px!important;background:linear-gradient(120deg,rgba(249,171,0,.23),rgba(234,67,53,.16))!important;transform:rotate(-18deg)!important}
+.gc-hero>*:not(.gc-oval){position:relative!important;z-index:1!important}
+.gc-eyebrow,.gc-label{display:inline-flex!important;align-items:center!important;border:1px solid #d9e4f8!important;border-radius:999px!important;background:linear-gradient(90deg,#e9f2ff,#f2ebff)!important;color:#31537d!important;font-size:.72rem!important;font-weight:850!important;letter-spacing:.11em!important;text-transform:uppercase!important}
+.gc-eyebrow{padding:8px 13px!important;margin-bottom:20px!important}
+.gc-hero h1{max-width:980px!important;margin:0!important;color:#0f172a!important;-webkit-text-fill-color:#0f172a!important;font-size:clamp(2.55rem,5vw,4.7rem)!important;font-weight:840!important;line-height:1.04!important;letter-spacing:-.052em!important}
+.gc-deck{max-width:920px!important;margin:20px 0 0!important;color:#526176!important;font-size:clamp(1.08rem,1.7vw,1.3rem)!important;line-height:1.58!important}
+.gc-chips{display:flex!important;flex-wrap:wrap!important;gap:9px!important;margin-top:24px!important}
+.gc-chip{display:inline-flex!important;padding:7px 11px!important;border:1px solid #dfe7f3!important;border-radius:999px!important;background:rgba(255,255,255,.82)!important;color:#526071!important;font-size:.77rem!important;font-weight:760!important}
+
+.gc-intro{margin:0 0 28px!important;padding:0 2px!important}
+.gc-intro .gc-callout{margin-top:1.3rem!important}
+.gc-callout{margin:1.45rem 0!important;padding:18px 20px!important;border:1px solid #d8e6ff!important;border-left:5px solid var(--gc-blue)!important;border-radius:0 16px 16px 0!important;background:linear-gradient(135deg,#f8fbff 0%,#f5f3ff 100%)!important;box-shadow:0 7px 22px rgba(66,133,244,.05)!important}
+.gc-callout-title{display:block!important;margin-bottom:6px!important;color:#174ea6!important;font-size:.73rem!important;font-weight:850!important;letter-spacing:.09em!important;text-transform:uppercase!important}
+.gc-callout p{margin:0!important}
+
+.gc-toc{margin:0 0 34px!important;padding:20px 22px!important;border:1px solid var(--gc-line)!important;border-radius:20px!important;background:#fff!important;box-shadow:0 9px 28px rgba(15,23,42,.05)!important}
+.gc-toc-title{margin-bottom:12px!important;color:#596579!important;font-size:.76rem!important;font-weight:850!important;letter-spacing:.09em!important;text-transform:uppercase!important}
+.gc-toc ol{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:7px 22px!important;margin:0!important;padding:0!important;list-style:none!important}
+.gc-toc li{margin:0!important}
+.gc-toc a{display:flex!important;gap:10px!important;align-items:flex-start!important;padding:7px 8px!important;border-radius:10px!important;color:#334155!important;text-decoration:none!important;font-size:.91rem!important;font-weight:700!important;line-height:1.35!important}
+.gc-toc a:hover{background:#f7f9fc!important}
+.gc-toc a span{flex:0 0 auto!important;color:#7b8798!important;font-size:.72rem!important;font-weight:850!important;letter-spacing:.05em!important}
+
+.gc-section{margin:0 0 20px!important;padding:28px 0 31px!important;border-bottom:1px solid var(--gc-line)!important;scroll-margin-top:88px!important}
+.gc-label{padding:6px 10px!important;margin:0 0 10px!important;font-size:.68rem!important}
+.gc-section h2{margin:0 0 13px!important;color:#0f172a!important;-webkit-text-fill-color:#0f172a!important;font-size:clamp(1.7rem,3vw,2.4rem)!important;font-weight:830!important;line-height:1.16!important;letter-spacing:-.028em!important}
+.gc-section h3{margin:1.65rem 0 .52rem!important;color:#172554!important;-webkit-text-fill-color:#172554!important;font-size:1.18rem!important;font-weight:810!important;line-height:1.3!important}
+
+.gc-code{margin:17px 0 21px!important;border:1px solid #24324a!important;border-radius:17px!important;background:#0f172a!important;box-shadow:0 14px 34px rgba(15,23,42,.14)!important;overflow:hidden!important}
+.gc-code-head{display:flex!important;align-items:center!important;justify-content:space-between!important;padding:10px 14px!important;border-bottom:1px solid rgba(255,255,255,.08)!important;background:#111c30!important;color:#9fb0c7!important;font-size:.66rem!important;font-weight:850!important;letter-spacing:.1em!important}
+.gc-dots{display:flex!important;gap:5px!important}.gc-dots i{display:block!important;width:7px!important;height:7px!important;border-radius:999px!important;background:#64748b!important}
+.gc-code pre{margin:0!important;padding:17px 18px!important;overflow:auto!important;background:transparent!important}
+.gc-code pre code{display:block!important;padding:0!important;border:0!important;background:transparent!important;color:#d9e4f2!important;font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace!important;font-size:.86rem!important;line-height:1.66!important;white-space:pre!important}
+
+.gc-section-final{margin-top:24px!important;padding:30px 30px 32px!important;border:1px solid #dbe5f4!important;border-radius:24px!important;background:linear-gradient(135deg,#f8fbff 0%,#f7f4ff 100%)!important}
+.gc-section-final h2{max-width:760px!important}
+
+.gc-refbox{margin:25px 0 8px!important;padding:22px!important;border:1px solid #dfe6f0!important;border-radius:20px!important;background:#f8fafc!important}
+.gc-refbox strong{display:block!important;margin-bottom:5px!important;color:#0f172a!important}
+.gc-refbox p{margin:0!important}
+
+@media(max-width:760px){
+  .kxgcloud{width:min(100%,calc(100vw - 24px))!important;padding:12px 0 52px!important}
+  .gc-hero{padding:38px 23px 35px!important;border-radius:23px!important;margin-bottom:22px!important}
+  .gc-hero h1{font-size:clamp(2.2rem,12vw,3.35rem)!important}
+  .gc-toc{padding:16px!important;border-radius:16px!important}
+  .gc-toc ol{grid-template-columns:1fr!important}
+  .gc-section{padding:24px 0 27px!important}
+  .gc-code{border-radius:14px!important}
+  .gc-code pre{padding:15px!important}
+  .gc-code pre code{font-size:.79rem!important}
+  .gc-section-final{padding:23px 19px!important;border-radius:19px!important}
+}
+</style>
+<article class="kxgcloud">
+  <header class="gc-hero">
+    <span class="gc-oval gc-oval-a"></span>
+    <span class="gc-oval gc-oval-b"></span>
+    <span class="gc-oval gc-oval-c"></span>
+    <span class="gc-eyebrow">GOOGLE CLOUD · GCLOUD · PRACTICAL CLI</span>
+    <h1>gcloud Commands: A Practical Google Cloud CLI Guide for Engineers</h1>
+    <p class="gc-deck">You do not need to memorize hundreds of gcloud commands. What helps is understanding how the CLI is put together, knowing the commands you will use all the time, and knowing how to find the rest when you need them.</p>
+    <div class="gc-chips">
+      <span class="gc-chip">Authentication</span>
+      <span class="gc-chip">IAM</span>
+      <span class="gc-chip">Compute</span>
+      <span class="gc-chip">GKE</span>
+      <span class="gc-chip">Cloud Run</span>
+      <span class="gc-chip">Automation</span>
+    </div>
+  </header>
+
+  <div class="gc-intro">
+    <p>If you work with Google Cloud long enough, you end up using <code>gcloud</code> whether you planned to or not.</p><p>You use it to switch projects, deploy a Cloud Run service, connect to a GKE cluster, inspect IAM, check logs, enable an API, or figure out why something works in the console but not from your terminal.</p><p>Most engineers learn it the same way: one copied command at a time.</p><p>That works, but it leaves you with a pile of commands and no real mental model.</p><p>This guide takes a different approach. The goal is not to memorize hundreds of commands. It is to understand how <code>gcloud</code> is put together, learn the small set of commands you will use constantly, and know how to find the rest when you need them.</p><div class="gc-callout"><span class="gc-callout-title">Useful reference</span><p><strong>Complete command reference:</strong> I keep the long, searchable command reference in GitHub so this article can stay readable. The GitHub version does more than list command names: every entry includes a short <strong>"What it does"</strong> explanation generated from that command's built-in <code>gcloud ... --help</code> text.   <a href="https://github.com/kloudxpert/blog/tree/main/gcloud-command-reference" target="_blank" rel="noopener">https://github.com/kloudxpert/blog/tree/main/gcloud-command-reference</a></p></div><p>For example, the reference is intended to read like this:</p><p>So there are really two pieces:</p><ul><li><strong>This article</strong> explains the mental model, common workflows, and the commands engineers use most often.</li><li><strong>The GitHub reference</strong> is the complete command-by-command lookup, with a short explanation for each command.</li></ul><p>That split is deliberate. A giant list is useful when you are searching for a command. It is not a good way to learn how <code>gcloud</code> actually fits together.</p>
+  </div>
+
+  <nav class="gc-toc" aria-label="Table of contents">
+    <div class="gc-toc-title">In this guide</div>
+    <ol><li><a href="#1-first-understand-the-shape-of-a-gcloud-command"><span>01</span>First, understand the shape of a gcloud command</a></li><li><a href="#2-before-doing-anything-check-who-you-are-and-where-you-are"><span>02</span>Before doing anything, check who you are and where you are</a></li><li><a href="#3-use-named-configurations-for-dev-test-and-prod"><span>03</span>Use named configurations for Dev, Test and Prod</a></li><li><a href="#4-stop-searching-the-web-for-every-command"><span>04</span>Stop searching the web for every command</a></li><li><a href="#5-projects-and-apis"><span>05</span>Projects and APIs</a></li><li><a href="#6-iam-commands-you-will-use-often"><span>06</span>IAM commands you will use often</a></li><li><a href="#7-compute-engine"><span>07</span>Compute Engine</a></li><li><a href="#8-cloud-storage-use-gcloud-storage"><span>08</span>Cloud Storage: use gcloud storage</a></li><li><a href="#9-cloud-run"><span>09</span>Cloud Run</a></li><li><a href="#10-gke"><span>10</span>GKE</a></li><li><a href="#11-artifact-registry"><span>11</span>Artifact Registry</a></li><li><a href="#12-cloud-build"><span>12</span>Cloud Build</a></li><li><a href="#13-secret-manager"><span>13</span>Secret Manager</a></li><li><a href="#14-cloud-sql"><span>14</span>Cloud SQL</a></li><li><a href="#15-logs-one-of-the-most-useful-gcloud-workflows"><span>15</span>Logs: one of the most useful gcloud workflows</a></li><li><a href="#16-filtering-and-formatting-are-where-gcloud-becomes-really-useful"><span>16</span>Filtering and formatting are where gcloud becomes really useful</a></li><li><a href="#17-a-safer-way-to-use-gcloud-in-scripts"><span>17</span>A safer way to use gcloud in scripts</a></li><li><a href="#18-troubleshooting-gcloud-itself"><span>18</span>Troubleshooting gcloud itself</a></li><li><a href="#19-a-practical-example-from-terminal-to-cloud-run"><span>19</span>A practical example: from terminal to Cloud Run</a></li><li><a href="#20-what-about-the-complete-list-of-gcloud-commands"><span>20</span>What about the complete list of gcloud commands?</a></li><li><a href="#21-the-commands-i-would-actually-memorize"><span>21</span>The commands I would actually memorize</a></li><li><a href="#final-thought"><span>22</span>Final thought</a></li></ol>
+  </nav>
+
+  <div class="gc-code"><div class="gc-code-head"><span>TEXT</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud compute instances list
+What it does: Lists Compute Engine virtual machine instances.
+Usage help: gcloud compute instances list --help</code></pre></div><section class="gc-section" id="1-first-understand-the-shape-of-a-gcloud-command"><span class="gc-label">START HERE</span><h2>First, understand the shape of a gcloud command</h2><p>A <code>gcloud</code> command usually reads left to right:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud compute instances list</code></pre></div><p>Think of that as:</p><div class="gc-code"><div class="gc-code-head"><span>TEXT</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud
+  └── compute
+       └── instances
+            └── list</code></pre></div><ul><li><code>gcloud</code> — the CLI</li><li><code>compute</code> — the command group</li><li><code>instances</code> — the resource group</li><li><code>list</code> — the operation</li></ul><p>Once you see this pattern, unfamiliar commands become much easier to guess.</p><p>For example:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud run services list
+gcloud artifacts repositories list
+gcloud secrets versions access
+gcloud container clusters describe</code></pre></div><p>You do not need to remember every command. You need to understand the hierarchy.</p><p>Google's CLI also has <strong>GA, beta, and alpha</strong> command tracks. A command may appear as:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud run services list
+gcloud beta some-group some-command
+gcloud alpha some-group some-command</code></pre></div><p>For production scripts, prefer GA commands unless you deliberately need a beta or alpha feature.</p></section><section class="gc-section" id="2-before-doing-anything-check-who-you-are-and-where-you-are"><span class="gc-label">CHECK YOUR CONTEXT</span><h2>Before doing anything, check who you are and where you are</h2><p>A surprising number of CLI mistakes happen because the engineer is using the wrong account or the wrong project.</p><p>These are the commands I check first when something feels strange:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud auth list
+gcloud config list
+gcloud config get-value project
+gcloud config get-value account</code></pre></div><p>To sign in:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud auth login</code></pre></div><p>For Application Default Credentials used by local application code:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud auth application-default login</code></pre></div><p>Those are different things. Your <code>gcloud</code> CLI credentials and the credentials your local application uses are related concepts, but they are not interchangeable.</p><p>To set a project:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud config set project PROJECT_ID</code></pre></div><p>To set defaults for region and zone:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud config set compute/region REGION
+gcloud config set compute/zone ZONE</code></pre></div><p>For one-off commands, I often prefer being explicit:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud compute instances list --project=PROJECT_ID</code></pre></div><p>That is especially useful when you work across several environments.</p></section><section class="gc-section" id="3-use-named-configurations-for-dev-test-and-prod"><span class="gc-label">WORK SAFELY</span><h2>Use named configurations for Dev, Test and Prod</h2><p>If you constantly switch between projects, do not keep overwriting one global configuration.</p><p>Create separate configurations instead.</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud config configurations create dev
+gcloud config set project DEV_PROJECT_ID
+
+gcloud config configurations create prod
+gcloud config set project PROD_PROJECT_ID</code></pre></div><p>List them:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud config configurations list</code></pre></div><p>Switch between them:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud config configurations activate dev
+gcloud config configurations activate prod</code></pre></div><p>Or use one for a single command:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud --configuration=prod compute instances list</code></pre></div><p>This is one of the simplest ways to reduce accidental cross-environment work.</p></section><section class="gc-section" id="4-stop-searching-the-web-for-every-command"><span class="gc-label">USE THE CLI</span><h2>Stop searching the web for every command</h2><p>The CLI already knows how to explain itself.</p><p>Start here:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud help</code></pre></div><p>Then narrow down:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud compute --help
+gcloud compute instances --help
+gcloud compute instances create --help</code></pre></div><p>That last step matters because flags often change faster than your memory.</p><p>If I know the command family but not the exact syntax, I normally use <code>--help</code> before I search anywhere else.</p><p>You can also inspect your installed version:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud version</code></pre></div><p>And general environment information:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud info</code></pre></div></section><section class="gc-section" id="5-projects-and-apis"><span class="gc-label">PROJECTS & APIS</span><h2>Projects and APIs</h2><p>List projects you can access:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud projects list</code></pre></div><p>Describe one:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud projects describe PROJECT_ID</code></pre></div><p>A common setup task is enabling services:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud services list --available
+gcloud services list --enabled
+gcloud services enable run.googleapis.com
+gcloud services enable artifactregistry.googleapis.com</code></pre></div><p>Disable a service only when you understand the impact:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud services disable SERVICE_NAME</code></pre></div><p>For scripts, pass the project explicitly when the environment matters:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud services enable run.googleapis.com --project=PROJECT_ID</code></pre></div></section><section class="gc-section" id="6-iam-commands-you-will-use-often"><span class="gc-label">IAM</span><h2>IAM commands you will use often</h2><p>See a project's IAM policy:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud projects get-iam-policy PROJECT_ID</code></pre></div><p>A more readable table:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud projects get-iam-policy PROJECT_ID \
+  --format="table(bindings.role,bindings.members)"</code></pre></div><p>Add a role binding:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud projects add-iam-policy-binding PROJECT_ID \
+  --member="user:user@example.com" \
+  --role="roles/viewer"</code></pre></div><p>Remove it:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud projects remove-iam-policy-binding PROJECT_ID \
+  --member="user:user@example.com" \
+  --role="roles/viewer"</code></pre></div><p>List service accounts:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud iam service-accounts list</code></pre></div><p>Describe one:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud iam service-accounts describe SERVICE_ACCOUNT_EMAIL</code></pre></div><p>For production automation, avoid reaching for service-account key files by default. Where your environment supports it, prefer short-lived credentials and service account impersonation.</p><p>For example:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud projects describe PROJECT_ID \
+  --impersonate-service-account=SERVICE_ACCOUNT_EMAIL</code></pre></div></section><section class="gc-section" id="7-compute-engine"><span class="gc-label">COMPUTE</span><h2>Compute Engine</h2><p>List VMs:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud compute instances list</code></pre></div><p>Describe one:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud compute instances describe INSTANCE_NAME --zone=ZONE</code></pre></div><p>Create a VM:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud compute instances create INSTANCE_NAME \
+  --zone=ZONE \
+  --machine-type=e2-medium</code></pre></div><p>Start and stop:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud compute instances start INSTANCE_NAME --zone=ZONE
+gcloud compute instances stop INSTANCE_NAME --zone=ZONE</code></pre></div><p>SSH:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud compute ssh INSTANCE_NAME --zone=ZONE</code></pre></div><p>Copy a file:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud compute scp ./local-file.txt \
+  INSTANCE_NAME:~/local-file.txt \
+  --zone=ZONE</code></pre></div><p>Networking commands are also under <code>gcloud compute</code>:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud compute networks list
+gcloud compute networks subnets list
+gcloud compute firewall-rules list
+gcloud compute addresses list
+gcloud compute routes list</code></pre></div><p>This is worth remembering because not everything under <code>compute</code> is a VM.</p></section><section class="gc-section" id="8-cloud-storage-use-gcloud-storage"><span class="gc-label">STORAGE</span><h2>Cloud Storage: use gcloud storage</h2><p>For current workflows, use the <code>gcloud storage</code> command group.</p><p>List buckets:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud storage buckets list</code></pre></div><p>Create a bucket:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud storage buckets create gs://BUCKET_NAME \
+  --location=REGION</code></pre></div><p>List objects:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud storage ls gs://BUCKET_NAME</code></pre></div><p>Copy a file:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud storage cp ./report.csv gs://BUCKET_NAME/</code></pre></div><p>Copy a directory recursively:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud storage cp --recursive ./data gs://BUCKET_NAME/</code></pre></div><p>Download:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud storage cp gs://BUCKET_NAME/report.csv .</code></pre></div><p>Remove an object:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud storage rm gs://BUCKET_NAME/report.csv</code></pre></div></section><section class="gc-section" id="9-cloud-run"><span class="gc-label">CLOUD RUN</span><h2>Cloud Run</h2><p>List services:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud run services list</code></pre></div><p>Deploy from source:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud run deploy SERVICE_NAME \
+  --source=. \
+  --region=REGION</code></pre></div><p>Deploy an existing image:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud run deploy SERVICE_NAME \
+  --image=REGION-docker.pkg.dev/PROJECT_ID/REPOSITORY/IMAGE:TAG \
+  --region=REGION</code></pre></div><p>Describe a service:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud run services describe SERVICE_NAME --region=REGION</code></pre></div><p>Get only the service URL:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud run services describe SERVICE_NAME \
+  --region=REGION \
+  --format="value(status.url)"</code></pre></div><p>List revisions:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud run revisions list \
+  --service=SERVICE_NAME \
+  --region=REGION</code></pre></div><p>Delete a service:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud run services delete SERVICE_NAME --region=REGION</code></pre></div></section><section class="gc-section" id="10-gke"><span class="gc-label">GKE</span><h2>GKE</h2><p>List clusters:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud container clusters list</code></pre></div><p>Describe a cluster:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud container clusters describe CLUSTER_NAME \
+  --location=LOCATION</code></pre></div><p>Get Kubernetes credentials:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud container clusters get-credentials CLUSTER_NAME \
+  --location=LOCATION</code></pre></div><p>After that, <code>kubectl</code> uses the generated kubeconfig context.</p><p>Create a cluster only after checking the current flags for the cluster mode you want:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud container clusters create --help</code></pre></div><p>GKE evolves quickly, so this is one area where blindly reusing an old command from a blog post is a bad habit.</p></section><section class="gc-section" id="11-artifact-registry"><span class="gc-label">ARTIFACT REGISTRY</span><h2>Artifact Registry</h2><p>List repositories:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud artifacts repositories list</code></pre></div><p>Create a Docker repository:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud artifacts repositories create REPOSITORY \
+  --repository-format=docker \
+  --location=REGION</code></pre></div><p>Configure Docker authentication:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud auth configure-docker REGION-docker.pkg.dev</code></pre></div><p>List Docker images:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud artifacts docker images list \
+  REGION-docker.pkg.dev/PROJECT_ID/REPOSITORY</code></pre></div></section><section class="gc-section" id="12-cloud-build"><span class="gc-label">CLOUD BUILD</span><h2>Cloud Build</h2><p>Submit the current directory for a build:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud builds submit</code></pre></div><p>Submit with a configuration file:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud builds submit --config=cloudbuild.yaml</code></pre></div><p>List builds:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud builds list</code></pre></div><p>Describe a build:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud builds describe BUILD_ID</code></pre></div><p>Read build logs:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud builds log BUILD_ID</code></pre></div><p>Before a source-based deployment, it can also be useful to inspect what your <code>.gcloudignore</code> rules will upload:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud meta list-files-for-upload</code></pre></div></section><section class="gc-section" id="13-secret-manager"><span class="gc-label">SECRETS</span><h2>Secret Manager</h2><p>List secrets:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud secrets list</code></pre></div><p>Create a secret:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud secrets create SECRET_NAME \
+  --replication-policy=automatic</code></pre></div><p>Add a version from stdin:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>printf '%s' 'secret-value' | \
+  gcloud secrets versions add SECRET_NAME --data-file=-</code></pre></div><p>Access the latest version:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud secrets versions access latest \
+  --secret=SECRET_NAME</code></pre></div><p>In shell history and CI logs, be careful not to expose secrets just because a command makes it convenient to print them.</p></section><section class="gc-section" id="14-cloud-sql"><span class="gc-label">CLOUD SQL</span><h2>Cloud SQL</h2><p>List instances:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud sql instances list</code></pre></div><p>Describe an instance:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud sql instances describe INSTANCE_NAME</code></pre></div><p>List databases:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud sql databases list --instance=INSTANCE_NAME</code></pre></div><p>List users:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud sql users list --instance=INSTANCE_NAME</code></pre></div><p>For creating or modifying production databases, check the current command help rather than copying an old set of flags:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud sql instances create --help</code></pre></div><p>Database defaults and supported flags are exactly the kind of thing you want to verify at execution time.</p></section><section class="gc-section" id="15-logs-one-of-the-most-useful-gcloud-workflows"><span class="gc-label">LOGGING</span><h2>Logs: one of the most useful gcloud workflows</h2><p>Read recent logs:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud logging read \
+  'severity&gt;=ERROR' \
+  --limit=50</code></pre></div><p>Return JSON:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud logging read \
+  'severity&gt;=ERROR' \
+  --limit=50 \
+  --format=json</code></pre></div><p>Filter Cloud Run logs:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud logging read \
+  'resource.type="cloud_run_revision"' \
+  --limit=50</code></pre></div><p>The exact resource and log filters depend on the service, but <code>gcloud logging read</code> is worth learning because it lets you investigate from a terminal or script without switching to the console.</p></section><section class="gc-section" id="16-filtering-and-formatting-are-where-gcloud-becomes-really-useful"><span class="gc-label">FILTER & FORMAT</span><h2>Filtering and formatting are where gcloud becomes really useful</h2><p>This is the part many command lists skip.</p><p>A command that returns 500 resources is not very useful until you can narrow and shape the output.</p><h3>Filter</h3><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud compute instances list \
+  --filter="status=RUNNING"</code></pre></div><p>Combine conditions:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud compute instances list \
+  --filter="status=RUNNING AND zone:us-central1"</code></pre></div><h3>JSON</h3><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud compute instances list --format=json</code></pre></div><p>Great for scripts and tools such as <code>jq</code>.</p><h3>Value</h3><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud config get-value project</code></pre></div><p>Or:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud run services describe SERVICE_NAME \
+  --region=REGION \
+  --format="value(status.url)"</code></pre></div><p>This is ideal when a shell script needs exactly one value.</p><h3>Table</h3><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud compute instances list \
+  --format="table(name,zone,status)"</code></pre></div><h3>CSV</h3><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud compute instances list \
+  --format="csv(name,zone,status)"</code></pre></div><p>Once you learn <code>--filter</code> and <code>--format</code>, you stop treating <code>gcloud</code> as a collection of one-off terminal commands and start using it as an automation tool.</p></section><section class="gc-section" id="17-a-safer-way-to-use-gcloud-in-scripts"><span class="gc-label">AUTOMATION</span><h2>A safer way to use gcloud in scripts</h2><p>A few habits make scripts easier to trust.</p><h3>Be explicit about project and location</h3><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud run services list \
+  --project=PROJECT_ID \
+  --region=REGION</code></pre></div><h3>Use machine-readable output</h3><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud projects describe PROJECT_ID \
+  --format=json</code></pre></div><h3>Disable prompts when automation requires it</h3><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud run services delete SERVICE_NAME \
+  --region=REGION \
+  --quiet</code></pre></div><p>Do not add <code>--quiet</code> casually to destructive commands. In automation it is useful; interactively, the confirmation prompt can save you.</p><h3>Fail early in shell scripts</h3><p>For Bash:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>set -euo pipefail</code></pre></div><p>Then check the exit status of commands that matter.</p><h3>Prefer impersonation over permanent key files</h3><p>Where possible:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud SOME_COMMAND \
+  --impersonate-service-account=SERVICE_ACCOUNT_EMAIL</code></pre></div><p>Short-lived credentials are easier to control than long-lived downloaded keys.</p></section><section class="gc-section" id="18-troubleshooting-gcloud-itself"><span class="gc-label">TROUBLESHOOTING</span><h2>Troubleshooting gcloud itself</h2><p>When something fails, start simple.</p><p>Check the version:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud version</code></pre></div><p>Check configuration:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud config list</code></pre></div><p>Check authentication:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud auth list</code></pre></div><p>Check environment information:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud info</code></pre></div><p>Increase logging:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud SOME_COMMAND --verbosity=debug</code></pre></div><p>For HTTP-level troubleshooting:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud SOME_COMMAND --log-http</code></pre></div><p>Be careful with verbose HTTP logs in shared terminals or CI systems because request and response data may contain information you do not want stored permanently.</p></section><section class="gc-section" id="19-a-practical-example-from-terminal-to-cloud-run"><span class="gc-label">PUT IT TOGETHER</span><h2>A practical example: from terminal to Cloud Run</h2><p>Here is a small flow that ties several commands together.</p><h3>Sign in</h3><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud auth login</code></pre></div><h3>Set the project</h3><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud config set project PROJECT_ID</code></pre></div><h3>Confirm it</h3><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud config get-value project</code></pre></div><h3>Enable the services you need</h3><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud services enable run.googleapis.com
+gcloud services enable cloudbuild.googleapis.com
+gcloud services enable artifactregistry.googleapis.com</code></pre></div><h3>Deploy</h3><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud run deploy SERVICE_NAME \
+  --source=. \
+  --region=REGION</code></pre></div><h3>Get the URL</h3><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud run services describe SERVICE_NAME \
+  --region=REGION \
+  --format="value(status.url)"</code></pre></div><h3>Check the service</h3><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud run services describe SERVICE_NAME \
+  --region=REGION</code></pre></div><h3>Read recent logs if something is wrong</h3><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud logging read \
+  'resource.type="cloud_run_revision"' \
+  --limit=50</code></pre></div><p>That is the kind of workflow worth learning. You are not memorizing eight isolated commands. You are following the lifecycle of a real task.</p></section><section class="gc-section" id="20-what-about-the-complete-list-of-gcloud-commands"><span class="gc-label">FULL REFERENCE</span><h2>What about the complete list of gcloud commands?</h2><p>It does not belong in a normal blog article.</p><p>The CLI has a large and changing command tree, and Alpha/Beta commands move more often than GA commands.</p><p>So I keep the long list in GitHub instead:</p><p><strong>Complete gcloud command reference:</strong> <a href="https://github.com/kloudxpert/blog/tree/main/gcloud-command-reference" target="_blank" rel="noopener">https://github.com/kloudxpert/blog/tree/main/gcloud-command-reference</a></p><p>The repository contains generated indexes for:</p><ul><li>GA commands</li><li>Beta commands</li><li>Alpha commands</li><li>a shorter practical cheat sheet</li><li>a regeneration script so the index can be refreshed against a newer Cloud SDK</li></ul><p>That is a better fit than turning this page into thousands of lines of command names.</p></section><section class="gc-section" id="21-the-commands-i-would-actually-memorize"><span class="gc-label">KEEP THESE CLOSE</span><h2>The commands I would actually memorize</h2><p>If I had to reduce this whole guide to a small working set, it would be these:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud auth login
+gcloud auth list
+gcloud config list
+gcloud config set project PROJECT_ID
+gcloud config configurations list
+gcloud projects list
+gcloud services list --enabled
+gcloud services enable SERVICE_NAME
+gcloud compute instances list
+gcloud run services list
+gcloud container clusters list
+gcloud artifacts repositories list
+gcloud secrets list
+gcloud logging read FILTER
+gcloud info
+gcloud version</code></pre></div><p>And one habit:</p><div class="gc-code"><div class="gc-code-head"><span>BASH</span><span class="gc-dots"><i></i><i></i><i></i></span></div><pre><code>gcloud SOME_COMMAND --help</code></pre></div><p>That habit is more useful than memorizing another hundred commands.</p></section><section class="gc-section gc-section-final" id="final-thought"><span class="gc-label">WRAP-UP</span><h2>Final thought</h2><p>The best way to learn <code>gcloud</code> is not to read a giant command list from top to bottom.</p><p>Learn the shape of the CLI. Know which account and project you are using. Get comfortable with <code>--help</code>, <code>--filter</code>, and <code>--format</code>. Then learn commands as real problems give you a reason to use them.</p><p>Keep the complete reference nearby for the rest.</p><p><strong>GitHub command reference:</strong> <a href="https://github.com/kloudxpert/blog/tree/main/gcloud-command-reference" target="_blank" rel="noopener">https://github.com/kloudxpert/blog/tree/main/gcloud-command-reference</a></p><p><strong>Official Google Cloud CLI reference:</strong> <a href="https://cloud.google.com/sdk/gcloud/reference" target="_blank" rel="noopener">https://cloud.google.com/sdk/gcloud/reference</a></p></section>
+
+  <div class="gc-refbox">
+    <strong>Keep the full reference nearby</strong>
+    <p>The blog teaches the mental model and the commands you are most likely to use. The GitHub companion is where the full command-by-command reference belongs.</p>
+  </div>
+</article>
+<!-- /wp:html -->
