@@ -1,0 +1,49 @@
+name: Update gcloud command reference
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 4 * * 1"
+  push:
+    paths:
+      - ".github/workflows/update-gcloud-reference.yml"
+      - "gcloud-command-reference/scripts/generate_gcloud_command_reference.py"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Google Cloud CLI
+        uses: google-github-actions/setup-gcloud@v3
+        with:
+          version: "latest"
+
+      - name: Install Alpha and Beta command components
+        run: |
+          gcloud components install alpha beta --quiet
+
+      - name: Generate command indexes
+        run: |
+          python gcloud-command-reference/scripts/generate_gcloud_command_reference.py
+
+      - name: Commit refreshed indexes
+        shell: bash
+        run: |
+          if git diff --quiet -- gcloud-command-reference/commands; then
+            echo "No command index changes."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add gcloud-command-reference/commands
+          git commit -m "Refresh gcloud command indexes"
+          git push
