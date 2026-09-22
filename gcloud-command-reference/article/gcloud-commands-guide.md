@@ -10,8 +10,23 @@ That works, but it leaves you with a pile of commands and no real mental model.
 
 This guide takes a different approach. The goal is not to memorize hundreds of commands. It is to understand how `gcloud` is put together, learn the small set of commands you will use constantly, and know how to find the rest when you need them.
 
-> **Complete command index:** I keep a generated command list in GitHub so the long reference stays outside this article and can be refreshed as the Google Cloud CLI changes:  
+> **Complete command reference:** I keep the long, searchable command reference in GitHub so this article can stay readable. The GitHub version does more than list command names: every entry includes a short **"What it does"** explanation generated from that command's built-in `gcloud ... --help` text.  
 > https://github.com/kloudxpert/blog/tree/main/gcloud-command-reference
+
+For example, the reference is intended to read like this:
+
+```text
+gcloud compute instances list
+What it does: Lists Compute Engine virtual machine instances.
+Usage help: gcloud compute instances list --help
+```
+
+So there are really two pieces:
+
+- **This article** explains the mental model, common workflows, and the commands engineers use most often.
+- **The GitHub reference** is the complete command-by-command lookup, with a short explanation for each command.
+
+That split is deliberate. A giant list is useful when you are searching for a command. It is not a good way to learn how `gcloud` actually fits together.
 
 ---
 
