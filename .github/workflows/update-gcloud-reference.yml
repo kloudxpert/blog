@@ -15,6 +15,7 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 120
 
     steps:
       - name: Check out repository
@@ -25,19 +26,21 @@ jobs:
         with:
           version: "latest"
 
-      - name: Install Alpha and Beta command components
+      - name: Install Alpha, Beta and Preview components
         run: |
-          gcloud components install alpha beta --quiet
+          gcloud components install alpha beta preview --quiet
 
-      - name: Generate command indexes
+      - name: Generate command references and descriptions
+        env:
+          GCLOUD_DOC_WORKERS: "10"
         run: |
           python gcloud-command-reference/scripts/generate_gcloud_command_reference.py
 
-      - name: Commit refreshed indexes
+      - name: Commit refreshed references
         shell: bash
         run: |
           if git diff --quiet -- gcloud-command-reference/commands; then
-            echo "No command index changes."
+            echo "No command reference changes."
             exit 0
           fi
 
@@ -45,5 +48,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add gcloud-command-reference/commands
-          git commit -m "Refresh gcloud command indexes"
+          git commit -m "Refresh gcloud command references"
           git push
