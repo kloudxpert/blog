@@ -2,7 +2,15 @@
 
 This is the short version: commands worth keeping close while you work.
 
-> For the full generated command tree, see the files in `../commands/`.
+> Start with the [step-by-step blog guide](https://blog.kloudxpert.com/gcloud-commands-guide/). Use this file as a lookup, not a script to run from top to bottom. For the generated command/group indexes, see [snapshot details](../commands/README.md).
+
+## Before you copy a command
+
+- Use Bash (for example, Google Cloud Shell). Uppercase names such as `PROJECT_ID`, `REGION` and `SERVICE_NAME` are placeholders you must replace.
+- Check `gcloud auth list` and `gcloud config list` first. Resource-changing commands need appropriate permissions and can incur charges.
+- Commands using existing files, buckets, services or clusters require those resources to exist.
+- Commands that remove objects, disable APIs, revoke credentials or delete services change your environment. Run them only when that is your intended action.
+- Use `--help` for required arguments. `SOME_COMMAND` is not a real command.
 
 ## Authentication
 
@@ -14,6 +22,8 @@ gcloud auth application-default login
 ```
 
 ## Configuration
+
+Creating a named configuration activates it by default. Set its account using `gcloud config set account YOUR_EMAIL` and its project before working. The account must already be authenticated; configurations do not grant IAM permissions.
 
 ```bash
 gcloud config list
@@ -81,6 +91,8 @@ gcloud storage rm gs://BUCKET_NAME/FILE
 
 ## Cloud Run
 
+Source deployment requires a deployable app in the current directory, enabled billing/APIs and permissions for both the caller and build service account. Follow the [source-deployment setup](https://docs.cloud.google.com/run/docs/deploying-source-code) first. Deleting a service does not remove stored images or other build artifacts.
+
 ```bash
 gcloud run services list
 gcloud run deploy SERVICE_NAME --source=. --region=REGION
@@ -90,6 +102,8 @@ gcloud run services delete SERVICE_NAME --region=REGION
 ```
 
 ## GKE
+
+Install `kubectl` and `gke-gcloud-auth-plugin` on local machines. `LOCATION` is the cluster's region or zone. The endpoint must be reachable and your account authorized. See [GKE client setup](https://docs.cloud.google.com/kubernetes-engine/docs/how-to/cluster-access-for-kubectl).
 
 ```bash
 gcloud container clusters list
@@ -111,6 +125,8 @@ gcloud artifacts docker images list REGION-docker.pkg.dev/PROJECT_ID/REPOSITORY
 
 ## Cloud Build
 
+A bare `gcloud builds submit` expects `cloudbuild.yaml` in the source directory. For a Dockerfile build, use the documented `--tag` option instead. See [build submission options](https://docs.cloud.google.com/sdk/gcloud/reference/builds/submit).
+
 ```bash
 gcloud builds submit
 gcloud builds submit --config=cloudbuild.yaml
@@ -120,6 +136,8 @@ gcloud builds log BUILD_ID
 ```
 
 ## Secret Manager
+
+The literal `secret-value` below is a dummy value. Do not paste a real credential into a typed command: it can remain in shell history. Accessing a secret prints its value, so avoid shared terminals and logs.
 
 ```bash
 gcloud secrets list
@@ -175,6 +193,8 @@ gcloud compute instances create --help
 ```
 
 ## Scripting habits
+
+Impersonation requires the Service Account Credentials API and token-generation permission on the target service account; the target account also needs permission for the operation. `--quiet` suppresses confirmation prompts, so review destructive commands before using it.
 
 ```bash
 # Explicit project
