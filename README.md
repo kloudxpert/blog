@@ -2,45 +2,49 @@
 
 A practical companion to the KloudXpert article **"gcloud Commands: A Practical Google Cloud CLI Guide for Engineers."**
 
-This repository keeps the long command inventory outside the article so the article stays readable and the reference can be refreshed as the Google Cloud CLI changes.
+This is not meant to be a dump of command names.
+
+The generated reference reads the command tree from the installed Google Cloud CLI and then reads each command's built-in help text. Every command entry is written in this format:
+
+    gcloud compute instances list
+    What it does: Lists Compute Engine virtual machine instances.
+    Usage help: gcloud compute instances list --help
+
+That gives readers two levels of help:
+
+- the **KloudXpert article** explains how to think about and use gcloud in real engineering work;
+- the **GitHub reference** gives a searchable command-by-command index with a short explanation of what each command does.
 
 ## Browse
 
 - [Practical gcloud cheat sheet](gcloud-command-reference/cheatsheets/practical-gcloud-cheatsheet.md)
-- [Complete GA command index](gcloud-command-reference/commands/gcloud-ga.md)
-- [Complete Beta command index](gcloud-command-reference/commands/gcloud-beta.md)
-- [Complete Alpha command index](gcloud-command-reference/commands/gcloud-alpha.md)
-- [Blog article draft](gcloud-command-reference/article/gcloud-commands-guide.md)
-- [Generator script](gcloud-command-reference/scripts/generate_gcloud_command_reference.py)
+- [Complete GA command reference](gcloud-command-reference/commands/gcloud-ga.md)
+- [Complete Beta command reference](gcloud-command-reference/commands/gcloud-beta.md)
+- [Complete Alpha command reference](gcloud-command-reference/commands/gcloud-alpha.md)
+- [Complete Preview command reference](gcloud-command-reference/commands/gcloud-preview.md)
+- [Full blog article draft](gcloud-command-reference/article/gcloud-commands-guide.md)
+- [Reference generator](gcloud-command-reference/scripts/generate_gcloud_command_reference.py)
 
-> The command indexes are generated snapshots, not a replacement for command-specific help. Run `gcloud COMMAND --help` for the exact CLI version installed on your machine.
+> The descriptions come from the built-in help of the same CLI release used to generate the command list. Run `gcloud COMMAND --help` for complete arguments, flags and examples.
 
-## Why only GA, Beta and Alpha?
+## Release tracks
 
-The gcloud CLI uses **GA, beta and alpha command tracks**. A Google Cloud product or feature might separately be described as Preview, but there is no general `gcloud preview ...` release track comparable to `gcloud beta ...` or `gcloud alpha ...`.
+The Google Cloud CLI currently documents **GA, Beta, Alpha and Preview** release levels/components. The generator keeps those tracks separate so readers can see the stability level of the command they are looking at.
 
-## Keeping the command list current
+## Keeping the reference current
 
-The workflow in `.github/workflows/update-gcloud-reference.yml` installs the current Google Cloud CLI, installs the Alpha and Beta components, and regenerates the indexes automatically.
+The GitHub Actions workflow in `.github/workflows/update-gcloud-reference.yml` installs the current CLI, installs the Alpha, Beta and Preview components, generates the command list, reads the help text for each command, and refreshes the Markdown reference automatically.
 
-You can also generate them locally:
+You can generate the reference locally too:
 
 ```bash
 python gcloud-command-reference/scripts/generate_gcloud_command_reference.py
 ```
 
-The generator uses:
-
-```bash
-gcloud meta list-commands
-```
-
-so the inventory reflects the command tree available in the installed CLI.
-
 ## Official references
 
 - Google Cloud CLI reference: https://cloud.google.com/sdk/gcloud/reference
-- gcloud command conventions: https://cloud.google.com/sdk/gcloud/reference/topic/command-conventions
+- gcloud CLI overview: https://cloud.google.com/sdk/gcloud
 - gcloud cheat sheet: https://cloud.google.com/sdk/docs/cheatsheet
 
 Maintained for readers of [KloudXpert](https://blog.kloudxpert.com/).
