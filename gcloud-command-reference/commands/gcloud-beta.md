@@ -1,13 +1,5996 @@
 # Complete gcloud Beta Command Index
 
-This file is generated automatically from the installed Google Cloud CLI by:
+> Generated: **2026-09-22 05:34 UTC**  
+> CLI: **Google Cloud SDK 568.0.0**  
+> Source: installed Google Cloud CLI via `gcloud meta list-commands`
 
-`gcloud-command-reference/scripts/generate_gcloud_command_reference.py`
+This is a generated snapshot. Commands can move between release tracks or change as the CLI evolves.
 
-The first automated generation is handled by the repository workflow:
+Official reference: https://cloud.google.com/sdk/gcloud/reference
 
-`.github/workflows/update-gcloud-reference.yml`
+**Commands in this snapshot: 5,634**
 
-Until that workflow completes, use the official reference:
+## (root)
 
-https://cloud.google.com/sdk/gcloud/reference
+- `gcloud beta`
+
+## access-approval
+
+- `gcloud beta access-approval`
+- `gcloud beta access-approval requests`
+- `gcloud beta access-approval requests approve`
+- `gcloud beta access-approval requests dismiss`
+- `gcloud beta access-approval requests get`
+- `gcloud beta access-approval requests invalidate`
+- `gcloud beta access-approval requests list`
+- `gcloud beta access-approval settings`
+- `gcloud beta access-approval settings delete`
+- `gcloud beta access-approval settings get`
+- `gcloud beta access-approval settings update`
+
+## access-context-manager
+
+- `gcloud beta access-context-manager`
+- `gcloud beta access-context-manager levels`
+- `gcloud beta access-context-manager levels conditions`
+- `gcloud beta access-context-manager levels conditions list`
+- `gcloud beta access-context-manager levels create`
+- `gcloud beta access-context-manager levels delete`
+- `gcloud beta access-context-manager levels describe`
+- `gcloud beta access-context-manager levels list`
+- `gcloud beta access-context-manager levels replace-all`
+- `gcloud beta access-context-manager levels update`
+- `gcloud beta access-context-manager perimeters`
+- `gcloud beta access-context-manager perimeters create`
+- `gcloud beta access-context-manager perimeters delete`
+- `gcloud beta access-context-manager perimeters describe`
+- `gcloud beta access-context-manager perimeters dry-run`
+- `gcloud beta access-context-manager perimeters dry-run create`
+- `gcloud beta access-context-manager perimeters dry-run delete`
+- `gcloud beta access-context-manager perimeters dry-run describe`
+- `gcloud beta access-context-manager perimeters dry-run drop`
+- `gcloud beta access-context-manager perimeters dry-run enforce`
+- `gcloud beta access-context-manager perimeters dry-run enforce-all`
+- `gcloud beta access-context-manager perimeters dry-run list`
+- `gcloud beta access-context-manager perimeters dry-run update`
+- `gcloud beta access-context-manager perimeters list`
+- `gcloud beta access-context-manager perimeters replace-all`
+- `gcloud beta access-context-manager perimeters update`
+- `gcloud beta access-context-manager policies`
+- `gcloud beta access-context-manager policies add-iam-policy-binding`
+- `gcloud beta access-context-manager policies create`
+- `gcloud beta access-context-manager policies delete`
+- `gcloud beta access-context-manager policies describe`
+- `gcloud beta access-context-manager policies get-iam-policy`
+- `gcloud beta access-context-manager policies list`
+- `gcloud beta access-context-manager policies remove-iam-policy-binding`
+- `gcloud beta access-context-manager policies set-iam-policy`
+- `gcloud beta access-context-manager policies update`
+- `gcloud beta access-context-manager supported-permissions`
+- `gcloud beta access-context-manager supported-permissions describe`
+- `gcloud beta access-context-manager supported-permissions list`
+- `gcloud beta access-context-manager supported-services`
+- `gcloud beta access-context-manager supported-services describe`
+- `gcloud beta access-context-manager supported-services list`
+
+## active-directory
+
+- `gcloud beta active-directory`
+- `gcloud beta active-directory domains`
+- `gcloud beta active-directory domains backups`
+- `gcloud beta active-directory domains backups create`
+- `gcloud beta active-directory domains backups delete`
+- `gcloud beta active-directory domains backups describe`
+- `gcloud beta active-directory domains backups list`
+- `gcloud beta active-directory domains backups update`
+- `gcloud beta active-directory domains create`
+- `gcloud beta active-directory domains delete`
+- `gcloud beta active-directory domains describe`
+- `gcloud beta active-directory domains describe-ldaps-settings`
+- `gcloud beta active-directory domains extend-schema`
+- `gcloud beta active-directory domains get-iam-policy`
+- `gcloud beta active-directory domains list`
+- `gcloud beta active-directory domains migration`
+- `gcloud beta active-directory domains migration check-permissions`
+- `gcloud beta active-directory domains migration disable`
+- `gcloud beta active-directory domains migration enable`
+- `gcloud beta active-directory domains reset-admin-password`
+- `gcloud beta active-directory domains restore`
+- `gcloud beta active-directory domains set-iam-policy`
+- `gcloud beta active-directory domains sql-integrations`
+- `gcloud beta active-directory domains sql-integrations describe`
+- `gcloud beta active-directory domains sql-integrations list`
+- `gcloud beta active-directory domains trusts`
+- `gcloud beta active-directory domains trusts create`
+- `gcloud beta active-directory domains trusts delete`
+- `gcloud beta active-directory domains trusts update`
+- `gcloud beta active-directory domains trusts validate-state`
+- `gcloud beta active-directory domains update`
+- `gcloud beta active-directory domains update-ldaps-settings`
+- `gcloud beta active-directory operations`
+- `gcloud beta active-directory operations cancel`
+- `gcloud beta active-directory operations describe`
+- `gcloud beta active-directory operations list`
+- `gcloud beta active-directory peerings`
+- `gcloud beta active-directory peerings create`
+- `gcloud beta active-directory peerings delete`
+- `gcloud beta active-directory peerings describe`
+- `gcloud beta active-directory peerings list`
+- `gcloud beta active-directory peerings update`
+
+## ai
+
+- `gcloud beta ai`
+- `gcloud beta ai custom-jobs`
+- `gcloud beta ai custom-jobs cancel`
+- `gcloud beta ai custom-jobs create`
+- `gcloud beta ai custom-jobs describe`
+- `gcloud beta ai custom-jobs list`
+- `gcloud beta ai custom-jobs local-run`
+- `gcloud beta ai custom-jobs stream-logs`
+- `gcloud beta ai endpoints`
+- `gcloud beta ai endpoints create`
+- `gcloud beta ai endpoints delete`
+- `gcloud beta ai endpoints deploy-model`
+- `gcloud beta ai endpoints describe`
+- `gcloud beta ai endpoints direct-predict`
+- `gcloud beta ai endpoints direct-raw-predict`
+- `gcloud beta ai endpoints explain`
+- `gcloud beta ai endpoints list`
+- `gcloud beta ai endpoints predict`
+- `gcloud beta ai endpoints raw-predict`
+- `gcloud beta ai endpoints stream-direct-predict`
+- `gcloud beta ai endpoints stream-direct-raw-predict`
+- `gcloud beta ai endpoints stream-raw-predict`
+- `gcloud beta ai endpoints undeploy-model`
+- `gcloud beta ai endpoints update`
+- `gcloud beta ai hp-tuning-jobs`
+- `gcloud beta ai hp-tuning-jobs cancel`
+- `gcloud beta ai hp-tuning-jobs create`
+- `gcloud beta ai hp-tuning-jobs describe`
+- `gcloud beta ai hp-tuning-jobs list`
+- `gcloud beta ai hp-tuning-jobs stream-logs`
+- `gcloud beta ai index-endpoints`
+- `gcloud beta ai index-endpoints create`
+- `gcloud beta ai index-endpoints delete`
+- `gcloud beta ai index-endpoints deploy-index`
+- `gcloud beta ai index-endpoints describe`
+- `gcloud beta ai index-endpoints list`
+- `gcloud beta ai index-endpoints mutate-deployed-index`
+- `gcloud beta ai index-endpoints undeploy-index`
+- `gcloud beta ai index-endpoints update`
+- `gcloud beta ai indexes`
+- `gcloud beta ai indexes create`
+- `gcloud beta ai indexes delete`
+- `gcloud beta ai indexes describe`
+- `gcloud beta ai indexes list`
+- `gcloud beta ai indexes remove-datapoints`
+- `gcloud beta ai indexes update`
+- `gcloud beta ai indexes upsert-datapoints`
+- `gcloud beta ai model-garden`
+- `gcloud beta ai model-garden models`
+- `gcloud beta ai model-garden models deploy`
+- `gcloud beta ai model-garden models list`
+- `gcloud beta ai model-garden models list-deployment-config`
+- `gcloud beta ai model-monitoring-jobs`
+- `gcloud beta ai model-monitoring-jobs create`
+- `gcloud beta ai model-monitoring-jobs delete`
+- `gcloud beta ai model-monitoring-jobs describe`
+- `gcloud beta ai model-monitoring-jobs list`
+- `gcloud beta ai model-monitoring-jobs pause`
+- `gcloud beta ai model-monitoring-jobs resume`
+- `gcloud beta ai model-monitoring-jobs update`
+- `gcloud beta ai models`
+- `gcloud beta ai models copy`
+- `gcloud beta ai models delete`
+- `gcloud beta ai models delete-version`
+- `gcloud beta ai models describe`
+- `gcloud beta ai models list`
+- `gcloud beta ai models list-version`
+- `gcloud beta ai models upload`
+- `gcloud beta ai operations`
+- `gcloud beta ai operations describe`
+- `gcloud beta ai persistent-resources`
+- `gcloud beta ai persistent-resources create`
+- `gcloud beta ai persistent-resources delete`
+- `gcloud beta ai persistent-resources describe`
+- `gcloud beta ai persistent-resources list`
+- `gcloud beta ai persistent-resources reboot`
+- `gcloud beta ai semantic-governance-policies`
+- `gcloud beta ai semantic-governance-policies create`
+- `gcloud beta ai semantic-governance-policies delete`
+- `gcloud beta ai semantic-governance-policies describe`
+- `gcloud beta ai semantic-governance-policies list`
+- `gcloud beta ai semantic-governance-policies update`
+- `gcloud beta ai semantic-governance-policy-engine`
+- `gcloud beta ai semantic-governance-policy-engine describe`
+- `gcloud beta ai semantic-governance-policy-engine update`
+- `gcloud beta ai tensorboard-experiments`
+- `gcloud beta ai tensorboard-experiments create`
+- `gcloud beta ai tensorboard-experiments delete`
+- `gcloud beta ai tensorboard-experiments describe`
+- `gcloud beta ai tensorboard-experiments list`
+- `gcloud beta ai tensorboard-experiments update`
+- `gcloud beta ai tensorboard-runs`
+- `gcloud beta ai tensorboard-runs create`
+- `gcloud beta ai tensorboard-runs delete`
+- `gcloud beta ai tensorboard-runs describe`
+- `gcloud beta ai tensorboard-runs list`
+- `gcloud beta ai tensorboard-runs update`
+- `gcloud beta ai tensorboard-time-series`
+- `gcloud beta ai tensorboard-time-series create`
+- `gcloud beta ai tensorboard-time-series delete`
+- `gcloud beta ai tensorboard-time-series describe`
+- `gcloud beta ai tensorboard-time-series list`
+- `gcloud beta ai tensorboard-time-series read`
+- `gcloud beta ai tensorboard-time-series update`
+- `gcloud beta ai tensorboards`
+- `gcloud beta ai tensorboards create`
+- `gcloud beta ai tensorboards delete`
+- `gcloud beta ai tensorboards describe`
+- `gcloud beta ai tensorboards list`
+- `gcloud beta ai tensorboards update`
+
+## ai-platform
+
+- `gcloud beta ai-platform`
+- `gcloud beta ai-platform explain`
+- `gcloud beta ai-platform jobs`
+- `gcloud beta ai-platform jobs cancel`
+- `gcloud beta ai-platform jobs describe`
+- `gcloud beta ai-platform jobs list`
+- `gcloud beta ai-platform jobs stream-logs`
+- `gcloud beta ai-platform jobs submit`
+- `gcloud beta ai-platform jobs submit prediction`
+- `gcloud beta ai-platform jobs submit training`
+- `gcloud beta ai-platform jobs update`
+- `gcloud beta ai-platform local`
+- `gcloud beta ai-platform local predict`
+- `gcloud beta ai-platform local train`
+- `gcloud beta ai-platform models`
+- `gcloud beta ai-platform models add-iam-policy-binding`
+- `gcloud beta ai-platform models create`
+- `gcloud beta ai-platform models delete`
+- `gcloud beta ai-platform models describe`
+- `gcloud beta ai-platform models get-iam-policy`
+- `gcloud beta ai-platform models list`
+- `gcloud beta ai-platform models remove-iam-policy-binding`
+- `gcloud beta ai-platform models set-iam-policy`
+- `gcloud beta ai-platform models update`
+- `gcloud beta ai-platform operations`
+- `gcloud beta ai-platform operations cancel`
+- `gcloud beta ai-platform operations describe`
+- `gcloud beta ai-platform operations list`
+- `gcloud beta ai-platform operations wait`
+- `gcloud beta ai-platform predict`
+- `gcloud beta ai-platform versions`
+- `gcloud beta ai-platform versions create`
+- `gcloud beta ai-platform versions delete`
+- `gcloud beta ai-platform versions describe`
+- `gcloud beta ai-platform versions list`
+- `gcloud beta ai-platform versions set-default`
+- `gcloud beta ai-platform versions update`
+
+## alloydb
+
+- `gcloud beta alloydb`
+- `gcloud beta alloydb backups`
+- `gcloud beta alloydb backups create`
+- `gcloud beta alloydb backups delete`
+- `gcloud beta alloydb backups describe`
+- `gcloud beta alloydb backups list`
+- `gcloud beta alloydb clusters`
+- `gcloud beta alloydb clusters create`
+- `gcloud beta alloydb clusters create-secondary`
+- `gcloud beta alloydb clusters delete`
+- `gcloud beta alloydb clusters describe`
+- `gcloud beta alloydb clusters export`
+- `gcloud beta alloydb clusters import`
+- `gcloud beta alloydb clusters list`
+- `gcloud beta alloydb clusters migrate-cloud-sql`
+- `gcloud beta alloydb clusters promote`
+- `gcloud beta alloydb clusters restore`
+- `gcloud beta alloydb clusters switchover`
+- `gcloud beta alloydb clusters update`
+- `gcloud beta alloydb clusters upgrade`
+- `gcloud beta alloydb connect`
+- `gcloud beta alloydb instances`
+- `gcloud beta alloydb instances create`
+- `gcloud beta alloydb instances create-secondary`
+- `gcloud beta alloydb instances delete`
+- `gcloud beta alloydb instances describe`
+- `gcloud beta alloydb instances failover`
+- `gcloud beta alloydb instances inject-fault`
+- `gcloud beta alloydb instances list`
+- `gcloud beta alloydb instances restart`
+- `gcloud beta alloydb instances update`
+- `gcloud beta alloydb operations`
+- `gcloud beta alloydb operations cancel`
+- `gcloud beta alloydb operations delete`
+- `gcloud beta alloydb operations describe`
+- `gcloud beta alloydb operations list`
+- `gcloud beta alloydb users`
+- `gcloud beta alloydb users create`
+- `gcloud beta alloydb users delete`
+- `gcloud beta alloydb users list`
+- `gcloud beta alloydb users set-password`
+- `gcloud beta alloydb users set-roles`
+- `gcloud beta alloydb users set-superuser`
+
+## anthos
+
+- `gcloud beta anthos`
+- `gcloud beta anthos apply`
+- `gcloud beta anthos auth`
+- `gcloud beta anthos auth login`
+- `gcloud beta anthos create-login-config`
+- `gcloud beta anthos export`
+
+## api-gateway
+
+- `gcloud beta api-gateway`
+- `gcloud beta api-gateway api-configs`
+- `gcloud beta api-gateway api-configs create`
+- `gcloud beta api-gateway api-configs delete`
+- `gcloud beta api-gateway api-configs describe`
+- `gcloud beta api-gateway api-configs list`
+- `gcloud beta api-gateway api-configs update`
+- `gcloud beta api-gateway apis`
+- `gcloud beta api-gateway apis add-iam-policy-binding`
+- `gcloud beta api-gateway apis create`
+- `gcloud beta api-gateway apis delete`
+- `gcloud beta api-gateway apis describe`
+- `gcloud beta api-gateway apis get-iam-policy`
+- `gcloud beta api-gateway apis list`
+- `gcloud beta api-gateway apis remove-iam-policy-binding`
+- `gcloud beta api-gateway apis update`
+- `gcloud beta api-gateway gateways`
+- `gcloud beta api-gateway gateways add-iam-policy-binding`
+- `gcloud beta api-gateway gateways create`
+- `gcloud beta api-gateway gateways delete`
+- `gcloud beta api-gateway gateways describe`
+- `gcloud beta api-gateway gateways get-iam-policy`
+- `gcloud beta api-gateway gateways list`
+- `gcloud beta api-gateway gateways remove-iam-policy-binding`
+- `gcloud beta api-gateway gateways update`
+- `gcloud beta api-gateway operations`
+- `gcloud beta api-gateway operations cancel`
+- `gcloud beta api-gateway operations describe`
+- `gcloud beta api-gateway operations list`
+- `gcloud beta api-gateway operations wait`
+
+## api-registry
+
+- `gcloud beta api-registry`
+- `gcloud beta api-registry mcp`
+- `gcloud beta api-registry mcp disable`
+- `gcloud beta api-registry mcp enable`
+- `gcloud beta api-registry mcp servers`
+- `gcloud beta api-registry mcp servers list`
+- `gcloud beta api-registry mcp tools`
+- `gcloud beta api-registry mcp tools list`
+
+## apigee
+
+- `gcloud beta apigee`
+- `gcloud beta apigee apis`
+- `gcloud beta apigee apis deploy`
+- `gcloud beta apigee apis describe`
+- `gcloud beta apigee apis list`
+- `gcloud beta apigee apis undeploy`
+- `gcloud beta apigee applications`
+- `gcloud beta apigee applications describe`
+- `gcloud beta apigee applications list`
+- `gcloud beta apigee archives`
+- `gcloud beta apigee archives delete`
+- `gcloud beta apigee archives deploy`
+- `gcloud beta apigee archives describe`
+- `gcloud beta apigee archives list`
+- `gcloud beta apigee archives update`
+- `gcloud beta apigee deployments`
+- `gcloud beta apigee deployments describe`
+- `gcloud beta apigee deployments list`
+- `gcloud beta apigee developers`
+- `gcloud beta apigee developers describe`
+- `gcloud beta apigee developers list`
+- `gcloud beta apigee environments`
+- `gcloud beta apigee environments describe`
+- `gcloud beta apigee environments list`
+- `gcloud beta apigee operations`
+- `gcloud beta apigee operations describe`
+- `gcloud beta apigee operations list`
+- `gcloud beta apigee organizations`
+- `gcloud beta apigee organizations list`
+- `gcloud beta apigee products`
+- `gcloud beta apigee products create`
+- `gcloud beta apigee products delete`
+- `gcloud beta apigee products describe`
+- `gcloud beta apigee products list`
+- `gcloud beta apigee products update`
+
+## app
+
+- `gcloud beta app`
+- `gcloud beta app browse`
+- `gcloud beta app create`
+- `gcloud beta app deploy`
+- `gcloud beta app describe`
+- `gcloud beta app domain-mappings`
+- `gcloud beta app domain-mappings create`
+- `gcloud beta app domain-mappings delete`
+- `gcloud beta app domain-mappings describe`
+- `gcloud beta app domain-mappings list`
+- `gcloud beta app domain-mappings update`
+- `gcloud beta app firewall-rules`
+- `gcloud beta app firewall-rules create`
+- `gcloud beta app firewall-rules delete`
+- `gcloud beta app firewall-rules describe`
+- `gcloud beta app firewall-rules list`
+- `gcloud beta app firewall-rules test-ip`
+- `gcloud beta app firewall-rules update`
+- `gcloud beta app gen-config`
+- `gcloud beta app instances`
+- `gcloud beta app instances delete`
+- `gcloud beta app instances describe`
+- `gcloud beta app instances disable-debug`
+- `gcloud beta app instances enable-debug`
+- `gcloud beta app instances list`
+- `gcloud beta app instances scp`
+- `gcloud beta app instances ssh`
+- `gcloud beta app logs`
+- `gcloud beta app logs read`
+- `gcloud beta app logs tail`
+- `gcloud beta app migrate-config`
+- `gcloud beta app migrate-config cron-xml-to-yaml`
+- `gcloud beta app migrate-config datastore-indexes-xml-to-yaml`
+- `gcloud beta app migrate-config dispatch-xml-to-yaml`
+- `gcloud beta app migrate-config queue-xml-to-yaml`
+- `gcloud beta app migrate-to-run`
+- `gcloud beta app open-console`
+- `gcloud beta app operations`
+- `gcloud beta app operations describe`
+- `gcloud beta app operations list`
+- `gcloud beta app operations wait`
+- `gcloud beta app regions`
+- `gcloud beta app regions list`
+- `gcloud beta app repair`
+- `gcloud beta app runtimes`
+- `gcloud beta app runtimes list`
+- `gcloud beta app services`
+- `gcloud beta app services browse`
+- `gcloud beta app services delete`
+- `gcloud beta app services describe`
+- `gcloud beta app services list`
+- `gcloud beta app services set-traffic`
+- `gcloud beta app services update`
+- `gcloud beta app ssl-certificates`
+- `gcloud beta app ssl-certificates create`
+- `gcloud beta app ssl-certificates delete`
+- `gcloud beta app ssl-certificates describe`
+- `gcloud beta app ssl-certificates list`
+- `gcloud beta app ssl-certificates update`
+- `gcloud beta app update`
+- `gcloud beta app versions`
+- `gcloud beta app versions browse`
+- `gcloud beta app versions delete`
+- `gcloud beta app versions describe`
+- `gcloud beta app versions list`
+- `gcloud beta app versions migrate`
+- `gcloud beta app versions start`
+- `gcloud beta app versions stop`
+
+## app-lifecycle-manager
+
+- `gcloud beta app-lifecycle-manager`
+- `gcloud beta app-lifecycle-manager flags`
+- `gcloud beta app-lifecycle-manager flags attributes`
+- `gcloud beta app-lifecycle-manager flags attributes create`
+- `gcloud beta app-lifecycle-manager flags attributes delete`
+- `gcloud beta app-lifecycle-manager flags attributes describe`
+- `gcloud beta app-lifecycle-manager flags attributes list`
+- `gcloud beta app-lifecycle-manager flags attributes update`
+- `gcloud beta app-lifecycle-manager flags create`
+- `gcloud beta app-lifecycle-manager flags delete`
+- `gcloud beta app-lifecycle-manager flags describe`
+- `gcloud beta app-lifecycle-manager flags list`
+- `gcloud beta app-lifecycle-manager flags pull`
+- `gcloud beta app-lifecycle-manager flags push`
+- `gcloud beta app-lifecycle-manager flags releases`
+- `gcloud beta app-lifecycle-manager flags releases create`
+- `gcloud beta app-lifecycle-manager flags releases delete`
+- `gcloud beta app-lifecycle-manager flags releases describe`
+- `gcloud beta app-lifecycle-manager flags releases list`
+- `gcloud beta app-lifecycle-manager flags releases update`
+- `gcloud beta app-lifecycle-manager flags revisions`
+- `gcloud beta app-lifecycle-manager flags revisions create`
+- `gcloud beta app-lifecycle-manager flags revisions delete`
+- `gcloud beta app-lifecycle-manager flags revisions describe`
+- `gcloud beta app-lifecycle-manager flags revisions list`
+- `gcloud beta app-lifecycle-manager flags revisions update`
+- `gcloud beta app-lifecycle-manager flags update`
+- `gcloud beta app-lifecycle-manager releases`
+- `gcloud beta app-lifecycle-manager releases create`
+- `gcloud beta app-lifecycle-manager releases delete`
+- `gcloud beta app-lifecycle-manager releases describe`
+- `gcloud beta app-lifecycle-manager releases list`
+- `gcloud beta app-lifecycle-manager releases update`
+- `gcloud beta app-lifecycle-manager rollout-kinds`
+- `gcloud beta app-lifecycle-manager rollout-kinds create`
+- `gcloud beta app-lifecycle-manager rollout-kinds delete`
+- `gcloud beta app-lifecycle-manager rollout-kinds describe`
+- `gcloud beta app-lifecycle-manager rollout-kinds list`
+- `gcloud beta app-lifecycle-manager rollout-kinds update`
+- `gcloud beta app-lifecycle-manager rollouts`
+- `gcloud beta app-lifecycle-manager rollouts create`
+- `gcloud beta app-lifecycle-manager rollouts delete`
+- `gcloud beta app-lifecycle-manager rollouts describe`
+- `gcloud beta app-lifecycle-manager rollouts list`
+- `gcloud beta app-lifecycle-manager rollouts update`
+- `gcloud beta app-lifecycle-manager saas`
+- `gcloud beta app-lifecycle-manager saas create`
+- `gcloud beta app-lifecycle-manager saas delete`
+- `gcloud beta app-lifecycle-manager saas describe`
+- `gcloud beta app-lifecycle-manager saas list`
+- `gcloud beta app-lifecycle-manager saas update`
+- `gcloud beta app-lifecycle-manager tenants`
+- `gcloud beta app-lifecycle-manager tenants create`
+- `gcloud beta app-lifecycle-manager tenants delete`
+- `gcloud beta app-lifecycle-manager tenants describe`
+- `gcloud beta app-lifecycle-manager tenants list`
+- `gcloud beta app-lifecycle-manager tenants update`
+- `gcloud beta app-lifecycle-manager unit-kinds`
+- `gcloud beta app-lifecycle-manager unit-kinds create`
+- `gcloud beta app-lifecycle-manager unit-kinds delete`
+- `gcloud beta app-lifecycle-manager unit-kinds describe`
+- `gcloud beta app-lifecycle-manager unit-kinds list`
+- `gcloud beta app-lifecycle-manager unit-kinds update`
+- `gcloud beta app-lifecycle-manager unit-operations`
+- `gcloud beta app-lifecycle-manager unit-operations create`
+- `gcloud beta app-lifecycle-manager unit-operations delete`
+- `gcloud beta app-lifecycle-manager unit-operations describe`
+- `gcloud beta app-lifecycle-manager unit-operations list`
+- `gcloud beta app-lifecycle-manager unit-operations update`
+- `gcloud beta app-lifecycle-manager units`
+- `gcloud beta app-lifecycle-manager units create`
+- `gcloud beta app-lifecycle-manager units delete`
+- `gcloud beta app-lifecycle-manager units describe`
+- `gcloud beta app-lifecycle-manager units list`
+- `gcloud beta app-lifecycle-manager units update`
+
+## app-optimize
+
+- `gcloud beta app-optimize`
+- `gcloud beta app-optimize reports`
+- `gcloud beta app-optimize reports create`
+- `gcloud beta app-optimize reports delete`
+- `gcloud beta app-optimize reports describe`
+- `gcloud beta app-optimize reports list`
+- `gcloud beta app-optimize reports read`
+
+## artifacts
+
+- `gcloud beta artifacts`
+- `gcloud beta artifacts apt`
+- `gcloud beta artifacts apt import`
+- `gcloud beta artifacts apt upload`
+- `gcloud beta artifacts docker`
+- `gcloud beta artifacts docker images`
+- `gcloud beta artifacts docker images delete`
+- `gcloud beta artifacts docker images describe`
+- `gcloud beta artifacts docker images get-operation`
+- `gcloud beta artifacts docker images list`
+- `gcloud beta artifacts docker images list-vulnerabilities`
+- `gcloud beta artifacts docker images scan`
+- `gcloud beta artifacts docker tags`
+- `gcloud beta artifacts docker tags add`
+- `gcloud beta artifacts docker tags delete`
+- `gcloud beta artifacts docker tags list`
+- `gcloud beta artifacts docker upgrade`
+- `gcloud beta artifacts docker upgrade print-iam-policy`
+- `gcloud beta artifacts files`
+- `gcloud beta artifacts files list`
+- `gcloud beta artifacts generic`
+- `gcloud beta artifacts generic download`
+- `gcloud beta artifacts generic upload`
+- `gcloud beta artifacts go`
+- `gcloud beta artifacts go upload`
+- `gcloud beta artifacts locations`
+- `gcloud beta artifacts locations list`
+- `gcloud beta artifacts operations`
+- `gcloud beta artifacts operations describe`
+- `gcloud beta artifacts packages`
+- `gcloud beta artifacts packages delete`
+- `gcloud beta artifacts packages list`
+- `gcloud beta artifacts print-settings`
+- `gcloud beta artifacts print-settings apt`
+- `gcloud beta artifacts print-settings gradle`
+- `gcloud beta artifacts print-settings mvn`
+- `gcloud beta artifacts print-settings npm`
+- `gcloud beta artifacts print-settings python`
+- `gcloud beta artifacts print-settings yum`
+- `gcloud beta artifacts repositories`
+- `gcloud beta artifacts repositories add-iam-policy-binding`
+- `gcloud beta artifacts repositories create`
+- `gcloud beta artifacts repositories delete`
+- `gcloud beta artifacts repositories describe`
+- `gcloud beta artifacts repositories get-iam-policy`
+- `gcloud beta artifacts repositories list`
+- `gcloud beta artifacts repositories remove-iam-policy-binding`
+- `gcloud beta artifacts repositories set-iam-policy`
+- `gcloud beta artifacts repositories update`
+- `gcloud beta artifacts settings`
+- `gcloud beta artifacts settings describe`
+- `gcloud beta artifacts settings disable-upgrade-redirection`
+- `gcloud beta artifacts settings enable-upgrade-redirection`
+- `gcloud beta artifacts tags`
+- `gcloud beta artifacts tags create`
+- `gcloud beta artifacts tags delete`
+- `gcloud beta artifacts tags list`
+- `gcloud beta artifacts tags update`
+- `gcloud beta artifacts versions`
+- `gcloud beta artifacts versions delete`
+- `gcloud beta artifacts versions list`
+- `gcloud beta artifacts vpcsc-config`
+- `gcloud beta artifacts vpcsc-config allow`
+- `gcloud beta artifacts vpcsc-config deny`
+- `gcloud beta artifacts vpcsc-config describe`
+- `gcloud beta artifacts yum`
+- `gcloud beta artifacts yum import`
+- `gcloud beta artifacts yum upload`
+
+## asset
+
+- `gcloud beta asset`
+- `gcloud beta asset analyze-iam-policy`
+- `gcloud beta asset analyze-iam-policy-longrunning`
+- `gcloud beta asset analyze-org-policies`
+- `gcloud beta asset analyze-org-policy-governed-assets`
+- `gcloud beta asset analyze-org-policy-governed-containers`
+- `gcloud beta asset export`
+- `gcloud beta asset feeds`
+- `gcloud beta asset feeds create`
+- `gcloud beta asset feeds delete`
+- `gcloud beta asset feeds describe`
+- `gcloud beta asset feeds list`
+- `gcloud beta asset feeds update`
+- `gcloud beta asset get-history`
+- `gcloud beta asset list`
+- `gcloud beta asset operations`
+- `gcloud beta asset operations describe`
+- `gcloud beta asset query`
+- `gcloud beta asset saved-queries`
+- `gcloud beta asset saved-queries create`
+- `gcloud beta asset saved-queries delete`
+- `gcloud beta asset saved-queries describe`
+- `gcloud beta asset saved-queries list`
+- `gcloud beta asset saved-queries update`
+- `gcloud beta asset search-all-iam-policies`
+- `gcloud beta asset search-all-resources`
+
+## assured
+
+- `gcloud beta assured`
+- `gcloud beta assured operations`
+- `gcloud beta assured operations describe`
+- `gcloud beta assured operations list`
+- `gcloud beta assured workloads`
+- `gcloud beta assured workloads create`
+- `gcloud beta assured workloads delete`
+- `gcloud beta assured workloads describe`
+- `gcloud beta assured workloads enable-resource-monitoring`
+- `gcloud beta assured workloads list`
+- `gcloud beta assured workloads update`
+- `gcloud beta assured workloads violations`
+- `gcloud beta assured workloads violations acknowledge`
+- `gcloud beta assured workloads violations describe`
+- `gcloud beta assured workloads violations list`
+
+## auth
+
+- `gcloud beta auth`
+- `gcloud beta auth activate-service-account`
+- `gcloud beta auth application-default`
+- `gcloud beta auth application-default login`
+- `gcloud beta auth application-default print-access-token`
+- `gcloud beta auth application-default revoke`
+- `gcloud beta auth application-default set-quota-project`
+- `gcloud beta auth configure-docker`
+- `gcloud beta auth enterprise-certificate-config`
+- `gcloud beta auth enterprise-certificate-config create`
+- `gcloud beta auth enterprise-certificate-config create linux`
+- `gcloud beta auth enterprise-certificate-config create macos`
+- `gcloud beta auth enterprise-certificate-config create windows`
+- `gcloud beta auth list`
+- `gcloud beta auth login`
+- `gcloud beta auth print-access-token`
+- `gcloud beta auth print-identity-token`
+- `gcloud beta auth revoke`
+
+## backup-dr
+
+- `gcloud beta backup-dr`
+- `gcloud beta backup-dr backup-plan-associations`
+- `gcloud beta backup-dr backup-plan-associations create`
+- `gcloud beta backup-dr backup-plan-associations delete`
+- `gcloud beta backup-dr backup-plan-associations describe`
+- `gcloud beta backup-dr backup-plan-associations fetch-for-resource-type`
+- `gcloud beta backup-dr backup-plan-associations list`
+- `gcloud beta backup-dr backup-plan-associations trigger-backup`
+- `gcloud beta backup-dr backup-plan-associations update`
+- `gcloud beta backup-dr backup-plan-revisions`
+- `gcloud beta backup-dr backup-plan-revisions describe`
+- `gcloud beta backup-dr backup-plan-revisions list`
+- `gcloud beta backup-dr backup-plans`
+- `gcloud beta backup-dr backup-plans create`
+- `gcloud beta backup-dr backup-plans delete`
+- `gcloud beta backup-dr backup-plans describe`
+- `gcloud beta backup-dr backup-plans list`
+- `gcloud beta backup-dr backup-plans update`
+- `gcloud beta backup-dr backup-vaults`
+- `gcloud beta backup-dr backup-vaults create`
+- `gcloud beta backup-dr backup-vaults delete`
+- `gcloud beta backup-dr backup-vaults describe`
+- `gcloud beta backup-dr backup-vaults list`
+- `gcloud beta backup-dr backup-vaults update`
+- `gcloud beta backup-dr backups`
+- `gcloud beta backup-dr backups delete`
+- `gcloud beta backup-dr backups describe`
+- `gcloud beta backup-dr backups fetch-for-resource-type`
+- `gcloud beta backup-dr backups list`
+- `gcloud beta backup-dr backups restore`
+- `gcloud beta backup-dr backups restore compute`
+- `gcloud beta backup-dr backups restore disk`
+- `gcloud beta backup-dr backups update`
+- `gcloud beta backup-dr data-source-references`
+- `gcloud beta backup-dr data-source-references describe`
+- `gcloud beta backup-dr data-source-references fetch-for-resource-type`
+- `gcloud beta backup-dr data-source-references list`
+- `gcloud beta backup-dr data-sources`
+- `gcloud beta backup-dr data-sources describe`
+- `gcloud beta backup-dr data-sources list`
+- `gcloud beta backup-dr locations`
+- `gcloud beta backup-dr locations list`
+- `gcloud beta backup-dr management-servers`
+- `gcloud beta backup-dr management-servers create`
+- `gcloud beta backup-dr management-servers delete`
+- `gcloud beta backup-dr management-servers describe`
+- `gcloud beta backup-dr management-servers list`
+- `gcloud beta backup-dr operations`
+- `gcloud beta backup-dr operations describe`
+- `gcloud beta backup-dr operations list`
+- `gcloud beta backup-dr resource-backup-config`
+- `gcloud beta backup-dr resource-backup-config list`
+- `gcloud beta backup-dr service-config`
+- `gcloud beta backup-dr service-config init`
+
+## batch
+
+- `gcloud beta batch`
+- `gcloud beta batch jobs`
+- `gcloud beta batch jobs cancel`
+- `gcloud beta batch jobs delete`
+- `gcloud beta batch jobs describe`
+- `gcloud beta batch jobs list`
+- `gcloud beta batch jobs submit`
+- `gcloud beta batch tasks`
+- `gcloud beta batch tasks describe`
+- `gcloud beta batch tasks list`
+
+## beyondcorp
+
+- `gcloud beta beyondcorp`
+- `gcloud beta beyondcorp app`
+- `gcloud beta beyondcorp app connections`
+- `gcloud beta beyondcorp app connections create`
+- `gcloud beta beyondcorp app connections delete`
+- `gcloud beta beyondcorp app connections describe`
+- `gcloud beta beyondcorp app connections list`
+- `gcloud beta beyondcorp app connections update`
+- `gcloud beta beyondcorp app connectors`
+- `gcloud beta beyondcorp app connectors create`
+- `gcloud beta beyondcorp app connectors delete`
+- `gcloud beta beyondcorp app connectors describe`
+- `gcloud beta beyondcorp app connectors list`
+- `gcloud beta beyondcorp app connectors update`
+- `gcloud beta beyondcorp app gateways`
+- `gcloud beta beyondcorp app gateways create`
+- `gcloud beta beyondcorp app gateways delete`
+- `gcloud beta beyondcorp app gateways describe`
+- `gcloud beta beyondcorp app gateways list`
+- `gcloud beta beyondcorp app operations`
+- `gcloud beta beyondcorp app operations describe`
+- `gcloud beta beyondcorp app operations list`
+- `gcloud beta beyondcorp client-connector`
+- `gcloud beta beyondcorp client-connector gateways`
+- `gcloud beta beyondcorp client-connector gateways create`
+- `gcloud beta beyondcorp client-connector gateways delete`
+- `gcloud beta beyondcorp client-connector gateways describe`
+- `gcloud beta beyondcorp client-connector gateways get-iam-policy`
+- `gcloud beta beyondcorp client-connector gateways list`
+- `gcloud beta beyondcorp client-connector gateways set-iam-policy`
+- `gcloud beta beyondcorp client-connector operations`
+- `gcloud beta beyondcorp client-connector operations describe`
+- `gcloud beta beyondcorp client-connector operations list`
+- `gcloud beta beyondcorp client-connector services`
+- `gcloud beta beyondcorp client-connector services create`
+- `gcloud beta beyondcorp client-connector services delete`
+- `gcloud beta beyondcorp client-connector services describe`
+- `gcloud beta beyondcorp client-connector services get-iam-policy`
+- `gcloud beta beyondcorp client-connector services list`
+- `gcloud beta beyondcorp client-connector services set-iam-policy`
+- `gcloud beta beyondcorp client-connector services update`
+- `gcloud beta beyondcorp security-gateways`
+- `gcloud beta beyondcorp security-gateways add-iam-policy-binding`
+- `gcloud beta beyondcorp security-gateways applications`
+- `gcloud beta beyondcorp security-gateways applications add-iam-policy-binding`
+- `gcloud beta beyondcorp security-gateways applications create`
+- `gcloud beta beyondcorp security-gateways applications delete`
+- `gcloud beta beyondcorp security-gateways applications describe`
+- `gcloud beta beyondcorp security-gateways applications get-iam-policy`
+- `gcloud beta beyondcorp security-gateways applications list`
+- `gcloud beta beyondcorp security-gateways applications remove-iam-policy-binding`
+- `gcloud beta beyondcorp security-gateways applications set-iam-policy`
+- `gcloud beta beyondcorp security-gateways applications update`
+- `gcloud beta beyondcorp security-gateways create`
+- `gcloud beta beyondcorp security-gateways delete`
+- `gcloud beta beyondcorp security-gateways describe`
+- `gcloud beta beyondcorp security-gateways get-iam-policy`
+- `gcloud beta beyondcorp security-gateways list`
+- `gcloud beta beyondcorp security-gateways remove-iam-policy-binding`
+- `gcloud beta beyondcorp security-gateways set-iam-policy`
+- `gcloud beta beyondcorp security-gateways update`
+
+## biglake
+
+- `gcloud beta biglake`
+- `gcloud beta biglake iceberg`
+- `gcloud beta biglake iceberg catalogs`
+- `gcloud beta biglake iceberg catalogs create`
+- `gcloud beta biglake iceberg catalogs delete`
+- `gcloud beta biglake iceberg catalogs describe`
+- `gcloud beta biglake iceberg catalogs failover`
+- `gcloud beta biglake iceberg catalogs get-iam-policy`
+- `gcloud beta biglake iceberg catalogs list`
+- `gcloud beta biglake iceberg catalogs set-iam-policy`
+- `gcloud beta biglake iceberg catalogs update`
+- `gcloud beta biglake iceberg namespaces`
+- `gcloud beta biglake iceberg namespaces create`
+- `gcloud beta biglake iceberg namespaces delete`
+- `gcloud beta biglake iceberg namespaces describe`
+- `gcloud beta biglake iceberg namespaces get-iam-policy`
+- `gcloud beta biglake iceberg namespaces list`
+- `gcloud beta biglake iceberg namespaces set-iam-policy`
+- `gcloud beta biglake iceberg namespaces update`
+- `gcloud beta biglake iceberg tables`
+- `gcloud beta biglake iceberg tables create`
+- `gcloud beta biglake iceberg tables delete`
+- `gcloud beta biglake iceberg tables describe`
+- `gcloud beta biglake iceberg tables get-iam-policy`
+- `gcloud beta biglake iceberg tables list`
+- `gcloud beta biglake iceberg tables register`
+- `gcloud beta biglake iceberg tables set-iam-policy`
+- `gcloud beta biglake iceberg tables update`
+
+## bigtable
+
+- `gcloud beta bigtable`
+- `gcloud beta bigtable app-profiles`
+- `gcloud beta bigtable app-profiles create`
+- `gcloud beta bigtable app-profiles delete`
+- `gcloud beta bigtable app-profiles describe`
+- `gcloud beta bigtable app-profiles list`
+- `gcloud beta bigtable app-profiles update`
+- `gcloud beta bigtable authorized-views`
+- `gcloud beta bigtable authorized-views add-iam-policy-binding`
+- `gcloud beta bigtable authorized-views create`
+- `gcloud beta bigtable authorized-views delete`
+- `gcloud beta bigtable authorized-views describe`
+- `gcloud beta bigtable authorized-views get-iam-policy`
+- `gcloud beta bigtable authorized-views list`
+- `gcloud beta bigtable authorized-views remove-iam-policy-binding`
+- `gcloud beta bigtable authorized-views set-iam-policy`
+- `gcloud beta bigtable authorized-views update`
+- `gcloud beta bigtable backups`
+- `gcloud beta bigtable backups add-iam-policy-binding`
+- `gcloud beta bigtable backups copy`
+- `gcloud beta bigtable backups create`
+- `gcloud beta bigtable backups delete`
+- `gcloud beta bigtable backups describe`
+- `gcloud beta bigtable backups get-iam-policy`
+- `gcloud beta bigtable backups list`
+- `gcloud beta bigtable backups remove-iam-policy-binding`
+- `gcloud beta bigtable backups set-iam-policy`
+- `gcloud beta bigtable backups update`
+- `gcloud beta bigtable clusters`
+- `gcloud beta bigtable clusters create`
+- `gcloud beta bigtable clusters delete`
+- `gcloud beta bigtable clusters describe`
+- `gcloud beta bigtable clusters list`
+- `gcloud beta bigtable clusters update`
+- `gcloud beta bigtable hot-tablets`
+- `gcloud beta bigtable hot-tablets list`
+- `gcloud beta bigtable instances`
+- `gcloud beta bigtable instances add-iam-policy-binding`
+- `gcloud beta bigtable instances create`
+- `gcloud beta bigtable instances delete`
+- `gcloud beta bigtable instances describe`
+- `gcloud beta bigtable instances get-iam-policy`
+- `gcloud beta bigtable instances list`
+- `gcloud beta bigtable instances remove-iam-policy-binding`
+- `gcloud beta bigtable instances set-iam-policy`
+- `gcloud beta bigtable instances tables`
+- `gcloud beta bigtable instances tables add-iam-policy-binding`
+- `gcloud beta bigtable instances tables create`
+- `gcloud beta bigtable instances tables delete`
+- `gcloud beta bigtable instances tables describe`
+- `gcloud beta bigtable instances tables get-iam-policy`
+- `gcloud beta bigtable instances tables list`
+- `gcloud beta bigtable instances tables remove-iam-policy-binding`
+- `gcloud beta bigtable instances tables restore`
+- `gcloud beta bigtable instances tables set-iam-policy`
+- `gcloud beta bigtable instances tables undelete`
+- `gcloud beta bigtable instances tables update`
+- `gcloud beta bigtable instances update`
+- `gcloud beta bigtable instances upgrade`
+- `gcloud beta bigtable logical-views`
+- `gcloud beta bigtable logical-views create`
+- `gcloud beta bigtable logical-views delete`
+- `gcloud beta bigtable logical-views describe`
+- `gcloud beta bigtable logical-views list`
+- `gcloud beta bigtable logical-views update`
+- `gcloud beta bigtable materialized-views`
+- `gcloud beta bigtable materialized-views create`
+- `gcloud beta bigtable materialized-views delete`
+- `gcloud beta bigtable materialized-views describe`
+- `gcloud beta bigtable materialized-views list`
+- `gcloud beta bigtable materialized-views update`
+- `gcloud beta bigtable memory-layers`
+- `gcloud beta bigtable memory-layers describe`
+- `gcloud beta bigtable memory-layers update`
+- `gcloud beta bigtable operations`
+- `gcloud beta bigtable operations describe`
+- `gcloud beta bigtable operations list`
+- `gcloud beta bigtable schema-bundles`
+- `gcloud beta bigtable schema-bundles add-iam-policy-binding`
+- `gcloud beta bigtable schema-bundles create`
+- `gcloud beta bigtable schema-bundles delete`
+- `gcloud beta bigtable schema-bundles describe`
+- `gcloud beta bigtable schema-bundles get-iam-policy`
+- `gcloud beta bigtable schema-bundles list`
+- `gcloud beta bigtable schema-bundles remove-iam-policy-binding`
+- `gcloud beta bigtable schema-bundles set-iam-policy`
+- `gcloud beta bigtable schema-bundles update`
+- `gcloud beta bigtable tables`
+- `gcloud beta bigtable tables add-iam-policy-binding`
+- `gcloud beta bigtable tables create`
+- `gcloud beta bigtable tables delete`
+- `gcloud beta bigtable tables describe`
+- `gcloud beta bigtable tables get-iam-policy`
+- `gcloud beta bigtable tables list`
+- `gcloud beta bigtable tables remove-iam-policy-binding`
+- `gcloud beta bigtable tables restore`
+- `gcloud beta bigtable tables set-iam-policy`
+- `gcloud beta bigtable tables undelete`
+- `gcloud beta bigtable tables update`
+
+## billing
+
+- `gcloud beta billing`
+- `gcloud beta billing accounts`
+- `gcloud beta billing accounts add-iam-policy-binding`
+- `gcloud beta billing accounts describe`
+- `gcloud beta billing accounts get-iam-policy`
+- `gcloud beta billing accounts list`
+- `gcloud beta billing accounts remove-iam-policy-binding`
+- `gcloud beta billing accounts set-iam-policy`
+- `gcloud beta billing budgets`
+- `gcloud beta billing budgets create`
+- `gcloud beta billing budgets delete`
+- `gcloud beta billing budgets describe`
+- `gcloud beta billing budgets list`
+- `gcloud beta billing budgets update`
+- `gcloud beta billing projects`
+- `gcloud beta billing projects describe`
+- `gcloud beta billing projects link`
+- `gcloud beta billing projects list`
+- `gcloud beta billing projects unlink`
+
+## bq
+
+- `gcloud beta bq`
+- `gcloud beta bq migration-workflows`
+- `gcloud beta bq migration-workflows create`
+- `gcloud beta bq migration-workflows delete`
+- `gcloud beta bq migration-workflows describe`
+- `gcloud beta bq migration-workflows list`
+
+## builds
+
+- `gcloud beta builds`
+- `gcloud beta builds approve`
+- `gcloud beta builds cancel`
+- `gcloud beta builds connections`
+- `gcloud beta builds connections add-iam-policy-binding`
+- `gcloud beta builds connections create`
+- `gcloud beta builds connections create bitbucket-cloud`
+- `gcloud beta builds connections create bitbucket-data-center`
+- `gcloud beta builds connections create github`
+- `gcloud beta builds connections create github-enterprise`
+- `gcloud beta builds connections create gitlab`
+- `gcloud beta builds connections delete`
+- `gcloud beta builds connections describe`
+- `gcloud beta builds connections get-iam-policy`
+- `gcloud beta builds connections list`
+- `gcloud beta builds connections set-iam-policy`
+- `gcloud beta builds connections update`
+- `gcloud beta builds connections update bitbucket-cloud`
+- `gcloud beta builds connections update bitbucket-data-center`
+- `gcloud beta builds connections update github`
+- `gcloud beta builds connections update github-enterprise`
+- `gcloud beta builds connections update gitlab`
+- `gcloud beta builds describe`
+- `gcloud beta builds get-default-service-account`
+- `gcloud beta builds list`
+- `gcloud beta builds log`
+- `gcloud beta builds reject`
+- `gcloud beta builds repositories`
+- `gcloud beta builds repositories create`
+- `gcloud beta builds repositories delete`
+- `gcloud beta builds repositories describe`
+- `gcloud beta builds repositories list`
+- `gcloud beta builds submit`
+- `gcloud beta builds triggers`
+- `gcloud beta builds triggers create`
+- `gcloud beta builds triggers create bitbucket-cloud`
+- `gcloud beta builds triggers create bitbucket-data-center`
+- `gcloud beta builds triggers create bitbucketserver`
+- `gcloud beta builds triggers create cloud-source-repositories`
+- `gcloud beta builds triggers create developer-connect`
+- `gcloud beta builds triggers create github`
+- `gcloud beta builds triggers create gitlab`
+- `gcloud beta builds triggers create manual`
+- `gcloud beta builds triggers create pubsub`
+- `gcloud beta builds triggers create webhook`
+- `gcloud beta builds triggers delete`
+- `gcloud beta builds triggers describe`
+- `gcloud beta builds triggers export`
+- `gcloud beta builds triggers import`
+- `gcloud beta builds triggers list`
+- `gcloud beta builds triggers run`
+- `gcloud beta builds triggers update`
+- `gcloud beta builds triggers update bitbucket-cloud`
+- `gcloud beta builds triggers update bitbucket-data-center`
+- `gcloud beta builds triggers update bitbucketserver`
+- `gcloud beta builds triggers update cloud-source-repositories`
+- `gcloud beta builds triggers update developer-connect`
+- `gcloud beta builds triggers update github`
+- `gcloud beta builds triggers update gitlab`
+- `gcloud beta builds triggers update manual`
+- `gcloud beta builds triggers update pubsub`
+- `gcloud beta builds triggers update webhook`
+- `gcloud beta builds worker-pools`
+- `gcloud beta builds worker-pools create`
+- `gcloud beta builds worker-pools delete`
+- `gcloud beta builds worker-pools describe`
+- `gcloud beta builds worker-pools list`
+- `gcloud beta builds worker-pools update`
+
+## certificate-manager
+
+- `gcloud beta certificate-manager`
+- `gcloud beta certificate-manager certificates`
+- `gcloud beta certificate-manager certificates create`
+- `gcloud beta certificate-manager certificates delete`
+- `gcloud beta certificate-manager certificates describe`
+- `gcloud beta certificate-manager certificates list`
+- `gcloud beta certificate-manager certificates update`
+- `gcloud beta certificate-manager dns-authorizations`
+- `gcloud beta certificate-manager dns-authorizations create`
+- `gcloud beta certificate-manager dns-authorizations delete`
+- `gcloud beta certificate-manager dns-authorizations describe`
+- `gcloud beta certificate-manager dns-authorizations list`
+- `gcloud beta certificate-manager dns-authorizations update`
+- `gcloud beta certificate-manager issuance-configs`
+- `gcloud beta certificate-manager issuance-configs create`
+- `gcloud beta certificate-manager issuance-configs delete`
+- `gcloud beta certificate-manager issuance-configs describe`
+- `gcloud beta certificate-manager issuance-configs list`
+- `gcloud beta certificate-manager issuance-configs update`
+- `gcloud beta certificate-manager maps`
+- `gcloud beta certificate-manager maps create`
+- `gcloud beta certificate-manager maps delete`
+- `gcloud beta certificate-manager maps describe`
+- `gcloud beta certificate-manager maps entries`
+- `gcloud beta certificate-manager maps entries create`
+- `gcloud beta certificate-manager maps entries delete`
+- `gcloud beta certificate-manager maps entries describe`
+- `gcloud beta certificate-manager maps entries list`
+- `gcloud beta certificate-manager maps entries update`
+- `gcloud beta certificate-manager maps list`
+- `gcloud beta certificate-manager maps update`
+- `gcloud beta certificate-manager operations`
+- `gcloud beta certificate-manager operations describe`
+- `gcloud beta certificate-manager operations list`
+- `gcloud beta certificate-manager trust-configs`
+- `gcloud beta certificate-manager trust-configs create`
+- `gcloud beta certificate-manager trust-configs delete`
+- `gcloud beta certificate-manager trust-configs describe`
+- `gcloud beta certificate-manager trust-configs export`
+- `gcloud beta certificate-manager trust-configs import`
+- `gcloud beta certificate-manager trust-configs list`
+- `gcloud beta certificate-manager trust-configs update`
+
+## cloud-shell
+
+- `gcloud beta cloud-shell`
+- `gcloud beta cloud-shell get-mount-command`
+- `gcloud beta cloud-shell scp`
+- `gcloud beta cloud-shell ssh`
+
+## cluster-director
+
+- `gcloud beta cluster-director`
+- `gcloud beta cluster-director clusters`
+- `gcloud beta cluster-director clusters create`
+- `gcloud beta cluster-director clusters delete`
+- `gcloud beta cluster-director clusters describe`
+- `gcloud beta cluster-director clusters list`
+- `gcloud beta cluster-director clusters update`
+- `gcloud beta cluster-director locations`
+- `gcloud beta cluster-director locations describe`
+- `gcloud beta cluster-director locations list`
+- `gcloud beta cluster-director operations`
+- `gcloud beta cluster-director operations describe`
+
+## code
+
+- `gcloud beta code`
+- `gcloud beta code clean-up`
+- `gcloud beta code dev`
+
+## colab
+
+- `gcloud beta colab`
+- `gcloud beta colab executions`
+- `gcloud beta colab executions create`
+- `gcloud beta colab executions delete`
+- `gcloud beta colab executions describe`
+- `gcloud beta colab executions list`
+- `gcloud beta colab runtime-templates`
+- `gcloud beta colab runtime-templates add-iam-policy-binding`
+- `gcloud beta colab runtime-templates create`
+- `gcloud beta colab runtime-templates delete`
+- `gcloud beta colab runtime-templates describe`
+- `gcloud beta colab runtime-templates get-iam-policy`
+- `gcloud beta colab runtime-templates list`
+- `gcloud beta colab runtime-templates remove-iam-policy-binding`
+- `gcloud beta colab runtime-templates set-iam-policy`
+- `gcloud beta colab runtimes`
+- `gcloud beta colab runtimes create`
+- `gcloud beta colab runtimes delete`
+- `gcloud beta colab runtimes describe`
+- `gcloud beta colab runtimes list`
+- `gcloud beta colab runtimes start`
+- `gcloud beta colab runtimes stop`
+- `gcloud beta colab runtimes upgrade`
+- `gcloud beta colab schedules`
+- `gcloud beta colab schedules create`
+- `gcloud beta colab schedules delete`
+- `gcloud beta colab schedules describe`
+- `gcloud beta colab schedules list`
+- `gcloud beta colab schedules pause`
+- `gcloud beta colab schedules resume`
+- `gcloud beta colab schedules update`
+
+## composer
+
+- `gcloud beta composer`
+- `gcloud beta composer environments`
+- `gcloud beta composer environments check-upgrade`
+- `gcloud beta composer environments create`
+- `gcloud beta composer environments database-failover`
+- `gcloud beta composer environments delete`
+- `gcloud beta composer environments describe`
+- `gcloud beta composer environments fetch-database-properties`
+- `gcloud beta composer environments list`
+- `gcloud beta composer environments list-packages`
+- `gcloud beta composer environments list-upgrades`
+- `gcloud beta composer environments list-workloads`
+- `gcloud beta composer environments restart-web-server`
+- `gcloud beta composer environments run`
+- `gcloud beta composer environments snapshots`
+- `gcloud beta composer environments snapshots load`
+- `gcloud beta composer environments snapshots save`
+- `gcloud beta composer environments storage`
+- `gcloud beta composer environments storage dags`
+- `gcloud beta composer environments storage dags delete`
+- `gcloud beta composer environments storage dags export`
+- `gcloud beta composer environments storage dags import`
+- `gcloud beta composer environments storage dags list`
+- `gcloud beta composer environments storage data`
+- `gcloud beta composer environments storage data delete`
+- `gcloud beta composer environments storage data export`
+- `gcloud beta composer environments storage data import`
+- `gcloud beta composer environments storage data list`
+- `gcloud beta composer environments storage plugins`
+- `gcloud beta composer environments storage plugins delete`
+- `gcloud beta composer environments storage plugins export`
+- `gcloud beta composer environments storage plugins import`
+- `gcloud beta composer environments storage plugins list`
+- `gcloud beta composer environments update`
+- `gcloud beta composer environments user-workloads-config-maps`
+- `gcloud beta composer environments user-workloads-config-maps create`
+- `gcloud beta composer environments user-workloads-config-maps delete`
+- `gcloud beta composer environments user-workloads-config-maps describe`
+- `gcloud beta composer environments user-workloads-config-maps list`
+- `gcloud beta composer environments user-workloads-config-maps update`
+- `gcloud beta composer environments user-workloads-secrets`
+- `gcloud beta composer environments user-workloads-secrets create`
+- `gcloud beta composer environments user-workloads-secrets delete`
+- `gcloud beta composer environments user-workloads-secrets describe`
+- `gcloud beta composer environments user-workloads-secrets list`
+- `gcloud beta composer environments user-workloads-secrets update`
+- `gcloud beta composer operations`
+- `gcloud beta composer operations delete`
+- `gcloud beta composer operations describe`
+- `gcloud beta composer operations list`
+- `gcloud beta composer operations wait`
+
+## compute
+
+- `gcloud beta compute`
+- `gcloud beta compute accelerator-types`
+- `gcloud beta compute accelerator-types describe`
+- `gcloud beta compute accelerator-types list`
+- `gcloud beta compute addresses`
+- `gcloud beta compute addresses create`
+- `gcloud beta compute addresses delete`
+- `gcloud beta compute addresses describe`
+- `gcloud beta compute addresses list`
+- `gcloud beta compute addresses move`
+- `gcloud beta compute addresses update`
+- `gcloud beta compute advice`
+- `gcloud beta compute advice calendar-mode`
+- `gcloud beta compute backend-buckets`
+- `gcloud beta compute backend-buckets add-iam-policy-binding`
+- `gcloud beta compute backend-buckets add-signed-url-key`
+- `gcloud beta compute backend-buckets create`
+- `gcloud beta compute backend-buckets delete`
+- `gcloud beta compute backend-buckets delete-signed-url-key`
+- `gcloud beta compute backend-buckets describe`
+- `gcloud beta compute backend-buckets get-iam-policy`
+- `gcloud beta compute backend-buckets list`
+- `gcloud beta compute backend-buckets remove-iam-policy-binding`
+- `gcloud beta compute backend-buckets set-iam-policy`
+- `gcloud beta compute backend-buckets update`
+- `gcloud beta compute backend-services`
+- `gcloud beta compute backend-services add-backend`
+- `gcloud beta compute backend-services add-iam-policy-binding`
+- `gcloud beta compute backend-services add-service-bindings`
+- `gcloud beta compute backend-services add-signed-url-key`
+- `gcloud beta compute backend-services create`
+- `gcloud beta compute backend-services delete`
+- `gcloud beta compute backend-services delete-signed-url-key`
+- `gcloud beta compute backend-services describe`
+- `gcloud beta compute backend-services edit`
+- `gcloud beta compute backend-services export`
+- `gcloud beta compute backend-services get-effective-security-policies`
+- `gcloud beta compute backend-services get-health`
+- `gcloud beta compute backend-services get-iam-policy`
+- `gcloud beta compute backend-services import`
+- `gcloud beta compute backend-services list`
+- `gcloud beta compute backend-services list-usable`
+- `gcloud beta compute backend-services remove-backend`
+- `gcloud beta compute backend-services remove-iam-policy-binding`
+- `gcloud beta compute backend-services remove-service-bindings`
+- `gcloud beta compute backend-services set-iam-policy`
+- `gcloud beta compute backend-services update`
+- `gcloud beta compute backend-services update-backend`
+- `gcloud beta compute commitments`
+- `gcloud beta compute commitments create`
+- `gcloud beta compute commitments create-license`
+- `gcloud beta compute commitments describe`
+- `gcloud beta compute commitments list`
+- `gcloud beta compute commitments update`
+- `gcloud beta compute commitments update-reservations`
+- `gcloud beta compute composite-health-checks`
+- `gcloud beta compute composite-health-checks create`
+- `gcloud beta compute composite-health-checks delete`
+- `gcloud beta compute composite-health-checks describe`
+- `gcloud beta compute composite-health-checks get-health`
+- `gcloud beta compute composite-health-checks list`
+- `gcloud beta compute composite-health-checks update`
+- `gcloud beta compute config-ssh`
+- `gcloud beta compute connect-to-serial-port`
+- `gcloud beta compute copy-files`
+- `gcloud beta compute diagnose`
+- `gcloud beta compute diagnose export-logs`
+- `gcloud beta compute diagnose routes`
+- `gcloud beta compute disk-settings`
+- `gcloud beta compute disk-settings describe`
+- `gcloud beta compute disk-settings update`
+- `gcloud beta compute disk-types`
+- `gcloud beta compute disk-types describe`
+- `gcloud beta compute disk-types list`
+- `gcloud beta compute disks`
+- `gcloud beta compute disks add-iam-policy-binding`
+- `gcloud beta compute disks add-labels`
+- `gcloud beta compute disks add-resource-policies`
+- `gcloud beta compute disks bulk`
+- `gcloud beta compute disks bulk create`
+- `gcloud beta compute disks convert`
+- `gcloud beta compute disks create`
+- `gcloud beta compute disks delete`
+- `gcloud beta compute disks describe`
+- `gcloud beta compute disks get-iam-policy`
+- `gcloud beta compute disks list`
+- `gcloud beta compute disks move`
+- `gcloud beta compute disks remove-iam-policy-binding`
+- `gcloud beta compute disks remove-labels`
+- `gcloud beta compute disks remove-resource-policies`
+- `gcloud beta compute disks resize`
+- `gcloud beta compute disks set-iam-policy`
+- `gcloud beta compute disks snapshot`
+- `gcloud beta compute disks start-async-replication`
+- `gcloud beta compute disks stop-async-replication`
+- `gcloud beta compute disks stop-group-async-replication`
+- `gcloud beta compute disks update`
+- `gcloud beta compute disks update-kms-key`
+- `gcloud beta compute external-vpn-gateways`
+- `gcloud beta compute external-vpn-gateways create`
+- `gcloud beta compute external-vpn-gateways delete`
+- `gcloud beta compute external-vpn-gateways describe`
+- `gcloud beta compute external-vpn-gateways list`
+- `gcloud beta compute external-vpn-gateways update`
+- `gcloud beta compute firewall-policies`
+- `gcloud beta compute firewall-policies associations`
+- `gcloud beta compute firewall-policies associations create`
+- `gcloud beta compute firewall-policies associations delete`
+- `gcloud beta compute firewall-policies associations list`
+- `gcloud beta compute firewall-policies clone-rules`
+- `gcloud beta compute firewall-policies create`
+- `gcloud beta compute firewall-policies delete`
+- `gcloud beta compute firewall-policies describe`
+- `gcloud beta compute firewall-policies export-rules`
+- `gcloud beta compute firewall-policies import-rules`
+- `gcloud beta compute firewall-policies list`
+- `gcloud beta compute firewall-policies list-rules`
+- `gcloud beta compute firewall-policies mirroring-rules`
+- `gcloud beta compute firewall-policies mirroring-rules create`
+- `gcloud beta compute firewall-policies mirroring-rules delete`
+- `gcloud beta compute firewall-policies mirroring-rules describe`
+- `gcloud beta compute firewall-policies mirroring-rules update`
+- `gcloud beta compute firewall-policies move`
+- `gcloud beta compute firewall-policies rules`
+- `gcloud beta compute firewall-policies rules create`
+- `gcloud beta compute firewall-policies rules delete`
+- `gcloud beta compute firewall-policies rules describe`
+- `gcloud beta compute firewall-policies rules update`
+- `gcloud beta compute firewall-policies update`
+- `gcloud beta compute firewall-rules`
+- `gcloud beta compute firewall-rules create`
+- `gcloud beta compute firewall-rules delete`
+- `gcloud beta compute firewall-rules describe`
+- `gcloud beta compute firewall-rules list`
+- `gcloud beta compute firewall-rules migrate`
+- `gcloud beta compute firewall-rules update`
+- `gcloud beta compute forwarding-rules`
+- `gcloud beta compute forwarding-rules create`
+- `gcloud beta compute forwarding-rules delete`
+- `gcloud beta compute forwarding-rules describe`
+- `gcloud beta compute forwarding-rules export`
+- `gcloud beta compute forwarding-rules import`
+- `gcloud beta compute forwarding-rules list`
+- `gcloud beta compute forwarding-rules set-target`
+- `gcloud beta compute forwarding-rules update`
+- `gcloud beta compute future-reservations`
+- `gcloud beta compute future-reservations cancel`
+- `gcloud beta compute future-reservations create`
+- `gcloud beta compute future-reservations delete`
+- `gcloud beta compute future-reservations describe`
+- `gcloud beta compute future-reservations list`
+- `gcloud beta compute future-reservations update`
+- `gcloud beta compute global-vm-extension-policies`
+- `gcloud beta compute global-vm-extension-policies create`
+- `gcloud beta compute global-vm-extension-policies delete`
+- `gcloud beta compute global-vm-extension-policies describe`
+- `gcloud beta compute global-vm-extension-policies list`
+- `gcloud beta compute global-vm-extension-policies update`
+- `gcloud beta compute health-aggregation-policies`
+- `gcloud beta compute health-aggregation-policies create`
+- `gcloud beta compute health-aggregation-policies delete`
+- `gcloud beta compute health-aggregation-policies describe`
+- `gcloud beta compute health-aggregation-policies list`
+- `gcloud beta compute health-aggregation-policies update`
+- `gcloud beta compute health-checks`
+- `gcloud beta compute health-checks create`
+- `gcloud beta compute health-checks create grpc`
+- `gcloud beta compute health-checks create grpc-with-tls`
+- `gcloud beta compute health-checks create http`
+- `gcloud beta compute health-checks create http2`
+- `gcloud beta compute health-checks create https`
+- `gcloud beta compute health-checks create ssl`
+- `gcloud beta compute health-checks create tcp`
+- `gcloud beta compute health-checks delete`
+- `gcloud beta compute health-checks describe`
+- `gcloud beta compute health-checks list`
+- `gcloud beta compute health-checks update`
+- `gcloud beta compute health-checks update grpc`
+- `gcloud beta compute health-checks update grpc-with-tls`
+- `gcloud beta compute health-checks update http`
+- `gcloud beta compute health-checks update http2`
+- `gcloud beta compute health-checks update https`
+- `gcloud beta compute health-checks update ssl`
+- `gcloud beta compute health-checks update tcp`
+- `gcloud beta compute health-sources`
+- `gcloud beta compute health-sources create`
+- `gcloud beta compute health-sources delete`
+- `gcloud beta compute health-sources describe`
+- `gcloud beta compute health-sources get-health`
+- `gcloud beta compute health-sources list`
+- `gcloud beta compute health-sources update`
+- `gcloud beta compute http-health-checks`
+- `gcloud beta compute http-health-checks create`
+- `gcloud beta compute http-health-checks delete`
+- `gcloud beta compute http-health-checks describe`
+- `gcloud beta compute http-health-checks list`
+- `gcloud beta compute http-health-checks update`
+- `gcloud beta compute https-health-checks`
+- `gcloud beta compute https-health-checks create`
+- `gcloud beta compute https-health-checks delete`
+- `gcloud beta compute https-health-checks describe`
+- `gcloud beta compute https-health-checks list`
+- `gcloud beta compute https-health-checks update`
+- `gcloud beta compute images`
+- `gcloud beta compute images add-iam-policy-binding`
+- `gcloud beta compute images add-labels`
+- `gcloud beta compute images create`
+- `gcloud beta compute images delete`
+- `gcloud beta compute images deprecate`
+- `gcloud beta compute images describe`
+- `gcloud beta compute images describe-from-family`
+- `gcloud beta compute images export`
+- `gcloud beta compute images get-iam-policy`
+- `gcloud beta compute images import`
+- `gcloud beta compute images list`
+- `gcloud beta compute images remove-iam-policy-binding`
+- `gcloud beta compute images remove-labels`
+- `gcloud beta compute images set-iam-policy`
+- `gcloud beta compute images update`
+- `gcloud beta compute instance-groups`
+- `gcloud beta compute instance-groups describe`
+- `gcloud beta compute instance-groups get-named-ports`
+- `gcloud beta compute instance-groups list`
+- `gcloud beta compute instance-groups list-instances`
+- `gcloud beta compute instance-groups managed`
+- `gcloud beta compute instance-groups managed abandon-instances`
+- `gcloud beta compute instance-groups managed all-instances-config`
+- `gcloud beta compute instance-groups managed all-instances-config delete`
+- `gcloud beta compute instance-groups managed all-instances-config update`
+- `gcloud beta compute instance-groups managed create`
+- `gcloud beta compute instance-groups managed create-instance`
+- `gcloud beta compute instance-groups managed delete`
+- `gcloud beta compute instance-groups managed delete-instances`
+- `gcloud beta compute instance-groups managed describe`
+- `gcloud beta compute instance-groups managed describe-instance`
+- `gcloud beta compute instance-groups managed export-autoscaling`
+- `gcloud beta compute instance-groups managed get-named-ports`
+- `gcloud beta compute instance-groups managed instance-configs`
+- `gcloud beta compute instance-groups managed instance-configs create`
+- `gcloud beta compute instance-groups managed instance-configs delete`
+- `gcloud beta compute instance-groups managed instance-configs list`
+- `gcloud beta compute instance-groups managed instance-configs update`
+- `gcloud beta compute instance-groups managed list`
+- `gcloud beta compute instance-groups managed list-errors`
+- `gcloud beta compute instance-groups managed list-instances`
+- `gcloud beta compute instance-groups managed recreate-instances`
+- `gcloud beta compute instance-groups managed resize`
+- `gcloud beta compute instance-groups managed resize-requests`
+- `gcloud beta compute instance-groups managed resize-requests cancel`
+- `gcloud beta compute instance-groups managed resize-requests create`
+- `gcloud beta compute instance-groups managed resize-requests delete`
+- `gcloud beta compute instance-groups managed resize-requests describe`
+- `gcloud beta compute instance-groups managed resize-requests list`
+- `gcloud beta compute instance-groups managed resume-instances`
+- `gcloud beta compute instance-groups managed rolling-action`
+- `gcloud beta compute instance-groups managed rolling-action replace`
+- `gcloud beta compute instance-groups managed rolling-action restart`
+- `gcloud beta compute instance-groups managed rolling-action start-update`
+- `gcloud beta compute instance-groups managed rolling-action stop-proactive-update`
+- `gcloud beta compute instance-groups managed set-autohealing`
+- `gcloud beta compute instance-groups managed set-autoscaling`
+- `gcloud beta compute instance-groups managed set-instance-template`
+- `gcloud beta compute instance-groups managed set-named-ports`
+- `gcloud beta compute instance-groups managed set-target-pools`
+- `gcloud beta compute instance-groups managed start-instances`
+- `gcloud beta compute instance-groups managed stop-autoscaling`
+- `gcloud beta compute instance-groups managed stop-instances`
+- `gcloud beta compute instance-groups managed suspend-instances`
+- `gcloud beta compute instance-groups managed update`
+- `gcloud beta compute instance-groups managed update-autoscaling`
+- `gcloud beta compute instance-groups managed update-instances`
+- `gcloud beta compute instance-groups managed wait-until`
+- `gcloud beta compute instance-groups managed wait-until-stable`
+- `gcloud beta compute instance-groups set-named-ports`
+- `gcloud beta compute instance-groups unmanaged`
+- `gcloud beta compute instance-groups unmanaged add-instances`
+- `gcloud beta compute instance-groups unmanaged create`
+- `gcloud beta compute instance-groups unmanaged delete`
+- `gcloud beta compute instance-groups unmanaged describe`
+- `gcloud beta compute instance-groups unmanaged get-named-ports`
+- `gcloud beta compute instance-groups unmanaged list`
+- `gcloud beta compute instance-groups unmanaged list-instances`
+- `gcloud beta compute instance-groups unmanaged remove-instances`
+- `gcloud beta compute instance-groups unmanaged set-named-ports`
+- `gcloud beta compute instance-templates`
+- `gcloud beta compute instance-templates add-iam-policy-binding`
+- `gcloud beta compute instance-templates create`
+- `gcloud beta compute instance-templates create-with-container`
+- `gcloud beta compute instance-templates delete`
+- `gcloud beta compute instance-templates describe`
+- `gcloud beta compute instance-templates get-iam-policy`
+- `gcloud beta compute instance-templates list`
+- `gcloud beta compute instance-templates remove-iam-policy-binding`
+- `gcloud beta compute instance-templates set-iam-policy`
+- `gcloud beta compute instances`
+- `gcloud beta compute instances add-access-config`
+- `gcloud beta compute instances add-iam-policy-binding`
+- `gcloud beta compute instances add-labels`
+- `gcloud beta compute instances add-metadata`
+- `gcloud beta compute instances add-partner-metadata`
+- `gcloud beta compute instances add-resource-policies`
+- `gcloud beta compute instances add-tags`
+- `gcloud beta compute instances attach-disk`
+- `gcloud beta compute instances bulk`
+- `gcloud beta compute instances bulk create`
+- `gcloud beta compute instances create`
+- `gcloud beta compute instances create-with-container`
+- `gcloud beta compute instances delete`
+- `gcloud beta compute instances delete-access-config`
+- `gcloud beta compute instances describe`
+- `gcloud beta compute instances detach-disk`
+- `gcloud beta compute instances export`
+- `gcloud beta compute instances get-guest-attributes`
+- `gcloud beta compute instances get-iam-policy`
+- `gcloud beta compute instances get-screenshot`
+- `gcloud beta compute instances get-serial-port-output`
+- `gcloud beta compute instances get-shielded-identity`
+- `gcloud beta compute instances import`
+- `gcloud beta compute instances list`
+- `gcloud beta compute instances network-interfaces`
+- `gcloud beta compute instances network-interfaces add`
+- `gcloud beta compute instances network-interfaces delete`
+- `gcloud beta compute instances network-interfaces get-effective-firewalls`
+- `gcloud beta compute instances network-interfaces update`
+- `gcloud beta compute instances ops-agents`
+- `gcloud beta compute instances ops-agents policies`
+- `gcloud beta compute instances ops-agents policies create`
+- `gcloud beta compute instances ops-agents policies delete`
+- `gcloud beta compute instances ops-agents policies describe`
+- `gcloud beta compute instances ops-agents policies list`
+- `gcloud beta compute instances ops-agents policies update`
+- `gcloud beta compute instances os-inventory`
+- `gcloud beta compute instances os-inventory describe`
+- `gcloud beta compute instances os-inventory list-instances`
+- `gcloud beta compute instances patch-partner-metadata`
+- `gcloud beta compute instances perform-maintenance`
+- `gcloud beta compute instances remove-iam-policy-binding`
+- `gcloud beta compute instances remove-labels`
+- `gcloud beta compute instances remove-metadata`
+- `gcloud beta compute instances remove-partner-metadata`
+- `gcloud beta compute instances remove-resource-policies`
+- `gcloud beta compute instances remove-tags`
+- `gcloud beta compute instances report-host-as-faulty`
+- `gcloud beta compute instances reset`
+- `gcloud beta compute instances resume`
+- `gcloud beta compute instances send-diagnostic-interrupt`
+- `gcloud beta compute instances set-disk-auto-delete`
+- `gcloud beta compute instances set-iam-policy`
+- `gcloud beta compute instances set-machine-type`
+- `gcloud beta compute instances set-name`
+- `gcloud beta compute instances set-scheduling`
+- `gcloud beta compute instances set-scopes`
+- `gcloud beta compute instances simulate-maintenance-event`
+- `gcloud beta compute instances start`
+- `gcloud beta compute instances stop`
+- `gcloud beta compute instances suspend`
+- `gcloud beta compute instances tail-serial-port-output`
+- `gcloud beta compute instances update`
+- `gcloud beta compute instances update-access-config`
+- `gcloud beta compute instances update-container`
+- `gcloud beta compute instances update-from-file`
+- `gcloud beta compute instant-snapshot-groups`
+- `gcloud beta compute instant-snapshot-groups create`
+- `gcloud beta compute instant-snapshot-groups delete`
+- `gcloud beta compute instant-snapshot-groups describe`
+- `gcloud beta compute instant-snapshot-groups list`
+- `gcloud beta compute instant-snapshots`
+- `gcloud beta compute instant-snapshots add-labels`
+- `gcloud beta compute instant-snapshots create`
+- `gcloud beta compute instant-snapshots delete`
+- `gcloud beta compute instant-snapshots describe`
+- `gcloud beta compute instant-snapshots list`
+- `gcloud beta compute interconnects`
+- `gcloud beta compute interconnects application-awareness`
+- `gcloud beta compute interconnects application-awareness configure-bandwidth-percentage-policy`
+- `gcloud beta compute interconnects application-awareness configure-shaper-average-percentage`
+- `gcloud beta compute interconnects application-awareness configure-strict-priority-policy`
+- `gcloud beta compute interconnects application-awareness delete`
+- `gcloud beta compute interconnects application-awareness get-config`
+- `gcloud beta compute interconnects application-awareness update`
+- `gcloud beta compute interconnects attachments`
+- `gcloud beta compute interconnects attachments dedicated`
+- `gcloud beta compute interconnects attachments dedicated create`
+- `gcloud beta compute interconnects attachments dedicated update`
+- `gcloud beta compute interconnects attachments delete`
+- `gcloud beta compute interconnects attachments describe`
+- `gcloud beta compute interconnects attachments groups`
+- `gcloud beta compute interconnects attachments groups add-members`
+- `gcloud beta compute interconnects attachments groups create`
+- `gcloud beta compute interconnects attachments groups delete`
+- `gcloud beta compute interconnects attachments groups describe`
+- `gcloud beta compute interconnects attachments groups get-operational-status`
+- `gcloud beta compute interconnects attachments groups list`
+- `gcloud beta compute interconnects attachments groups remove-members`
+- `gcloud beta compute interconnects attachments groups update`
+- `gcloud beta compute interconnects attachments l2-forwarding`
+- `gcloud beta compute interconnects attachments l2-forwarding add-mapping`
+- `gcloud beta compute interconnects attachments l2-forwarding create`
+- `gcloud beta compute interconnects attachments l2-forwarding describe-mapping`
+- `gcloud beta compute interconnects attachments l2-forwarding list-mapping`
+- `gcloud beta compute interconnects attachments l2-forwarding remove-mapping`
+- `gcloud beta compute interconnects attachments l2-forwarding update`
+- `gcloud beta compute interconnects attachments l2-forwarding update-mapping`
+- `gcloud beta compute interconnects attachments list`
+- `gcloud beta compute interconnects attachments partner`
+- `gcloud beta compute interconnects attachments partner create`
+- `gcloud beta compute interconnects attachments partner update`
+- `gcloud beta compute interconnects create`
+- `gcloud beta compute interconnects cross-site-networks`
+- `gcloud beta compute interconnects cross-site-networks create`
+- `gcloud beta compute interconnects cross-site-networks delete`
+- `gcloud beta compute interconnects cross-site-networks describe`
+- `gcloud beta compute interconnects cross-site-networks list`
+- `gcloud beta compute interconnects cross-site-networks update`
+- `gcloud beta compute interconnects delete`
+- `gcloud beta compute interconnects describe`
+- `gcloud beta compute interconnects get-diagnostics`
+- `gcloud beta compute interconnects groups`
+- `gcloud beta compute interconnects groups add-members`
+- `gcloud beta compute interconnects groups create`
+- `gcloud beta compute interconnects groups create-members`
+- `gcloud beta compute interconnects groups delete`
+- `gcloud beta compute interconnects groups describe`
+- `gcloud beta compute interconnects groups get-operational-status`
+- `gcloud beta compute interconnects groups list`
+- `gcloud beta compute interconnects groups remove-members`
+- `gcloud beta compute interconnects groups update`
+- `gcloud beta compute interconnects list`
+- `gcloud beta compute interconnects locations`
+- `gcloud beta compute interconnects locations describe`
+- `gcloud beta compute interconnects locations list`
+- `gcloud beta compute interconnects macsec`
+- `gcloud beta compute interconnects macsec add-key`
+- `gcloud beta compute interconnects macsec get-config`
+- `gcloud beta compute interconnects macsec remove-key`
+- `gcloud beta compute interconnects macsec update`
+- `gcloud beta compute interconnects macsec update-key`
+- `gcloud beta compute interconnects remote-locations`
+- `gcloud beta compute interconnects remote-locations describe`
+- `gcloud beta compute interconnects remote-locations list`
+- `gcloud beta compute interconnects update`
+- `gcloud beta compute interconnects wire-groups`
+- `gcloud beta compute interconnects wire-groups add-endpoint`
+- `gcloud beta compute interconnects wire-groups add-interconnect`
+- `gcloud beta compute interconnects wire-groups create`
+- `gcloud beta compute interconnects wire-groups delete`
+- `gcloud beta compute interconnects wire-groups describe`
+- `gcloud beta compute interconnects wire-groups list`
+- `gcloud beta compute interconnects wire-groups remove-endpoint`
+- `gcloud beta compute interconnects wire-groups remove-interconnect`
+- `gcloud beta compute interconnects wire-groups update`
+- `gcloud beta compute machine-images`
+- `gcloud beta compute machine-images add-iam-policy-binding`
+- `gcloud beta compute machine-images create`
+- `gcloud beta compute machine-images delete`
+- `gcloud beta compute machine-images describe`
+- `gcloud beta compute machine-images get-iam-policy`
+- `gcloud beta compute machine-images import`
+- `gcloud beta compute machine-images list`
+- `gcloud beta compute machine-images remove-iam-policy-binding`
+- `gcloud beta compute machine-images set-iam-policy`
+- `gcloud beta compute machine-types`
+- `gcloud beta compute machine-types describe`
+- `gcloud beta compute machine-types list`
+- `gcloud beta compute network-attachments`
+- `gcloud beta compute network-attachments create`
+- `gcloud beta compute network-attachments delete`
+- `gcloud beta compute network-attachments describe`
+- `gcloud beta compute network-attachments list`
+- `gcloud beta compute network-attachments update`
+- `gcloud beta compute network-edge-security-services`
+- `gcloud beta compute network-edge-security-services create`
+- `gcloud beta compute network-edge-security-services delete`
+- `gcloud beta compute network-edge-security-services describe`
+- `gcloud beta compute network-edge-security-services list`
+- `gcloud beta compute network-edge-security-services update`
+- `gcloud beta compute network-endpoint-groups`
+- `gcloud beta compute network-endpoint-groups create`
+- `gcloud beta compute network-endpoint-groups delete`
+- `gcloud beta compute network-endpoint-groups describe`
+- `gcloud beta compute network-endpoint-groups list`
+- `gcloud beta compute network-endpoint-groups list-network-endpoints`
+- `gcloud beta compute network-endpoint-groups update`
+- `gcloud beta compute network-firewall-policies`
+- `gcloud beta compute network-firewall-policies associations`
+- `gcloud beta compute network-firewall-policies associations create`
+- `gcloud beta compute network-firewall-policies associations delete`
+- `gcloud beta compute network-firewall-policies clone-rules`
+- `gcloud beta compute network-firewall-policies create`
+- `gcloud beta compute network-firewall-policies delete`
+- `gcloud beta compute network-firewall-policies describe`
+- `gcloud beta compute network-firewall-policies export-rules`
+- `gcloud beta compute network-firewall-policies get-effective-firewalls`
+- `gcloud beta compute network-firewall-policies import-rules`
+- `gcloud beta compute network-firewall-policies list`
+- `gcloud beta compute network-firewall-policies mirroring-rules`
+- `gcloud beta compute network-firewall-policies mirroring-rules create`
+- `gcloud beta compute network-firewall-policies mirroring-rules delete`
+- `gcloud beta compute network-firewall-policies mirroring-rules describe`
+- `gcloud beta compute network-firewall-policies mirroring-rules update`
+- `gcloud beta compute network-firewall-policies rules`
+- `gcloud beta compute network-firewall-policies rules create`
+- `gcloud beta compute network-firewall-policies rules delete`
+- `gcloud beta compute network-firewall-policies rules describe`
+- `gcloud beta compute network-firewall-policies rules update`
+- `gcloud beta compute network-firewall-policies update`
+- `gcloud beta compute network-policies`
+- `gcloud beta compute network-policies associations`
+- `gcloud beta compute network-policies associations create`
+- `gcloud beta compute network-policies associations delete`
+- `gcloud beta compute network-policies associations describe`
+- `gcloud beta compute network-policies create`
+- `gcloud beta compute network-policies delete`
+- `gcloud beta compute network-policies describe`
+- `gcloud beta compute network-policies list`
+- `gcloud beta compute network-policies traffic-classification-rules`
+- `gcloud beta compute network-policies traffic-classification-rules create`
+- `gcloud beta compute network-policies traffic-classification-rules delete`
+- `gcloud beta compute network-policies traffic-classification-rules describe`
+- `gcloud beta compute network-policies traffic-classification-rules update`
+- `gcloud beta compute network-policies update`
+- `gcloud beta compute network-profiles`
+- `gcloud beta compute network-profiles describe`
+- `gcloud beta compute network-profiles list`
+- `gcloud beta compute networks`
+- `gcloud beta compute networks create`
+- `gcloud beta compute networks delete`
+- `gcloud beta compute networks describe`
+- `gcloud beta compute networks get-effective-firewalls`
+- `gcloud beta compute networks list`
+- `gcloud beta compute networks peerings`
+- `gcloud beta compute networks peerings cancel-request-delete`
+- `gcloud beta compute networks peerings create`
+- `gcloud beta compute networks peerings delete`
+- `gcloud beta compute networks peerings list`
+- `gcloud beta compute networks peerings list-routes`
+- `gcloud beta compute networks peerings request-delete`
+- `gcloud beta compute networks peerings update`
+- `gcloud beta compute networks subnets`
+- `gcloud beta compute networks subnets add-iam-policy-binding`
+- `gcloud beta compute networks subnets create`
+- `gcloud beta compute networks subnets delete`
+- `gcloud beta compute networks subnets describe`
+- `gcloud beta compute networks subnets expand-ip-range`
+- `gcloud beta compute networks subnets get-iam-policy`
+- `gcloud beta compute networks subnets list`
+- `gcloud beta compute networks subnets list-usable`
+- `gcloud beta compute networks subnets remove-iam-policy-binding`
+- `gcloud beta compute networks subnets set-iam-policy`
+- `gcloud beta compute networks subnets update`
+- `gcloud beta compute networks update`
+- `gcloud beta compute networks vpc-access`
+- `gcloud beta compute networks vpc-access connectors`
+- `gcloud beta compute networks vpc-access connectors create`
+- `gcloud beta compute networks vpc-access connectors delete`
+- `gcloud beta compute networks vpc-access connectors describe`
+- `gcloud beta compute networks vpc-access connectors list`
+- `gcloud beta compute networks vpc-access connectors update`
+- `gcloud beta compute networks vpc-access locations`
+- `gcloud beta compute networks vpc-access locations list`
+- `gcloud beta compute networks vpc-access operations`
+- `gcloud beta compute networks vpc-access operations describe`
+- `gcloud beta compute networks vpc-access operations list`
+- `gcloud beta compute operations`
+- `gcloud beta compute operations describe`
+- `gcloud beta compute operations list`
+- `gcloud beta compute org-security-policies`
+- `gcloud beta compute org-security-policies associations`
+- `gcloud beta compute org-security-policies associations create`
+- `gcloud beta compute org-security-policies associations delete`
+- `gcloud beta compute org-security-policies associations list`
+- `gcloud beta compute org-security-policies copy-rules`
+- `gcloud beta compute org-security-policies create`
+- `gcloud beta compute org-security-policies delete`
+- `gcloud beta compute org-security-policies describe`
+- `gcloud beta compute org-security-policies list`
+- `gcloud beta compute org-security-policies list-rules`
+- `gcloud beta compute org-security-policies move`
+- `gcloud beta compute org-security-policies rules`
+- `gcloud beta compute org-security-policies rules add-preconfig-waf-exclusion`
+- `gcloud beta compute org-security-policies rules create`
+- `gcloud beta compute org-security-policies rules delete`
+- `gcloud beta compute org-security-policies rules describe`
+- `gcloud beta compute org-security-policies rules remove-preconfig-waf-exclusion`
+- `gcloud beta compute org-security-policies rules update`
+- `gcloud beta compute org-security-policies update`
+- `gcloud beta compute os-config`
+- `gcloud beta compute os-config guest-policies`
+- `gcloud beta compute os-config guest-policies create`
+- `gcloud beta compute os-config guest-policies delete`
+- `gcloud beta compute os-config guest-policies describe`
+- `gcloud beta compute os-config guest-policies list`
+- `gcloud beta compute os-config guest-policies lookup`
+- `gcloud beta compute os-config guest-policies update`
+- `gcloud beta compute os-config os-upgrade`
+- `gcloud beta compute os-config patch-deployments`
+- `gcloud beta compute os-config patch-deployments create`
+- `gcloud beta compute os-config patch-deployments delete`
+- `gcloud beta compute os-config patch-deployments describe`
+- `gcloud beta compute os-config patch-deployments list`
+- `gcloud beta compute os-config patch-deployments pause`
+- `gcloud beta compute os-config patch-deployments resume`
+- `gcloud beta compute os-config patch-deployments update`
+- `gcloud beta compute os-config patch-jobs`
+- `gcloud beta compute os-config patch-jobs cancel`
+- `gcloud beta compute os-config patch-jobs describe`
+- `gcloud beta compute os-config patch-jobs execute`
+- `gcloud beta compute os-config patch-jobs list`
+- `gcloud beta compute os-config patch-jobs list-instance-details`
+- `gcloud beta compute os-config policy-orchestrators`
+- `gcloud beta compute os-config policy-orchestrators create`
+- `gcloud beta compute os-config policy-orchestrators delete`
+- `gcloud beta compute os-config policy-orchestrators describe`
+- `gcloud beta compute os-config policy-orchestrators list`
+- `gcloud beta compute os-config policy-orchestrators update`
+- `gcloud beta compute os-login`
+- `gcloud beta compute os-login describe-profile`
+- `gcloud beta compute os-login remove-profile`
+- `gcloud beta compute os-login ssh-keys`
+- `gcloud beta compute os-login ssh-keys add`
+- `gcloud beta compute os-login ssh-keys describe`
+- `gcloud beta compute os-login ssh-keys list`
+- `gcloud beta compute os-login ssh-keys remove`
+- `gcloud beta compute os-login ssh-keys update`
+- `gcloud beta compute packet-mirrorings`
+- `gcloud beta compute packet-mirrorings create`
+- `gcloud beta compute packet-mirrorings delete`
+- `gcloud beta compute packet-mirrorings describe`
+- `gcloud beta compute packet-mirrorings list`
+- `gcloud beta compute packet-mirrorings update`
+- `gcloud beta compute preview-features`
+- `gcloud beta compute preview-features describe`
+- `gcloud beta compute preview-features list`
+- `gcloud beta compute preview-features update`
+- `gcloud beta compute project-info`
+- `gcloud beta compute project-info add-metadata`
+- `gcloud beta compute project-info describe`
+- `gcloud beta compute project-info remove-metadata`
+- `gcloud beta compute project-info update`
+- `gcloud beta compute project-zonal-metadata`
+- `gcloud beta compute project-zonal-metadata add`
+- `gcloud beta compute project-zonal-metadata describe`
+- `gcloud beta compute project-zonal-metadata remove`
+- `gcloud beta compute public-advertised-prefixes`
+- `gcloud beta compute public-advertised-prefixes create`
+- `gcloud beta compute public-advertised-prefixes delete`
+- `gcloud beta compute public-advertised-prefixes describe`
+- `gcloud beta compute public-advertised-prefixes list`
+- `gcloud beta compute public-advertised-prefixes update`
+- `gcloud beta compute public-delegated-prefixes`
+- `gcloud beta compute public-delegated-prefixes create`
+- `gcloud beta compute public-delegated-prefixes delegated-sub-prefixes`
+- `gcloud beta compute public-delegated-prefixes delegated-sub-prefixes create`
+- `gcloud beta compute public-delegated-prefixes delegated-sub-prefixes delete`
+- `gcloud beta compute public-delegated-prefixes delete`
+- `gcloud beta compute public-delegated-prefixes describe`
+- `gcloud beta compute public-delegated-prefixes list`
+- `gcloud beta compute public-delegated-prefixes update`
+- `gcloud beta compute regions`
+- `gcloud beta compute regions describe`
+- `gcloud beta compute regions list`
+- `gcloud beta compute reservations`
+- `gcloud beta compute reservations add-iam-policy-binding`
+- `gcloud beta compute reservations blocks`
+- `gcloud beta compute reservations blocks describe`
+- `gcloud beta compute reservations blocks list`
+- `gcloud beta compute reservations blocks perform-maintenance`
+- `gcloud beta compute reservations create`
+- `gcloud beta compute reservations delete`
+- `gcloud beta compute reservations describe`
+- `gcloud beta compute reservations get-iam-policy`
+- `gcloud beta compute reservations list`
+- `gcloud beta compute reservations perform-maintenance`
+- `gcloud beta compute reservations remove-iam-policy-binding`
+- `gcloud beta compute reservations set-iam-policy`
+- `gcloud beta compute reservations slots`
+- `gcloud beta compute reservations slots describe`
+- `gcloud beta compute reservations slots get-version`
+- `gcloud beta compute reservations slots list`
+- `gcloud beta compute reservations sub-blocks`
+- `gcloud beta compute reservations sub-blocks describe`
+- `gcloud beta compute reservations sub-blocks get-version`
+- `gcloud beta compute reservations sub-blocks list`
+- `gcloud beta compute reservations sub-blocks perform-maintenance`
+- `gcloud beta compute reservations sub-blocks report-subblock-as-faulty`
+- `gcloud beta compute reservations update`
+- `gcloud beta compute reset-windows-password`
+- `gcloud beta compute resource-policies`
+- `gcloud beta compute resource-policies create`
+- `gcloud beta compute resource-policies create disk-consistency-group`
+- `gcloud beta compute resource-policies create group-placement`
+- `gcloud beta compute resource-policies create instance-schedule`
+- `gcloud beta compute resource-policies create snapshot-schedule`
+- `gcloud beta compute resource-policies create workload-policy`
+- `gcloud beta compute resource-policies create-snapshot-schedule`
+- `gcloud beta compute resource-policies delete`
+- `gcloud beta compute resource-policies describe`
+- `gcloud beta compute resource-policies get-iam-policy`
+- `gcloud beta compute resource-policies list`
+- `gcloud beta compute resource-policies set-iam-policy`
+- `gcloud beta compute resource-policies update`
+- `gcloud beta compute resource-policies update instance-schedule`
+- `gcloud beta compute resource-policies update snapshot-schedule`
+- `gcloud beta compute rollout-plans`
+- `gcloud beta compute rollout-plans create`
+- `gcloud beta compute rollout-plans delete`
+- `gcloud beta compute rollout-plans describe`
+- `gcloud beta compute rollout-plans list`
+- `gcloud beta compute rollouts`
+- `gcloud beta compute rollouts cancel`
+- `gcloud beta compute rollouts delete`
+- `gcloud beta compute rollouts describe`
+- `gcloud beta compute rollouts list`
+- `gcloud beta compute routers`
+- `gcloud beta compute routers add-bgp-peer`
+- `gcloud beta compute routers add-interface`
+- `gcloud beta compute routers add-named-set`
+- `gcloud beta compute routers add-named-set-element`
+- `gcloud beta compute routers add-route-policy`
+- `gcloud beta compute routers add-route-policy-term`
+- `gcloud beta compute routers create`
+- `gcloud beta compute routers delete`
+- `gcloud beta compute routers describe`
+- `gcloud beta compute routers download-named-set`
+- `gcloud beta compute routers download-route-policy`
+- `gcloud beta compute routers get-named-set`
+- `gcloud beta compute routers get-nat-ip-info`
+- `gcloud beta compute routers get-nat-mapping-info`
+- `gcloud beta compute routers get-route-policy`
+- `gcloud beta compute routers get-status`
+- `gcloud beta compute routers list`
+- `gcloud beta compute routers list-bgp-routes`
+- `gcloud beta compute routers list-named-sets`
+- `gcloud beta compute routers list-route-policies`
+- `gcloud beta compute routers nats`
+- `gcloud beta compute routers nats create`
+- `gcloud beta compute routers nats delete`
+- `gcloud beta compute routers nats describe`
+- `gcloud beta compute routers nats list`
+- `gcloud beta compute routers nats rules`
+- `gcloud beta compute routers nats rules create`
+- `gcloud beta compute routers nats rules delete`
+- `gcloud beta compute routers nats rules describe`
+- `gcloud beta compute routers nats rules list`
+- `gcloud beta compute routers nats rules update`
+- `gcloud beta compute routers nats update`
+- `gcloud beta compute routers remove-bgp-peer`
+- `gcloud beta compute routers remove-interface`
+- `gcloud beta compute routers remove-named-set`
+- `gcloud beta compute routers remove-named-set-element`
+- `gcloud beta compute routers remove-route-policy`
+- `gcloud beta compute routers remove-route-policy-term`
+- `gcloud beta compute routers update`
+- `gcloud beta compute routers update-bgp-peer`
+- `gcloud beta compute routers update-interface`
+- `gcloud beta compute routers update-route-policy-term`
+- `gcloud beta compute routers upload-named-set`
+- `gcloud beta compute routers upload-route-policy`
+- `gcloud beta compute routes`
+- `gcloud beta compute routes create`
+- `gcloud beta compute routes delete`
+- `gcloud beta compute routes describe`
+- `gcloud beta compute routes list`
+- `gcloud beta compute scp`
+- `gcloud beta compute security-policies`
+- `gcloud beta compute security-policies add-layer7-ddos-defense-threshold-config`
+- `gcloud beta compute security-policies add-user-defined-field`
+- `gcloud beta compute security-policies create`
+- `gcloud beta compute security-policies delete`
+- `gcloud beta compute security-policies describe`
+- `gcloud beta compute security-policies export`
+- `gcloud beta compute security-policies import`
+- `gcloud beta compute security-policies list`
+- `gcloud beta compute security-policies list-preconfigured-expression-sets`
+- `gcloud beta compute security-policies remove-layer7-ddos-defense-threshold-config`
+- `gcloud beta compute security-policies remove-user-defined-field`
+- `gcloud beta compute security-policies rules`
+- `gcloud beta compute security-policies rules add-preconfig-waf-exclusion`
+- `gcloud beta compute security-policies rules create`
+- `gcloud beta compute security-policies rules delete`
+- `gcloud beta compute security-policies rules describe`
+- `gcloud beta compute security-policies rules remove-preconfig-waf-exclusion`
+- `gcloud beta compute security-policies rules update`
+- `gcloud beta compute security-policies update`
+- `gcloud beta compute service-attachments`
+- `gcloud beta compute service-attachments create`
+- `gcloud beta compute service-attachments delete`
+- `gcloud beta compute service-attachments describe`
+- `gcloud beta compute service-attachments list`
+- `gcloud beta compute service-attachments update`
+- `gcloud beta compute shared-vpc`
+- `gcloud beta compute shared-vpc associated-projects`
+- `gcloud beta compute shared-vpc associated-projects add`
+- `gcloud beta compute shared-vpc associated-projects list`
+- `gcloud beta compute shared-vpc associated-projects remove`
+- `gcloud beta compute shared-vpc disable`
+- `gcloud beta compute shared-vpc enable`
+- `gcloud beta compute shared-vpc get-host-project`
+- `gcloud beta compute shared-vpc list-associated-resources`
+- `gcloud beta compute shared-vpc organizations`
+- `gcloud beta compute shared-vpc organizations list-host-projects`
+- `gcloud beta compute sign-url`
+- `gcloud beta compute snapshot-settings`
+- `gcloud beta compute snapshot-settings describe`
+- `gcloud beta compute snapshot-settings update`
+- `gcloud beta compute snapshots`
+- `gcloud beta compute snapshots add-iam-policy-binding`
+- `gcloud beta compute snapshots add-labels`
+- `gcloud beta compute snapshots create`
+- `gcloud beta compute snapshots delete`
+- `gcloud beta compute snapshots describe`
+- `gcloud beta compute snapshots get-iam-policy`
+- `gcloud beta compute snapshots list`
+- `gcloud beta compute snapshots remove-iam-policy-binding`
+- `gcloud beta compute snapshots remove-labels`
+- `gcloud beta compute snapshots set-iam-policy`
+- `gcloud beta compute snapshots update`
+- `gcloud beta compute snapshots update-kms-key`
+- `gcloud beta compute sole-tenancy`
+- `gcloud beta compute sole-tenancy node-groups`
+- `gcloud beta compute sole-tenancy node-groups add-iam-policy-binding`
+- `gcloud beta compute sole-tenancy node-groups create`
+- `gcloud beta compute sole-tenancy node-groups delete`
+- `gcloud beta compute sole-tenancy node-groups describe`
+- `gcloud beta compute sole-tenancy node-groups get-iam-policy`
+- `gcloud beta compute sole-tenancy node-groups list`
+- `gcloud beta compute sole-tenancy node-groups list-nodes`
+- `gcloud beta compute sole-tenancy node-groups perform-maintenance`
+- `gcloud beta compute sole-tenancy node-groups remove-iam-policy-binding`
+- `gcloud beta compute sole-tenancy node-groups set-iam-policy`
+- `gcloud beta compute sole-tenancy node-groups simulate-maintenance-event`
+- `gcloud beta compute sole-tenancy node-groups update`
+- `gcloud beta compute sole-tenancy node-templates`
+- `gcloud beta compute sole-tenancy node-templates add-iam-policy-binding`
+- `gcloud beta compute sole-tenancy node-templates create`
+- `gcloud beta compute sole-tenancy node-templates delete`
+- `gcloud beta compute sole-tenancy node-templates describe`
+- `gcloud beta compute sole-tenancy node-templates get-iam-policy`
+- `gcloud beta compute sole-tenancy node-templates list`
+- `gcloud beta compute sole-tenancy node-templates remove-iam-policy-binding`
+- `gcloud beta compute sole-tenancy node-templates set-iam-policy`
+- `gcloud beta compute sole-tenancy node-types`
+- `gcloud beta compute sole-tenancy node-types describe`
+- `gcloud beta compute sole-tenancy node-types list`
+- `gcloud beta compute ssh`
+- `gcloud beta compute ssl-certificates`
+- `gcloud beta compute ssl-certificates create`
+- `gcloud beta compute ssl-certificates delete`
+- `gcloud beta compute ssl-certificates describe`
+- `gcloud beta compute ssl-certificates list`
+- `gcloud beta compute ssl-policies`
+- `gcloud beta compute ssl-policies create`
+- `gcloud beta compute ssl-policies delete`
+- `gcloud beta compute ssl-policies describe`
+- `gcloud beta compute ssl-policies list`
+- `gcloud beta compute ssl-policies list-available-features`
+- `gcloud beta compute ssl-policies update`
+- `gcloud beta compute start-iap-tunnel`
+- `gcloud beta compute storage-pool-types`
+- `gcloud beta compute storage-pool-types describe`
+- `gcloud beta compute storage-pool-types list`
+- `gcloud beta compute storage-pools`
+- `gcloud beta compute storage-pools create`
+- `gcloud beta compute storage-pools delete`
+- `gcloud beta compute storage-pools describe`
+- `gcloud beta compute storage-pools get-iam-policy`
+- `gcloud beta compute storage-pools list`
+- `gcloud beta compute storage-pools list-disks`
+- `gcloud beta compute storage-pools set-iam-policy`
+- `gcloud beta compute storage-pools update`
+- `gcloud beta compute target-grpc-proxies`
+- `gcloud beta compute target-grpc-proxies create`
+- `gcloud beta compute target-grpc-proxies delete`
+- `gcloud beta compute target-grpc-proxies describe`
+- `gcloud beta compute target-grpc-proxies list`
+- `gcloud beta compute target-http-proxies`
+- `gcloud beta compute target-http-proxies create`
+- `gcloud beta compute target-http-proxies delete`
+- `gcloud beta compute target-http-proxies describe`
+- `gcloud beta compute target-http-proxies export`
+- `gcloud beta compute target-http-proxies import`
+- `gcloud beta compute target-http-proxies list`
+- `gcloud beta compute target-http-proxies update`
+- `gcloud beta compute target-https-proxies`
+- `gcloud beta compute target-https-proxies create`
+- `gcloud beta compute target-https-proxies delete`
+- `gcloud beta compute target-https-proxies describe`
+- `gcloud beta compute target-https-proxies export`
+- `gcloud beta compute target-https-proxies import`
+- `gcloud beta compute target-https-proxies list`
+- `gcloud beta compute target-https-proxies update`
+- `gcloud beta compute target-instances`
+- `gcloud beta compute target-instances create`
+- `gcloud beta compute target-instances delete`
+- `gcloud beta compute target-instances describe`
+- `gcloud beta compute target-instances list`
+- `gcloud beta compute target-instances update`
+- `gcloud beta compute target-pools`
+- `gcloud beta compute target-pools add-health-checks`
+- `gcloud beta compute target-pools add-instances`
+- `gcloud beta compute target-pools create`
+- `gcloud beta compute target-pools delete`
+- `gcloud beta compute target-pools describe`
+- `gcloud beta compute target-pools get-health`
+- `gcloud beta compute target-pools list`
+- `gcloud beta compute target-pools remove-health-checks`
+- `gcloud beta compute target-pools remove-instances`
+- `gcloud beta compute target-pools set-backup`
+- `gcloud beta compute target-pools update`
+- `gcloud beta compute target-ssl-proxies`
+- `gcloud beta compute target-ssl-proxies create`
+- `gcloud beta compute target-ssl-proxies delete`
+- `gcloud beta compute target-ssl-proxies describe`
+- `gcloud beta compute target-ssl-proxies list`
+- `gcloud beta compute target-ssl-proxies update`
+- `gcloud beta compute target-tcp-proxies`
+- `gcloud beta compute target-tcp-proxies create`
+- `gcloud beta compute target-tcp-proxies delete`
+- `gcloud beta compute target-tcp-proxies describe`
+- `gcloud beta compute target-tcp-proxies list`
+- `gcloud beta compute target-tcp-proxies update`
+- `gcloud beta compute target-vpn-gateways`
+- `gcloud beta compute target-vpn-gateways create`
+- `gcloud beta compute target-vpn-gateways delete`
+- `gcloud beta compute target-vpn-gateways describe`
+- `gcloud beta compute target-vpn-gateways list`
+- `gcloud beta compute target-vpn-gateways update`
+- `gcloud beta compute tpus`
+- `gcloud beta compute tpus accelerator-types`
+- `gcloud beta compute tpus accelerator-types describe`
+- `gcloud beta compute tpus accelerator-types list`
+- `gcloud beta compute tpus locations`
+- `gcloud beta compute tpus locations describe`
+- `gcloud beta compute tpus locations list`
+- `gcloud beta compute tpus versions`
+- `gcloud beta compute tpus versions describe`
+- `gcloud beta compute tpus versions list`
+- `gcloud beta compute url-maps`
+- `gcloud beta compute url-maps add-host-rule`
+- `gcloud beta compute url-maps add-path-matcher`
+- `gcloud beta compute url-maps create`
+- `gcloud beta compute url-maps delete`
+- `gcloud beta compute url-maps describe`
+- `gcloud beta compute url-maps edit`
+- `gcloud beta compute url-maps export`
+- `gcloud beta compute url-maps import`
+- `gcloud beta compute url-maps invalidate-cdn-cache`
+- `gcloud beta compute url-maps list`
+- `gcloud beta compute url-maps list-cdn-cache-invalidations`
+- `gcloud beta compute url-maps remove-host-rule`
+- `gcloud beta compute url-maps remove-path-matcher`
+- `gcloud beta compute url-maps set-default-service`
+- `gcloud beta compute url-maps validate`
+- `gcloud beta compute vpn-gateways`
+- `gcloud beta compute vpn-gateways create`
+- `gcloud beta compute vpn-gateways delete`
+- `gcloud beta compute vpn-gateways describe`
+- `gcloud beta compute vpn-gateways get-status`
+- `gcloud beta compute vpn-gateways list`
+- `gcloud beta compute vpn-gateways update`
+- `gcloud beta compute vpn-tunnels`
+- `gcloud beta compute vpn-tunnels create`
+- `gcloud beta compute vpn-tunnels delete`
+- `gcloud beta compute vpn-tunnels describe`
+- `gcloud beta compute vpn-tunnels list`
+- `gcloud beta compute vpn-tunnels update`
+- `gcloud beta compute zone-vm-extension-policies`
+- `gcloud beta compute zone-vm-extension-policies create`
+- `gcloud beta compute zone-vm-extension-policies delete`
+- `gcloud beta compute zone-vm-extension-policies describe`
+- `gcloud beta compute zone-vm-extension-policies list`
+- `gcloud beta compute zone-vm-extension-policies update`
+- `gcloud beta compute zones`
+- `gcloud beta compute zones describe`
+- `gcloud beta compute zones list`
+
+## config
+
+- `gcloud beta config`
+- `gcloud beta config configurations`
+- `gcloud beta config configurations activate`
+- `gcloud beta config configurations create`
+- `gcloud beta config configurations delete`
+- `gcloud beta config configurations describe`
+- `gcloud beta config configurations list`
+- `gcloud beta config configurations rename`
+- `gcloud beta config get`
+- `gcloud beta config list`
+- `gcloud beta config set`
+- `gcloud beta config unset`
+
+## container
+
+- `gcloud beta container`
+- `gcloud beta container backup-restore`
+- `gcloud beta container backup-restore backup-channels`
+- `gcloud beta container backup-restore backup-channels create`
+- `gcloud beta container backup-restore backup-channels delete`
+- `gcloud beta container backup-restore backup-channels describe`
+- `gcloud beta container backup-restore backup-channels list`
+- `gcloud beta container backup-restore backup-channels update`
+- `gcloud beta container backup-restore backup-plan-bindings`
+- `gcloud beta container backup-restore backup-plan-bindings describe`
+- `gcloud beta container backup-restore backup-plan-bindings list`
+- `gcloud beta container backup-restore backup-plans`
+- `gcloud beta container backup-restore backup-plans create`
+- `gcloud beta container backup-restore backup-plans delete`
+- `gcloud beta container backup-restore backup-plans describe`
+- `gcloud beta container backup-restore backup-plans get-iam-policy`
+- `gcloud beta container backup-restore backup-plans list`
+- `gcloud beta container backup-restore backup-plans set-iam-policy`
+- `gcloud beta container backup-restore backup-plans update`
+- `gcloud beta container backup-restore backups`
+- `gcloud beta container backup-restore backups create`
+- `gcloud beta container backup-restore backups delete`
+- `gcloud beta container backup-restore backups describe`
+- `gcloud beta container backup-restore backups get-backup-index-download-url`
+- `gcloud beta container backup-restore backups get-iam-policy`
+- `gcloud beta container backup-restore backups list`
+- `gcloud beta container backup-restore backups set-iam-policy`
+- `gcloud beta container backup-restore backups update`
+- `gcloud beta container backup-restore locations`
+- `gcloud beta container backup-restore locations describe`
+- `gcloud beta container backup-restore locations list`
+- `gcloud beta container backup-restore operations`
+- `gcloud beta container backup-restore operations describe`
+- `gcloud beta container backup-restore operations list`
+- `gcloud beta container backup-restore restore-channels`
+- `gcloud beta container backup-restore restore-channels create`
+- `gcloud beta container backup-restore restore-channels delete`
+- `gcloud beta container backup-restore restore-channels describe`
+- `gcloud beta container backup-restore restore-channels list`
+- `gcloud beta container backup-restore restore-channels update`
+- `gcloud beta container backup-restore restore-plan-bindings`
+- `gcloud beta container backup-restore restore-plan-bindings describe`
+- `gcloud beta container backup-restore restore-plan-bindings list`
+- `gcloud beta container backup-restore restore-plans`
+- `gcloud beta container backup-restore restore-plans create`
+- `gcloud beta container backup-restore restore-plans delete`
+- `gcloud beta container backup-restore restore-plans describe`
+- `gcloud beta container backup-restore restore-plans get-iam-policy`
+- `gcloud beta container backup-restore restore-plans list`
+- `gcloud beta container backup-restore restore-plans set-iam-policy`
+- `gcloud beta container backup-restore restore-plans update`
+- `gcloud beta container backup-restore restores`
+- `gcloud beta container backup-restore restores create`
+- `gcloud beta container backup-restore restores delete`
+- `gcloud beta container backup-restore restores describe`
+- `gcloud beta container backup-restore restores get-iam-policy`
+- `gcloud beta container backup-restore restores list`
+- `gcloud beta container backup-restore restores set-iam-policy`
+- `gcloud beta container backup-restore restores update`
+- `gcloud beta container backup-restore volume-backups`
+- `gcloud beta container backup-restore volume-backups describe`
+- `gcloud beta container backup-restore volume-backups list`
+- `gcloud beta container backup-restore volume-restores`
+- `gcloud beta container backup-restore volume-restores describe`
+- `gcloud beta container backup-restore volume-restores list`
+- `gcloud beta container bare-metal`
+- `gcloud beta container bare-metal admin-clusters`
+- `gcloud beta container bare-metal admin-clusters create`
+- `gcloud beta container bare-metal admin-clusters describe`
+- `gcloud beta container bare-metal admin-clusters enroll`
+- `gcloud beta container bare-metal admin-clusters list`
+- `gcloud beta container bare-metal admin-clusters query-version-config`
+- `gcloud beta container bare-metal admin-clusters unenroll`
+- `gcloud beta container bare-metal admin-clusters update`
+- `gcloud beta container bare-metal clusters`
+- `gcloud beta container bare-metal clusters create`
+- `gcloud beta container bare-metal clusters delete`
+- `gcloud beta container bare-metal clusters describe`
+- `gcloud beta container bare-metal clusters enroll`
+- `gcloud beta container bare-metal clusters list`
+- `gcloud beta container bare-metal clusters query-version-config`
+- `gcloud beta container bare-metal clusters update`
+- `gcloud beta container bare-metal node-pools`
+- `gcloud beta container bare-metal node-pools create`
+- `gcloud beta container bare-metal node-pools delete`
+- `gcloud beta container bare-metal node-pools describe`
+- `gcloud beta container bare-metal node-pools enroll`
+- `gcloud beta container bare-metal node-pools list`
+- `gcloud beta container bare-metal node-pools update`
+- `gcloud beta container bare-metal operations`
+- `gcloud beta container bare-metal operations describe`
+- `gcloud beta container bare-metal operations list`
+- `gcloud beta container bare-metal operations wait`
+- `gcloud beta container binauthz`
+- `gcloud beta container binauthz attestations`
+- `gcloud beta container binauthz attestations create`
+- `gcloud beta container binauthz attestations list`
+- `gcloud beta container binauthz attestations sign-and-create`
+- `gcloud beta container binauthz attestors`
+- `gcloud beta container binauthz attestors add-iam-policy-binding`
+- `gcloud beta container binauthz attestors create`
+- `gcloud beta container binauthz attestors delete`
+- `gcloud beta container binauthz attestors describe`
+- `gcloud beta container binauthz attestors get-iam-policy`
+- `gcloud beta container binauthz attestors list`
+- `gcloud beta container binauthz attestors public-keys`
+- `gcloud beta container binauthz attestors public-keys add`
+- `gcloud beta container binauthz attestors public-keys remove`
+- `gcloud beta container binauthz attestors public-keys update`
+- `gcloud beta container binauthz attestors remove-iam-policy-binding`
+- `gcloud beta container binauthz attestors set-iam-policy`
+- `gcloud beta container binauthz attestors update`
+- `gcloud beta container binauthz create-signature-payload`
+- `gcloud beta container binauthz policy`
+- `gcloud beta container binauthz policy add-iam-policy-binding`
+- `gcloud beta container binauthz policy create`
+- `gcloud beta container binauthz policy delete`
+- `gcloud beta container binauthz policy describe`
+- `gcloud beta container binauthz policy evaluate`
+- `gcloud beta container binauthz policy export`
+- `gcloud beta container binauthz policy get-iam-policy`
+- `gcloud beta container binauthz policy import`
+- `gcloud beta container binauthz policy list`
+- `gcloud beta container binauthz policy remove-iam-policy-binding`
+- `gcloud beta container binauthz policy set-iam-policy`
+- `gcloud beta container binauthz policy update`
+- `gcloud beta container clusters`
+- `gcloud beta container clusters check-autopilot-compatibility`
+- `gcloud beta container clusters complete-control-plane-upgrade`
+- `gcloud beta container clusters create`
+- `gcloud beta container clusters create-auto`
+- `gcloud beta container clusters delete`
+- `gcloud beta container clusters describe`
+- `gcloud beta container clusters get-credentials`
+- `gcloud beta container clusters get-upgrade-info`
+- `gcloud beta container clusters list`
+- `gcloud beta container clusters resize`
+- `gcloud beta container clusters update`
+- `gcloud beta container clusters upgrade`
+- `gcloud beta container fleet`
+- `gcloud beta container fleet cloudrun`
+- `gcloud beta container fleet cloudrun apply`
+- `gcloud beta container fleet cloudrun describe`
+- `gcloud beta container fleet cloudrun disable`
+- `gcloud beta container fleet cloudrun enable`
+- `gcloud beta container fleet clusterupgrade`
+- `gcloud beta container fleet clusterupgrade create`
+- `gcloud beta container fleet clusterupgrade describe`
+- `gcloud beta container fleet clusterupgrade update`
+- `gcloud beta container fleet config-management`
+- `gcloud beta container fleet config-management apply`
+- `gcloud beta container fleet config-management describe`
+- `gcloud beta container fleet config-management disable`
+- `gcloud beta container fleet config-management enable`
+- `gcloud beta container fleet config-management status`
+- `gcloud beta container fleet config-management unmanage`
+- `gcloud beta container fleet config-management upgrade`
+- `gcloud beta container fleet config-management version`
+- `gcloud beta container fleet create`
+- `gcloud beta container fleet dataplane-v2-encryption`
+- `gcloud beta container fleet dataplane-v2-encryption describe`
+- `gcloud beta container fleet dataplane-v2-encryption disable`
+- `gcloud beta container fleet dataplane-v2-encryption enable`
+- `gcloud beta container fleet delete`
+- `gcloud beta container fleet describe`
+- `gcloud beta container fleet features`
+- `gcloud beta container fleet features list`
+- `gcloud beta container fleet fleetobservability`
+- `gcloud beta container fleet fleetobservability describe`
+- `gcloud beta container fleet fleetobservability disable`
+- `gcloud beta container fleet fleetobservability enable`
+- `gcloud beta container fleet fleetobservability update`
+- `gcloud beta container fleet identity-service`
+- `gcloud beta container fleet identity-service apply`
+- `gcloud beta container fleet identity-service delete`
+- `gcloud beta container fleet identity-service describe`
+- `gcloud beta container fleet identity-service disable`
+- `gcloud beta container fleet identity-service enable`
+- `gcloud beta container fleet ingress`
+- `gcloud beta container fleet ingress describe`
+- `gcloud beta container fleet ingress disable`
+- `gcloud beta container fleet ingress enable`
+- `gcloud beta container fleet ingress update`
+- `gcloud beta container fleet list`
+- `gcloud beta container fleet memberships`
+- `gcloud beta container fleet memberships bindings`
+- `gcloud beta container fleet memberships bindings create`
+- `gcloud beta container fleet memberships bindings delete`
+- `gcloud beta container fleet memberships bindings describe`
+- `gcloud beta container fleet memberships bindings list`
+- `gcloud beta container fleet memberships bindings update`
+- `gcloud beta container fleet memberships delete`
+- `gcloud beta container fleet memberships describe`
+- `gcloud beta container fleet memberships generate-gateway-rbac`
+- `gcloud beta container fleet memberships get-credentials`
+- `gcloud beta container fleet memberships list`
+- `gcloud beta container fleet memberships register`
+- `gcloud beta container fleet memberships support-access`
+- `gcloud beta container fleet memberships support-access describe`
+- `gcloud beta container fleet memberships support-access disable`
+- `gcloud beta container fleet memberships support-access enable`
+- `gcloud beta container fleet memberships support-access get-yaml`
+- `gcloud beta container fleet memberships unregister`
+- `gcloud beta container fleet memberships update`
+- `gcloud beta container fleet mesh`
+- `gcloud beta container fleet mesh debug`
+- `gcloud beta container fleet mesh debug bug-report`
+- `gcloud beta container fleet mesh debug proxy-config`
+- `gcloud beta container fleet mesh debug proxy-status`
+- `gcloud beta container fleet mesh describe`
+- `gcloud beta container fleet mesh disable`
+- `gcloud beta container fleet mesh enable`
+- `gcloud beta container fleet mesh update`
+- `gcloud beta container fleet multi-cluster-services`
+- `gcloud beta container fleet multi-cluster-services describe`
+- `gcloud beta container fleet multi-cluster-services disable`
+- `gcloud beta container fleet multi-cluster-services enable`
+- `gcloud beta container fleet operations`
+- `gcloud beta container fleet operations describe`
+- `gcloud beta container fleet operations list`
+- `gcloud beta container fleet operations wait`
+- `gcloud beta container fleet packages`
+- `gcloud beta container fleet packages create`
+- `gcloud beta container fleet packages delete`
+- `gcloud beta container fleet packages describe`
+- `gcloud beta container fleet packages list`
+- `gcloud beta container fleet packages resource-bundles`
+- `gcloud beta container fleet packages resource-bundles create`
+- `gcloud beta container fleet packages resource-bundles delete`
+- `gcloud beta container fleet packages resource-bundles describe`
+- `gcloud beta container fleet packages resource-bundles list`
+- `gcloud beta container fleet packages resource-bundles releases`
+- `gcloud beta container fleet packages resource-bundles releases create`
+- `gcloud beta container fleet packages resource-bundles releases delete`
+- `gcloud beta container fleet packages resource-bundles releases describe`
+- `gcloud beta container fleet packages resource-bundles releases list`
+- `gcloud beta container fleet packages resource-bundles releases update`
+- `gcloud beta container fleet packages resource-bundles update`
+- `gcloud beta container fleet packages rollouts`
+- `gcloud beta container fleet packages rollouts abort`
+- `gcloud beta container fleet packages rollouts describe`
+- `gcloud beta container fleet packages rollouts list`
+- `gcloud beta container fleet packages rollouts resume`
+- `gcloud beta container fleet packages rollouts suspend`
+- `gcloud beta container fleet packages update`
+- `gcloud beta container fleet policycontroller`
+- `gcloud beta container fleet policycontroller content`
+- `gcloud beta container fleet policycontroller content bundles`
+- `gcloud beta container fleet policycontroller content bundles remove`
+- `gcloud beta container fleet policycontroller content bundles set`
+- `gcloud beta container fleet policycontroller content templates`
+- `gcloud beta container fleet policycontroller content templates disable`
+- `gcloud beta container fleet policycontroller content templates enable`
+- `gcloud beta container fleet policycontroller deployment`
+- `gcloud beta container fleet policycontroller deployment remove`
+- `gcloud beta container fleet policycontroller deployment set`
+- `gcloud beta container fleet policycontroller describe`
+- `gcloud beta container fleet policycontroller detach`
+- `gcloud beta container fleet policycontroller disable`
+- `gcloud beta container fleet policycontroller enable`
+- `gcloud beta container fleet policycontroller suspend`
+- `gcloud beta container fleet policycontroller update`
+- `gcloud beta container fleet rbacrolebindingactuation`
+- `gcloud beta container fleet rbacrolebindingactuation describe`
+- `gcloud beta container fleet rbacrolebindingactuation update`
+- `gcloud beta container fleet rollouts`
+- `gcloud beta container fleet rollouts describe`
+- `gcloud beta container fleet rollouts list`
+- `gcloud beta container fleet rolloutsequences`
+- `gcloud beta container fleet rolloutsequences create`
+- `gcloud beta container fleet rolloutsequences delete`
+- `gcloud beta container fleet rolloutsequences describe`
+- `gcloud beta container fleet rolloutsequences list`
+- `gcloud beta container fleet rolloutsequences update`
+- `gcloud beta container fleet scopes`
+- `gcloud beta container fleet scopes add-app-operator-binding`
+- `gcloud beta container fleet scopes add-iam-policy-binding`
+- `gcloud beta container fleet scopes create`
+- `gcloud beta container fleet scopes delete`
+- `gcloud beta container fleet scopes describe`
+- `gcloud beta container fleet scopes get-iam-policy`
+- `gcloud beta container fleet scopes list`
+- `gcloud beta container fleet scopes list-app-operator-bindings`
+- `gcloud beta container fleet scopes list-memberships`
+- `gcloud beta container fleet scopes namespaces`
+- `gcloud beta container fleet scopes namespaces create`
+- `gcloud beta container fleet scopes namespaces delete`
+- `gcloud beta container fleet scopes namespaces describe`
+- `gcloud beta container fleet scopes namespaces get-credentials`
+- `gcloud beta container fleet scopes namespaces list`
+- `gcloud beta container fleet scopes namespaces update`
+- `gcloud beta container fleet scopes rbacrolebindings`
+- `gcloud beta container fleet scopes rbacrolebindings create`
+- `gcloud beta container fleet scopes rbacrolebindings delete`
+- `gcloud beta container fleet scopes rbacrolebindings describe`
+- `gcloud beta container fleet scopes rbacrolebindings list`
+- `gcloud beta container fleet scopes rbacrolebindings update`
+- `gcloud beta container fleet scopes remove-app-operator-binding`
+- `gcloud beta container fleet scopes remove-iam-policy-binding`
+- `gcloud beta container fleet scopes update`
+- `gcloud beta container fleet update`
+- `gcloud beta container fleet workload-identity`
+- `gcloud beta container fleet workload-identity describe`
+- `gcloud beta container fleet workload-identity disable`
+- `gcloud beta container fleet workload-identity enable`
+- `gcloud beta container fleet workload-identity scope-tenancy-pool`
+- `gcloud beta container fleet workload-identity scope-tenancy-pool set`
+- `gcloud beta container fleet workload-identity scope-tenancy-pool unset`
+- `gcloud beta container get-server-config`
+- `gcloud beta container hub`
+- `gcloud beta container hub cloudrun`
+- `gcloud beta container hub cloudrun apply`
+- `gcloud beta container hub cloudrun describe`
+- `gcloud beta container hub cloudrun disable`
+- `gcloud beta container hub cloudrun enable`
+- `gcloud beta container hub clusterupgrade`
+- `gcloud beta container hub clusterupgrade create`
+- `gcloud beta container hub clusterupgrade describe`
+- `gcloud beta container hub clusterupgrade update`
+- `gcloud beta container hub config-management`
+- `gcloud beta container hub config-management apply`
+- `gcloud beta container hub config-management describe`
+- `gcloud beta container hub config-management disable`
+- `gcloud beta container hub config-management enable`
+- `gcloud beta container hub config-management status`
+- `gcloud beta container hub config-management unmanage`
+- `gcloud beta container hub config-management upgrade`
+- `gcloud beta container hub config-management version`
+- `gcloud beta container hub create`
+- `gcloud beta container hub dataplane-v2-encryption`
+- `gcloud beta container hub dataplane-v2-encryption describe`
+- `gcloud beta container hub dataplane-v2-encryption disable`
+- `gcloud beta container hub dataplane-v2-encryption enable`
+- `gcloud beta container hub delete`
+- `gcloud beta container hub describe`
+- `gcloud beta container hub features`
+- `gcloud beta container hub features list`
+- `gcloud beta container hub fleetobservability`
+- `gcloud beta container hub fleetobservability describe`
+- `gcloud beta container hub fleetobservability disable`
+- `gcloud beta container hub fleetobservability enable`
+- `gcloud beta container hub fleetobservability update`
+- `gcloud beta container hub identity-service`
+- `gcloud beta container hub identity-service apply`
+- `gcloud beta container hub identity-service delete`
+- `gcloud beta container hub identity-service describe`
+- `gcloud beta container hub identity-service disable`
+- `gcloud beta container hub identity-service enable`
+- `gcloud beta container hub ingress`
+- `gcloud beta container hub ingress describe`
+- `gcloud beta container hub ingress disable`
+- `gcloud beta container hub ingress enable`
+- `gcloud beta container hub ingress update`
+- `gcloud beta container hub list`
+- `gcloud beta container hub memberships`
+- `gcloud beta container hub memberships bindings`
+- `gcloud beta container hub memberships bindings create`
+- `gcloud beta container hub memberships bindings delete`
+- `gcloud beta container hub memberships bindings describe`
+- `gcloud beta container hub memberships bindings list`
+- `gcloud beta container hub memberships bindings update`
+- `gcloud beta container hub memberships delete`
+- `gcloud beta container hub memberships describe`
+- `gcloud beta container hub memberships generate-gateway-rbac`
+- `gcloud beta container hub memberships get-credentials`
+- `gcloud beta container hub memberships list`
+- `gcloud beta container hub memberships register`
+- `gcloud beta container hub memberships support-access`
+- `gcloud beta container hub memberships support-access describe`
+- `gcloud beta container hub memberships support-access disable`
+- `gcloud beta container hub memberships support-access enable`
+- `gcloud beta container hub memberships support-access get-yaml`
+- `gcloud beta container hub memberships unregister`
+- `gcloud beta container hub memberships update`
+- `gcloud beta container hub mesh`
+- `gcloud beta container hub mesh debug`
+- `gcloud beta container hub mesh debug bug-report`
+- `gcloud beta container hub mesh debug proxy-config`
+- `gcloud beta container hub mesh debug proxy-status`
+- `gcloud beta container hub mesh describe`
+- `gcloud beta container hub mesh disable`
+- `gcloud beta container hub mesh enable`
+- `gcloud beta container hub mesh update`
+- `gcloud beta container hub multi-cluster-services`
+- `gcloud beta container hub multi-cluster-services describe`
+- `gcloud beta container hub multi-cluster-services disable`
+- `gcloud beta container hub multi-cluster-services enable`
+- `gcloud beta container hub operations`
+- `gcloud beta container hub operations describe`
+- `gcloud beta container hub operations list`
+- `gcloud beta container hub operations wait`
+- `gcloud beta container hub packages`
+- `gcloud beta container hub packages create`
+- `gcloud beta container hub packages delete`
+- `gcloud beta container hub packages describe`
+- `gcloud beta container hub packages list`
+- `gcloud beta container hub packages resource-bundles`
+- `gcloud beta container hub packages resource-bundles create`
+- `gcloud beta container hub packages resource-bundles delete`
+- `gcloud beta container hub packages resource-bundles describe`
+- `gcloud beta container hub packages resource-bundles list`
+- `gcloud beta container hub packages resource-bundles releases`
+- `gcloud beta container hub packages resource-bundles releases create`
+- `gcloud beta container hub packages resource-bundles releases delete`
+- `gcloud beta container hub packages resource-bundles releases describe`
+- `gcloud beta container hub packages resource-bundles releases list`
+- `gcloud beta container hub packages resource-bundles releases update`
+- `gcloud beta container hub packages resource-bundles update`
+- `gcloud beta container hub packages rollouts`
+- `gcloud beta container hub packages rollouts abort`
+- `gcloud beta container hub packages rollouts describe`
+- `gcloud beta container hub packages rollouts list`
+- `gcloud beta container hub packages rollouts resume`
+- `gcloud beta container hub packages rollouts suspend`
+- `gcloud beta container hub packages update`
+- `gcloud beta container hub policycontroller`
+- `gcloud beta container hub policycontroller content`
+- `gcloud beta container hub policycontroller content bundles`
+- `gcloud beta container hub policycontroller content bundles remove`
+- `gcloud beta container hub policycontroller content bundles set`
+- `gcloud beta container hub policycontroller content templates`
+- `gcloud beta container hub policycontroller content templates disable`
+- `gcloud beta container hub policycontroller content templates enable`
+- `gcloud beta container hub policycontroller deployment`
+- `gcloud beta container hub policycontroller deployment remove`
+- `gcloud beta container hub policycontroller deployment set`
+- `gcloud beta container hub policycontroller describe`
+- `gcloud beta container hub policycontroller detach`
+- `gcloud beta container hub policycontroller disable`
+- `gcloud beta container hub policycontroller enable`
+- `gcloud beta container hub policycontroller suspend`
+- `gcloud beta container hub policycontroller update`
+- `gcloud beta container hub rbacrolebindingactuation`
+- `gcloud beta container hub rbacrolebindingactuation describe`
+- `gcloud beta container hub rbacrolebindingactuation update`
+- `gcloud beta container hub rollouts`
+- `gcloud beta container hub rollouts describe`
+- `gcloud beta container hub rollouts list`
+- `gcloud beta container hub rolloutsequences`
+- `gcloud beta container hub rolloutsequences create`
+- `gcloud beta container hub rolloutsequences delete`
+- `gcloud beta container hub rolloutsequences describe`
+- `gcloud beta container hub rolloutsequences list`
+- `gcloud beta container hub rolloutsequences update`
+- `gcloud beta container hub scopes`
+- `gcloud beta container hub scopes add-app-operator-binding`
+- `gcloud beta container hub scopes add-iam-policy-binding`
+- `gcloud beta container hub scopes create`
+- `gcloud beta container hub scopes delete`
+- `gcloud beta container hub scopes describe`
+- `gcloud beta container hub scopes get-iam-policy`
+- `gcloud beta container hub scopes list`
+- `gcloud beta container hub scopes list-app-operator-bindings`
+- `gcloud beta container hub scopes list-memberships`
+- `gcloud beta container hub scopes namespaces`
+- `gcloud beta container hub scopes namespaces create`
+- `gcloud beta container hub scopes namespaces delete`
+- `gcloud beta container hub scopes namespaces describe`
+- `gcloud beta container hub scopes namespaces get-credentials`
+- `gcloud beta container hub scopes namespaces list`
+- `gcloud beta container hub scopes namespaces update`
+- `gcloud beta container hub scopes rbacrolebindings`
+- `gcloud beta container hub scopes rbacrolebindings create`
+- `gcloud beta container hub scopes rbacrolebindings delete`
+- `gcloud beta container hub scopes rbacrolebindings describe`
+- `gcloud beta container hub scopes rbacrolebindings list`
+- `gcloud beta container hub scopes rbacrolebindings update`
+- `gcloud beta container hub scopes remove-app-operator-binding`
+- `gcloud beta container hub scopes remove-iam-policy-binding`
+- `gcloud beta container hub scopes update`
+- `gcloud beta container hub update`
+- `gcloud beta container hub workload-identity`
+- `gcloud beta container hub workload-identity describe`
+- `gcloud beta container hub workload-identity disable`
+- `gcloud beta container hub workload-identity enable`
+- `gcloud beta container hub workload-identity scope-tenancy-pool`
+- `gcloud beta container hub workload-identity scope-tenancy-pool set`
+- `gcloud beta container hub workload-identity scope-tenancy-pool unset`
+- `gcloud beta container images`
+- `gcloud beta container images add-tag`
+- `gcloud beta container images delete`
+- `gcloud beta container images describe`
+- `gcloud beta container images list`
+- `gcloud beta container images list-tags`
+- `gcloud beta container images untag`
+- `gcloud beta container node-pools`
+- `gcloud beta container node-pools complete-upgrade`
+- `gcloud beta container node-pools create`
+- `gcloud beta container node-pools delete`
+- `gcloud beta container node-pools describe`
+- `gcloud beta container node-pools get-upgrade-info`
+- `gcloud beta container node-pools list`
+- `gcloud beta container node-pools rollback`
+- `gcloud beta container node-pools update`
+- `gcloud beta container operations`
+- `gcloud beta container operations cancel`
+- `gcloud beta container operations describe`
+- `gcloud beta container operations list`
+- `gcloud beta container operations wait`
+- `gcloud beta container subnets`
+- `gcloud beta container subnets list-usable`
+- `gcloud beta container vmware`
+- `gcloud beta container vmware admin-clusters`
+- `gcloud beta container vmware admin-clusters describe`
+- `gcloud beta container vmware admin-clusters enroll`
+- `gcloud beta container vmware admin-clusters list`
+- `gcloud beta container vmware admin-clusters unenroll`
+- `gcloud beta container vmware admin-clusters update`
+- `gcloud beta container vmware clusters`
+- `gcloud beta container vmware clusters create`
+- `gcloud beta container vmware clusters delete`
+- `gcloud beta container vmware clusters describe`
+- `gcloud beta container vmware clusters enroll`
+- `gcloud beta container vmware clusters list`
+- `gcloud beta container vmware clusters query-version-config`
+- `gcloud beta container vmware clusters update`
+- `gcloud beta container vmware clusters upgrade`
+- `gcloud beta container vmware node-pools`
+- `gcloud beta container vmware node-pools create`
+- `gcloud beta container vmware node-pools delete`
+- `gcloud beta container vmware node-pools describe`
+- `gcloud beta container vmware node-pools enroll`
+- `gcloud beta container vmware node-pools list`
+- `gcloud beta container vmware node-pools update`
+- `gcloud beta container vmware operations`
+- `gcloud beta container vmware operations describe`
+- `gcloud beta container vmware operations list`
+- `gcloud beta container vmware operations wait`
+
+## data-catalog
+
+- `gcloud beta data-catalog`
+- `gcloud beta data-catalog entries`
+- `gcloud beta data-catalog entries create`
+- `gcloud beta data-catalog entries delete`
+- `gcloud beta data-catalog entries describe`
+- `gcloud beta data-catalog entries list`
+- `gcloud beta data-catalog entries lookup`
+- `gcloud beta data-catalog entries update`
+- `gcloud beta data-catalog entry-groups`
+- `gcloud beta data-catalog entry-groups add-iam-policy-binding`
+- `gcloud beta data-catalog entry-groups create`
+- `gcloud beta data-catalog entry-groups delete`
+- `gcloud beta data-catalog entry-groups describe`
+- `gcloud beta data-catalog entry-groups get-iam-policy`
+- `gcloud beta data-catalog entry-groups list`
+- `gcloud beta data-catalog entry-groups remove-iam-policy-binding`
+- `gcloud beta data-catalog entry-groups set-iam-policy`
+- `gcloud beta data-catalog entry-groups update`
+- `gcloud beta data-catalog search`
+- `gcloud beta data-catalog tag-templates`
+- `gcloud beta data-catalog tag-templates add-iam-policy-binding`
+- `gcloud beta data-catalog tag-templates create`
+- `gcloud beta data-catalog tag-templates delete`
+- `gcloud beta data-catalog tag-templates describe`
+- `gcloud beta data-catalog tag-templates fields`
+- `gcloud beta data-catalog tag-templates fields create`
+- `gcloud beta data-catalog tag-templates fields delete`
+- `gcloud beta data-catalog tag-templates fields enum-values`
+- `gcloud beta data-catalog tag-templates fields enum-values rename`
+- `gcloud beta data-catalog tag-templates fields rename`
+- `gcloud beta data-catalog tag-templates fields update`
+- `gcloud beta data-catalog tag-templates get-iam-policy`
+- `gcloud beta data-catalog tag-templates remove-iam-policy-binding`
+- `gcloud beta data-catalog tag-templates set-iam-policy`
+- `gcloud beta data-catalog tag-templates update`
+- `gcloud beta data-catalog tags`
+- `gcloud beta data-catalog tags create`
+- `gcloud beta data-catalog tags delete`
+- `gcloud beta data-catalog tags list`
+- `gcloud beta data-catalog tags update`
+- `gcloud beta data-catalog taxonomies`
+- `gcloud beta data-catalog taxonomies add-iam-policy-binding`
+- `gcloud beta data-catalog taxonomies describe`
+- `gcloud beta data-catalog taxonomies export`
+- `gcloud beta data-catalog taxonomies get-iam-policy`
+- `gcloud beta data-catalog taxonomies import`
+- `gcloud beta data-catalog taxonomies list`
+- `gcloud beta data-catalog taxonomies policy-tags`
+- `gcloud beta data-catalog taxonomies policy-tags add-iam-policy-binding`
+- `gcloud beta data-catalog taxonomies policy-tags describe`
+- `gcloud beta data-catalog taxonomies policy-tags get-iam-policy`
+- `gcloud beta data-catalog taxonomies policy-tags list`
+- `gcloud beta data-catalog taxonomies policy-tags remove-iam-policy-binding`
+- `gcloud beta data-catalog taxonomies policy-tags set-iam-policy`
+- `gcloud beta data-catalog taxonomies remove-iam-policy-binding`
+- `gcloud beta data-catalog taxonomies set-iam-policy`
+
+## data-fusion
+
+- `gcloud beta data-fusion`
+- `gcloud beta data-fusion add-iam-policy-binding`
+- `gcloud beta data-fusion get-iam-policy`
+- `gcloud beta data-fusion instances`
+- `gcloud beta data-fusion instances create`
+- `gcloud beta data-fusion instances delete`
+- `gcloud beta data-fusion instances describe`
+- `gcloud beta data-fusion instances list`
+- `gcloud beta data-fusion instances restart`
+- `gcloud beta data-fusion instances update`
+- `gcloud beta data-fusion operations`
+- `gcloud beta data-fusion operations delete`
+- `gcloud beta data-fusion operations list`
+- `gcloud beta data-fusion operations wait`
+- `gcloud beta data-fusion remove-iam-policy-binding`
+- `gcloud beta data-fusion set-iam-policy`
+
+## dataflow
+
+- `gcloud beta dataflow`
+- `gcloud beta dataflow flex-template`
+- `gcloud beta dataflow flex-template build`
+- `gcloud beta dataflow flex-template run`
+- `gcloud beta dataflow jobs`
+- `gcloud beta dataflow jobs archive`
+- `gcloud beta dataflow jobs cancel`
+- `gcloud beta dataflow jobs describe`
+- `gcloud beta dataflow jobs drain`
+- `gcloud beta dataflow jobs export-steps`
+- `gcloud beta dataflow jobs list`
+- `gcloud beta dataflow jobs run`
+- `gcloud beta dataflow jobs show`
+- `gcloud beta dataflow jobs update-options`
+- `gcloud beta dataflow logs`
+- `gcloud beta dataflow logs list`
+- `gcloud beta dataflow metrics`
+- `gcloud beta dataflow metrics list`
+- `gcloud beta dataflow snapshots`
+- `gcloud beta dataflow snapshots create`
+- `gcloud beta dataflow snapshots delete`
+- `gcloud beta dataflow snapshots describe`
+- `gcloud beta dataflow snapshots list`
+- `gcloud beta dataflow yaml`
+- `gcloud beta dataflow yaml run`
+
+## datapipelines
+
+- `gcloud beta datapipelines`
+- `gcloud beta datapipelines pipeline`
+- `gcloud beta datapipelines pipeline create`
+- `gcloud beta datapipelines pipeline delete`
+- `gcloud beta datapipelines pipeline describe`
+- `gcloud beta datapipelines pipeline job`
+- `gcloud beta datapipelines pipeline job list`
+- `gcloud beta datapipelines pipeline list`
+- `gcloud beta datapipelines pipeline run`
+- `gcloud beta datapipelines pipeline stop`
+- `gcloud beta datapipelines pipeline update`
+
+## dataproc
+
+- `gcloud beta dataproc`
+- `gcloud beta dataproc autoscaling-policies`
+- `gcloud beta dataproc autoscaling-policies delete`
+- `gcloud beta dataproc autoscaling-policies describe`
+- `gcloud beta dataproc autoscaling-policies export`
+- `gcloud beta dataproc autoscaling-policies get-iam-policy`
+- `gcloud beta dataproc autoscaling-policies import`
+- `gcloud beta dataproc autoscaling-policies list`
+- `gcloud beta dataproc autoscaling-policies set-iam-policy`
+- `gcloud beta dataproc batches`
+- `gcloud beta dataproc batches cancel`
+- `gcloud beta dataproc batches delete`
+- `gcloud beta dataproc batches describe`
+- `gcloud beta dataproc batches list`
+- `gcloud beta dataproc batches submit`
+- `gcloud beta dataproc batches submit pyspark`
+- `gcloud beta dataproc batches submit spark`
+- `gcloud beta dataproc batches submit spark-r`
+- `gcloud beta dataproc batches submit spark-sql`
+- `gcloud beta dataproc batches wait`
+- `gcloud beta dataproc clusters`
+- `gcloud beta dataproc clusters create`
+- `gcloud beta dataproc clusters create-from-file`
+- `gcloud beta dataproc clusters delete`
+- `gcloud beta dataproc clusters describe`
+- `gcloud beta dataproc clusters diagnose`
+- `gcloud beta dataproc clusters export`
+- `gcloud beta dataproc clusters get-iam-policy`
+- `gcloud beta dataproc clusters gke`
+- `gcloud beta dataproc clusters gke create`
+- `gcloud beta dataproc clusters import`
+- `gcloud beta dataproc clusters list`
+- `gcloud beta dataproc clusters set-iam-policy`
+- `gcloud beta dataproc clusters start`
+- `gcloud beta dataproc clusters stop`
+- `gcloud beta dataproc clusters update`
+- `gcloud beta dataproc jobs`
+- `gcloud beta dataproc jobs delete`
+- `gcloud beta dataproc jobs describe`
+- `gcloud beta dataproc jobs get-iam-policy`
+- `gcloud beta dataproc jobs kill`
+- `gcloud beta dataproc jobs list`
+- `gcloud beta dataproc jobs set-iam-policy`
+- `gcloud beta dataproc jobs submit`
+- `gcloud beta dataproc jobs submit flink`
+- `gcloud beta dataproc jobs submit hadoop`
+- `gcloud beta dataproc jobs submit hive`
+- `gcloud beta dataproc jobs submit pig`
+- `gcloud beta dataproc jobs submit presto`
+- `gcloud beta dataproc jobs submit pyspark`
+- `gcloud beta dataproc jobs submit spark`
+- `gcloud beta dataproc jobs submit spark-r`
+- `gcloud beta dataproc jobs submit spark-sql`
+- `gcloud beta dataproc jobs submit trino`
+- `gcloud beta dataproc jobs update`
+- `gcloud beta dataproc jobs wait`
+- `gcloud beta dataproc node-groups`
+- `gcloud beta dataproc node-groups describe`
+- `gcloud beta dataproc node-groups resize`
+- `gcloud beta dataproc operations`
+- `gcloud beta dataproc operations cancel`
+- `gcloud beta dataproc operations delete`
+- `gcloud beta dataproc operations describe`
+- `gcloud beta dataproc operations get-iam-policy`
+- `gcloud beta dataproc operations list`
+- `gcloud beta dataproc operations set-iam-policy`
+- `gcloud beta dataproc session-templates`
+- `gcloud beta dataproc session-templates delete`
+- `gcloud beta dataproc session-templates describe`
+- `gcloud beta dataproc session-templates export`
+- `gcloud beta dataproc session-templates import`
+- `gcloud beta dataproc session-templates list`
+- `gcloud beta dataproc sessions`
+- `gcloud beta dataproc sessions create`
+- `gcloud beta dataproc sessions create spark`
+- `gcloud beta dataproc sessions delete`
+- `gcloud beta dataproc sessions describe`
+- `gcloud beta dataproc sessions list`
+- `gcloud beta dataproc sessions terminate`
+- `gcloud beta dataproc workflow-templates`
+- `gcloud beta dataproc workflow-templates add-job`
+- `gcloud beta dataproc workflow-templates add-job hadoop`
+- `gcloud beta dataproc workflow-templates add-job hive`
+- `gcloud beta dataproc workflow-templates add-job pig`
+- `gcloud beta dataproc workflow-templates add-job presto`
+- `gcloud beta dataproc workflow-templates add-job pyspark`
+- `gcloud beta dataproc workflow-templates add-job spark`
+- `gcloud beta dataproc workflow-templates add-job spark-r`
+- `gcloud beta dataproc workflow-templates add-job spark-sql`
+- `gcloud beta dataproc workflow-templates add-job trino`
+- `gcloud beta dataproc workflow-templates create`
+- `gcloud beta dataproc workflow-templates delete`
+- `gcloud beta dataproc workflow-templates describe`
+- `gcloud beta dataproc workflow-templates export`
+- `gcloud beta dataproc workflow-templates get-iam-policy`
+- `gcloud beta dataproc workflow-templates import`
+- `gcloud beta dataproc workflow-templates instantiate`
+- `gcloud beta dataproc workflow-templates instantiate-from-file`
+- `gcloud beta dataproc workflow-templates list`
+- `gcloud beta dataproc workflow-templates remove-dag-timeout`
+- `gcloud beta dataproc workflow-templates remove-job`
+- `gcloud beta dataproc workflow-templates run`
+- `gcloud beta dataproc workflow-templates set-cluster-selector`
+- `gcloud beta dataproc workflow-templates set-dag-timeout`
+- `gcloud beta dataproc workflow-templates set-iam-policy`
+- `gcloud beta dataproc workflow-templates set-managed-cluster`
+
+## datastore
+
+- `gcloud beta datastore`
+- `gcloud beta datastore export`
+- `gcloud beta datastore import`
+- `gcloud beta datastore indexes`
+- `gcloud beta datastore indexes cleanup`
+- `gcloud beta datastore indexes create`
+- `gcloud beta datastore indexes describe`
+- `gcloud beta datastore indexes list`
+- `gcloud beta datastore operations`
+- `gcloud beta datastore operations cancel`
+- `gcloud beta datastore operations delete`
+- `gcloud beta datastore operations describe`
+- `gcloud beta datastore operations list`
+
+## datastream
+
+- `gcloud beta datastream`
+- `gcloud beta datastream connection-profiles`
+- `gcloud beta datastream connection-profiles create`
+- `gcloud beta datastream connection-profiles delete`
+- `gcloud beta datastream connection-profiles describe`
+- `gcloud beta datastream connection-profiles discover`
+- `gcloud beta datastream connection-profiles list`
+- `gcloud beta datastream connection-profiles update`
+- `gcloud beta datastream locations`
+- `gcloud beta datastream locations describe`
+- `gcloud beta datastream locations fetch-static-ips`
+- `gcloud beta datastream locations list`
+- `gcloud beta datastream operations`
+- `gcloud beta datastream operations cancel`
+- `gcloud beta datastream operations delete`
+- `gcloud beta datastream operations describe`
+- `gcloud beta datastream operations list`
+- `gcloud beta datastream private-connections`
+- `gcloud beta datastream private-connections create`
+- `gcloud beta datastream private-connections delete`
+- `gcloud beta datastream private-connections describe`
+- `gcloud beta datastream private-connections list`
+- `gcloud beta datastream routes`
+- `gcloud beta datastream routes create`
+- `gcloud beta datastream routes delete`
+- `gcloud beta datastream routes describe`
+- `gcloud beta datastream routes list`
+- `gcloud beta datastream streams`
+- `gcloud beta datastream streams create`
+- `gcloud beta datastream streams delete`
+- `gcloud beta datastream streams describe`
+- `gcloud beta datastream streams list`
+- `gcloud beta datastream streams update`
+
+## deploy
+
+- `gcloud beta deploy`
+- `gcloud beta deploy apply`
+- `gcloud beta deploy automation-runs`
+- `gcloud beta deploy automation-runs cancel`
+- `gcloud beta deploy automation-runs describe`
+- `gcloud beta deploy automation-runs list`
+- `gcloud beta deploy automations`
+- `gcloud beta deploy automations delete`
+- `gcloud beta deploy automations describe`
+- `gcloud beta deploy automations export`
+- `gcloud beta deploy automations list`
+- `gcloud beta deploy custom-target-types`
+- `gcloud beta deploy custom-target-types add-iam-policy-binding`
+- `gcloud beta deploy custom-target-types delete`
+- `gcloud beta deploy custom-target-types describe`
+- `gcloud beta deploy custom-target-types export`
+- `gcloud beta deploy custom-target-types get-iam-policy`
+- `gcloud beta deploy custom-target-types list`
+- `gcloud beta deploy custom-target-types remove-iam-policy-binding`
+- `gcloud beta deploy custom-target-types set-iam-policy`
+- `gcloud beta deploy delete`
+- `gcloud beta deploy delivery-pipelines`
+- `gcloud beta deploy delivery-pipelines add-iam-policy-binding`
+- `gcloud beta deploy delivery-pipelines delete`
+- `gcloud beta deploy delivery-pipelines describe`
+- `gcloud beta deploy delivery-pipelines export`
+- `gcloud beta deploy delivery-pipelines get-iam-policy`
+- `gcloud beta deploy delivery-pipelines list`
+- `gcloud beta deploy delivery-pipelines remove-iam-policy-binding`
+- `gcloud beta deploy delivery-pipelines set-iam-policy`
+- `gcloud beta deploy deploy-policies`
+- `gcloud beta deploy deploy-policies add-iam-policy-binding`
+- `gcloud beta deploy deploy-policies delete`
+- `gcloud beta deploy deploy-policies describe`
+- `gcloud beta deploy deploy-policies export`
+- `gcloud beta deploy deploy-policies get-iam-policy`
+- `gcloud beta deploy deploy-policies remove-iam-policy-binding`
+- `gcloud beta deploy deploy-policies set-iam-policy`
+- `gcloud beta deploy get-config`
+- `gcloud beta deploy job-runs`
+- `gcloud beta deploy job-runs describe`
+- `gcloud beta deploy job-runs list`
+- `gcloud beta deploy job-runs terminate`
+- `gcloud beta deploy releases`
+- `gcloud beta deploy releases abandon`
+- `gcloud beta deploy releases create`
+- `gcloud beta deploy releases describe`
+- `gcloud beta deploy releases list`
+- `gcloud beta deploy releases promote`
+- `gcloud beta deploy rollouts`
+- `gcloud beta deploy rollouts advance`
+- `gcloud beta deploy rollouts approve`
+- `gcloud beta deploy rollouts cancel`
+- `gcloud beta deploy rollouts describe`
+- `gcloud beta deploy rollouts ignore-job`
+- `gcloud beta deploy rollouts list`
+- `gcloud beta deploy rollouts reject`
+- `gcloud beta deploy rollouts retry-job`
+- `gcloud beta deploy targets`
+- `gcloud beta deploy targets add-iam-policy-binding`
+- `gcloud beta deploy targets delete`
+- `gcloud beta deploy targets describe`
+- `gcloud beta deploy targets export`
+- `gcloud beta deploy targets get-iam-policy`
+- `gcloud beta deploy targets list`
+- `gcloud beta deploy targets redeploy`
+- `gcloud beta deploy targets remove-iam-policy-binding`
+- `gcloud beta deploy targets rollback`
+- `gcloud beta deploy targets set-iam-policy`
+
+## deployment-manager
+
+- `gcloud beta deployment-manager`
+- `gcloud beta deployment-manager deployments`
+- `gcloud beta deployment-manager deployments cancel-preview`
+- `gcloud beta deployment-manager deployments create`
+- `gcloud beta deployment-manager deployments delete`
+- `gcloud beta deployment-manager deployments describe`
+- `gcloud beta deployment-manager deployments list`
+- `gcloud beta deployment-manager deployments stop`
+- `gcloud beta deployment-manager deployments update`
+- `gcloud beta deployment-manager manifests`
+- `gcloud beta deployment-manager manifests describe`
+- `gcloud beta deployment-manager manifests list`
+- `gcloud beta deployment-manager operations`
+- `gcloud beta deployment-manager operations describe`
+- `gcloud beta deployment-manager operations list`
+- `gcloud beta deployment-manager operations wait`
+- `gcloud beta deployment-manager resources`
+- `gcloud beta deployment-manager resources describe`
+- `gcloud beta deployment-manager resources list`
+- `gcloud beta deployment-manager type-providers`
+- `gcloud beta deployment-manager type-providers create`
+- `gcloud beta deployment-manager type-providers delete`
+- `gcloud beta deployment-manager type-providers describe`
+- `gcloud beta deployment-manager type-providers list`
+- `gcloud beta deployment-manager type-providers update`
+- `gcloud beta deployment-manager types`
+- `gcloud beta deployment-manager types create`
+- `gcloud beta deployment-manager types delete`
+- `gcloud beta deployment-manager types describe`
+- `gcloud beta deployment-manager types list`
+- `gcloud beta deployment-manager types update`
+
+## developer-connect
+
+- `gcloud beta developer-connect`
+- `gcloud beta developer-connect connections`
+- `gcloud beta developer-connect connections create`
+- `gcloud beta developer-connect connections delete`
+- `gcloud beta developer-connect connections describe`
+- `gcloud beta developer-connect connections git-repository-links`
+- `gcloud beta developer-connect connections git-repository-links create`
+- `gcloud beta developer-connect connections git-repository-links delete`
+- `gcloud beta developer-connect connections git-repository-links describe`
+- `gcloud beta developer-connect connections git-repository-links fetch-read-token`
+- `gcloud beta developer-connect connections git-repository-links fetch-read-write-token`
+- `gcloud beta developer-connect connections git-repository-links list`
+- `gcloud beta developer-connect connections git-repository-links update`
+- `gcloud beta developer-connect connections list`
+- `gcloud beta developer-connect connections update`
+- `gcloud beta developer-connect insights-configs`
+- `gcloud beta developer-connect insights-configs create`
+- `gcloud beta developer-connect insights-configs delete`
+- `gcloud beta developer-connect insights-configs describe`
+- `gcloud beta developer-connect insights-configs list`
+- `gcloud beta developer-connect insights-configs update`
+- `gcloud beta developer-connect operations`
+- `gcloud beta developer-connect operations cancel`
+- `gcloud beta developer-connect operations delete`
+- `gcloud beta developer-connect operations describe`
+- `gcloud beta developer-connect operations list`
+- `gcloud beta developer-connect operations wait`
+
+## dns
+
+- `gcloud beta dns`
+- `gcloud beta dns dns-keys`
+- `gcloud beta dns dns-keys describe`
+- `gcloud beta dns dns-keys list`
+- `gcloud beta dns managed-zones`
+- `gcloud beta dns managed-zones create`
+- `gcloud beta dns managed-zones delete`
+- `gcloud beta dns managed-zones describe`
+- `gcloud beta dns managed-zones get-iam-policy`
+- `gcloud beta dns managed-zones list`
+- `gcloud beta dns managed-zones set-iam-policy`
+- `gcloud beta dns managed-zones update`
+- `gcloud beta dns operations`
+- `gcloud beta dns operations describe`
+- `gcloud beta dns operations list`
+- `gcloud beta dns policies`
+- `gcloud beta dns policies create`
+- `gcloud beta dns policies delete`
+- `gcloud beta dns policies describe`
+- `gcloud beta dns policies list`
+- `gcloud beta dns policies update`
+- `gcloud beta dns project-info`
+- `gcloud beta dns project-info describe`
+- `gcloud beta dns record-sets`
+- `gcloud beta dns record-sets changes`
+- `gcloud beta dns record-sets changes describe`
+- `gcloud beta dns record-sets changes list`
+- `gcloud beta dns record-sets create`
+- `gcloud beta dns record-sets delete`
+- `gcloud beta dns record-sets describe`
+- `gcloud beta dns record-sets export`
+- `gcloud beta dns record-sets import`
+- `gcloud beta dns record-sets list`
+- `gcloud beta dns record-sets transaction`
+- `gcloud beta dns record-sets transaction abort`
+- `gcloud beta dns record-sets transaction add`
+- `gcloud beta dns record-sets transaction describe`
+- `gcloud beta dns record-sets transaction execute`
+- `gcloud beta dns record-sets transaction remove`
+- `gcloud beta dns record-sets transaction start`
+- `gcloud beta dns record-sets update`
+- `gcloud beta dns response-policies`
+- `gcloud beta dns response-policies create`
+- `gcloud beta dns response-policies delete`
+- `gcloud beta dns response-policies describe`
+- `gcloud beta dns response-policies list`
+- `gcloud beta dns response-policies rules`
+- `gcloud beta dns response-policies rules create`
+- `gcloud beta dns response-policies rules delete`
+- `gcloud beta dns response-policies rules describe`
+- `gcloud beta dns response-policies rules list`
+- `gcloud beta dns response-policies rules update`
+- `gcloud beta dns response-policies update`
+
+## domains
+
+- `gcloud beta domains`
+- `gcloud beta domains list-user-verified`
+- `gcloud beta domains registrations`
+- `gcloud beta domains registrations authorization-code`
+- `gcloud beta domains registrations authorization-code get`
+- `gcloud beta domains registrations authorization-code reset`
+- `gcloud beta domains registrations configure`
+- `gcloud beta domains registrations configure contacts`
+- `gcloud beta domains registrations configure dns`
+- `gcloud beta domains registrations configure management`
+- `gcloud beta domains registrations delete`
+- `gcloud beta domains registrations describe`
+- `gcloud beta domains registrations get-register-parameters`
+- `gcloud beta domains registrations google-domains-dns`
+- `gcloud beta domains registrations google-domains-dns export-dns-record-sets`
+- `gcloud beta domains registrations google-domains-dns get-forwarding-config`
+- `gcloud beta domains registrations initiate-push-transfer`
+- `gcloud beta domains registrations list`
+- `gcloud beta domains registrations operations`
+- `gcloud beta domains registrations operations describe`
+- `gcloud beta domains registrations operations list`
+- `gcloud beta domains registrations operations wait`
+- `gcloud beta domains registrations register`
+- `gcloud beta domains registrations renew-domain`
+- `gcloud beta domains registrations search-domains`
+- `gcloud beta domains registrations update`
+- `gcloud beta domains verify`
+
+## emulators
+
+- `gcloud beta emulators`
+- `gcloud beta emulators bigtable`
+- `gcloud beta emulators bigtable env-init`
+- `gcloud beta emulators bigtable start`
+- `gcloud beta emulators datastore`
+- `gcloud beta emulators datastore env-init`
+- `gcloud beta emulators datastore env-unset`
+- `gcloud beta emulators datastore start`
+- `gcloud beta emulators firestore`
+- `gcloud beta emulators firestore start`
+- `gcloud beta emulators pubsub`
+- `gcloud beta emulators pubsub env-init`
+- `gcloud beta emulators pubsub start`
+- `gcloud beta emulators spanner`
+- `gcloud beta emulators spanner env-init`
+- `gcloud beta emulators spanner notices`
+- `gcloud beta emulators spanner start`
+
+## endpoints
+
+- `gcloud beta endpoints`
+- `gcloud beta endpoints configs`
+- `gcloud beta endpoints configs describe`
+- `gcloud beta endpoints configs list`
+- `gcloud beta endpoints operations`
+- `gcloud beta endpoints operations describe`
+- `gcloud beta endpoints operations list`
+- `gcloud beta endpoints operations wait`
+- `gcloud beta endpoints services`
+- `gcloud beta endpoints services add-iam-policy-binding`
+- `gcloud beta endpoints services check-iam-policy`
+- `gcloud beta endpoints services delete`
+- `gcloud beta endpoints services deploy`
+- `gcloud beta endpoints services describe`
+- `gcloud beta endpoints services get-iam-policy`
+- `gcloud beta endpoints services list`
+- `gcloud beta endpoints services remove-iam-policy-binding`
+- `gcloud beta endpoints services undelete`
+
+## error-reporting
+
+- `gcloud beta error-reporting`
+- `gcloud beta error-reporting events`
+- `gcloud beta error-reporting events delete`
+- `gcloud beta error-reporting events report`
+
+## essential-contacts
+
+- `gcloud beta essential-contacts`
+- `gcloud beta essential-contacts compute`
+- `gcloud beta essential-contacts create`
+- `gcloud beta essential-contacts delete`
+- `gcloud beta essential-contacts describe`
+- `gcloud beta essential-contacts list`
+- `gcloud beta essential-contacts update`
+
+## eventarc
+
+- `gcloud beta eventarc`
+- `gcloud beta eventarc enrollments`
+- `gcloud beta eventarc enrollments create`
+- `gcloud beta eventarc enrollments delete`
+- `gcloud beta eventarc enrollments describe`
+- `gcloud beta eventarc enrollments list`
+- `gcloud beta eventarc enrollments update`
+- `gcloud beta eventarc google-api-sources`
+- `gcloud beta eventarc google-api-sources create`
+- `gcloud beta eventarc google-api-sources delete`
+- `gcloud beta eventarc google-api-sources describe`
+- `gcloud beta eventarc google-api-sources list`
+- `gcloud beta eventarc google-api-sources update`
+- `gcloud beta eventarc message-buses`
+- `gcloud beta eventarc message-buses create`
+- `gcloud beta eventarc message-buses delete`
+- `gcloud beta eventarc message-buses describe`
+- `gcloud beta eventarc message-buses list`
+- `gcloud beta eventarc message-buses list-enrollments`
+- `gcloud beta eventarc message-buses publish`
+- `gcloud beta eventarc message-buses update`
+- `gcloud beta eventarc pipelines`
+- `gcloud beta eventarc pipelines create`
+- `gcloud beta eventarc pipelines delete`
+- `gcloud beta eventarc pipelines describe`
+- `gcloud beta eventarc pipelines list`
+- `gcloud beta eventarc pipelines update`
+
+## filestore
+
+- `gcloud beta filestore`
+- `gcloud beta filestore backups`
+- `gcloud beta filestore backups create`
+- `gcloud beta filestore backups delete`
+- `gcloud beta filestore backups describe`
+- `gcloud beta filestore backups list`
+- `gcloud beta filestore backups update`
+- `gcloud beta filestore instances`
+- `gcloud beta filestore instances create`
+- `gcloud beta filestore instances delete`
+- `gcloud beta filestore instances describe`
+- `gcloud beta filestore instances list`
+- `gcloud beta filestore instances pause-replica`
+- `gcloud beta filestore instances promote-replica`
+- `gcloud beta filestore instances restore`
+- `gcloud beta filestore instances resume-replica`
+- `gcloud beta filestore instances revert`
+- `gcloud beta filestore instances snapshots`
+- `gcloud beta filestore instances snapshots create`
+- `gcloud beta filestore instances snapshots delete`
+- `gcloud beta filestore instances snapshots describe`
+- `gcloud beta filestore instances snapshots list`
+- `gcloud beta filestore instances snapshots update`
+- `gcloud beta filestore instances update`
+- `gcloud beta filestore locations`
+- `gcloud beta filestore locations describe`
+- `gcloud beta filestore locations list`
+- `gcloud beta filestore operations`
+- `gcloud beta filestore operations cancel`
+- `gcloud beta filestore operations describe`
+- `gcloud beta filestore operations list`
+- `gcloud beta filestore regions`
+- `gcloud beta filestore regions list`
+- `gcloud beta filestore zones`
+- `gcloud beta filestore zones list`
+
+## firebase
+
+- `gcloud beta firebase`
+- `gcloud beta firebase test`
+- `gcloud beta firebase test android`
+- `gcloud beta firebase test android list-device-capacities`
+- `gcloud beta firebase test android locales`
+- `gcloud beta firebase test android locales describe`
+- `gcloud beta firebase test android locales list`
+- `gcloud beta firebase test android models`
+- `gcloud beta firebase test android models describe`
+- `gcloud beta firebase test android models list`
+- `gcloud beta firebase test android run`
+- `gcloud beta firebase test android versions`
+- `gcloud beta firebase test android versions describe`
+- `gcloud beta firebase test android versions list`
+- `gcloud beta firebase test ios`
+- `gcloud beta firebase test ios list-device-capacities`
+- `gcloud beta firebase test ios locales`
+- `gcloud beta firebase test ios locales describe`
+- `gcloud beta firebase test ios locales list`
+- `gcloud beta firebase test ios models`
+- `gcloud beta firebase test ios models describe`
+- `gcloud beta firebase test ios models list`
+- `gcloud beta firebase test ios run`
+- `gcloud beta firebase test ios versions`
+- `gcloud beta firebase test ios versions describe`
+- `gcloud beta firebase test ios versions list`
+- `gcloud beta firebase test ip-blocks`
+- `gcloud beta firebase test ip-blocks list`
+- `gcloud beta firebase test network-profiles`
+- `gcloud beta firebase test network-profiles describe`
+- `gcloud beta firebase test network-profiles list`
+
+## firebase-data-connect
+
+- `gcloud beta firebase-data-connect`
+
+## firestore
+
+- `gcloud beta firestore`
+- `gcloud beta firestore backups`
+- `gcloud beta firestore backups delete`
+- `gcloud beta firestore backups describe`
+- `gcloud beta firestore backups list`
+- `gcloud beta firestore backups schedules`
+- `gcloud beta firestore backups schedules create`
+- `gcloud beta firestore backups schedules delete`
+- `gcloud beta firestore backups schedules describe`
+- `gcloud beta firestore backups schedules list`
+- `gcloud beta firestore backups schedules update`
+- `gcloud beta firestore bulk-delete`
+- `gcloud beta firestore databases`
+- `gcloud beta firestore databases clone`
+- `gcloud beta firestore databases connection-string`
+- `gcloud beta firestore databases create`
+- `gcloud beta firestore databases delete`
+- `gcloud beta firestore databases describe`
+- `gcloud beta firestore databases list`
+- `gcloud beta firestore databases ping`
+- `gcloud beta firestore databases restore`
+- `gcloud beta firestore databases update`
+- `gcloud beta firestore export`
+- `gcloud beta firestore fields`
+- `gcloud beta firestore fields ttls`
+- `gcloud beta firestore fields ttls list`
+- `gcloud beta firestore fields ttls update`
+- `gcloud beta firestore import`
+- `gcloud beta firestore indexes`
+- `gcloud beta firestore indexes composite`
+- `gcloud beta firestore indexes composite create`
+- `gcloud beta firestore indexes composite delete`
+- `gcloud beta firestore indexes composite describe`
+- `gcloud beta firestore indexes composite list`
+- `gcloud beta firestore indexes fields`
+- `gcloud beta firestore indexes fields describe`
+- `gcloud beta firestore indexes fields list`
+- `gcloud beta firestore indexes fields update`
+- `gcloud beta firestore locations`
+- `gcloud beta firestore locations list`
+- `gcloud beta firestore operations`
+- `gcloud beta firestore operations cancel`
+- `gcloud beta firestore operations delete`
+- `gcloud beta firestore operations describe`
+- `gcloud beta firestore operations list`
+- `gcloud beta firestore user-creds`
+- `gcloud beta firestore user-creds create`
+- `gcloud beta firestore user-creds delete`
+- `gcloud beta firestore user-creds describe`
+- `gcloud beta firestore user-creds disable`
+- `gcloud beta firestore user-creds enable`
+- `gcloud beta firestore user-creds list`
+- `gcloud beta firestore user-creds reset-password`
+
+## functions
+
+- `gcloud beta functions`
+- `gcloud beta functions add-iam-policy-binding`
+- `gcloud beta functions add-invoker-policy-binding`
+- `gcloud beta functions call`
+- `gcloud beta functions delete`
+- `gcloud beta functions deploy`
+- `gcloud beta functions describe`
+- `gcloud beta functions detach`
+- `gcloud beta functions event-types`
+- `gcloud beta functions event-types list`
+- `gcloud beta functions get-iam-policy`
+- `gcloud beta functions list`
+- `gcloud beta functions logs`
+- `gcloud beta functions logs read`
+- `gcloud beta functions regions`
+- `gcloud beta functions regions list`
+- `gcloud beta functions remove-iam-policy-binding`
+- `gcloud beta functions remove-invoker-policy-binding`
+- `gcloud beta functions runtimes`
+- `gcloud beta functions runtimes list`
+- `gcloud beta functions set-iam-policy`
+- `gcloud beta functions upgrade`
+
+## gemini
+
+- `gcloud beta gemini`
+- `gcloud beta gemini cloud-assist`
+- `gcloud beta gemini cloud-assist investigations`
+- `gcloud beta gemini cloud-assist investigations add-iam-policy-binding`
+- `gcloud beta gemini cloud-assist investigations create`
+- `gcloud beta gemini cloud-assist investigations delete`
+- `gcloud beta gemini cloud-assist investigations describe`
+- `gcloud beta gemini cloud-assist investigations get-iam-policy`
+- `gcloud beta gemini cloud-assist investigations list`
+- `gcloud beta gemini cloud-assist investigations remove-iam-policy-binding`
+- `gcloud beta gemini cloud-assist investigations set-iam-policy`
+- `gcloud beta gemini cloud-assist investigations update`
+
+## healthcare
+
+- `gcloud beta healthcare`
+- `gcloud beta healthcare consent-stores`
+- `gcloud beta healthcare consent-stores add-iam-policy-binding`
+- `gcloud beta healthcare consent-stores check-data-access`
+- `gcloud beta healthcare consent-stores create`
+- `gcloud beta healthcare consent-stores delete`
+- `gcloud beta healthcare consent-stores describe`
+- `gcloud beta healthcare consent-stores evaluate-user-consents`
+- `gcloud beta healthcare consent-stores get-iam-policy`
+- `gcloud beta healthcare consent-stores list`
+- `gcloud beta healthcare consent-stores query-accessible-data`
+- `gcloud beta healthcare consent-stores remove-iam-policy-binding`
+- `gcloud beta healthcare consent-stores set-iam-policy`
+- `gcloud beta healthcare consent-stores update`
+- `gcloud beta healthcare datasets`
+- `gcloud beta healthcare datasets add-iam-policy-binding`
+- `gcloud beta healthcare datasets create`
+- `gcloud beta healthcare datasets deidentify`
+- `gcloud beta healthcare datasets delete`
+- `gcloud beta healthcare datasets describe`
+- `gcloud beta healthcare datasets get-iam-policy`
+- `gcloud beta healthcare datasets list`
+- `gcloud beta healthcare datasets remove-iam-policy-binding`
+- `gcloud beta healthcare datasets set-iam-policy`
+- `gcloud beta healthcare datasets update`
+- `gcloud beta healthcare dicom-stores`
+- `gcloud beta healthcare dicom-stores add-iam-policy-binding`
+- `gcloud beta healthcare dicom-stores create`
+- `gcloud beta healthcare dicom-stores deidentify`
+- `gcloud beta healthcare dicom-stores delete`
+- `gcloud beta healthcare dicom-stores describe`
+- `gcloud beta healthcare dicom-stores export`
+- `gcloud beta healthcare dicom-stores export bq`
+- `gcloud beta healthcare dicom-stores export gcs`
+- `gcloud beta healthcare dicom-stores get-iam-policy`
+- `gcloud beta healthcare dicom-stores import`
+- `gcloud beta healthcare dicom-stores import gcs`
+- `gcloud beta healthcare dicom-stores list`
+- `gcloud beta healthcare dicom-stores metrics`
+- `gcloud beta healthcare dicom-stores remove-iam-policy-binding`
+- `gcloud beta healthcare dicom-stores set-iam-policy`
+- `gcloud beta healthcare dicom-stores update`
+- `gcloud beta healthcare fhir-stores`
+- `gcloud beta healthcare fhir-stores add-iam-policy-binding`
+- `gcloud beta healthcare fhir-stores create`
+- `gcloud beta healthcare fhir-stores deidentify`
+- `gcloud beta healthcare fhir-stores delete`
+- `gcloud beta healthcare fhir-stores describe`
+- `gcloud beta healthcare fhir-stores export`
+- `gcloud beta healthcare fhir-stores export bq`
+- `gcloud beta healthcare fhir-stores export gcs`
+- `gcloud beta healthcare fhir-stores get-iam-policy`
+- `gcloud beta healthcare fhir-stores import`
+- `gcloud beta healthcare fhir-stores import gcs`
+- `gcloud beta healthcare fhir-stores list`
+- `gcloud beta healthcare fhir-stores metrics`
+- `gcloud beta healthcare fhir-stores remove-iam-policy-binding`
+- `gcloud beta healthcare fhir-stores set-iam-policy`
+- `gcloud beta healthcare fhir-stores update`
+- `gcloud beta healthcare hl7v2-stores`
+- `gcloud beta healthcare hl7v2-stores add-iam-policy-binding`
+- `gcloud beta healthcare hl7v2-stores create`
+- `gcloud beta healthcare hl7v2-stores delete`
+- `gcloud beta healthcare hl7v2-stores describe`
+- `gcloud beta healthcare hl7v2-stores export`
+- `gcloud beta healthcare hl7v2-stores export gcs`
+- `gcloud beta healthcare hl7v2-stores get-iam-policy`
+- `gcloud beta healthcare hl7v2-stores import`
+- `gcloud beta healthcare hl7v2-stores import gcs`
+- `gcloud beta healthcare hl7v2-stores list`
+- `gcloud beta healthcare hl7v2-stores metrics`
+- `gcloud beta healthcare hl7v2-stores remove-iam-policy-binding`
+- `gcloud beta healthcare hl7v2-stores set-iam-policy`
+- `gcloud beta healthcare hl7v2-stores update`
+- `gcloud beta healthcare nlp`
+- `gcloud beta healthcare nlp analyze-entities`
+- `gcloud beta healthcare operations`
+- `gcloud beta healthcare operations describe`
+- `gcloud beta healthcare operations list`
+
+## help
+
+- `gcloud beta help`
+
+## iam
+
+- `gcloud beta iam`
+- `gcloud beta iam access-policies`
+- `gcloud beta iam access-policies create`
+- `gcloud beta iam access-policies delete`
+- `gcloud beta iam access-policies describe`
+- `gcloud beta iam access-policies list`
+- `gcloud beta iam access-policies search-policy-bindings`
+- `gcloud beta iam access-policies update`
+- `gcloud beta iam list-grantable-roles`
+- `gcloud beta iam list-testable-permissions`
+- `gcloud beta iam policies`
+- `gcloud beta iam policies create`
+- `gcloud beta iam policies delete`
+- `gcloud beta iam policies get`
+- `gcloud beta iam policies list`
+- `gcloud beta iam policies update`
+- `gcloud beta iam policy-bindings`
+- `gcloud beta iam policy-bindings create`
+- `gcloud beta iam policy-bindings delete`
+- `gcloud beta iam policy-bindings describe`
+- `gcloud beta iam policy-bindings list`
+- `gcloud beta iam policy-bindings search-target-policy-bindings`
+- `gcloud beta iam policy-bindings update`
+- `gcloud beta iam principal-access-boundary-policies`
+- `gcloud beta iam principal-access-boundary-policies create`
+- `gcloud beta iam principal-access-boundary-policies delete`
+- `gcloud beta iam principal-access-boundary-policies describe`
+- `gcloud beta iam principal-access-boundary-policies list`
+- `gcloud beta iam principal-access-boundary-policies search-policy-bindings`
+- `gcloud beta iam principal-access-boundary-policies update`
+- `gcloud beta iam roles`
+- `gcloud beta iam roles copy`
+- `gcloud beta iam roles create`
+- `gcloud beta iam roles delete`
+- `gcloud beta iam roles describe`
+- `gcloud beta iam roles list`
+- `gcloud beta iam roles undelete`
+- `gcloud beta iam roles update`
+- `gcloud beta iam service-accounts`
+- `gcloud beta iam service-accounts add-iam-policy-binding`
+- `gcloud beta iam service-accounts create`
+- `gcloud beta iam service-accounts delete`
+- `gcloud beta iam service-accounts describe`
+- `gcloud beta iam service-accounts disable`
+- `gcloud beta iam service-accounts enable`
+- `gcloud beta iam service-accounts get-iam-policy`
+- `gcloud beta iam service-accounts keys`
+- `gcloud beta iam service-accounts keys create`
+- `gcloud beta iam service-accounts keys delete`
+- `gcloud beta iam service-accounts keys disable`
+- `gcloud beta iam service-accounts keys enable`
+- `gcloud beta iam service-accounts keys get-public-key`
+- `gcloud beta iam service-accounts keys list`
+- `gcloud beta iam service-accounts keys upload`
+- `gcloud beta iam service-accounts list`
+- `gcloud beta iam service-accounts remove-iam-policy-binding`
+- `gcloud beta iam service-accounts set-iam-policy`
+- `gcloud beta iam service-accounts sign-blob`
+- `gcloud beta iam service-accounts sign-jwt`
+- `gcloud beta iam service-accounts undelete`
+- `gcloud beta iam service-accounts update`
+- `gcloud beta iam workforce-pools`
+- `gcloud beta iam workforce-pools create`
+- `gcloud beta iam workforce-pools create-cred-config`
+- `gcloud beta iam workforce-pools create-login-config`
+- `gcloud beta iam workforce-pools delete`
+- `gcloud beta iam workforce-pools describe`
+- `gcloud beta iam workforce-pools list`
+- `gcloud beta iam workforce-pools operations`
+- `gcloud beta iam workforce-pools operations describe`
+- `gcloud beta iam workforce-pools providers`
+- `gcloud beta iam workforce-pools providers create-oidc`
+- `gcloud beta iam workforce-pools providers delete`
+- `gcloud beta iam workforce-pools providers describe`
+- `gcloud beta iam workforce-pools providers keys`
+- `gcloud beta iam workforce-pools providers keys create`
+- `gcloud beta iam workforce-pools providers keys delete`
+- `gcloud beta iam workforce-pools providers keys describe`
+- `gcloud beta iam workforce-pools providers keys list`
+- `gcloud beta iam workforce-pools providers keys operations`
+- `gcloud beta iam workforce-pools providers keys operations describe`
+- `gcloud beta iam workforce-pools providers keys undelete`
+- `gcloud beta iam workforce-pools providers list`
+- `gcloud beta iam workforce-pools providers operations`
+- `gcloud beta iam workforce-pools providers operations describe`
+- `gcloud beta iam workforce-pools providers scim-tenants`
+- `gcloud beta iam workforce-pools providers scim-tenants create`
+- `gcloud beta iam workforce-pools providers scim-tenants delete`
+- `gcloud beta iam workforce-pools providers scim-tenants describe`
+- `gcloud beta iam workforce-pools providers scim-tenants list`
+- `gcloud beta iam workforce-pools providers scim-tenants tokens`
+- `gcloud beta iam workforce-pools providers scim-tenants tokens create`
+- `gcloud beta iam workforce-pools providers scim-tenants tokens delete`
+- `gcloud beta iam workforce-pools providers scim-tenants tokens describe`
+- `gcloud beta iam workforce-pools providers scim-tenants tokens list`
+- `gcloud beta iam workforce-pools providers scim-tenants tokens update`
+- `gcloud beta iam workforce-pools providers scim-tenants undelete`
+- `gcloud beta iam workforce-pools providers scim-tenants update`
+- `gcloud beta iam workforce-pools providers undelete`
+- `gcloud beta iam workforce-pools providers update-oidc`
+- `gcloud beta iam workforce-pools undelete`
+- `gcloud beta iam workforce-pools update`
+- `gcloud beta iam workload-identity-pools`
+- `gcloud beta iam workload-identity-pools create`
+- `gcloud beta iam workload-identity-pools create-cred-config`
+- `gcloud beta iam workload-identity-pools delete`
+- `gcloud beta iam workload-identity-pools describe`
+- `gcloud beta iam workload-identity-pools list`
+- `gcloud beta iam workload-identity-pools operations`
+- `gcloud beta iam workload-identity-pools operations describe`
+- `gcloud beta iam workload-identity-pools providers`
+- `gcloud beta iam workload-identity-pools providers create-aws`
+- `gcloud beta iam workload-identity-pools providers create-oidc`
+- `gcloud beta iam workload-identity-pools providers delete`
+- `gcloud beta iam workload-identity-pools providers describe`
+- `gcloud beta iam workload-identity-pools providers list`
+- `gcloud beta iam workload-identity-pools providers operations`
+- `gcloud beta iam workload-identity-pools providers operations describe`
+- `gcloud beta iam workload-identity-pools providers undelete`
+- `gcloud beta iam workload-identity-pools providers update-aws`
+- `gcloud beta iam workload-identity-pools providers update-oidc`
+- `gcloud beta iam workload-identity-pools undelete`
+- `gcloud beta iam workload-identity-pools update`
+
+## iap
+
+- `gcloud beta iap`
+- `gcloud beta iap oauth-brands`
+- `gcloud beta iap oauth-brands create`
+- `gcloud beta iap oauth-brands describe`
+- `gcloud beta iap oauth-brands list`
+- `gcloud beta iap oauth-clients`
+- `gcloud beta iap oauth-clients create`
+- `gcloud beta iap oauth-clients delete`
+- `gcloud beta iap oauth-clients describe`
+- `gcloud beta iap oauth-clients list`
+- `gcloud beta iap oauth-clients reset-secret`
+- `gcloud beta iap settings`
+- `gcloud beta iap settings get`
+- `gcloud beta iap settings set`
+- `gcloud beta iap tcp`
+- `gcloud beta iap tcp dest-groups`
+- `gcloud beta iap tcp dest-groups add-iam-policy-binding`
+- `gcloud beta iap tcp dest-groups create`
+- `gcloud beta iap tcp dest-groups delete`
+- `gcloud beta iap tcp dest-groups describe`
+- `gcloud beta iap tcp dest-groups get-iam-policy`
+- `gcloud beta iap tcp dest-groups list`
+- `gcloud beta iap tcp dest-groups remove-iam-policy-binding`
+- `gcloud beta iap tcp dest-groups set-iam-policy`
+- `gcloud beta iap tcp dest-groups update`
+- `gcloud beta iap web`
+- `gcloud beta iap web add-iam-policy-binding`
+- `gcloud beta iap web disable`
+- `gcloud beta iap web enable`
+- `gcloud beta iap web get-iam-policy`
+- `gcloud beta iap web remove-iam-policy-binding`
+- `gcloud beta iap web set-iam-policy`
+
+## identity
+
+- `gcloud beta identity`
+- `gcloud beta identity groups`
+- `gcloud beta identity groups create`
+- `gcloud beta identity groups delete`
+- `gcloud beta identity groups describe`
+- `gcloud beta identity groups memberships`
+- `gcloud beta identity groups memberships add`
+- `gcloud beta identity groups memberships check-transitive-membership`
+- `gcloud beta identity groups memberships delete`
+- `gcloud beta identity groups memberships describe`
+- `gcloud beta identity groups memberships get-membership-graph`
+- `gcloud beta identity groups memberships list`
+- `gcloud beta identity groups memberships modify-membership-roles`
+- `gcloud beta identity groups memberships search-transitive-groups`
+- `gcloud beta identity groups memberships search-transitive-memberships`
+- `gcloud beta identity groups preview`
+- `gcloud beta identity groups search`
+- `gcloud beta identity groups update`
+
+## ids
+
+- `gcloud beta ids`
+- `gcloud beta ids endpoints`
+- `gcloud beta ids endpoints create`
+- `gcloud beta ids endpoints delete`
+- `gcloud beta ids endpoints describe`
+- `gcloud beta ids endpoints list`
+- `gcloud beta ids endpoints update`
+
+## init
+
+- `gcloud beta init`
+
+## interactive
+
+- `gcloud beta interactive`
+
+## kms
+
+- `gcloud beta kms`
+- `gcloud beta kms asymmetric-decrypt`
+- `gcloud beta kms asymmetric-sign`
+- `gcloud beta kms autokey-config`
+- `gcloud beta kms autokey-config describe`
+- `gcloud beta kms autokey-config show-effective-config`
+- `gcloud beta kms autokey-config update`
+- `gcloud beta kms decapsulate`
+- `gcloud beta kms decrypt`
+- `gcloud beta kms ekm-config`
+- `gcloud beta kms ekm-config add-iam-policy-binding`
+- `gcloud beta kms ekm-config describe`
+- `gcloud beta kms ekm-config get-iam-policy`
+- `gcloud beta kms ekm-config remove-iam-policy-binding`
+- `gcloud beta kms ekm-config set-iam-policy`
+- `gcloud beta kms ekm-config update`
+- `gcloud beta kms ekm-connections`
+- `gcloud beta kms ekm-connections add-iam-policy-binding`
+- `gcloud beta kms ekm-connections create`
+- `gcloud beta kms ekm-connections describe`
+- `gcloud beta kms ekm-connections get-iam-policy`
+- `gcloud beta kms ekm-connections list`
+- `gcloud beta kms ekm-connections remove-iam-policy-binding`
+- `gcloud beta kms ekm-connections set-iam-policy`
+- `gcloud beta kms ekm-connections update`
+- `gcloud beta kms encrypt`
+- `gcloud beta kms import-jobs`
+- `gcloud beta kms import-jobs add-iam-policy-binding`
+- `gcloud beta kms import-jobs create`
+- `gcloud beta kms import-jobs describe`
+- `gcloud beta kms import-jobs get-iam-policy`
+- `gcloud beta kms import-jobs list`
+- `gcloud beta kms import-jobs remove-iam-policy-binding`
+- `gcloud beta kms import-jobs set-iam-policy`
+- `gcloud beta kms inventory`
+- `gcloud beta kms inventory get-protected-resources-summary`
+- `gcloud beta kms inventory list-keys`
+- `gcloud beta kms inventory search-protected-resources`
+- `gcloud beta kms kaj-config`
+- `gcloud beta kms kaj-config describe`
+- `gcloud beta kms kaj-config show-effective-config`
+- `gcloud beta kms kaj-config update`
+- `gcloud beta kms kaj-enrollment`
+- `gcloud beta kms kaj-enrollment show-effective-config`
+- `gcloud beta kms key-handles`
+- `gcloud beta kms key-handles create`
+- `gcloud beta kms key-handles describe`
+- `gcloud beta kms key-handles list`
+- `gcloud beta kms keyrings`
+- `gcloud beta kms keyrings add-iam-policy-binding`
+- `gcloud beta kms keyrings create`
+- `gcloud beta kms keyrings describe`
+- `gcloud beta kms keyrings get-iam-policy`
+- `gcloud beta kms keyrings list`
+- `gcloud beta kms keyrings remove-iam-policy-binding`
+- `gcloud beta kms keyrings set-iam-policy`
+- `gcloud beta kms keys`
+- `gcloud beta kms keys add-iam-policy-binding`
+- `gcloud beta kms keys create`
+- `gcloud beta kms keys delete`
+- `gcloud beta kms keys describe`
+- `gcloud beta kms keys get-iam-policy`
+- `gcloud beta kms keys list`
+- `gcloud beta kms keys remove-iam-policy-binding`
+- `gcloud beta kms keys remove-rotation-schedule`
+- `gcloud beta kms keys set-iam-policy`
+- `gcloud beta kms keys set-primary-version`
+- `gcloud beta kms keys set-rotation-schedule`
+- `gcloud beta kms keys update`
+- `gcloud beta kms keys versions`
+- `gcloud beta kms keys versions create`
+- `gcloud beta kms keys versions delete`
+- `gcloud beta kms keys versions describe`
+- `gcloud beta kms keys versions destroy`
+- `gcloud beta kms keys versions disable`
+- `gcloud beta kms keys versions enable`
+- `gcloud beta kms keys versions get-certificate-chain`
+- `gcloud beta kms keys versions get-public-key`
+- `gcloud beta kms keys versions import`
+- `gcloud beta kms keys versions list`
+- `gcloud beta kms keys versions restore`
+- `gcloud beta kms keys versions update`
+- `gcloud beta kms locations`
+- `gcloud beta kms locations list`
+- `gcloud beta kms mac-sign`
+- `gcloud beta kms mac-verify`
+- `gcloud beta kms operations`
+- `gcloud beta kms operations describe`
+- `gcloud beta kms raw-decrypt`
+- `gcloud beta kms raw-encrypt`
+- `gcloud beta kms retired-resources`
+- `gcloud beta kms retired-resources describe`
+- `gcloud beta kms retired-resources list`
+- `gcloud beta kms single-tenant-hsm`
+- `gcloud beta kms single-tenant-hsm create`
+- `gcloud beta kms single-tenant-hsm describe`
+- `gcloud beta kms single-tenant-hsm list`
+- `gcloud beta kms single-tenant-hsm proposal`
+- `gcloud beta kms single-tenant-hsm proposal approve`
+- `gcloud beta kms single-tenant-hsm proposal create`
+- `gcloud beta kms single-tenant-hsm proposal delete`
+- `gcloud beta kms single-tenant-hsm proposal describe`
+- `gcloud beta kms single-tenant-hsm proposal execute`
+- `gcloud beta kms single-tenant-hsm proposal list`
+
+## logging
+
+- `gcloud beta logging`
+- `gcloud beta logging buckets`
+- `gcloud beta logging buckets create`
+- `gcloud beta logging buckets delete`
+- `gcloud beta logging buckets describe`
+- `gcloud beta logging buckets list`
+- `gcloud beta logging buckets undelete`
+- `gcloud beta logging buckets update`
+- `gcloud beta logging copy`
+- `gcloud beta logging links`
+- `gcloud beta logging links create`
+- `gcloud beta logging links delete`
+- `gcloud beta logging links describe`
+- `gcloud beta logging links list`
+- `gcloud beta logging locations`
+- `gcloud beta logging locations describe`
+- `gcloud beta logging locations list`
+- `gcloud beta logging logs`
+- `gcloud beta logging logs delete`
+- `gcloud beta logging logs list`
+- `gcloud beta logging metrics`
+- `gcloud beta logging metrics create`
+- `gcloud beta logging metrics delete`
+- `gcloud beta logging metrics describe`
+- `gcloud beta logging metrics list`
+- `gcloud beta logging metrics update`
+- `gcloud beta logging operations`
+- `gcloud beta logging operations cancel`
+- `gcloud beta logging operations describe`
+- `gcloud beta logging operations list`
+- `gcloud beta logging read`
+- `gcloud beta logging resource-descriptors`
+- `gcloud beta logging resource-descriptors list`
+- `gcloud beta logging settings`
+- `gcloud beta logging settings describe`
+- `gcloud beta logging settings update`
+- `gcloud beta logging sinks`
+- `gcloud beta logging sinks create`
+- `gcloud beta logging sinks delete`
+- `gcloud beta logging sinks describe`
+- `gcloud beta logging sinks list`
+- `gcloud beta logging sinks update`
+- `gcloud beta logging tail`
+- `gcloud beta logging views`
+- `gcloud beta logging views create`
+- `gcloud beta logging views delete`
+- `gcloud beta logging views describe`
+- `gcloud beta logging views list`
+- `gcloud beta logging views update`
+- `gcloud beta logging write`
+
+## managed-kafka
+
+- `gcloud beta managed-kafka`
+- `gcloud beta managed-kafka acls`
+- `gcloud beta managed-kafka acls add-acl-entry`
+- `gcloud beta managed-kafka acls create`
+- `gcloud beta managed-kafka acls delete`
+- `gcloud beta managed-kafka acls describe`
+- `gcloud beta managed-kafka acls list`
+- `gcloud beta managed-kafka acls remove-acl-entry`
+- `gcloud beta managed-kafka acls update`
+- `gcloud beta managed-kafka clusters`
+- `gcloud beta managed-kafka clusters create`
+- `gcloud beta managed-kafka clusters delete`
+- `gcloud beta managed-kafka clusters describe`
+- `gcloud beta managed-kafka clusters list`
+- `gcloud beta managed-kafka clusters update`
+- `gcloud beta managed-kafka connect-clusters`
+- `gcloud beta managed-kafka connect-clusters create`
+- `gcloud beta managed-kafka connect-clusters delete`
+- `gcloud beta managed-kafka connect-clusters describe`
+- `gcloud beta managed-kafka connect-clusters list`
+- `gcloud beta managed-kafka connect-clusters update`
+- `gcloud beta managed-kafka connectors`
+- `gcloud beta managed-kafka connectors create`
+- `gcloud beta managed-kafka connectors delete`
+- `gcloud beta managed-kafka connectors describe`
+- `gcloud beta managed-kafka connectors list`
+- `gcloud beta managed-kafka connectors pause`
+- `gcloud beta managed-kafka connectors restart`
+- `gcloud beta managed-kafka connectors resume`
+- `gcloud beta managed-kafka connectors stop`
+- `gcloud beta managed-kafka connectors update`
+- `gcloud beta managed-kafka consumer-groups`
+- `gcloud beta managed-kafka consumer-groups delete`
+- `gcloud beta managed-kafka consumer-groups describe`
+- `gcloud beta managed-kafka consumer-groups list`
+- `gcloud beta managed-kafka consumer-groups update`
+- `gcloud beta managed-kafka operations`
+- `gcloud beta managed-kafka operations describe`
+- `gcloud beta managed-kafka operations list`
+- `gcloud beta managed-kafka schema-registries`
+- `gcloud beta managed-kafka schema-registries create`
+- `gcloud beta managed-kafka schema-registries delete`
+- `gcloud beta managed-kafka schema-registries describe`
+- `gcloud beta managed-kafka schema-registries list`
+- `gcloud beta managed-kafka topics`
+- `gcloud beta managed-kafka topics create`
+- `gcloud beta managed-kafka topics delete`
+- `gcloud beta managed-kafka topics describe`
+- `gcloud beta managed-kafka topics list`
+- `gcloud beta managed-kafka topics update`
+
+## memcache
+
+- `gcloud beta memcache`
+- `gcloud beta memcache instances`
+- `gcloud beta memcache instances apply-parameters`
+- `gcloud beta memcache instances apply-software-update`
+- `gcloud beta memcache instances create`
+- `gcloud beta memcache instances delete`
+- `gcloud beta memcache instances describe`
+- `gcloud beta memcache instances list`
+- `gcloud beta memcache instances reschedule-maintenance`
+- `gcloud beta memcache instances update`
+- `gcloud beta memcache instances upgrade`
+- `gcloud beta memcache operations`
+- `gcloud beta memcache operations delete`
+- `gcloud beta memcache operations describe`
+- `gcloud beta memcache operations list`
+- `gcloud beta memcache regions`
+- `gcloud beta memcache regions describe`
+- `gcloud beta memcache regions list`
+
+## memorystore
+
+- `gcloud beta memorystore`
+- `gcloud beta memorystore acl-policies`
+- `gcloud beta memorystore acl-policies create`
+- `gcloud beta memorystore acl-policies delete`
+- `gcloud beta memorystore acl-policies describe`
+- `gcloud beta memorystore acl-policies list`
+- `gcloud beta memorystore acl-policies update`
+- `gcloud beta memorystore backup-collections`
+- `gcloud beta memorystore backup-collections backups`
+- `gcloud beta memorystore backup-collections backups delete`
+- `gcloud beta memorystore backup-collections backups describe`
+- `gcloud beta memorystore backup-collections backups export`
+- `gcloud beta memorystore backup-collections backups list`
+- `gcloud beta memorystore backup-collections describe`
+- `gcloud beta memorystore backup-collections list`
+- `gcloud beta memorystore instances`
+- `gcloud beta memorystore instances backup`
+- `gcloud beta memorystore instances create`
+- `gcloud beta memorystore instances create-token-auth-user`
+- `gcloud beta memorystore instances delete`
+- `gcloud beta memorystore instances describe`
+- `gcloud beta memorystore instances finish-migration`
+- `gcloud beta memorystore instances get-certificate-authority`
+- `gcloud beta memorystore instances get-shared-regional-certificate-authority`
+- `gcloud beta memorystore instances list`
+- `gcloud beta memorystore instances reschedule-maintenance`
+- `gcloud beta memorystore instances start-migration`
+- `gcloud beta memorystore instances token-auth-users`
+- `gcloud beta memorystore instances token-auth-users auth-tokens`
+- `gcloud beta memorystore instances token-auth-users auth-tokens delete`
+- `gcloud beta memorystore instances token-auth-users auth-tokens describe`
+- `gcloud beta memorystore instances token-auth-users auth-tokens list`
+- `gcloud beta memorystore instances token-auth-users create-auth-token`
+- `gcloud beta memorystore instances token-auth-users delete`
+- `gcloud beta memorystore instances token-auth-users describe`
+- `gcloud beta memorystore instances token-auth-users list`
+- `gcloud beta memorystore instances update`
+- `gcloud beta memorystore locations`
+- `gcloud beta memorystore locations describe`
+- `gcloud beta memorystore locations list`
+- `gcloud beta memorystore operations`
+- `gcloud beta memorystore operations cancel`
+- `gcloud beta memorystore operations delete`
+- `gcloud beta memorystore operations describe`
+- `gcloud beta memorystore operations list`
+
+## metastore
+
+- `gcloud beta metastore`
+- `gcloud beta metastore federations`
+- `gcloud beta metastore federations add-iam-policy-binding`
+- `gcloud beta metastore federations create`
+- `gcloud beta metastore federations delete`
+- `gcloud beta metastore federations describe`
+- `gcloud beta metastore federations get-iam-policy`
+- `gcloud beta metastore federations list`
+- `gcloud beta metastore federations remove-iam-policy-binding`
+- `gcloud beta metastore federations set-iam-policy`
+- `gcloud beta metastore federations update`
+- `gcloud beta metastore locations`
+- `gcloud beta metastore locations describe`
+- `gcloud beta metastore locations list`
+- `gcloud beta metastore operations`
+- `gcloud beta metastore operations cancel`
+- `gcloud beta metastore operations delete`
+- `gcloud beta metastore operations describe`
+- `gcloud beta metastore operations list`
+- `gcloud beta metastore operations wait`
+- `gcloud beta metastore services`
+- `gcloud beta metastore services add-iam-policy-binding`
+- `gcloud beta metastore services alter-metadata-resource-location`
+- `gcloud beta metastore services alter-table-properties`
+- `gcloud beta metastore services backups`
+- `gcloud beta metastore services backups add-iam-policy-binding`
+- `gcloud beta metastore services backups create`
+- `gcloud beta metastore services backups delete`
+- `gcloud beta metastore services backups describe`
+- `gcloud beta metastore services backups get-iam-policy`
+- `gcloud beta metastore services backups list`
+- `gcloud beta metastore services backups remove-iam-policy-binding`
+- `gcloud beta metastore services backups set-iam-policy`
+- `gcloud beta metastore services create`
+- `gcloud beta metastore services databases`
+- `gcloud beta metastore services databases add-iam-policy-binding`
+- `gcloud beta metastore services databases get-iam-policy`
+- `gcloud beta metastore services databases remove-iam-policy-binding`
+- `gcloud beta metastore services databases set-iam-policy`
+- `gcloud beta metastore services databases tables`
+- `gcloud beta metastore services databases tables add-iam-policy-binding`
+- `gcloud beta metastore services databases tables get-iam-policy`
+- `gcloud beta metastore services databases tables remove-iam-policy-binding`
+- `gcloud beta metastore services databases tables set-iam-policy`
+- `gcloud beta metastore services delete`
+- `gcloud beta metastore services describe`
+- `gcloud beta metastore services export`
+- `gcloud beta metastore services export gcs`
+- `gcloud beta metastore services get-iam-policy`
+- `gcloud beta metastore services import`
+- `gcloud beta metastore services import gcs`
+- `gcloud beta metastore services imports`
+- `gcloud beta metastore services imports create`
+- `gcloud beta metastore services imports describe`
+- `gcloud beta metastore services imports list`
+- `gcloud beta metastore services imports update`
+- `gcloud beta metastore services list`
+- `gcloud beta metastore services migrations`
+- `gcloud beta metastore services migrations cancel`
+- `gcloud beta metastore services migrations complete`
+- `gcloud beta metastore services migrations delete`
+- `gcloud beta metastore services migrations describe`
+- `gcloud beta metastore services migrations list`
+- `gcloud beta metastore services migrations start`
+- `gcloud beta metastore services move-table-to-database`
+- `gcloud beta metastore services query-metadata`
+- `gcloud beta metastore services remove-iam-policy-binding`
+- `gcloud beta metastore services restore`
+- `gcloud beta metastore services set-iam-policy`
+- `gcloud beta metastore services update`
+
+## ml
+
+- `gcloud beta ml`
+- `gcloud beta ml language`
+- `gcloud beta ml language analyze-entities`
+- `gcloud beta ml language analyze-entity-sentiment`
+- `gcloud beta ml language analyze-sentiment`
+- `gcloud beta ml language analyze-syntax`
+- `gcloud beta ml language classify-text`
+- `gcloud beta ml speech`
+- `gcloud beta ml speech operations`
+- `gcloud beta ml speech operations describe`
+- `gcloud beta ml speech operations wait`
+- `gcloud beta ml speech recognize`
+- `gcloud beta ml speech recognize-long-running`
+- `gcloud beta ml translate`
+- `gcloud beta ml translate batch-translate-text`
+- `gcloud beta ml translate detect-language`
+- `gcloud beta ml translate get-supported-languages`
+- `gcloud beta ml translate translate-text`
+- `gcloud beta ml video`
+- `gcloud beta ml video detect-explicit-content`
+- `gcloud beta ml video detect-labels`
+- `gcloud beta ml video detect-object`
+- `gcloud beta ml video detect-shot-changes`
+- `gcloud beta ml video detect-text`
+- `gcloud beta ml video operations`
+- `gcloud beta ml video operations describe`
+- `gcloud beta ml video operations wait`
+- `gcloud beta ml video transcribe-speech`
+- `gcloud beta ml vision`
+- `gcloud beta ml vision detect-document`
+- `gcloud beta ml vision detect-faces`
+- `gcloud beta ml vision detect-image-properties`
+- `gcloud beta ml vision detect-labels`
+- `gcloud beta ml vision detect-landmarks`
+- `gcloud beta ml vision detect-logos`
+- `gcloud beta ml vision detect-objects`
+- `gcloud beta ml vision detect-product`
+- `gcloud beta ml vision detect-safe-search`
+- `gcloud beta ml vision detect-text`
+- `gcloud beta ml vision detect-text-pdf`
+- `gcloud beta ml vision detect-text-tiff`
+- `gcloud beta ml vision detect-web`
+- `gcloud beta ml vision operations`
+- `gcloud beta ml vision operations describe`
+- `gcloud beta ml vision product-search`
+- `gcloud beta ml vision product-search images`
+- `gcloud beta ml vision product-search images create`
+- `gcloud beta ml vision product-search images delete`
+- `gcloud beta ml vision product-search images describe`
+- `gcloud beta ml vision product-search images list`
+- `gcloud beta ml vision product-search product-sets`
+- `gcloud beta ml vision product-search product-sets add-product`
+- `gcloud beta ml vision product-search product-sets create`
+- `gcloud beta ml vision product-search product-sets delete`
+- `gcloud beta ml vision product-search product-sets describe`
+- `gcloud beta ml vision product-search product-sets import`
+- `gcloud beta ml vision product-search product-sets list`
+- `gcloud beta ml vision product-search product-sets list-products`
+- `gcloud beta ml vision product-search product-sets remove-product`
+- `gcloud beta ml vision product-search product-sets update`
+- `gcloud beta ml vision product-search products`
+- `gcloud beta ml vision product-search products create`
+- `gcloud beta ml vision product-search products delete`
+- `gcloud beta ml vision product-search products describe`
+- `gcloud beta ml vision product-search products list`
+- `gcloud beta ml vision product-search products update`
+- `gcloud beta ml vision suggest-crop`
+
+## model-armor
+
+- `gcloud beta model-armor`
+- `gcloud beta model-armor floorsettings`
+- `gcloud beta model-armor floorsettings describe`
+- `gcloud beta model-armor floorsettings update`
+- `gcloud beta model-armor templates`
+- `gcloud beta model-armor templates create`
+- `gcloud beta model-armor templates delete`
+- `gcloud beta model-armor templates describe`
+- `gcloud beta model-armor templates list`
+- `gcloud beta model-armor templates sanitize-model-response`
+- `gcloud beta model-armor templates sanitize-user-prompt`
+- `gcloud beta model-armor templates update`
+
+## monitoring
+
+- `gcloud beta monitoring`
+- `gcloud beta monitoring alerts`
+- `gcloud beta monitoring alerts describe`
+- `gcloud beta monitoring alerts list`
+- `gcloud beta monitoring channel-descriptors`
+- `gcloud beta monitoring channel-descriptors describe`
+- `gcloud beta monitoring channel-descriptors list`
+- `gcloud beta monitoring channels`
+- `gcloud beta monitoring channels create`
+- `gcloud beta monitoring channels delete`
+- `gcloud beta monitoring channels describe`
+- `gcloud beta monitoring channels list`
+- `gcloud beta monitoring channels update`
+- `gcloud beta monitoring dashboards`
+- `gcloud beta monitoring dashboards create`
+- `gcloud beta monitoring dashboards delete`
+- `gcloud beta monitoring dashboards describe`
+- `gcloud beta monitoring dashboards list`
+- `gcloud beta monitoring dashboards update`
+- `gcloud beta monitoring metrics-scopes`
+- `gcloud beta monitoring metrics-scopes create`
+- `gcloud beta monitoring metrics-scopes delete`
+- `gcloud beta monitoring metrics-scopes describe`
+- `gcloud beta monitoring metrics-scopes list`
+- `gcloud beta monitoring policies`
+- `gcloud beta monitoring policies conditions`
+- `gcloud beta monitoring policies conditions create`
+- `gcloud beta monitoring policies conditions delete`
+- `gcloud beta monitoring policies conditions describe`
+- `gcloud beta monitoring policies conditions update`
+- `gcloud beta monitoring policies create`
+- `gcloud beta monitoring policies delete`
+- `gcloud beta monitoring policies describe`
+- `gcloud beta monitoring policies list`
+- `gcloud beta monitoring policies migrate`
+- `gcloud beta monitoring policies update`
+- `gcloud beta monitoring snoozes`
+- `gcloud beta monitoring snoozes cancel`
+- `gcloud beta monitoring snoozes create`
+- `gcloud beta monitoring snoozes describe`
+- `gcloud beta monitoring snoozes list`
+- `gcloud beta monitoring snoozes update`
+- `gcloud beta monitoring uptime`
+- `gcloud beta monitoring uptime create`
+- `gcloud beta monitoring uptime delete`
+- `gcloud beta monitoring uptime describe`
+- `gcloud beta monitoring uptime list-configs`
+- `gcloud beta monitoring uptime list-ips`
+- `gcloud beta monitoring uptime update`
+
+## netapp
+
+- `gcloud beta netapp`
+- `gcloud beta netapp active-directories`
+- `gcloud beta netapp active-directories create`
+- `gcloud beta netapp active-directories delete`
+- `gcloud beta netapp active-directories describe`
+- `gcloud beta netapp active-directories list`
+- `gcloud beta netapp active-directories update`
+- `gcloud beta netapp backup-policies`
+- `gcloud beta netapp backup-policies create`
+- `gcloud beta netapp backup-policies delete`
+- `gcloud beta netapp backup-policies describe`
+- `gcloud beta netapp backup-policies list`
+- `gcloud beta netapp backup-policies update`
+- `gcloud beta netapp backup-vaults`
+- `gcloud beta netapp backup-vaults backups`
+- `gcloud beta netapp backup-vaults backups create`
+- `gcloud beta netapp backup-vaults backups delete`
+- `gcloud beta netapp backup-vaults backups describe`
+- `gcloud beta netapp backup-vaults backups list`
+- `gcloud beta netapp backup-vaults backups update`
+- `gcloud beta netapp backup-vaults create`
+- `gcloud beta netapp backup-vaults delete`
+- `gcloud beta netapp backup-vaults describe`
+- `gcloud beta netapp backup-vaults list`
+- `gcloud beta netapp backup-vaults update`
+- `gcloud beta netapp host-groups`
+- `gcloud beta netapp host-groups create`
+- `gcloud beta netapp host-groups delete`
+- `gcloud beta netapp host-groups describe`
+- `gcloud beta netapp host-groups list`
+- `gcloud beta netapp host-groups update`
+- `gcloud beta netapp kms-configs`
+- `gcloud beta netapp kms-configs create`
+- `gcloud beta netapp kms-configs delete`
+- `gcloud beta netapp kms-configs describe`
+- `gcloud beta netapp kms-configs encrypt`
+- `gcloud beta netapp kms-configs list`
+- `gcloud beta netapp kms-configs update`
+- `gcloud beta netapp kms-configs verify`
+- `gcloud beta netapp locations`
+- `gcloud beta netapp locations describe`
+- `gcloud beta netapp locations list`
+- `gcloud beta netapp operations`
+- `gcloud beta netapp operations describe`
+- `gcloud beta netapp operations list`
+- `gcloud beta netapp storage-pools`
+- `gcloud beta netapp storage-pools create`
+- `gcloud beta netapp storage-pools delete`
+- `gcloud beta netapp storage-pools describe`
+- `gcloud beta netapp storage-pools execute`
+- `gcloud beta netapp storage-pools list`
+- `gcloud beta netapp storage-pools list-backup-configs`
+- `gcloud beta netapp storage-pools restore-volume`
+- `gcloud beta netapp storage-pools switch`
+- `gcloud beta netapp storage-pools update`
+- `gcloud beta netapp storage-pools update-backup-config`
+- `gcloud beta netapp storage-pools validate-directory-service`
+- `gcloud beta netapp volumes`
+- `gcloud beta netapp volumes create`
+- `gcloud beta netapp volumes delete`
+- `gcloud beta netapp volumes describe`
+- `gcloud beta netapp volumes establish-peering`
+- `gcloud beta netapp volumes list`
+- `gcloud beta netapp volumes quota-rules`
+- `gcloud beta netapp volumes quota-rules create`
+- `gcloud beta netapp volumes quota-rules delete`
+- `gcloud beta netapp volumes quota-rules describe`
+- `gcloud beta netapp volumes quota-rules list`
+- `gcloud beta netapp volumes quota-rules update`
+- `gcloud beta netapp volumes replications`
+- `gcloud beta netapp volumes replications create`
+- `gcloud beta netapp volumes replications delete`
+- `gcloud beta netapp volumes replications describe`
+- `gcloud beta netapp volumes replications establish-peering`
+- `gcloud beta netapp volumes replications list`
+- `gcloud beta netapp volumes replications resume`
+- `gcloud beta netapp volumes replications reverse`
+- `gcloud beta netapp volumes replications stop`
+- `gcloud beta netapp volumes replications sync`
+- `gcloud beta netapp volumes replications update`
+- `gcloud beta netapp volumes restore-backup-files`
+- `gcloud beta netapp volumes revert`
+- `gcloud beta netapp volumes snapshots`
+- `gcloud beta netapp volumes snapshots create`
+- `gcloud beta netapp volumes snapshots delete`
+- `gcloud beta netapp volumes snapshots describe`
+- `gcloud beta netapp volumes snapshots list`
+- `gcloud beta netapp volumes snapshots update`
+- `gcloud beta netapp volumes update`
+
+## network-connectivity
+
+- `gcloud beta network-connectivity`
+- `gcloud beta network-connectivity hubs`
+- `gcloud beta network-connectivity hubs accept-spoke`
+- `gcloud beta network-connectivity hubs accept-spoke-update`
+- `gcloud beta network-connectivity hubs add-iam-policy-binding`
+- `gcloud beta network-connectivity hubs create`
+- `gcloud beta network-connectivity hubs delete`
+- `gcloud beta network-connectivity hubs describe`
+- `gcloud beta network-connectivity hubs get-iam-policy`
+- `gcloud beta network-connectivity hubs groups`
+- `gcloud beta network-connectivity hubs groups add-iam-policy-binding`
+- `gcloud beta network-connectivity hubs groups describe`
+- `gcloud beta network-connectivity hubs groups get-iam-policy`
+- `gcloud beta network-connectivity hubs groups list`
+- `gcloud beta network-connectivity hubs groups remove-iam-policy-binding`
+- `gcloud beta network-connectivity hubs groups set-iam-policy`
+- `gcloud beta network-connectivity hubs groups update`
+- `gcloud beta network-connectivity hubs list`
+- `gcloud beta network-connectivity hubs list-spokes`
+- `gcloud beta network-connectivity hubs reject-spoke`
+- `gcloud beta network-connectivity hubs reject-spoke-update`
+- `gcloud beta network-connectivity hubs remove-iam-policy-binding`
+- `gcloud beta network-connectivity hubs route-tables`
+- `gcloud beta network-connectivity hubs route-tables describe`
+- `gcloud beta network-connectivity hubs route-tables list`
+- `gcloud beta network-connectivity hubs route-tables routes`
+- `gcloud beta network-connectivity hubs route-tables routes describe`
+- `gcloud beta network-connectivity hubs route-tables routes list`
+- `gcloud beta network-connectivity hubs set-iam-policy`
+- `gcloud beta network-connectivity hubs update`
+- `gcloud beta network-connectivity locations`
+- `gcloud beta network-connectivity locations describe`
+- `gcloud beta network-connectivity locations list`
+- `gcloud beta network-connectivity multicloud-data-transfer-configs`
+- `gcloud beta network-connectivity multicloud-data-transfer-configs create`
+- `gcloud beta network-connectivity multicloud-data-transfer-configs delete`
+- `gcloud beta network-connectivity multicloud-data-transfer-configs describe`
+- `gcloud beta network-connectivity multicloud-data-transfer-configs destinations`
+- `gcloud beta network-connectivity multicloud-data-transfer-configs destinations create`
+- `gcloud beta network-connectivity multicloud-data-transfer-configs destinations delete`
+- `gcloud beta network-connectivity multicloud-data-transfer-configs destinations describe`
+- `gcloud beta network-connectivity multicloud-data-transfer-configs destinations list`
+- `gcloud beta network-connectivity multicloud-data-transfer-configs destinations update`
+- `gcloud beta network-connectivity multicloud-data-transfer-configs list`
+- `gcloud beta network-connectivity multicloud-data-transfer-configs update`
+- `gcloud beta network-connectivity multicloud-data-transfer-supported-services`
+- `gcloud beta network-connectivity multicloud-data-transfer-supported-services describe`
+- `gcloud beta network-connectivity multicloud-data-transfer-supported-services list`
+- `gcloud beta network-connectivity operations`
+- `gcloud beta network-connectivity operations describe`
+- `gcloud beta network-connectivity operations list`
+- `gcloud beta network-connectivity policy-based-routes`
+- `gcloud beta network-connectivity policy-based-routes create`
+- `gcloud beta network-connectivity policy-based-routes delete`
+- `gcloud beta network-connectivity policy-based-routes describe`
+- `gcloud beta network-connectivity policy-based-routes list`
+- `gcloud beta network-connectivity regional-endpoints`
+- `gcloud beta network-connectivity regional-endpoints create`
+- `gcloud beta network-connectivity regional-endpoints delete`
+- `gcloud beta network-connectivity regional-endpoints describe`
+- `gcloud beta network-connectivity regional-endpoints list`
+- `gcloud beta network-connectivity spokes`
+- `gcloud beta network-connectivity spokes delete`
+- `gcloud beta network-connectivity spokes describe`
+- `gcloud beta network-connectivity spokes gateways`
+- `gcloud beta network-connectivity spokes gateways advertised-routes`
+- `gcloud beta network-connectivity spokes gateways advertised-routes create`
+- `gcloud beta network-connectivity spokes gateways advertised-routes delete`
+- `gcloud beta network-connectivity spokes gateways advertised-routes describe`
+- `gcloud beta network-connectivity spokes gateways advertised-routes list`
+- `gcloud beta network-connectivity spokes gateways create`
+- `gcloud beta network-connectivity spokes gateways update`
+- `gcloud beta network-connectivity spokes linked-interconnect-attachments`
+- `gcloud beta network-connectivity spokes linked-interconnect-attachments create`
+- `gcloud beta network-connectivity spokes linked-interconnect-attachments update`
+- `gcloud beta network-connectivity spokes linked-producer-vpc-network`
+- `gcloud beta network-connectivity spokes linked-producer-vpc-network create`
+- `gcloud beta network-connectivity spokes linked-producer-vpc-network update`
+- `gcloud beta network-connectivity spokes linked-router-appliances`
+- `gcloud beta network-connectivity spokes linked-router-appliances create`
+- `gcloud beta network-connectivity spokes linked-router-appliances update`
+- `gcloud beta network-connectivity spokes linked-vpc-network`
+- `gcloud beta network-connectivity spokes linked-vpc-network create`
+- `gcloud beta network-connectivity spokes linked-vpc-network update`
+- `gcloud beta network-connectivity spokes linked-vpn-tunnels`
+- `gcloud beta network-connectivity spokes linked-vpn-tunnels create`
+- `gcloud beta network-connectivity spokes linked-vpn-tunnels update`
+- `gcloud beta network-connectivity spokes list`
+- `gcloud beta network-connectivity transports`
+- `gcloud beta network-connectivity transports create`
+- `gcloud beta network-connectivity transports delete`
+- `gcloud beta network-connectivity transports describe`
+- `gcloud beta network-connectivity transports list`
+- `gcloud beta network-connectivity transports remote-profiles`
+- `gcloud beta network-connectivity transports remote-profiles describe`
+- `gcloud beta network-connectivity transports remote-profiles list`
+- `gcloud beta network-connectivity transports update`
+
+## network-management
+
+- `gcloud beta network-management`
+- `gcloud beta network-management connectivity-tests`
+- `gcloud beta network-management connectivity-tests create`
+- `gcloud beta network-management connectivity-tests delete`
+- `gcloud beta network-management connectivity-tests describe`
+- `gcloud beta network-management connectivity-tests list`
+- `gcloud beta network-management connectivity-tests rerun`
+- `gcloud beta network-management connectivity-tests update`
+- `gcloud beta network-management operations`
+- `gcloud beta network-management operations describe`
+- `gcloud beta network-management operations list`
+- `gcloud beta network-management vpc-flow-logs-configs`
+- `gcloud beta network-management vpc-flow-logs-configs create`
+- `gcloud beta network-management vpc-flow-logs-configs delete`
+- `gcloud beta network-management vpc-flow-logs-configs describe`
+- `gcloud beta network-management vpc-flow-logs-configs list`
+- `gcloud beta network-management vpc-flow-logs-configs query-org-vpc-flow-logs-configs`
+- `gcloud beta network-management vpc-flow-logs-configs show-effective-flow-logs-configs`
+- `gcloud beta network-management vpc-flow-logs-configs update`
+
+## network-security
+
+- `gcloud beta network-security`
+- `gcloud beta network-security address-groups`
+- `gcloud beta network-security address-groups add-items`
+- `gcloud beta network-security address-groups clone-items`
+- `gcloud beta network-security address-groups create`
+- `gcloud beta network-security address-groups delete`
+- `gcloud beta network-security address-groups describe`
+- `gcloud beta network-security address-groups list`
+- `gcloud beta network-security address-groups list-references`
+- `gcloud beta network-security address-groups remove-items`
+- `gcloud beta network-security address-groups update`
+- `gcloud beta network-security authorization-policies`
+- `gcloud beta network-security authorization-policies delete`
+- `gcloud beta network-security authorization-policies export`
+- `gcloud beta network-security authorization-policies import`
+- `gcloud beta network-security authorization-policies list`
+- `gcloud beta network-security authz-policies`
+- `gcloud beta network-security authz-policies delete`
+- `gcloud beta network-security authz-policies describe`
+- `gcloud beta network-security authz-policies import`
+- `gcloud beta network-security authz-policies list`
+- `gcloud beta network-security backend-authentication-configs`
+- `gcloud beta network-security backend-authentication-configs create`
+- `gcloud beta network-security backend-authentication-configs delete`
+- `gcloud beta network-security backend-authentication-configs describe`
+- `gcloud beta network-security backend-authentication-configs export`
+- `gcloud beta network-security backend-authentication-configs import`
+- `gcloud beta network-security backend-authentication-configs list`
+- `gcloud beta network-security client-tls-policies`
+- `gcloud beta network-security client-tls-policies delete`
+- `gcloud beta network-security client-tls-policies export`
+- `gcloud beta network-security client-tls-policies import`
+- `gcloud beta network-security client-tls-policies list`
+- `gcloud beta network-security dns-threat-detectors`
+- `gcloud beta network-security dns-threat-detectors create`
+- `gcloud beta network-security dns-threat-detectors delete`
+- `gcloud beta network-security dns-threat-detectors describe`
+- `gcloud beta network-security dns-threat-detectors list`
+- `gcloud beta network-security dns-threat-detectors update`
+- `gcloud beta network-security firewall-endpoint-associations`
+- `gcloud beta network-security firewall-endpoint-associations create`
+- `gcloud beta network-security firewall-endpoint-associations delete`
+- `gcloud beta network-security firewall-endpoint-associations describe`
+- `gcloud beta network-security firewall-endpoint-associations list`
+- `gcloud beta network-security firewall-endpoint-associations update`
+- `gcloud beta network-security firewall-endpoints`
+- `gcloud beta network-security firewall-endpoints create`
+- `gcloud beta network-security firewall-endpoints delete`
+- `gcloud beta network-security firewall-endpoints describe`
+- `gcloud beta network-security firewall-endpoints list`
+- `gcloud beta network-security firewall-endpoints update`
+- `gcloud beta network-security gateway-security-policies`
+- `gcloud beta network-security gateway-security-policies delete`
+- `gcloud beta network-security gateway-security-policies export`
+- `gcloud beta network-security gateway-security-policies import`
+- `gcloud beta network-security gateway-security-policies list`
+- `gcloud beta network-security gateway-security-policies rules`
+- `gcloud beta network-security gateway-security-policies rules delete`
+- `gcloud beta network-security gateway-security-policies rules export`
+- `gcloud beta network-security gateway-security-policies rules import`
+- `gcloud beta network-security gateway-security-policies rules list`
+- `gcloud beta network-security intercept-deployment-groups`
+- `gcloud beta network-security intercept-deployment-groups create`
+- `gcloud beta network-security intercept-deployment-groups delete`
+- `gcloud beta network-security intercept-deployment-groups describe`
+- `gcloud beta network-security intercept-deployment-groups list`
+- `gcloud beta network-security intercept-deployment-groups update`
+- `gcloud beta network-security intercept-deployments`
+- `gcloud beta network-security intercept-deployments create`
+- `gcloud beta network-security intercept-deployments delete`
+- `gcloud beta network-security intercept-deployments describe`
+- `gcloud beta network-security intercept-deployments list`
+- `gcloud beta network-security intercept-deployments update`
+- `gcloud beta network-security intercept-endpoint-group-associations`
+- `gcloud beta network-security intercept-endpoint-group-associations create`
+- `gcloud beta network-security intercept-endpoint-group-associations delete`
+- `gcloud beta network-security intercept-endpoint-group-associations describe`
+- `gcloud beta network-security intercept-endpoint-group-associations list`
+- `gcloud beta network-security intercept-endpoint-group-associations update`
+- `gcloud beta network-security intercept-endpoint-groups`
+- `gcloud beta network-security intercept-endpoint-groups create`
+- `gcloud beta network-security intercept-endpoint-groups delete`
+- `gcloud beta network-security intercept-endpoint-groups describe`
+- `gcloud beta network-security intercept-endpoint-groups list`
+- `gcloud beta network-security intercept-endpoint-groups update`
+- `gcloud beta network-security mirroring-deployment-groups`
+- `gcloud beta network-security mirroring-deployment-groups create`
+- `gcloud beta network-security mirroring-deployment-groups delete`
+- `gcloud beta network-security mirroring-deployment-groups describe`
+- `gcloud beta network-security mirroring-deployment-groups list`
+- `gcloud beta network-security mirroring-deployment-groups update`
+- `gcloud beta network-security mirroring-deployments`
+- `gcloud beta network-security mirroring-deployments create`
+- `gcloud beta network-security mirroring-deployments delete`
+- `gcloud beta network-security mirroring-deployments describe`
+- `gcloud beta network-security mirroring-deployments list`
+- `gcloud beta network-security mirroring-deployments update`
+- `gcloud beta network-security mirroring-endpoint-group-associations`
+- `gcloud beta network-security mirroring-endpoint-group-associations create`
+- `gcloud beta network-security mirroring-endpoint-group-associations delete`
+- `gcloud beta network-security mirroring-endpoint-group-associations describe`
+- `gcloud beta network-security mirroring-endpoint-group-associations list`
+- `gcloud beta network-security mirroring-endpoint-group-associations update`
+- `gcloud beta network-security mirroring-endpoint-groups`
+- `gcloud beta network-security mirroring-endpoint-groups create`
+- `gcloud beta network-security mirroring-endpoint-groups delete`
+- `gcloud beta network-security mirroring-endpoint-groups describe`
+- `gcloud beta network-security mirroring-endpoint-groups list`
+- `gcloud beta network-security mirroring-endpoint-groups update`
+- `gcloud beta network-security org-address-groups`
+- `gcloud beta network-security org-address-groups add-items`
+- `gcloud beta network-security org-address-groups clone-items`
+- `gcloud beta network-security org-address-groups create`
+- `gcloud beta network-security org-address-groups delete`
+- `gcloud beta network-security org-address-groups describe`
+- `gcloud beta network-security org-address-groups list`
+- `gcloud beta network-security org-address-groups list-references`
+- `gcloud beta network-security org-address-groups remove-items`
+- `gcloud beta network-security org-address-groups update`
+- `gcloud beta network-security secure-access-connect`
+- `gcloud beta network-security secure-access-connect attachments`
+- `gcloud beta network-security secure-access-connect attachments create`
+- `gcloud beta network-security secure-access-connect attachments delete`
+- `gcloud beta network-security secure-access-connect attachments describe`
+- `gcloud beta network-security secure-access-connect attachments list`
+- `gcloud beta network-security secure-access-connect realms`
+- `gcloud beta network-security secure-access-connect realms create`
+- `gcloud beta network-security secure-access-connect realms delete`
+- `gcloud beta network-security secure-access-connect realms describe`
+- `gcloud beta network-security secure-access-connect realms list`
+- `gcloud beta network-security security-profile-groups`
+- `gcloud beta network-security security-profile-groups create`
+- `gcloud beta network-security security-profile-groups delete`
+- `gcloud beta network-security security-profile-groups describe`
+- `gcloud beta network-security security-profile-groups list`
+- `gcloud beta network-security security-profile-groups update`
+- `gcloud beta network-security security-profiles`
+- `gcloud beta network-security security-profiles custom-intercept`
+- `gcloud beta network-security security-profiles custom-intercept create`
+- `gcloud beta network-security security-profiles custom-intercept delete`
+- `gcloud beta network-security security-profiles custom-intercept describe`
+- `gcloud beta network-security security-profiles custom-intercept list`
+- `gcloud beta network-security security-profiles custom-intercept update`
+- `gcloud beta network-security security-profiles custom-mirroring`
+- `gcloud beta network-security security-profiles custom-mirroring create`
+- `gcloud beta network-security security-profiles custom-mirroring delete`
+- `gcloud beta network-security security-profiles custom-mirroring describe`
+- `gcloud beta network-security security-profiles custom-mirroring list`
+- `gcloud beta network-security security-profiles custom-mirroring update`
+- `gcloud beta network-security security-profiles delete`
+- `gcloud beta network-security security-profiles describe`
+- `gcloud beta network-security security-profiles export`
+- `gcloud beta network-security security-profiles import`
+- `gcloud beta network-security security-profiles list`
+- `gcloud beta network-security security-profiles threat-prevention`
+- `gcloud beta network-security security-profiles threat-prevention add-override`
+- `gcloud beta network-security security-profiles threat-prevention create`
+- `gcloud beta network-security security-profiles threat-prevention delete`
+- `gcloud beta network-security security-profiles threat-prevention delete-override`
+- `gcloud beta network-security security-profiles threat-prevention describe`
+- `gcloud beta network-security security-profiles threat-prevention list`
+- `gcloud beta network-security security-profiles threat-prevention list-overrides`
+- `gcloud beta network-security security-profiles threat-prevention update-override`
+- `gcloud beta network-security security-profiles url-filtering`
+- `gcloud beta network-security security-profiles url-filtering create`
+- `gcloud beta network-security security-profiles url-filtering delete`
+- `gcloud beta network-security security-profiles url-filtering describe`
+- `gcloud beta network-security security-profiles url-filtering list`
+- `gcloud beta network-security server-tls-policies`
+- `gcloud beta network-security server-tls-policies delete`
+- `gcloud beta network-security server-tls-policies describe`
+- `gcloud beta network-security server-tls-policies export`
+- `gcloud beta network-security server-tls-policies import`
+- `gcloud beta network-security server-tls-policies list`
+- `gcloud beta network-security tls-inspection-policies`
+- `gcloud beta network-security tls-inspection-policies delete`
+- `gcloud beta network-security tls-inspection-policies export`
+- `gcloud beta network-security tls-inspection-policies import`
+- `gcloud beta network-security tls-inspection-policies list`
+- `gcloud beta network-security url-lists`
+- `gcloud beta network-security url-lists delete`
+- `gcloud beta network-security url-lists export`
+- `gcloud beta network-security url-lists import`
+- `gcloud beta network-security url-lists list`
+
+## network-services
+
+- `gcloud beta network-services`
+- `gcloud beta network-services agent-gateways`
+- `gcloud beta network-services agent-gateways delete`
+- `gcloud beta network-services agent-gateways describe`
+- `gcloud beta network-services agent-gateways export`
+- `gcloud beta network-services agent-gateways import`
+- `gcloud beta network-services agent-gateways list`
+- `gcloud beta network-services endpoint-policies`
+- `gcloud beta network-services endpoint-policies delete`
+- `gcloud beta network-services endpoint-policies describe`
+- `gcloud beta network-services endpoint-policies export`
+- `gcloud beta network-services endpoint-policies import`
+- `gcloud beta network-services endpoint-policies list`
+- `gcloud beta network-services multicast-consumer-associations`
+- `gcloud beta network-services multicast-consumer-associations create`
+- `gcloud beta network-services multicast-consumer-associations delete`
+- `gcloud beta network-services multicast-consumer-associations describe`
+- `gcloud beta network-services multicast-consumer-associations list`
+- `gcloud beta network-services multicast-consumer-associations update`
+- `gcloud beta network-services multicast-domain-activations`
+- `gcloud beta network-services multicast-domain-activations create`
+- `gcloud beta network-services multicast-domain-activations delete`
+- `gcloud beta network-services multicast-domain-activations describe`
+- `gcloud beta network-services multicast-domain-activations list`
+- `gcloud beta network-services multicast-domain-activations update`
+- `gcloud beta network-services multicast-domain-groups`
+- `gcloud beta network-services multicast-domain-groups create`
+- `gcloud beta network-services multicast-domain-groups delete`
+- `gcloud beta network-services multicast-domain-groups describe`
+- `gcloud beta network-services multicast-domain-groups list`
+- `gcloud beta network-services multicast-domain-groups update`
+- `gcloud beta network-services multicast-domains`
+- `gcloud beta network-services multicast-domains create`
+- `gcloud beta network-services multicast-domains delete`
+- `gcloud beta network-services multicast-domains describe`
+- `gcloud beta network-services multicast-domains list`
+- `gcloud beta network-services multicast-domains update`
+- `gcloud beta network-services multicast-group-consumer-activations`
+- `gcloud beta network-services multicast-group-consumer-activations create`
+- `gcloud beta network-services multicast-group-consumer-activations delete`
+- `gcloud beta network-services multicast-group-consumer-activations describe`
+- `gcloud beta network-services multicast-group-consumer-activations list`
+- `gcloud beta network-services multicast-group-consumer-activations update`
+- `gcloud beta network-services multicast-group-producer-activations`
+- `gcloud beta network-services multicast-group-producer-activations create`
+- `gcloud beta network-services multicast-group-producer-activations delete`
+- `gcloud beta network-services multicast-group-producer-activations describe`
+- `gcloud beta network-services multicast-group-producer-activations list`
+- `gcloud beta network-services multicast-group-producer-activations update`
+- `gcloud beta network-services multicast-group-range-activations`
+- `gcloud beta network-services multicast-group-range-activations create`
+- `gcloud beta network-services multicast-group-range-activations delete`
+- `gcloud beta network-services multicast-group-range-activations describe`
+- `gcloud beta network-services multicast-group-range-activations list`
+- `gcloud beta network-services multicast-group-range-activations update`
+- `gcloud beta network-services multicast-group-ranges`
+- `gcloud beta network-services multicast-group-ranges create`
+- `gcloud beta network-services multicast-group-ranges delete`
+- `gcloud beta network-services multicast-group-ranges describe`
+- `gcloud beta network-services multicast-group-ranges list`
+- `gcloud beta network-services multicast-group-ranges update`
+- `gcloud beta network-services multicast-producer-associations`
+- `gcloud beta network-services multicast-producer-associations create`
+- `gcloud beta network-services multicast-producer-associations delete`
+- `gcloud beta network-services multicast-producer-associations describe`
+- `gcloud beta network-services multicast-producer-associations list`
+- `gcloud beta network-services multicast-producer-associations update`
+- `gcloud beta network-services operations`
+- `gcloud beta network-services operations cancel`
+- `gcloud beta network-services operations describe`
+- `gcloud beta network-services operations list`
+- `gcloud beta network-services operations wait`
+- `gcloud beta network-services service-bindings`
+- `gcloud beta network-services service-bindings create`
+- `gcloud beta network-services service-bindings delete`
+- `gcloud beta network-services service-bindings describe`
+- `gcloud beta network-services service-bindings export`
+- `gcloud beta network-services service-bindings import`
+- `gcloud beta network-services service-bindings list`
+- `gcloud beta network-services service-bindings update`
+- `gcloud beta network-services service-lb-policies`
+- `gcloud beta network-services service-lb-policies create`
+- `gcloud beta network-services service-lb-policies delete`
+- `gcloud beta network-services service-lb-policies describe`
+- `gcloud beta network-services service-lb-policies export`
+- `gcloud beta network-services service-lb-policies import`
+- `gcloud beta network-services service-lb-policies list`
+- `gcloud beta network-services service-lb-policies update`
+
+## notebooks
+
+- `gcloud beta notebooks`
+- `gcloud beta notebooks environments`
+- `gcloud beta notebooks environments create`
+- `gcloud beta notebooks environments delete`
+- `gcloud beta notebooks environments describe`
+- `gcloud beta notebooks environments list`
+- `gcloud beta notebooks instances`
+- `gcloud beta notebooks instances add-iam-policy-binding`
+- `gcloud beta notebooks instances create`
+- `gcloud beta notebooks instances delete`
+- `gcloud beta notebooks instances describe`
+- `gcloud beta notebooks instances diagnose`
+- `gcloud beta notebooks instances get-iam-policy`
+- `gcloud beta notebooks instances is-upgradeable`
+- `gcloud beta notebooks instances list`
+- `gcloud beta notebooks instances register`
+- `gcloud beta notebooks instances remove-iam-policy-binding`
+- `gcloud beta notebooks instances reset`
+- `gcloud beta notebooks instances set-iam-policy`
+- `gcloud beta notebooks instances start`
+- `gcloud beta notebooks instances stop`
+- `gcloud beta notebooks instances update`
+- `gcloud beta notebooks instances upgrade`
+- `gcloud beta notebooks locations`
+- `gcloud beta notebooks locations list`
+
+## observability
+
+- `gcloud beta observability`
+- `gcloud beta observability buckets`
+- `gcloud beta observability buckets datasets`
+- `gcloud beta observability buckets datasets describe`
+- `gcloud beta observability buckets datasets links`
+- `gcloud beta observability buckets datasets links create`
+- `gcloud beta observability buckets datasets links delete`
+- `gcloud beta observability buckets datasets links describe`
+- `gcloud beta observability buckets datasets links list`
+- `gcloud beta observability buckets datasets links update`
+- `gcloud beta observability buckets datasets list`
+- `gcloud beta observability buckets datasets views`
+- `gcloud beta observability buckets datasets views describe`
+- `gcloud beta observability buckets datasets views list`
+- `gcloud beta observability buckets describe`
+- `gcloud beta observability buckets list`
+- `gcloud beta observability scopes`
+- `gcloud beta observability scopes describe`
+- `gcloud beta observability scopes update`
+- `gcloud beta observability settings`
+- `gcloud beta observability settings describe`
+- `gcloud beta observability settings update`
+- `gcloud beta observability trace-scopes`
+- `gcloud beta observability trace-scopes create`
+- `gcloud beta observability trace-scopes delete`
+- `gcloud beta observability trace-scopes describe`
+- `gcloud beta observability trace-scopes list`
+- `gcloud beta observability trace-scopes update`
+
+## organizations
+
+- `gcloud beta organizations`
+- `gcloud beta organizations add-iam-policy-binding`
+- `gcloud beta organizations describe`
+- `gcloud beta organizations get-iam-policy`
+- `gcloud beta organizations list`
+- `gcloud beta organizations remove-iam-policy-binding`
+- `gcloud beta organizations set-iam-policy`
+
+## pam
+
+- `gcloud beta pam`
+- `gcloud beta pam check-onboarding-status`
+- `gcloud beta pam entitlements`
+- `gcloud beta pam entitlements create`
+- `gcloud beta pam entitlements delete`
+- `gcloud beta pam entitlements describe`
+- `gcloud beta pam entitlements export`
+- `gcloud beta pam entitlements list`
+- `gcloud beta pam entitlements search`
+- `gcloud beta pam entitlements update`
+- `gcloud beta pam grants`
+- `gcloud beta pam grants approve`
+- `gcloud beta pam grants create`
+- `gcloud beta pam grants deny`
+- `gcloud beta pam grants describe`
+- `gcloud beta pam grants list`
+- `gcloud beta pam grants revoke`
+- `gcloud beta pam grants search`
+- `gcloud beta pam grants withdraw`
+- `gcloud beta pam operations`
+- `gcloud beta pam operations delete`
+- `gcloud beta pam operations describe`
+- `gcloud beta pam operations list`
+- `gcloud beta pam operations wait`
+- `gcloud beta pam settings`
+- `gcloud beta pam settings describe`
+- `gcloud beta pam settings describe-effective`
+- `gcloud beta pam settings export`
+- `gcloud beta pam settings update`
+
+## policy-intelligence
+
+- `gcloud beta policy-intelligence`
+- `gcloud beta policy-intelligence simulate`
+- `gcloud beta policy-intelligence simulate orgpolicy`
+
+## policy-troubleshoot
+
+- `gcloud beta policy-troubleshoot`
+- `gcloud beta policy-troubleshoot iam`
+
+## projects
+
+- `gcloud beta projects`
+- `gcloud beta projects add-iam-policy-binding`
+- `gcloud beta projects create`
+- `gcloud beta projects delete`
+- `gcloud beta projects describe`
+- `gcloud beta projects get-ancestors`
+- `gcloud beta projects get-ancestors-iam-policy`
+- `gcloud beta projects get-iam-policy`
+- `gcloud beta projects list`
+- `gcloud beta projects move`
+- `gcloud beta projects remove-iam-policy-binding`
+- `gcloud beta projects set-iam-policy`
+- `gcloud beta projects undelete`
+- `gcloud beta projects update`
+
+## publicca
+
+- `gcloud beta publicca`
+- `gcloud beta publicca external-account-keys`
+- `gcloud beta publicca external-account-keys create`
+
+## pubsub
+
+- `gcloud beta pubsub`
+- `gcloud beta pubsub lite-operations`
+- `gcloud beta pubsub lite-operations describe`
+- `gcloud beta pubsub lite-operations list`
+- `gcloud beta pubsub lite-reservations`
+- `gcloud beta pubsub lite-reservations create`
+- `gcloud beta pubsub lite-reservations delete`
+- `gcloud beta pubsub lite-reservations describe`
+- `gcloud beta pubsub lite-reservations list`
+- `gcloud beta pubsub lite-reservations list-topics`
+- `gcloud beta pubsub lite-reservations update`
+- `gcloud beta pubsub lite-subscriptions`
+- `gcloud beta pubsub lite-subscriptions ack-up-to`
+- `gcloud beta pubsub lite-subscriptions create`
+- `gcloud beta pubsub lite-subscriptions delete`
+- `gcloud beta pubsub lite-subscriptions describe`
+- `gcloud beta pubsub lite-subscriptions list`
+- `gcloud beta pubsub lite-subscriptions seek`
+- `gcloud beta pubsub lite-subscriptions subscribe`
+- `gcloud beta pubsub lite-subscriptions update`
+- `gcloud beta pubsub lite-topics`
+- `gcloud beta pubsub lite-topics create`
+- `gcloud beta pubsub lite-topics delete`
+- `gcloud beta pubsub lite-topics describe`
+- `gcloud beta pubsub lite-topics list`
+- `gcloud beta pubsub lite-topics list-subscriptions`
+- `gcloud beta pubsub lite-topics publish`
+- `gcloud beta pubsub lite-topics update`
+- `gcloud beta pubsub message-transforms`
+- `gcloud beta pubsub message-transforms test`
+- `gcloud beta pubsub message-transforms validate`
+- `gcloud beta pubsub schemas`
+- `gcloud beta pubsub schemas commit`
+- `gcloud beta pubsub schemas create`
+- `gcloud beta pubsub schemas delete`
+- `gcloud beta pubsub schemas delete-revision`
+- `gcloud beta pubsub schemas describe`
+- `gcloud beta pubsub schemas list`
+- `gcloud beta pubsub schemas list-revisions`
+- `gcloud beta pubsub schemas rollback`
+- `gcloud beta pubsub schemas validate-message`
+- `gcloud beta pubsub schemas validate-schema`
+- `gcloud beta pubsub snapshots`
+- `gcloud beta pubsub snapshots create`
+- `gcloud beta pubsub snapshots delete`
+- `gcloud beta pubsub snapshots describe`
+- `gcloud beta pubsub snapshots list`
+- `gcloud beta pubsub subscriptions`
+- `gcloud beta pubsub subscriptions ack`
+- `gcloud beta pubsub subscriptions add-iam-policy-binding`
+- `gcloud beta pubsub subscriptions create`
+- `gcloud beta pubsub subscriptions delete`
+- `gcloud beta pubsub subscriptions describe`
+- `gcloud beta pubsub subscriptions get-iam-policy`
+- `gcloud beta pubsub subscriptions list`
+- `gcloud beta pubsub subscriptions modify-ack-deadline`
+- `gcloud beta pubsub subscriptions modify-message-ack-deadline`
+- `gcloud beta pubsub subscriptions modify-push-config`
+- `gcloud beta pubsub subscriptions pull`
+- `gcloud beta pubsub subscriptions remove-iam-policy-binding`
+- `gcloud beta pubsub subscriptions seek`
+- `gcloud beta pubsub subscriptions set-iam-policy`
+- `gcloud beta pubsub subscriptions update`
+- `gcloud beta pubsub topics`
+- `gcloud beta pubsub topics add-iam-policy-binding`
+- `gcloud beta pubsub topics create`
+- `gcloud beta pubsub topics delete`
+- `gcloud beta pubsub topics describe`
+- `gcloud beta pubsub topics detach-subscription`
+- `gcloud beta pubsub topics get-iam-policy`
+- `gcloud beta pubsub topics list`
+- `gcloud beta pubsub topics list-subscriptions`
+- `gcloud beta pubsub topics publish`
+- `gcloud beta pubsub topics remove-iam-policy-binding`
+- `gcloud beta pubsub topics set-iam-policy`
+- `gcloud beta pubsub topics update`
+
+## quotas
+
+- `gcloud beta quotas`
+- `gcloud beta quotas adjuster`
+- `gcloud beta quotas adjuster settings`
+- `gcloud beta quotas adjuster settings describe`
+- `gcloud beta quotas adjuster settings update`
+- `gcloud beta quotas info`
+- `gcloud beta quotas info describe`
+- `gcloud beta quotas info list`
+- `gcloud beta quotas preferences`
+- `gcloud beta quotas preferences create`
+- `gcloud beta quotas preferences describe`
+- `gcloud beta quotas preferences list`
+- `gcloud beta quotas preferences update`
+
+## recommender
+
+- `gcloud beta recommender`
+- `gcloud beta recommender insight-type-config`
+- `gcloud beta recommender insight-type-config describe`
+- `gcloud beta recommender insight-type-config update`
+- `gcloud beta recommender insights`
+- `gcloud beta recommender insights describe`
+- `gcloud beta recommender insights list`
+- `gcloud beta recommender insights mark-accepted`
+- `gcloud beta recommender recommendations`
+- `gcloud beta recommender recommendations describe`
+- `gcloud beta recommender recommendations list`
+- `gcloud beta recommender recommendations mark-claimed`
+- `gcloud beta recommender recommendations mark-dismissed`
+- `gcloud beta recommender recommendations mark-failed`
+- `gcloud beta recommender recommendations mark-succeeded`
+- `gcloud beta recommender recommender-config`
+- `gcloud beta recommender recommender-config describe`
+- `gcloud beta recommender recommender-config update`
+
+## redis
+
+- `gcloud beta redis`
+- `gcloud beta redis acl-policies`
+- `gcloud beta redis acl-policies create`
+- `gcloud beta redis acl-policies delete`
+- `gcloud beta redis acl-policies describe`
+- `gcloud beta redis acl-policies list`
+- `gcloud beta redis acl-policies update`
+- `gcloud beta redis clusters`
+- `gcloud beta redis clusters add-cluster-endpoints`
+- `gcloud beta redis clusters backup-collections`
+- `gcloud beta redis clusters backup-collections describe`
+- `gcloud beta redis clusters backup-collections list`
+- `gcloud beta redis clusters backups`
+- `gcloud beta redis clusters backups delete`
+- `gcloud beta redis clusters backups describe`
+- `gcloud beta redis clusters backups export`
+- `gcloud beta redis clusters backups list`
+- `gcloud beta redis clusters create`
+- `gcloud beta redis clusters create-backup`
+- `gcloud beta redis clusters create-token-auth-user`
+- `gcloud beta redis clusters delete`
+- `gcloud beta redis clusters describe`
+- `gcloud beta redis clusters detach`
+- `gcloud beta redis clusters detach-secondaries`
+- `gcloud beta redis clusters get-cluster-certificate-authority`
+- `gcloud beta redis clusters get-shared-regional-certificate-authority`
+- `gcloud beta redis clusters list`
+- `gcloud beta redis clusters remove-cluster-endpoints`
+- `gcloud beta redis clusters reschedule-maintenance`
+- `gcloud beta redis clusters switchover`
+- `gcloud beta redis clusters token-auth-users`
+- `gcloud beta redis clusters token-auth-users auth-tokens`
+- `gcloud beta redis clusters token-auth-users auth-tokens delete`
+- `gcloud beta redis clusters token-auth-users auth-tokens describe`
+- `gcloud beta redis clusters token-auth-users auth-tokens list`
+- `gcloud beta redis clusters token-auth-users create-auth-token`
+- `gcloud beta redis clusters token-auth-users delete`
+- `gcloud beta redis clusters token-auth-users describe`
+- `gcloud beta redis clusters token-auth-users list`
+- `gcloud beta redis clusters update`
+- `gcloud beta redis instances`
+- `gcloud beta redis instances create`
+- `gcloud beta redis instances delete`
+- `gcloud beta redis instances describe`
+- `gcloud beta redis instances export`
+- `gcloud beta redis instances failover`
+- `gcloud beta redis instances get-auth-string`
+- `gcloud beta redis instances import`
+- `gcloud beta redis instances list`
+- `gcloud beta redis instances reschedule-maintenance`
+- `gcloud beta redis instances update`
+- `gcloud beta redis instances upgrade`
+- `gcloud beta redis operations`
+- `gcloud beta redis operations cancel`
+- `gcloud beta redis operations describe`
+- `gcloud beta redis operations list`
+- `gcloud beta redis regions`
+- `gcloud beta redis regions describe`
+- `gcloud beta redis regions list`
+- `gcloud beta redis zones`
+- `gcloud beta redis zones list`
+
+## resource-config
+
+- `gcloud beta resource-config`
+- `gcloud beta resource-config bulk-export`
+- `gcloud beta resource-config list-resource-types`
+- `gcloud beta resource-config terraform`
+- `gcloud beta resource-config terraform generate-import`
+
+## resource-manager
+
+- `gcloud beta resource-manager`
+- `gcloud beta resource-manager capabilities`
+- `gcloud beta resource-manager capabilities describe`
+- `gcloud beta resource-manager capabilities update`
+- `gcloud beta resource-manager folders`
+- `gcloud beta resource-manager folders add-iam-policy-binding`
+- `gcloud beta resource-manager folders create`
+- `gcloud beta resource-manager folders delete`
+- `gcloud beta resource-manager folders describe`
+- `gcloud beta resource-manager folders get-ancestors-iam-policy`
+- `gcloud beta resource-manager folders get-iam-policy`
+- `gcloud beta resource-manager folders list`
+- `gcloud beta resource-manager folders move`
+- `gcloud beta resource-manager folders remove-iam-policy-binding`
+- `gcloud beta resource-manager folders set-iam-policy`
+- `gcloud beta resource-manager folders undelete`
+- `gcloud beta resource-manager folders update`
+- `gcloud beta resource-manager org-policies`
+- `gcloud beta resource-manager org-policies allow`
+- `gcloud beta resource-manager org-policies delete`
+- `gcloud beta resource-manager org-policies deny`
+- `gcloud beta resource-manager org-policies describe`
+- `gcloud beta resource-manager org-policies disable-enforce`
+- `gcloud beta resource-manager org-policies enable-enforce`
+- `gcloud beta resource-manager org-policies list`
+- `gcloud beta resource-manager org-policies set-policy`
+- `gcloud beta resource-manager tags`
+- `gcloud beta resource-manager tags bindings`
+- `gcloud beta resource-manager tags bindings create`
+- `gcloud beta resource-manager tags bindings delete`
+- `gcloud beta resource-manager tags bindings list`
+- `gcloud beta resource-manager tags holds`
+- `gcloud beta resource-manager tags holds create`
+- `gcloud beta resource-manager tags holds delete`
+- `gcloud beta resource-manager tags holds list`
+- `gcloud beta resource-manager tags keys`
+- `gcloud beta resource-manager tags keys add-iam-policy-binding`
+- `gcloud beta resource-manager tags keys create`
+- `gcloud beta resource-manager tags keys delete`
+- `gcloud beta resource-manager tags keys describe`
+- `gcloud beta resource-manager tags keys get-iam-policy`
+- `gcloud beta resource-manager tags keys list`
+- `gcloud beta resource-manager tags keys remove-iam-policy-binding`
+- `gcloud beta resource-manager tags keys set-iam-policy`
+- `gcloud beta resource-manager tags keys update`
+- `gcloud beta resource-manager tags values`
+- `gcloud beta resource-manager tags values add-iam-policy-binding`
+- `gcloud beta resource-manager tags values create`
+- `gcloud beta resource-manager tags values delete`
+- `gcloud beta resource-manager tags values describe`
+- `gcloud beta resource-manager tags values get-iam-policy`
+- `gcloud beta resource-manager tags values list`
+- `gcloud beta resource-manager tags values remove-iam-policy-binding`
+- `gcloud beta resource-manager tags values set-iam-policy`
+- `gcloud beta resource-manager tags values update`
+
+## run
+
+- `gcloud beta run`
+- `gcloud beta run compose`
+- `gcloud beta run compose up`
+- `gcloud beta run deploy`
+- `gcloud beta run domain-mappings`
+- `gcloud beta run domain-mappings create`
+- `gcloud beta run domain-mappings delete`
+- `gcloud beta run domain-mappings describe`
+- `gcloud beta run domain-mappings list`
+- `gcloud beta run jobs`
+- `gcloud beta run jobs add-iam-policy-binding`
+- `gcloud beta run jobs create`
+- `gcloud beta run jobs delete`
+- `gcloud beta run jobs deploy`
+- `gcloud beta run jobs describe`
+- `gcloud beta run jobs execute`
+- `gcloud beta run jobs executions`
+- `gcloud beta run jobs executions cancel`
+- `gcloud beta run jobs executions delete`
+- `gcloud beta run jobs executions describe`
+- `gcloud beta run jobs executions list`
+- `gcloud beta run jobs executions logs`
+- `gcloud beta run jobs executions logs read`
+- `gcloud beta run jobs executions logs tail`
+- `gcloud beta run jobs executions tasks`
+- `gcloud beta run jobs executions tasks describe`
+- `gcloud beta run jobs executions tasks list`
+- `gcloud beta run jobs get-iam-policy`
+- `gcloud beta run jobs list`
+- `gcloud beta run jobs logs`
+- `gcloud beta run jobs logs read`
+- `gcloud beta run jobs logs tail`
+- `gcloud beta run jobs remove-iam-policy-binding`
+- `gcloud beta run jobs replace`
+- `gcloud beta run jobs set-iam-policy`
+- `gcloud beta run jobs update`
+- `gcloud beta run multi-region-services`
+- `gcloud beta run multi-region-services delete`
+- `gcloud beta run multi-region-services describe`
+- `gcloud beta run multi-region-services list`
+- `gcloud beta run multi-region-services replace`
+- `gcloud beta run multi-region-services update`
+- `gcloud beta run regions`
+- `gcloud beta run regions list`
+- `gcloud beta run revisions`
+- `gcloud beta run revisions delete`
+- `gcloud beta run revisions describe`
+- `gcloud beta run revisions list`
+- `gcloud beta run revisions logs`
+- `gcloud beta run revisions logs read`
+- `gcloud beta run revisions logs tail`
+- `gcloud beta run services`
+- `gcloud beta run services add-iam-policy-binding`
+- `gcloud beta run services delete`
+- `gcloud beta run services describe`
+- `gcloud beta run services get-iam-policy`
+- `gcloud beta run services list`
+- `gcloud beta run services logs`
+- `gcloud beta run services logs read`
+- `gcloud beta run services logs tail`
+- `gcloud beta run services proxy`
+- `gcloud beta run services remove-iam-policy-binding`
+- `gcloud beta run services replace`
+- `gcloud beta run services set-iam-policy`
+- `gcloud beta run services update`
+- `gcloud beta run services update-traffic`
+- `gcloud beta run worker-pools`
+- `gcloud beta run worker-pools add-iam-policy-binding`
+- `gcloud beta run worker-pools delete`
+- `gcloud beta run worker-pools deploy`
+- `gcloud beta run worker-pools describe`
+- `gcloud beta run worker-pools get-iam-policy`
+- `gcloud beta run worker-pools list`
+- `gcloud beta run worker-pools logs`
+- `gcloud beta run worker-pools logs read`
+- `gcloud beta run worker-pools logs tail`
+- `gcloud beta run worker-pools remove-iam-policy-binding`
+- `gcloud beta run worker-pools replace`
+- `gcloud beta run worker-pools revisions`
+- `gcloud beta run worker-pools revisions delete`
+- `gcloud beta run worker-pools revisions describe`
+- `gcloud beta run worker-pools revisions list`
+- `gcloud beta run worker-pools set-iam-policy`
+- `gcloud beta run worker-pools update`
+- `gcloud beta run worker-pools update-instance-split`
+
+## runtime-config
+
+- `gcloud beta runtime-config`
+- `gcloud beta runtime-config configs`
+- `gcloud beta runtime-config configs create`
+- `gcloud beta runtime-config configs delete`
+- `gcloud beta runtime-config configs describe`
+- `gcloud beta runtime-config configs list`
+- `gcloud beta runtime-config configs update`
+- `gcloud beta runtime-config configs variables`
+- `gcloud beta runtime-config configs variables describe`
+- `gcloud beta runtime-config configs variables get-value`
+- `gcloud beta runtime-config configs variables list`
+- `gcloud beta runtime-config configs variables set`
+- `gcloud beta runtime-config configs variables unset`
+- `gcloud beta runtime-config configs variables watch`
+- `gcloud beta runtime-config configs waiters`
+- `gcloud beta runtime-config configs waiters create`
+- `gcloud beta runtime-config configs waiters delete`
+- `gcloud beta runtime-config configs waiters describe`
+- `gcloud beta runtime-config configs waiters list`
+- `gcloud beta runtime-config configs waiters wait`
+
+## saas-runtime
+
+- `gcloud beta saas-runtime`
+- `gcloud beta saas-runtime flags`
+- `gcloud beta saas-runtime flags attributes`
+- `gcloud beta saas-runtime flags attributes create`
+- `gcloud beta saas-runtime flags attributes delete`
+- `gcloud beta saas-runtime flags attributes describe`
+- `gcloud beta saas-runtime flags attributes list`
+- `gcloud beta saas-runtime flags attributes update`
+- `gcloud beta saas-runtime flags create`
+- `gcloud beta saas-runtime flags delete`
+- `gcloud beta saas-runtime flags describe`
+- `gcloud beta saas-runtime flags list`
+- `gcloud beta saas-runtime flags pull`
+- `gcloud beta saas-runtime flags push`
+- `gcloud beta saas-runtime flags releases`
+- `gcloud beta saas-runtime flags releases create`
+- `gcloud beta saas-runtime flags releases delete`
+- `gcloud beta saas-runtime flags releases describe`
+- `gcloud beta saas-runtime flags releases list`
+- `gcloud beta saas-runtime flags releases update`
+- `gcloud beta saas-runtime flags revisions`
+- `gcloud beta saas-runtime flags revisions create`
+- `gcloud beta saas-runtime flags revisions delete`
+- `gcloud beta saas-runtime flags revisions describe`
+- `gcloud beta saas-runtime flags revisions list`
+- `gcloud beta saas-runtime flags revisions update`
+- `gcloud beta saas-runtime flags update`
+- `gcloud beta saas-runtime releases`
+- `gcloud beta saas-runtime releases create`
+- `gcloud beta saas-runtime releases delete`
+- `gcloud beta saas-runtime releases describe`
+- `gcloud beta saas-runtime releases list`
+- `gcloud beta saas-runtime releases update`
+- `gcloud beta saas-runtime rollout-kinds`
+- `gcloud beta saas-runtime rollout-kinds create`
+- `gcloud beta saas-runtime rollout-kinds delete`
+- `gcloud beta saas-runtime rollout-kinds describe`
+- `gcloud beta saas-runtime rollout-kinds list`
+- `gcloud beta saas-runtime rollout-kinds update`
+- `gcloud beta saas-runtime rollouts`
+- `gcloud beta saas-runtime rollouts create`
+- `gcloud beta saas-runtime rollouts delete`
+- `gcloud beta saas-runtime rollouts describe`
+- `gcloud beta saas-runtime rollouts list`
+- `gcloud beta saas-runtime rollouts update`
+- `gcloud beta saas-runtime saas`
+- `gcloud beta saas-runtime saas create`
+- `gcloud beta saas-runtime saas delete`
+- `gcloud beta saas-runtime saas describe`
+- `gcloud beta saas-runtime saas list`
+- `gcloud beta saas-runtime saas update`
+- `gcloud beta saas-runtime tenants`
+- `gcloud beta saas-runtime tenants create`
+- `gcloud beta saas-runtime tenants delete`
+- `gcloud beta saas-runtime tenants describe`
+- `gcloud beta saas-runtime tenants list`
+- `gcloud beta saas-runtime tenants update`
+- `gcloud beta saas-runtime unit-kinds`
+- `gcloud beta saas-runtime unit-kinds create`
+- `gcloud beta saas-runtime unit-kinds delete`
+- `gcloud beta saas-runtime unit-kinds describe`
+- `gcloud beta saas-runtime unit-kinds list`
+- `gcloud beta saas-runtime unit-kinds update`
+- `gcloud beta saas-runtime unit-operations`
+- `gcloud beta saas-runtime unit-operations create`
+- `gcloud beta saas-runtime unit-operations delete`
+- `gcloud beta saas-runtime unit-operations describe`
+- `gcloud beta saas-runtime unit-operations list`
+- `gcloud beta saas-runtime unit-operations update`
+- `gcloud beta saas-runtime units`
+- `gcloud beta saas-runtime units create`
+- `gcloud beta saas-runtime units delete`
+- `gcloud beta saas-runtime units describe`
+- `gcloud beta saas-runtime units list`
+- `gcloud beta saas-runtime units update`
+
+## scc
+
+- `gcloud beta scc`
+- `gcloud beta scc assets`
+- `gcloud beta scc assets describe`
+- `gcloud beta scc assets get-parent`
+- `gcloud beta scc assets get-project`
+- `gcloud beta scc assets group`
+- `gcloud beta scc assets list`
+- `gcloud beta scc assets list-marks`
+- `gcloud beta scc assets run-discovery`
+- `gcloud beta scc assets update-marks`
+- `gcloud beta scc findings`
+- `gcloud beta scc findings create`
+- `gcloud beta scc findings group`
+- `gcloud beta scc findings list`
+- `gcloud beta scc findings list-marks`
+- `gcloud beta scc findings update`
+- `gcloud beta scc findings update-marks`
+- `gcloud beta scc notifications`
+- `gcloud beta scc notifications create`
+- `gcloud beta scc notifications delete`
+- `gcloud beta scc notifications describe`
+- `gcloud beta scc notifications list`
+- `gcloud beta scc notifications update`
+- `gcloud beta scc operations`
+- `gcloud beta scc operations describe`
+- `gcloud beta scc sources`
+- `gcloud beta scc sources describe`
+- `gcloud beta scc sources list`
+
+## scheduler
+
+- `gcloud beta scheduler`
+- `gcloud beta scheduler jobs`
+- `gcloud beta scheduler jobs create`
+- `gcloud beta scheduler jobs create app-engine`
+- `gcloud beta scheduler jobs create http`
+- `gcloud beta scheduler jobs create pubsub`
+- `gcloud beta scheduler jobs delete`
+- `gcloud beta scheduler jobs describe`
+- `gcloud beta scheduler jobs list`
+- `gcloud beta scheduler jobs pause`
+- `gcloud beta scheduler jobs resume`
+- `gcloud beta scheduler jobs run`
+- `gcloud beta scheduler jobs update`
+- `gcloud beta scheduler jobs update app-engine`
+- `gcloud beta scheduler jobs update http`
+- `gcloud beta scheduler jobs update pubsub`
+- `gcloud beta scheduler locations`
+- `gcloud beta scheduler locations describe`
+- `gcloud beta scheduler locations list`
+
+## secrets
+
+- `gcloud beta secrets`
+- `gcloud beta secrets add-iam-policy-binding`
+- `gcloud beta secrets create`
+- `gcloud beta secrets delete`
+- `gcloud beta secrets describe`
+- `gcloud beta secrets get-iam-policy`
+- `gcloud beta secrets list`
+- `gcloud beta secrets locations`
+- `gcloud beta secrets locations describe`
+- `gcloud beta secrets locations list`
+- `gcloud beta secrets remove-iam-policy-binding`
+- `gcloud beta secrets replication`
+- `gcloud beta secrets replication get`
+- `gcloud beta secrets replication set`
+- `gcloud beta secrets replication update`
+- `gcloud beta secrets set-iam-policy`
+- `gcloud beta secrets update`
+- `gcloud beta secrets versions`
+- `gcloud beta secrets versions access`
+- `gcloud beta secrets versions add`
+- `gcloud beta secrets versions describe`
+- `gcloud beta secrets versions destroy`
+- `gcloud beta secrets versions disable`
+- `gcloud beta secrets versions enable`
+- `gcloud beta secrets versions list`
+
+## service-directory
+
+- `gcloud beta service-directory`
+- `gcloud beta service-directory endpoints`
+- `gcloud beta service-directory endpoints create`
+- `gcloud beta service-directory endpoints delete`
+- `gcloud beta service-directory endpoints describe`
+- `gcloud beta service-directory endpoints list`
+- `gcloud beta service-directory endpoints update`
+- `gcloud beta service-directory locations`
+- `gcloud beta service-directory locations describe`
+- `gcloud beta service-directory locations list`
+- `gcloud beta service-directory namespaces`
+- `gcloud beta service-directory namespaces add-iam-policy-binding`
+- `gcloud beta service-directory namespaces create`
+- `gcloud beta service-directory namespaces delete`
+- `gcloud beta service-directory namespaces describe`
+- `gcloud beta service-directory namespaces get-iam-policy`
+- `gcloud beta service-directory namespaces list`
+- `gcloud beta service-directory namespaces remove-iam-policy-binding`
+- `gcloud beta service-directory namespaces set-iam-policy`
+- `gcloud beta service-directory namespaces update`
+- `gcloud beta service-directory services`
+- `gcloud beta service-directory services add-iam-policy-binding`
+- `gcloud beta service-directory services create`
+- `gcloud beta service-directory services delete`
+- `gcloud beta service-directory services describe`
+- `gcloud beta service-directory services get-iam-policy`
+- `gcloud beta service-directory services list`
+- `gcloud beta service-directory services remove-iam-policy-binding`
+- `gcloud beta service-directory services resolve`
+- `gcloud beta service-directory services set-iam-policy`
+- `gcloud beta service-directory services update`
+
+## service-extensions
+
+- `gcloud beta service-extensions`
+- `gcloud beta service-extensions authz-extensions`
+- `gcloud beta service-extensions authz-extensions delete`
+- `gcloud beta service-extensions authz-extensions describe`
+- `gcloud beta service-extensions authz-extensions import`
+- `gcloud beta service-extensions authz-extensions list`
+- `gcloud beta service-extensions lb-edge-extensions`
+- `gcloud beta service-extensions lb-edge-extensions delete`
+- `gcloud beta service-extensions lb-edge-extensions describe`
+- `gcloud beta service-extensions lb-edge-extensions import`
+- `gcloud beta service-extensions lb-edge-extensions list`
+- `gcloud beta service-extensions lb-route-extensions`
+- `gcloud beta service-extensions lb-route-extensions delete`
+- `gcloud beta service-extensions lb-route-extensions describe`
+- `gcloud beta service-extensions lb-route-extensions import`
+- `gcloud beta service-extensions lb-route-extensions list`
+- `gcloud beta service-extensions lb-traffic-extensions`
+- `gcloud beta service-extensions lb-traffic-extensions delete`
+- `gcloud beta service-extensions lb-traffic-extensions describe`
+- `gcloud beta service-extensions lb-traffic-extensions import`
+- `gcloud beta service-extensions lb-traffic-extensions list`
+- `gcloud beta service-extensions wasm-plugin-versions`
+- `gcloud beta service-extensions wasm-plugin-versions create`
+- `gcloud beta service-extensions wasm-plugin-versions delete`
+- `gcloud beta service-extensions wasm-plugin-versions describe`
+- `gcloud beta service-extensions wasm-plugin-versions list`
+- `gcloud beta service-extensions wasm-plugins`
+- `gcloud beta service-extensions wasm-plugins create`
+- `gcloud beta service-extensions wasm-plugins delete`
+- `gcloud beta service-extensions wasm-plugins describe`
+- `gcloud beta service-extensions wasm-plugins list`
+- `gcloud beta service-extensions wasm-plugins update`
+
+## service-health
+
+- `gcloud beta service-health`
+- `gcloud beta service-health artifacts`
+- `gcloud beta service-health artifacts describe`
+- `gcloud beta service-health artifacts list`
+- `gcloud beta service-health events`
+- `gcloud beta service-health events describe`
+- `gcloud beta service-health events list`
+- `gcloud beta service-health organization-events`
+- `gcloud beta service-health organization-events describe`
+- `gcloud beta service-health organization-events list`
+- `gcloud beta service-health organization-impacts`
+- `gcloud beta service-health organization-impacts describe`
+- `gcloud beta service-health organization-impacts list`
+
+## services
+
+- `gcloud beta services`
+- `gcloud beta services api-keys`
+- `gcloud beta services api-keys create`
+- `gcloud beta services api-keys delete`
+- `gcloud beta services api-keys describe`
+- `gcloud beta services api-keys get-key-string`
+- `gcloud beta services api-keys list`
+- `gcloud beta services api-keys lookup`
+- `gcloud beta services api-keys undelete`
+- `gcloud beta services api-keys update`
+- `gcloud beta services disable`
+- `gcloud beta services enable`
+- `gcloud beta services groups`
+- `gcloud beta services groups list-expanded-members`
+- `gcloud beta services groups list-members`
+- `gcloud beta services identity`
+- `gcloud beta services identity create`
+- `gcloud beta services list`
+- `gcloud beta services mcp`
+- `gcloud beta services mcp content-security`
+- `gcloud beta services mcp content-security add`
+- `gcloud beta services mcp content-security get`
+- `gcloud beta services mcp content-security remove`
+- `gcloud beta services mcp disable`
+- `gcloud beta services mcp enable`
+- `gcloud beta services mcp list`
+- `gcloud beta services operations`
+- `gcloud beta services operations describe`
+- `gcloud beta services operations wait`
+- `gcloud beta services peered-dns-domains`
+- `gcloud beta services peered-dns-domains create`
+- `gcloud beta services peered-dns-domains delete`
+- `gcloud beta services peered-dns-domains list`
+- `gcloud beta services policies`
+- `gcloud beta services policies get`
+- `gcloud beta services policies get-effective`
+- `gcloud beta services policies test-enabled`
+- `gcloud beta services policies update`
+- `gcloud beta services vpc-peerings`
+- `gcloud beta services vpc-peerings connect`
+- `gcloud beta services vpc-peerings delete`
+- `gcloud beta services vpc-peerings disable-vpc-service-controls`
+- `gcloud beta services vpc-peerings enable-vpc-service-controls`
+- `gcloud beta services vpc-peerings get-vpc-service-controls`
+- `gcloud beta services vpc-peerings list`
+- `gcloud beta services vpc-peerings operations`
+- `gcloud beta services vpc-peerings operations describe`
+- `gcloud beta services vpc-peerings operations wait`
+- `gcloud beta services vpc-peerings update`
+
+## source
+
+- `gcloud beta source`
+- `gcloud beta source project-configs`
+- `gcloud beta source project-configs describe`
+- `gcloud beta source project-configs update`
+- `gcloud beta source repos`
+- `gcloud beta source repos clone`
+- `gcloud beta source repos create`
+- `gcloud beta source repos delete`
+- `gcloud beta source repos describe`
+- `gcloud beta source repos get-iam-policy`
+- `gcloud beta source repos list`
+- `gcloud beta source repos set-iam-policy`
+- `gcloud beta source repos update`
+
+## source-manager
+
+- `gcloud beta source-manager`
+- `gcloud beta source-manager instances`
+- `gcloud beta source-manager instances add-iam-policy-binding`
+- `gcloud beta source-manager instances create`
+- `gcloud beta source-manager instances delete`
+- `gcloud beta source-manager instances describe`
+- `gcloud beta source-manager instances get-iam-policy`
+- `gcloud beta source-manager instances list`
+- `gcloud beta source-manager instances remove-iam-policy-binding`
+- `gcloud beta source-manager instances set-iam-policy`
+- `gcloud beta source-manager locations`
+- `gcloud beta source-manager locations list`
+- `gcloud beta source-manager operations`
+- `gcloud beta source-manager operations describe`
+- `gcloud beta source-manager operations list`
+- `gcloud beta source-manager repos`
+- `gcloud beta source-manager repos add-iam-policy-binding`
+- `gcloud beta source-manager repos create`
+- `gcloud beta source-manager repos delete`
+- `gcloud beta source-manager repos describe`
+- `gcloud beta source-manager repos get-iam-policy`
+- `gcloud beta source-manager repos list`
+- `gcloud beta source-manager repos remove-iam-policy-binding`
+- `gcloud beta source-manager repos set-iam-policy`
+- `gcloud beta source-manager repos update`
+
+## spanner
+
+- `gcloud beta spanner`
+- `gcloud beta spanner backup-schedules`
+- `gcloud beta spanner backup-schedules add-iam-policy-binding`
+- `gcloud beta spanner backup-schedules create`
+- `gcloud beta spanner backup-schedules delete`
+- `gcloud beta spanner backup-schedules describe`
+- `gcloud beta spanner backup-schedules get-iam-policy`
+- `gcloud beta spanner backup-schedules list`
+- `gcloud beta spanner backup-schedules remove-iam-policy-binding`
+- `gcloud beta spanner backup-schedules set-iam-policy`
+- `gcloud beta spanner backup-schedules update`
+- `gcloud beta spanner backups`
+- `gcloud beta spanner backups add-iam-policy-binding`
+- `gcloud beta spanner backups copy`
+- `gcloud beta spanner backups create`
+- `gcloud beta spanner backups delete`
+- `gcloud beta spanner backups describe`
+- `gcloud beta spanner backups get-iam-policy`
+- `gcloud beta spanner backups list`
+- `gcloud beta spanner backups remove-iam-policy-binding`
+- `gcloud beta spanner backups set-iam-policy`
+- `gcloud beta spanner backups update-metadata`
+- `gcloud beta spanner databases`
+- `gcloud beta spanner databases add-iam-policy-binding`
+- `gcloud beta spanner databases change-quorum`
+- `gcloud beta spanner databases create`
+- `gcloud beta spanner databases ddl`
+- `gcloud beta spanner databases ddl describe`
+- `gcloud beta spanner databases ddl update`
+- `gcloud beta spanner databases delete`
+- `gcloud beta spanner databases describe`
+- `gcloud beta spanner databases execute-sql`
+- `gcloud beta spanner databases get-iam-policy`
+- `gcloud beta spanner databases list`
+- `gcloud beta spanner databases remove-iam-policy-binding`
+- `gcloud beta spanner databases restore`
+- `gcloud beta spanner databases roles`
+- `gcloud beta spanner databases roles list`
+- `gcloud beta spanner databases sessions`
+- `gcloud beta spanner databases sessions delete`
+- `gcloud beta spanner databases sessions list`
+- `gcloud beta spanner databases set-iam-policy`
+- `gcloud beta spanner databases splits`
+- `gcloud beta spanner databases splits add`
+- `gcloud beta spanner databases splits list`
+- `gcloud beta spanner databases update`
+- `gcloud beta spanner instance-configs`
+- `gcloud beta spanner instance-configs create`
+- `gcloud beta spanner instance-configs delete`
+- `gcloud beta spanner instance-configs describe`
+- `gcloud beta spanner instance-configs list`
+- `gcloud beta spanner instance-configs update`
+- `gcloud beta spanner instance-partitions`
+- `gcloud beta spanner instance-partitions create`
+- `gcloud beta spanner instance-partitions delete`
+- `gcloud beta spanner instance-partitions describe`
+- `gcloud beta spanner instance-partitions list`
+- `gcloud beta spanner instance-partitions update`
+- `gcloud beta spanner instances`
+- `gcloud beta spanner instances add-iam-policy-binding`
+- `gcloud beta spanner instances create`
+- `gcloud beta spanner instances delete`
+- `gcloud beta spanner instances describe`
+- `gcloud beta spanner instances get-iam-policy`
+- `gcloud beta spanner instances get-locations`
+- `gcloud beta spanner instances list`
+- `gcloud beta spanner instances move`
+- `gcloud beta spanner instances remove-iam-policy-binding`
+- `gcloud beta spanner instances set-iam-policy`
+- `gcloud beta spanner instances update`
+- `gcloud beta spanner operations`
+- `gcloud beta spanner operations cancel`
+- `gcloud beta spanner operations describe`
+- `gcloud beta spanner operations list`
+- `gcloud beta spanner rows`
+- `gcloud beta spanner rows delete`
+- `gcloud beta spanner rows insert`
+- `gcloud beta spanner rows update`
+- `gcloud beta spanner samples`
+- `gcloud beta spanner samples backend`
+- `gcloud beta spanner samples init`
+- `gcloud beta spanner samples list`
+- `gcloud beta spanner samples run`
+- `gcloud beta spanner samples workload`
+
+## sql
+
+- `gcloud beta sql`
+- `gcloud beta sql backups`
+- `gcloud beta sql backups create`
+- `gcloud beta sql backups delete`
+- `gcloud beta sql backups describe`
+- `gcloud beta sql backups list`
+- `gcloud beta sql backups patch`
+- `gcloud beta sql backups restore`
+- `gcloud beta sql connect`
+- `gcloud beta sql databases`
+- `gcloud beta sql databases create`
+- `gcloud beta sql databases delete`
+- `gcloud beta sql databases describe`
+- `gcloud beta sql databases list`
+- `gcloud beta sql databases patch`
+- `gcloud beta sql export`
+- `gcloud beta sql export bak`
+- `gcloud beta sql export csv`
+- `gcloud beta sql export sql`
+- `gcloud beta sql export tde`
+- `gcloud beta sql flags`
+- `gcloud beta sql flags list`
+- `gcloud beta sql generate-login-token`
+- `gcloud beta sql import`
+- `gcloud beta sql import bak`
+- `gcloud beta sql import csv`
+- `gcloud beta sql import sql`
+- `gcloud beta sql import tde`
+- `gcloud beta sql instances`
+- `gcloud beta sql instances clone`
+- `gcloud beta sql instances create`
+- `gcloud beta sql instances delete`
+- `gcloud beta sql instances describe`
+- `gcloud beta sql instances execute-sql`
+- `gcloud beta sql instances export`
+- `gcloud beta sql instances failover`
+- `gcloud beta sql instances get-latest-recovery-time`
+- `gcloud beta sql instances get-storage-shrink-config`
+- `gcloud beta sql instances import`
+- `gcloud beta sql instances list`
+- `gcloud beta sql instances patch`
+- `gcloud beta sql instances perform-storage-shrink`
+- `gcloud beta sql instances point-in-time-restore`
+- `gcloud beta sql instances pre-check-major-version-upgrade`
+- `gcloud beta sql instances promote-replica`
+- `gcloud beta sql instances reencrypt`
+- `gcloud beta sql instances reset-ssl-config`
+- `gcloud beta sql instances restart`
+- `gcloud beta sql instances restore-backup`
+- `gcloud beta sql instances switchover`
+- `gcloud beta sql operations`
+- `gcloud beta sql operations cancel`
+- `gcloud beta sql operations describe`
+- `gcloud beta sql operations list`
+- `gcloud beta sql operations wait`
+- `gcloud beta sql reschedule-maintenance`
+- `gcloud beta sql ssl`
+- `gcloud beta sql ssl client-certs`
+- `gcloud beta sql ssl client-certs create`
+- `gcloud beta sql ssl client-certs delete`
+- `gcloud beta sql ssl client-certs describe`
+- `gcloud beta sql ssl client-certs list`
+- `gcloud beta sql ssl entraid-certs`
+- `gcloud beta sql ssl entraid-certs create`
+- `gcloud beta sql ssl entraid-certs list`
+- `gcloud beta sql ssl entraid-certs rollback`
+- `gcloud beta sql ssl entraid-certs rotate`
+- `gcloud beta sql ssl server-ca-certs`
+- `gcloud beta sql ssl server-ca-certs create`
+- `gcloud beta sql ssl server-ca-certs list`
+- `gcloud beta sql ssl server-ca-certs rollback`
+- `gcloud beta sql ssl server-ca-certs rotate`
+- `gcloud beta sql ssl server-certs`
+- `gcloud beta sql ssl server-certs create`
+- `gcloud beta sql ssl server-certs list`
+- `gcloud beta sql ssl server-certs rollback`
+- `gcloud beta sql ssl server-certs rotate`
+- `gcloud beta sql ssl-certs`
+- `gcloud beta sql ssl-certs create`
+- `gcloud beta sql ssl-certs delete`
+- `gcloud beta sql ssl-certs describe`
+- `gcloud beta sql ssl-certs list`
+- `gcloud beta sql tiers`
+- `gcloud beta sql tiers list`
+- `gcloud beta sql users`
+- `gcloud beta sql users assign-roles`
+- `gcloud beta sql users create`
+- `gcloud beta sql users delete`
+- `gcloud beta sql users describe`
+- `gcloud beta sql users list`
+- `gcloud beta sql users set-password`
+- `gcloud beta sql users set-password-policy`
+
+## survey
+
+- `gcloud beta survey`
+
+## tasks
+
+- `gcloud beta tasks`
+- `gcloud beta tasks buffer`
+- `gcloud beta tasks cmek-config`
+- `gcloud beta tasks cmek-config describe`
+- `gcloud beta tasks cmek-config update`
+- `gcloud beta tasks create-app-engine-task`
+- `gcloud beta tasks create-http-task`
+- `gcloud beta tasks delete`
+- `gcloud beta tasks describe`
+- `gcloud beta tasks list`
+- `gcloud beta tasks locations`
+- `gcloud beta tasks locations describe`
+- `gcloud beta tasks locations list`
+- `gcloud beta tasks queues`
+- `gcloud beta tasks queues add-iam-policy-binding`
+- `gcloud beta tasks queues create`
+- `gcloud beta tasks queues create-app-engine-queue`
+- `gcloud beta tasks queues create-pull-queue`
+- `gcloud beta tasks queues delete`
+- `gcloud beta tasks queues describe`
+- `gcloud beta tasks queues get-iam-policy`
+- `gcloud beta tasks queues list`
+- `gcloud beta tasks queues pause`
+- `gcloud beta tasks queues purge`
+- `gcloud beta tasks queues remove-iam-policy-binding`
+- `gcloud beta tasks queues resume`
+- `gcloud beta tasks queues set-iam-policy`
+- `gcloud beta tasks queues update`
+- `gcloud beta tasks queues update-app-engine-queue`
+- `gcloud beta tasks run`
+
+## terraform
+
+- `gcloud beta terraform`
+- `gcloud beta terraform vet`
+
+## topic
+
+- `gcloud beta topic`
+- `gcloud beta topic accessibility`
+- `gcloud beta topic arg-files`
+- `gcloud beta topic cli-trees`
+- `gcloud beta topic client-certificate`
+- `gcloud beta topic command-conventions`
+- `gcloud beta topic configurations`
+- `gcloud beta topic datetimes`
+- `gcloud beta topic endpoint-override`
+- `gcloud beta topic escaping`
+- `gcloud beta topic filters`
+- `gcloud beta topic flags-file`
+- `gcloud beta topic formats`
+- `gcloud beta topic gcloudignore`
+- `gcloud beta topic offline-help`
+- `gcloud beta topic projections`
+- `gcloud beta topic resource-keys`
+- `gcloud beta topic startup`
+- `gcloud beta topic uninstall`
+
+## vector-search
+
+- `gcloud beta vector-search`
+- `gcloud beta vector-search collections`
+- `gcloud beta vector-search collections create`
+- `gcloud beta vector-search collections data-objects`
+- `gcloud beta vector-search collections data-objects aggregate`
+- `gcloud beta vector-search collections data-objects batch-create`
+- `gcloud beta vector-search collections data-objects batch-delete`
+- `gcloud beta vector-search collections data-objects batch-search`
+- `gcloud beta vector-search collections data-objects batch-update`
+- `gcloud beta vector-search collections data-objects create`
+- `gcloud beta vector-search collections data-objects delete`
+- `gcloud beta vector-search collections data-objects describe`
+- `gcloud beta vector-search collections data-objects query`
+- `gcloud beta vector-search collections data-objects search`
+- `gcloud beta vector-search collections data-objects update`
+- `gcloud beta vector-search collections delete`
+- `gcloud beta vector-search collections describe`
+- `gcloud beta vector-search collections export-data-objects`
+- `gcloud beta vector-search collections import-data-objects`
+- `gcloud beta vector-search collections indexes`
+- `gcloud beta vector-search collections indexes create`
+- `gcloud beta vector-search collections indexes delete`
+- `gcloud beta vector-search collections indexes describe`
+- `gcloud beta vector-search collections indexes list`
+- `gcloud beta vector-search collections list`
+- `gcloud beta vector-search collections update`
+- `gcloud beta vector-search operations`
+- `gcloud beta vector-search operations cancel`
+- `gcloud beta vector-search operations delete`
+- `gcloud beta vector-search operations describe`
+- `gcloud beta vector-search operations list`
+- `gcloud beta vector-search operations wait`
+
+## workbench
+
+- `gcloud beta workbench`
+- `gcloud beta workbench executions`
+- `gcloud beta workbench executions create`
+- `gcloud beta workbench executions delete`
+- `gcloud beta workbench executions describe`
+- `gcloud beta workbench executions list`
+- `gcloud beta workbench instances`
+- `gcloud beta workbench instances add-iam-policy-binding`
+- `gcloud beta workbench instances check-instance-upgradability`
+- `gcloud beta workbench instances create`
+- `gcloud beta workbench instances delete`
+- `gcloud beta workbench instances describe`
+- `gcloud beta workbench instances diagnose`
+- `gcloud beta workbench instances get-config`
+- `gcloud beta workbench instances get-iam-policy`
+- `gcloud beta workbench instances list`
+- `gcloud beta workbench instances remove-iam-policy-binding`
+- `gcloud beta workbench instances reset`
+- `gcloud beta workbench instances resize-disk`
+- `gcloud beta workbench instances restore`
+- `gcloud beta workbench instances rollback`
+- `gcloud beta workbench instances set-iam-policy`
+- `gcloud beta workbench instances start`
+- `gcloud beta workbench instances stop`
+- `gcloud beta workbench instances update`
+- `gcloud beta workbench instances upgrade`
+- `gcloud beta workbench schedules`
+- `gcloud beta workbench schedules create`
+- `gcloud beta workbench schedules delete`
+- `gcloud beta workbench schedules describe`
+- `gcloud beta workbench schedules list`
+- `gcloud beta workbench schedules pause`
+- `gcloud beta workbench schedules resume`
+- `gcloud beta workbench schedules update`
+
+## workflows
+
+- `gcloud beta workflows`
+- `gcloud beta workflows delete`
+- `gcloud beta workflows deploy`
+- `gcloud beta workflows describe`
+- `gcloud beta workflows execute`
+- `gcloud beta workflows executions`
+- `gcloud beta workflows executions cancel`
+- `gcloud beta workflows executions describe`
+- `gcloud beta workflows executions describe-last`
+- `gcloud beta workflows executions list`
+- `gcloud beta workflows executions wait`
+- `gcloud beta workflows executions wait-last`
+- `gcloud beta workflows list`
+- `gcloud beta workflows run`
+
+## workload-identity
+
+- `gcloud beta workload-identity`
+- `gcloud beta workload-identity service-agents`
+- `gcloud beta workload-identity service-agents generate`
+
+## workstations
+
+- `gcloud beta workstations`
+- `gcloud beta workstations clusters`
+- `gcloud beta workstations clusters create`
+- `gcloud beta workstations clusters delete`
+- `gcloud beta workstations clusters describe`
+- `gcloud beta workstations clusters list`
+- `gcloud beta workstations clusters update`
+- `gcloud beta workstations configs`
+- `gcloud beta workstations configs create`
+- `gcloud beta workstations configs delete`
+- `gcloud beta workstations configs describe`
+- `gcloud beta workstations configs get-iam-policy`
+- `gcloud beta workstations configs list`
+- `gcloud beta workstations configs set-iam-policy`
+- `gcloud beta workstations configs update`
+- `gcloud beta workstations create`
+- `gcloud beta workstations delete`
+- `gcloud beta workstations describe`
+- `gcloud beta workstations get-iam-policy`
+- `gcloud beta workstations list`
+- `gcloud beta workstations list-usable`
+- `gcloud beta workstations set-iam-policy`
+- `gcloud beta workstations ssh`
+- `gcloud beta workstations start`
+- `gcloud beta workstations start-tcp-tunnel`
+- `gcloud beta workstations stop`

@@ -1,13 +1,7174 @@
 # Complete gcloud Alpha Command Index
 
-This file is generated automatically from the installed Google Cloud CLI by:
+> Generated: **2026-09-22 05:34 UTC**  
+> CLI: **Google Cloud SDK 568.0.0**  
+> Source: installed Google Cloud CLI via `gcloud meta list-commands`
 
-`gcloud-command-reference/scripts/generate_gcloud_command_reference.py`
+This is a generated snapshot. Commands can move between release tracks or change as the CLI evolves.
 
-The first automated generation is handled by the repository workflow:
+Official reference: https://cloud.google.com/sdk/gcloud/reference
 
-`.github/workflows/update-gcloud-reference.yml`
+**Commands in this snapshot: 6,758**
 
-Until that workflow completes, use the official reference:
+## (root)
 
-https://cloud.google.com/sdk/gcloud/reference
+- `gcloud alpha`
+
+## access-approval
+
+- `gcloud alpha access-approval`
+- `gcloud alpha access-approval requests`
+- `gcloud alpha access-approval requests approve`
+- `gcloud alpha access-approval requests dismiss`
+- `gcloud alpha access-approval requests get`
+- `gcloud alpha access-approval requests invalidate`
+- `gcloud alpha access-approval requests list`
+- `gcloud alpha access-approval settings`
+- `gcloud alpha access-approval settings delete`
+- `gcloud alpha access-approval settings get`
+- `gcloud alpha access-approval settings update`
+
+## access-context-manager
+
+- `gcloud alpha access-context-manager`
+- `gcloud alpha access-context-manager authorized-orgs`
+- `gcloud alpha access-context-manager authorized-orgs create`
+- `gcloud alpha access-context-manager authorized-orgs delete`
+- `gcloud alpha access-context-manager authorized-orgs describe`
+- `gcloud alpha access-context-manager authorized-orgs list`
+- `gcloud alpha access-context-manager authorized-orgs update`
+- `gcloud alpha access-context-manager cloud-bindings`
+- `gcloud alpha access-context-manager cloud-bindings create`
+- `gcloud alpha access-context-manager cloud-bindings delete`
+- `gcloud alpha access-context-manager cloud-bindings describe`
+- `gcloud alpha access-context-manager cloud-bindings list`
+- `gcloud alpha access-context-manager cloud-bindings update`
+- `gcloud alpha access-context-manager levels`
+- `gcloud alpha access-context-manager levels conditions`
+- `gcloud alpha access-context-manager levels conditions list`
+- `gcloud alpha access-context-manager levels config`
+- `gcloud alpha access-context-manager levels config export`
+- `gcloud alpha access-context-manager levels create`
+- `gcloud alpha access-context-manager levels delete`
+- `gcloud alpha access-context-manager levels describe`
+- `gcloud alpha access-context-manager levels list`
+- `gcloud alpha access-context-manager levels replace-all`
+- `gcloud alpha access-context-manager levels update`
+- `gcloud alpha access-context-manager perimeters`
+- `gcloud alpha access-context-manager perimeters config`
+- `gcloud alpha access-context-manager perimeters config export`
+- `gcloud alpha access-context-manager perimeters create`
+- `gcloud alpha access-context-manager perimeters delete`
+- `gcloud alpha access-context-manager perimeters describe`
+- `gcloud alpha access-context-manager perimeters dry-run`
+- `gcloud alpha access-context-manager perimeters dry-run create`
+- `gcloud alpha access-context-manager perimeters dry-run delete`
+- `gcloud alpha access-context-manager perimeters dry-run describe`
+- `gcloud alpha access-context-manager perimeters dry-run drop`
+- `gcloud alpha access-context-manager perimeters dry-run enforce`
+- `gcloud alpha access-context-manager perimeters dry-run enforce-all`
+- `gcloud alpha access-context-manager perimeters dry-run list`
+- `gcloud alpha access-context-manager perimeters dry-run update`
+- `gcloud alpha access-context-manager perimeters list`
+- `gcloud alpha access-context-manager perimeters replace-all`
+- `gcloud alpha access-context-manager perimeters update`
+- `gcloud alpha access-context-manager policies`
+- `gcloud alpha access-context-manager policies add-iam-policy-binding`
+- `gcloud alpha access-context-manager policies config`
+- `gcloud alpha access-context-manager policies config export`
+- `gcloud alpha access-context-manager policies create`
+- `gcloud alpha access-context-manager policies delete`
+- `gcloud alpha access-context-manager policies describe`
+- `gcloud alpha access-context-manager policies get-iam-policy`
+- `gcloud alpha access-context-manager policies list`
+- `gcloud alpha access-context-manager policies remove-iam-policy-binding`
+- `gcloud alpha access-context-manager policies set-iam-policy`
+- `gcloud alpha access-context-manager policies update`
+- `gcloud alpha access-context-manager supported-permissions`
+- `gcloud alpha access-context-manager supported-permissions describe`
+- `gcloud alpha access-context-manager supported-permissions list`
+- `gcloud alpha access-context-manager supported-services`
+- `gcloud alpha access-context-manager supported-services describe`
+- `gcloud alpha access-context-manager supported-services list`
+
+## active-directory
+
+- `gcloud alpha active-directory`
+- `gcloud alpha active-directory domains`
+- `gcloud alpha active-directory domains backups`
+- `gcloud alpha active-directory domains backups create`
+- `gcloud alpha active-directory domains backups delete`
+- `gcloud alpha active-directory domains backups describe`
+- `gcloud alpha active-directory domains backups list`
+- `gcloud alpha active-directory domains backups update`
+- `gcloud alpha active-directory domains create`
+- `gcloud alpha active-directory domains delete`
+- `gcloud alpha active-directory domains describe`
+- `gcloud alpha active-directory domains describe-ldaps-settings`
+- `gcloud alpha active-directory domains extend-schema`
+- `gcloud alpha active-directory domains get-iam-policy`
+- `gcloud alpha active-directory domains list`
+- `gcloud alpha active-directory domains migration`
+- `gcloud alpha active-directory domains migration check-permissions`
+- `gcloud alpha active-directory domains migration disable`
+- `gcloud alpha active-directory domains migration enable`
+- `gcloud alpha active-directory domains reset-admin-password`
+- `gcloud alpha active-directory domains restore`
+- `gcloud alpha active-directory domains set-iam-policy`
+- `gcloud alpha active-directory domains sql-integrations`
+- `gcloud alpha active-directory domains sql-integrations describe`
+- `gcloud alpha active-directory domains sql-integrations list`
+- `gcloud alpha active-directory domains trusts`
+- `gcloud alpha active-directory domains trusts create`
+- `gcloud alpha active-directory domains trusts delete`
+- `gcloud alpha active-directory domains trusts update`
+- `gcloud alpha active-directory domains trusts validate-state`
+- `gcloud alpha active-directory domains update`
+- `gcloud alpha active-directory domains update-ldaps-settings`
+- `gcloud alpha active-directory operations`
+- `gcloud alpha active-directory operations cancel`
+- `gcloud alpha active-directory operations describe`
+- `gcloud alpha active-directory operations list`
+- `gcloud alpha active-directory peerings`
+- `gcloud alpha active-directory peerings create`
+- `gcloud alpha active-directory peerings delete`
+- `gcloud alpha active-directory peerings describe`
+- `gcloud alpha active-directory peerings list`
+- `gcloud alpha active-directory peerings update`
+
+## agent-identity
+
+- `gcloud alpha agent-identity`
+- `gcloud alpha agent-identity access-events`
+- `gcloud alpha agent-identity access-events describe`
+- `gcloud alpha agent-identity access-events list`
+- `gcloud alpha agent-identity connectors`
+- `gcloud alpha agent-identity connectors add-iam-policy-binding`
+- `gcloud alpha agent-identity connectors authorizations`
+- `gcloud alpha agent-identity connectors authorizations delete`
+- `gcloud alpha agent-identity connectors authorizations describe`
+- `gcloud alpha agent-identity connectors authorizations list`
+- `gcloud alpha agent-identity connectors create`
+- `gcloud alpha agent-identity connectors delete`
+- `gcloud alpha agent-identity connectors describe`
+- `gcloud alpha agent-identity connectors get-iam-policy`
+- `gcloud alpha agent-identity connectors list`
+- `gcloud alpha agent-identity connectors query`
+- `gcloud alpha agent-identity connectors query-workloads`
+- `gcloud alpha agent-identity connectors remove-iam-policy-binding`
+- `gcloud alpha agent-identity connectors revoke-authorization`
+- `gcloud alpha agent-identity connectors set-iam-policy`
+- `gcloud alpha agent-identity connectors test-iam-permissions`
+- `gcloud alpha agent-identity connectors undelete`
+- `gcloud alpha agent-identity connectors update`
+
+## agent-registry
+
+- `gcloud alpha agent-registry`
+- `gcloud alpha agent-registry agents`
+- `gcloud alpha agent-registry agents describe`
+- `gcloud alpha agent-registry agents list`
+- `gcloud alpha agent-registry agents search`
+- `gcloud alpha agent-registry bindings`
+- `gcloud alpha agent-registry bindings create`
+- `gcloud alpha agent-registry bindings delete`
+- `gcloud alpha agent-registry bindings describe`
+- `gcloud alpha agent-registry bindings fetch-available`
+- `gcloud alpha agent-registry bindings list`
+- `gcloud alpha agent-registry bindings update`
+- `gcloud alpha agent-registry endpoints`
+- `gcloud alpha agent-registry endpoints describe`
+- `gcloud alpha agent-registry endpoints list`
+- `gcloud alpha agent-registry mcp-servers`
+- `gcloud alpha agent-registry mcp-servers describe`
+- `gcloud alpha agent-registry mcp-servers list`
+- `gcloud alpha agent-registry mcp-servers search`
+- `gcloud alpha agent-registry operations`
+- `gcloud alpha agent-registry services`
+- `gcloud alpha agent-registry services create`
+- `gcloud alpha agent-registry services delete`
+- `gcloud alpha agent-registry services describe`
+- `gcloud alpha agent-registry services list`
+- `gcloud alpha agent-registry services update`
+
+## ai
+
+- `gcloud alpha ai`
+- `gcloud alpha ai custom-jobs`
+- `gcloud alpha ai custom-jobs cancel`
+- `gcloud alpha ai custom-jobs create`
+- `gcloud alpha ai custom-jobs describe`
+- `gcloud alpha ai custom-jobs list`
+- `gcloud alpha ai custom-jobs local-run`
+- `gcloud alpha ai custom-jobs stream-logs`
+- `gcloud alpha ai endpoints`
+- `gcloud alpha ai endpoints create`
+- `gcloud alpha ai endpoints delete`
+- `gcloud alpha ai endpoints deploy-model`
+- `gcloud alpha ai endpoints describe`
+- `gcloud alpha ai endpoints direct-predict`
+- `gcloud alpha ai endpoints direct-raw-predict`
+- `gcloud alpha ai endpoints explain`
+- `gcloud alpha ai endpoints list`
+- `gcloud alpha ai endpoints predict`
+- `gcloud alpha ai endpoints raw-predict`
+- `gcloud alpha ai endpoints stream-direct-predict`
+- `gcloud alpha ai endpoints stream-direct-raw-predict`
+- `gcloud alpha ai endpoints stream-raw-predict`
+- `gcloud alpha ai endpoints undeploy-model`
+- `gcloud alpha ai endpoints update`
+- `gcloud alpha ai hp-tuning-jobs`
+- `gcloud alpha ai hp-tuning-jobs cancel`
+- `gcloud alpha ai hp-tuning-jobs create`
+- `gcloud alpha ai hp-tuning-jobs describe`
+- `gcloud alpha ai hp-tuning-jobs list`
+- `gcloud alpha ai hp-tuning-jobs stream-logs`
+- `gcloud alpha ai index-endpoints`
+- `gcloud alpha ai index-endpoints create`
+- `gcloud alpha ai index-endpoints delete`
+- `gcloud alpha ai index-endpoints deploy-index`
+- `gcloud alpha ai index-endpoints describe`
+- `gcloud alpha ai index-endpoints list`
+- `gcloud alpha ai index-endpoints mutate-deployed-index`
+- `gcloud alpha ai index-endpoints undeploy-index`
+- `gcloud alpha ai index-endpoints update`
+- `gcloud alpha ai indexes`
+- `gcloud alpha ai indexes create`
+- `gcloud alpha ai indexes delete`
+- `gcloud alpha ai indexes describe`
+- `gcloud alpha ai indexes list`
+- `gcloud alpha ai indexes remove-datapoints`
+- `gcloud alpha ai indexes update`
+- `gcloud alpha ai indexes upsert-datapoints`
+- `gcloud alpha ai model-garden`
+- `gcloud alpha ai model-garden models`
+- `gcloud alpha ai model-garden models deploy`
+- `gcloud alpha ai model-garden models list`
+- `gcloud alpha ai model-garden models list-deployment-config`
+- `gcloud alpha ai model-monitoring-jobs`
+- `gcloud alpha ai model-monitoring-jobs create`
+- `gcloud alpha ai model-monitoring-jobs delete`
+- `gcloud alpha ai model-monitoring-jobs describe`
+- `gcloud alpha ai model-monitoring-jobs list`
+- `gcloud alpha ai model-monitoring-jobs pause`
+- `gcloud alpha ai model-monitoring-jobs resume`
+- `gcloud alpha ai model-monitoring-jobs update`
+- `gcloud alpha ai models`
+- `gcloud alpha ai models copy`
+- `gcloud alpha ai models delete`
+- `gcloud alpha ai models delete-version`
+- `gcloud alpha ai models describe`
+- `gcloud alpha ai models list`
+- `gcloud alpha ai models list-version`
+- `gcloud alpha ai models upload`
+- `gcloud alpha ai operations`
+- `gcloud alpha ai operations describe`
+- `gcloud alpha ai persistent-resources`
+- `gcloud alpha ai persistent-resources create`
+- `gcloud alpha ai persistent-resources delete`
+- `gcloud alpha ai persistent-resources describe`
+- `gcloud alpha ai persistent-resources list`
+- `gcloud alpha ai persistent-resources reboot`
+- `gcloud alpha ai tensorboard-experiments`
+- `gcloud alpha ai tensorboard-experiments create`
+- `gcloud alpha ai tensorboard-experiments delete`
+- `gcloud alpha ai tensorboard-experiments describe`
+- `gcloud alpha ai tensorboard-experiments list`
+- `gcloud alpha ai tensorboard-experiments update`
+- `gcloud alpha ai tensorboard-runs`
+- `gcloud alpha ai tensorboard-runs create`
+- `gcloud alpha ai tensorboard-runs delete`
+- `gcloud alpha ai tensorboard-runs describe`
+- `gcloud alpha ai tensorboard-runs list`
+- `gcloud alpha ai tensorboard-runs update`
+- `gcloud alpha ai tensorboard-time-series`
+- `gcloud alpha ai tensorboard-time-series create`
+- `gcloud alpha ai tensorboard-time-series delete`
+- `gcloud alpha ai tensorboard-time-series describe`
+- `gcloud alpha ai tensorboard-time-series list`
+- `gcloud alpha ai tensorboard-time-series read`
+- `gcloud alpha ai tensorboard-time-series update`
+- `gcloud alpha ai tensorboards`
+- `gcloud alpha ai tensorboards create`
+- `gcloud alpha ai tensorboards delete`
+- `gcloud alpha ai tensorboards describe`
+- `gcloud alpha ai tensorboards list`
+- `gcloud alpha ai tensorboards update`
+
+## ai-platform
+
+- `gcloud alpha ai-platform`
+- `gcloud alpha ai-platform explain`
+- `gcloud alpha ai-platform jobs`
+- `gcloud alpha ai-platform jobs cancel`
+- `gcloud alpha ai-platform jobs describe`
+- `gcloud alpha ai-platform jobs list`
+- `gcloud alpha ai-platform jobs stream-logs`
+- `gcloud alpha ai-platform jobs submit`
+- `gcloud alpha ai-platform jobs submit prediction`
+- `gcloud alpha ai-platform jobs submit training`
+- `gcloud alpha ai-platform jobs update`
+- `gcloud alpha ai-platform local`
+- `gcloud alpha ai-platform local predict`
+- `gcloud alpha ai-platform local train`
+- `gcloud alpha ai-platform locations`
+- `gcloud alpha ai-platform locations describe`
+- `gcloud alpha ai-platform locations list`
+- `gcloud alpha ai-platform models`
+- `gcloud alpha ai-platform models add-iam-policy-binding`
+- `gcloud alpha ai-platform models create`
+- `gcloud alpha ai-platform models delete`
+- `gcloud alpha ai-platform models describe`
+- `gcloud alpha ai-platform models get-iam-policy`
+- `gcloud alpha ai-platform models list`
+- `gcloud alpha ai-platform models remove-iam-policy-binding`
+- `gcloud alpha ai-platform models set-iam-policy`
+- `gcloud alpha ai-platform models update`
+- `gcloud alpha ai-platform operations`
+- `gcloud alpha ai-platform operations cancel`
+- `gcloud alpha ai-platform operations describe`
+- `gcloud alpha ai-platform operations list`
+- `gcloud alpha ai-platform operations wait`
+- `gcloud alpha ai-platform predict`
+- `gcloud alpha ai-platform versions`
+- `gcloud alpha ai-platform versions create`
+- `gcloud alpha ai-platform versions delete`
+- `gcloud alpha ai-platform versions describe`
+- `gcloud alpha ai-platform versions list`
+- `gcloud alpha ai-platform versions set-default`
+- `gcloud alpha ai-platform versions update`
+
+## alloydb
+
+- `gcloud alpha alloydb`
+- `gcloud alpha alloydb backups`
+- `gcloud alpha alloydb backups create`
+- `gcloud alpha alloydb backups delete`
+- `gcloud alpha alloydb backups describe`
+- `gcloud alpha alloydb backups list`
+- `gcloud alpha alloydb clusters`
+- `gcloud alpha alloydb clusters create`
+- `gcloud alpha alloydb clusters create-secondary`
+- `gcloud alpha alloydb clusters delete`
+- `gcloud alpha alloydb clusters describe`
+- `gcloud alpha alloydb clusters export`
+- `gcloud alpha alloydb clusters import`
+- `gcloud alpha alloydb clusters list`
+- `gcloud alpha alloydb clusters migrate-cloud-sql`
+- `gcloud alpha alloydb clusters promote`
+- `gcloud alpha alloydb clusters restore`
+- `gcloud alpha alloydb clusters switchover`
+- `gcloud alpha alloydb clusters update`
+- `gcloud alpha alloydb clusters upgrade`
+- `gcloud alpha alloydb connect`
+- `gcloud alpha alloydb instances`
+- `gcloud alpha alloydb instances create`
+- `gcloud alpha alloydb instances create-secondary`
+- `gcloud alpha alloydb instances delete`
+- `gcloud alpha alloydb instances describe`
+- `gcloud alpha alloydb instances failover`
+- `gcloud alpha alloydb instances inject-fault`
+- `gcloud alpha alloydb instances list`
+- `gcloud alpha alloydb instances restart`
+- `gcloud alpha alloydb instances update`
+- `gcloud alpha alloydb operations`
+- `gcloud alpha alloydb operations cancel`
+- `gcloud alpha alloydb operations delete`
+- `gcloud alpha alloydb operations describe`
+- `gcloud alpha alloydb operations list`
+- `gcloud alpha alloydb users`
+- `gcloud alpha alloydb users create`
+- `gcloud alpha alloydb users delete`
+- `gcloud alpha alloydb users list`
+- `gcloud alpha alloydb users set-password`
+- `gcloud alpha alloydb users set-roles`
+- `gcloud alpha alloydb users set-superuser`
+
+## anthos
+
+- `gcloud alpha anthos`
+- `gcloud alpha anthos apply`
+- `gcloud alpha anthos auth`
+- `gcloud alpha anthos auth login`
+- `gcloud alpha anthos config`
+- `gcloud alpha anthos config controller`
+- `gcloud alpha anthos config controller create`
+- `gcloud alpha anthos config controller delete`
+- `gcloud alpha anthos config controller describe`
+- `gcloud alpha anthos config controller get-config-connector-identity`
+- `gcloud alpha anthos config controller get-credentials`
+- `gcloud alpha anthos config controller list`
+- `gcloud alpha anthos config controller update`
+- `gcloud alpha anthos config operations`
+- `gcloud alpha anthos config operations describe`
+- `gcloud alpha anthos config operations list`
+- `gcloud alpha anthos create-login-config`
+- `gcloud alpha anthos export`
+
+## api-gateway
+
+- `gcloud alpha api-gateway`
+- `gcloud alpha api-gateway api-configs`
+- `gcloud alpha api-gateway api-configs create`
+- `gcloud alpha api-gateway api-configs delete`
+- `gcloud alpha api-gateway api-configs describe`
+- `gcloud alpha api-gateway api-configs list`
+- `gcloud alpha api-gateway api-configs update`
+- `gcloud alpha api-gateway apis`
+- `gcloud alpha api-gateway apis add-iam-policy-binding`
+- `gcloud alpha api-gateway apis create`
+- `gcloud alpha api-gateway apis delete`
+- `gcloud alpha api-gateway apis describe`
+- `gcloud alpha api-gateway apis get-iam-policy`
+- `gcloud alpha api-gateway apis list`
+- `gcloud alpha api-gateway apis remove-iam-policy-binding`
+- `gcloud alpha api-gateway apis update`
+- `gcloud alpha api-gateway gateways`
+- `gcloud alpha api-gateway gateways add-iam-policy-binding`
+- `gcloud alpha api-gateway gateways create`
+- `gcloud alpha api-gateway gateways delete`
+- `gcloud alpha api-gateway gateways describe`
+- `gcloud alpha api-gateway gateways get-iam-policy`
+- `gcloud alpha api-gateway gateways list`
+- `gcloud alpha api-gateway gateways remove-iam-policy-binding`
+- `gcloud alpha api-gateway gateways update`
+- `gcloud alpha api-gateway operations`
+- `gcloud alpha api-gateway operations cancel`
+- `gcloud alpha api-gateway operations describe`
+- `gcloud alpha api-gateway operations list`
+- `gcloud alpha api-gateway operations wait`
+
+## api-registry
+
+- `gcloud alpha api-registry`
+- `gcloud alpha api-registry mcp`
+- `gcloud alpha api-registry mcp disable`
+- `gcloud alpha api-registry mcp enable`
+- `gcloud alpha api-registry mcp servers`
+- `gcloud alpha api-registry mcp servers list`
+- `gcloud alpha api-registry mcp tools`
+- `gcloud alpha api-registry mcp tools list`
+
+## apigee
+
+- `gcloud alpha apigee`
+- `gcloud alpha apigee apis`
+- `gcloud alpha apigee apis deploy`
+- `gcloud alpha apigee apis describe`
+- `gcloud alpha apigee apis list`
+- `gcloud alpha apigee apis undeploy`
+- `gcloud alpha apigee applications`
+- `gcloud alpha apigee applications describe`
+- `gcloud alpha apigee applications list`
+- `gcloud alpha apigee archives`
+- `gcloud alpha apigee archives delete`
+- `gcloud alpha apigee archives deploy`
+- `gcloud alpha apigee archives describe`
+- `gcloud alpha apigee archives list`
+- `gcloud alpha apigee archives update`
+- `gcloud alpha apigee deployments`
+- `gcloud alpha apigee deployments describe`
+- `gcloud alpha apigee deployments list`
+- `gcloud alpha apigee developers`
+- `gcloud alpha apigee developers describe`
+- `gcloud alpha apigee developers list`
+- `gcloud alpha apigee environments`
+- `gcloud alpha apigee environments describe`
+- `gcloud alpha apigee environments list`
+- `gcloud alpha apigee operations`
+- `gcloud alpha apigee operations describe`
+- `gcloud alpha apigee operations list`
+- `gcloud alpha apigee organizations`
+- `gcloud alpha apigee organizations delete`
+- `gcloud alpha apigee organizations list`
+- `gcloud alpha apigee organizations provision`
+- `gcloud alpha apigee products`
+- `gcloud alpha apigee products create`
+- `gcloud alpha apigee products delete`
+- `gcloud alpha apigee products describe`
+- `gcloud alpha apigee products list`
+- `gcloud alpha apigee products update`
+
+## apihub
+
+- `gcloud alpha apihub`
+- `gcloud alpha apihub addons`
+- `gcloud alpha apihub addons describe`
+- `gcloud alpha apihub addons list`
+- `gcloud alpha apihub addons manage-config`
+- `gcloud alpha apihub api-hub-instances`
+- `gcloud alpha apihub api-hub-instances create`
+- `gcloud alpha apihub api-hub-instances delete`
+- `gcloud alpha apihub api-hub-instances describe`
+- `gcloud alpha apihub api-hub-instances lookup`
+- `gcloud alpha apihub apis`
+- `gcloud alpha apihub apis create`
+- `gcloud alpha apihub apis delete`
+- `gcloud alpha apihub apis describe`
+- `gcloud alpha apihub apis list`
+- `gcloud alpha apihub apis update`
+- `gcloud alpha apihub apis versions`
+- `gcloud alpha apihub apis versions create`
+- `gcloud alpha apihub apis versions delete`
+- `gcloud alpha apihub apis versions describe`
+- `gcloud alpha apihub apis versions list`
+- `gcloud alpha apihub apis versions operations`
+- `gcloud alpha apihub apis versions operations create`
+- `gcloud alpha apihub apis versions operations delete`
+- `gcloud alpha apihub apis versions operations describe`
+- `gcloud alpha apihub apis versions operations list`
+- `gcloud alpha apihub apis versions operations update`
+- `gcloud alpha apihub apis versions specs`
+- `gcloud alpha apihub apis versions specs create`
+- `gcloud alpha apihub apis versions specs delete`
+- `gcloud alpha apihub apis versions specs describe`
+- `gcloud alpha apihub apis versions specs get-contents`
+- `gcloud alpha apihub apis versions specs lint`
+- `gcloud alpha apihub apis versions specs list`
+- `gcloud alpha apihub apis versions specs update`
+- `gcloud alpha apihub apis versions update`
+- `gcloud alpha apihub attributes`
+- `gcloud alpha apihub attributes create`
+- `gcloud alpha apihub attributes delete`
+- `gcloud alpha apihub attributes describe`
+- `gcloud alpha apihub attributes list`
+- `gcloud alpha apihub attributes update`
+- `gcloud alpha apihub curations`
+- `gcloud alpha apihub curations create`
+- `gcloud alpha apihub curations delete`
+- `gcloud alpha apihub curations describe`
+- `gcloud alpha apihub curations list`
+- `gcloud alpha apihub curations update`
+- `gcloud alpha apihub dependencies`
+- `gcloud alpha apihub dependencies create`
+- `gcloud alpha apihub dependencies delete`
+- `gcloud alpha apihub dependencies describe`
+- `gcloud alpha apihub dependencies list`
+- `gcloud alpha apihub dependencies update`
+- `gcloud alpha apihub deployments`
+- `gcloud alpha apihub deployments create`
+- `gcloud alpha apihub deployments delete`
+- `gcloud alpha apihub deployments describe`
+- `gcloud alpha apihub deployments list`
+- `gcloud alpha apihub deployments update`
+- `gcloud alpha apihub discovered-api-observations`
+- `gcloud alpha apihub discovered-api-observations describe`
+- `gcloud alpha apihub discovered-api-observations discovered-api-operations`
+- `gcloud alpha apihub discovered-api-observations discovered-api-operations describe`
+- `gcloud alpha apihub discovered-api-observations discovered-api-operations list`
+- `gcloud alpha apihub discovered-api-observations list`
+- `gcloud alpha apihub external-apis`
+- `gcloud alpha apihub external-apis create`
+- `gcloud alpha apihub external-apis delete`
+- `gcloud alpha apihub external-apis describe`
+- `gcloud alpha apihub external-apis list`
+- `gcloud alpha apihub external-apis update`
+- `gcloud alpha apihub host-project-registrations`
+- `gcloud alpha apihub host-project-registrations create`
+- `gcloud alpha apihub host-project-registrations describe`
+- `gcloud alpha apihub host-project-registrations list`
+- `gcloud alpha apihub operations`
+- `gcloud alpha apihub operations cancel`
+- `gcloud alpha apihub operations delete`
+- `gcloud alpha apihub operations describe`
+- `gcloud alpha apihub operations list`
+- `gcloud alpha apihub operations wait`
+- `gcloud alpha apihub plugins`
+- `gcloud alpha apihub plugins create`
+- `gcloud alpha apihub plugins delete`
+- `gcloud alpha apihub plugins describe`
+- `gcloud alpha apihub plugins disable`
+- `gcloud alpha apihub plugins enable`
+- `gcloud alpha apihub plugins instances`
+- `gcloud alpha apihub plugins instances create`
+- `gcloud alpha apihub plugins instances delete`
+- `gcloud alpha apihub plugins instances describe`
+- `gcloud alpha apihub plugins instances list`
+- `gcloud alpha apihub plugins instances manage-source-data`
+- `gcloud alpha apihub plugins instances update`
+- `gcloud alpha apihub plugins list`
+- `gcloud alpha apihub runtime-project-attachments`
+- `gcloud alpha apihub runtime-project-attachments create`
+- `gcloud alpha apihub runtime-project-attachments delete`
+- `gcloud alpha apihub runtime-project-attachments describe`
+- `gcloud alpha apihub runtime-project-attachments list`
+- `gcloud alpha apihub runtime-project-attachments lookup`
+
+## app
+
+- `gcloud alpha app`
+- `gcloud alpha app domain-mappings`
+- `gcloud alpha app domain-mappings create`
+- `gcloud alpha app domain-mappings delete`
+- `gcloud alpha app domain-mappings describe`
+- `gcloud alpha app domain-mappings list`
+- `gcloud alpha app domain-mappings update`
+- `gcloud alpha app migrate-to-run`
+- `gcloud alpha app ssl-certificates`
+- `gcloud alpha app ssl-certificates create`
+- `gcloud alpha app ssl-certificates delete`
+- `gcloud alpha app ssl-certificates describe`
+- `gcloud alpha app ssl-certificates list`
+- `gcloud alpha app ssl-certificates update`
+- `gcloud alpha app update`
+
+## apphub
+
+- `gcloud alpha apphub`
+- `gcloud alpha apphub applications`
+- `gcloud alpha apphub applications add-iam-policy-binding`
+- `gcloud alpha apphub applications create`
+- `gcloud alpha apphub applications delete`
+- `gcloud alpha apphub applications describe`
+- `gcloud alpha apphub applications get-iam-policy`
+- `gcloud alpha apphub applications list`
+- `gcloud alpha apphub applications remove-iam-policy-binding`
+- `gcloud alpha apphub applications services`
+- `gcloud alpha apphub applications services create`
+- `gcloud alpha apphub applications services delete`
+- `gcloud alpha apphub applications services describe`
+- `gcloud alpha apphub applications services list`
+- `gcloud alpha apphub applications services update`
+- `gcloud alpha apphub applications set-iam-policy`
+- `gcloud alpha apphub applications update`
+- `gcloud alpha apphub applications workloads`
+- `gcloud alpha apphub applications workloads create`
+- `gcloud alpha apphub applications workloads delete`
+- `gcloud alpha apphub applications workloads describe`
+- `gcloud alpha apphub applications workloads list`
+- `gcloud alpha apphub applications workloads update`
+- `gcloud alpha apphub boundary`
+- `gcloud alpha apphub boundary describe`
+- `gcloud alpha apphub boundary update`
+- `gcloud alpha apphub discovered-services`
+- `gcloud alpha apphub discovered-services describe`
+- `gcloud alpha apphub discovered-services find-unregistered`
+- `gcloud alpha apphub discovered-services list`
+- `gcloud alpha apphub discovered-services lookup`
+- `gcloud alpha apphub discovered-workloads`
+- `gcloud alpha apphub discovered-workloads describe`
+- `gcloud alpha apphub discovered-workloads find-unregistered`
+- `gcloud alpha apphub discovered-workloads list`
+- `gcloud alpha apphub discovered-workloads lookup`
+- `gcloud alpha apphub extended-metadata-schemas`
+- `gcloud alpha apphub extended-metadata-schemas describe`
+- `gcloud alpha apphub extended-metadata-schemas list`
+- `gcloud alpha apphub locations`
+- `gcloud alpha apphub locations describe`
+- `gcloud alpha apphub locations list`
+- `gcloud alpha apphub operations`
+- `gcloud alpha apphub operations describe`
+- `gcloud alpha apphub operations list`
+- `gcloud alpha apphub service-projects`
+- `gcloud alpha apphub service-projects add`
+- `gcloud alpha apphub service-projects describe`
+- `gcloud alpha apphub service-projects detach`
+- `gcloud alpha apphub service-projects list`
+- `gcloud alpha apphub service-projects lookup`
+- `gcloud alpha apphub service-projects remove`
+
+## artifacts
+
+- `gcloud alpha artifacts`
+- `gcloud alpha artifacts apt`
+- `gcloud alpha artifacts apt import`
+- `gcloud alpha artifacts apt upload`
+- `gcloud alpha artifacts docker`
+- `gcloud alpha artifacts docker images`
+- `gcloud alpha artifacts docker images delete`
+- `gcloud alpha artifacts docker images describe`
+- `gcloud alpha artifacts docker images list`
+- `gcloud alpha artifacts docker tags`
+- `gcloud alpha artifacts docker tags add`
+- `gcloud alpha artifacts docker tags delete`
+- `gcloud alpha artifacts docker tags list`
+- `gcloud alpha artifacts files`
+- `gcloud alpha artifacts files list`
+- `gcloud alpha artifacts generic`
+- `gcloud alpha artifacts generic download`
+- `gcloud alpha artifacts generic upload`
+- `gcloud alpha artifacts go`
+- `gcloud alpha artifacts go upload`
+- `gcloud alpha artifacts locations`
+- `gcloud alpha artifacts locations list`
+- `gcloud alpha artifacts operations`
+- `gcloud alpha artifacts operations describe`
+- `gcloud alpha artifacts packages`
+- `gcloud alpha artifacts packages delete`
+- `gcloud alpha artifacts packages list`
+- `gcloud alpha artifacts print-settings`
+- `gcloud alpha artifacts print-settings apt`
+- `gcloud alpha artifacts print-settings gradle`
+- `gcloud alpha artifacts print-settings mvn`
+- `gcloud alpha artifacts print-settings npm`
+- `gcloud alpha artifacts print-settings python`
+- `gcloud alpha artifacts print-settings yum`
+- `gcloud alpha artifacts repositories`
+- `gcloud alpha artifacts repositories add-iam-policy-binding`
+- `gcloud alpha artifacts repositories config`
+- `gcloud alpha artifacts repositories config export`
+- `gcloud alpha artifacts repositories create`
+- `gcloud alpha artifacts repositories delete`
+- `gcloud alpha artifacts repositories describe`
+- `gcloud alpha artifacts repositories get-iam-policy`
+- `gcloud alpha artifacts repositories list`
+- `gcloud alpha artifacts repositories remove-iam-policy-binding`
+- `gcloud alpha artifacts repositories set-iam-policy`
+- `gcloud alpha artifacts repositories update`
+- `gcloud alpha artifacts settings`
+- `gcloud alpha artifacts settings describe`
+- `gcloud alpha artifacts settings disable-upgrade-redirection`
+- `gcloud alpha artifacts settings enable-upgrade-redirection`
+- `gcloud alpha artifacts tags`
+- `gcloud alpha artifacts tags create`
+- `gcloud alpha artifacts tags delete`
+- `gcloud alpha artifacts tags list`
+- `gcloud alpha artifacts tags update`
+- `gcloud alpha artifacts versions`
+- `gcloud alpha artifacts versions delete`
+- `gcloud alpha artifacts versions list`
+- `gcloud alpha artifacts vpcsc-config`
+- `gcloud alpha artifacts vpcsc-config allow`
+- `gcloud alpha artifacts vpcsc-config deny`
+- `gcloud alpha artifacts vpcsc-config describe`
+- `gcloud alpha artifacts yum`
+- `gcloud alpha artifacts yum import`
+- `gcloud alpha artifacts yum upload`
+
+## asset
+
+- `gcloud alpha asset`
+- `gcloud alpha asset analyze-iam-policy`
+- `gcloud alpha asset analyze-iam-policy-longrunning`
+- `gcloud alpha asset analyze-org-policies`
+- `gcloud alpha asset analyze-org-policy-governed-containers`
+- `gcloud alpha asset export`
+- `gcloud alpha asset feeds`
+- `gcloud alpha asset feeds create`
+- `gcloud alpha asset feeds delete`
+- `gcloud alpha asset feeds describe`
+- `gcloud alpha asset feeds list`
+- `gcloud alpha asset feeds update`
+- `gcloud alpha asset get-history`
+- `gcloud alpha asset list`
+- `gcloud alpha asset operations`
+- `gcloud alpha asset operations describe`
+- `gcloud alpha asset query`
+- `gcloud alpha asset saved-queries`
+- `gcloud alpha asset saved-queries create`
+- `gcloud alpha asset saved-queries delete`
+- `gcloud alpha asset saved-queries describe`
+- `gcloud alpha asset saved-queries list`
+- `gcloud alpha asset saved-queries update`
+
+## assured
+
+- `gcloud alpha assured`
+- `gcloud alpha assured operations`
+- `gcloud alpha assured operations describe`
+- `gcloud alpha assured operations list`
+- `gcloud alpha assured workloads`
+- `gcloud alpha assured workloads create`
+- `gcloud alpha assured workloads delete`
+- `gcloud alpha assured workloads describe`
+- `gcloud alpha assured workloads enable-resource-monitoring`
+- `gcloud alpha assured workloads list`
+- `gcloud alpha assured workloads update`
+- `gcloud alpha assured workloads violations`
+- `gcloud alpha assured workloads violations acknowledge`
+- `gcloud alpha assured workloads violations describe`
+- `gcloud alpha assured workloads violations list`
+
+## audit-manager
+
+- `gcloud alpha audit-manager`
+- `gcloud alpha audit-manager audit-reports`
+- `gcloud alpha audit-manager audit-reports generate`
+- `gcloud alpha audit-manager audit-scopes`
+- `gcloud alpha audit-manager audit-scopes generate`
+- `gcloud alpha audit-manager enrollments`
+- `gcloud alpha audit-manager enrollments add`
+- `gcloud alpha audit-manager operations`
+- `gcloud alpha audit-manager operations describe`
+
+## auth
+
+- `gcloud alpha auth`
+- `gcloud alpha auth activate-service-account`
+- `gcloud alpha auth application-default`
+- `gcloud alpha auth application-default login`
+- `gcloud alpha auth application-default print-access-token`
+- `gcloud alpha auth application-default revoke`
+- `gcloud alpha auth application-default set-quota-project`
+- `gcloud alpha auth configure-docker`
+- `gcloud alpha auth enterprise-certificate-config`
+- `gcloud alpha auth enterprise-certificate-config create`
+- `gcloud alpha auth enterprise-certificate-config create linux`
+- `gcloud alpha auth enterprise-certificate-config create macos`
+- `gcloud alpha auth enterprise-certificate-config create windows`
+- `gcloud alpha auth list`
+- `gcloud alpha auth login`
+- `gcloud alpha auth print-access-token`
+- `gcloud alpha auth print-identity-token`
+- `gcloud alpha auth revoke`
+
+## backup-dr
+
+- `gcloud alpha backup-dr`
+- `gcloud alpha backup-dr backup-plan-associations`
+- `gcloud alpha backup-dr backup-plan-associations create`
+- `gcloud alpha backup-dr backup-plan-associations delete`
+- `gcloud alpha backup-dr backup-plan-associations describe`
+- `gcloud alpha backup-dr backup-plan-associations fetch-for-resource-type`
+- `gcloud alpha backup-dr backup-plan-associations list`
+- `gcloud alpha backup-dr backup-plan-associations trigger-backup`
+- `gcloud alpha backup-dr backup-plan-associations update`
+- `gcloud alpha backup-dr backup-plan-revisions`
+- `gcloud alpha backup-dr backup-plan-revisions describe`
+- `gcloud alpha backup-dr backup-plan-revisions list`
+- `gcloud alpha backup-dr backup-plans`
+- `gcloud alpha backup-dr backup-plans create`
+- `gcloud alpha backup-dr backup-plans delete`
+- `gcloud alpha backup-dr backup-plans describe`
+- `gcloud alpha backup-dr backup-plans list`
+- `gcloud alpha backup-dr backup-plans update`
+- `gcloud alpha backup-dr backup-vaults`
+- `gcloud alpha backup-dr backup-vaults create`
+- `gcloud alpha backup-dr backup-vaults delete`
+- `gcloud alpha backup-dr backup-vaults describe`
+- `gcloud alpha backup-dr backup-vaults list`
+- `gcloud alpha backup-dr backup-vaults update`
+- `gcloud alpha backup-dr backups`
+- `gcloud alpha backup-dr backups delete`
+- `gcloud alpha backup-dr backups describe`
+- `gcloud alpha backup-dr backups fetch-for-resource-type`
+- `gcloud alpha backup-dr backups list`
+- `gcloud alpha backup-dr backups restore`
+- `gcloud alpha backup-dr backups restore compute`
+- `gcloud alpha backup-dr backups restore disk`
+- `gcloud alpha backup-dr backups update`
+- `gcloud alpha backup-dr data-source-references`
+- `gcloud alpha backup-dr data-source-references describe`
+- `gcloud alpha backup-dr data-source-references fetch-for-resource-type`
+- `gcloud alpha backup-dr data-source-references list`
+- `gcloud alpha backup-dr data-sources`
+- `gcloud alpha backup-dr data-sources describe`
+- `gcloud alpha backup-dr data-sources list`
+- `gcloud alpha backup-dr locations`
+- `gcloud alpha backup-dr locations list`
+- `gcloud alpha backup-dr management-servers`
+- `gcloud alpha backup-dr management-servers create`
+- `gcloud alpha backup-dr management-servers delete`
+- `gcloud alpha backup-dr management-servers describe`
+- `gcloud alpha backup-dr management-servers list`
+- `gcloud alpha backup-dr operations`
+- `gcloud alpha backup-dr operations describe`
+- `gcloud alpha backup-dr operations list`
+- `gcloud alpha backup-dr resource-backup-config`
+- `gcloud alpha backup-dr resource-backup-config list`
+- `gcloud alpha backup-dr service-config`
+- `gcloud alpha backup-dr service-config init`
+
+## batch
+
+- `gcloud alpha batch`
+- `gcloud alpha batch jobs`
+- `gcloud alpha batch jobs cancel`
+- `gcloud alpha batch jobs delete`
+- `gcloud alpha batch jobs describe`
+- `gcloud alpha batch jobs list`
+- `gcloud alpha batch jobs submit`
+- `gcloud alpha batch resource-allowances`
+- `gcloud alpha batch resource-allowances create`
+- `gcloud alpha batch resource-allowances delete`
+- `gcloud alpha batch resource-allowances describe`
+- `gcloud alpha batch resource-allowances list`
+- `gcloud alpha batch resource-allowances update`
+- `gcloud alpha batch tasks`
+- `gcloud alpha batch tasks describe`
+- `gcloud alpha batch tasks list`
+
+## beyondcorp
+
+- `gcloud alpha beyondcorp`
+- `gcloud alpha beyondcorp app`
+- `gcloud alpha beyondcorp app connections`
+- `gcloud alpha beyondcorp app connections create`
+- `gcloud alpha beyondcorp app connections delete`
+- `gcloud alpha beyondcorp app connections describe`
+- `gcloud alpha beyondcorp app connections list`
+- `gcloud alpha beyondcorp app connections update`
+- `gcloud alpha beyondcorp app connectors`
+- `gcloud alpha beyondcorp app connectors create`
+- `gcloud alpha beyondcorp app connectors delete`
+- `gcloud alpha beyondcorp app connectors describe`
+- `gcloud alpha beyondcorp app connectors list`
+- `gcloud alpha beyondcorp app connectors update`
+- `gcloud alpha beyondcorp app operations`
+- `gcloud alpha beyondcorp app operations describe`
+- `gcloud alpha beyondcorp app operations list`
+
+## biglake
+
+- `gcloud alpha biglake`
+- `gcloud alpha biglake hive`
+- `gcloud alpha biglake hive catalogs`
+- `gcloud alpha biglake hive catalogs create`
+- `gcloud alpha biglake hive catalogs delete`
+- `gcloud alpha biglake hive catalogs describe`
+- `gcloud alpha biglake hive catalogs get-iam-policy`
+- `gcloud alpha biglake hive catalogs list`
+- `gcloud alpha biglake hive catalogs set-iam-policy`
+- `gcloud alpha biglake hive catalogs update`
+- `gcloud alpha biglake hive databases`
+- `gcloud alpha biglake hive databases create`
+- `gcloud alpha biglake hive databases delete`
+- `gcloud alpha biglake hive databases describe`
+- `gcloud alpha biglake hive databases get-iam-policy`
+- `gcloud alpha biglake hive databases list`
+- `gcloud alpha biglake hive databases set-iam-policy`
+- `gcloud alpha biglake hive databases update`
+- `gcloud alpha biglake hive tables`
+- `gcloud alpha biglake hive tables delete`
+- `gcloud alpha biglake hive tables describe`
+- `gcloud alpha biglake hive tables get-iam-policy`
+- `gcloud alpha biglake hive tables list`
+- `gcloud alpha biglake hive tables set-iam-policy`
+- `gcloud alpha biglake iceberg`
+- `gcloud alpha biglake iceberg catalogs`
+- `gcloud alpha biglake iceberg catalogs create`
+- `gcloud alpha biglake iceberg catalogs delete`
+- `gcloud alpha biglake iceberg catalogs describe`
+- `gcloud alpha biglake iceberg catalogs failover`
+- `gcloud alpha biglake iceberg catalogs get-iam-policy`
+- `gcloud alpha biglake iceberg catalogs list`
+- `gcloud alpha biglake iceberg catalogs set-iam-policy`
+- `gcloud alpha biglake iceberg catalogs update`
+- `gcloud alpha biglake iceberg namespaces`
+- `gcloud alpha biglake iceberg namespaces create`
+- `gcloud alpha biglake iceberg namespaces delete`
+- `gcloud alpha biglake iceberg namespaces describe`
+- `gcloud alpha biglake iceberg namespaces get-iam-policy`
+- `gcloud alpha biglake iceberg namespaces list`
+- `gcloud alpha biglake iceberg namespaces set-iam-policy`
+- `gcloud alpha biglake iceberg namespaces update`
+- `gcloud alpha biglake iceberg tables`
+- `gcloud alpha biglake iceberg tables create`
+- `gcloud alpha biglake iceberg tables delete`
+- `gcloud alpha biglake iceberg tables describe`
+- `gcloud alpha biglake iceberg tables get-iam-policy`
+- `gcloud alpha biglake iceberg tables list`
+- `gcloud alpha biglake iceberg tables register`
+- `gcloud alpha biglake iceberg tables set-iam-policy`
+- `gcloud alpha biglake iceberg tables update`
+
+## bigtable
+
+- `gcloud alpha bigtable`
+- `gcloud alpha bigtable app-profiles`
+- `gcloud alpha bigtable app-profiles config`
+- `gcloud alpha bigtable app-profiles config export`
+- `gcloud alpha bigtable app-profiles create`
+- `gcloud alpha bigtable app-profiles delete`
+- `gcloud alpha bigtable app-profiles describe`
+- `gcloud alpha bigtable app-profiles list`
+- `gcloud alpha bigtable app-profiles update`
+- `gcloud alpha bigtable authorized-views`
+- `gcloud alpha bigtable authorized-views add-iam-policy-binding`
+- `gcloud alpha bigtable authorized-views create`
+- `gcloud alpha bigtable authorized-views delete`
+- `gcloud alpha bigtable authorized-views describe`
+- `gcloud alpha bigtable authorized-views get-iam-policy`
+- `gcloud alpha bigtable authorized-views list`
+- `gcloud alpha bigtable authorized-views remove-iam-policy-binding`
+- `gcloud alpha bigtable authorized-views set-iam-policy`
+- `gcloud alpha bigtable authorized-views update`
+- `gcloud alpha bigtable backups`
+- `gcloud alpha bigtable backups add-iam-policy-binding`
+- `gcloud alpha bigtable backups copy`
+- `gcloud alpha bigtable backups create`
+- `gcloud alpha bigtable backups delete`
+- `gcloud alpha bigtable backups describe`
+- `gcloud alpha bigtable backups get-iam-policy`
+- `gcloud alpha bigtable backups list`
+- `gcloud alpha bigtable backups remove-iam-policy-binding`
+- `gcloud alpha bigtable backups set-iam-policy`
+- `gcloud alpha bigtable backups update`
+- `gcloud alpha bigtable clusters`
+- `gcloud alpha bigtable clusters create`
+- `gcloud alpha bigtable clusters delete`
+- `gcloud alpha bigtable clusters describe`
+- `gcloud alpha bigtable clusters list`
+- `gcloud alpha bigtable clusters update`
+- `gcloud alpha bigtable hot-tablets`
+- `gcloud alpha bigtable hot-tablets list`
+- `gcloud alpha bigtable instances`
+- `gcloud alpha bigtable instances add-iam-policy-binding`
+- `gcloud alpha bigtable instances config`
+- `gcloud alpha bigtable instances config export`
+- `gcloud alpha bigtable instances create`
+- `gcloud alpha bigtable instances delete`
+- `gcloud alpha bigtable instances describe`
+- `gcloud alpha bigtable instances get-iam-policy`
+- `gcloud alpha bigtable instances list`
+- `gcloud alpha bigtable instances remove-iam-policy-binding`
+- `gcloud alpha bigtable instances set-iam-policy`
+- `gcloud alpha bigtable instances tables`
+- `gcloud alpha bigtable instances tables add-iam-policy-binding`
+- `gcloud alpha bigtable instances tables config`
+- `gcloud alpha bigtable instances tables config export`
+- `gcloud alpha bigtable instances tables create`
+- `gcloud alpha bigtable instances tables delete`
+- `gcloud alpha bigtable instances tables describe`
+- `gcloud alpha bigtable instances tables get-iam-policy`
+- `gcloud alpha bigtable instances tables list`
+- `gcloud alpha bigtable instances tables remove-iam-policy-binding`
+- `gcloud alpha bigtable instances tables restore`
+- `gcloud alpha bigtable instances tables set-iam-policy`
+- `gcloud alpha bigtable instances tables undelete`
+- `gcloud alpha bigtable instances tables update`
+- `gcloud alpha bigtable instances update`
+- `gcloud alpha bigtable instances upgrade`
+- `gcloud alpha bigtable logical-views`
+- `gcloud alpha bigtable logical-views create`
+- `gcloud alpha bigtable logical-views delete`
+- `gcloud alpha bigtable logical-views describe`
+- `gcloud alpha bigtable logical-views list`
+- `gcloud alpha bigtable logical-views update`
+- `gcloud alpha bigtable materialized-views`
+- `gcloud alpha bigtable materialized-views create`
+- `gcloud alpha bigtable materialized-views delete`
+- `gcloud alpha bigtable materialized-views describe`
+- `gcloud alpha bigtable materialized-views list`
+- `gcloud alpha bigtable materialized-views update`
+- `gcloud alpha bigtable memory-layers`
+- `gcloud alpha bigtable memory-layers describe`
+- `gcloud alpha bigtable memory-layers update`
+- `gcloud alpha bigtable operations`
+- `gcloud alpha bigtable operations describe`
+- `gcloud alpha bigtable operations list`
+- `gcloud alpha bigtable schema-bundles`
+- `gcloud alpha bigtable schema-bundles add-iam-policy-binding`
+- `gcloud alpha bigtable schema-bundles create`
+- `gcloud alpha bigtable schema-bundles delete`
+- `gcloud alpha bigtable schema-bundles describe`
+- `gcloud alpha bigtable schema-bundles get-iam-policy`
+- `gcloud alpha bigtable schema-bundles list`
+- `gcloud alpha bigtable schema-bundles remove-iam-policy-binding`
+- `gcloud alpha bigtable schema-bundles set-iam-policy`
+- `gcloud alpha bigtable schema-bundles update`
+- `gcloud alpha bigtable tables`
+- `gcloud alpha bigtable tables add-iam-policy-binding`
+- `gcloud alpha bigtable tables config`
+- `gcloud alpha bigtable tables config export`
+- `gcloud alpha bigtable tables create`
+- `gcloud alpha bigtable tables delete`
+- `gcloud alpha bigtable tables describe`
+- `gcloud alpha bigtable tables get-iam-policy`
+- `gcloud alpha bigtable tables list`
+- `gcloud alpha bigtable tables remove-iam-policy-binding`
+- `gcloud alpha bigtable tables restore`
+- `gcloud alpha bigtable tables set-iam-policy`
+- `gcloud alpha bigtable tables undelete`
+- `gcloud alpha bigtable tables update`
+
+## billing
+
+- `gcloud alpha billing`
+- `gcloud alpha billing accounts`
+- `gcloud alpha billing accounts add-iam-policy-binding`
+- `gcloud alpha billing accounts describe`
+- `gcloud alpha billing accounts get-iam-policy`
+- `gcloud alpha billing accounts list`
+- `gcloud alpha billing accounts projects`
+- `gcloud alpha billing accounts projects describe`
+- `gcloud alpha billing accounts projects link`
+- `gcloud alpha billing accounts projects list`
+- `gcloud alpha billing accounts projects unlink`
+- `gcloud alpha billing accounts remove-iam-policy-binding`
+- `gcloud alpha billing accounts set-iam-policy`
+- `gcloud alpha billing budgets`
+- `gcloud alpha billing budgets create`
+- `gcloud alpha billing budgets delete`
+- `gcloud alpha billing budgets describe`
+- `gcloud alpha billing budgets list`
+- `gcloud alpha billing budgets update`
+- `gcloud alpha billing projects`
+- `gcloud alpha billing projects describe`
+- `gcloud alpha billing projects link`
+- `gcloud alpha billing projects list`
+- `gcloud alpha billing projects unlink`
+
+## blockchain-node-engine
+
+- `gcloud alpha blockchain-node-engine`
+- `gcloud alpha blockchain-node-engine locations`
+- `gcloud alpha blockchain-node-engine locations describe`
+- `gcloud alpha blockchain-node-engine locations list`
+- `gcloud alpha blockchain-node-engine nodes`
+- `gcloud alpha blockchain-node-engine nodes create`
+- `gcloud alpha blockchain-node-engine nodes delete`
+- `gcloud alpha blockchain-node-engine nodes describe`
+- `gcloud alpha blockchain-node-engine nodes list`
+- `gcloud alpha blockchain-node-engine operations`
+- `gcloud alpha blockchain-node-engine operations describe`
+- `gcloud alpha blockchain-node-engine operations list`
+
+## blockchain-validator
+
+- `gcloud alpha blockchain-validator`
+- `gcloud alpha blockchain-validator blockchain-validator-configs`
+- `gcloud alpha blockchain-validator blockchain-validator-configs create`
+- `gcloud alpha blockchain-validator blockchain-validator-configs delete`
+- `gcloud alpha blockchain-validator blockchain-validator-configs describe`
+- `gcloud alpha blockchain-validator blockchain-validator-configs list`
+- `gcloud alpha blockchain-validator blockchain-validator-configs update`
+- `gcloud alpha blockchain-validator operations`
+- `gcloud alpha blockchain-validator operations cancel`
+- `gcloud alpha blockchain-validator operations delete`
+- `gcloud alpha blockchain-validator operations describe`
+- `gcloud alpha blockchain-validator operations list`
+- `gcloud alpha blockchain-validator operations wait`
+
+## bms
+
+- `gcloud alpha bms`
+- `gcloud alpha bms instances`
+- `gcloud alpha bms instances auth-info`
+- `gcloud alpha bms instances describe`
+- `gcloud alpha bms instances disable-hyperthreading`
+- `gcloud alpha bms instances disable-serial-console`
+- `gcloud alpha bms instances enable-hyperthreading`
+- `gcloud alpha bms instances enable-serial-console`
+- `gcloud alpha bms instances list`
+- `gcloud alpha bms instances reimage`
+- `gcloud alpha bms instances rename`
+- `gcloud alpha bms instances reset`
+- `gcloud alpha bms instances start`
+- `gcloud alpha bms instances stop`
+- `gcloud alpha bms instances update`
+- `gcloud alpha bms networks`
+- `gcloud alpha bms networks describe`
+- `gcloud alpha bms networks list`
+- `gcloud alpha bms networks list-ip-reservations`
+- `gcloud alpha bms networks rename`
+- `gcloud alpha bms networks update`
+- `gcloud alpha bms nfs-shares`
+- `gcloud alpha bms nfs-shares create`
+- `gcloud alpha bms nfs-shares delete`
+- `gcloud alpha bms nfs-shares describe`
+- `gcloud alpha bms nfs-shares list`
+- `gcloud alpha bms nfs-shares rename`
+- `gcloud alpha bms nfs-shares update`
+- `gcloud alpha bms os-images`
+- `gcloud alpha bms os-images describe`
+- `gcloud alpha bms os-images list`
+- `gcloud alpha bms serial-console-ssh-keys`
+- `gcloud alpha bms serial-console-ssh-keys add`
+- `gcloud alpha bms serial-console-ssh-keys list`
+- `gcloud alpha bms serial-console-ssh-keys remove`
+- `gcloud alpha bms ssh-keys`
+- `gcloud alpha bms ssh-keys add`
+- `gcloud alpha bms ssh-keys list`
+- `gcloud alpha bms ssh-keys remove`
+- `gcloud alpha bms volumes`
+- `gcloud alpha bms volumes describe`
+- `gcloud alpha bms volumes list`
+- `gcloud alpha bms volumes luns`
+- `gcloud alpha bms volumes luns describe`
+- `gcloud alpha bms volumes luns list`
+- `gcloud alpha bms volumes rename`
+- `gcloud alpha bms volumes restore`
+- `gcloud alpha bms volumes snapshot`
+- `gcloud alpha bms volumes snapshots`
+- `gcloud alpha bms volumes snapshots delete`
+- `gcloud alpha bms volumes snapshots describe`
+- `gcloud alpha bms volumes snapshots list`
+- `gcloud alpha bms volumes update`
+
+## bq
+
+- `gcloud alpha bq`
+- `gcloud alpha bq datasets`
+- `gcloud alpha bq datasets config`
+- `gcloud alpha bq datasets config export`
+- `gcloud alpha bq datasets create`
+- `gcloud alpha bq datasets delete`
+- `gcloud alpha bq datasets describe`
+- `gcloud alpha bq datasets list`
+- `gcloud alpha bq datasets update`
+- `gcloud alpha bq jobs`
+- `gcloud alpha bq jobs cancel`
+- `gcloud alpha bq jobs config`
+- `gcloud alpha bq jobs config export`
+- `gcloud alpha bq jobs describe`
+- `gcloud alpha bq jobs list`
+- `gcloud alpha bq migration-workflows`
+- `gcloud alpha bq migration-workflows create`
+- `gcloud alpha bq migration-workflows delete`
+- `gcloud alpha bq migration-workflows describe`
+- `gcloud alpha bq migration-workflows list`
+- `gcloud alpha bq tables`
+- `gcloud alpha bq tables config`
+- `gcloud alpha bq tables config export`
+- `gcloud alpha bq tables copy`
+- `gcloud alpha bq tables create`
+- `gcloud alpha bq tables delete`
+- `gcloud alpha bq tables describe`
+- `gcloud alpha bq tables insert`
+- `gcloud alpha bq tables list`
+- `gcloud alpha bq tables show-rows`
+- `gcloud alpha bq tables update`
+- `gcloud alpha bq translation`
+- `gcloud alpha bq translation translate`
+
+## builds
+
+- `gcloud alpha builds`
+- `gcloud alpha builds approve`
+- `gcloud alpha builds cancel`
+- `gcloud alpha builds connections`
+- `gcloud alpha builds connections add-iam-policy-binding`
+- `gcloud alpha builds connections create`
+- `gcloud alpha builds connections create bitbucket-cloud`
+- `gcloud alpha builds connections create bitbucket-data-center`
+- `gcloud alpha builds connections create github`
+- `gcloud alpha builds connections create github-enterprise`
+- `gcloud alpha builds connections create gitlab`
+- `gcloud alpha builds connections delete`
+- `gcloud alpha builds connections describe`
+- `gcloud alpha builds connections get-iam-policy`
+- `gcloud alpha builds connections list`
+- `gcloud alpha builds connections set-iam-policy`
+- `gcloud alpha builds connections update`
+- `gcloud alpha builds connections update bitbucket-cloud`
+- `gcloud alpha builds connections update bitbucket-data-center`
+- `gcloud alpha builds connections update github`
+- `gcloud alpha builds connections update github-enterprise`
+- `gcloud alpha builds connections update gitlab`
+- `gcloud alpha builds describe`
+- `gcloud alpha builds enterprise-config`
+- `gcloud alpha builds enterprise-config bitbucketserver`
+- `gcloud alpha builds enterprise-config bitbucketserver create`
+- `gcloud alpha builds enterprise-config bitbucketserver delete`
+- `gcloud alpha builds enterprise-config bitbucketserver describe`
+- `gcloud alpha builds enterprise-config bitbucketserver list`
+- `gcloud alpha builds enterprise-config bitbucketserver update`
+- `gcloud alpha builds enterprise-config github`
+- `gcloud alpha builds enterprise-config github create`
+- `gcloud alpha builds enterprise-config github delete`
+- `gcloud alpha builds enterprise-config github describe`
+- `gcloud alpha builds enterprise-config github list`
+- `gcloud alpha builds enterprise-config github update`
+- `gcloud alpha builds enterprise-config gitlab`
+- `gcloud alpha builds enterprise-config gitlab create`
+- `gcloud alpha builds enterprise-config gitlab delete`
+- `gcloud alpha builds enterprise-config gitlab describe`
+- `gcloud alpha builds enterprise-config gitlab list`
+- `gcloud alpha builds enterprise-config gitlab update`
+- `gcloud alpha builds get-default-service-account`
+- `gcloud alpha builds list`
+- `gcloud alpha builds log`
+- `gcloud alpha builds reject`
+- `gcloud alpha builds repositories`
+- `gcloud alpha builds repositories create`
+- `gcloud alpha builds repositories delete`
+- `gcloud alpha builds repositories describe`
+- `gcloud alpha builds repositories list`
+- `gcloud alpha builds submit`
+- `gcloud alpha builds triggers`
+- `gcloud alpha builds triggers config`
+- `gcloud alpha builds triggers config export`
+- `gcloud alpha builds triggers create`
+- `gcloud alpha builds triggers create bitbucket-cloud`
+- `gcloud alpha builds triggers create bitbucket-data-center`
+- `gcloud alpha builds triggers create bitbucketserver`
+- `gcloud alpha builds triggers create cloud-source-repositories`
+- `gcloud alpha builds triggers create developer-connect`
+- `gcloud alpha builds triggers create github`
+- `gcloud alpha builds triggers create gitlab`
+- `gcloud alpha builds triggers create manual`
+- `gcloud alpha builds triggers create pubsub`
+- `gcloud alpha builds triggers create webhook`
+- `gcloud alpha builds triggers delete`
+- `gcloud alpha builds triggers describe`
+- `gcloud alpha builds triggers export`
+- `gcloud alpha builds triggers import`
+- `gcloud alpha builds triggers list`
+- `gcloud alpha builds triggers run`
+- `gcloud alpha builds triggers update`
+- `gcloud alpha builds triggers update bitbucket-cloud`
+- `gcloud alpha builds triggers update bitbucket-data-center`
+- `gcloud alpha builds triggers update bitbucketserver`
+- `gcloud alpha builds triggers update cloud-source-repositories`
+- `gcloud alpha builds triggers update developer-connect`
+- `gcloud alpha builds triggers update github`
+- `gcloud alpha builds triggers update gitlab`
+- `gcloud alpha builds triggers update manual`
+- `gcloud alpha builds triggers update pubsub`
+- `gcloud alpha builds triggers update webhook`
+- `gcloud alpha builds worker-pools`
+- `gcloud alpha builds worker-pools create`
+- `gcloud alpha builds worker-pools delete`
+- `gcloud alpha builds worker-pools describe`
+- `gcloud alpha builds worker-pools list`
+- `gcloud alpha builds worker-pools update`
+
+## certificate-manager
+
+- `gcloud alpha certificate-manager`
+- `gcloud alpha certificate-manager certificates`
+- `gcloud alpha certificate-manager certificates create`
+- `gcloud alpha certificate-manager certificates delete`
+- `gcloud alpha certificate-manager certificates describe`
+- `gcloud alpha certificate-manager certificates list`
+- `gcloud alpha certificate-manager certificates update`
+- `gcloud alpha certificate-manager dns-authorizations`
+- `gcloud alpha certificate-manager dns-authorizations create`
+- `gcloud alpha certificate-manager dns-authorizations delete`
+- `gcloud alpha certificate-manager dns-authorizations describe`
+- `gcloud alpha certificate-manager dns-authorizations list`
+- `gcloud alpha certificate-manager dns-authorizations update`
+- `gcloud alpha certificate-manager issuance-configs`
+- `gcloud alpha certificate-manager issuance-configs create`
+- `gcloud alpha certificate-manager issuance-configs delete`
+- `gcloud alpha certificate-manager issuance-configs describe`
+- `gcloud alpha certificate-manager issuance-configs list`
+- `gcloud alpha certificate-manager issuance-configs update`
+- `gcloud alpha certificate-manager maps`
+- `gcloud alpha certificate-manager maps create`
+- `gcloud alpha certificate-manager maps delete`
+- `gcloud alpha certificate-manager maps describe`
+- `gcloud alpha certificate-manager maps entries`
+- `gcloud alpha certificate-manager maps entries create`
+- `gcloud alpha certificate-manager maps entries delete`
+- `gcloud alpha certificate-manager maps entries describe`
+- `gcloud alpha certificate-manager maps entries list`
+- `gcloud alpha certificate-manager maps entries update`
+- `gcloud alpha certificate-manager maps list`
+- `gcloud alpha certificate-manager maps update`
+- `gcloud alpha certificate-manager operations`
+- `gcloud alpha certificate-manager operations describe`
+- `gcloud alpha certificate-manager operations list`
+- `gcloud alpha certificate-manager trust-configs`
+- `gcloud alpha certificate-manager trust-configs create`
+- `gcloud alpha certificate-manager trust-configs delete`
+- `gcloud alpha certificate-manager trust-configs describe`
+- `gcloud alpha certificate-manager trust-configs export`
+- `gcloud alpha certificate-manager trust-configs import`
+- `gcloud alpha certificate-manager trust-configs list`
+- `gcloud alpha certificate-manager trust-configs update`
+
+## cloud-shell
+
+- `gcloud alpha cloud-shell`
+- `gcloud alpha cloud-shell get-mount-command`
+- `gcloud alpha cloud-shell scp`
+- `gcloud alpha cloud-shell ssh`
+
+## cloudlocationfinder
+
+- `gcloud alpha cloudlocationfinder`
+- `gcloud alpha cloudlocationfinder cloud-locations`
+- `gcloud alpha cloudlocationfinder cloud-locations describe`
+- `gcloud alpha cloudlocationfinder cloud-locations list`
+- `gcloud alpha cloudlocationfinder cloud-locations search`
+
+## cluster-director
+
+- `gcloud alpha cluster-director`
+- `gcloud alpha cluster-director clusters`
+- `gcloud alpha cluster-director clusters create`
+- `gcloud alpha cluster-director clusters delete`
+- `gcloud alpha cluster-director clusters describe`
+- `gcloud alpha cluster-director clusters list`
+- `gcloud alpha cluster-director clusters update`
+- `gcloud alpha cluster-director locations`
+- `gcloud alpha cluster-director locations describe`
+- `gcloud alpha cluster-director locations list`
+- `gcloud alpha cluster-director operations`
+- `gcloud alpha cluster-director operations describe`
+
+## code
+
+- `gcloud alpha code`
+- `gcloud alpha code clean-up`
+- `gcloud alpha code dev`
+
+## composer
+
+- `gcloud alpha composer`
+- `gcloud alpha composer environments`
+- `gcloud alpha composer environments check-upgrade`
+- `gcloud alpha composer environments create`
+- `gcloud alpha composer environments database-failover`
+- `gcloud alpha composer environments delete`
+- `gcloud alpha composer environments describe`
+- `gcloud alpha composer environments fetch-database-properties`
+- `gcloud alpha composer environments list`
+- `gcloud alpha composer environments list-packages`
+- `gcloud alpha composer environments list-upgrades`
+- `gcloud alpha composer environments list-workloads`
+- `gcloud alpha composer environments restart-web-server`
+- `gcloud alpha composer environments run`
+- `gcloud alpha composer environments snapshots`
+- `gcloud alpha composer environments snapshots load`
+- `gcloud alpha composer environments snapshots save`
+- `gcloud alpha composer environments storage`
+- `gcloud alpha composer environments storage dags`
+- `gcloud alpha composer environments storage dags delete`
+- `gcloud alpha composer environments storage dags export`
+- `gcloud alpha composer environments storage dags import`
+- `gcloud alpha composer environments storage dags list`
+- `gcloud alpha composer environments storage data`
+- `gcloud alpha composer environments storage data delete`
+- `gcloud alpha composer environments storage data export`
+- `gcloud alpha composer environments storage data import`
+- `gcloud alpha composer environments storage data list`
+- `gcloud alpha composer environments storage plugins`
+- `gcloud alpha composer environments storage plugins delete`
+- `gcloud alpha composer environments storage plugins export`
+- `gcloud alpha composer environments storage plugins import`
+- `gcloud alpha composer environments storage plugins list`
+- `gcloud alpha composer environments update`
+- `gcloud alpha composer environments user-workloads-config-maps`
+- `gcloud alpha composer environments user-workloads-config-maps create`
+- `gcloud alpha composer environments user-workloads-config-maps delete`
+- `gcloud alpha composer environments user-workloads-config-maps describe`
+- `gcloud alpha composer environments user-workloads-config-maps list`
+- `gcloud alpha composer environments user-workloads-config-maps update`
+- `gcloud alpha composer environments user-workloads-secrets`
+- `gcloud alpha composer environments user-workloads-secrets create`
+- `gcloud alpha composer environments user-workloads-secrets delete`
+- `gcloud alpha composer environments user-workloads-secrets describe`
+- `gcloud alpha composer environments user-workloads-secrets list`
+- `gcloud alpha composer environments user-workloads-secrets update`
+- `gcloud alpha composer operations`
+- `gcloud alpha composer operations delete`
+- `gcloud alpha composer operations describe`
+- `gcloud alpha composer operations list`
+- `gcloud alpha composer operations wait`
+
+## compute
+
+- `gcloud alpha compute`
+- `gcloud alpha compute accelerator-types`
+- `gcloud alpha compute accelerator-types describe`
+- `gcloud alpha compute accelerator-types list`
+- `gcloud alpha compute addresses`
+- `gcloud alpha compute addresses config`
+- `gcloud alpha compute addresses config export`
+- `gcloud alpha compute addresses create`
+- `gcloud alpha compute addresses delete`
+- `gcloud alpha compute addresses describe`
+- `gcloud alpha compute addresses list`
+- `gcloud alpha compute addresses move`
+- `gcloud alpha compute addresses update`
+- `gcloud alpha compute advice`
+- `gcloud alpha compute advice calendar-mode`
+- `gcloud alpha compute advice capacity`
+- `gcloud alpha compute advice capacity-history`
+- `gcloud alpha compute backend-buckets`
+- `gcloud alpha compute backend-buckets add-iam-policy-binding`
+- `gcloud alpha compute backend-buckets add-signed-url-key`
+- `gcloud alpha compute backend-buckets config`
+- `gcloud alpha compute backend-buckets config export`
+- `gcloud alpha compute backend-buckets create`
+- `gcloud alpha compute backend-buckets delete`
+- `gcloud alpha compute backend-buckets delete-signed-url-key`
+- `gcloud alpha compute backend-buckets describe`
+- `gcloud alpha compute backend-buckets get-iam-policy`
+- `gcloud alpha compute backend-buckets list`
+- `gcloud alpha compute backend-buckets remove-iam-policy-binding`
+- `gcloud alpha compute backend-buckets set-iam-policy`
+- `gcloud alpha compute backend-buckets update`
+- `gcloud alpha compute backend-services`
+- `gcloud alpha compute backend-services add-backend`
+- `gcloud alpha compute backend-services add-iam-policy-binding`
+- `gcloud alpha compute backend-services add-service-bindings`
+- `gcloud alpha compute backend-services add-signed-url-key`
+- `gcloud alpha compute backend-services create`
+- `gcloud alpha compute backend-services delete`
+- `gcloud alpha compute backend-services delete-signed-url-key`
+- `gcloud alpha compute backend-services describe`
+- `gcloud alpha compute backend-services edit`
+- `gcloud alpha compute backend-services export`
+- `gcloud alpha compute backend-services get-effective-security-policies`
+- `gcloud alpha compute backend-services get-health`
+- `gcloud alpha compute backend-services get-iam-policy`
+- `gcloud alpha compute backend-services import`
+- `gcloud alpha compute backend-services list`
+- `gcloud alpha compute backend-services list-usable`
+- `gcloud alpha compute backend-services remove-backend`
+- `gcloud alpha compute backend-services remove-iam-policy-binding`
+- `gcloud alpha compute backend-services remove-service-bindings`
+- `gcloud alpha compute backend-services set-iam-policy`
+- `gcloud alpha compute backend-services set-security-policy`
+- `gcloud alpha compute backend-services update`
+- `gcloud alpha compute backend-services update-backend`
+- `gcloud alpha compute commitments`
+- `gcloud alpha compute commitments create`
+- `gcloud alpha compute commitments create-license`
+- `gcloud alpha compute commitments describe`
+- `gcloud alpha compute commitments list`
+- `gcloud alpha compute commitments update`
+- `gcloud alpha compute commitments update-reservations`
+- `gcloud alpha compute composite-health-checks`
+- `gcloud alpha compute composite-health-checks create`
+- `gcloud alpha compute composite-health-checks delete`
+- `gcloud alpha compute composite-health-checks describe`
+- `gcloud alpha compute composite-health-checks get-health`
+- `gcloud alpha compute composite-health-checks list`
+- `gcloud alpha compute composite-health-checks update`
+- `gcloud alpha compute config-ssh`
+- `gcloud alpha compute connect-to-serial-port`
+- `gcloud alpha compute copy-files`
+- `gcloud alpha compute diagnose`
+- `gcloud alpha compute diagnose export-logs`
+- `gcloud alpha compute diagnose routes`
+- `gcloud alpha compute disk-settings`
+- `gcloud alpha compute disk-settings describe`
+- `gcloud alpha compute disk-settings update`
+- `gcloud alpha compute disk-types`
+- `gcloud alpha compute disk-types describe`
+- `gcloud alpha compute disk-types list`
+- `gcloud alpha compute disks`
+- `gcloud alpha compute disks add-iam-policy-binding`
+- `gcloud alpha compute disks add-labels`
+- `gcloud alpha compute disks add-resource-policies`
+- `gcloud alpha compute disks bulk`
+- `gcloud alpha compute disks bulk create`
+- `gcloud alpha compute disks config`
+- `gcloud alpha compute disks config export`
+- `gcloud alpha compute disks convert`
+- `gcloud alpha compute disks create`
+- `gcloud alpha compute disks delete`
+- `gcloud alpha compute disks describe`
+- `gcloud alpha compute disks get-async-replication-status`
+- `gcloud alpha compute disks get-iam-policy`
+- `gcloud alpha compute disks list`
+- `gcloud alpha compute disks move`
+- `gcloud alpha compute disks remove-iam-policy-binding`
+- `gcloud alpha compute disks remove-labels`
+- `gcloud alpha compute disks remove-resource-policies`
+- `gcloud alpha compute disks resize`
+- `gcloud alpha compute disks set-iam-policy`
+- `gcloud alpha compute disks snapshot`
+- `gcloud alpha compute disks start-async-replication`
+- `gcloud alpha compute disks stop-async-replication`
+- `gcloud alpha compute disks stop-group-async-replication`
+- `gcloud alpha compute disks update`
+- `gcloud alpha compute disks update-kms-key`
+- `gcloud alpha compute disks wait-for-replication-catchup`
+- `gcloud alpha compute external-vpn-gateways`
+- `gcloud alpha compute external-vpn-gateways create`
+- `gcloud alpha compute external-vpn-gateways delete`
+- `gcloud alpha compute external-vpn-gateways describe`
+- `gcloud alpha compute external-vpn-gateways list`
+- `gcloud alpha compute external-vpn-gateways update`
+- `gcloud alpha compute firewall-policies`
+- `gcloud alpha compute firewall-policies associations`
+- `gcloud alpha compute firewall-policies associations create`
+- `gcloud alpha compute firewall-policies associations delete`
+- `gcloud alpha compute firewall-policies associations list`
+- `gcloud alpha compute firewall-policies clone-rules`
+- `gcloud alpha compute firewall-policies create`
+- `gcloud alpha compute firewall-policies delete`
+- `gcloud alpha compute firewall-policies describe`
+- `gcloud alpha compute firewall-policies export-rules`
+- `gcloud alpha compute firewall-policies force-start-progressive-rollout`
+- `gcloud alpha compute firewall-policies import-rules`
+- `gcloud alpha compute firewall-policies list`
+- `gcloud alpha compute firewall-policies list-rules`
+- `gcloud alpha compute firewall-policies mirroring-rules`
+- `gcloud alpha compute firewall-policies mirroring-rules create`
+- `gcloud alpha compute firewall-policies mirroring-rules delete`
+- `gcloud alpha compute firewall-policies mirroring-rules describe`
+- `gcloud alpha compute firewall-policies mirroring-rules update`
+- `gcloud alpha compute firewall-policies move`
+- `gcloud alpha compute firewall-policies rules`
+- `gcloud alpha compute firewall-policies rules create`
+- `gcloud alpha compute firewall-policies rules delete`
+- `gcloud alpha compute firewall-policies rules describe`
+- `gcloud alpha compute firewall-policies rules update`
+- `gcloud alpha compute firewall-policies update`
+- `gcloud alpha compute firewall-rules`
+- `gcloud alpha compute firewall-rules config`
+- `gcloud alpha compute firewall-rules config export`
+- `gcloud alpha compute firewall-rules create`
+- `gcloud alpha compute firewall-rules delete`
+- `gcloud alpha compute firewall-rules describe`
+- `gcloud alpha compute firewall-rules list`
+- `gcloud alpha compute firewall-rules migrate`
+- `gcloud alpha compute firewall-rules update`
+- `gcloud alpha compute forwarding-rules`
+- `gcloud alpha compute forwarding-rules config`
+- `gcloud alpha compute forwarding-rules config export`
+- `gcloud alpha compute forwarding-rules create`
+- `gcloud alpha compute forwarding-rules delete`
+- `gcloud alpha compute forwarding-rules describe`
+- `gcloud alpha compute forwarding-rules export`
+- `gcloud alpha compute forwarding-rules import`
+- `gcloud alpha compute forwarding-rules list`
+- `gcloud alpha compute forwarding-rules set-target`
+- `gcloud alpha compute forwarding-rules update`
+- `gcloud alpha compute future-reservations`
+- `gcloud alpha compute future-reservations cancel`
+- `gcloud alpha compute future-reservations create`
+- `gcloud alpha compute future-reservations delete`
+- `gcloud alpha compute future-reservations describe`
+- `gcloud alpha compute future-reservations list`
+- `gcloud alpha compute future-reservations update`
+- `gcloud alpha compute global-vm-extension-policies`
+- `gcloud alpha compute global-vm-extension-policies create`
+- `gcloud alpha compute global-vm-extension-policies delete`
+- `gcloud alpha compute global-vm-extension-policies describe`
+- `gcloud alpha compute global-vm-extension-policies extensions`
+- `gcloud alpha compute global-vm-extension-policies extensions describe`
+- `gcloud alpha compute global-vm-extension-policies extensions list`
+- `gcloud alpha compute global-vm-extension-policies list`
+- `gcloud alpha compute global-vm-extension-policies update`
+- `gcloud alpha compute health-aggregation-policies`
+- `gcloud alpha compute health-aggregation-policies create`
+- `gcloud alpha compute health-aggregation-policies delete`
+- `gcloud alpha compute health-aggregation-policies describe`
+- `gcloud alpha compute health-aggregation-policies list`
+- `gcloud alpha compute health-aggregation-policies update`
+- `gcloud alpha compute health-checks`
+- `gcloud alpha compute health-checks create`
+- `gcloud alpha compute health-checks create grpc`
+- `gcloud alpha compute health-checks create grpc-with-tls`
+- `gcloud alpha compute health-checks create http`
+- `gcloud alpha compute health-checks create http2`
+- `gcloud alpha compute health-checks create https`
+- `gcloud alpha compute health-checks create ssl`
+- `gcloud alpha compute health-checks create tcp`
+- `gcloud alpha compute health-checks delete`
+- `gcloud alpha compute health-checks describe`
+- `gcloud alpha compute health-checks list`
+- `gcloud alpha compute health-checks update`
+- `gcloud alpha compute health-checks update grpc`
+- `gcloud alpha compute health-checks update grpc-with-tls`
+- `gcloud alpha compute health-checks update http`
+- `gcloud alpha compute health-checks update http2`
+- `gcloud alpha compute health-checks update https`
+- `gcloud alpha compute health-checks update ssl`
+- `gcloud alpha compute health-checks update tcp`
+- `gcloud alpha compute health-sources`
+- `gcloud alpha compute health-sources create`
+- `gcloud alpha compute health-sources delete`
+- `gcloud alpha compute health-sources describe`
+- `gcloud alpha compute health-sources get-health`
+- `gcloud alpha compute health-sources list`
+- `gcloud alpha compute health-sources update`
+- `gcloud alpha compute hosts`
+- `gcloud alpha compute hosts describe`
+- `gcloud alpha compute hosts get-version`
+- `gcloud alpha compute hosts list`
+- `gcloud alpha compute http-health-checks`
+- `gcloud alpha compute http-health-checks create`
+- `gcloud alpha compute http-health-checks delete`
+- `gcloud alpha compute http-health-checks describe`
+- `gcloud alpha compute http-health-checks list`
+- `gcloud alpha compute http-health-checks update`
+- `gcloud alpha compute https-health-checks`
+- `gcloud alpha compute https-health-checks create`
+- `gcloud alpha compute https-health-checks delete`
+- `gcloud alpha compute https-health-checks describe`
+- `gcloud alpha compute https-health-checks list`
+- `gcloud alpha compute https-health-checks update`
+- `gcloud alpha compute images`
+- `gcloud alpha compute images add-iam-policy-binding`
+- `gcloud alpha compute images add-labels`
+- `gcloud alpha compute images create`
+- `gcloud alpha compute images delete`
+- `gcloud alpha compute images deprecate`
+- `gcloud alpha compute images describe`
+- `gcloud alpha compute images describe-from-family`
+- `gcloud alpha compute images export`
+- `gcloud alpha compute images get-iam-policy`
+- `gcloud alpha compute images import`
+- `gcloud alpha compute images list`
+- `gcloud alpha compute images packages`
+- `gcloud alpha compute images packages diff`
+- `gcloud alpha compute images packages list`
+- `gcloud alpha compute images remove-iam-policy-binding`
+- `gcloud alpha compute images remove-labels`
+- `gcloud alpha compute images set-iam-policy`
+- `gcloud alpha compute images update`
+- `gcloud alpha compute images vulnerabilities`
+- `gcloud alpha compute images vulnerabilities describe-note`
+- `gcloud alpha compute images vulnerabilities list`
+- `gcloud alpha compute instance-groups`
+- `gcloud alpha compute instance-groups describe`
+- `gcloud alpha compute instance-groups get-named-ports`
+- `gcloud alpha compute instance-groups list`
+- `gcloud alpha compute instance-groups list-instances`
+- `gcloud alpha compute instance-groups managed`
+- `gcloud alpha compute instance-groups managed abandon-instances`
+- `gcloud alpha compute instance-groups managed all-instances-config`
+- `gcloud alpha compute instance-groups managed all-instances-config delete`
+- `gcloud alpha compute instance-groups managed all-instances-config update`
+- `gcloud alpha compute instance-groups managed create`
+- `gcloud alpha compute instance-groups managed create-instance`
+- `gcloud alpha compute instance-groups managed delete`
+- `gcloud alpha compute instance-groups managed delete-instances`
+- `gcloud alpha compute instance-groups managed describe`
+- `gcloud alpha compute instance-groups managed describe-instance`
+- `gcloud alpha compute instance-groups managed export-autoscaling`
+- `gcloud alpha compute instance-groups managed get-named-ports`
+- `gcloud alpha compute instance-groups managed instance-configs`
+- `gcloud alpha compute instance-groups managed instance-configs create`
+- `gcloud alpha compute instance-groups managed instance-configs delete`
+- `gcloud alpha compute instance-groups managed instance-configs list`
+- `gcloud alpha compute instance-groups managed instance-configs update`
+- `gcloud alpha compute instance-groups managed list`
+- `gcloud alpha compute instance-groups managed list-errors`
+- `gcloud alpha compute instance-groups managed list-instances`
+- `gcloud alpha compute instance-groups managed recreate-instances`
+- `gcloud alpha compute instance-groups managed resize`
+- `gcloud alpha compute instance-groups managed resize-requests`
+- `gcloud alpha compute instance-groups managed resize-requests cancel`
+- `gcloud alpha compute instance-groups managed resize-requests create`
+- `gcloud alpha compute instance-groups managed resize-requests delete`
+- `gcloud alpha compute instance-groups managed resize-requests describe`
+- `gcloud alpha compute instance-groups managed resize-requests list`
+- `gcloud alpha compute instance-groups managed resume-instances`
+- `gcloud alpha compute instance-groups managed rolling-action`
+- `gcloud alpha compute instance-groups managed rolling-action replace`
+- `gcloud alpha compute instance-groups managed rolling-action restart`
+- `gcloud alpha compute instance-groups managed rolling-action start-update`
+- `gcloud alpha compute instance-groups managed rolling-action stop-proactive-update`
+- `gcloud alpha compute instance-groups managed set-autohealing`
+- `gcloud alpha compute instance-groups managed set-autoscaling`
+- `gcloud alpha compute instance-groups managed set-instance-template`
+- `gcloud alpha compute instance-groups managed set-named-ports`
+- `gcloud alpha compute instance-groups managed set-standby-policy`
+- `gcloud alpha compute instance-groups managed set-target-pools`
+- `gcloud alpha compute instance-groups managed start-instances`
+- `gcloud alpha compute instance-groups managed stop-autoscaling`
+- `gcloud alpha compute instance-groups managed stop-instances`
+- `gcloud alpha compute instance-groups managed suspend-instances`
+- `gcloud alpha compute instance-groups managed update`
+- `gcloud alpha compute instance-groups managed update-autoscaling`
+- `gcloud alpha compute instance-groups managed update-instances`
+- `gcloud alpha compute instance-groups managed wait-until`
+- `gcloud alpha compute instance-groups managed wait-until-stable`
+- `gcloud alpha compute instance-groups set-named-ports`
+- `gcloud alpha compute instance-groups unmanaged`
+- `gcloud alpha compute instance-groups unmanaged add-instances`
+- `gcloud alpha compute instance-groups unmanaged create`
+- `gcloud alpha compute instance-groups unmanaged delete`
+- `gcloud alpha compute instance-groups unmanaged describe`
+- `gcloud alpha compute instance-groups unmanaged get-named-ports`
+- `gcloud alpha compute instance-groups unmanaged list`
+- `gcloud alpha compute instance-groups unmanaged list-instances`
+- `gcloud alpha compute instance-groups unmanaged remove-instances`
+- `gcloud alpha compute instance-groups unmanaged set-named-ports`
+- `gcloud alpha compute instance-templates`
+- `gcloud alpha compute instance-templates add-iam-policy-binding`
+- `gcloud alpha compute instance-templates create`
+- `gcloud alpha compute instance-templates create-with-container`
+- `gcloud alpha compute instance-templates delete`
+- `gcloud alpha compute instance-templates describe`
+- `gcloud alpha compute instance-templates get-iam-policy`
+- `gcloud alpha compute instance-templates list`
+- `gcloud alpha compute instance-templates remove-iam-policy-binding`
+- `gcloud alpha compute instance-templates set-iam-policy`
+- `gcloud alpha compute instances`
+- `gcloud alpha compute instances add-access-config`
+- `gcloud alpha compute instances add-iam-policy-binding`
+- `gcloud alpha compute instances add-labels`
+- `gcloud alpha compute instances add-metadata`
+- `gcloud alpha compute instances add-partner-metadata`
+- `gcloud alpha compute instances add-resource-policies`
+- `gcloud alpha compute instances add-tags`
+- `gcloud alpha compute instances attach-disk`
+- `gcloud alpha compute instances bulk`
+- `gcloud alpha compute instances bulk create`
+- `gcloud alpha compute instances config`
+- `gcloud alpha compute instances config export`
+- `gcloud alpha compute instances create`
+- `gcloud alpha compute instances create-with-container`
+- `gcloud alpha compute instances delete`
+- `gcloud alpha compute instances delete-access-config`
+- `gcloud alpha compute instances describe`
+- `gcloud alpha compute instances detach-disk`
+- `gcloud alpha compute instances export`
+- `gcloud alpha compute instances get-guest-attributes`
+- `gcloud alpha compute instances get-iam-policy`
+- `gcloud alpha compute instances get-serial-port-output`
+- `gcloud alpha compute instances get-shielded-identity`
+- `gcloud alpha compute instances import`
+- `gcloud alpha compute instances list`
+- `gcloud alpha compute instances network-interfaces`
+- `gcloud alpha compute instances network-interfaces add`
+- `gcloud alpha compute instances network-interfaces delete`
+- `gcloud alpha compute instances network-interfaces get-effective-firewalls`
+- `gcloud alpha compute instances network-interfaces update`
+- `gcloud alpha compute instances ops-agents`
+- `gcloud alpha compute instances ops-agents policies`
+- `gcloud alpha compute instances ops-agents policies create`
+- `gcloud alpha compute instances ops-agents policies delete`
+- `gcloud alpha compute instances ops-agents policies describe`
+- `gcloud alpha compute instances ops-agents policies list`
+- `gcloud alpha compute instances ops-agents policies update`
+- `gcloud alpha compute instances os-inventory`
+- `gcloud alpha compute instances os-inventory describe`
+- `gcloud alpha compute instances os-inventory list-instances`
+- `gcloud alpha compute instances patch-partner-metadata`
+- `gcloud alpha compute instances perform-maintenance`
+- `gcloud alpha compute instances remove-iam-policy-binding`
+- `gcloud alpha compute instances remove-labels`
+- `gcloud alpha compute instances remove-metadata`
+- `gcloud alpha compute instances remove-partner-metadata`
+- `gcloud alpha compute instances remove-resource-policies`
+- `gcloud alpha compute instances remove-tags`
+- `gcloud alpha compute instances report-host-as-faulty`
+- `gcloud alpha compute instances reset`
+- `gcloud alpha compute instances resume`
+- `gcloud alpha compute instances send-diagnostic-interrupt`
+- `gcloud alpha compute instances set-disk-auto-delete`
+- `gcloud alpha compute instances set-iam-policy`
+- `gcloud alpha compute instances set-machine-type`
+- `gcloud alpha compute instances set-min-cpu-platform`
+- `gcloud alpha compute instances set-name`
+- `gcloud alpha compute instances set-scheduling`
+- `gcloud alpha compute instances set-scopes`
+- `gcloud alpha compute instances simulate-maintenance-event`
+- `gcloud alpha compute instances start`
+- `gcloud alpha compute instances stop`
+- `gcloud alpha compute instances suspend`
+- `gcloud alpha compute instances tail-serial-port-output`
+- `gcloud alpha compute instances update`
+- `gcloud alpha compute instances update-access-config`
+- `gcloud alpha compute instances update-container`
+- `gcloud alpha compute instances update-from-file`
+- `gcloud alpha compute instances vulnerabilities`
+- `gcloud alpha compute instances vulnerabilities list`
+- `gcloud alpha compute instant-snapshot-groups`
+- `gcloud alpha compute instant-snapshot-groups create`
+- `gcloud alpha compute instant-snapshot-groups delete`
+- `gcloud alpha compute instant-snapshot-groups describe`
+- `gcloud alpha compute instant-snapshot-groups list`
+- `gcloud alpha compute instant-snapshots`
+- `gcloud alpha compute instant-snapshots add-labels`
+- `gcloud alpha compute instant-snapshots create`
+- `gcloud alpha compute instant-snapshots delete`
+- `gcloud alpha compute instant-snapshots describe`
+- `gcloud alpha compute instant-snapshots list`
+- `gcloud alpha compute interconnects`
+- `gcloud alpha compute interconnects application-awareness`
+- `gcloud alpha compute interconnects application-awareness configure-bandwidth-percentage-policy`
+- `gcloud alpha compute interconnects application-awareness configure-shaper-average-percentage`
+- `gcloud alpha compute interconnects application-awareness configure-strict-priority-policy`
+- `gcloud alpha compute interconnects application-awareness delete`
+- `gcloud alpha compute interconnects application-awareness get-config`
+- `gcloud alpha compute interconnects application-awareness update`
+- `gcloud alpha compute interconnects attachments`
+- `gcloud alpha compute interconnects attachments dedicated`
+- `gcloud alpha compute interconnects attachments dedicated create`
+- `gcloud alpha compute interconnects attachments dedicated update`
+- `gcloud alpha compute interconnects attachments delete`
+- `gcloud alpha compute interconnects attachments describe`
+- `gcloud alpha compute interconnects attachments groups`
+- `gcloud alpha compute interconnects attachments groups add-members`
+- `gcloud alpha compute interconnects attachments groups create`
+- `gcloud alpha compute interconnects attachments groups delete`
+- `gcloud alpha compute interconnects attachments groups describe`
+- `gcloud alpha compute interconnects attachments groups get-operational-status`
+- `gcloud alpha compute interconnects attachments groups list`
+- `gcloud alpha compute interconnects attachments groups remove-members`
+- `gcloud alpha compute interconnects attachments groups update`
+- `gcloud alpha compute interconnects attachments l2-forwarding`
+- `gcloud alpha compute interconnects attachments l2-forwarding add-mapping`
+- `gcloud alpha compute interconnects attachments l2-forwarding create`
+- `gcloud alpha compute interconnects attachments l2-forwarding describe-mapping`
+- `gcloud alpha compute interconnects attachments l2-forwarding list-mapping`
+- `gcloud alpha compute interconnects attachments l2-forwarding remove-mapping`
+- `gcloud alpha compute interconnects attachments l2-forwarding update`
+- `gcloud alpha compute interconnects attachments l2-forwarding update-mapping`
+- `gcloud alpha compute interconnects attachments list`
+- `gcloud alpha compute interconnects attachments partner`
+- `gcloud alpha compute interconnects attachments partner create`
+- `gcloud alpha compute interconnects attachments partner update`
+- `gcloud alpha compute interconnects create`
+- `gcloud alpha compute interconnects cross-site-networks`
+- `gcloud alpha compute interconnects cross-site-networks create`
+- `gcloud alpha compute interconnects cross-site-networks delete`
+- `gcloud alpha compute interconnects cross-site-networks describe`
+- `gcloud alpha compute interconnects cross-site-networks list`
+- `gcloud alpha compute interconnects cross-site-networks update`
+- `gcloud alpha compute interconnects delete`
+- `gcloud alpha compute interconnects describe`
+- `gcloud alpha compute interconnects get-diagnostics`
+- `gcloud alpha compute interconnects groups`
+- `gcloud alpha compute interconnects groups add-members`
+- `gcloud alpha compute interconnects groups create`
+- `gcloud alpha compute interconnects groups create-members`
+- `gcloud alpha compute interconnects groups delete`
+- `gcloud alpha compute interconnects groups describe`
+- `gcloud alpha compute interconnects groups get-operational-status`
+- `gcloud alpha compute interconnects groups list`
+- `gcloud alpha compute interconnects groups remove-members`
+- `gcloud alpha compute interconnects groups update`
+- `gcloud alpha compute interconnects list`
+- `gcloud alpha compute interconnects locations`
+- `gcloud alpha compute interconnects locations describe`
+- `gcloud alpha compute interconnects locations list`
+- `gcloud alpha compute interconnects macsec`
+- `gcloud alpha compute interconnects macsec add-key`
+- `gcloud alpha compute interconnects macsec get-config`
+- `gcloud alpha compute interconnects macsec remove-key`
+- `gcloud alpha compute interconnects macsec update`
+- `gcloud alpha compute interconnects macsec update-key`
+- `gcloud alpha compute interconnects remote-locations`
+- `gcloud alpha compute interconnects remote-locations describe`
+- `gcloud alpha compute interconnects remote-locations list`
+- `gcloud alpha compute interconnects update`
+- `gcloud alpha compute interconnects wire-groups`
+- `gcloud alpha compute interconnects wire-groups add-endpoint`
+- `gcloud alpha compute interconnects wire-groups add-interconnect`
+- `gcloud alpha compute interconnects wire-groups create`
+- `gcloud alpha compute interconnects wire-groups delete`
+- `gcloud alpha compute interconnects wire-groups describe`
+- `gcloud alpha compute interconnects wire-groups list`
+- `gcloud alpha compute interconnects wire-groups remove-endpoint`
+- `gcloud alpha compute interconnects wire-groups remove-interconnect`
+- `gcloud alpha compute interconnects wire-groups update`
+- `gcloud alpha compute machine-images`
+- `gcloud alpha compute machine-images add-iam-policy-binding`
+- `gcloud alpha compute machine-images create`
+- `gcloud alpha compute machine-images delete`
+- `gcloud alpha compute machine-images describe`
+- `gcloud alpha compute machine-images get-iam-policy`
+- `gcloud alpha compute machine-images import`
+- `gcloud alpha compute machine-images list`
+- `gcloud alpha compute machine-images remove-iam-policy-binding`
+- `gcloud alpha compute machine-images set-iam-policy`
+- `gcloud alpha compute machine-types`
+- `gcloud alpha compute machine-types describe`
+- `gcloud alpha compute machine-types list`
+- `gcloud alpha compute migration`
+- `gcloud alpha compute migration disk-migrations`
+- `gcloud alpha compute migration disk-migrations cancel`
+- `gcloud alpha compute migration disk-migrations create`
+- `gcloud alpha compute migration disk-migrations delete`
+- `gcloud alpha compute migration disk-migrations describe`
+- `gcloud alpha compute migration disk-migrations fetch-inventory`
+- `gcloud alpha compute migration disk-migrations list`
+- `gcloud alpha compute migration disk-migrations run`
+- `gcloud alpha compute migration disk-migrations update`
+- `gcloud alpha compute migration image-imports`
+- `gcloud alpha compute migration image-imports create`
+- `gcloud alpha compute migration image-imports delete`
+- `gcloud alpha compute migration image-imports describe`
+- `gcloud alpha compute migration image-imports list`
+- `gcloud alpha compute migration machine-image-imports`
+- `gcloud alpha compute migration machine-image-imports create`
+- `gcloud alpha compute migration machine-image-imports delete`
+- `gcloud alpha compute migration machine-image-imports describe`
+- `gcloud alpha compute migration machine-image-imports list`
+- `gcloud alpha compute migration target-projects`
+- `gcloud alpha compute migration target-projects list`
+- `gcloud alpha compute network-attachments`
+- `gcloud alpha compute network-attachments create`
+- `gcloud alpha compute network-attachments delete`
+- `gcloud alpha compute network-attachments describe`
+- `gcloud alpha compute network-attachments list`
+- `gcloud alpha compute network-attachments update`
+- `gcloud alpha compute network-edge-security-services`
+- `gcloud alpha compute network-edge-security-services create`
+- `gcloud alpha compute network-edge-security-services delete`
+- `gcloud alpha compute network-edge-security-services describe`
+- `gcloud alpha compute network-edge-security-services list`
+- `gcloud alpha compute network-edge-security-services update`
+- `gcloud alpha compute network-endpoint-groups`
+- `gcloud alpha compute network-endpoint-groups create`
+- `gcloud alpha compute network-endpoint-groups delete`
+- `gcloud alpha compute network-endpoint-groups describe`
+- `gcloud alpha compute network-endpoint-groups list`
+- `gcloud alpha compute network-endpoint-groups list-network-endpoints`
+- `gcloud alpha compute network-endpoint-groups update`
+- `gcloud alpha compute network-firewall-policies`
+- `gcloud alpha compute network-firewall-policies associations`
+- `gcloud alpha compute network-firewall-policies associations create`
+- `gcloud alpha compute network-firewall-policies associations delete`
+- `gcloud alpha compute network-firewall-policies clone-rules`
+- `gcloud alpha compute network-firewall-policies create`
+- `gcloud alpha compute network-firewall-policies delete`
+- `gcloud alpha compute network-firewall-policies describe`
+- `gcloud alpha compute network-firewall-policies export-rules`
+- `gcloud alpha compute network-firewall-policies get-effective-firewalls`
+- `gcloud alpha compute network-firewall-policies import-rules`
+- `gcloud alpha compute network-firewall-policies list`
+- `gcloud alpha compute network-firewall-policies mirroring-rules`
+- `gcloud alpha compute network-firewall-policies mirroring-rules create`
+- `gcloud alpha compute network-firewall-policies mirroring-rules delete`
+- `gcloud alpha compute network-firewall-policies mirroring-rules describe`
+- `gcloud alpha compute network-firewall-policies mirroring-rules update`
+- `gcloud alpha compute network-firewall-policies rules`
+- `gcloud alpha compute network-firewall-policies rules create`
+- `gcloud alpha compute network-firewall-policies rules delete`
+- `gcloud alpha compute network-firewall-policies rules describe`
+- `gcloud alpha compute network-firewall-policies rules update`
+- `gcloud alpha compute network-firewall-policies update`
+- `gcloud alpha compute network-policies`
+- `gcloud alpha compute network-policies associations`
+- `gcloud alpha compute network-policies associations create`
+- `gcloud alpha compute network-policies associations delete`
+- `gcloud alpha compute network-policies associations describe`
+- `gcloud alpha compute network-policies create`
+- `gcloud alpha compute network-policies delete`
+- `gcloud alpha compute network-policies describe`
+- `gcloud alpha compute network-policies list`
+- `gcloud alpha compute network-policies traffic-classification-rules`
+- `gcloud alpha compute network-policies traffic-classification-rules create`
+- `gcloud alpha compute network-policies traffic-classification-rules delete`
+- `gcloud alpha compute network-policies traffic-classification-rules describe`
+- `gcloud alpha compute network-policies traffic-classification-rules update`
+- `gcloud alpha compute network-policies update`
+- `gcloud alpha compute network-profiles`
+- `gcloud alpha compute network-profiles describe`
+- `gcloud alpha compute network-profiles list`
+- `gcloud alpha compute networks`
+- `gcloud alpha compute networks create`
+- `gcloud alpha compute networks delete`
+- `gcloud alpha compute networks describe`
+- `gcloud alpha compute networks get-effective-firewalls`
+- `gcloud alpha compute networks list`
+- `gcloud alpha compute networks list-ip-addresses`
+- `gcloud alpha compute networks list-ip-owners`
+- `gcloud alpha compute networks peerings`
+- `gcloud alpha compute networks peerings cancel-request-delete`
+- `gcloud alpha compute networks peerings create`
+- `gcloud alpha compute networks peerings delete`
+- `gcloud alpha compute networks peerings list`
+- `gcloud alpha compute networks peerings list-routes`
+- `gcloud alpha compute networks peerings request-delete`
+- `gcloud alpha compute networks peerings update`
+- `gcloud alpha compute networks subnets`
+- `gcloud alpha compute networks subnets add-iam-policy-binding`
+- `gcloud alpha compute networks subnets config`
+- `gcloud alpha compute networks subnets config export`
+- `gcloud alpha compute networks subnets create`
+- `gcloud alpha compute networks subnets delete`
+- `gcloud alpha compute networks subnets describe`
+- `gcloud alpha compute networks subnets expand-ip-range`
+- `gcloud alpha compute networks subnets get-iam-policy`
+- `gcloud alpha compute networks subnets list`
+- `gcloud alpha compute networks subnets list-usable`
+- `gcloud alpha compute networks subnets remove-iam-policy-binding`
+- `gcloud alpha compute networks subnets set-iam-policy`
+- `gcloud alpha compute networks subnets update`
+- `gcloud alpha compute networks update`
+- `gcloud alpha compute operations`
+- `gcloud alpha compute operations describe`
+- `gcloud alpha compute operations list`
+- `gcloud alpha compute org-security-policies`
+- `gcloud alpha compute org-security-policies associations`
+- `gcloud alpha compute org-security-policies associations create`
+- `gcloud alpha compute org-security-policies associations delete`
+- `gcloud alpha compute org-security-policies associations list`
+- `gcloud alpha compute org-security-policies copy-rules`
+- `gcloud alpha compute org-security-policies create`
+- `gcloud alpha compute org-security-policies delete`
+- `gcloud alpha compute org-security-policies describe`
+- `gcloud alpha compute org-security-policies list`
+- `gcloud alpha compute org-security-policies list-rules`
+- `gcloud alpha compute org-security-policies move`
+- `gcloud alpha compute org-security-policies rules`
+- `gcloud alpha compute org-security-policies rules add-preconfig-waf-exclusion`
+- `gcloud alpha compute org-security-policies rules create`
+- `gcloud alpha compute org-security-policies rules delete`
+- `gcloud alpha compute org-security-policies rules describe`
+- `gcloud alpha compute org-security-policies rules remove-preconfig-waf-exclusion`
+- `gcloud alpha compute org-security-policies rules update`
+- `gcloud alpha compute org-security-policies update`
+- `gcloud alpha compute os-config`
+- `gcloud alpha compute os-config instance-os-policies-compliances`
+- `gcloud alpha compute os-config instance-os-policies-compliances describe`
+- `gcloud alpha compute os-config instance-os-policies-compliances list`
+- `gcloud alpha compute os-config inventories`
+- `gcloud alpha compute os-config inventories describe`
+- `gcloud alpha compute os-config inventories list`
+- `gcloud alpha compute os-config os-policy-assignment-reports`
+- `gcloud alpha compute os-config os-policy-assignment-reports describe`
+- `gcloud alpha compute os-config os-policy-assignment-reports list`
+- `gcloud alpha compute os-config os-policy-assignments`
+- `gcloud alpha compute os-config os-policy-assignments create`
+- `gcloud alpha compute os-config os-policy-assignments delete`
+- `gcloud alpha compute os-config os-policy-assignments describe`
+- `gcloud alpha compute os-config os-policy-assignments list`
+- `gcloud alpha compute os-config os-policy-assignments list-revisions`
+- `gcloud alpha compute os-config os-policy-assignments operations`
+- `gcloud alpha compute os-config os-policy-assignments operations cancel`
+- `gcloud alpha compute os-config os-policy-assignments operations describe`
+- `gcloud alpha compute os-config os-policy-assignments update`
+- `gcloud alpha compute os-config os-upgrade`
+- `gcloud alpha compute os-config policy-orchestrators`
+- `gcloud alpha compute os-config policy-orchestrators create`
+- `gcloud alpha compute os-config policy-orchestrators delete`
+- `gcloud alpha compute os-config policy-orchestrators describe`
+- `gcloud alpha compute os-config policy-orchestrators list`
+- `gcloud alpha compute os-config policy-orchestrators update`
+- `gcloud alpha compute os-config troubleshoot`
+- `gcloud alpha compute os-config vulnerability-reports`
+- `gcloud alpha compute os-config vulnerability-reports describe`
+- `gcloud alpha compute os-config vulnerability-reports list`
+- `gcloud alpha compute os-login`
+- `gcloud alpha compute os-login describe-profile`
+- `gcloud alpha compute os-login remove-profile`
+- `gcloud alpha compute os-login ssh-keys`
+- `gcloud alpha compute os-login ssh-keys add`
+- `gcloud alpha compute os-login ssh-keys describe`
+- `gcloud alpha compute os-login ssh-keys list`
+- `gcloud alpha compute os-login ssh-keys remove`
+- `gcloud alpha compute os-login ssh-keys update`
+- `gcloud alpha compute packet-mirrorings`
+- `gcloud alpha compute packet-mirrorings create`
+- `gcloud alpha compute packet-mirrorings delete`
+- `gcloud alpha compute packet-mirrorings describe`
+- `gcloud alpha compute packet-mirrorings list`
+- `gcloud alpha compute packet-mirrorings update`
+- `gcloud alpha compute preview-features`
+- `gcloud alpha compute preview-features describe`
+- `gcloud alpha compute preview-features list`
+- `gcloud alpha compute preview-features update`
+- `gcloud alpha compute project-info`
+- `gcloud alpha compute project-info add-metadata`
+- `gcloud alpha compute project-info describe`
+- `gcloud alpha compute project-info remove-metadata`
+- `gcloud alpha compute project-info set-default-service-account`
+- `gcloud alpha compute project-info update`
+- `gcloud alpha compute project-zonal-metadata`
+- `gcloud alpha compute project-zonal-metadata add`
+- `gcloud alpha compute project-zonal-metadata describe`
+- `gcloud alpha compute project-zonal-metadata remove`
+- `gcloud alpha compute public-advertised-prefixes`
+- `gcloud alpha compute public-advertised-prefixes create`
+- `gcloud alpha compute public-advertised-prefixes delete`
+- `gcloud alpha compute public-advertised-prefixes describe`
+- `gcloud alpha compute public-advertised-prefixes list`
+- `gcloud alpha compute public-advertised-prefixes update`
+- `gcloud alpha compute public-delegated-prefixes`
+- `gcloud alpha compute public-delegated-prefixes create`
+- `gcloud alpha compute public-delegated-prefixes delegated-sub-prefixes`
+- `gcloud alpha compute public-delegated-prefixes delegated-sub-prefixes create`
+- `gcloud alpha compute public-delegated-prefixes delegated-sub-prefixes delete`
+- `gcloud alpha compute public-delegated-prefixes delete`
+- `gcloud alpha compute public-delegated-prefixes describe`
+- `gcloud alpha compute public-delegated-prefixes list`
+- `gcloud alpha compute public-delegated-prefixes update`
+- `gcloud alpha compute queued-resources`
+- `gcloud alpha compute queued-resources cancel`
+- `gcloud alpha compute queued-resources create`
+- `gcloud alpha compute queued-resources delete`
+- `gcloud alpha compute queued-resources describe`
+- `gcloud alpha compute queued-resources list`
+- `gcloud alpha compute regions`
+- `gcloud alpha compute regions describe`
+- `gcloud alpha compute regions list`
+- `gcloud alpha compute reservations`
+- `gcloud alpha compute reservations add-iam-policy-binding`
+- `gcloud alpha compute reservations blocks`
+- `gcloud alpha compute reservations blocks describe`
+- `gcloud alpha compute reservations blocks list`
+- `gcloud alpha compute reservations blocks perform-maintenance`
+- `gcloud alpha compute reservations create`
+- `gcloud alpha compute reservations delete`
+- `gcloud alpha compute reservations describe`
+- `gcloud alpha compute reservations get-iam-policy`
+- `gcloud alpha compute reservations list`
+- `gcloud alpha compute reservations perform-maintenance`
+- `gcloud alpha compute reservations remove-iam-policy-binding`
+- `gcloud alpha compute reservations set-iam-policy`
+- `gcloud alpha compute reservations slots`
+- `gcloud alpha compute reservations slots describe`
+- `gcloud alpha compute reservations slots get-version`
+- `gcloud alpha compute reservations slots list`
+- `gcloud alpha compute reservations sub-blocks`
+- `gcloud alpha compute reservations sub-blocks describe`
+- `gcloud alpha compute reservations sub-blocks get-version`
+- `gcloud alpha compute reservations sub-blocks list`
+- `gcloud alpha compute reservations sub-blocks perform-maintenance`
+- `gcloud alpha compute reservations sub-blocks report-subblock-as-faulty`
+- `gcloud alpha compute reservations update`
+- `gcloud alpha compute reset-windows-password`
+- `gcloud alpha compute resource-policies`
+- `gcloud alpha compute resource-policies create`
+- `gcloud alpha compute resource-policies create disk-consistency-group`
+- `gcloud alpha compute resource-policies create group-placement`
+- `gcloud alpha compute resource-policies create instance-schedule`
+- `gcloud alpha compute resource-policies create snapshot-schedule`
+- `gcloud alpha compute resource-policies create vm-maintenance`
+- `gcloud alpha compute resource-policies create vm-maintenance concurrency-limit`
+- `gcloud alpha compute resource-policies create vm-maintenance maintenance-window`
+- `gcloud alpha compute resource-policies create workload-policy`
+- `gcloud alpha compute resource-policies create-snapshot-schedule`
+- `gcloud alpha compute resource-policies create-vm-maintenance`
+- `gcloud alpha compute resource-policies delete`
+- `gcloud alpha compute resource-policies describe`
+- `gcloud alpha compute resource-policies get-iam-policy`
+- `gcloud alpha compute resource-policies list`
+- `gcloud alpha compute resource-policies set-iam-policy`
+- `gcloud alpha compute resource-policies update`
+- `gcloud alpha compute resource-policies update instance-schedule`
+- `gcloud alpha compute resource-policies update snapshot-schedule`
+- `gcloud alpha compute rollout-plans`
+- `gcloud alpha compute rollout-plans create`
+- `gcloud alpha compute rollout-plans delete`
+- `gcloud alpha compute rollout-plans describe`
+- `gcloud alpha compute rollout-plans list`
+- `gcloud alpha compute rollouts`
+- `gcloud alpha compute rollouts cancel`
+- `gcloud alpha compute rollouts delete`
+- `gcloud alpha compute rollouts describe`
+- `gcloud alpha compute rollouts list`
+- `gcloud alpha compute routers`
+- `gcloud alpha compute routers add-bgp-peer`
+- `gcloud alpha compute routers add-interface`
+- `gcloud alpha compute routers add-named-set`
+- `gcloud alpha compute routers add-named-set-element`
+- `gcloud alpha compute routers add-route-policy`
+- `gcloud alpha compute routers add-route-policy-term`
+- `gcloud alpha compute routers create`
+- `gcloud alpha compute routers delete`
+- `gcloud alpha compute routers describe`
+- `gcloud alpha compute routers download-named-set`
+- `gcloud alpha compute routers download-route-policy`
+- `gcloud alpha compute routers get-named-set`
+- `gcloud alpha compute routers get-nat-ip-info`
+- `gcloud alpha compute routers get-nat-mapping-info`
+- `gcloud alpha compute routers get-route-policy`
+- `gcloud alpha compute routers get-status`
+- `gcloud alpha compute routers list`
+- `gcloud alpha compute routers list-bgp-routes`
+- `gcloud alpha compute routers list-named-sets`
+- `gcloud alpha compute routers list-route-policies`
+- `gcloud alpha compute routers nats`
+- `gcloud alpha compute routers nats create`
+- `gcloud alpha compute routers nats delete`
+- `gcloud alpha compute routers nats describe`
+- `gcloud alpha compute routers nats list`
+- `gcloud alpha compute routers nats rules`
+- `gcloud alpha compute routers nats rules create`
+- `gcloud alpha compute routers nats rules delete`
+- `gcloud alpha compute routers nats rules describe`
+- `gcloud alpha compute routers nats rules list`
+- `gcloud alpha compute routers nats rules update`
+- `gcloud alpha compute routers nats update`
+- `gcloud alpha compute routers remove-bgp-peer`
+- `gcloud alpha compute routers remove-interface`
+- `gcloud alpha compute routers remove-named-set`
+- `gcloud alpha compute routers remove-named-set-element`
+- `gcloud alpha compute routers remove-route-policy`
+- `gcloud alpha compute routers remove-route-policy-term`
+- `gcloud alpha compute routers update`
+- `gcloud alpha compute routers update-bgp-peer`
+- `gcloud alpha compute routers update-interface`
+- `gcloud alpha compute routers update-route-policy-term`
+- `gcloud alpha compute routers upload-named-set`
+- `gcloud alpha compute routers upload-route-policy`
+- `gcloud alpha compute routes`
+- `gcloud alpha compute routes create`
+- `gcloud alpha compute routes delete`
+- `gcloud alpha compute routes describe`
+- `gcloud alpha compute routes list`
+- `gcloud alpha compute scp`
+- `gcloud alpha compute security-policies`
+- `gcloud alpha compute security-policies add-layer7-ddos-defense-threshold-config`
+- `gcloud alpha compute security-policies add-user-defined-field`
+- `gcloud alpha compute security-policies create`
+- `gcloud alpha compute security-policies delete`
+- `gcloud alpha compute security-policies describe`
+- `gcloud alpha compute security-policies export`
+- `gcloud alpha compute security-policies import`
+- `gcloud alpha compute security-policies list`
+- `gcloud alpha compute security-policies list-preconfigured-expression-sets`
+- `gcloud alpha compute security-policies remove-layer7-ddos-defense-threshold-config`
+- `gcloud alpha compute security-policies remove-user-defined-field`
+- `gcloud alpha compute security-policies rules`
+- `gcloud alpha compute security-policies rules add-preconfig-waf-exclusion`
+- `gcloud alpha compute security-policies rules create`
+- `gcloud alpha compute security-policies rules delete`
+- `gcloud alpha compute security-policies rules describe`
+- `gcloud alpha compute security-policies rules remove-preconfig-waf-exclusion`
+- `gcloud alpha compute security-policies rules update`
+- `gcloud alpha compute security-policies update`
+- `gcloud alpha compute service-attachments`
+- `gcloud alpha compute service-attachments create`
+- `gcloud alpha compute service-attachments delete`
+- `gcloud alpha compute service-attachments describe`
+- `gcloud alpha compute service-attachments list`
+- `gcloud alpha compute service-attachments update`
+- `gcloud alpha compute shared-vpc`
+- `gcloud alpha compute shared-vpc associated-projects`
+- `gcloud alpha compute shared-vpc associated-projects add`
+- `gcloud alpha compute shared-vpc associated-projects list`
+- `gcloud alpha compute shared-vpc associated-projects remove`
+- `gcloud alpha compute shared-vpc disable`
+- `gcloud alpha compute shared-vpc enable`
+- `gcloud alpha compute shared-vpc get-host-project`
+- `gcloud alpha compute shared-vpc list-associated-resources`
+- `gcloud alpha compute shared-vpc organizations`
+- `gcloud alpha compute shared-vpc organizations list-host-projects`
+- `gcloud alpha compute sign-url`
+- `gcloud alpha compute snapshot-groups`
+- `gcloud alpha compute snapshot-groups create`
+- `gcloud alpha compute snapshot-groups delete`
+- `gcloud alpha compute snapshot-groups describe`
+- `gcloud alpha compute snapshot-groups list`
+- `gcloud alpha compute snapshot-settings`
+- `gcloud alpha compute snapshot-settings describe`
+- `gcloud alpha compute snapshot-settings update`
+- `gcloud alpha compute snapshots`
+- `gcloud alpha compute snapshots add-iam-policy-binding`
+- `gcloud alpha compute snapshots add-labels`
+- `gcloud alpha compute snapshots create`
+- `gcloud alpha compute snapshots delete`
+- `gcloud alpha compute snapshots describe`
+- `gcloud alpha compute snapshots get-iam-policy`
+- `gcloud alpha compute snapshots list`
+- `gcloud alpha compute snapshots remove-iam-policy-binding`
+- `gcloud alpha compute snapshots remove-labels`
+- `gcloud alpha compute snapshots set-iam-policy`
+- `gcloud alpha compute snapshots update`
+- `gcloud alpha compute snapshots update-kms-key`
+- `gcloud alpha compute sole-tenancy`
+- `gcloud alpha compute sole-tenancy node-groups`
+- `gcloud alpha compute sole-tenancy node-groups add-iam-policy-binding`
+- `gcloud alpha compute sole-tenancy node-groups create`
+- `gcloud alpha compute sole-tenancy node-groups delete`
+- `gcloud alpha compute sole-tenancy node-groups describe`
+- `gcloud alpha compute sole-tenancy node-groups get-iam-policy`
+- `gcloud alpha compute sole-tenancy node-groups list`
+- `gcloud alpha compute sole-tenancy node-groups list-nodes`
+- `gcloud alpha compute sole-tenancy node-groups perform-maintenance`
+- `gcloud alpha compute sole-tenancy node-groups remove-iam-policy-binding`
+- `gcloud alpha compute sole-tenancy node-groups set-iam-policy`
+- `gcloud alpha compute sole-tenancy node-groups simulate-maintenance-event`
+- `gcloud alpha compute sole-tenancy node-groups update`
+- `gcloud alpha compute sole-tenancy node-templates`
+- `gcloud alpha compute sole-tenancy node-templates add-iam-policy-binding`
+- `gcloud alpha compute sole-tenancy node-templates create`
+- `gcloud alpha compute sole-tenancy node-templates delete`
+- `gcloud alpha compute sole-tenancy node-templates describe`
+- `gcloud alpha compute sole-tenancy node-templates get-iam-policy`
+- `gcloud alpha compute sole-tenancy node-templates list`
+- `gcloud alpha compute sole-tenancy node-templates remove-iam-policy-binding`
+- `gcloud alpha compute sole-tenancy node-templates set-iam-policy`
+- `gcloud alpha compute sole-tenancy node-types`
+- `gcloud alpha compute sole-tenancy node-types describe`
+- `gcloud alpha compute sole-tenancy node-types list`
+- `gcloud alpha compute ssh`
+- `gcloud alpha compute ssl-certificates`
+- `gcloud alpha compute ssl-certificates create`
+- `gcloud alpha compute ssl-certificates delete`
+- `gcloud alpha compute ssl-certificates describe`
+- `gcloud alpha compute ssl-certificates list`
+- `gcloud alpha compute ssl-policies`
+- `gcloud alpha compute ssl-policies config`
+- `gcloud alpha compute ssl-policies config export`
+- `gcloud alpha compute ssl-policies create`
+- `gcloud alpha compute ssl-policies delete`
+- `gcloud alpha compute ssl-policies describe`
+- `gcloud alpha compute ssl-policies export`
+- `gcloud alpha compute ssl-policies import`
+- `gcloud alpha compute ssl-policies list`
+- `gcloud alpha compute ssl-policies list-available-features`
+- `gcloud alpha compute ssl-policies update`
+- `gcloud alpha compute start-iap-tunnel`
+- `gcloud alpha compute storage-pool-types`
+- `gcloud alpha compute storage-pool-types describe`
+- `gcloud alpha compute storage-pool-types list`
+- `gcloud alpha compute storage-pools`
+- `gcloud alpha compute storage-pools create`
+- `gcloud alpha compute storage-pools delete`
+- `gcloud alpha compute storage-pools describe`
+- `gcloud alpha compute storage-pools get-iam-policy`
+- `gcloud alpha compute storage-pools list`
+- `gcloud alpha compute storage-pools list-disks`
+- `gcloud alpha compute storage-pools set-iam-policy`
+- `gcloud alpha compute storage-pools update`
+- `gcloud alpha compute target-grpc-proxies`
+- `gcloud alpha compute target-grpc-proxies config`
+- `gcloud alpha compute target-grpc-proxies config export`
+- `gcloud alpha compute target-grpc-proxies create`
+- `gcloud alpha compute target-grpc-proxies delete`
+- `gcloud alpha compute target-grpc-proxies describe`
+- `gcloud alpha compute target-grpc-proxies export`
+- `gcloud alpha compute target-grpc-proxies import`
+- `gcloud alpha compute target-grpc-proxies list`
+- `gcloud alpha compute target-http-proxies`
+- `gcloud alpha compute target-http-proxies config`
+- `gcloud alpha compute target-http-proxies config export`
+- `gcloud alpha compute target-http-proxies create`
+- `gcloud alpha compute target-http-proxies delete`
+- `gcloud alpha compute target-http-proxies describe`
+- `gcloud alpha compute target-http-proxies export`
+- `gcloud alpha compute target-http-proxies import`
+- `gcloud alpha compute target-http-proxies list`
+- `gcloud alpha compute target-http-proxies update`
+- `gcloud alpha compute target-https-proxies`
+- `gcloud alpha compute target-https-proxies config`
+- `gcloud alpha compute target-https-proxies config export`
+- `gcloud alpha compute target-https-proxies create`
+- `gcloud alpha compute target-https-proxies delete`
+- `gcloud alpha compute target-https-proxies describe`
+- `gcloud alpha compute target-https-proxies export`
+- `gcloud alpha compute target-https-proxies import`
+- `gcloud alpha compute target-https-proxies list`
+- `gcloud alpha compute target-https-proxies update`
+- `gcloud alpha compute target-instances`
+- `gcloud alpha compute target-instances config`
+- `gcloud alpha compute target-instances config export`
+- `gcloud alpha compute target-instances create`
+- `gcloud alpha compute target-instances delete`
+- `gcloud alpha compute target-instances describe`
+- `gcloud alpha compute target-instances list`
+- `gcloud alpha compute target-instances update`
+- `gcloud alpha compute target-pools`
+- `gcloud alpha compute target-pools add-health-checks`
+- `gcloud alpha compute target-pools add-instances`
+- `gcloud alpha compute target-pools config`
+- `gcloud alpha compute target-pools config export`
+- `gcloud alpha compute target-pools create`
+- `gcloud alpha compute target-pools delete`
+- `gcloud alpha compute target-pools describe`
+- `gcloud alpha compute target-pools get-health`
+- `gcloud alpha compute target-pools list`
+- `gcloud alpha compute target-pools remove-health-checks`
+- `gcloud alpha compute target-pools remove-instances`
+- `gcloud alpha compute target-pools set-backup`
+- `gcloud alpha compute target-pools update`
+- `gcloud alpha compute target-ssl-proxies`
+- `gcloud alpha compute target-ssl-proxies config`
+- `gcloud alpha compute target-ssl-proxies config export`
+- `gcloud alpha compute target-ssl-proxies create`
+- `gcloud alpha compute target-ssl-proxies delete`
+- `gcloud alpha compute target-ssl-proxies describe`
+- `gcloud alpha compute target-ssl-proxies list`
+- `gcloud alpha compute target-ssl-proxies update`
+- `gcloud alpha compute target-tcp-proxies`
+- `gcloud alpha compute target-tcp-proxies config`
+- `gcloud alpha compute target-tcp-proxies config export`
+- `gcloud alpha compute target-tcp-proxies create`
+- `gcloud alpha compute target-tcp-proxies delete`
+- `gcloud alpha compute target-tcp-proxies describe`
+- `gcloud alpha compute target-tcp-proxies list`
+- `gcloud alpha compute target-tcp-proxies update`
+- `gcloud alpha compute target-vpn-gateways`
+- `gcloud alpha compute target-vpn-gateways config`
+- `gcloud alpha compute target-vpn-gateways config export`
+- `gcloud alpha compute target-vpn-gateways create`
+- `gcloud alpha compute target-vpn-gateways delete`
+- `gcloud alpha compute target-vpn-gateways describe`
+- `gcloud alpha compute target-vpn-gateways list`
+- `gcloud alpha compute target-vpn-gateways update`
+- `gcloud alpha compute tpus`
+- `gcloud alpha compute tpus accelerator-types`
+- `gcloud alpha compute tpus accelerator-types describe`
+- `gcloud alpha compute tpus accelerator-types list`
+- `gcloud alpha compute tpus locations`
+- `gcloud alpha compute tpus locations describe`
+- `gcloud alpha compute tpus locations list`
+- `gcloud alpha compute tpus queued-resources`
+- `gcloud alpha compute tpus queued-resources create`
+- `gcloud alpha compute tpus queued-resources delete`
+- `gcloud alpha compute tpus queued-resources describe`
+- `gcloud alpha compute tpus queued-resources list`
+- `gcloud alpha compute tpus queued-resources perform-maintenance`
+- `gcloud alpha compute tpus queued-resources reset`
+- `gcloud alpha compute tpus queued-resources scp`
+- `gcloud alpha compute tpus queued-resources ssh`
+- `gcloud alpha compute tpus reservations`
+- `gcloud alpha compute tpus reservations list`
+- `gcloud alpha compute tpus topologies`
+- `gcloud alpha compute tpus topologies list`
+- `gcloud alpha compute tpus tpu-vm`
+- `gcloud alpha compute tpus tpu-vm accelerator-types`
+- `gcloud alpha compute tpus tpu-vm accelerator-types describe`
+- `gcloud alpha compute tpus tpu-vm accelerator-types list`
+- `gcloud alpha compute tpus tpu-vm attach-disk`
+- `gcloud alpha compute tpus tpu-vm create`
+- `gcloud alpha compute tpus tpu-vm delete`
+- `gcloud alpha compute tpus tpu-vm describe`
+- `gcloud alpha compute tpus tpu-vm detach-disk`
+- `gcloud alpha compute tpus tpu-vm get-guest-attributes`
+- `gcloud alpha compute tpus tpu-vm list`
+- `gcloud alpha compute tpus tpu-vm perform-maintenance`
+- `gcloud alpha compute tpus tpu-vm scp`
+- `gcloud alpha compute tpus tpu-vm service-identity`
+- `gcloud alpha compute tpus tpu-vm service-identity create`
+- `gcloud alpha compute tpus tpu-vm simulate-maintenance-event`
+- `gcloud alpha compute tpus tpu-vm ssh`
+- `gcloud alpha compute tpus tpu-vm start`
+- `gcloud alpha compute tpus tpu-vm stop`
+- `gcloud alpha compute tpus tpu-vm update`
+- `gcloud alpha compute tpus tpu-vm versions`
+- `gcloud alpha compute tpus tpu-vm versions describe`
+- `gcloud alpha compute tpus tpu-vm versions list`
+- `gcloud alpha compute tpus versions`
+- `gcloud alpha compute tpus versions describe`
+- `gcloud alpha compute tpus versions list`
+- `gcloud alpha compute url-maps`
+- `gcloud alpha compute url-maps add-host-rule`
+- `gcloud alpha compute url-maps add-path-matcher`
+- `gcloud alpha compute url-maps config`
+- `gcloud alpha compute url-maps config export`
+- `gcloud alpha compute url-maps create`
+- `gcloud alpha compute url-maps delete`
+- `gcloud alpha compute url-maps describe`
+- `gcloud alpha compute url-maps edit`
+- `gcloud alpha compute url-maps export`
+- `gcloud alpha compute url-maps import`
+- `gcloud alpha compute url-maps invalidate-cdn-cache`
+- `gcloud alpha compute url-maps list`
+- `gcloud alpha compute url-maps list-cdn-cache-invalidations`
+- `gcloud alpha compute url-maps remove-host-rule`
+- `gcloud alpha compute url-maps remove-path-matcher`
+- `gcloud alpha compute url-maps set-default-service`
+- `gcloud alpha compute url-maps validate`
+- `gcloud alpha compute vpn-gateways`
+- `gcloud alpha compute vpn-gateways config`
+- `gcloud alpha compute vpn-gateways config export`
+- `gcloud alpha compute vpn-gateways create`
+- `gcloud alpha compute vpn-gateways delete`
+- `gcloud alpha compute vpn-gateways describe`
+- `gcloud alpha compute vpn-gateways get-status`
+- `gcloud alpha compute vpn-gateways list`
+- `gcloud alpha compute vpn-gateways update`
+- `gcloud alpha compute vpn-tunnels`
+- `gcloud alpha compute vpn-tunnels config`
+- `gcloud alpha compute vpn-tunnels config export`
+- `gcloud alpha compute vpn-tunnels create`
+- `gcloud alpha compute vpn-tunnels delete`
+- `gcloud alpha compute vpn-tunnels describe`
+- `gcloud alpha compute vpn-tunnels list`
+- `gcloud alpha compute vpn-tunnels update`
+- `gcloud alpha compute zone-vm-extension-policies`
+- `gcloud alpha compute zone-vm-extension-policies create`
+- `gcloud alpha compute zone-vm-extension-policies delete`
+- `gcloud alpha compute zone-vm-extension-policies describe`
+- `gcloud alpha compute zone-vm-extension-policies extensions`
+- `gcloud alpha compute zone-vm-extension-policies extensions describe`
+- `gcloud alpha compute zone-vm-extension-policies extensions list`
+- `gcloud alpha compute zone-vm-extension-policies list`
+- `gcloud alpha compute zone-vm-extension-policies update`
+- `gcloud alpha compute zones`
+- `gcloud alpha compute zones describe`
+- `gcloud alpha compute zones list`
+
+## config
+
+- `gcloud alpha config`
+- `gcloud alpha config configurations`
+- `gcloud alpha config configurations activate`
+- `gcloud alpha config configurations create`
+- `gcloud alpha config configurations delete`
+- `gcloud alpha config configurations describe`
+- `gcloud alpha config configurations list`
+- `gcloud alpha config configurations rename`
+- `gcloud alpha config get`
+- `gcloud alpha config list`
+- `gcloud alpha config set`
+- `gcloud alpha config unset`
+
+## container
+
+- `gcloud alpha container`
+- `gcloud alpha container ai`
+- `gcloud alpha container ai profiles`
+- `gcloud alpha container ai profiles accelerators`
+- `gcloud alpha container ai profiles accelerators list`
+- `gcloud alpha container ai profiles manifests`
+- `gcloud alpha container ai profiles manifests create`
+- `gcloud alpha container ai profiles model-and-server-combinations`
+- `gcloud alpha container ai profiles model-and-server-combinations list`
+- `gcloud alpha container ai profiles model-server-versions`
+- `gcloud alpha container ai profiles model-server-versions list`
+- `gcloud alpha container ai profiles model-servers`
+- `gcloud alpha container ai profiles model-servers list`
+- `gcloud alpha container ai profiles models`
+- `gcloud alpha container ai profiles models list`
+- `gcloud alpha container attached`
+- `gcloud alpha container attached clusters`
+- `gcloud alpha container attached clusters delete`
+- `gcloud alpha container attached clusters describe`
+- `gcloud alpha container attached clusters generate-install-manifest`
+- `gcloud alpha container attached clusters get-credentials`
+- `gcloud alpha container attached clusters import`
+- `gcloud alpha container attached clusters list`
+- `gcloud alpha container attached clusters register`
+- `gcloud alpha container attached clusters update`
+- `gcloud alpha container attached get-server-config`
+- `gcloud alpha container attached operations`
+- `gcloud alpha container attached operations describe`
+- `gcloud alpha container attached operations list`
+- `gcloud alpha container attached operations wait`
+- `gcloud alpha container aws`
+- `gcloud alpha container aws clusters`
+- `gcloud alpha container aws clusters create`
+- `gcloud alpha container aws clusters delete`
+- `gcloud alpha container aws clusters describe`
+- `gcloud alpha container aws clusters get-credentials`
+- `gcloud alpha container aws clusters list`
+- `gcloud alpha container aws clusters update`
+- `gcloud alpha container aws get-server-config`
+- `gcloud alpha container aws node-pools`
+- `gcloud alpha container aws node-pools create`
+- `gcloud alpha container aws node-pools delete`
+- `gcloud alpha container aws node-pools describe`
+- `gcloud alpha container aws node-pools list`
+- `gcloud alpha container aws node-pools rollback`
+- `gcloud alpha container aws node-pools update`
+- `gcloud alpha container aws operations`
+- `gcloud alpha container aws operations cancel`
+- `gcloud alpha container aws operations describe`
+- `gcloud alpha container aws operations list`
+- `gcloud alpha container aws operations wait`
+- `gcloud alpha container azure`
+- `gcloud alpha container azure clients`
+- `gcloud alpha container azure clients create`
+- `gcloud alpha container azure clients delete`
+- `gcloud alpha container azure clients describe`
+- `gcloud alpha container azure clients get-public-cert`
+- `gcloud alpha container azure clients list`
+- `gcloud alpha container azure clusters`
+- `gcloud alpha container azure clusters create`
+- `gcloud alpha container azure clusters delete`
+- `gcloud alpha container azure clusters describe`
+- `gcloud alpha container azure clusters get-credentials`
+- `gcloud alpha container azure clusters list`
+- `gcloud alpha container azure clusters update`
+- `gcloud alpha container azure get-server-config`
+- `gcloud alpha container azure node-pools`
+- `gcloud alpha container azure node-pools create`
+- `gcloud alpha container azure node-pools delete`
+- `gcloud alpha container azure node-pools describe`
+- `gcloud alpha container azure node-pools list`
+- `gcloud alpha container azure node-pools update`
+- `gcloud alpha container azure operations`
+- `gcloud alpha container azure operations cancel`
+- `gcloud alpha container azure operations describe`
+- `gcloud alpha container azure operations list`
+- `gcloud alpha container azure operations wait`
+- `gcloud alpha container backup-restore`
+- `gcloud alpha container backup-restore backup-channels`
+- `gcloud alpha container backup-restore backup-channels create`
+- `gcloud alpha container backup-restore backup-channels delete`
+- `gcloud alpha container backup-restore backup-channels describe`
+- `gcloud alpha container backup-restore backup-channels list`
+- `gcloud alpha container backup-restore backup-channels update`
+- `gcloud alpha container backup-restore backup-plan-bindings`
+- `gcloud alpha container backup-restore backup-plan-bindings describe`
+- `gcloud alpha container backup-restore backup-plan-bindings list`
+- `gcloud alpha container backup-restore backup-plans`
+- `gcloud alpha container backup-restore backup-plans create`
+- `gcloud alpha container backup-restore backup-plans delete`
+- `gcloud alpha container backup-restore backup-plans describe`
+- `gcloud alpha container backup-restore backup-plans get-iam-policy`
+- `gcloud alpha container backup-restore backup-plans list`
+- `gcloud alpha container backup-restore backup-plans set-iam-policy`
+- `gcloud alpha container backup-restore backup-plans update`
+- `gcloud alpha container backup-restore backups`
+- `gcloud alpha container backup-restore backups create`
+- `gcloud alpha container backup-restore backups delete`
+- `gcloud alpha container backup-restore backups describe`
+- `gcloud alpha container backup-restore backups get-backup-index-download-url`
+- `gcloud alpha container backup-restore backups get-iam-policy`
+- `gcloud alpha container backup-restore backups list`
+- `gcloud alpha container backup-restore backups set-iam-policy`
+- `gcloud alpha container backup-restore backups update`
+- `gcloud alpha container backup-restore locations`
+- `gcloud alpha container backup-restore locations describe`
+- `gcloud alpha container backup-restore locations list`
+- `gcloud alpha container backup-restore operations`
+- `gcloud alpha container backup-restore operations describe`
+- `gcloud alpha container backup-restore operations list`
+- `gcloud alpha container backup-restore restore-channels`
+- `gcloud alpha container backup-restore restore-channels create`
+- `gcloud alpha container backup-restore restore-channels delete`
+- `gcloud alpha container backup-restore restore-channels describe`
+- `gcloud alpha container backup-restore restore-channels list`
+- `gcloud alpha container backup-restore restore-channels update`
+- `gcloud alpha container backup-restore restore-plan-bindings`
+- `gcloud alpha container backup-restore restore-plan-bindings describe`
+- `gcloud alpha container backup-restore restore-plan-bindings list`
+- `gcloud alpha container backup-restore restore-plans`
+- `gcloud alpha container backup-restore restore-plans create`
+- `gcloud alpha container backup-restore restore-plans delete`
+- `gcloud alpha container backup-restore restore-plans describe`
+- `gcloud alpha container backup-restore restore-plans get-iam-policy`
+- `gcloud alpha container backup-restore restore-plans list`
+- `gcloud alpha container backup-restore restore-plans set-iam-policy`
+- `gcloud alpha container backup-restore restore-plans update`
+- `gcloud alpha container backup-restore restores`
+- `gcloud alpha container backup-restore restores create`
+- `gcloud alpha container backup-restore restores delete`
+- `gcloud alpha container backup-restore restores describe`
+- `gcloud alpha container backup-restore restores get-iam-policy`
+- `gcloud alpha container backup-restore restores list`
+- `gcloud alpha container backup-restore restores set-iam-policy`
+- `gcloud alpha container backup-restore restores update`
+- `gcloud alpha container backup-restore volume-backups`
+- `gcloud alpha container backup-restore volume-backups describe`
+- `gcloud alpha container backup-restore volume-backups list`
+- `gcloud alpha container backup-restore volume-restores`
+- `gcloud alpha container backup-restore volume-restores describe`
+- `gcloud alpha container backup-restore volume-restores list`
+- `gcloud alpha container bare-metal`
+- `gcloud alpha container bare-metal admin-clusters`
+- `gcloud alpha container bare-metal admin-clusters create`
+- `gcloud alpha container bare-metal admin-clusters describe`
+- `gcloud alpha container bare-metal admin-clusters enroll`
+- `gcloud alpha container bare-metal admin-clusters list`
+- `gcloud alpha container bare-metal admin-clusters query-version-config`
+- `gcloud alpha container bare-metal admin-clusters unenroll`
+- `gcloud alpha container bare-metal admin-clusters update`
+- `gcloud alpha container bare-metal clusters`
+- `gcloud alpha container bare-metal clusters create`
+- `gcloud alpha container bare-metal clusters delete`
+- `gcloud alpha container bare-metal clusters describe`
+- `gcloud alpha container bare-metal clusters enroll`
+- `gcloud alpha container bare-metal clusters list`
+- `gcloud alpha container bare-metal clusters query-version-config`
+- `gcloud alpha container bare-metal clusters update`
+- `gcloud alpha container bare-metal node-pools`
+- `gcloud alpha container bare-metal node-pools create`
+- `gcloud alpha container bare-metal node-pools delete`
+- `gcloud alpha container bare-metal node-pools describe`
+- `gcloud alpha container bare-metal node-pools enroll`
+- `gcloud alpha container bare-metal node-pools list`
+- `gcloud alpha container bare-metal node-pools update`
+- `gcloud alpha container bare-metal operations`
+- `gcloud alpha container bare-metal operations describe`
+- `gcloud alpha container bare-metal operations list`
+- `gcloud alpha container bare-metal operations wait`
+- `gcloud alpha container bare-metal standalone-clusters`
+- `gcloud alpha container bare-metal standalone-clusters describe`
+- `gcloud alpha container bare-metal standalone-clusters enroll`
+- `gcloud alpha container bare-metal standalone-clusters list`
+- `gcloud alpha container bare-metal standalone-clusters query-version-config`
+- `gcloud alpha container bare-metal standalone-clusters unenroll`
+- `gcloud alpha container bare-metal standalone-clusters update`
+- `gcloud alpha container binauthz`
+- `gcloud alpha container binauthz attestations`
+- `gcloud alpha container binauthz attestations create`
+- `gcloud alpha container binauthz attestations list`
+- `gcloud alpha container binauthz attestations sign-and-create`
+- `gcloud alpha container binauthz attestors`
+- `gcloud alpha container binauthz attestors add-iam-policy-binding`
+- `gcloud alpha container binauthz attestors create`
+- `gcloud alpha container binauthz attestors delete`
+- `gcloud alpha container binauthz attestors describe`
+- `gcloud alpha container binauthz attestors get-iam-policy`
+- `gcloud alpha container binauthz attestors list`
+- `gcloud alpha container binauthz attestors public-keys`
+- `gcloud alpha container binauthz attestors public-keys add`
+- `gcloud alpha container binauthz attestors public-keys remove`
+- `gcloud alpha container binauthz attestors public-keys update`
+- `gcloud alpha container binauthz attestors remove-iam-policy-binding`
+- `gcloud alpha container binauthz attestors set-iam-policy`
+- `gcloud alpha container binauthz attestors update`
+- `gcloud alpha container binauthz create-signature-payload`
+- `gcloud alpha container binauthz policy`
+- `gcloud alpha container binauthz policy add-iam-policy-binding`
+- `gcloud alpha container binauthz policy create`
+- `gcloud alpha container binauthz policy delete`
+- `gcloud alpha container binauthz policy describe`
+- `gcloud alpha container binauthz policy evaluate`
+- `gcloud alpha container binauthz policy export`
+- `gcloud alpha container binauthz policy export-system-policy`
+- `gcloud alpha container binauthz policy get-iam-policy`
+- `gcloud alpha container binauthz policy import`
+- `gcloud alpha container binauthz policy list`
+- `gcloud alpha container binauthz policy remove-iam-policy-binding`
+- `gcloud alpha container binauthz policy set-iam-policy`
+- `gcloud alpha container binauthz policy update`
+- `gcloud alpha container clusters`
+- `gcloud alpha container clusters check-autopilot-compatibility`
+- `gcloud alpha container clusters complete-control-plane-upgrade`
+- `gcloud alpha container clusters config`
+- `gcloud alpha container clusters config export`
+- `gcloud alpha container clusters create`
+- `gcloud alpha container clusters create-auto`
+- `gcloud alpha container clusters delete`
+- `gcloud alpha container clusters describe`
+- `gcloud alpha container clusters get-credentials`
+- `gcloud alpha container clusters get-upgrade-info`
+- `gcloud alpha container clusters list`
+- `gcloud alpha container clusters resize`
+- `gcloud alpha container clusters update`
+- `gcloud alpha container clusters upgrade`
+- `gcloud alpha container fleet`
+- `gcloud alpha container fleet cloudrun`
+- `gcloud alpha container fleet cloudrun apply`
+- `gcloud alpha container fleet cloudrun describe`
+- `gcloud alpha container fleet cloudrun disable`
+- `gcloud alpha container fleet cloudrun enable`
+- `gcloud alpha container fleet clusterupgrade`
+- `gcloud alpha container fleet clusterupgrade create`
+- `gcloud alpha container fleet clusterupgrade describe`
+- `gcloud alpha container fleet clusterupgrade update`
+- `gcloud alpha container fleet config-management`
+- `gcloud alpha container fleet config-management apply`
+- `gcloud alpha container fleet config-management delete`
+- `gcloud alpha container fleet config-management describe`
+- `gcloud alpha container fleet config-management disable`
+- `gcloud alpha container fleet config-management enable`
+- `gcloud alpha container fleet config-management fetch-for-apply`
+- `gcloud alpha container fleet config-management status`
+- `gcloud alpha container fleet config-management unmanage`
+- `gcloud alpha container fleet config-management update`
+- `gcloud alpha container fleet config-management upgrade`
+- `gcloud alpha container fleet config-management version`
+- `gcloud alpha container fleet create`
+- `gcloud alpha container fleet dataplane-v2-encryption`
+- `gcloud alpha container fleet dataplane-v2-encryption describe`
+- `gcloud alpha container fleet dataplane-v2-encryption disable`
+- `gcloud alpha container fleet dataplane-v2-encryption enable`
+- `gcloud alpha container fleet delete`
+- `gcloud alpha container fleet describe`
+- `gcloud alpha container fleet features`
+- `gcloud alpha container fleet features list`
+- `gcloud alpha container fleet fleetobservability`
+- `gcloud alpha container fleet fleetobservability describe`
+- `gcloud alpha container fleet fleetobservability disable`
+- `gcloud alpha container fleet fleetobservability enable`
+- `gcloud alpha container fleet fleetobservability update`
+- `gcloud alpha container fleet identity-service`
+- `gcloud alpha container fleet identity-service apply`
+- `gcloud alpha container fleet identity-service delete`
+- `gcloud alpha container fleet identity-service describe`
+- `gcloud alpha container fleet identity-service disable`
+- `gcloud alpha container fleet identity-service enable`
+- `gcloud alpha container fleet ingress`
+- `gcloud alpha container fleet ingress describe`
+- `gcloud alpha container fleet ingress disable`
+- `gcloud alpha container fleet ingress enable`
+- `gcloud alpha container fleet ingress update`
+- `gcloud alpha container fleet list`
+- `gcloud alpha container fleet memberships`
+- `gcloud alpha container fleet memberships bindings`
+- `gcloud alpha container fleet memberships bindings create`
+- `gcloud alpha container fleet memberships bindings delete`
+- `gcloud alpha container fleet memberships bindings describe`
+- `gcloud alpha container fleet memberships bindings list`
+- `gcloud alpha container fleet memberships bindings update`
+- `gcloud alpha container fleet memberships delete`
+- `gcloud alpha container fleet memberships describe`
+- `gcloud alpha container fleet memberships generate-gateway-rbac`
+- `gcloud alpha container fleet memberships get-credentials`
+- `gcloud alpha container fleet memberships list`
+- `gcloud alpha container fleet memberships register`
+- `gcloud alpha container fleet memberships support-access`
+- `gcloud alpha container fleet memberships support-access describe`
+- `gcloud alpha container fleet memberships support-access disable`
+- `gcloud alpha container fleet memberships support-access enable`
+- `gcloud alpha container fleet memberships support-access get-yaml`
+- `gcloud alpha container fleet memberships unregister`
+- `gcloud alpha container fleet memberships update`
+- `gcloud alpha container fleet mesh`
+- `gcloud alpha container fleet mesh debug`
+- `gcloud alpha container fleet mesh debug bug-report`
+- `gcloud alpha container fleet mesh debug proxy-config`
+- `gcloud alpha container fleet mesh debug proxy-status`
+- `gcloud alpha container fleet mesh describe`
+- `gcloud alpha container fleet mesh disable`
+- `gcloud alpha container fleet mesh enable`
+- `gcloud alpha container fleet mesh update`
+- `gcloud alpha container fleet multi-cluster-services`
+- `gcloud alpha container fleet multi-cluster-services describe`
+- `gcloud alpha container fleet multi-cluster-services disable`
+- `gcloud alpha container fleet multi-cluster-services enable`
+- `gcloud alpha container fleet namespaceactuation`
+- `gcloud alpha container fleet namespaceactuation create`
+- `gcloud alpha container fleet namespaceactuation delete`
+- `gcloud alpha container fleet namespaceactuation describe`
+- `gcloud alpha container fleet namespaceactuation update`
+- `gcloud alpha container fleet operations`
+- `gcloud alpha container fleet operations describe`
+- `gcloud alpha container fleet operations list`
+- `gcloud alpha container fleet operations wait`
+- `gcloud alpha container fleet packages`
+- `gcloud alpha container fleet packages create`
+- `gcloud alpha container fleet packages delete`
+- `gcloud alpha container fleet packages describe`
+- `gcloud alpha container fleet packages list`
+- `gcloud alpha container fleet packages resource-bundles`
+- `gcloud alpha container fleet packages resource-bundles create`
+- `gcloud alpha container fleet packages resource-bundles delete`
+- `gcloud alpha container fleet packages resource-bundles describe`
+- `gcloud alpha container fleet packages resource-bundles list`
+- `gcloud alpha container fleet packages resource-bundles releases`
+- `gcloud alpha container fleet packages resource-bundles releases create`
+- `gcloud alpha container fleet packages resource-bundles releases delete`
+- `gcloud alpha container fleet packages resource-bundles releases describe`
+- `gcloud alpha container fleet packages resource-bundles releases list`
+- `gcloud alpha container fleet packages resource-bundles releases update`
+- `gcloud alpha container fleet packages resource-bundles update`
+- `gcloud alpha container fleet packages rollouts`
+- `gcloud alpha container fleet packages rollouts abort`
+- `gcloud alpha container fleet packages rollouts describe`
+- `gcloud alpha container fleet packages rollouts list`
+- `gcloud alpha container fleet packages rollouts resume`
+- `gcloud alpha container fleet packages rollouts suspend`
+- `gcloud alpha container fleet packages update`
+- `gcloud alpha container fleet policycontroller`
+- `gcloud alpha container fleet policycontroller content`
+- `gcloud alpha container fleet policycontroller content bundles`
+- `gcloud alpha container fleet policycontroller content bundles remove`
+- `gcloud alpha container fleet policycontroller content bundles set`
+- `gcloud alpha container fleet policycontroller content templates`
+- `gcloud alpha container fleet policycontroller content templates disable`
+- `gcloud alpha container fleet policycontroller content templates enable`
+- `gcloud alpha container fleet policycontroller deployment`
+- `gcloud alpha container fleet policycontroller deployment remove`
+- `gcloud alpha container fleet policycontroller deployment set`
+- `gcloud alpha container fleet policycontroller describe`
+- `gcloud alpha container fleet policycontroller detach`
+- `gcloud alpha container fleet policycontroller disable`
+- `gcloud alpha container fleet policycontroller enable`
+- `gcloud alpha container fleet policycontroller suspend`
+- `gcloud alpha container fleet policycontroller update`
+- `gcloud alpha container fleet rbacrolebindingactuation`
+- `gcloud alpha container fleet rbacrolebindingactuation describe`
+- `gcloud alpha container fleet rbacrolebindingactuation update`
+- `gcloud alpha container fleet rollouts`
+- `gcloud alpha container fleet rollouts describe`
+- `gcloud alpha container fleet rollouts force-complete-stage`
+- `gcloud alpha container fleet rollouts list`
+- `gcloud alpha container fleet rolloutsequences`
+- `gcloud alpha container fleet rolloutsequences create`
+- `gcloud alpha container fleet rolloutsequences delete`
+- `gcloud alpha container fleet rolloutsequences describe`
+- `gcloud alpha container fleet rolloutsequences list`
+- `gcloud alpha container fleet rolloutsequences update`
+- `gcloud alpha container fleet scopes`
+- `gcloud alpha container fleet scopes add-app-operator-binding`
+- `gcloud alpha container fleet scopes add-iam-policy-binding`
+- `gcloud alpha container fleet scopes create`
+- `gcloud alpha container fleet scopes delete`
+- `gcloud alpha container fleet scopes describe`
+- `gcloud alpha container fleet scopes get-iam-policy`
+- `gcloud alpha container fleet scopes list`
+- `gcloud alpha container fleet scopes list-app-operator-bindings`
+- `gcloud alpha container fleet scopes list-memberships`
+- `gcloud alpha container fleet scopes namespaces`
+- `gcloud alpha container fleet scopes namespaces create`
+- `gcloud alpha container fleet scopes namespaces delete`
+- `gcloud alpha container fleet scopes namespaces describe`
+- `gcloud alpha container fleet scopes namespaces get-credentials`
+- `gcloud alpha container fleet scopes namespaces list`
+- `gcloud alpha container fleet scopes namespaces update`
+- `gcloud alpha container fleet scopes rbacrolebindings`
+- `gcloud alpha container fleet scopes rbacrolebindings create`
+- `gcloud alpha container fleet scopes rbacrolebindings delete`
+- `gcloud alpha container fleet scopes rbacrolebindings describe`
+- `gcloud alpha container fleet scopes rbacrolebindings list`
+- `gcloud alpha container fleet scopes rbacrolebindings update`
+- `gcloud alpha container fleet scopes remove-app-operator-binding`
+- `gcloud alpha container fleet scopes remove-iam-policy-binding`
+- `gcloud alpha container fleet scopes update`
+- `gcloud alpha container fleet service-directory`
+- `gcloud alpha container fleet service-directory describe`
+- `gcloud alpha container fleet service-directory disable`
+- `gcloud alpha container fleet service-directory enable`
+- `gcloud alpha container fleet update`
+- `gcloud alpha container fleet workload-identity`
+- `gcloud alpha container fleet workload-identity describe`
+- `gcloud alpha container fleet workload-identity disable`
+- `gcloud alpha container fleet workload-identity enable`
+- `gcloud alpha container fleet workload-identity scope-tenancy-pool`
+- `gcloud alpha container fleet workload-identity scope-tenancy-pool set`
+- `gcloud alpha container fleet workload-identity scope-tenancy-pool unset`
+- `gcloud alpha container get-server-config`
+- `gcloud alpha container hub`
+- `gcloud alpha container hub cloudrun`
+- `gcloud alpha container hub cloudrun apply`
+- `gcloud alpha container hub cloudrun describe`
+- `gcloud alpha container hub cloudrun disable`
+- `gcloud alpha container hub cloudrun enable`
+- `gcloud alpha container hub clusterupgrade`
+- `gcloud alpha container hub clusterupgrade create`
+- `gcloud alpha container hub clusterupgrade describe`
+- `gcloud alpha container hub clusterupgrade update`
+- `gcloud alpha container hub config-management`
+- `gcloud alpha container hub config-management apply`
+- `gcloud alpha container hub config-management delete`
+- `gcloud alpha container hub config-management describe`
+- `gcloud alpha container hub config-management disable`
+- `gcloud alpha container hub config-management enable`
+- `gcloud alpha container hub config-management fetch-for-apply`
+- `gcloud alpha container hub config-management status`
+- `gcloud alpha container hub config-management unmanage`
+- `gcloud alpha container hub config-management update`
+- `gcloud alpha container hub config-management upgrade`
+- `gcloud alpha container hub config-management version`
+- `gcloud alpha container hub create`
+- `gcloud alpha container hub dataplane-v2-encryption`
+- `gcloud alpha container hub dataplane-v2-encryption describe`
+- `gcloud alpha container hub dataplane-v2-encryption disable`
+- `gcloud alpha container hub dataplane-v2-encryption enable`
+- `gcloud alpha container hub delete`
+- `gcloud alpha container hub describe`
+- `gcloud alpha container hub features`
+- `gcloud alpha container hub features list`
+- `gcloud alpha container hub fleetobservability`
+- `gcloud alpha container hub fleetobservability describe`
+- `gcloud alpha container hub fleetobservability disable`
+- `gcloud alpha container hub fleetobservability enable`
+- `gcloud alpha container hub fleetobservability update`
+- `gcloud alpha container hub identity-service`
+- `gcloud alpha container hub identity-service apply`
+- `gcloud alpha container hub identity-service delete`
+- `gcloud alpha container hub identity-service describe`
+- `gcloud alpha container hub identity-service disable`
+- `gcloud alpha container hub identity-service enable`
+- `gcloud alpha container hub ingress`
+- `gcloud alpha container hub ingress describe`
+- `gcloud alpha container hub ingress disable`
+- `gcloud alpha container hub ingress enable`
+- `gcloud alpha container hub ingress update`
+- `gcloud alpha container hub list`
+- `gcloud alpha container hub memberships`
+- `gcloud alpha container hub memberships bindings`
+- `gcloud alpha container hub memberships bindings create`
+- `gcloud alpha container hub memberships bindings delete`
+- `gcloud alpha container hub memberships bindings describe`
+- `gcloud alpha container hub memberships bindings list`
+- `gcloud alpha container hub memberships bindings update`
+- `gcloud alpha container hub memberships delete`
+- `gcloud alpha container hub memberships describe`
+- `gcloud alpha container hub memberships generate-gateway-rbac`
+- `gcloud alpha container hub memberships get-credentials`
+- `gcloud alpha container hub memberships list`
+- `gcloud alpha container hub memberships register`
+- `gcloud alpha container hub memberships support-access`
+- `gcloud alpha container hub memberships support-access describe`
+- `gcloud alpha container hub memberships support-access disable`
+- `gcloud alpha container hub memberships support-access enable`
+- `gcloud alpha container hub memberships support-access get-yaml`
+- `gcloud alpha container hub memberships unregister`
+- `gcloud alpha container hub memberships update`
+- `gcloud alpha container hub mesh`
+- `gcloud alpha container hub mesh debug`
+- `gcloud alpha container hub mesh debug bug-report`
+- `gcloud alpha container hub mesh debug proxy-config`
+- `gcloud alpha container hub mesh debug proxy-status`
+- `gcloud alpha container hub mesh describe`
+- `gcloud alpha container hub mesh disable`
+- `gcloud alpha container hub mesh enable`
+- `gcloud alpha container hub mesh update`
+- `gcloud alpha container hub multi-cluster-services`
+- `gcloud alpha container hub multi-cluster-services describe`
+- `gcloud alpha container hub multi-cluster-services disable`
+- `gcloud alpha container hub multi-cluster-services enable`
+- `gcloud alpha container hub namespaceactuation`
+- `gcloud alpha container hub namespaceactuation create`
+- `gcloud alpha container hub namespaceactuation delete`
+- `gcloud alpha container hub namespaceactuation describe`
+- `gcloud alpha container hub namespaceactuation update`
+- `gcloud alpha container hub operations`
+- `gcloud alpha container hub operations describe`
+- `gcloud alpha container hub operations list`
+- `gcloud alpha container hub operations wait`
+- `gcloud alpha container hub packages`
+- `gcloud alpha container hub packages create`
+- `gcloud alpha container hub packages delete`
+- `gcloud alpha container hub packages describe`
+- `gcloud alpha container hub packages list`
+- `gcloud alpha container hub packages resource-bundles`
+- `gcloud alpha container hub packages resource-bundles create`
+- `gcloud alpha container hub packages resource-bundles delete`
+- `gcloud alpha container hub packages resource-bundles describe`
+- `gcloud alpha container hub packages resource-bundles list`
+- `gcloud alpha container hub packages resource-bundles releases`
+- `gcloud alpha container hub packages resource-bundles releases create`
+- `gcloud alpha container hub packages resource-bundles releases delete`
+- `gcloud alpha container hub packages resource-bundles releases describe`
+- `gcloud alpha container hub packages resource-bundles releases list`
+- `gcloud alpha container hub packages resource-bundles releases update`
+- `gcloud alpha container hub packages resource-bundles update`
+- `gcloud alpha container hub packages rollouts`
+- `gcloud alpha container hub packages rollouts abort`
+- `gcloud alpha container hub packages rollouts describe`
+- `gcloud alpha container hub packages rollouts list`
+- `gcloud alpha container hub packages rollouts resume`
+- `gcloud alpha container hub packages rollouts suspend`
+- `gcloud alpha container hub packages update`
+- `gcloud alpha container hub policycontroller`
+- `gcloud alpha container hub policycontroller content`
+- `gcloud alpha container hub policycontroller content bundles`
+- `gcloud alpha container hub policycontroller content bundles remove`
+- `gcloud alpha container hub policycontroller content bundles set`
+- `gcloud alpha container hub policycontroller content templates`
+- `gcloud alpha container hub policycontroller content templates disable`
+- `gcloud alpha container hub policycontroller content templates enable`
+- `gcloud alpha container hub policycontroller deployment`
+- `gcloud alpha container hub policycontroller deployment remove`
+- `gcloud alpha container hub policycontroller deployment set`
+- `gcloud alpha container hub policycontroller describe`
+- `gcloud alpha container hub policycontroller detach`
+- `gcloud alpha container hub policycontroller disable`
+- `gcloud alpha container hub policycontroller enable`
+- `gcloud alpha container hub policycontroller suspend`
+- `gcloud alpha container hub policycontroller update`
+- `gcloud alpha container hub rbacrolebindingactuation`
+- `gcloud alpha container hub rbacrolebindingactuation describe`
+- `gcloud alpha container hub rbacrolebindingactuation update`
+- `gcloud alpha container hub rollouts`
+- `gcloud alpha container hub rollouts describe`
+- `gcloud alpha container hub rollouts force-complete-stage`
+- `gcloud alpha container hub rollouts list`
+- `gcloud alpha container hub rolloutsequences`
+- `gcloud alpha container hub rolloutsequences create`
+- `gcloud alpha container hub rolloutsequences delete`
+- `gcloud alpha container hub rolloutsequences describe`
+- `gcloud alpha container hub rolloutsequences list`
+- `gcloud alpha container hub rolloutsequences update`
+- `gcloud alpha container hub scopes`
+- `gcloud alpha container hub scopes add-app-operator-binding`
+- `gcloud alpha container hub scopes add-iam-policy-binding`
+- `gcloud alpha container hub scopes create`
+- `gcloud alpha container hub scopes delete`
+- `gcloud alpha container hub scopes describe`
+- `gcloud alpha container hub scopes get-iam-policy`
+- `gcloud alpha container hub scopes list`
+- `gcloud alpha container hub scopes list-app-operator-bindings`
+- `gcloud alpha container hub scopes list-memberships`
+- `gcloud alpha container hub scopes namespaces`
+- `gcloud alpha container hub scopes namespaces create`
+- `gcloud alpha container hub scopes namespaces delete`
+- `gcloud alpha container hub scopes namespaces describe`
+- `gcloud alpha container hub scopes namespaces get-credentials`
+- `gcloud alpha container hub scopes namespaces list`
+- `gcloud alpha container hub scopes namespaces update`
+- `gcloud alpha container hub scopes rbacrolebindings`
+- `gcloud alpha container hub scopes rbacrolebindings create`
+- `gcloud alpha container hub scopes rbacrolebindings delete`
+- `gcloud alpha container hub scopes rbacrolebindings describe`
+- `gcloud alpha container hub scopes rbacrolebindings list`
+- `gcloud alpha container hub scopes rbacrolebindings update`
+- `gcloud alpha container hub scopes remove-app-operator-binding`
+- `gcloud alpha container hub scopes remove-iam-policy-binding`
+- `gcloud alpha container hub scopes update`
+- `gcloud alpha container hub service-directory`
+- `gcloud alpha container hub service-directory describe`
+- `gcloud alpha container hub service-directory disable`
+- `gcloud alpha container hub service-directory enable`
+- `gcloud alpha container hub update`
+- `gcloud alpha container hub workload-identity`
+- `gcloud alpha container hub workload-identity describe`
+- `gcloud alpha container hub workload-identity disable`
+- `gcloud alpha container hub workload-identity enable`
+- `gcloud alpha container hub workload-identity scope-tenancy-pool`
+- `gcloud alpha container hub workload-identity scope-tenancy-pool set`
+- `gcloud alpha container hub workload-identity scope-tenancy-pool unset`
+- `gcloud alpha container images`
+- `gcloud alpha container images add-tag`
+- `gcloud alpha container images delete`
+- `gcloud alpha container images describe`
+- `gcloud alpha container images list`
+- `gcloud alpha container images list-tags`
+- `gcloud alpha container images untag`
+- `gcloud alpha container node-pools`
+- `gcloud alpha container node-pools complete-upgrade`
+- `gcloud alpha container node-pools config`
+- `gcloud alpha container node-pools config export`
+- `gcloud alpha container node-pools create`
+- `gcloud alpha container node-pools delete`
+- `gcloud alpha container node-pools describe`
+- `gcloud alpha container node-pools get-upgrade-info`
+- `gcloud alpha container node-pools list`
+- `gcloud alpha container node-pools rollback`
+- `gcloud alpha container node-pools update`
+- `gcloud alpha container operations`
+- `gcloud alpha container operations cancel`
+- `gcloud alpha container operations describe`
+- `gcloud alpha container operations list`
+- `gcloud alpha container operations wait`
+- `gcloud alpha container subnets`
+- `gcloud alpha container subnets list-usable`
+- `gcloud alpha container vmware`
+- `gcloud alpha container vmware admin-clusters`
+- `gcloud alpha container vmware admin-clusters describe`
+- `gcloud alpha container vmware admin-clusters enroll`
+- `gcloud alpha container vmware admin-clusters list`
+- `gcloud alpha container vmware admin-clusters unenroll`
+- `gcloud alpha container vmware admin-clusters update`
+- `gcloud alpha container vmware clusters`
+- `gcloud alpha container vmware clusters create`
+- `gcloud alpha container vmware clusters delete`
+- `gcloud alpha container vmware clusters describe`
+- `gcloud alpha container vmware clusters enroll`
+- `gcloud alpha container vmware clusters list`
+- `gcloud alpha container vmware clusters query-version-config`
+- `gcloud alpha container vmware clusters update`
+- `gcloud alpha container vmware clusters upgrade`
+- `gcloud alpha container vmware node-pools`
+- `gcloud alpha container vmware node-pools create`
+- `gcloud alpha container vmware node-pools delete`
+- `gcloud alpha container vmware node-pools describe`
+- `gcloud alpha container vmware node-pools enroll`
+- `gcloud alpha container vmware node-pools list`
+- `gcloud alpha container vmware node-pools update`
+- `gcloud alpha container vmware operations`
+- `gcloud alpha container vmware operations describe`
+- `gcloud alpha container vmware operations list`
+- `gcloud alpha container vmware operations wait`
+
+## data-catalog
+
+- `gcloud alpha data-catalog`
+- `gcloud alpha data-catalog crawler-runs`
+- `gcloud alpha data-catalog crawler-runs describe`
+- `gcloud alpha data-catalog crawler-runs list`
+- `gcloud alpha data-catalog crawler-runs start`
+- `gcloud alpha data-catalog crawlers`
+- `gcloud alpha data-catalog crawlers create`
+- `gcloud alpha data-catalog crawlers delete`
+- `gcloud alpha data-catalog crawlers describe`
+- `gcloud alpha data-catalog crawlers list`
+- `gcloud alpha data-catalog crawlers update`
+- `gcloud alpha data-catalog entries`
+- `gcloud alpha data-catalog entries create`
+- `gcloud alpha data-catalog entries delete`
+- `gcloud alpha data-catalog entries describe`
+- `gcloud alpha data-catalog entries list`
+- `gcloud alpha data-catalog entries lookup`
+- `gcloud alpha data-catalog entries update`
+- `gcloud alpha data-catalog entry-groups`
+- `gcloud alpha data-catalog entry-groups add-iam-policy-binding`
+- `gcloud alpha data-catalog entry-groups create`
+- `gcloud alpha data-catalog entry-groups delete`
+- `gcloud alpha data-catalog entry-groups describe`
+- `gcloud alpha data-catalog entry-groups get-iam-policy`
+- `gcloud alpha data-catalog entry-groups list`
+- `gcloud alpha data-catalog entry-groups remove-iam-policy-binding`
+- `gcloud alpha data-catalog entry-groups set-iam-policy`
+- `gcloud alpha data-catalog entry-groups update`
+- `gcloud alpha data-catalog search`
+- `gcloud alpha data-catalog tag-templates`
+- `gcloud alpha data-catalog tag-templates add-iam-policy-binding`
+- `gcloud alpha data-catalog tag-templates create`
+- `gcloud alpha data-catalog tag-templates delete`
+- `gcloud alpha data-catalog tag-templates describe`
+- `gcloud alpha data-catalog tag-templates fields`
+- `gcloud alpha data-catalog tag-templates fields create`
+- `gcloud alpha data-catalog tag-templates fields delete`
+- `gcloud alpha data-catalog tag-templates fields enum-values`
+- `gcloud alpha data-catalog tag-templates fields enum-values rename`
+- `gcloud alpha data-catalog tag-templates fields rename`
+- `gcloud alpha data-catalog tag-templates fields update`
+- `gcloud alpha data-catalog tag-templates get-iam-policy`
+- `gcloud alpha data-catalog tag-templates remove-iam-policy-binding`
+- `gcloud alpha data-catalog tag-templates set-iam-policy`
+- `gcloud alpha data-catalog tag-templates update`
+- `gcloud alpha data-catalog tags`
+- `gcloud alpha data-catalog tags create`
+- `gcloud alpha data-catalog tags delete`
+- `gcloud alpha data-catalog tags list`
+- `gcloud alpha data-catalog tags update`
+- `gcloud alpha data-catalog taxonomies`
+- `gcloud alpha data-catalog taxonomies add-iam-policy-binding`
+- `gcloud alpha data-catalog taxonomies describe`
+- `gcloud alpha data-catalog taxonomies export`
+- `gcloud alpha data-catalog taxonomies get-iam-policy`
+- `gcloud alpha data-catalog taxonomies import`
+- `gcloud alpha data-catalog taxonomies list`
+- `gcloud alpha data-catalog taxonomies policy-tags`
+- `gcloud alpha data-catalog taxonomies policy-tags add-iam-policy-binding`
+- `gcloud alpha data-catalog taxonomies policy-tags describe`
+- `gcloud alpha data-catalog taxonomies policy-tags get-iam-policy`
+- `gcloud alpha data-catalog taxonomies policy-tags list`
+- `gcloud alpha data-catalog taxonomies policy-tags remove-iam-policy-binding`
+- `gcloud alpha data-catalog taxonomies policy-tags set-iam-policy`
+- `gcloud alpha data-catalog taxonomies remove-iam-policy-binding`
+- `gcloud alpha data-catalog taxonomies set-iam-policy`
+
+## database-migration
+
+- `gcloud alpha database-migration`
+- `gcloud alpha database-migration connection-profiles`
+- `gcloud alpha database-migration connection-profiles create`
+- `gcloud alpha database-migration connection-profiles create cloudsql`
+- `gcloud alpha database-migration connection-profiles create mysql`
+- `gcloud alpha database-migration connection-profiles delete`
+- `gcloud alpha database-migration connection-profiles describe`
+- `gcloud alpha database-migration connection-profiles fetch-static-ips`
+- `gcloud alpha database-migration connection-profiles list`
+- `gcloud alpha database-migration connection-profiles update`
+- `gcloud alpha database-migration migration-jobs`
+- `gcloud alpha database-migration migration-jobs create`
+- `gcloud alpha database-migration migration-jobs delete`
+- `gcloud alpha database-migration migration-jobs describe`
+- `gcloud alpha database-migration migration-jobs generate-ssh-script`
+- `gcloud alpha database-migration migration-jobs list`
+- `gcloud alpha database-migration migration-jobs promote`
+- `gcloud alpha database-migration migration-jobs restart`
+- `gcloud alpha database-migration migration-jobs resume`
+- `gcloud alpha database-migration migration-jobs start`
+- `gcloud alpha database-migration migration-jobs stop`
+- `gcloud alpha database-migration migration-jobs update`
+- `gcloud alpha database-migration migration-jobs verify`
+- `gcloud alpha database-migration operations`
+- `gcloud alpha database-migration operations delete`
+- `gcloud alpha database-migration operations describe`
+- `gcloud alpha database-migration operations list`
+
+## dataflow
+
+- `gcloud alpha dataflow`
+- `gcloud alpha dataflow jobs`
+- `gcloud alpha dataflow jobs config`
+- `gcloud alpha dataflow jobs config export`
+- `gcloud alpha dataflow jobs export-steps`
+- `gcloud alpha dataflow jobs resume-unsupported-sdk`
+- `gcloud alpha dataflow logs`
+- `gcloud alpha dataflow logs list`
+- `gcloud alpha dataflow metrics`
+- `gcloud alpha dataflow metrics list`
+- `gcloud alpha dataflow snapshots`
+- `gcloud alpha dataflow snapshots create`
+- `gcloud alpha dataflow snapshots delete`
+- `gcloud alpha dataflow snapshots describe`
+- `gcloud alpha dataflow snapshots list`
+
+## dataplex
+
+- `gcloud alpha dataplex`
+- `gcloud alpha dataplex aspect-types`
+- `gcloud alpha dataplex aspect-types add-iam-policy-binding`
+- `gcloud alpha dataplex aspect-types create`
+- `gcloud alpha dataplex aspect-types delete`
+- `gcloud alpha dataplex aspect-types describe`
+- `gcloud alpha dataplex aspect-types get-iam-policy`
+- `gcloud alpha dataplex aspect-types list`
+- `gcloud alpha dataplex aspect-types remove-iam-policy-binding`
+- `gcloud alpha dataplex aspect-types set-iam-policy`
+- `gcloud alpha dataplex aspect-types update`
+- `gcloud alpha dataplex assets`
+- `gcloud alpha dataplex assets actions`
+- `gcloud alpha dataplex assets actions list`
+- `gcloud alpha dataplex assets add-iam-policy-binding`
+- `gcloud alpha dataplex assets create`
+- `gcloud alpha dataplex assets delete`
+- `gcloud alpha dataplex assets describe`
+- `gcloud alpha dataplex assets get-iam-policy`
+- `gcloud alpha dataplex assets list`
+- `gcloud alpha dataplex assets remove-iam-policy-binding`
+- `gcloud alpha dataplex assets set-iam-policy`
+- `gcloud alpha dataplex assets update`
+- `gcloud alpha dataplex context`
+- `gcloud alpha dataplex context lookup`
+- `gcloud alpha dataplex datascans`
+- `gcloud alpha dataplex datascans create`
+- `gcloud alpha dataplex datascans create data-discovery`
+- `gcloud alpha dataplex datascans create data-documentation`
+- `gcloud alpha dataplex datascans create data-profile`
+- `gcloud alpha dataplex datascans create data-quality`
+- `gcloud alpha dataplex datascans delete`
+- `gcloud alpha dataplex datascans describe`
+- `gcloud alpha dataplex datascans get-iam-policy`
+- `gcloud alpha dataplex datascans jobs`
+- `gcloud alpha dataplex datascans jobs describe`
+- `gcloud alpha dataplex datascans jobs list`
+- `gcloud alpha dataplex datascans list`
+- `gcloud alpha dataplex datascans run`
+- `gcloud alpha dataplex datascans set-iam-policy`
+- `gcloud alpha dataplex datascans update`
+- `gcloud alpha dataplex datascans update data-discovery`
+- `gcloud alpha dataplex datascans update data-documentation`
+- `gcloud alpha dataplex datascans update data-profile`
+- `gcloud alpha dataplex datascans update data-quality`
+- `gcloud alpha dataplex encryption-config`
+- `gcloud alpha dataplex encryption-config create`
+- `gcloud alpha dataplex encryption-config describe`
+- `gcloud alpha dataplex encryption-config update`
+- `gcloud alpha dataplex entries`
+- `gcloud alpha dataplex entries create`
+- `gcloud alpha dataplex entries delete`
+- `gcloud alpha dataplex entries describe`
+- `gcloud alpha dataplex entries list`
+- `gcloud alpha dataplex entries lookup`
+- `gcloud alpha dataplex entries modify`
+- `gcloud alpha dataplex entries remove-aspects`
+- `gcloud alpha dataplex entries search`
+- `gcloud alpha dataplex entries update`
+- `gcloud alpha dataplex entries update-aspects`
+- `gcloud alpha dataplex entry-groups`
+- `gcloud alpha dataplex entry-groups add-iam-policy-binding`
+- `gcloud alpha dataplex entry-groups create`
+- `gcloud alpha dataplex entry-groups delete`
+- `gcloud alpha dataplex entry-groups describe`
+- `gcloud alpha dataplex entry-groups get-iam-policy`
+- `gcloud alpha dataplex entry-groups list`
+- `gcloud alpha dataplex entry-groups remove-iam-policy-binding`
+- `gcloud alpha dataplex entry-groups set-iam-policy`
+- `gcloud alpha dataplex entry-groups update`
+- `gcloud alpha dataplex entry-links`
+- `gcloud alpha dataplex entry-links create`
+- `gcloud alpha dataplex entry-links delete`
+- `gcloud alpha dataplex entry-links describe`
+- `gcloud alpha dataplex entry-links update`
+- `gcloud alpha dataplex entry-links update-aspects`
+- `gcloud alpha dataplex entry-types`
+- `gcloud alpha dataplex entry-types add-iam-policy-binding`
+- `gcloud alpha dataplex entry-types create`
+- `gcloud alpha dataplex entry-types delete`
+- `gcloud alpha dataplex entry-types describe`
+- `gcloud alpha dataplex entry-types get-iam-policy`
+- `gcloud alpha dataplex entry-types list`
+- `gcloud alpha dataplex entry-types remove-iam-policy-binding`
+- `gcloud alpha dataplex entry-types set-iam-policy`
+- `gcloud alpha dataplex entry-types update`
+- `gcloud alpha dataplex glossaries`
+- `gcloud alpha dataplex glossaries add-iam-policy-binding`
+- `gcloud alpha dataplex glossaries categories`
+- `gcloud alpha dataplex glossaries categories create`
+- `gcloud alpha dataplex glossaries categories delete`
+- `gcloud alpha dataplex glossaries categories describe`
+- `gcloud alpha dataplex glossaries categories list`
+- `gcloud alpha dataplex glossaries categories update`
+- `gcloud alpha dataplex glossaries create`
+- `gcloud alpha dataplex glossaries delete`
+- `gcloud alpha dataplex glossaries describe`
+- `gcloud alpha dataplex glossaries get-iam-policy`
+- `gcloud alpha dataplex glossaries list`
+- `gcloud alpha dataplex glossaries remove-iam-policy-binding`
+- `gcloud alpha dataplex glossaries set-iam-policy`
+- `gcloud alpha dataplex glossaries terms`
+- `gcloud alpha dataplex glossaries terms create`
+- `gcloud alpha dataplex glossaries terms delete`
+- `gcloud alpha dataplex glossaries terms describe`
+- `gcloud alpha dataplex glossaries terms list`
+- `gcloud alpha dataplex glossaries terms update`
+- `gcloud alpha dataplex glossaries update`
+- `gcloud alpha dataplex lakes`
+- `gcloud alpha dataplex lakes actions`
+- `gcloud alpha dataplex lakes actions list`
+- `gcloud alpha dataplex lakes add-iam-policy-binding`
+- `gcloud alpha dataplex lakes authorize`
+- `gcloud alpha dataplex lakes create`
+- `gcloud alpha dataplex lakes deauthorize`
+- `gcloud alpha dataplex lakes delete`
+- `gcloud alpha dataplex lakes describe`
+- `gcloud alpha dataplex lakes get-iam-policy`
+- `gcloud alpha dataplex lakes list`
+- `gcloud alpha dataplex lakes remove-iam-policy-binding`
+- `gcloud alpha dataplex lakes set-iam-policy`
+- `gcloud alpha dataplex lakes update`
+- `gcloud alpha dataplex metadata-jobs`
+- `gcloud alpha dataplex metadata-jobs cancel`
+- `gcloud alpha dataplex metadata-jobs create`
+- `gcloud alpha dataplex metadata-jobs describe`
+- `gcloud alpha dataplex metadata-jobs list`
+- `gcloud alpha dataplex tasks`
+- `gcloud alpha dataplex tasks add-iam-policy-binding`
+- `gcloud alpha dataplex tasks create`
+- `gcloud alpha dataplex tasks delete`
+- `gcloud alpha dataplex tasks describe`
+- `gcloud alpha dataplex tasks get-iam-policy`
+- `gcloud alpha dataplex tasks jobs`
+- `gcloud alpha dataplex tasks jobs cancel`
+- `gcloud alpha dataplex tasks jobs describe`
+- `gcloud alpha dataplex tasks jobs list`
+- `gcloud alpha dataplex tasks list`
+- `gcloud alpha dataplex tasks remove-iam-policy-binding`
+- `gcloud alpha dataplex tasks run`
+- `gcloud alpha dataplex tasks set-iam-policy`
+- `gcloud alpha dataplex tasks update`
+- `gcloud alpha dataplex zones`
+- `gcloud alpha dataplex zones actions`
+- `gcloud alpha dataplex zones actions list`
+- `gcloud alpha dataplex zones add-iam-policy-binding`
+- `gcloud alpha dataplex zones create`
+- `gcloud alpha dataplex zones delete`
+- `gcloud alpha dataplex zones describe`
+- `gcloud alpha dataplex zones get-iam-policy`
+- `gcloud alpha dataplex zones list`
+- `gcloud alpha dataplex zones remove-iam-policy-binding`
+- `gcloud alpha dataplex zones set-iam-policy`
+- `gcloud alpha dataplex zones update`
+
+## dataproc
+
+- `gcloud alpha dataproc`
+- `gcloud alpha dataproc autoscaling-policies`
+- `gcloud alpha dataproc autoscaling-policies delete`
+- `gcloud alpha dataproc autoscaling-policies describe`
+- `gcloud alpha dataproc autoscaling-policies export`
+- `gcloud alpha dataproc autoscaling-policies get-iam-policy`
+- `gcloud alpha dataproc autoscaling-policies import`
+- `gcloud alpha dataproc autoscaling-policies list`
+- `gcloud alpha dataproc autoscaling-policies set-iam-policy`
+- `gcloud alpha dataproc clusters`
+- `gcloud alpha dataproc clusters create`
+- `gcloud alpha dataproc clusters create-from-file`
+- `gcloud alpha dataproc clusters delete`
+- `gcloud alpha dataproc clusters describe`
+- `gcloud alpha dataproc clusters diagnose`
+- `gcloud alpha dataproc clusters export`
+- `gcloud alpha dataproc clusters get-iam-policy`
+- `gcloud alpha dataproc clusters gke`
+- `gcloud alpha dataproc clusters gke create`
+- `gcloud alpha dataproc clusters import`
+- `gcloud alpha dataproc clusters list`
+- `gcloud alpha dataproc clusters set-iam-policy`
+- `gcloud alpha dataproc clusters start`
+- `gcloud alpha dataproc clusters stop`
+- `gcloud alpha dataproc clusters update`
+- `gcloud alpha dataproc jobs`
+- `gcloud alpha dataproc jobs delete`
+- `gcloud alpha dataproc jobs describe`
+- `gcloud alpha dataproc jobs get-iam-policy`
+- `gcloud alpha dataproc jobs kill`
+- `gcloud alpha dataproc jobs list`
+- `gcloud alpha dataproc jobs set-iam-policy`
+- `gcloud alpha dataproc jobs submit`
+- `gcloud alpha dataproc jobs submit flink`
+- `gcloud alpha dataproc jobs submit hadoop`
+- `gcloud alpha dataproc jobs submit hive`
+- `gcloud alpha dataproc jobs submit pig`
+- `gcloud alpha dataproc jobs submit presto`
+- `gcloud alpha dataproc jobs submit pyspark`
+- `gcloud alpha dataproc jobs submit spark`
+- `gcloud alpha dataproc jobs submit spark-r`
+- `gcloud alpha dataproc jobs submit spark-sql`
+- `gcloud alpha dataproc jobs submit trino`
+- `gcloud alpha dataproc jobs update`
+- `gcloud alpha dataproc jobs wait`
+- `gcloud alpha dataproc node-groups`
+- `gcloud alpha dataproc node-groups describe`
+- `gcloud alpha dataproc node-groups resize`
+- `gcloud alpha dataproc operations`
+- `gcloud alpha dataproc operations cancel`
+- `gcloud alpha dataproc operations delete`
+- `gcloud alpha dataproc operations describe`
+- `gcloud alpha dataproc operations get-iam-policy`
+- `gcloud alpha dataproc operations list`
+- `gcloud alpha dataproc operations set-iam-policy`
+- `gcloud alpha dataproc workflow-templates`
+- `gcloud alpha dataproc workflow-templates add-job`
+- `gcloud alpha dataproc workflow-templates add-job hadoop`
+- `gcloud alpha dataproc workflow-templates add-job hive`
+- `gcloud alpha dataproc workflow-templates add-job pig`
+- `gcloud alpha dataproc workflow-templates add-job presto`
+- `gcloud alpha dataproc workflow-templates add-job pyspark`
+- `gcloud alpha dataproc workflow-templates add-job spark`
+- `gcloud alpha dataproc workflow-templates add-job spark-r`
+- `gcloud alpha dataproc workflow-templates add-job spark-sql`
+- `gcloud alpha dataproc workflow-templates add-job trino`
+- `gcloud alpha dataproc workflow-templates create`
+- `gcloud alpha dataproc workflow-templates delete`
+- `gcloud alpha dataproc workflow-templates describe`
+- `gcloud alpha dataproc workflow-templates export`
+- `gcloud alpha dataproc workflow-templates get-iam-policy`
+- `gcloud alpha dataproc workflow-templates import`
+- `gcloud alpha dataproc workflow-templates instantiate`
+- `gcloud alpha dataproc workflow-templates instantiate-from-file`
+- `gcloud alpha dataproc workflow-templates list`
+- `gcloud alpha dataproc workflow-templates remove-dag-timeout`
+- `gcloud alpha dataproc workflow-templates remove-job`
+- `gcloud alpha dataproc workflow-templates run`
+- `gcloud alpha dataproc workflow-templates set-cluster-selector`
+- `gcloud alpha dataproc workflow-templates set-dag-timeout`
+- `gcloud alpha dataproc workflow-templates set-iam-policy`
+- `gcloud alpha dataproc workflow-templates set-managed-cluster`
+
+## datastore
+
+- `gcloud alpha datastore`
+- `gcloud alpha datastore export`
+- `gcloud alpha datastore import`
+- `gcloud alpha datastore indexes`
+- `gcloud alpha datastore indexes cleanup`
+- `gcloud alpha datastore indexes create`
+- `gcloud alpha datastore indexes describe`
+- `gcloud alpha datastore indexes list`
+- `gcloud alpha datastore operations`
+- `gcloud alpha datastore operations cancel`
+- `gcloud alpha datastore operations delete`
+- `gcloud alpha datastore operations describe`
+- `gcloud alpha datastore operations list`
+
+## deploy
+
+- `gcloud alpha deploy`
+- `gcloud alpha deploy apply`
+- `gcloud alpha deploy automation-runs`
+- `gcloud alpha deploy automation-runs cancel`
+- `gcloud alpha deploy automation-runs describe`
+- `gcloud alpha deploy automation-runs list`
+- `gcloud alpha deploy automations`
+- `gcloud alpha deploy automations delete`
+- `gcloud alpha deploy automations describe`
+- `gcloud alpha deploy automations export`
+- `gcloud alpha deploy automations list`
+- `gcloud alpha deploy custom-target-types`
+- `gcloud alpha deploy custom-target-types add-iam-policy-binding`
+- `gcloud alpha deploy custom-target-types delete`
+- `gcloud alpha deploy custom-target-types describe`
+- `gcloud alpha deploy custom-target-types export`
+- `gcloud alpha deploy custom-target-types get-iam-policy`
+- `gcloud alpha deploy custom-target-types list`
+- `gcloud alpha deploy custom-target-types remove-iam-policy-binding`
+- `gcloud alpha deploy custom-target-types set-iam-policy`
+- `gcloud alpha deploy delete`
+- `gcloud alpha deploy delivery-pipelines`
+- `gcloud alpha deploy delivery-pipelines add-iam-policy-binding`
+- `gcloud alpha deploy delivery-pipelines delete`
+- `gcloud alpha deploy delivery-pipelines describe`
+- `gcloud alpha deploy delivery-pipelines export`
+- `gcloud alpha deploy delivery-pipelines get-iam-policy`
+- `gcloud alpha deploy delivery-pipelines list`
+- `gcloud alpha deploy delivery-pipelines remove-iam-policy-binding`
+- `gcloud alpha deploy delivery-pipelines set-iam-policy`
+- `gcloud alpha deploy deploy-policies`
+- `gcloud alpha deploy deploy-policies add-iam-policy-binding`
+- `gcloud alpha deploy deploy-policies delete`
+- `gcloud alpha deploy deploy-policies describe`
+- `gcloud alpha deploy deploy-policies export`
+- `gcloud alpha deploy deploy-policies get-iam-policy`
+- `gcloud alpha deploy deploy-policies remove-iam-policy-binding`
+- `gcloud alpha deploy deploy-policies set-iam-policy`
+- `gcloud alpha deploy get-config`
+- `gcloud alpha deploy job-runs`
+- `gcloud alpha deploy job-runs describe`
+- `gcloud alpha deploy job-runs list`
+- `gcloud alpha deploy job-runs terminate`
+- `gcloud alpha deploy releases`
+- `gcloud alpha deploy releases abandon`
+- `gcloud alpha deploy releases create`
+- `gcloud alpha deploy releases describe`
+- `gcloud alpha deploy releases list`
+- `gcloud alpha deploy releases promote`
+- `gcloud alpha deploy rollouts`
+- `gcloud alpha deploy rollouts advance`
+- `gcloud alpha deploy rollouts approve`
+- `gcloud alpha deploy rollouts cancel`
+- `gcloud alpha deploy rollouts describe`
+- `gcloud alpha deploy rollouts ignore-job`
+- `gcloud alpha deploy rollouts list`
+- `gcloud alpha deploy rollouts reject`
+- `gcloud alpha deploy rollouts retry-job`
+- `gcloud alpha deploy targets`
+- `gcloud alpha deploy targets add-iam-policy-binding`
+- `gcloud alpha deploy targets delete`
+- `gcloud alpha deploy targets describe`
+- `gcloud alpha deploy targets export`
+- `gcloud alpha deploy targets get-iam-policy`
+- `gcloud alpha deploy targets list`
+- `gcloud alpha deploy targets redeploy`
+- `gcloud alpha deploy targets remove-iam-policy-binding`
+- `gcloud alpha deploy targets rollback`
+- `gcloud alpha deploy targets set-iam-policy`
+
+## deployment-manager
+
+- `gcloud alpha deployment-manager`
+- `gcloud alpha deployment-manager deployments`
+- `gcloud alpha deployment-manager deployments cancel-preview`
+- `gcloud alpha deployment-manager deployments create`
+- `gcloud alpha deployment-manager deployments delete`
+- `gcloud alpha deployment-manager deployments describe`
+- `gcloud alpha deployment-manager deployments list`
+- `gcloud alpha deployment-manager deployments stop`
+- `gcloud alpha deployment-manager deployments update`
+- `gcloud alpha deployment-manager manifests`
+- `gcloud alpha deployment-manager manifests describe`
+- `gcloud alpha deployment-manager manifests list`
+- `gcloud alpha deployment-manager operations`
+- `gcloud alpha deployment-manager operations describe`
+- `gcloud alpha deployment-manager operations list`
+- `gcloud alpha deployment-manager operations wait`
+- `gcloud alpha deployment-manager resources`
+- `gcloud alpha deployment-manager resources describe`
+- `gcloud alpha deployment-manager resources list`
+- `gcloud alpha deployment-manager type-providers`
+- `gcloud alpha deployment-manager type-providers create`
+- `gcloud alpha deployment-manager type-providers delete`
+- `gcloud alpha deployment-manager type-providers describe`
+- `gcloud alpha deployment-manager type-providers list`
+- `gcloud alpha deployment-manager type-providers update`
+- `gcloud alpha deployment-manager types`
+- `gcloud alpha deployment-manager types create`
+- `gcloud alpha deployment-manager types delete`
+- `gcloud alpha deployment-manager types describe`
+- `gcloud alpha deployment-manager types list`
+- `gcloud alpha deployment-manager types update`
+
+## design-center
+
+- `gcloud alpha design-center`
+- `gcloud alpha design-center locations`
+- `gcloud alpha design-center locations describe`
+- `gcloud alpha design-center locations list`
+- `gcloud alpha design-center operations`
+- `gcloud alpha design-center operations cancel`
+- `gcloud alpha design-center operations delete`
+- `gcloud alpha design-center operations describe`
+- `gcloud alpha design-center operations list`
+- `gcloud alpha design-center operations wait`
+- `gcloud alpha design-center spaces`
+- `gcloud alpha design-center spaces application-templates`
+- `gcloud alpha design-center spaces application-templates commit`
+- `gcloud alpha design-center spaces application-templates components`
+- `gcloud alpha design-center spaces application-templates components connections`
+- `gcloud alpha design-center spaces application-templates components connections create`
+- `gcloud alpha design-center spaces application-templates components connections delete`
+- `gcloud alpha design-center spaces application-templates components connections describe`
+- `gcloud alpha design-center spaces application-templates components connections list`
+- `gcloud alpha design-center spaces application-templates components connections update`
+- `gcloud alpha design-center spaces application-templates components create`
+- `gcloud alpha design-center spaces application-templates components delete`
+- `gcloud alpha design-center spaces application-templates components describe`
+- `gcloud alpha design-center spaces application-templates components list`
+- `gcloud alpha design-center spaces application-templates components update`
+- `gcloud alpha design-center spaces application-templates create`
+- `gcloud alpha design-center spaces application-templates delete`
+- `gcloud alpha design-center spaces application-templates describe`
+- `gcloud alpha design-center spaces application-templates generate`
+- `gcloud alpha design-center spaces application-templates import`
+- `gcloud alpha design-center spaces application-templates import-iac`
+- `gcloud alpha design-center spaces application-templates list`
+- `gcloud alpha design-center spaces application-templates policies`
+- `gcloud alpha design-center spaces application-templates policies create`
+- `gcloud alpha design-center spaces application-templates policies delete`
+- `gcloud alpha design-center spaces application-templates policies describe`
+- `gcloud alpha design-center spaces application-templates policies list`
+- `gcloud alpha design-center spaces application-templates policies update`
+- `gcloud alpha design-center spaces application-templates revisions`
+- `gcloud alpha design-center spaces application-templates revisions delete`
+- `gcloud alpha design-center spaces application-templates revisions describe`
+- `gcloud alpha design-center spaces application-templates revisions generate`
+- `gcloud alpha design-center spaces application-templates revisions list`
+- `gcloud alpha design-center spaces application-templates update`
+- `gcloud alpha design-center spaces applications`
+- `gcloud alpha design-center spaces applications create`
+- `gcloud alpha design-center spaces applications delete`
+- `gcloud alpha design-center spaces applications deploy`
+- `gcloud alpha design-center spaces applications describe`
+- `gcloud alpha design-center spaces applications generate`
+- `gcloud alpha design-center spaces applications import-iac`
+- `gcloud alpha design-center spaces applications list`
+- `gcloud alpha design-center spaces applications preview`
+- `gcloud alpha design-center spaces applications register`
+- `gcloud alpha design-center spaces applications update`
+- `gcloud alpha design-center spaces catalogs`
+- `gcloud alpha design-center spaces catalogs create`
+- `gcloud alpha design-center spaces catalogs delete`
+- `gcloud alpha design-center spaces catalogs describe`
+- `gcloud alpha design-center spaces catalogs list`
+- `gcloud alpha design-center spaces catalogs shares`
+- `gcloud alpha design-center spaces catalogs shares create`
+- `gcloud alpha design-center spaces catalogs shares delete`
+- `gcloud alpha design-center spaces catalogs shares describe`
+- `gcloud alpha design-center spaces catalogs shares list`
+- `gcloud alpha design-center spaces catalogs shares sync`
+- `gcloud alpha design-center spaces catalogs templates`
+- `gcloud alpha design-center spaces catalogs templates create`
+- `gcloud alpha design-center spaces catalogs templates delete`
+- `gcloud alpha design-center spaces catalogs templates describe`
+- `gcloud alpha design-center spaces catalogs templates list`
+- `gcloud alpha design-center spaces catalogs templates revisions`
+- `gcloud alpha design-center spaces catalogs templates revisions create`
+- `gcloud alpha design-center spaces catalogs templates revisions delete`
+- `gcloud alpha design-center spaces catalogs templates revisions describe`
+- `gcloud alpha design-center spaces catalogs templates revisions list`
+- `gcloud alpha design-center spaces catalogs templates update`
+- `gcloud alpha design-center spaces catalogs update`
+- `gcloud alpha design-center spaces create`
+- `gcloud alpha design-center spaces delete`
+- `gcloud alpha design-center spaces describe`
+- `gcloud alpha design-center spaces get-iam-policy`
+- `gcloud alpha design-center spaces infer-connections`
+- `gcloud alpha design-center spaces list`
+- `gcloud alpha design-center spaces register-deployed-resources`
+- `gcloud alpha design-center spaces set-iam-policy`
+- `gcloud alpha design-center spaces shared-templates`
+- `gcloud alpha design-center spaces shared-templates describe`
+- `gcloud alpha design-center spaces shared-templates list`
+- `gcloud alpha design-center spaces shared-templates revisions`
+- `gcloud alpha design-center spaces shared-templates revisions describe`
+- `gcloud alpha design-center spaces shared-templates revisions list`
+- `gcloud alpha design-center spaces test-iam-permissions`
+- `gcloud alpha design-center spaces update`
+
+## developer-connect
+
+- `gcloud alpha developer-connect`
+- `gcloud alpha developer-connect account-connectors`
+- `gcloud alpha developer-connect account-connectors create`
+- `gcloud alpha developer-connect account-connectors delete`
+- `gcloud alpha developer-connect account-connectors describe`
+- `gcloud alpha developer-connect account-connectors list`
+- `gcloud alpha developer-connect account-connectors update`
+- `gcloud alpha developer-connect connections`
+- `gcloud alpha developer-connect connections create`
+- `gcloud alpha developer-connect connections delete`
+- `gcloud alpha developer-connect connections describe`
+- `gcloud alpha developer-connect connections git-repository-links`
+- `gcloud alpha developer-connect connections git-repository-links create`
+- `gcloud alpha developer-connect connections git-repository-links delete`
+- `gcloud alpha developer-connect connections git-repository-links describe`
+- `gcloud alpha developer-connect connections git-repository-links fetch-read-token`
+- `gcloud alpha developer-connect connections git-repository-links fetch-read-write-token`
+- `gcloud alpha developer-connect connections git-repository-links list`
+- `gcloud alpha developer-connect connections git-repository-links update`
+- `gcloud alpha developer-connect connections list`
+- `gcloud alpha developer-connect connections update`
+- `gcloud alpha developer-connect insights-configs`
+- `gcloud alpha developer-connect insights-configs create`
+- `gcloud alpha developer-connect insights-configs delete`
+- `gcloud alpha developer-connect insights-configs deployment-events`
+- `gcloud alpha developer-connect insights-configs deployment-events describe`
+- `gcloud alpha developer-connect insights-configs deployment-events list`
+- `gcloud alpha developer-connect insights-configs describe`
+- `gcloud alpha developer-connect insights-configs list`
+- `gcloud alpha developer-connect insights-configs update`
+- `gcloud alpha developer-connect operations`
+- `gcloud alpha developer-connect operations cancel`
+- `gcloud alpha developer-connect operations delete`
+- `gcloud alpha developer-connect operations describe`
+- `gcloud alpha developer-connect operations list`
+- `gcloud alpha developer-connect operations wait`
+
+## dialogflow
+
+- `gcloud alpha dialogflow`
+- `gcloud alpha dialogflow agent`
+- `gcloud alpha dialogflow agent describe`
+- `gcloud alpha dialogflow agent export`
+- `gcloud alpha dialogflow agent import`
+- `gcloud alpha dialogflow agent query`
+- `gcloud alpha dialogflow agent train`
+- `gcloud alpha dialogflow entity-types`
+- `gcloud alpha dialogflow entity-types create`
+- `gcloud alpha dialogflow entity-types delete`
+- `gcloud alpha dialogflow entity-types describe`
+- `gcloud alpha dialogflow entity-types list`
+- `gcloud alpha dialogflow entity-types update`
+- `gcloud alpha dialogflow intents`
+- `gcloud alpha dialogflow intents create`
+- `gcloud alpha dialogflow intents delete`
+- `gcloud alpha dialogflow intents describe`
+- `gcloud alpha dialogflow intents list`
+- `gcloud alpha dialogflow intents update`
+
+## dlp
+
+- `gcloud alpha dlp`
+- `gcloud alpha dlp datasources`
+- `gcloud alpha dlp datasources bigquery`
+- `gcloud alpha dlp datasources bigquery analyze`
+- `gcloud alpha dlp datasources bigquery inspect`
+- `gcloud alpha dlp datasources datastore`
+- `gcloud alpha dlp datasources datastore inspect`
+- `gcloud alpha dlp datasources gcs`
+- `gcloud alpha dlp datasources gcs inspect`
+- `gcloud alpha dlp images`
+- `gcloud alpha dlp images inspect`
+- `gcloud alpha dlp images redact`
+- `gcloud alpha dlp job-triggers`
+- `gcloud alpha dlp job-triggers create`
+- `gcloud alpha dlp job-triggers delete`
+- `gcloud alpha dlp job-triggers describe`
+- `gcloud alpha dlp job-triggers list`
+- `gcloud alpha dlp jobs`
+- `gcloud alpha dlp jobs cancel`
+- `gcloud alpha dlp jobs delete`
+- `gcloud alpha dlp jobs describe`
+- `gcloud alpha dlp jobs list`
+- `gcloud alpha dlp text`
+- `gcloud alpha dlp text inspect`
+- `gcloud alpha dlp text redact`
+
+## dns
+
+- `gcloud alpha dns`
+- `gcloud alpha dns active-peering-zones`
+- `gcloud alpha dns dns-keys`
+- `gcloud alpha dns dns-keys describe`
+- `gcloud alpha dns dns-keys list`
+- `gcloud alpha dns managed-zones`
+- `gcloud alpha dns managed-zones config`
+- `gcloud alpha dns managed-zones config export`
+- `gcloud alpha dns managed-zones create`
+- `gcloud alpha dns managed-zones delete`
+- `gcloud alpha dns managed-zones describe`
+- `gcloud alpha dns managed-zones get-iam-policy`
+- `gcloud alpha dns managed-zones list`
+- `gcloud alpha dns managed-zones set-iam-policy`
+- `gcloud alpha dns managed-zones update`
+- `gcloud alpha dns operations`
+- `gcloud alpha dns operations describe`
+- `gcloud alpha dns operations list`
+- `gcloud alpha dns policies`
+- `gcloud alpha dns policies config`
+- `gcloud alpha dns policies config export`
+- `gcloud alpha dns policies create`
+- `gcloud alpha dns policies delete`
+- `gcloud alpha dns policies describe`
+- `gcloud alpha dns policies list`
+- `gcloud alpha dns policies update`
+- `gcloud alpha dns project-info`
+- `gcloud alpha dns project-info describe`
+- `gcloud alpha dns record-sets`
+- `gcloud alpha dns record-sets changes`
+- `gcloud alpha dns record-sets changes describe`
+- `gcloud alpha dns record-sets changes list`
+- `gcloud alpha dns record-sets create`
+- `gcloud alpha dns record-sets delete`
+- `gcloud alpha dns record-sets describe`
+- `gcloud alpha dns record-sets export`
+- `gcloud alpha dns record-sets import`
+- `gcloud alpha dns record-sets list`
+- `gcloud alpha dns record-sets transaction`
+- `gcloud alpha dns record-sets transaction abort`
+- `gcloud alpha dns record-sets transaction add`
+- `gcloud alpha dns record-sets transaction describe`
+- `gcloud alpha dns record-sets transaction execute`
+- `gcloud alpha dns record-sets transaction remove`
+- `gcloud alpha dns record-sets transaction start`
+- `gcloud alpha dns record-sets update`
+- `gcloud alpha dns response-policies`
+- `gcloud alpha dns response-policies create`
+- `gcloud alpha dns response-policies delete`
+- `gcloud alpha dns response-policies describe`
+- `gcloud alpha dns response-policies list`
+- `gcloud alpha dns response-policies rules`
+- `gcloud alpha dns response-policies rules create`
+- `gcloud alpha dns response-policies rules delete`
+- `gcloud alpha dns response-policies rules describe`
+- `gcloud alpha dns response-policies rules list`
+- `gcloud alpha dns response-policies rules update`
+- `gcloud alpha dns response-policies update`
+
+## domains
+
+- `gcloud alpha domains`
+- `gcloud alpha domains registrations`
+- `gcloud alpha domains registrations authorization-code`
+- `gcloud alpha domains registrations authorization-code get`
+- `gcloud alpha domains registrations authorization-code reset`
+- `gcloud alpha domains registrations configure`
+- `gcloud alpha domains registrations configure contacts`
+- `gcloud alpha domains registrations configure dns`
+- `gcloud alpha domains registrations configure management`
+- `gcloud alpha domains registrations delete`
+- `gcloud alpha domains registrations describe`
+- `gcloud alpha domains registrations get-register-parameters`
+- `gcloud alpha domains registrations google-domains-dns`
+- `gcloud alpha domains registrations google-domains-dns export-dns-record-sets`
+- `gcloud alpha domains registrations google-domains-dns get-forwarding-config`
+- `gcloud alpha domains registrations initiate-push-transfer`
+- `gcloud alpha domains registrations list`
+- `gcloud alpha domains registrations operations`
+- `gcloud alpha domains registrations operations describe`
+- `gcloud alpha domains registrations operations list`
+- `gcloud alpha domains registrations operations wait`
+- `gcloud alpha domains registrations register`
+- `gcloud alpha domains registrations renew-domain`
+- `gcloud alpha domains registrations search-domains`
+- `gcloud alpha domains registrations update`
+
+## edge-cache
+
+- `gcloud alpha edge-cache`
+- `gcloud alpha edge-cache keysets`
+- `gcloud alpha edge-cache keysets create`
+- `gcloud alpha edge-cache keysets delete`
+- `gcloud alpha edge-cache keysets describe`
+- `gcloud alpha edge-cache keysets export`
+- `gcloud alpha edge-cache keysets import`
+- `gcloud alpha edge-cache keysets list`
+- `gcloud alpha edge-cache keysets update`
+- `gcloud alpha edge-cache operations`
+- `gcloud alpha edge-cache operations describe`
+- `gcloud alpha edge-cache operations list`
+- `gcloud alpha edge-cache origins`
+- `gcloud alpha edge-cache origins create`
+- `gcloud alpha edge-cache origins delete`
+- `gcloud alpha edge-cache origins describe`
+- `gcloud alpha edge-cache origins export`
+- `gcloud alpha edge-cache origins import`
+- `gcloud alpha edge-cache origins list`
+- `gcloud alpha edge-cache origins update`
+- `gcloud alpha edge-cache services`
+- `gcloud alpha edge-cache services delete`
+- `gcloud alpha edge-cache services describe`
+- `gcloud alpha edge-cache services export`
+- `gcloud alpha edge-cache services import`
+- `gcloud alpha edge-cache services invalidate-cache`
+- `gcloud alpha edge-cache services list`
+- `gcloud alpha edge-cache services update`
+
+## edge-cloud
+
+- `gcloud alpha edge-cloud`
+- `gcloud alpha edge-cloud api-keys`
+- `gcloud alpha edge-cloud api-keys create`
+- `gcloud alpha edge-cloud api-keys delete`
+- `gcloud alpha edge-cloud api-keys describe`
+- `gcloud alpha edge-cloud api-keys list`
+- `gcloud alpha edge-cloud auth`
+- `gcloud alpha edge-cloud auth print-identity-token`
+- `gcloud alpha edge-cloud container`
+- `gcloud alpha edge-cloud container clusters`
+- `gcloud alpha edge-cloud container clusters create`
+- `gcloud alpha edge-cloud container clusters delete`
+- `gcloud alpha edge-cloud container clusters describe`
+- `gcloud alpha edge-cloud container clusters get-credentials`
+- `gcloud alpha edge-cloud container clusters list`
+- `gcloud alpha edge-cloud container clusters node-pools`
+- `gcloud alpha edge-cloud container clusters node-pools create`
+- `gcloud alpha edge-cloud container clusters node-pools delete`
+- `gcloud alpha edge-cloud container clusters node-pools describe`
+- `gcloud alpha edge-cloud container clusters node-pools list`
+- `gcloud alpha edge-cloud container clusters node-pools update`
+- `gcloud alpha edge-cloud container clusters update`
+- `gcloud alpha edge-cloud container clusters upgrade`
+- `gcloud alpha edge-cloud container get-server-config`
+- `gcloud alpha edge-cloud container machines`
+- `gcloud alpha edge-cloud container machines describe`
+- `gcloud alpha edge-cloud container machines list`
+- `gcloud alpha edge-cloud container operations`
+- `gcloud alpha edge-cloud container operations describe`
+- `gcloud alpha edge-cloud container operations wait`
+- `gcloud alpha edge-cloud container regions`
+- `gcloud alpha edge-cloud container regions describe`
+- `gcloud alpha edge-cloud container regions list`
+- `gcloud alpha edge-cloud container vpn-connections`
+- `gcloud alpha edge-cloud container vpn-connections create`
+- `gcloud alpha edge-cloud container vpn-connections delete`
+- `gcloud alpha edge-cloud container vpn-connections describe`
+- `gcloud alpha edge-cloud container vpn-connections list`
+- `gcloud alpha edge-cloud container zones`
+- `gcloud alpha edge-cloud container zones describe`
+- `gcloud alpha edge-cloud container zones list`
+- `gcloud alpha edge-cloud identity-providers`
+- `gcloud alpha edge-cloud identity-providers create`
+- `gcloud alpha edge-cloud identity-providers delete`
+- `gcloud alpha edge-cloud identity-providers describe`
+- `gcloud alpha edge-cloud identity-providers list`
+- `gcloud alpha edge-cloud networking`
+- `gcloud alpha edge-cloud networking interconnects`
+- `gcloud alpha edge-cloud networking interconnects attachments`
+- `gcloud alpha edge-cloud networking interconnects attachments dedicated`
+- `gcloud alpha edge-cloud networking interconnects attachments dedicated create`
+- `gcloud alpha edge-cloud networking interconnects attachments delete`
+- `gcloud alpha edge-cloud networking interconnects attachments describe`
+- `gcloud alpha edge-cloud networking interconnects attachments list`
+- `gcloud alpha edge-cloud networking interconnects describe`
+- `gcloud alpha edge-cloud networking interconnects get-diagnostics`
+- `gcloud alpha edge-cloud networking interconnects list`
+- `gcloud alpha edge-cloud networking networks`
+- `gcloud alpha edge-cloud networking networks create`
+- `gcloud alpha edge-cloud networking networks delete`
+- `gcloud alpha edge-cloud networking networks describe`
+- `gcloud alpha edge-cloud networking networks get-status`
+- `gcloud alpha edge-cloud networking networks list`
+- `gcloud alpha edge-cloud networking operations`
+- `gcloud alpha edge-cloud networking operations describe`
+- `gcloud alpha edge-cloud networking operations wait`
+- `gcloud alpha edge-cloud networking routers`
+- `gcloud alpha edge-cloud networking routers add-bgp-peer`
+- `gcloud alpha edge-cloud networking routers add-interface`
+- `gcloud alpha edge-cloud networking routers create`
+- `gcloud alpha edge-cloud networking routers delete`
+- `gcloud alpha edge-cloud networking routers describe`
+- `gcloud alpha edge-cloud networking routers get-status`
+- `gcloud alpha edge-cloud networking routers list`
+- `gcloud alpha edge-cloud networking routers remove-bgp-peer`
+- `gcloud alpha edge-cloud networking routers remove-interface`
+- `gcloud alpha edge-cloud networking routers update`
+- `gcloud alpha edge-cloud networking subnets`
+- `gcloud alpha edge-cloud networking subnets create`
+- `gcloud alpha edge-cloud networking subnets delete`
+- `gcloud alpha edge-cloud networking subnets describe`
+- `gcloud alpha edge-cloud networking subnets list`
+- `gcloud alpha edge-cloud networking zones`
+- `gcloud alpha edge-cloud networking zones init`
+- `gcloud alpha edge-cloud projects`
+- `gcloud alpha edge-cloud projects describe`
+- `gcloud alpha edge-cloud projects disable`
+- `gcloud alpha edge-cloud projects enable`
+- `gcloud alpha edge-cloud projects list`
+- `gcloud alpha edge-cloud service-accounts`
+- `gcloud alpha edge-cloud service-accounts create`
+- `gcloud alpha edge-cloud service-accounts delete`
+- `gcloud alpha edge-cloud service-accounts describe`
+- `gcloud alpha edge-cloud service-accounts keys`
+- `gcloud alpha edge-cloud service-accounts keys create`
+- `gcloud alpha edge-cloud service-accounts keys describe`
+- `gcloud alpha edge-cloud service-accounts keys disable`
+- `gcloud alpha edge-cloud service-accounts keys list`
+- `gcloud alpha edge-cloud service-accounts list`
+- `gcloud alpha edge-cloud services`
+- `gcloud alpha edge-cloud services describe`
+- `gcloud alpha edge-cloud services disable`
+- `gcloud alpha edge-cloud services enable`
+- `gcloud alpha edge-cloud services list`
+- `gcloud alpha edge-cloud zones`
+- `gcloud alpha edge-cloud zones describe`
+- `gcloud alpha edge-cloud zones get-iam-policy`
+- `gcloud alpha edge-cloud zones list`
+- `gcloud alpha edge-cloud zones roles`
+- `gcloud alpha edge-cloud zones roles list`
+- `gcloud alpha edge-cloud zones set-iam-policy`
+
+## emulators
+
+- `gcloud alpha emulators`
+- `gcloud alpha emulators bigtable`
+- `gcloud alpha emulators bigtable env-init`
+- `gcloud alpha emulators bigtable start`
+- `gcloud alpha emulators datastore`
+- `gcloud alpha emulators datastore env-init`
+- `gcloud alpha emulators datastore env-unset`
+- `gcloud alpha emulators datastore start`
+- `gcloud alpha emulators firestore`
+- `gcloud alpha emulators firestore start`
+- `gcloud alpha emulators pubsub`
+- `gcloud alpha emulators pubsub env-init`
+- `gcloud alpha emulators pubsub start`
+- `gcloud alpha emulators spanner`
+- `gcloud alpha emulators spanner env-init`
+- `gcloud alpha emulators spanner notices`
+- `gcloud alpha emulators spanner start`
+
+## endpoints
+
+- `gcloud alpha endpoints`
+- `gcloud alpha endpoints configs`
+- `gcloud alpha endpoints configs describe`
+- `gcloud alpha endpoints configs list`
+- `gcloud alpha endpoints operations`
+- `gcloud alpha endpoints operations describe`
+- `gcloud alpha endpoints operations list`
+- `gcloud alpha endpoints operations wait`
+- `gcloud alpha endpoints quota`
+- `gcloud alpha endpoints quota create`
+- `gcloud alpha endpoints quota delete`
+- `gcloud alpha endpoints quota list`
+- `gcloud alpha endpoints quota update`
+- `gcloud alpha endpoints services`
+- `gcloud alpha endpoints services add-iam-policy-binding`
+- `gcloud alpha endpoints services check-iam-policy`
+- `gcloud alpha endpoints services delete`
+- `gcloud alpha endpoints services deploy`
+- `gcloud alpha endpoints services describe`
+- `gcloud alpha endpoints services get-iam-policy`
+- `gcloud alpha endpoints services list`
+- `gcloud alpha endpoints services remove-iam-policy-binding`
+- `gcloud alpha endpoints services undelete`
+
+## essential-contacts
+
+- `gcloud alpha essential-contacts`
+- `gcloud alpha essential-contacts compute`
+- `gcloud alpha essential-contacts create`
+- `gcloud alpha essential-contacts delete`
+- `gcloud alpha essential-contacts describe`
+- `gcloud alpha essential-contacts list`
+- `gcloud alpha essential-contacts update`
+
+## fault-testing
+
+- `gcloud alpha fault-testing`
+- `gcloud alpha fault-testing experiment-templates`
+- `gcloud alpha fault-testing experiment-templates create`
+- `gcloud alpha fault-testing experiment-templates delete`
+- `gcloud alpha fault-testing experiment-templates describe`
+- `gcloud alpha fault-testing experiment-templates list`
+- `gcloud alpha fault-testing experiment-templates update`
+- `gcloud alpha fault-testing experiments`
+- `gcloud alpha fault-testing experiments affected-resources`
+- `gcloud alpha fault-testing experiments affected-resources describe`
+- `gcloud alpha fault-testing experiments affected-resources list`
+- `gcloud alpha fault-testing experiments create`
+- `gcloud alpha fault-testing experiments delete`
+- `gcloud alpha fault-testing experiments describe`
+- `gcloud alpha fault-testing experiments list`
+- `gcloud alpha fault-testing experiments start`
+- `gcloud alpha fault-testing experiments stop`
+- `gcloud alpha fault-testing experiments stop-all`
+- `gcloud alpha fault-testing validations`
+- `gcloud alpha fault-testing validations create`
+- `gcloud alpha fault-testing validations delete`
+- `gcloud alpha fault-testing validations describe`
+- `gcloud alpha fault-testing validations list`
+- `gcloud alpha fault-testing validations validation-resources`
+- `gcloud alpha fault-testing validations validation-resources describe`
+- `gcloud alpha fault-testing validations validation-resources list`
+
+## filestore
+
+- `gcloud alpha filestore`
+- `gcloud alpha filestore backups`
+- `gcloud alpha filestore backups create`
+- `gcloud alpha filestore backups delete`
+- `gcloud alpha filestore backups describe`
+- `gcloud alpha filestore backups list`
+- `gcloud alpha filestore backups update`
+- `gcloud alpha filestore instances`
+- `gcloud alpha filestore instances create`
+- `gcloud alpha filestore instances delete`
+- `gcloud alpha filestore instances describe`
+- `gcloud alpha filestore instances list`
+- `gcloud alpha filestore instances restore`
+- `gcloud alpha filestore instances update`
+- `gcloud alpha filestore locations`
+- `gcloud alpha filestore locations describe`
+- `gcloud alpha filestore locations list`
+- `gcloud alpha filestore operations`
+- `gcloud alpha filestore operations cancel`
+- `gcloud alpha filestore operations describe`
+- `gcloud alpha filestore operations list`
+- `gcloud alpha filestore regions`
+- `gcloud alpha filestore regions list`
+- `gcloud alpha filestore snapshots`
+- `gcloud alpha filestore snapshots create`
+- `gcloud alpha filestore snapshots delete`
+- `gcloud alpha filestore snapshots describe`
+- `gcloud alpha filestore snapshots list`
+- `gcloud alpha filestore snapshots update`
+- `gcloud alpha filestore zones`
+- `gcloud alpha filestore zones list`
+
+## firebase
+
+- `gcloud alpha firebase`
+- `gcloud alpha firebase test`
+- `gcloud alpha firebase test android`
+- `gcloud alpha firebase test android list-device-capacities`
+- `gcloud alpha firebase test android locales`
+- `gcloud alpha firebase test android locales describe`
+- `gcloud alpha firebase test android locales list`
+- `gcloud alpha firebase test android models`
+- `gcloud alpha firebase test android models describe`
+- `gcloud alpha firebase test android models list`
+- `gcloud alpha firebase test android run`
+- `gcloud alpha firebase test android versions`
+- `gcloud alpha firebase test android versions describe`
+- `gcloud alpha firebase test android versions list`
+- `gcloud alpha firebase test ios`
+- `gcloud alpha firebase test ios list-device-capacities`
+- `gcloud alpha firebase test ios locales`
+- `gcloud alpha firebase test ios locales describe`
+- `gcloud alpha firebase test ios locales list`
+- `gcloud alpha firebase test ios models`
+- `gcloud alpha firebase test ios models describe`
+- `gcloud alpha firebase test ios models list`
+- `gcloud alpha firebase test ios run`
+- `gcloud alpha firebase test ios versions`
+- `gcloud alpha firebase test ios versions describe`
+- `gcloud alpha firebase test ios versions list`
+- `gcloud alpha firebase test ip-blocks`
+- `gcloud alpha firebase test ip-blocks list`
+- `gcloud alpha firebase test network-profiles`
+- `gcloud alpha firebase test network-profiles describe`
+- `gcloud alpha firebase test network-profiles list`
+
+## firebase-data-connect
+
+- `gcloud alpha firebase-data-connect`
+
+## firestore
+
+- `gcloud alpha firestore`
+- `gcloud alpha firestore backups`
+- `gcloud alpha firestore backups delete`
+- `gcloud alpha firestore backups describe`
+- `gcloud alpha firestore backups list`
+- `gcloud alpha firestore backups schedules`
+- `gcloud alpha firestore backups schedules create`
+- `gcloud alpha firestore backups schedules delete`
+- `gcloud alpha firestore backups schedules describe`
+- `gcloud alpha firestore backups schedules list`
+- `gcloud alpha firestore backups schedules update`
+- `gcloud alpha firestore bulk-delete`
+- `gcloud alpha firestore databases`
+- `gcloud alpha firestore databases clone`
+- `gcloud alpha firestore databases connection-string`
+- `gcloud alpha firestore databases create`
+- `gcloud alpha firestore databases delete`
+- `gcloud alpha firestore databases describe`
+- `gcloud alpha firestore databases list`
+- `gcloud alpha firestore databases ping`
+- `gcloud alpha firestore databases restore`
+- `gcloud alpha firestore databases update`
+- `gcloud alpha firestore export`
+- `gcloud alpha firestore fields`
+- `gcloud alpha firestore fields ttls`
+- `gcloud alpha firestore fields ttls list`
+- `gcloud alpha firestore fields ttls update`
+- `gcloud alpha firestore import`
+- `gcloud alpha firestore indexes`
+- `gcloud alpha firestore indexes composite`
+- `gcloud alpha firestore indexes composite create`
+- `gcloud alpha firestore indexes composite delete`
+- `gcloud alpha firestore indexes composite describe`
+- `gcloud alpha firestore indexes composite list`
+- `gcloud alpha firestore indexes fields`
+- `gcloud alpha firestore indexes fields describe`
+- `gcloud alpha firestore indexes fields list`
+- `gcloud alpha firestore indexes fields update`
+- `gcloud alpha firestore locations`
+- `gcloud alpha firestore locations describe`
+- `gcloud alpha firestore locations list`
+- `gcloud alpha firestore operations`
+- `gcloud alpha firestore operations cancel`
+- `gcloud alpha firestore operations delete`
+- `gcloud alpha firestore operations describe`
+- `gcloud alpha firestore operations list`
+- `gcloud alpha firestore operations wait`
+- `gcloud alpha firestore user-creds`
+- `gcloud alpha firestore user-creds create`
+- `gcloud alpha firestore user-creds delete`
+- `gcloud alpha firestore user-creds describe`
+- `gcloud alpha firestore user-creds disable`
+- `gcloud alpha firestore user-creds enable`
+- `gcloud alpha firestore user-creds list`
+- `gcloud alpha firestore user-creds reset-password`
+
+## functions
+
+- `gcloud alpha functions`
+- `gcloud alpha functions add-iam-policy-binding`
+- `gcloud alpha functions add-invoker-policy-binding`
+- `gcloud alpha functions call`
+- `gcloud alpha functions delete`
+- `gcloud alpha functions deploy`
+- `gcloud alpha functions describe`
+- `gcloud alpha functions detach`
+- `gcloud alpha functions event-types`
+- `gcloud alpha functions event-types list`
+- `gcloud alpha functions get-iam-policy`
+- `gcloud alpha functions list`
+- `gcloud alpha functions local`
+- `gcloud alpha functions local call`
+- `gcloud alpha functions local delete`
+- `gcloud alpha functions local deploy`
+- `gcloud alpha functions logs`
+- `gcloud alpha functions logs read`
+- `gcloud alpha functions regions`
+- `gcloud alpha functions regions list`
+- `gcloud alpha functions remove-iam-policy-binding`
+- `gcloud alpha functions remove-invoker-policy-binding`
+- `gcloud alpha functions runtimes`
+- `gcloud alpha functions runtimes list`
+- `gcloud alpha functions set-iam-policy`
+- `gcloud alpha functions upgrade`
+
+## genomics
+
+- `gcloud alpha genomics`
+- `gcloud alpha genomics operations`
+- `gcloud alpha genomics operations cancel`
+- `gcloud alpha genomics operations describe`
+- `gcloud alpha genomics operations list`
+- `gcloud alpha genomics operations wait`
+- `gcloud alpha genomics pipelines`
+- `gcloud alpha genomics pipelines run`
+
+## healthcare
+
+- `gcloud alpha healthcare`
+- `gcloud alpha healthcare consent-stores`
+- `gcloud alpha healthcare consent-stores add-iam-policy-binding`
+- `gcloud alpha healthcare consent-stores check-data-access`
+- `gcloud alpha healthcare consent-stores create`
+- `gcloud alpha healthcare consent-stores delete`
+- `gcloud alpha healthcare consent-stores describe`
+- `gcloud alpha healthcare consent-stores evaluate-user-consents`
+- `gcloud alpha healthcare consent-stores get-iam-policy`
+- `gcloud alpha healthcare consent-stores list`
+- `gcloud alpha healthcare consent-stores query-accessible-data`
+- `gcloud alpha healthcare consent-stores remove-iam-policy-binding`
+- `gcloud alpha healthcare consent-stores set-iam-policy`
+- `gcloud alpha healthcare consent-stores update`
+- `gcloud alpha healthcare datasets`
+- `gcloud alpha healthcare datasets add-iam-policy-binding`
+- `gcloud alpha healthcare datasets create`
+- `gcloud alpha healthcare datasets deidentify`
+- `gcloud alpha healthcare datasets delete`
+- `gcloud alpha healthcare datasets describe`
+- `gcloud alpha healthcare datasets get-iam-policy`
+- `gcloud alpha healthcare datasets list`
+- `gcloud alpha healthcare datasets remove-iam-policy-binding`
+- `gcloud alpha healthcare datasets set-iam-policy`
+- `gcloud alpha healthcare datasets update`
+- `gcloud alpha healthcare dicom-stores`
+- `gcloud alpha healthcare dicom-stores add-iam-policy-binding`
+- `gcloud alpha healthcare dicom-stores create`
+- `gcloud alpha healthcare dicom-stores deidentify`
+- `gcloud alpha healthcare dicom-stores delete`
+- `gcloud alpha healthcare dicom-stores describe`
+- `gcloud alpha healthcare dicom-stores export`
+- `gcloud alpha healthcare dicom-stores export bq`
+- `gcloud alpha healthcare dicom-stores export gcs`
+- `gcloud alpha healthcare dicom-stores get-iam-policy`
+- `gcloud alpha healthcare dicom-stores import`
+- `gcloud alpha healthcare dicom-stores import gcs`
+- `gcloud alpha healthcare dicom-stores list`
+- `gcloud alpha healthcare dicom-stores metrics`
+- `gcloud alpha healthcare dicom-stores remove-iam-policy-binding`
+- `gcloud alpha healthcare dicom-stores set-iam-policy`
+- `gcloud alpha healthcare dicom-stores update`
+- `gcloud alpha healthcare fhir-stores`
+- `gcloud alpha healthcare fhir-stores add-iam-policy-binding`
+- `gcloud alpha healthcare fhir-stores create`
+- `gcloud alpha healthcare fhir-stores deidentify`
+- `gcloud alpha healthcare fhir-stores delete`
+- `gcloud alpha healthcare fhir-stores describe`
+- `gcloud alpha healthcare fhir-stores export`
+- `gcloud alpha healthcare fhir-stores export bq`
+- `gcloud alpha healthcare fhir-stores export gcs`
+- `gcloud alpha healthcare fhir-stores get-iam-policy`
+- `gcloud alpha healthcare fhir-stores import`
+- `gcloud alpha healthcare fhir-stores import gcs`
+- `gcloud alpha healthcare fhir-stores list`
+- `gcloud alpha healthcare fhir-stores metrics`
+- `gcloud alpha healthcare fhir-stores remove-iam-policy-binding`
+- `gcloud alpha healthcare fhir-stores set-iam-policy`
+- `gcloud alpha healthcare fhir-stores update`
+- `gcloud alpha healthcare hl7v2-stores`
+- `gcloud alpha healthcare hl7v2-stores add-iam-policy-binding`
+- `gcloud alpha healthcare hl7v2-stores create`
+- `gcloud alpha healthcare hl7v2-stores delete`
+- `gcloud alpha healthcare hl7v2-stores describe`
+- `gcloud alpha healthcare hl7v2-stores export`
+- `gcloud alpha healthcare hl7v2-stores export gcs`
+- `gcloud alpha healthcare hl7v2-stores get-iam-policy`
+- `gcloud alpha healthcare hl7v2-stores import`
+- `gcloud alpha healthcare hl7v2-stores import gcs`
+- `gcloud alpha healthcare hl7v2-stores list`
+- `gcloud alpha healthcare hl7v2-stores metrics`
+- `gcloud alpha healthcare hl7v2-stores remove-iam-policy-binding`
+- `gcloud alpha healthcare hl7v2-stores set-iam-policy`
+- `gcloud alpha healthcare hl7v2-stores update`
+- `gcloud alpha healthcare nlp`
+- `gcloud alpha healthcare nlp analyze-entities`
+- `gcloud alpha healthcare operations`
+- `gcloud alpha healthcare operations cancel`
+- `gcloud alpha healthcare operations describe`
+- `gcloud alpha healthcare operations list`
+
+## help
+
+- `gcloud alpha help`
+
+## iam
+
+- `gcloud alpha iam`
+- `gcloud alpha iam list-grantable-roles`
+- `gcloud alpha iam list-testable-permissions`
+- `gcloud alpha iam oauth-clients`
+- `gcloud alpha iam oauth-clients create`
+- `gcloud alpha iam oauth-clients credentials`
+- `gcloud alpha iam oauth-clients credentials create`
+- `gcloud alpha iam oauth-clients credentials delete`
+- `gcloud alpha iam oauth-clients credentials describe`
+- `gcloud alpha iam oauth-clients credentials list`
+- `gcloud alpha iam oauth-clients credentials update`
+- `gcloud alpha iam oauth-clients delete`
+- `gcloud alpha iam oauth-clients describe`
+- `gcloud alpha iam oauth-clients list`
+- `gcloud alpha iam oauth-clients undelete`
+- `gcloud alpha iam oauth-clients update`
+- `gcloud alpha iam policies`
+- `gcloud alpha iam policies create`
+- `gcloud alpha iam policies delete`
+- `gcloud alpha iam policies get`
+- `gcloud alpha iam policies lint-condition`
+- `gcloud alpha iam policies list`
+- `gcloud alpha iam policies update`
+- `gcloud alpha iam roles`
+- `gcloud alpha iam roles copy`
+- `gcloud alpha iam roles create`
+- `gcloud alpha iam roles delete`
+- `gcloud alpha iam roles describe`
+- `gcloud alpha iam roles list`
+- `gcloud alpha iam roles undelete`
+- `gcloud alpha iam roles update`
+- `gcloud alpha iam service-accounts`
+- `gcloud alpha iam service-accounts add-iam-policy-binding`
+- `gcloud alpha iam service-accounts config`
+- `gcloud alpha iam service-accounts config export`
+- `gcloud alpha iam service-accounts create`
+- `gcloud alpha iam service-accounts delete`
+- `gcloud alpha iam service-accounts describe`
+- `gcloud alpha iam service-accounts disable`
+- `gcloud alpha iam service-accounts enable`
+- `gcloud alpha iam service-accounts get-iam-policy`
+- `gcloud alpha iam service-accounts keys`
+- `gcloud alpha iam service-accounts keys config`
+- `gcloud alpha iam service-accounts keys config export`
+- `gcloud alpha iam service-accounts keys create`
+- `gcloud alpha iam service-accounts keys delete`
+- `gcloud alpha iam service-accounts keys disable`
+- `gcloud alpha iam service-accounts keys enable`
+- `gcloud alpha iam service-accounts keys get-public-key`
+- `gcloud alpha iam service-accounts keys list`
+- `gcloud alpha iam service-accounts keys upload`
+- `gcloud alpha iam service-accounts list`
+- `gcloud alpha iam service-accounts remove-iam-policy-binding`
+- `gcloud alpha iam service-accounts set-iam-policy`
+- `gcloud alpha iam service-accounts sign-blob`
+- `gcloud alpha iam service-accounts sign-jwt`
+- `gcloud alpha iam service-accounts undelete`
+- `gcloud alpha iam service-accounts update`
+- `gcloud alpha iam workforce-pools`
+- `gcloud alpha iam workforce-pools create`
+- `gcloud alpha iam workforce-pools create-cred-config`
+- `gcloud alpha iam workforce-pools create-login-config`
+- `gcloud alpha iam workforce-pools delete`
+- `gcloud alpha iam workforce-pools describe`
+- `gcloud alpha iam workforce-pools list`
+- `gcloud alpha iam workforce-pools operations`
+- `gcloud alpha iam workforce-pools operations describe`
+- `gcloud alpha iam workforce-pools providers`
+- `gcloud alpha iam workforce-pools providers create-oidc`
+- `gcloud alpha iam workforce-pools providers delete`
+- `gcloud alpha iam workforce-pools providers describe`
+- `gcloud alpha iam workforce-pools providers keys`
+- `gcloud alpha iam workforce-pools providers keys create`
+- `gcloud alpha iam workforce-pools providers keys delete`
+- `gcloud alpha iam workforce-pools providers keys describe`
+- `gcloud alpha iam workforce-pools providers keys list`
+- `gcloud alpha iam workforce-pools providers keys operations`
+- `gcloud alpha iam workforce-pools providers keys operations describe`
+- `gcloud alpha iam workforce-pools providers keys undelete`
+- `gcloud alpha iam workforce-pools providers list`
+- `gcloud alpha iam workforce-pools providers operations`
+- `gcloud alpha iam workforce-pools providers operations describe`
+- `gcloud alpha iam workforce-pools providers scim-tenants`
+- `gcloud alpha iam workforce-pools providers scim-tenants create`
+- `gcloud alpha iam workforce-pools providers scim-tenants delete`
+- `gcloud alpha iam workforce-pools providers scim-tenants describe`
+- `gcloud alpha iam workforce-pools providers scim-tenants list`
+- `gcloud alpha iam workforce-pools providers scim-tenants tokens`
+- `gcloud alpha iam workforce-pools providers scim-tenants tokens create`
+- `gcloud alpha iam workforce-pools providers scim-tenants tokens delete`
+- `gcloud alpha iam workforce-pools providers scim-tenants tokens describe`
+- `gcloud alpha iam workforce-pools providers scim-tenants tokens list`
+- `gcloud alpha iam workforce-pools providers scim-tenants tokens update`
+- `gcloud alpha iam workforce-pools providers scim-tenants undelete`
+- `gcloud alpha iam workforce-pools providers scim-tenants update`
+- `gcloud alpha iam workforce-pools providers undelete`
+- `gcloud alpha iam workforce-pools providers update-oidc`
+- `gcloud alpha iam workforce-pools undelete`
+- `gcloud alpha iam workforce-pools update`
+- `gcloud alpha iam workload-identity-pools`
+- `gcloud alpha iam workload-identity-pools create`
+- `gcloud alpha iam workload-identity-pools create-cred-config`
+- `gcloud alpha iam workload-identity-pools delete`
+- `gcloud alpha iam workload-identity-pools describe`
+- `gcloud alpha iam workload-identity-pools list`
+- `gcloud alpha iam workload-identity-pools operations`
+- `gcloud alpha iam workload-identity-pools operations describe`
+- `gcloud alpha iam workload-identity-pools providers`
+- `gcloud alpha iam workload-identity-pools providers create-aws`
+- `gcloud alpha iam workload-identity-pools providers create-oidc`
+- `gcloud alpha iam workload-identity-pools providers delete`
+- `gcloud alpha iam workload-identity-pools providers describe`
+- `gcloud alpha iam workload-identity-pools providers list`
+- `gcloud alpha iam workload-identity-pools providers operations`
+- `gcloud alpha iam workload-identity-pools providers operations describe`
+- `gcloud alpha iam workload-identity-pools providers undelete`
+- `gcloud alpha iam workload-identity-pools providers update-aws`
+- `gcloud alpha iam workload-identity-pools providers update-oidc`
+- `gcloud alpha iam workload-identity-pools undelete`
+- `gcloud alpha iam workload-identity-pools update`
+
+## iap
+
+- `gcloud alpha iap`
+- `gcloud alpha iap oauth-brands`
+- `gcloud alpha iap oauth-brands create`
+- `gcloud alpha iap oauth-brands describe`
+- `gcloud alpha iap oauth-brands list`
+- `gcloud alpha iap oauth-clients`
+- `gcloud alpha iap oauth-clients create`
+- `gcloud alpha iap oauth-clients delete`
+- `gcloud alpha iap oauth-clients describe`
+- `gcloud alpha iap oauth-clients list`
+- `gcloud alpha iap oauth-clients reset-secret`
+- `gcloud alpha iap settings`
+- `gcloud alpha iap settings get`
+- `gcloud alpha iap settings set`
+- `gcloud alpha iap tcp`
+- `gcloud alpha iap tcp dest-groups`
+- `gcloud alpha iap tcp dest-groups add-iam-policy-binding`
+- `gcloud alpha iap tcp dest-groups create`
+- `gcloud alpha iap tcp dest-groups delete`
+- `gcloud alpha iap tcp dest-groups describe`
+- `gcloud alpha iap tcp dest-groups get-iam-policy`
+- `gcloud alpha iap tcp dest-groups list`
+- `gcloud alpha iap tcp dest-groups remove-iam-policy-binding`
+- `gcloud alpha iap tcp dest-groups set-iam-policy`
+- `gcloud alpha iap tcp dest-groups update`
+- `gcloud alpha iap web`
+- `gcloud alpha iap web add-iam-policy-binding`
+- `gcloud alpha iap web disable`
+- `gcloud alpha iap web enable`
+- `gcloud alpha iap web get-iam-policy`
+- `gcloud alpha iap web remove-iam-policy-binding`
+- `gcloud alpha iap web set-iam-policy`
+
+## identity
+
+- `gcloud alpha identity`
+- `gcloud alpha identity groups`
+- `gcloud alpha identity groups config`
+- `gcloud alpha identity groups config export`
+- `gcloud alpha identity groups create`
+- `gcloud alpha identity groups delete`
+- `gcloud alpha identity groups describe`
+- `gcloud alpha identity groups memberships`
+- `gcloud alpha identity groups memberships add`
+- `gcloud alpha identity groups memberships check-transitive-membership`
+- `gcloud alpha identity groups memberships delete`
+- `gcloud alpha identity groups memberships describe`
+- `gcloud alpha identity groups memberships get-membership-graph`
+- `gcloud alpha identity groups memberships list`
+- `gcloud alpha identity groups memberships modify-membership-roles`
+- `gcloud alpha identity groups memberships search-transitive-groups`
+- `gcloud alpha identity groups memberships search-transitive-memberships`
+- `gcloud alpha identity groups preview`
+- `gcloud alpha identity groups search`
+- `gcloud alpha identity groups update`
+
+## ids
+
+- `gcloud alpha ids`
+- `gcloud alpha ids endpoints`
+- `gcloud alpha ids endpoints create`
+- `gcloud alpha ids endpoints delete`
+- `gcloud alpha ids endpoints describe`
+- `gcloud alpha ids endpoints list`
+- `gcloud alpha ids endpoints update`
+- `gcloud alpha ids operations`
+- `gcloud alpha ids operations cancel`
+- `gcloud alpha ids operations describe`
+- `gcloud alpha ids operations list`
+- `gcloud alpha ids operations wait`
+
+## init
+
+- `gcloud alpha init`
+
+## interactive
+
+- `gcloud alpha interactive`
+
+## kms
+
+- `gcloud alpha kms`
+- `gcloud alpha kms asymmetric-decrypt`
+- `gcloud alpha kms asymmetric-sign`
+- `gcloud alpha kms autokey-config`
+- `gcloud alpha kms autokey-config describe`
+- `gcloud alpha kms autokey-config show-effective-config`
+- `gcloud alpha kms autokey-config update`
+- `gcloud alpha kms decapsulate`
+- `gcloud alpha kms decrypt`
+- `gcloud alpha kms ekm-config`
+- `gcloud alpha kms ekm-config add-iam-policy-binding`
+- `gcloud alpha kms ekm-config describe`
+- `gcloud alpha kms ekm-config get-iam-policy`
+- `gcloud alpha kms ekm-config remove-iam-policy-binding`
+- `gcloud alpha kms ekm-config set-iam-policy`
+- `gcloud alpha kms ekm-config update`
+- `gcloud alpha kms ekm-connections`
+- `gcloud alpha kms ekm-connections add-iam-policy-binding`
+- `gcloud alpha kms ekm-connections create`
+- `gcloud alpha kms ekm-connections describe`
+- `gcloud alpha kms ekm-connections get-iam-policy`
+- `gcloud alpha kms ekm-connections list`
+- `gcloud alpha kms ekm-connections remove-iam-policy-binding`
+- `gcloud alpha kms ekm-connections set-iam-policy`
+- `gcloud alpha kms ekm-connections update`
+- `gcloud alpha kms encrypt`
+- `gcloud alpha kms import-jobs`
+- `gcloud alpha kms import-jobs add-iam-policy-binding`
+- `gcloud alpha kms import-jobs create`
+- `gcloud alpha kms import-jobs describe`
+- `gcloud alpha kms import-jobs get-iam-policy`
+- `gcloud alpha kms import-jobs list`
+- `gcloud alpha kms import-jobs remove-iam-policy-binding`
+- `gcloud alpha kms import-jobs set-iam-policy`
+- `gcloud alpha kms inventory`
+- `gcloud alpha kms inventory get-protected-resources-summary`
+- `gcloud alpha kms inventory list-keys`
+- `gcloud alpha kms inventory search-protected-resources`
+- `gcloud alpha kms kaj-config`
+- `gcloud alpha kms kaj-config describe`
+- `gcloud alpha kms kaj-config show-effective-config`
+- `gcloud alpha kms kaj-config update`
+- `gcloud alpha kms kaj-enrollment`
+- `gcloud alpha kms kaj-enrollment show-effective-config`
+- `gcloud alpha kms key-handles`
+- `gcloud alpha kms key-handles create`
+- `gcloud alpha kms key-handles describe`
+- `gcloud alpha kms key-handles list`
+- `gcloud alpha kms keyrings`
+- `gcloud alpha kms keyrings add-iam-policy-binding`
+- `gcloud alpha kms keyrings config`
+- `gcloud alpha kms keyrings config export`
+- `gcloud alpha kms keyrings create`
+- `gcloud alpha kms keyrings describe`
+- `gcloud alpha kms keyrings get-iam-policy`
+- `gcloud alpha kms keyrings list`
+- `gcloud alpha kms keyrings remove-iam-policy-binding`
+- `gcloud alpha kms keyrings set-iam-policy`
+- `gcloud alpha kms keys`
+- `gcloud alpha kms keys add-iam-policy-binding`
+- `gcloud alpha kms keys config`
+- `gcloud alpha kms keys config export`
+- `gcloud alpha kms keys create`
+- `gcloud alpha kms keys delete`
+- `gcloud alpha kms keys describe`
+- `gcloud alpha kms keys get-iam-policy`
+- `gcloud alpha kms keys list`
+- `gcloud alpha kms keys remove-iam-policy-binding`
+- `gcloud alpha kms keys remove-rotation-schedule`
+- `gcloud alpha kms keys set-iam-policy`
+- `gcloud alpha kms keys set-primary-version`
+- `gcloud alpha kms keys set-rotation-schedule`
+- `gcloud alpha kms keys update`
+- `gcloud alpha kms keys versions`
+- `gcloud alpha kms keys versions create`
+- `gcloud alpha kms keys versions delete`
+- `gcloud alpha kms keys versions describe`
+- `gcloud alpha kms keys versions destroy`
+- `gcloud alpha kms keys versions disable`
+- `gcloud alpha kms keys versions enable`
+- `gcloud alpha kms keys versions get-certificate-chain`
+- `gcloud alpha kms keys versions get-public-key`
+- `gcloud alpha kms keys versions import`
+- `gcloud alpha kms keys versions list`
+- `gcloud alpha kms keys versions restore`
+- `gcloud alpha kms keys versions update`
+- `gcloud alpha kms locations`
+- `gcloud alpha kms locations list`
+- `gcloud alpha kms mac-sign`
+- `gcloud alpha kms mac-verify`
+- `gcloud alpha kms operations`
+- `gcloud alpha kms operations describe`
+- `gcloud alpha kms raw-decrypt`
+- `gcloud alpha kms raw-encrypt`
+- `gcloud alpha kms retired-resources`
+- `gcloud alpha kms retired-resources describe`
+- `gcloud alpha kms retired-resources list`
+- `gcloud alpha kms single-tenant-hsm`
+- `gcloud alpha kms single-tenant-hsm create`
+- `gcloud alpha kms single-tenant-hsm describe`
+- `gcloud alpha kms single-tenant-hsm list`
+- `gcloud alpha kms single-tenant-hsm proposal`
+- `gcloud alpha kms single-tenant-hsm proposal approve`
+- `gcloud alpha kms single-tenant-hsm proposal create`
+- `gcloud alpha kms single-tenant-hsm proposal delete`
+- `gcloud alpha kms single-tenant-hsm proposal describe`
+- `gcloud alpha kms single-tenant-hsm proposal execute`
+- `gcloud alpha kms single-tenant-hsm proposal list`
+
+## logging
+
+- `gcloud alpha logging`
+- `gcloud alpha logging buckets`
+- `gcloud alpha logging buckets create`
+- `gcloud alpha logging buckets delete`
+- `gcloud alpha logging buckets describe`
+- `gcloud alpha logging buckets list`
+- `gcloud alpha logging buckets undelete`
+- `gcloud alpha logging buckets update`
+- `gcloud alpha logging copy`
+- `gcloud alpha logging links`
+- `gcloud alpha logging links create`
+- `gcloud alpha logging links delete`
+- `gcloud alpha logging links describe`
+- `gcloud alpha logging links list`
+- `gcloud alpha logging locations`
+- `gcloud alpha logging locations describe`
+- `gcloud alpha logging locations list`
+- `gcloud alpha logging logs`
+- `gcloud alpha logging logs delete`
+- `gcloud alpha logging logs list`
+- `gcloud alpha logging metrics`
+- `gcloud alpha logging metrics create`
+- `gcloud alpha logging metrics delete`
+- `gcloud alpha logging metrics describe`
+- `gcloud alpha logging metrics list`
+- `gcloud alpha logging metrics update`
+- `gcloud alpha logging operations`
+- `gcloud alpha logging operations cancel`
+- `gcloud alpha logging operations describe`
+- `gcloud alpha logging operations list`
+- `gcloud alpha logging read`
+- `gcloud alpha logging resource-descriptors`
+- `gcloud alpha logging resource-descriptors list`
+- `gcloud alpha logging settings`
+- `gcloud alpha logging settings describe`
+- `gcloud alpha logging settings update`
+- `gcloud alpha logging sinks`
+- `gcloud alpha logging sinks create`
+- `gcloud alpha logging sinks delete`
+- `gcloud alpha logging sinks describe`
+- `gcloud alpha logging sinks list`
+- `gcloud alpha logging sinks update`
+- `gcloud alpha logging tail`
+- `gcloud alpha logging views`
+- `gcloud alpha logging views create`
+- `gcloud alpha logging views delete`
+- `gcloud alpha logging views describe`
+- `gcloud alpha logging views list`
+- `gcloud alpha logging views update`
+- `gcloud alpha logging write`
+
+## looker
+
+- `gcloud alpha looker`
+- `gcloud alpha looker backups`
+- `gcloud alpha looker backups create`
+- `gcloud alpha looker backups delete`
+- `gcloud alpha looker backups describe`
+- `gcloud alpha looker backups list`
+- `gcloud alpha looker instances`
+- `gcloud alpha looker instances create`
+- `gcloud alpha looker instances delete`
+- `gcloud alpha looker instances describe`
+- `gcloud alpha looker instances export`
+- `gcloud alpha looker instances import`
+- `gcloud alpha looker instances list`
+- `gcloud alpha looker instances restart`
+- `gcloud alpha looker instances restore`
+- `gcloud alpha looker instances update`
+- `gcloud alpha looker operations`
+- `gcloud alpha looker operations cancel`
+- `gcloud alpha looker operations describe`
+- `gcloud alpha looker operations list`
+- `gcloud alpha looker regions`
+- `gcloud alpha looker regions list`
+
+## lustre
+
+- `gcloud alpha lustre`
+- `gcloud alpha lustre instances`
+- `gcloud alpha lustre instances create`
+- `gcloud alpha lustre instances delete`
+- `gcloud alpha lustre instances describe`
+- `gcloud alpha lustre instances export-data`
+- `gcloud alpha lustre instances import-data`
+- `gcloud alpha lustre instances list`
+- `gcloud alpha lustre instances reschedule-maintenance`
+- `gcloud alpha lustre instances update`
+- `gcloud alpha lustre operations`
+- `gcloud alpha lustre operations cancel`
+- `gcloud alpha lustre operations delete`
+- `gcloud alpha lustre operations describe`
+- `gcloud alpha lustre operations list`
+- `gcloud alpha lustre operations wait`
+
+## managed-flink
+
+- `gcloud alpha managed-flink`
+- `gcloud alpha managed-flink deployments`
+- `gcloud alpha managed-flink deployments create`
+- `gcloud alpha managed-flink deployments delete`
+- `gcloud alpha managed-flink deployments describe`
+- `gcloud alpha managed-flink deployments list`
+- `gcloud alpha managed-flink deployments update`
+- `gcloud alpha managed-flink jobs`
+- `gcloud alpha managed-flink jobs create`
+- `gcloud alpha managed-flink jobs delete`
+- `gcloud alpha managed-flink jobs describe`
+- `gcloud alpha managed-flink jobs list`
+- `gcloud alpha managed-flink jobs update`
+
+## managed-kafka
+
+- `gcloud alpha managed-kafka`
+- `gcloud alpha managed-kafka acls`
+- `gcloud alpha managed-kafka acls add-acl-entry`
+- `gcloud alpha managed-kafka acls create`
+- `gcloud alpha managed-kafka acls delete`
+- `gcloud alpha managed-kafka acls describe`
+- `gcloud alpha managed-kafka acls list`
+- `gcloud alpha managed-kafka acls remove-acl-entry`
+- `gcloud alpha managed-kafka acls update`
+- `gcloud alpha managed-kafka clusters`
+- `gcloud alpha managed-kafka clusters create`
+- `gcloud alpha managed-kafka clusters delete`
+- `gcloud alpha managed-kafka clusters describe`
+- `gcloud alpha managed-kafka clusters list`
+- `gcloud alpha managed-kafka clusters update`
+- `gcloud alpha managed-kafka connect-clusters`
+- `gcloud alpha managed-kafka connect-clusters create`
+- `gcloud alpha managed-kafka connect-clusters delete`
+- `gcloud alpha managed-kafka connect-clusters describe`
+- `gcloud alpha managed-kafka connect-clusters list`
+- `gcloud alpha managed-kafka connect-clusters update`
+- `gcloud alpha managed-kafka connectors`
+- `gcloud alpha managed-kafka connectors create`
+- `gcloud alpha managed-kafka connectors delete`
+- `gcloud alpha managed-kafka connectors describe`
+- `gcloud alpha managed-kafka connectors list`
+- `gcloud alpha managed-kafka connectors pause`
+- `gcloud alpha managed-kafka connectors restart`
+- `gcloud alpha managed-kafka connectors resume`
+- `gcloud alpha managed-kafka connectors stop`
+- `gcloud alpha managed-kafka connectors update`
+- `gcloud alpha managed-kafka consumer-groups`
+- `gcloud alpha managed-kafka consumer-groups delete`
+- `gcloud alpha managed-kafka consumer-groups describe`
+- `gcloud alpha managed-kafka consumer-groups list`
+- `gcloud alpha managed-kafka consumer-groups update`
+- `gcloud alpha managed-kafka operations`
+- `gcloud alpha managed-kafka operations describe`
+- `gcloud alpha managed-kafka operations list`
+- `gcloud alpha managed-kafka schema-registries`
+- `gcloud alpha managed-kafka schema-registries create`
+- `gcloud alpha managed-kafka schema-registries delete`
+- `gcloud alpha managed-kafka schema-registries describe`
+- `gcloud alpha managed-kafka schema-registries list`
+- `gcloud alpha managed-kafka schema-registries subjects`
+- `gcloud alpha managed-kafka schema-registries subjects describe`
+- `gcloud alpha managed-kafka schema-registries subjects update`
+- `gcloud alpha managed-kafka schema-registries update`
+- `gcloud alpha managed-kafka topics`
+- `gcloud alpha managed-kafka topics create`
+- `gcloud alpha managed-kafka topics delete`
+- `gcloud alpha managed-kafka topics describe`
+- `gcloud alpha managed-kafka topics list`
+- `gcloud alpha managed-kafka topics update`
+
+## media
+
+- `gcloud alpha media`
+
+## memcache
+
+- `gcloud alpha memcache`
+- `gcloud alpha memcache instances`
+- `gcloud alpha memcache instances apply-parameters`
+- `gcloud alpha memcache instances apply-software-update`
+- `gcloud alpha memcache instances config`
+- `gcloud alpha memcache instances config export`
+- `gcloud alpha memcache instances create`
+- `gcloud alpha memcache instances delete`
+- `gcloud alpha memcache instances describe`
+- `gcloud alpha memcache instances list`
+- `gcloud alpha memcache instances reschedule-maintenance`
+- `gcloud alpha memcache instances update`
+- `gcloud alpha memcache instances upgrade`
+- `gcloud alpha memcache operations`
+- `gcloud alpha memcache operations delete`
+- `gcloud alpha memcache operations describe`
+- `gcloud alpha memcache operations list`
+- `gcloud alpha memcache regions`
+- `gcloud alpha memcache regions describe`
+- `gcloud alpha memcache regions list`
+
+## memorystore
+
+- `gcloud alpha memorystore`
+- `gcloud alpha memorystore acl-policies`
+- `gcloud alpha memorystore acl-policies create`
+- `gcloud alpha memorystore acl-policies delete`
+- `gcloud alpha memorystore acl-policies describe`
+- `gcloud alpha memorystore acl-policies list`
+- `gcloud alpha memorystore acl-policies update`
+- `gcloud alpha memorystore backup-collections`
+- `gcloud alpha memorystore backup-collections backups`
+- `gcloud alpha memorystore backup-collections backups delete`
+- `gcloud alpha memorystore backup-collections backups describe`
+- `gcloud alpha memorystore backup-collections backups export`
+- `gcloud alpha memorystore backup-collections backups list`
+- `gcloud alpha memorystore backup-collections describe`
+- `gcloud alpha memorystore backup-collections list`
+- `gcloud alpha memorystore instances`
+- `gcloud alpha memorystore instances backup`
+- `gcloud alpha memorystore instances create`
+- `gcloud alpha memorystore instances create-token-auth-user`
+- `gcloud alpha memorystore instances delete`
+- `gcloud alpha memorystore instances describe`
+- `gcloud alpha memorystore instances finish-migration`
+- `gcloud alpha memorystore instances get-certificate-authority`
+- `gcloud alpha memorystore instances get-shared-regional-certificate-authority`
+- `gcloud alpha memorystore instances list`
+- `gcloud alpha memorystore instances reschedule-maintenance`
+- `gcloud alpha memorystore instances start-migration`
+- `gcloud alpha memorystore instances token-auth-users`
+- `gcloud alpha memorystore instances token-auth-users auth-tokens`
+- `gcloud alpha memorystore instances token-auth-users auth-tokens delete`
+- `gcloud alpha memorystore instances token-auth-users auth-tokens describe`
+- `gcloud alpha memorystore instances token-auth-users auth-tokens list`
+- `gcloud alpha memorystore instances token-auth-users create-auth-token`
+- `gcloud alpha memorystore instances token-auth-users delete`
+- `gcloud alpha memorystore instances token-auth-users describe`
+- `gcloud alpha memorystore instances token-auth-users list`
+- `gcloud alpha memorystore instances update`
+- `gcloud alpha memorystore locations`
+- `gcloud alpha memorystore locations describe`
+- `gcloud alpha memorystore locations list`
+- `gcloud alpha memorystore operations`
+- `gcloud alpha memorystore operations cancel`
+- `gcloud alpha memorystore operations delete`
+- `gcloud alpha memorystore operations describe`
+- `gcloud alpha memorystore operations list`
+
+## metastore
+
+- `gcloud alpha metastore`
+- `gcloud alpha metastore federations`
+- `gcloud alpha metastore federations add-iam-policy-binding`
+- `gcloud alpha metastore federations create`
+- `gcloud alpha metastore federations delete`
+- `gcloud alpha metastore federations describe`
+- `gcloud alpha metastore federations get-iam-policy`
+- `gcloud alpha metastore federations list`
+- `gcloud alpha metastore federations remove-iam-policy-binding`
+- `gcloud alpha metastore federations set-iam-policy`
+- `gcloud alpha metastore federations update`
+- `gcloud alpha metastore locations`
+- `gcloud alpha metastore locations describe`
+- `gcloud alpha metastore locations list`
+- `gcloud alpha metastore operations`
+- `gcloud alpha metastore operations cancel`
+- `gcloud alpha metastore operations delete`
+- `gcloud alpha metastore operations describe`
+- `gcloud alpha metastore operations list`
+- `gcloud alpha metastore operations wait`
+- `gcloud alpha metastore services`
+- `gcloud alpha metastore services add-iam-policy-binding`
+- `gcloud alpha metastore services alter-metadata-resource-location`
+- `gcloud alpha metastore services alter-table-properties`
+- `gcloud alpha metastore services backups`
+- `gcloud alpha metastore services backups add-iam-policy-binding`
+- `gcloud alpha metastore services backups create`
+- `gcloud alpha metastore services backups delete`
+- `gcloud alpha metastore services backups describe`
+- `gcloud alpha metastore services backups get-iam-policy`
+- `gcloud alpha metastore services backups list`
+- `gcloud alpha metastore services backups remove-iam-policy-binding`
+- `gcloud alpha metastore services backups set-iam-policy`
+- `gcloud alpha metastore services create`
+- `gcloud alpha metastore services databases`
+- `gcloud alpha metastore services databases add-iam-policy-binding`
+- `gcloud alpha metastore services databases get-iam-policy`
+- `gcloud alpha metastore services databases remove-iam-policy-binding`
+- `gcloud alpha metastore services databases set-iam-policy`
+- `gcloud alpha metastore services databases tables`
+- `gcloud alpha metastore services databases tables add-iam-policy-binding`
+- `gcloud alpha metastore services databases tables get-iam-policy`
+- `gcloud alpha metastore services databases tables remove-iam-policy-binding`
+- `gcloud alpha metastore services databases tables set-iam-policy`
+- `gcloud alpha metastore services delete`
+- `gcloud alpha metastore services describe`
+- `gcloud alpha metastore services export`
+- `gcloud alpha metastore services export gcs`
+- `gcloud alpha metastore services get-iam-policy`
+- `gcloud alpha metastore services import`
+- `gcloud alpha metastore services import gcs`
+- `gcloud alpha metastore services imports`
+- `gcloud alpha metastore services imports create`
+- `gcloud alpha metastore services imports describe`
+- `gcloud alpha metastore services imports list`
+- `gcloud alpha metastore services imports update`
+- `gcloud alpha metastore services list`
+- `gcloud alpha metastore services migrations`
+- `gcloud alpha metastore services migrations cancel`
+- `gcloud alpha metastore services migrations complete`
+- `gcloud alpha metastore services migrations delete`
+- `gcloud alpha metastore services migrations describe`
+- `gcloud alpha metastore services migrations list`
+- `gcloud alpha metastore services migrations start`
+- `gcloud alpha metastore services move-table-to-database`
+- `gcloud alpha metastore services query-metadata`
+- `gcloud alpha metastore services remove-iam-policy-binding`
+- `gcloud alpha metastore services restore`
+- `gcloud alpha metastore services set-iam-policy`
+- `gcloud alpha metastore services update`
+
+## migration
+
+- `gcloud alpha migration`
+- `gcloud alpha migration vms`
+- `gcloud alpha migration vms disk-migrations`
+- `gcloud alpha migration vms disk-migrations cancel`
+- `gcloud alpha migration vms disk-migrations create`
+- `gcloud alpha migration vms disk-migrations delete`
+- `gcloud alpha migration vms disk-migrations describe`
+- `gcloud alpha migration vms disk-migrations fetch-inventory`
+- `gcloud alpha migration vms disk-migrations list`
+- `gcloud alpha migration vms disk-migrations run`
+- `gcloud alpha migration vms disk-migrations update`
+- `gcloud alpha migration vms image-imports`
+- `gcloud alpha migration vms image-imports create`
+- `gcloud alpha migration vms image-imports delete`
+- `gcloud alpha migration vms image-imports describe`
+- `gcloud alpha migration vms image-imports list`
+- `gcloud alpha migration vms machine-image-imports`
+- `gcloud alpha migration vms machine-image-imports create`
+- `gcloud alpha migration vms machine-image-imports delete`
+- `gcloud alpha migration vms machine-image-imports describe`
+- `gcloud alpha migration vms machine-image-imports list`
+- `gcloud alpha migration vms target-projects`
+- `gcloud alpha migration vms target-projects list`
+
+## ml
+
+- `gcloud alpha ml`
+- `gcloud alpha ml language`
+- `gcloud alpha ml language analyze-entities`
+- `gcloud alpha ml language analyze-entity-sentiment`
+- `gcloud alpha ml language analyze-sentiment`
+- `gcloud alpha ml language analyze-syntax`
+- `gcloud alpha ml language classify-text`
+- `gcloud alpha ml speech`
+- `gcloud alpha ml speech operations`
+- `gcloud alpha ml speech operations describe`
+- `gcloud alpha ml speech operations wait`
+- `gcloud alpha ml speech recognize`
+- `gcloud alpha ml speech recognize-long-running`
+- `gcloud alpha ml speech recognizers`
+- `gcloud alpha ml speech recognizers create`
+- `gcloud alpha ml speech recognizers delete`
+- `gcloud alpha ml speech recognizers describe`
+- `gcloud alpha ml speech recognizers list`
+- `gcloud alpha ml speech recognizers run-batch`
+- `gcloud alpha ml speech recognizers run-short`
+- `gcloud alpha ml speech recognizers update`
+- `gcloud alpha ml translate`
+- `gcloud alpha ml translate batch-translate-text`
+- `gcloud alpha ml translate detect-language`
+- `gcloud alpha ml translate get-supported-languages`
+- `gcloud alpha ml translate translate-text`
+- `gcloud alpha ml video`
+- `gcloud alpha ml video detect-explicit-content`
+- `gcloud alpha ml video detect-labels`
+- `gcloud alpha ml video detect-object`
+- `gcloud alpha ml video detect-shot-changes`
+- `gcloud alpha ml video detect-text`
+- `gcloud alpha ml video operations`
+- `gcloud alpha ml video operations describe`
+- `gcloud alpha ml video operations wait`
+- `gcloud alpha ml video transcribe-speech`
+- `gcloud alpha ml vision`
+- `gcloud alpha ml vision detect-document`
+- `gcloud alpha ml vision detect-faces`
+- `gcloud alpha ml vision detect-image-properties`
+- `gcloud alpha ml vision detect-labels`
+- `gcloud alpha ml vision detect-landmarks`
+- `gcloud alpha ml vision detect-logos`
+- `gcloud alpha ml vision detect-objects`
+- `gcloud alpha ml vision detect-product`
+- `gcloud alpha ml vision detect-safe-search`
+- `gcloud alpha ml vision detect-text`
+- `gcloud alpha ml vision detect-text-pdf`
+- `gcloud alpha ml vision detect-text-tiff`
+- `gcloud alpha ml vision detect-web`
+- `gcloud alpha ml vision operations`
+- `gcloud alpha ml vision operations describe`
+- `gcloud alpha ml vision product-search`
+- `gcloud alpha ml vision product-search images`
+- `gcloud alpha ml vision product-search images create`
+- `gcloud alpha ml vision product-search images delete`
+- `gcloud alpha ml vision product-search images describe`
+- `gcloud alpha ml vision product-search images list`
+- `gcloud alpha ml vision product-search product-sets`
+- `gcloud alpha ml vision product-search product-sets add-product`
+- `gcloud alpha ml vision product-search product-sets create`
+- `gcloud alpha ml vision product-search product-sets delete`
+- `gcloud alpha ml vision product-search product-sets describe`
+- `gcloud alpha ml vision product-search product-sets import`
+- `gcloud alpha ml vision product-search product-sets list`
+- `gcloud alpha ml vision product-search product-sets list-products`
+- `gcloud alpha ml vision product-search product-sets remove-product`
+- `gcloud alpha ml vision product-search product-sets update`
+- `gcloud alpha ml vision product-search products`
+- `gcloud alpha ml vision product-search products create`
+- `gcloud alpha ml vision product-search products delete`
+- `gcloud alpha ml vision product-search products delete-all`
+- `gcloud alpha ml vision product-search products describe`
+- `gcloud alpha ml vision product-search products list`
+- `gcloud alpha ml vision product-search products update`
+- `gcloud alpha ml vision suggest-crop`
+
+## mldiagnostics
+
+- `gcloud alpha mldiagnostics`
+- `gcloud alpha mldiagnostics machine-learning-run`
+- `gcloud alpha mldiagnostics machine-learning-run create`
+- `gcloud alpha mldiagnostics machine-learning-run delete`
+- `gcloud alpha mldiagnostics machine-learning-run describe`
+- `gcloud alpha mldiagnostics machine-learning-run list`
+- `gcloud alpha mldiagnostics machine-learning-run update`
+- `gcloud alpha mldiagnostics profiler-session`
+- `gcloud alpha mldiagnostics profiler-session capture`
+- `gcloud alpha mldiagnostics profiler-session list`
+- `gcloud alpha mldiagnostics profiler-target`
+- `gcloud alpha mldiagnostics profiler-target list`
+
+## model-armor
+
+- `gcloud alpha model-armor`
+- `gcloud alpha model-armor floorsettings`
+- `gcloud alpha model-armor floorsettings describe`
+- `gcloud alpha model-armor floorsettings update`
+- `gcloud alpha model-armor templates`
+- `gcloud alpha model-armor templates create`
+- `gcloud alpha model-armor templates delete`
+- `gcloud alpha model-armor templates describe`
+- `gcloud alpha model-armor templates list`
+- `gcloud alpha model-armor templates sanitize-model-response`
+- `gcloud alpha model-armor templates sanitize-user-prompt`
+- `gcloud alpha model-armor templates update`
+
+## monitoring
+
+- `gcloud alpha monitoring`
+- `gcloud alpha monitoring alerts`
+- `gcloud alpha monitoring alerts describe`
+- `gcloud alpha monitoring alerts list`
+- `gcloud alpha monitoring channel-descriptors`
+- `gcloud alpha monitoring channel-descriptors describe`
+- `gcloud alpha monitoring channel-descriptors list`
+- `gcloud alpha monitoring channels`
+- `gcloud alpha monitoring channels config`
+- `gcloud alpha monitoring channels config export`
+- `gcloud alpha monitoring channels create`
+- `gcloud alpha monitoring channels delete`
+- `gcloud alpha monitoring channels describe`
+- `gcloud alpha monitoring channels list`
+- `gcloud alpha monitoring channels update`
+- `gcloud alpha monitoring dashboards`
+- `gcloud alpha monitoring dashboards create`
+- `gcloud alpha monitoring dashboards delete`
+- `gcloud alpha monitoring dashboards describe`
+- `gcloud alpha monitoring dashboards list`
+- `gcloud alpha monitoring dashboards update`
+- `gcloud alpha monitoring metrics-scopes`
+- `gcloud alpha monitoring metrics-scopes create`
+- `gcloud alpha monitoring metrics-scopes delete`
+- `gcloud alpha monitoring metrics-scopes describe`
+- `gcloud alpha monitoring metrics-scopes list`
+- `gcloud alpha monitoring policies`
+- `gcloud alpha monitoring policies conditions`
+- `gcloud alpha monitoring policies conditions create`
+- `gcloud alpha monitoring policies conditions delete`
+- `gcloud alpha monitoring policies conditions describe`
+- `gcloud alpha monitoring policies conditions update`
+- `gcloud alpha monitoring policies config`
+- `gcloud alpha monitoring policies config export`
+- `gcloud alpha monitoring policies create`
+- `gcloud alpha monitoring policies delete`
+- `gcloud alpha monitoring policies describe`
+- `gcloud alpha monitoring policies list`
+- `gcloud alpha monitoring policies migrate`
+- `gcloud alpha monitoring policies update`
+- `gcloud alpha monitoring snoozes`
+- `gcloud alpha monitoring snoozes cancel`
+- `gcloud alpha monitoring snoozes create`
+- `gcloud alpha monitoring snoozes describe`
+- `gcloud alpha monitoring snoozes list`
+- `gcloud alpha monitoring snoozes update`
+- `gcloud alpha monitoring uptime`
+- `gcloud alpha monitoring uptime create`
+- `gcloud alpha monitoring uptime delete`
+- `gcloud alpha monitoring uptime describe`
+- `gcloud alpha monitoring uptime list-configs`
+- `gcloud alpha monitoring uptime list-ips`
+- `gcloud alpha monitoring uptime update`
+
+## mps
+
+- `gcloud alpha mps`
+
+## netapp
+
+- `gcloud alpha netapp`
+- `gcloud alpha netapp active-directories`
+- `gcloud alpha netapp active-directories create`
+- `gcloud alpha netapp active-directories delete`
+- `gcloud alpha netapp active-directories describe`
+- `gcloud alpha netapp active-directories list`
+- `gcloud alpha netapp active-directories update`
+- `gcloud alpha netapp host-groups`
+- `gcloud alpha netapp host-groups create`
+- `gcloud alpha netapp host-groups delete`
+- `gcloud alpha netapp host-groups describe`
+- `gcloud alpha netapp host-groups list`
+- `gcloud alpha netapp host-groups update`
+- `gcloud alpha netapp locations`
+- `gcloud alpha netapp locations describe`
+- `gcloud alpha netapp locations list`
+- `gcloud alpha netapp operations`
+- `gcloud alpha netapp operations describe`
+- `gcloud alpha netapp operations list`
+- `gcloud alpha netapp storage-pools`
+- `gcloud alpha netapp storage-pools create`
+- `gcloud alpha netapp storage-pools delete`
+- `gcloud alpha netapp storage-pools describe`
+- `gcloud alpha netapp storage-pools execute`
+- `gcloud alpha netapp storage-pools list`
+- `gcloud alpha netapp storage-pools list-backup-configs`
+- `gcloud alpha netapp storage-pools restore-volume`
+- `gcloud alpha netapp storage-pools switch`
+- `gcloud alpha netapp storage-pools update`
+- `gcloud alpha netapp storage-pools update-backup-config`
+- `gcloud alpha netapp volumes`
+- `gcloud alpha netapp volumes create`
+- `gcloud alpha netapp volumes delete`
+- `gcloud alpha netapp volumes describe`
+- `gcloud alpha netapp volumes establish-peering`
+- `gcloud alpha netapp volumes list`
+- `gcloud alpha netapp volumes replications`
+- `gcloud alpha netapp volumes replications create`
+- `gcloud alpha netapp volumes replications delete`
+- `gcloud alpha netapp volumes replications describe`
+- `gcloud alpha netapp volumes replications establish-peering`
+- `gcloud alpha netapp volumes replications list`
+- `gcloud alpha netapp volumes replications resume`
+- `gcloud alpha netapp volumes replications reverse`
+- `gcloud alpha netapp volumes replications stop`
+- `gcloud alpha netapp volumes replications sync`
+- `gcloud alpha netapp volumes replications update`
+- `gcloud alpha netapp volumes restore-backup-files`
+- `gcloud alpha netapp volumes revert`
+- `gcloud alpha netapp volumes snapshots`
+- `gcloud alpha netapp volumes snapshots create`
+- `gcloud alpha netapp volumes snapshots delete`
+- `gcloud alpha netapp volumes snapshots describe`
+- `gcloud alpha netapp volumes snapshots list`
+- `gcloud alpha netapp volumes snapshots update`
+- `gcloud alpha netapp volumes update`
+
+## network-connectivity
+
+- `gcloud alpha network-connectivity`
+- `gcloud alpha network-connectivity hubs`
+- `gcloud alpha network-connectivity hubs create`
+- `gcloud alpha network-connectivity hubs delete`
+- `gcloud alpha network-connectivity hubs describe`
+- `gcloud alpha network-connectivity hubs list`
+- `gcloud alpha network-connectivity hubs update`
+- `gcloud alpha network-connectivity internal-ranges`
+- `gcloud alpha network-connectivity internal-ranges create`
+- `gcloud alpha network-connectivity internal-ranges delete`
+- `gcloud alpha network-connectivity internal-ranges describe`
+- `gcloud alpha network-connectivity internal-ranges list`
+- `gcloud alpha network-connectivity internal-ranges update`
+- `gcloud alpha network-connectivity policy-based-routes`
+- `gcloud alpha network-connectivity policy-based-routes create`
+- `gcloud alpha network-connectivity policy-based-routes delete`
+- `gcloud alpha network-connectivity policy-based-routes describe`
+- `gcloud alpha network-connectivity policy-based-routes list`
+- `gcloud alpha network-connectivity spokes`
+- `gcloud alpha network-connectivity spokes create`
+- `gcloud alpha network-connectivity spokes delete`
+- `gcloud alpha network-connectivity spokes describe`
+- `gcloud alpha network-connectivity spokes list`
+- `gcloud alpha network-connectivity spokes update`
+
+## network-management
+
+- `gcloud alpha network-management`
+- `gcloud alpha network-management network-monitoring-providers`
+- `gcloud alpha network-management network-monitoring-providers create`
+- `gcloud alpha network-management network-monitoring-providers delete`
+- `gcloud alpha network-management network-monitoring-providers describe`
+- `gcloud alpha network-management network-monitoring-providers generate-monitoring-point-config`
+- `gcloud alpha network-management network-monitoring-providers generate-provider-access-token`
+- `gcloud alpha network-management network-monitoring-providers list`
+- `gcloud alpha network-management network-monitoring-providers monitoring-points`
+- `gcloud alpha network-management network-monitoring-providers monitoring-points describe`
+- `gcloud alpha network-management network-monitoring-providers monitoring-points download-install-script`
+- `gcloud alpha network-management network-monitoring-providers monitoring-points download-recreate-install-script`
+- `gcloud alpha network-management network-monitoring-providers monitoring-points download-server-connect-config`
+- `gcloud alpha network-management network-monitoring-providers monitoring-points list`
+- `gcloud alpha network-management network-monitoring-providers network-paths`
+- `gcloud alpha network-management network-monitoring-providers network-paths describe`
+- `gcloud alpha network-management network-monitoring-providers network-paths list`
+- `gcloud alpha network-management network-monitoring-providers web-paths`
+- `gcloud alpha network-management network-monitoring-providers web-paths describe`
+- `gcloud alpha network-management network-monitoring-providers web-paths list`
+
+## network-security
+
+- `gcloud alpha network-security`
+- `gcloud alpha network-security address-groups`
+- `gcloud alpha network-security address-groups add-items`
+- `gcloud alpha network-security address-groups clone-items`
+- `gcloud alpha network-security address-groups create`
+- `gcloud alpha network-security address-groups delete`
+- `gcloud alpha network-security address-groups describe`
+- `gcloud alpha network-security address-groups list`
+- `gcloud alpha network-security address-groups list-references`
+- `gcloud alpha network-security address-groups remove-items`
+- `gcloud alpha network-security address-groups update`
+- `gcloud alpha network-security authorization-policies`
+- `gcloud alpha network-security authorization-policies delete`
+- `gcloud alpha network-security authorization-policies export`
+- `gcloud alpha network-security authorization-policies import`
+- `gcloud alpha network-security authorization-policies list`
+- `gcloud alpha network-security backend-authentication-configs`
+- `gcloud alpha network-security backend-authentication-configs create`
+- `gcloud alpha network-security backend-authentication-configs delete`
+- `gcloud alpha network-security backend-authentication-configs describe`
+- `gcloud alpha network-security backend-authentication-configs export`
+- `gcloud alpha network-security backend-authentication-configs import`
+- `gcloud alpha network-security backend-authentication-configs list`
+- `gcloud alpha network-security client-tls-policies`
+- `gcloud alpha network-security client-tls-policies delete`
+- `gcloud alpha network-security client-tls-policies export`
+- `gcloud alpha network-security client-tls-policies import`
+- `gcloud alpha network-security client-tls-policies list`
+- `gcloud alpha network-security dns-threat-detectors`
+- `gcloud alpha network-security dns-threat-detectors create`
+- `gcloud alpha network-security dns-threat-detectors delete`
+- `gcloud alpha network-security dns-threat-detectors describe`
+- `gcloud alpha network-security dns-threat-detectors list`
+- `gcloud alpha network-security dns-threat-detectors update`
+- `gcloud alpha network-security firewall-endpoint-associations`
+- `gcloud alpha network-security firewall-endpoint-associations create`
+- `gcloud alpha network-security firewall-endpoint-associations delete`
+- `gcloud alpha network-security firewall-endpoint-associations describe`
+- `gcloud alpha network-security firewall-endpoint-associations list`
+- `gcloud alpha network-security firewall-endpoint-associations update`
+- `gcloud alpha network-security firewall-endpoints`
+- `gcloud alpha network-security firewall-endpoints create`
+- `gcloud alpha network-security firewall-endpoints delete`
+- `gcloud alpha network-security firewall-endpoints describe`
+- `gcloud alpha network-security firewall-endpoints list`
+- `gcloud alpha network-security firewall-endpoints update`
+- `gcloud alpha network-security gateway-security-policies`
+- `gcloud alpha network-security gateway-security-policies delete`
+- `gcloud alpha network-security gateway-security-policies export`
+- `gcloud alpha network-security gateway-security-policies import`
+- `gcloud alpha network-security gateway-security-policies list`
+- `gcloud alpha network-security gateway-security-policies rules`
+- `gcloud alpha network-security gateway-security-policies rules delete`
+- `gcloud alpha network-security gateway-security-policies rules export`
+- `gcloud alpha network-security gateway-security-policies rules import`
+- `gcloud alpha network-security gateway-security-policies rules list`
+- `gcloud alpha network-security intercept-deployment-groups`
+- `gcloud alpha network-security intercept-deployment-groups create`
+- `gcloud alpha network-security intercept-deployment-groups delete`
+- `gcloud alpha network-security intercept-deployment-groups describe`
+- `gcloud alpha network-security intercept-deployment-groups list`
+- `gcloud alpha network-security intercept-deployment-groups update`
+- `gcloud alpha network-security intercept-deployments`
+- `gcloud alpha network-security intercept-deployments create`
+- `gcloud alpha network-security intercept-deployments delete`
+- `gcloud alpha network-security intercept-deployments describe`
+- `gcloud alpha network-security intercept-deployments list`
+- `gcloud alpha network-security intercept-deployments update`
+- `gcloud alpha network-security intercept-endpoint-group-associations`
+- `gcloud alpha network-security intercept-endpoint-group-associations create`
+- `gcloud alpha network-security intercept-endpoint-group-associations delete`
+- `gcloud alpha network-security intercept-endpoint-group-associations describe`
+- `gcloud alpha network-security intercept-endpoint-group-associations list`
+- `gcloud alpha network-security intercept-endpoint-group-associations update`
+- `gcloud alpha network-security intercept-endpoint-groups`
+- `gcloud alpha network-security intercept-endpoint-groups create`
+- `gcloud alpha network-security intercept-endpoint-groups delete`
+- `gcloud alpha network-security intercept-endpoint-groups describe`
+- `gcloud alpha network-security intercept-endpoint-groups list`
+- `gcloud alpha network-security intercept-endpoint-groups update`
+- `gcloud alpha network-security mirroring-deployment-groups`
+- `gcloud alpha network-security mirroring-deployment-groups create`
+- `gcloud alpha network-security mirroring-deployment-groups delete`
+- `gcloud alpha network-security mirroring-deployment-groups describe`
+- `gcloud alpha network-security mirroring-deployment-groups list`
+- `gcloud alpha network-security mirroring-deployment-groups update`
+- `gcloud alpha network-security mirroring-deployments`
+- `gcloud alpha network-security mirroring-deployments create`
+- `gcloud alpha network-security mirroring-deployments delete`
+- `gcloud alpha network-security mirroring-deployments describe`
+- `gcloud alpha network-security mirroring-deployments list`
+- `gcloud alpha network-security mirroring-deployments update`
+- `gcloud alpha network-security mirroring-endpoint-group-associations`
+- `gcloud alpha network-security mirroring-endpoint-group-associations create`
+- `gcloud alpha network-security mirroring-endpoint-group-associations delete`
+- `gcloud alpha network-security mirroring-endpoint-group-associations describe`
+- `gcloud alpha network-security mirroring-endpoint-group-associations list`
+- `gcloud alpha network-security mirroring-endpoint-group-associations update`
+- `gcloud alpha network-security mirroring-endpoint-groups`
+- `gcloud alpha network-security mirroring-endpoint-groups create`
+- `gcloud alpha network-security mirroring-endpoint-groups delete`
+- `gcloud alpha network-security mirroring-endpoint-groups describe`
+- `gcloud alpha network-security mirroring-endpoint-groups list`
+- `gcloud alpha network-security mirroring-endpoint-groups update`
+- `gcloud alpha network-security org-address-groups`
+- `gcloud alpha network-security org-address-groups add-items`
+- `gcloud alpha network-security org-address-groups clone-items`
+- `gcloud alpha network-security org-address-groups create`
+- `gcloud alpha network-security org-address-groups delete`
+- `gcloud alpha network-security org-address-groups describe`
+- `gcloud alpha network-security org-address-groups list`
+- `gcloud alpha network-security org-address-groups list-references`
+- `gcloud alpha network-security org-address-groups remove-items`
+- `gcloud alpha network-security org-address-groups update`
+- `gcloud alpha network-security security-profile-groups`
+- `gcloud alpha network-security security-profile-groups create`
+- `gcloud alpha network-security security-profile-groups delete`
+- `gcloud alpha network-security security-profile-groups describe`
+- `gcloud alpha network-security security-profile-groups list`
+- `gcloud alpha network-security security-profile-groups update`
+- `gcloud alpha network-security security-profiles`
+- `gcloud alpha network-security security-profiles custom-intercept`
+- `gcloud alpha network-security security-profiles custom-intercept create`
+- `gcloud alpha network-security security-profiles custom-intercept delete`
+- `gcloud alpha network-security security-profiles custom-intercept describe`
+- `gcloud alpha network-security security-profiles custom-intercept list`
+- `gcloud alpha network-security security-profiles custom-intercept update`
+- `gcloud alpha network-security security-profiles custom-mirroring`
+- `gcloud alpha network-security security-profiles custom-mirroring create`
+- `gcloud alpha network-security security-profiles custom-mirroring delete`
+- `gcloud alpha network-security security-profiles custom-mirroring describe`
+- `gcloud alpha network-security security-profiles custom-mirroring list`
+- `gcloud alpha network-security security-profiles custom-mirroring update`
+- `gcloud alpha network-security security-profiles delete`
+- `gcloud alpha network-security security-profiles describe`
+- `gcloud alpha network-security security-profiles export`
+- `gcloud alpha network-security security-profiles import`
+- `gcloud alpha network-security security-profiles list`
+- `gcloud alpha network-security security-profiles threat-prevention`
+- `gcloud alpha network-security security-profiles threat-prevention add-override`
+- `gcloud alpha network-security security-profiles threat-prevention create`
+- `gcloud alpha network-security security-profiles threat-prevention delete`
+- `gcloud alpha network-security security-profiles threat-prevention delete-override`
+- `gcloud alpha network-security security-profiles threat-prevention describe`
+- `gcloud alpha network-security security-profiles threat-prevention list`
+- `gcloud alpha network-security security-profiles threat-prevention list-overrides`
+- `gcloud alpha network-security security-profiles threat-prevention update-override`
+- `gcloud alpha network-security security-profiles url-filtering`
+- `gcloud alpha network-security security-profiles url-filtering create`
+- `gcloud alpha network-security security-profiles url-filtering delete`
+- `gcloud alpha network-security security-profiles url-filtering describe`
+- `gcloud alpha network-security security-profiles url-filtering list`
+- `gcloud alpha network-security server-tls-policies`
+- `gcloud alpha network-security server-tls-policies delete`
+- `gcloud alpha network-security server-tls-policies describe`
+- `gcloud alpha network-security server-tls-policies export`
+- `gcloud alpha network-security server-tls-policies import`
+- `gcloud alpha network-security server-tls-policies list`
+- `gcloud alpha network-security tls-inspection-policies`
+- `gcloud alpha network-security tls-inspection-policies delete`
+- `gcloud alpha network-security tls-inspection-policies export`
+- `gcloud alpha network-security tls-inspection-policies import`
+- `gcloud alpha network-security tls-inspection-policies list`
+- `gcloud alpha network-security url-lists`
+- `gcloud alpha network-security url-lists delete`
+- `gcloud alpha network-security url-lists export`
+- `gcloud alpha network-security url-lists import`
+- `gcloud alpha network-security url-lists list`
+
+## network-services
+
+- `gcloud alpha network-services`
+- `gcloud alpha network-services agent-gateways`
+- `gcloud alpha network-services agent-gateways delete`
+- `gcloud alpha network-services agent-gateways describe`
+- `gcloud alpha network-services agent-gateways export`
+- `gcloud alpha network-services agent-gateways import`
+- `gcloud alpha network-services agent-gateways list`
+- `gcloud alpha network-services endpoint-policies`
+- `gcloud alpha network-services endpoint-policies delete`
+- `gcloud alpha network-services endpoint-policies describe`
+- `gcloud alpha network-services endpoint-policies export`
+- `gcloud alpha network-services endpoint-policies import`
+- `gcloud alpha network-services endpoint-policies list`
+- `gcloud alpha network-services gateways`
+- `gcloud alpha network-services gateways delete`
+- `gcloud alpha network-services gateways describe`
+- `gcloud alpha network-services gateways export`
+- `gcloud alpha network-services gateways import`
+- `gcloud alpha network-services gateways list`
+- `gcloud alpha network-services grpc-routes`
+- `gcloud alpha network-services grpc-routes delete`
+- `gcloud alpha network-services grpc-routes describe`
+- `gcloud alpha network-services grpc-routes export`
+- `gcloud alpha network-services grpc-routes import`
+- `gcloud alpha network-services grpc-routes list`
+- `gcloud alpha network-services http-filters`
+- `gcloud alpha network-services http-filters delete`
+- `gcloud alpha network-services http-filters describe`
+- `gcloud alpha network-services http-filters export`
+- `gcloud alpha network-services http-filters import`
+- `gcloud alpha network-services http-filters list`
+- `gcloud alpha network-services http-routes`
+- `gcloud alpha network-services http-routes delete`
+- `gcloud alpha network-services http-routes describe`
+- `gcloud alpha network-services http-routes export`
+- `gcloud alpha network-services http-routes import`
+- `gcloud alpha network-services http-routes list`
+- `gcloud alpha network-services meshes`
+- `gcloud alpha network-services meshes delete`
+- `gcloud alpha network-services meshes describe`
+- `gcloud alpha network-services meshes export`
+- `gcloud alpha network-services meshes import`
+- `gcloud alpha network-services meshes list`
+- `gcloud alpha network-services multicast-consumer-associations`
+- `gcloud alpha network-services multicast-consumer-associations create`
+- `gcloud alpha network-services multicast-consumer-associations delete`
+- `gcloud alpha network-services multicast-consumer-associations describe`
+- `gcloud alpha network-services multicast-consumer-associations list`
+- `gcloud alpha network-services multicast-consumer-associations update`
+- `gcloud alpha network-services multicast-domain-activations`
+- `gcloud alpha network-services multicast-domain-activations create`
+- `gcloud alpha network-services multicast-domain-activations delete`
+- `gcloud alpha network-services multicast-domain-activations describe`
+- `gcloud alpha network-services multicast-domain-activations list`
+- `gcloud alpha network-services multicast-domain-activations update`
+- `gcloud alpha network-services multicast-domain-groups`
+- `gcloud alpha network-services multicast-domain-groups create`
+- `gcloud alpha network-services multicast-domain-groups delete`
+- `gcloud alpha network-services multicast-domain-groups describe`
+- `gcloud alpha network-services multicast-domain-groups list`
+- `gcloud alpha network-services multicast-domain-groups update`
+- `gcloud alpha network-services multicast-domains`
+- `gcloud alpha network-services multicast-domains create`
+- `gcloud alpha network-services multicast-domains delete`
+- `gcloud alpha network-services multicast-domains describe`
+- `gcloud alpha network-services multicast-domains list`
+- `gcloud alpha network-services multicast-domains update`
+- `gcloud alpha network-services multicast-group-consumer-activations`
+- `gcloud alpha network-services multicast-group-consumer-activations create`
+- `gcloud alpha network-services multicast-group-consumer-activations delete`
+- `gcloud alpha network-services multicast-group-consumer-activations describe`
+- `gcloud alpha network-services multicast-group-consumer-activations list`
+- `gcloud alpha network-services multicast-group-consumer-activations update`
+- `gcloud alpha network-services multicast-group-definitions`
+- `gcloud alpha network-services multicast-group-definitions delete`
+- `gcloud alpha network-services multicast-group-definitions describe`
+- `gcloud alpha network-services multicast-group-definitions list`
+- `gcloud alpha network-services multicast-group-producer-activations`
+- `gcloud alpha network-services multicast-group-producer-activations create`
+- `gcloud alpha network-services multicast-group-producer-activations delete`
+- `gcloud alpha network-services multicast-group-producer-activations describe`
+- `gcloud alpha network-services multicast-group-producer-activations list`
+- `gcloud alpha network-services multicast-group-producer-activations update`
+- `gcloud alpha network-services multicast-group-range-activations`
+- `gcloud alpha network-services multicast-group-range-activations create`
+- `gcloud alpha network-services multicast-group-range-activations delete`
+- `gcloud alpha network-services multicast-group-range-activations describe`
+- `gcloud alpha network-services multicast-group-range-activations list`
+- `gcloud alpha network-services multicast-group-range-activations update`
+- `gcloud alpha network-services multicast-group-ranges`
+- `gcloud alpha network-services multicast-group-ranges create`
+- `gcloud alpha network-services multicast-group-ranges delete`
+- `gcloud alpha network-services multicast-group-ranges describe`
+- `gcloud alpha network-services multicast-group-ranges list`
+- `gcloud alpha network-services multicast-group-ranges update`
+- `gcloud alpha network-services multicast-groups`
+- `gcloud alpha network-services multicast-groups delete`
+- `gcloud alpha network-services multicast-groups describe`
+- `gcloud alpha network-services multicast-groups list`
+- `gcloud alpha network-services multicast-producer-associations`
+- `gcloud alpha network-services multicast-producer-associations create`
+- `gcloud alpha network-services multicast-producer-associations delete`
+- `gcloud alpha network-services multicast-producer-associations describe`
+- `gcloud alpha network-services multicast-producer-associations list`
+- `gcloud alpha network-services multicast-producer-associations update`
+- `gcloud alpha network-services observability-policies`
+- `gcloud alpha network-services observability-policies delete`
+- `gcloud alpha network-services observability-policies describe`
+- `gcloud alpha network-services observability-policies export`
+- `gcloud alpha network-services observability-policies import`
+- `gcloud alpha network-services observability-policies list`
+- `gcloud alpha network-services operations`
+- `gcloud alpha network-services operations cancel`
+- `gcloud alpha network-services operations describe`
+- `gcloud alpha network-services operations list`
+- `gcloud alpha network-services operations wait`
+- `gcloud alpha network-services regional-multicast-consumer-associations`
+- `gcloud alpha network-services regional-multicast-consumer-associations create`
+- `gcloud alpha network-services regional-multicast-consumer-associations delete`
+- `gcloud alpha network-services regional-multicast-consumer-associations describe`
+- `gcloud alpha network-services regional-multicast-consumer-associations list`
+- `gcloud alpha network-services regional-multicast-domain-activations`
+- `gcloud alpha network-services regional-multicast-domain-activations create`
+- `gcloud alpha network-services regional-multicast-domain-activations delete`
+- `gcloud alpha network-services regional-multicast-domain-activations describe`
+- `gcloud alpha network-services regional-multicast-domain-activations list`
+- `gcloud alpha network-services regional-multicast-group-consumer-activations`
+- `gcloud alpha network-services regional-multicast-group-consumer-activations create`
+- `gcloud alpha network-services regional-multicast-group-consumer-activations delete`
+- `gcloud alpha network-services regional-multicast-group-consumer-activations describe`
+- `gcloud alpha network-services regional-multicast-group-consumer-activations list`
+- `gcloud alpha network-services regional-multicast-group-producer-activations`
+- `gcloud alpha network-services regional-multicast-group-producer-activations create`
+- `gcloud alpha network-services regional-multicast-group-producer-activations delete`
+- `gcloud alpha network-services regional-multicast-group-producer-activations describe`
+- `gcloud alpha network-services regional-multicast-group-producer-activations list`
+- `gcloud alpha network-services regional-multicast-group-range-activations`
+- `gcloud alpha network-services regional-multicast-group-range-activations create`
+- `gcloud alpha network-services regional-multicast-group-range-activations delete`
+- `gcloud alpha network-services regional-multicast-group-range-activations describe`
+- `gcloud alpha network-services regional-multicast-group-range-activations list`
+- `gcloud alpha network-services regional-multicast-producer-associations`
+- `gcloud alpha network-services regional-multicast-producer-associations create`
+- `gcloud alpha network-services regional-multicast-producer-associations delete`
+- `gcloud alpha network-services regional-multicast-producer-associations describe`
+- `gcloud alpha network-services regional-multicast-producer-associations list`
+- `gcloud alpha network-services route-views`
+- `gcloud alpha network-services route-views describe`
+- `gcloud alpha network-services route-views list`
+- `gcloud alpha network-services service-bindings`
+- `gcloud alpha network-services service-bindings create`
+- `gcloud alpha network-services service-bindings delete`
+- `gcloud alpha network-services service-bindings describe`
+- `gcloud alpha network-services service-bindings export`
+- `gcloud alpha network-services service-bindings import`
+- `gcloud alpha network-services service-bindings list`
+- `gcloud alpha network-services service-bindings update`
+- `gcloud alpha network-services service-lb-policies`
+- `gcloud alpha network-services service-lb-policies create`
+- `gcloud alpha network-services service-lb-policies delete`
+- `gcloud alpha network-services service-lb-policies describe`
+- `gcloud alpha network-services service-lb-policies export`
+- `gcloud alpha network-services service-lb-policies import`
+- `gcloud alpha network-services service-lb-policies list`
+- `gcloud alpha network-services service-lb-policies update`
+- `gcloud alpha network-services tcp-routes`
+- `gcloud alpha network-services tcp-routes delete`
+- `gcloud alpha network-services tcp-routes describe`
+- `gcloud alpha network-services tcp-routes export`
+- `gcloud alpha network-services tcp-routes import`
+- `gcloud alpha network-services tcp-routes list`
+- `gcloud alpha network-services tls-routes`
+- `gcloud alpha network-services tls-routes delete`
+- `gcloud alpha network-services tls-routes describe`
+- `gcloud alpha network-services tls-routes export`
+- `gcloud alpha network-services tls-routes import`
+- `gcloud alpha network-services tls-routes list`
+
+## notebooks
+
+- `gcloud alpha notebooks`
+- `gcloud alpha notebooks environments`
+- `gcloud alpha notebooks environments create`
+- `gcloud alpha notebooks environments delete`
+- `gcloud alpha notebooks environments describe`
+- `gcloud alpha notebooks environments list`
+- `gcloud alpha notebooks instances`
+- `gcloud alpha notebooks instances add-iam-policy-binding`
+- `gcloud alpha notebooks instances create`
+- `gcloud alpha notebooks instances delete`
+- `gcloud alpha notebooks instances describe`
+- `gcloud alpha notebooks instances diagnose`
+- `gcloud alpha notebooks instances get-iam-policy`
+- `gcloud alpha notebooks instances is-upgradeable`
+- `gcloud alpha notebooks instances list`
+- `gcloud alpha notebooks instances register`
+- `gcloud alpha notebooks instances remove-iam-policy-binding`
+- `gcloud alpha notebooks instances reset`
+- `gcloud alpha notebooks instances set-iam-policy`
+- `gcloud alpha notebooks instances start`
+- `gcloud alpha notebooks instances stop`
+- `gcloud alpha notebooks instances update`
+- `gcloud alpha notebooks instances upgrade`
+- `gcloud alpha notebooks locations`
+- `gcloud alpha notebooks locations list`
+
+## number-registry
+
+- `gcloud alpha number-registry`
+- `gcloud alpha number-registry custom-ranges`
+- `gcloud alpha number-registry custom-ranges create`
+- `gcloud alpha number-registry custom-ranges delete`
+- `gcloud alpha number-registry custom-ranges describe`
+- `gcloud alpha number-registry custom-ranges find-free-ip-ranges`
+- `gcloud alpha number-registry custom-ranges list`
+- `gcloud alpha number-registry custom-ranges show-utilization`
+- `gcloud alpha number-registry custom-ranges update`
+- `gcloud alpha number-registry discovered-ranges`
+- `gcloud alpha number-registry discovered-ranges describe`
+- `gcloud alpha number-registry discovered-ranges find-free-ip-ranges`
+- `gcloud alpha number-registry discovered-ranges list`
+- `gcloud alpha number-registry discovered-ranges show-utilization`
+- `gcloud alpha number-registry ipam-admin-scopes`
+- `gcloud alpha number-registry ipam-admin-scopes check-availability`
+- `gcloud alpha number-registry ipam-admin-scopes cleanup`
+- `gcloud alpha number-registry ipam-admin-scopes create`
+- `gcloud alpha number-registry ipam-admin-scopes delete`
+- `gcloud alpha number-registry ipam-admin-scopes describe`
+- `gcloud alpha number-registry ipam-admin-scopes disable`
+- `gcloud alpha number-registry ipam-admin-scopes list`
+- `gcloud alpha number-registry ipam-admin-scopes update`
+- `gcloud alpha number-registry operations`
+- `gcloud alpha number-registry operations cancel`
+- `gcloud alpha number-registry operations delete`
+- `gcloud alpha number-registry operations describe`
+- `gcloud alpha number-registry operations list`
+- `gcloud alpha number-registry operations wait`
+- `gcloud alpha number-registry realms`
+- `gcloud alpha number-registry realms create`
+- `gcloud alpha number-registry realms delete`
+- `gcloud alpha number-registry realms describe`
+- `gcloud alpha number-registry realms list`
+- `gcloud alpha number-registry realms update`
+- `gcloud alpha number-registry registry-books`
+- `gcloud alpha number-registry registry-books create`
+- `gcloud alpha number-registry registry-books delete`
+- `gcloud alpha number-registry registry-books describe`
+- `gcloud alpha number-registry registry-books list`
+- `gcloud alpha number-registry registry-books search-ip-resources`
+- `gcloud alpha number-registry registry-books update`
+
+## observability
+
+- `gcloud alpha observability`
+- `gcloud alpha observability scopes`
+- `gcloud alpha observability scopes describe`
+- `gcloud alpha observability scopes update`
+- `gcloud alpha observability trace-scopes`
+- `gcloud alpha observability trace-scopes create`
+- `gcloud alpha observability trace-scopes delete`
+- `gcloud alpha observability trace-scopes describe`
+- `gcloud alpha observability trace-scopes list`
+- `gcloud alpha observability trace-scopes update`
+
+## organizations
+
+- `gcloud alpha organizations`
+- `gcloud alpha organizations add-iam-policy-binding`
+- `gcloud alpha organizations describe`
+- `gcloud alpha organizations get-iam-policy`
+- `gcloud alpha organizations list`
+- `gcloud alpha organizations remove-iam-policy-binding`
+- `gcloud alpha organizations set-iam-policy`
+
+## pam
+
+- `gcloud alpha pam`
+- `gcloud alpha pam check-onboarding-status`
+- `gcloud alpha pam entitlements`
+- `gcloud alpha pam entitlements create`
+- `gcloud alpha pam entitlements delete`
+- `gcloud alpha pam entitlements describe`
+- `gcloud alpha pam entitlements export`
+- `gcloud alpha pam entitlements list`
+- `gcloud alpha pam entitlements search`
+- `gcloud alpha pam entitlements update`
+- `gcloud alpha pam grants`
+- `gcloud alpha pam grants approve`
+- `gcloud alpha pam grants create`
+- `gcloud alpha pam grants deny`
+- `gcloud alpha pam grants describe`
+- `gcloud alpha pam grants list`
+- `gcloud alpha pam grants revoke`
+- `gcloud alpha pam grants search`
+- `gcloud alpha pam grants withdraw`
+- `gcloud alpha pam operations`
+- `gcloud alpha pam operations delete`
+- `gcloud alpha pam operations describe`
+- `gcloud alpha pam operations list`
+- `gcloud alpha pam operations wait`
+- `gcloud alpha pam settings`
+- `gcloud alpha pam settings describe`
+- `gcloud alpha pam settings describe-effective`
+- `gcloud alpha pam settings export`
+- `gcloud alpha pam settings update`
+
+## policy-troubleshoot
+
+- `gcloud alpha policy-troubleshoot`
+- `gcloud alpha policy-troubleshoot iam`
+
+## projects
+
+- `gcloud alpha projects`
+- `gcloud alpha projects add-iam-policy-binding`
+- `gcloud alpha projects create`
+- `gcloud alpha projects delete`
+- `gcloud alpha projects describe`
+- `gcloud alpha projects get-ancestors`
+- `gcloud alpha projects get-ancestors-iam-policy`
+- `gcloud alpha projects get-iam-policy`
+- `gcloud alpha projects list`
+- `gcloud alpha projects move`
+- `gcloud alpha projects remove-iam-policy-binding`
+- `gcloud alpha projects search`
+- `gcloud alpha projects set-iam-policy`
+- `gcloud alpha projects undelete`
+- `gcloud alpha projects update`
+
+## publicca
+
+- `gcloud alpha publicca`
+- `gcloud alpha publicca external-account-keys`
+- `gcloud alpha publicca external-account-keys create`
+
+## pubsub
+
+- `gcloud alpha pubsub`
+- `gcloud alpha pubsub lite-operations`
+- `gcloud alpha pubsub lite-operations describe`
+- `gcloud alpha pubsub lite-operations list`
+- `gcloud alpha pubsub lite-reservations`
+- `gcloud alpha pubsub lite-reservations create`
+- `gcloud alpha pubsub lite-reservations delete`
+- `gcloud alpha pubsub lite-reservations describe`
+- `gcloud alpha pubsub lite-reservations list`
+- `gcloud alpha pubsub lite-reservations list-topics`
+- `gcloud alpha pubsub lite-reservations update`
+- `gcloud alpha pubsub lite-subscriptions`
+- `gcloud alpha pubsub lite-subscriptions ack-up-to`
+- `gcloud alpha pubsub lite-subscriptions create`
+- `gcloud alpha pubsub lite-subscriptions delete`
+- `gcloud alpha pubsub lite-subscriptions describe`
+- `gcloud alpha pubsub lite-subscriptions list`
+- `gcloud alpha pubsub lite-subscriptions seek`
+- `gcloud alpha pubsub lite-subscriptions subscribe`
+- `gcloud alpha pubsub lite-subscriptions update`
+- `gcloud alpha pubsub lite-topics`
+- `gcloud alpha pubsub lite-topics create`
+- `gcloud alpha pubsub lite-topics delete`
+- `gcloud alpha pubsub lite-topics describe`
+- `gcloud alpha pubsub lite-topics list`
+- `gcloud alpha pubsub lite-topics list-subscriptions`
+- `gcloud alpha pubsub lite-topics publish`
+- `gcloud alpha pubsub lite-topics update`
+- `gcloud alpha pubsub message-transforms`
+- `gcloud alpha pubsub message-transforms test`
+- `gcloud alpha pubsub message-transforms validate`
+- `gcloud alpha pubsub schemas`
+- `gcloud alpha pubsub schemas commit`
+- `gcloud alpha pubsub schemas create`
+- `gcloud alpha pubsub schemas delete`
+- `gcloud alpha pubsub schemas delete-revision`
+- `gcloud alpha pubsub schemas describe`
+- `gcloud alpha pubsub schemas list`
+- `gcloud alpha pubsub schemas list-revisions`
+- `gcloud alpha pubsub schemas rollback`
+- `gcloud alpha pubsub schemas validate-message`
+- `gcloud alpha pubsub schemas validate-schema`
+- `gcloud alpha pubsub snapshots`
+- `gcloud alpha pubsub snapshots create`
+- `gcloud alpha pubsub snapshots delete`
+- `gcloud alpha pubsub snapshots describe`
+- `gcloud alpha pubsub snapshots list`
+- `gcloud alpha pubsub subscriptions`
+- `gcloud alpha pubsub subscriptions ack`
+- `gcloud alpha pubsub subscriptions add-iam-policy-binding`
+- `gcloud alpha pubsub subscriptions config`
+- `gcloud alpha pubsub subscriptions config export`
+- `gcloud alpha pubsub subscriptions create`
+- `gcloud alpha pubsub subscriptions delete`
+- `gcloud alpha pubsub subscriptions describe`
+- `gcloud alpha pubsub subscriptions get-iam-policy`
+- `gcloud alpha pubsub subscriptions list`
+- `gcloud alpha pubsub subscriptions modify-ack-deadline`
+- `gcloud alpha pubsub subscriptions modify-message-ack-deadline`
+- `gcloud alpha pubsub subscriptions modify-push-config`
+- `gcloud alpha pubsub subscriptions pull`
+- `gcloud alpha pubsub subscriptions remove-iam-policy-binding`
+- `gcloud alpha pubsub subscriptions seek`
+- `gcloud alpha pubsub subscriptions set-iam-policy`
+- `gcloud alpha pubsub subscriptions update`
+- `gcloud alpha pubsub topics`
+- `gcloud alpha pubsub topics add-iam-policy-binding`
+- `gcloud alpha pubsub topics config`
+- `gcloud alpha pubsub topics config export`
+- `gcloud alpha pubsub topics create`
+- `gcloud alpha pubsub topics delete`
+- `gcloud alpha pubsub topics describe`
+- `gcloud alpha pubsub topics detach-subscription`
+- `gcloud alpha pubsub topics get-iam-policy`
+- `gcloud alpha pubsub topics list`
+- `gcloud alpha pubsub topics list-snapshots`
+- `gcloud alpha pubsub topics list-subscriptions`
+- `gcloud alpha pubsub topics publish`
+- `gcloud alpha pubsub topics remove-iam-policy-binding`
+- `gcloud alpha pubsub topics set-iam-policy`
+- `gcloud alpha pubsub topics update`
+
+## quotas
+
+- `gcloud alpha quotas`
+- `gcloud alpha quotas info`
+- `gcloud alpha quotas info describe`
+- `gcloud alpha quotas info list`
+- `gcloud alpha quotas preferences`
+- `gcloud alpha quotas preferences create`
+- `gcloud alpha quotas preferences describe`
+- `gcloud alpha quotas preferences list`
+- `gcloud alpha quotas preferences update`
+
+## recaptcha
+
+- `gcloud alpha recaptcha`
+- `gcloud alpha recaptcha firewall-policies`
+- `gcloud alpha recaptcha firewall-policies create`
+- `gcloud alpha recaptcha firewall-policies delete`
+- `gcloud alpha recaptcha firewall-policies describe`
+- `gcloud alpha recaptcha firewall-policies list`
+- `gcloud alpha recaptcha firewall-policies reorder`
+- `gcloud alpha recaptcha firewall-policies update`
+- `gcloud alpha recaptcha keys`
+- `gcloud alpha recaptcha keys add-ip-override`
+- `gcloud alpha recaptcha keys create`
+- `gcloud alpha recaptcha keys delete`
+- `gcloud alpha recaptcha keys describe`
+- `gcloud alpha recaptcha keys list`
+- `gcloud alpha recaptcha keys list-ip-overrides`
+- `gcloud alpha recaptcha keys migrate`
+- `gcloud alpha recaptcha keys remove-ip-override`
+- `gcloud alpha recaptcha keys update`
+- `gcloud alpha recaptcha policies`
+- `gcloud alpha recaptcha policies describe`
+- `gcloud alpha recaptcha policies update`
+
+## recommender
+
+- `gcloud alpha recommender`
+- `gcloud alpha recommender insights`
+- `gcloud alpha recommender insights describe`
+- `gcloud alpha recommender insights list`
+- `gcloud alpha recommender insights mark-accepted`
+- `gcloud alpha recommender insights mark-active`
+- `gcloud alpha recommender insights mark-dismissed`
+- `gcloud alpha recommender recommendations`
+- `gcloud alpha recommender recommendations describe`
+- `gcloud alpha recommender recommendations list`
+- `gcloud alpha recommender recommendations mark-active`
+- `gcloud alpha recommender recommendations mark-claimed`
+- `gcloud alpha recommender recommendations mark-dismissed`
+- `gcloud alpha recommender recommendations mark-failed`
+- `gcloud alpha recommender recommendations mark-succeeded`
+- `gcloud alpha recommender recommender-configs`
+- `gcloud alpha recommender recommender-configs describe`
+
+## redis
+
+- `gcloud alpha redis`
+- `gcloud alpha redis acl-policies`
+- `gcloud alpha redis acl-policies create`
+- `gcloud alpha redis acl-policies delete`
+- `gcloud alpha redis acl-policies describe`
+- `gcloud alpha redis acl-policies list`
+- `gcloud alpha redis acl-policies update`
+- `gcloud alpha redis clusters`
+- `gcloud alpha redis clusters add-cluster-endpoints`
+- `gcloud alpha redis clusters backup-collections`
+- `gcloud alpha redis clusters backup-collections describe`
+- `gcloud alpha redis clusters backup-collections list`
+- `gcloud alpha redis clusters backups`
+- `gcloud alpha redis clusters backups delete`
+- `gcloud alpha redis clusters backups describe`
+- `gcloud alpha redis clusters backups export`
+- `gcloud alpha redis clusters backups list`
+- `gcloud alpha redis clusters create`
+- `gcloud alpha redis clusters create-backup`
+- `gcloud alpha redis clusters create-token-auth-user`
+- `gcloud alpha redis clusters delete`
+- `gcloud alpha redis clusters describe`
+- `gcloud alpha redis clusters detach`
+- `gcloud alpha redis clusters detach-secondaries`
+- `gcloud alpha redis clusters get-cluster-certificate-authority`
+- `gcloud alpha redis clusters get-shared-regional-certificate-authority`
+- `gcloud alpha redis clusters list`
+- `gcloud alpha redis clusters remove-cluster-endpoints`
+- `gcloud alpha redis clusters reschedule-maintenance`
+- `gcloud alpha redis clusters switchover`
+- `gcloud alpha redis clusters token-auth-users`
+- `gcloud alpha redis clusters token-auth-users auth-tokens`
+- `gcloud alpha redis clusters token-auth-users auth-tokens delete`
+- `gcloud alpha redis clusters token-auth-users auth-tokens describe`
+- `gcloud alpha redis clusters token-auth-users auth-tokens list`
+- `gcloud alpha redis clusters token-auth-users create-auth-token`
+- `gcloud alpha redis clusters token-auth-users delete`
+- `gcloud alpha redis clusters token-auth-users describe`
+- `gcloud alpha redis clusters token-auth-users list`
+- `gcloud alpha redis clusters update`
+- `gcloud alpha redis instances`
+- `gcloud alpha redis instances config`
+- `gcloud alpha redis instances config export`
+- `gcloud alpha redis instances create`
+- `gcloud alpha redis instances delete`
+- `gcloud alpha redis instances describe`
+- `gcloud alpha redis instances export`
+- `gcloud alpha redis instances failover`
+- `gcloud alpha redis instances get-auth-string`
+- `gcloud alpha redis instances import`
+- `gcloud alpha redis instances list`
+- `gcloud alpha redis instances reschedule-maintenance`
+- `gcloud alpha redis instances update`
+- `gcloud alpha redis instances upgrade`
+- `gcloud alpha redis operations`
+- `gcloud alpha redis operations cancel`
+- `gcloud alpha redis operations describe`
+- `gcloud alpha redis operations list`
+- `gcloud alpha redis regions`
+- `gcloud alpha redis regions describe`
+- `gcloud alpha redis regions list`
+- `gcloud alpha redis zones`
+- `gcloud alpha redis zones list`
+
+## resource-config
+
+- `gcloud alpha resource-config`
+- `gcloud alpha resource-config apply`
+- `gcloud alpha resource-config bulk-export`
+- `gcloud alpha resource-config list-resource-types`
+- `gcloud alpha resource-config terraform`
+- `gcloud alpha resource-config terraform generate-import`
+- `gcloud alpha resource-config terraform init-provider`
+
+## resource-manager
+
+- `gcloud alpha resource-manager`
+- `gcloud alpha resource-manager capabilities`
+- `gcloud alpha resource-manager capabilities describe`
+- `gcloud alpha resource-manager capabilities update`
+- `gcloud alpha resource-manager folders`
+- `gcloud alpha resource-manager folders add-iam-policy-binding`
+- `gcloud alpha resource-manager folders create`
+- `gcloud alpha resource-manager folders delete`
+- `gcloud alpha resource-manager folders describe`
+- `gcloud alpha resource-manager folders get-ancestors-iam-policy`
+- `gcloud alpha resource-manager folders get-iam-policy`
+- `gcloud alpha resource-manager folders list`
+- `gcloud alpha resource-manager folders move`
+- `gcloud alpha resource-manager folders remove-iam-policy-binding`
+- `gcloud alpha resource-manager folders search`
+- `gcloud alpha resource-manager folders set-iam-policy`
+- `gcloud alpha resource-manager folders undelete`
+- `gcloud alpha resource-manager folders update`
+- `gcloud alpha resource-manager liens`
+- `gcloud alpha resource-manager liens config`
+- `gcloud alpha resource-manager liens config export`
+- `gcloud alpha resource-manager liens create`
+- `gcloud alpha resource-manager liens delete`
+- `gcloud alpha resource-manager liens list`
+- `gcloud alpha resource-manager operations`
+- `gcloud alpha resource-manager operations describe`
+- `gcloud alpha resource-manager org-policies`
+- `gcloud alpha resource-manager org-policies allow`
+- `gcloud alpha resource-manager org-policies delete`
+- `gcloud alpha resource-manager org-policies deny`
+- `gcloud alpha resource-manager org-policies describe`
+- `gcloud alpha resource-manager org-policies disable-enforce`
+- `gcloud alpha resource-manager org-policies enable-enforce`
+- `gcloud alpha resource-manager org-policies list`
+- `gcloud alpha resource-manager org-policies set-policy`
+- `gcloud alpha resource-manager semantics-catalog`
+- `gcloud alpha resource-manager semantics-catalog list`
+- `gcloud alpha resource-manager tags`
+- `gcloud alpha resource-manager tags bindings`
+- `gcloud alpha resource-manager tags bindings create`
+- `gcloud alpha resource-manager tags bindings delete`
+- `gcloud alpha resource-manager tags bindings list`
+- `gcloud alpha resource-manager tags bindings update`
+- `gcloud alpha resource-manager tags holds`
+- `gcloud alpha resource-manager tags holds create`
+- `gcloud alpha resource-manager tags holds delete`
+- `gcloud alpha resource-manager tags holds list`
+- `gcloud alpha resource-manager tags keys`
+- `gcloud alpha resource-manager tags keys add-iam-policy-binding`
+- `gcloud alpha resource-manager tags keys create`
+- `gcloud alpha resource-manager tags keys delete`
+- `gcloud alpha resource-manager tags keys describe`
+- `gcloud alpha resource-manager tags keys get-iam-policy`
+- `gcloud alpha resource-manager tags keys list`
+- `gcloud alpha resource-manager tags keys remove-iam-policy-binding`
+- `gcloud alpha resource-manager tags keys set-iam-policy`
+- `gcloud alpha resource-manager tags keys update`
+- `gcloud alpha resource-manager tags values`
+- `gcloud alpha resource-manager tags values add-iam-policy-binding`
+- `gcloud alpha resource-manager tags values create`
+- `gcloud alpha resource-manager tags values delete`
+- `gcloud alpha resource-manager tags values describe`
+- `gcloud alpha resource-manager tags values get-iam-policy`
+- `gcloud alpha resource-manager tags values list`
+- `gcloud alpha resource-manager tags values remove-iam-policy-binding`
+- `gcloud alpha resource-manager tags values set-iam-policy`
+- `gcloud alpha resource-manager tags values update`
+
+## run
+
+- `gcloud alpha run`
+- `gcloud alpha run compose`
+- `gcloud alpha run compose up`
+- `gcloud alpha run deploy`
+- `gcloud alpha run domain-mappings`
+- `gcloud alpha run domain-mappings create`
+- `gcloud alpha run domain-mappings delete`
+- `gcloud alpha run domain-mappings describe`
+- `gcloud alpha run domain-mappings list`
+- `gcloud alpha run instances`
+- `gcloud alpha run instances add-iam-policy-binding`
+- `gcloud alpha run instances create`
+- `gcloud alpha run instances delete`
+- `gcloud alpha run instances describe`
+- `gcloud alpha run instances dev`
+- `gcloud alpha run instances get-iam-policy`
+- `gcloud alpha run instances list`
+- `gcloud alpha run instances logs`
+- `gcloud alpha run instances logs read`
+- `gcloud alpha run instances logs tail`
+- `gcloud alpha run instances remove-iam-policy-binding`
+- `gcloud alpha run instances replace`
+- `gcloud alpha run instances set-iam-policy`
+- `gcloud alpha run instances start`
+- `gcloud alpha run instances stop`
+- `gcloud alpha run jobs`
+- `gcloud alpha run jobs add-iam-policy-binding`
+- `gcloud alpha run jobs create`
+- `gcloud alpha run jobs delete`
+- `gcloud alpha run jobs deploy`
+- `gcloud alpha run jobs describe`
+- `gcloud alpha run jobs execute`
+- `gcloud alpha run jobs executions`
+- `gcloud alpha run jobs executions cancel`
+- `gcloud alpha run jobs executions delete`
+- `gcloud alpha run jobs executions describe`
+- `gcloud alpha run jobs executions list`
+- `gcloud alpha run jobs executions logs`
+- `gcloud alpha run jobs executions logs read`
+- `gcloud alpha run jobs executions logs tail`
+- `gcloud alpha run jobs executions tasks`
+- `gcloud alpha run jobs executions tasks describe`
+- `gcloud alpha run jobs executions tasks list`
+- `gcloud alpha run jobs get-iam-policy`
+- `gcloud alpha run jobs list`
+- `gcloud alpha run jobs logs`
+- `gcloud alpha run jobs logs read`
+- `gcloud alpha run jobs logs tail`
+- `gcloud alpha run jobs remove-iam-policy-binding`
+- `gcloud alpha run jobs replace`
+- `gcloud alpha run jobs set-iam-policy`
+- `gcloud alpha run jobs update`
+- `gcloud alpha run multi-region-services`
+- `gcloud alpha run multi-region-services delete`
+- `gcloud alpha run multi-region-services describe`
+- `gcloud alpha run multi-region-services list`
+- `gcloud alpha run multi-region-services replace`
+- `gcloud alpha run multi-region-services update`
+- `gcloud alpha run multi-region-services update-traffic`
+- `gcloud alpha run regions`
+- `gcloud alpha run regions list`
+- `gcloud alpha run revisions`
+- `gcloud alpha run revisions delete`
+- `gcloud alpha run revisions describe`
+- `gcloud alpha run revisions list`
+- `gcloud alpha run revisions logs`
+- `gcloud alpha run revisions logs read`
+- `gcloud alpha run revisions logs tail`
+- `gcloud alpha run services`
+- `gcloud alpha run services add-iam-policy-binding`
+- `gcloud alpha run services delete`
+- `gcloud alpha run services describe`
+- `gcloud alpha run services get-iam-policy`
+- `gcloud alpha run services list`
+- `gcloud alpha run services logs`
+- `gcloud alpha run services logs read`
+- `gcloud alpha run services logs tail`
+- `gcloud alpha run services proxy`
+- `gcloud alpha run services remove-iam-policy-binding`
+- `gcloud alpha run services replace`
+- `gcloud alpha run services set-iam-policy`
+- `gcloud alpha run services update`
+- `gcloud alpha run services update-traffic`
+- `gcloud alpha run worker-pools`
+- `gcloud alpha run worker-pools add-iam-policy-binding`
+- `gcloud alpha run worker-pools delete`
+- `gcloud alpha run worker-pools deploy`
+- `gcloud alpha run worker-pools describe`
+- `gcloud alpha run worker-pools get-iam-policy`
+- `gcloud alpha run worker-pools list`
+- `gcloud alpha run worker-pools logs`
+- `gcloud alpha run worker-pools logs read`
+- `gcloud alpha run worker-pools logs tail`
+- `gcloud alpha run worker-pools remove-iam-policy-binding`
+- `gcloud alpha run worker-pools replace`
+- `gcloud alpha run worker-pools revisions`
+- `gcloud alpha run worker-pools revisions delete`
+- `gcloud alpha run worker-pools revisions describe`
+- `gcloud alpha run worker-pools revisions list`
+- `gcloud alpha run worker-pools revisions logs`
+- `gcloud alpha run worker-pools revisions logs read`
+- `gcloud alpha run worker-pools revisions logs tail`
+- `gcloud alpha run worker-pools set-iam-policy`
+- `gcloud alpha run worker-pools update`
+- `gcloud alpha run worker-pools update-instance-split`
+
+## scc
+
+- `gcloud alpha scc`
+- `gcloud alpha scc assets`
+- `gcloud alpha scc assets describe`
+- `gcloud alpha scc assets get-parent`
+- `gcloud alpha scc assets get-project`
+- `gcloud alpha scc assets group`
+- `gcloud alpha scc assets list`
+- `gcloud alpha scc assets list-marks`
+- `gcloud alpha scc assets run-discovery`
+- `gcloud alpha scc assets update-marks`
+- `gcloud alpha scc custom-modules`
+- `gcloud alpha scc custom-modules etd`
+- `gcloud alpha scc custom-modules etd create`
+- `gcloud alpha scc custom-modules etd delete`
+- `gcloud alpha scc custom-modules etd get`
+- `gcloud alpha scc custom-modules etd get-effective`
+- `gcloud alpha scc custom-modules etd list`
+- `gcloud alpha scc custom-modules etd list-descendant`
+- `gcloud alpha scc custom-modules etd list-effective`
+- `gcloud alpha scc custom-modules etd update`
+- `gcloud alpha scc custom-modules sha`
+- `gcloud alpha scc custom-modules sha create`
+- `gcloud alpha scc custom-modules sha delete`
+- `gcloud alpha scc custom-modules sha get`
+- `gcloud alpha scc custom-modules sha get-effective`
+- `gcloud alpha scc custom-modules sha list`
+- `gcloud alpha scc custom-modules sha list-descendant`
+- `gcloud alpha scc custom-modules sha list-effective`
+- `gcloud alpha scc custom-modules sha simulate`
+- `gcloud alpha scc custom-modules sha test`
+- `gcloud alpha scc custom-modules sha update`
+- `gcloud alpha scc findings`
+- `gcloud alpha scc findings bulk-mute`
+- `gcloud alpha scc findings create`
+- `gcloud alpha scc findings export-to-bigquery`
+- `gcloud alpha scc findings group`
+- `gcloud alpha scc findings list`
+- `gcloud alpha scc findings list-marks`
+- `gcloud alpha scc findings set-mute`
+- `gcloud alpha scc findings update`
+- `gcloud alpha scc findings update-marks`
+- `gcloud alpha scc iac-validation-reports`
+- `gcloud alpha scc iac-validation-reports create`
+- `gcloud alpha scc iac-validation-reports describe`
+- `gcloud alpha scc iac-validation-reports list`
+- `gcloud alpha scc manage`
+- `gcloud alpha scc manage billing-metadata`
+- `gcloud alpha scc manage billing-metadata describe`
+- `gcloud alpha scc manage custom-modules`
+- `gcloud alpha scc manage custom-modules etd`
+- `gcloud alpha scc manage custom-modules etd create`
+- `gcloud alpha scc manage custom-modules etd delete`
+- `gcloud alpha scc manage custom-modules etd describe`
+- `gcloud alpha scc manage custom-modules etd describe-effective`
+- `gcloud alpha scc manage custom-modules etd list`
+- `gcloud alpha scc manage custom-modules etd list-descendant`
+- `gcloud alpha scc manage custom-modules etd list-effective`
+- `gcloud alpha scc manage custom-modules etd update`
+- `gcloud alpha scc manage custom-modules etd validate`
+- `gcloud alpha scc manage custom-modules sha`
+- `gcloud alpha scc manage custom-modules sha create`
+- `gcloud alpha scc manage custom-modules sha delete`
+- `gcloud alpha scc manage custom-modules sha describe`
+- `gcloud alpha scc manage custom-modules sha describe-effective`
+- `gcloud alpha scc manage custom-modules sha list`
+- `gcloud alpha scc manage custom-modules sha list-descendant`
+- `gcloud alpha scc manage custom-modules sha list-effective`
+- `gcloud alpha scc manage custom-modules sha simulate`
+- `gcloud alpha scc manage custom-modules sha update`
+- `gcloud alpha scc manage services`
+- `gcloud alpha scc manage services describe`
+- `gcloud alpha scc manage services list`
+- `gcloud alpha scc manage services update`
+- `gcloud alpha scc muteconfigs`
+- `gcloud alpha scc muteconfigs create`
+- `gcloud alpha scc muteconfigs delete`
+- `gcloud alpha scc muteconfigs get`
+- `gcloud alpha scc muteconfigs list`
+- `gcloud alpha scc muteconfigs update`
+- `gcloud alpha scc notifications`
+- `gcloud alpha scc notifications create`
+- `gcloud alpha scc notifications delete`
+- `gcloud alpha scc notifications describe`
+- `gcloud alpha scc notifications list`
+- `gcloud alpha scc notifications update`
+- `gcloud alpha scc operations`
+- `gcloud alpha scc operations describe`
+- `gcloud alpha scc posture-deployments`
+- `gcloud alpha scc posture-deployments create`
+- `gcloud alpha scc posture-deployments delete`
+- `gcloud alpha scc posture-deployments describe`
+- `gcloud alpha scc posture-deployments list`
+- `gcloud alpha scc posture-deployments update`
+- `gcloud alpha scc posture-operations`
+- `gcloud alpha scc posture-operations describe`
+- `gcloud alpha scc posture-templates`
+- `gcloud alpha scc posture-templates describe`
+- `gcloud alpha scc posture-templates list`
+- `gcloud alpha scc postures`
+- `gcloud alpha scc postures create`
+- `gcloud alpha scc postures delete`
+- `gcloud alpha scc postures describe`
+- `gcloud alpha scc postures extract`
+- `gcloud alpha scc postures list`
+- `gcloud alpha scc postures list-revisions`
+- `gcloud alpha scc postures update`
+- `gcloud alpha scc remediation-intents`
+- `gcloud alpha scc remediation-intents auto-remediate`
+- `gcloud alpha scc remediation-intents create`
+- `gcloud alpha scc remediation-intents delete`
+- `gcloud alpha scc remediation-intents describe`
+- `gcloud alpha scc remediation-intents list`
+- `gcloud alpha scc remediation-intents update`
+- `gcloud alpha scc settings`
+- `gcloud alpha scc settings describe-explicit`
+- `gcloud alpha scc settings services`
+- `gcloud alpha scc settings services describe`
+- `gcloud alpha scc settings services describe-explicit`
+- `gcloud alpha scc settings services disable`
+- `gcloud alpha scc settings services enable`
+- `gcloud alpha scc settings services inherit`
+- `gcloud alpha scc settings services modules`
+- `gcloud alpha scc settings services modules describe`
+- `gcloud alpha scc settings services modules describe-explicit`
+- `gcloud alpha scc settings services modules disable`
+- `gcloud alpha scc settings services modules enable`
+- `gcloud alpha scc settings services modules update`
+- `gcloud alpha scc sources`
+- `gcloud alpha scc sources describe`
+- `gcloud alpha scc sources list`
+
+## scheduler
+
+- `gcloud alpha scheduler`
+- `gcloud alpha scheduler jobs`
+- `gcloud alpha scheduler jobs create`
+- `gcloud alpha scheduler jobs create app-engine`
+- `gcloud alpha scheduler jobs create http`
+- `gcloud alpha scheduler jobs create pubsub`
+- `gcloud alpha scheduler jobs delete`
+- `gcloud alpha scheduler jobs describe`
+- `gcloud alpha scheduler jobs list`
+- `gcloud alpha scheduler jobs pause`
+- `gcloud alpha scheduler jobs resume`
+- `gcloud alpha scheduler jobs run`
+- `gcloud alpha scheduler jobs update`
+- `gcloud alpha scheduler jobs update app-engine`
+- `gcloud alpha scheduler jobs update http`
+- `gcloud alpha scheduler jobs update pubsub`
+- `gcloud alpha scheduler locations`
+- `gcloud alpha scheduler locations describe`
+- `gcloud alpha scheduler locations list`
+
+## secrets
+
+- `gcloud alpha secrets`
+- `gcloud alpha secrets config`
+- `gcloud alpha secrets config export`
+- `gcloud alpha secrets versions`
+- `gcloud alpha secrets versions config`
+- `gcloud alpha secrets versions config export`
+
+## service-directory
+
+- `gcloud alpha service-directory`
+- `gcloud alpha service-directory endpoints`
+- `gcloud alpha service-directory endpoints create`
+- `gcloud alpha service-directory endpoints delete`
+- `gcloud alpha service-directory endpoints describe`
+- `gcloud alpha service-directory endpoints list`
+- `gcloud alpha service-directory endpoints update`
+- `gcloud alpha service-directory locations`
+- `gcloud alpha service-directory locations describe`
+- `gcloud alpha service-directory locations list`
+- `gcloud alpha service-directory namespaces`
+- `gcloud alpha service-directory namespaces add-iam-policy-binding`
+- `gcloud alpha service-directory namespaces create`
+- `gcloud alpha service-directory namespaces delete`
+- `gcloud alpha service-directory namespaces describe`
+- `gcloud alpha service-directory namespaces get-iam-policy`
+- `gcloud alpha service-directory namespaces list`
+- `gcloud alpha service-directory namespaces remove-iam-policy-binding`
+- `gcloud alpha service-directory namespaces set-iam-policy`
+- `gcloud alpha service-directory namespaces update`
+- `gcloud alpha service-directory services`
+- `gcloud alpha service-directory services add-iam-policy-binding`
+- `gcloud alpha service-directory services create`
+- `gcloud alpha service-directory services delete`
+- `gcloud alpha service-directory services describe`
+- `gcloud alpha service-directory services get-iam-policy`
+- `gcloud alpha service-directory services list`
+- `gcloud alpha service-directory services remove-iam-policy-binding`
+- `gcloud alpha service-directory services resolve`
+- `gcloud alpha service-directory services set-iam-policy`
+- `gcloud alpha service-directory services update`
+
+## service-extensions
+
+- `gcloud alpha service-extensions`
+- `gcloud alpha service-extensions lb-route-extensions`
+- `gcloud alpha service-extensions lb-route-extensions delete`
+- `gcloud alpha service-extensions lb-route-extensions describe`
+- `gcloud alpha service-extensions lb-route-extensions import`
+- `gcloud alpha service-extensions lb-route-extensions list`
+- `gcloud alpha service-extensions lb-traffic-extensions`
+- `gcloud alpha service-extensions lb-traffic-extensions delete`
+- `gcloud alpha service-extensions lb-traffic-extensions describe`
+- `gcloud alpha service-extensions lb-traffic-extensions import`
+- `gcloud alpha service-extensions lb-traffic-extensions list`
+- `gcloud alpha service-extensions wasm-actions`
+- `gcloud alpha service-extensions wasm-actions create`
+- `gcloud alpha service-extensions wasm-actions delete`
+- `gcloud alpha service-extensions wasm-actions describe`
+- `gcloud alpha service-extensions wasm-actions list`
+- `gcloud alpha service-extensions wasm-plugin-versions`
+- `gcloud alpha service-extensions wasm-plugin-versions create`
+- `gcloud alpha service-extensions wasm-plugin-versions delete`
+- `gcloud alpha service-extensions wasm-plugin-versions describe`
+- `gcloud alpha service-extensions wasm-plugin-versions list`
+- `gcloud alpha service-extensions wasm-plugins`
+- `gcloud alpha service-extensions wasm-plugins create`
+- `gcloud alpha service-extensions wasm-plugins delete`
+- `gcloud alpha service-extensions wasm-plugins describe`
+- `gcloud alpha service-extensions wasm-plugins list`
+- `gcloud alpha service-extensions wasm-plugins update`
+
+## service-health
+
+- `gcloud alpha service-health`
+- `gcloud alpha service-health artifacts`
+- `gcloud alpha service-health artifacts describe`
+- `gcloud alpha service-health artifacts list`
+- `gcloud alpha service-health events`
+- `gcloud alpha service-health events describe`
+- `gcloud alpha service-health events list`
+- `gcloud alpha service-health organization-events`
+- `gcloud alpha service-health organization-events describe`
+- `gcloud alpha service-health organization-events list`
+- `gcloud alpha service-health organization-impacts`
+- `gcloud alpha service-health organization-impacts describe`
+- `gcloud alpha service-health organization-impacts list`
+
+## services
+
+- `gcloud alpha services`
+- `gcloud alpha services api-keys`
+- `gcloud alpha services api-keys create`
+- `gcloud alpha services api-keys delete`
+- `gcloud alpha services api-keys describe`
+- `gcloud alpha services api-keys get-key-string`
+- `gcloud alpha services api-keys list`
+- `gcloud alpha services api-keys lookup`
+- `gcloud alpha services api-keys undelete`
+- `gcloud alpha services api-keys update`
+- `gcloud alpha services disable`
+- `gcloud alpha services enable`
+- `gcloud alpha services groups`
+- `gcloud alpha services groups list-expanded-members`
+- `gcloud alpha services groups list-members`
+- `gcloud alpha services identity`
+- `gcloud alpha services identity create`
+- `gcloud alpha services list`
+- `gcloud alpha services mcp`
+- `gcloud alpha services mcp content-security`
+- `gcloud alpha services mcp content-security add`
+- `gcloud alpha services mcp content-security get`
+- `gcloud alpha services mcp content-security remove`
+- `gcloud alpha services mcp disable`
+- `gcloud alpha services mcp enable`
+- `gcloud alpha services mcp list`
+- `gcloud alpha services operations`
+- `gcloud alpha services operations describe`
+- `gcloud alpha services operations wait`
+- `gcloud alpha services peered-dns-domains`
+- `gcloud alpha services peered-dns-domains create`
+- `gcloud alpha services peered-dns-domains delete`
+- `gcloud alpha services peered-dns-domains list`
+- `gcloud alpha services policies`
+- `gcloud alpha services policies get`
+- `gcloud alpha services policies get-effective`
+- `gcloud alpha services policies test-enabled`
+- `gcloud alpha services policies update`
+- `gcloud alpha services quota`
+- `gcloud alpha services quota create`
+- `gcloud alpha services quota delete`
+- `gcloud alpha services quota list`
+- `gcloud alpha services quota update`
+- `gcloud alpha services vpc-peerings`
+- `gcloud alpha services vpc-peerings connect`
+- `gcloud alpha services vpc-peerings delete`
+- `gcloud alpha services vpc-peerings disable-vpc-service-controls`
+- `gcloud alpha services vpc-peerings enable-vpc-service-controls`
+- `gcloud alpha services vpc-peerings get-vpc-service-controls`
+- `gcloud alpha services vpc-peerings list`
+- `gcloud alpha services vpc-peerings operations`
+- `gcloud alpha services vpc-peerings operations describe`
+- `gcloud alpha services vpc-peerings operations wait`
+- `gcloud alpha services vpc-peerings update`
+
+## source
+
+- `gcloud alpha source`
+- `gcloud alpha source project-configs`
+- `gcloud alpha source project-configs describe`
+- `gcloud alpha source project-configs update`
+- `gcloud alpha source repos`
+- `gcloud alpha source repos clone`
+- `gcloud alpha source repos config`
+- `gcloud alpha source repos config export`
+- `gcloud alpha source repos create`
+- `gcloud alpha source repos delete`
+- `gcloud alpha source repos describe`
+- `gcloud alpha source repos get-iam-policy`
+- `gcloud alpha source repos list`
+- `gcloud alpha source repos set-iam-policy`
+- `gcloud alpha source repos update`
+
+## source-manager
+
+- `gcloud alpha source-manager`
+- `gcloud alpha source-manager instances`
+- `gcloud alpha source-manager instances add-iam-policy-binding`
+- `gcloud alpha source-manager instances create`
+- `gcloud alpha source-manager instances delete`
+- `gcloud alpha source-manager instances describe`
+- `gcloud alpha source-manager instances get-iam-policy`
+- `gcloud alpha source-manager instances list`
+- `gcloud alpha source-manager instances remove-iam-policy-binding`
+- `gcloud alpha source-manager instances set-iam-policy`
+- `gcloud alpha source-manager locations`
+- `gcloud alpha source-manager locations list`
+- `gcloud alpha source-manager operations`
+- `gcloud alpha source-manager operations describe`
+- `gcloud alpha source-manager operations list`
+- `gcloud alpha source-manager repos`
+- `gcloud alpha source-manager repos add-iam-policy-binding`
+- `gcloud alpha source-manager repos create`
+- `gcloud alpha source-manager repos delete`
+- `gcloud alpha source-manager repos describe`
+- `gcloud alpha source-manager repos get-iam-policy`
+- `gcloud alpha source-manager repos list`
+- `gcloud alpha source-manager repos remove-iam-policy-binding`
+- `gcloud alpha source-manager repos set-iam-policy`
+- `gcloud alpha source-manager repos update`
+
+## spanner
+
+- `gcloud alpha spanner`
+- `gcloud alpha spanner backup-schedules`
+- `gcloud alpha spanner backup-schedules add-iam-policy-binding`
+- `gcloud alpha spanner backup-schedules create`
+- `gcloud alpha spanner backup-schedules delete`
+- `gcloud alpha spanner backup-schedules describe`
+- `gcloud alpha spanner backup-schedules get-iam-policy`
+- `gcloud alpha spanner backup-schedules list`
+- `gcloud alpha spanner backup-schedules remove-iam-policy-binding`
+- `gcloud alpha spanner backup-schedules set-iam-policy`
+- `gcloud alpha spanner backup-schedules update`
+- `gcloud alpha spanner backups`
+- `gcloud alpha spanner backups add-iam-policy-binding`
+- `gcloud alpha spanner backups copy`
+- `gcloud alpha spanner backups create`
+- `gcloud alpha spanner backups delete`
+- `gcloud alpha spanner backups describe`
+- `gcloud alpha spanner backups get-iam-policy`
+- `gcloud alpha spanner backups list`
+- `gcloud alpha spanner backups remove-iam-policy-binding`
+- `gcloud alpha spanner backups set-iam-policy`
+- `gcloud alpha spanner backups update-metadata`
+- `gcloud alpha spanner cli`
+- `gcloud alpha spanner databases`
+- `gcloud alpha spanner databases add-iam-policy-binding`
+- `gcloud alpha spanner databases change-quorum`
+- `gcloud alpha spanner databases config`
+- `gcloud alpha spanner databases config export`
+- `gcloud alpha spanner databases create`
+- `gcloud alpha spanner databases ddl`
+- `gcloud alpha spanner databases ddl describe`
+- `gcloud alpha spanner databases ddl update`
+- `gcloud alpha spanner databases delete`
+- `gcloud alpha spanner databases describe`
+- `gcloud alpha spanner databases execute-sql`
+- `gcloud alpha spanner databases get-iam-policy`
+- `gcloud alpha spanner databases import`
+- `gcloud alpha spanner databases list`
+- `gcloud alpha spanner databases remove-iam-policy-binding`
+- `gcloud alpha spanner databases restore`
+- `gcloud alpha spanner databases roles`
+- `gcloud alpha spanner databases roles list`
+- `gcloud alpha spanner databases sessions`
+- `gcloud alpha spanner databases sessions delete`
+- `gcloud alpha spanner databases sessions list`
+- `gcloud alpha spanner databases set-iam-policy`
+- `gcloud alpha spanner databases splits`
+- `gcloud alpha spanner databases splits add`
+- `gcloud alpha spanner databases splits list`
+- `gcloud alpha spanner databases update`
+- `gcloud alpha spanner instance-configs`
+- `gcloud alpha spanner instance-configs create`
+- `gcloud alpha spanner instance-configs delete`
+- `gcloud alpha spanner instance-configs describe`
+- `gcloud alpha spanner instance-configs list`
+- `gcloud alpha spanner instance-configs update`
+- `gcloud alpha spanner instance-partitions`
+- `gcloud alpha spanner instance-partitions create`
+- `gcloud alpha spanner instance-partitions delete`
+- `gcloud alpha spanner instance-partitions describe`
+- `gcloud alpha spanner instance-partitions list`
+- `gcloud alpha spanner instance-partitions update`
+- `gcloud alpha spanner instances`
+- `gcloud alpha spanner instances add-iam-policy-binding`
+- `gcloud alpha spanner instances config`
+- `gcloud alpha spanner instances config export`
+- `gcloud alpha spanner instances create`
+- `gcloud alpha spanner instances delete`
+- `gcloud alpha spanner instances describe`
+- `gcloud alpha spanner instances get-iam-policy`
+- `gcloud alpha spanner instances get-locations`
+- `gcloud alpha spanner instances list`
+- `gcloud alpha spanner instances move`
+- `gcloud alpha spanner instances remove-iam-policy-binding`
+- `gcloud alpha spanner instances set-iam-policy`
+- `gcloud alpha spanner instances update`
+- `gcloud alpha spanner migrate`
+- `gcloud alpha spanner migrate cleanup`
+- `gcloud alpha spanner migrate data`
+- `gcloud alpha spanner migrate schema`
+- `gcloud alpha spanner migrate schema-and-data`
+- `gcloud alpha spanner migrate web`
+- `gcloud alpha spanner operations`
+- `gcloud alpha spanner operations cancel`
+- `gcloud alpha spanner operations describe`
+- `gcloud alpha spanner operations list`
+- `gcloud alpha spanner rows`
+- `gcloud alpha spanner rows delete`
+- `gcloud alpha spanner rows insert`
+- `gcloud alpha spanner rows update`
+- `gcloud alpha spanner samples`
+- `gcloud alpha spanner samples backend`
+- `gcloud alpha spanner samples init`
+- `gcloud alpha spanner samples list`
+- `gcloud alpha spanner samples run`
+- `gcloud alpha spanner samples workload`
+
+## sql
+
+- `gcloud alpha sql`
+- `gcloud alpha sql backups`
+- `gcloud alpha sql backups create`
+- `gcloud alpha sql backups delete`
+- `gcloud alpha sql backups describe`
+- `gcloud alpha sql backups list`
+- `gcloud alpha sql backups patch`
+- `gcloud alpha sql backups restore`
+- `gcloud alpha sql connect`
+- `gcloud alpha sql databases`
+- `gcloud alpha sql databases config`
+- `gcloud alpha sql databases config export`
+- `gcloud alpha sql databases create`
+- `gcloud alpha sql databases delete`
+- `gcloud alpha sql databases describe`
+- `gcloud alpha sql databases list`
+- `gcloud alpha sql databases patch`
+- `gcloud alpha sql export`
+- `gcloud alpha sql export bak`
+- `gcloud alpha sql export csv`
+- `gcloud alpha sql export sql`
+- `gcloud alpha sql export tde`
+- `gcloud alpha sql flags`
+- `gcloud alpha sql flags list`
+- `gcloud alpha sql generate-login-token`
+- `gcloud alpha sql import`
+- `gcloud alpha sql import bak`
+- `gcloud alpha sql import csv`
+- `gcloud alpha sql import sql`
+- `gcloud alpha sql import tde`
+- `gcloud alpha sql instances`
+- `gcloud alpha sql instances clone`
+- `gcloud alpha sql instances config`
+- `gcloud alpha sql instances config export`
+- `gcloud alpha sql instances create`
+- `gcloud alpha sql instances delete`
+- `gcloud alpha sql instances describe`
+- `gcloud alpha sql instances execute-sql`
+- `gcloud alpha sql instances export`
+- `gcloud alpha sql instances failover`
+- `gcloud alpha sql instances get-latest-recovery-time`
+- `gcloud alpha sql instances get-storage-shrink-config`
+- `gcloud alpha sql instances import`
+- `gcloud alpha sql instances list`
+- `gcloud alpha sql instances patch`
+- `gcloud alpha sql instances perform-storage-shrink`
+- `gcloud alpha sql instances point-in-time-restore`
+- `gcloud alpha sql instances promote-replica`
+- `gcloud alpha sql instances reencrypt`
+- `gcloud alpha sql instances reset-ssl-config`
+- `gcloud alpha sql instances restart`
+- `gcloud alpha sql instances restore-backup`
+- `gcloud alpha sql instances switchover`
+- `gcloud alpha sql operations`
+- `gcloud alpha sql operations cancel`
+- `gcloud alpha sql operations describe`
+- `gcloud alpha sql operations list`
+- `gcloud alpha sql operations wait`
+- `gcloud alpha sql reschedule-maintenance`
+- `gcloud alpha sql ssl`
+- `gcloud alpha sql ssl client-certs`
+- `gcloud alpha sql ssl client-certs create`
+- `gcloud alpha sql ssl client-certs delete`
+- `gcloud alpha sql ssl client-certs describe`
+- `gcloud alpha sql ssl client-certs list`
+- `gcloud alpha sql ssl entraid-certs`
+- `gcloud alpha sql ssl entraid-certs create`
+- `gcloud alpha sql ssl entraid-certs list`
+- `gcloud alpha sql ssl entraid-certs rollback`
+- `gcloud alpha sql ssl entraid-certs rotate`
+- `gcloud alpha sql ssl server-ca-certs`
+- `gcloud alpha sql ssl server-ca-certs create`
+- `gcloud alpha sql ssl server-ca-certs list`
+- `gcloud alpha sql ssl server-ca-certs rollback`
+- `gcloud alpha sql ssl server-ca-certs rotate`
+- `gcloud alpha sql ssl server-certs`
+- `gcloud alpha sql ssl server-certs create`
+- `gcloud alpha sql ssl server-certs list`
+- `gcloud alpha sql ssl server-certs rollback`
+- `gcloud alpha sql ssl server-certs rotate`
+- `gcloud alpha sql ssl-certs`
+- `gcloud alpha sql ssl-certs create`
+- `gcloud alpha sql ssl-certs delete`
+- `gcloud alpha sql ssl-certs describe`
+- `gcloud alpha sql ssl-certs list`
+- `gcloud alpha sql tiers`
+- `gcloud alpha sql tiers list`
+- `gcloud alpha sql users`
+- `gcloud alpha sql users assign-roles`
+- `gcloud alpha sql users create`
+- `gcloud alpha sql users delete`
+- `gcloud alpha sql users describe`
+- `gcloud alpha sql users list`
+- `gcloud alpha sql users set-password`
+- `gcloud alpha sql users set-password-policy`
+
+## storage
+
+- `gcloud alpha storage`
+- `gcloud alpha storage batch-operations`
+- `gcloud alpha storage batch-operations jobs`
+- `gcloud alpha storage batch-operations jobs cancel`
+- `gcloud alpha storage batch-operations jobs create`
+- `gcloud alpha storage batch-operations jobs delete`
+- `gcloud alpha storage batch-operations jobs describe`
+- `gcloud alpha storage batch-operations jobs list`
+- `gcloud alpha storage buckets`
+- `gcloud alpha storage buckets add-iam-policy-binding`
+- `gcloud alpha storage buckets anywhere-caches`
+- `gcloud alpha storage buckets anywhere-caches create`
+- `gcloud alpha storage buckets anywhere-caches describe`
+- `gcloud alpha storage buckets anywhere-caches disable`
+- `gcloud alpha storage buckets anywhere-caches list`
+- `gcloud alpha storage buckets anywhere-caches pause`
+- `gcloud alpha storage buckets anywhere-caches resume`
+- `gcloud alpha storage buckets anywhere-caches update`
+- `gcloud alpha storage buckets create`
+- `gcloud alpha storage buckets delete`
+- `gcloud alpha storage buckets describe`
+- `gcloud alpha storage buckets get-iam-policy`
+- `gcloud alpha storage buckets list`
+- `gcloud alpha storage buckets notifications`
+- `gcloud alpha storage buckets notifications create`
+- `gcloud alpha storage buckets notifications delete`
+- `gcloud alpha storage buckets notifications describe`
+- `gcloud alpha storage buckets notifications list`
+- `gcloud alpha storage buckets relocate`
+- `gcloud alpha storage buckets remove-iam-policy-binding`
+- `gcloud alpha storage buckets set-iam-policy`
+- `gcloud alpha storage buckets update`
+- `gcloud alpha storage cat`
+- `gcloud alpha storage cp`
+- `gcloud alpha storage diagnose`
+- `gcloud alpha storage du`
+- `gcloud alpha storage folders`
+- `gcloud alpha storage folders create`
+- `gcloud alpha storage folders delete`
+- `gcloud alpha storage folders describe`
+- `gcloud alpha storage folders list`
+- `gcloud alpha storage hash`
+- `gcloud alpha storage hmac`
+- `gcloud alpha storage hmac create`
+- `gcloud alpha storage hmac delete`
+- `gcloud alpha storage hmac describe`
+- `gcloud alpha storage hmac list`
+- `gcloud alpha storage hmac update`
+- `gcloud alpha storage insights`
+- `gcloud alpha storage insights dataset-configs`
+- `gcloud alpha storage insights dataset-configs create`
+- `gcloud alpha storage insights dataset-configs create-link`
+- `gcloud alpha storage insights dataset-configs delete`
+- `gcloud alpha storage insights dataset-configs delete-link`
+- `gcloud alpha storage insights dataset-configs describe`
+- `gcloud alpha storage insights dataset-configs list`
+- `gcloud alpha storage insights dataset-configs update`
+- `gcloud alpha storage insights inventory-reports`
+- `gcloud alpha storage insights inventory-reports create`
+- `gcloud alpha storage insights inventory-reports delete`
+- `gcloud alpha storage insights inventory-reports describe`
+- `gcloud alpha storage insights inventory-reports details`
+- `gcloud alpha storage insights inventory-reports details describe`
+- `gcloud alpha storage insights inventory-reports details list`
+- `gcloud alpha storage insights inventory-reports list`
+- `gcloud alpha storage insights inventory-reports update`
+- `gcloud alpha storage insights operations`
+- `gcloud alpha storage insights operations cancel`
+- `gcloud alpha storage insights operations describe`
+- `gcloud alpha storage insights operations list`
+- `gcloud alpha storage intelligence-configs`
+- `gcloud alpha storage intelligence-configs describe`
+- `gcloud alpha storage intelligence-configs disable`
+- `gcloud alpha storage intelligence-configs enable`
+- `gcloud alpha storage intelligence-configs update`
+- `gcloud alpha storage intelligence-findings`
+- `gcloud alpha storage intelligence-findings describe`
+- `gcloud alpha storage intelligence-findings list`
+- `gcloud alpha storage intelligence-findings revisions`
+- `gcloud alpha storage intelligence-findings revisions describe`
+- `gcloud alpha storage intelligence-findings revisions list`
+- `gcloud alpha storage intelligence-findings summarize`
+- `gcloud alpha storage ls`
+- `gcloud alpha storage managed-folders`
+- `gcloud alpha storage managed-folders add-iam-policy-binding`
+- `gcloud alpha storage managed-folders create`
+- `gcloud alpha storage managed-folders delete`
+- `gcloud alpha storage managed-folders describe`
+- `gcloud alpha storage managed-folders get-iam-policy`
+- `gcloud alpha storage managed-folders list`
+- `gcloud alpha storage managed-folders remove-iam-policy-binding`
+- `gcloud alpha storage managed-folders set-iam-policy`
+- `gcloud alpha storage mv`
+- `gcloud alpha storage objects`
+- `gcloud alpha storage objects compose`
+- `gcloud alpha storage objects describe`
+- `gcloud alpha storage objects list`
+- `gcloud alpha storage objects update`
+- `gcloud alpha storage operations`
+- `gcloud alpha storage operations cancel`
+- `gcloud alpha storage operations describe`
+- `gcloud alpha storage operations list`
+- `gcloud alpha storage restore`
+- `gcloud alpha storage rm`
+- `gcloud alpha storage rsync`
+- `gcloud alpha storage service-agent`
+- `gcloud alpha storage sign-url`
+
+## survey
+
+- `gcloud alpha survey`
+
+## tasks
+
+- `gcloud alpha tasks`
+- `gcloud alpha tasks acknowledge`
+- `gcloud alpha tasks buffer`
+- `gcloud alpha tasks cancel-lease`
+- `gcloud alpha tasks cmek-config`
+- `gcloud alpha tasks cmek-config describe`
+- `gcloud alpha tasks cmek-config update`
+- `gcloud alpha tasks create-app-engine-task`
+- `gcloud alpha tasks create-http-task`
+- `gcloud alpha tasks create-pull-task`
+- `gcloud alpha tasks delete`
+- `gcloud alpha tasks describe`
+- `gcloud alpha tasks lease`
+- `gcloud alpha tasks list`
+- `gcloud alpha tasks locations`
+- `gcloud alpha tasks locations describe`
+- `gcloud alpha tasks locations list`
+- `gcloud alpha tasks queues`
+- `gcloud alpha tasks queues add-iam-policy-binding`
+- `gcloud alpha tasks queues create`
+- `gcloud alpha tasks queues create-app-engine-queue`
+- `gcloud alpha tasks queues create-pull-queue`
+- `gcloud alpha tasks queues delete`
+- `gcloud alpha tasks queues describe`
+- `gcloud alpha tasks queues get-iam-policy`
+- `gcloud alpha tasks queues list`
+- `gcloud alpha tasks queues pause`
+- `gcloud alpha tasks queues purge`
+- `gcloud alpha tasks queues remove-iam-policy-binding`
+- `gcloud alpha tasks queues resume`
+- `gcloud alpha tasks queues set-iam-policy`
+- `gcloud alpha tasks queues update`
+- `gcloud alpha tasks queues update-app-engine-queue`
+- `gcloud alpha tasks queues update-pull-queue`
+- `gcloud alpha tasks renew-lease`
+- `gcloud alpha tasks run`
+
+## telco-automation
+
+- `gcloud alpha telco-automation`
+- `gcloud alpha telco-automation operations`
+- `gcloud alpha telco-automation operations describe`
+- `gcloud alpha telco-automation operations wait`
+- `gcloud alpha telco-automation orchestration-cluster`
+- `gcloud alpha telco-automation orchestration-cluster create`
+- `gcloud alpha telco-automation orchestration-cluster delete`
+- `gcloud alpha telco-automation orchestration-cluster describe`
+- `gcloud alpha telco-automation orchestration-cluster list`
+
+## terraform
+
+- `gcloud alpha terraform`
+- `gcloud alpha terraform vet`
+
+## topic
+
+- `gcloud alpha topic`
+- `gcloud alpha topic accessibility`
+- `gcloud alpha topic arg-files`
+- `gcloud alpha topic cli-trees`
+- `gcloud alpha topic client-certificate`
+- `gcloud alpha topic command-conventions`
+- `gcloud alpha topic configurations`
+- `gcloud alpha topic datetimes`
+- `gcloud alpha topic endpoint-override`
+- `gcloud alpha topic escaping`
+- `gcloud alpha topic filters`
+- `gcloud alpha topic flags-file`
+- `gcloud alpha topic formats`
+- `gcloud alpha topic gcloudignore`
+- `gcloud alpha topic offline-help`
+- `gcloud alpha topic projections`
+- `gcloud alpha topic resource-keys`
+- `gcloud alpha topic startup`
+- `gcloud alpha topic uninstall`
+
+## trace
+
+- `gcloud alpha trace`
+- `gcloud alpha trace sinks`
+- `gcloud alpha trace sinks create`
+- `gcloud alpha trace sinks delete`
+- `gcloud alpha trace sinks describe`
+- `gcloud alpha trace sinks list`
+- `gcloud alpha trace sinks update`
+
+## transfer
+
+- `gcloud alpha transfer`
+- `gcloud alpha transfer agent-pools`
+- `gcloud alpha transfer agent-pools create`
+- `gcloud alpha transfer agent-pools delete`
+- `gcloud alpha transfer agent-pools describe`
+- `gcloud alpha transfer agent-pools list`
+- `gcloud alpha transfer agent-pools update`
+- `gcloud alpha transfer agents`
+- `gcloud alpha transfer agents delete`
+- `gcloud alpha transfer agents install`
+- `gcloud alpha transfer appliances`
+- `gcloud alpha transfer appliances delete`
+- `gcloud alpha transfer appliances describe`
+- `gcloud alpha transfer appliances list`
+- `gcloud alpha transfer appliances orders`
+- `gcloud alpha transfer appliances orders create`
+- `gcloud alpha transfer appliances orders delete`
+- `gcloud alpha transfer appliances orders describe`
+- `gcloud alpha transfer appliances orders list`
+- `gcloud alpha transfer appliances orders update`
+- `gcloud alpha transfer authorize`
+- `gcloud alpha transfer jobs`
+- `gcloud alpha transfer jobs config`
+- `gcloud alpha transfer jobs config export`
+- `gcloud alpha transfer jobs create`
+- `gcloud alpha transfer jobs delete`
+- `gcloud alpha transfer jobs describe`
+- `gcloud alpha transfer jobs list`
+- `gcloud alpha transfer jobs monitor`
+- `gcloud alpha transfer jobs run`
+- `gcloud alpha transfer jobs update`
+- `gcloud alpha transfer operations`
+- `gcloud alpha transfer operations cancel`
+- `gcloud alpha transfer operations describe`
+- `gcloud alpha transfer operations list`
+- `gcloud alpha transfer operations monitor`
+- `gcloud alpha transfer operations pause`
+- `gcloud alpha transfer operations resume`
+
+## web-security-scanner
+
+- `gcloud alpha web-security-scanner`
+- `gcloud alpha web-security-scanner scan-configs`
+- `gcloud alpha web-security-scanner scan-configs create`
+- `gcloud alpha web-security-scanner scan-configs delete`
+- `gcloud alpha web-security-scanner scan-configs describe`
+- `gcloud alpha web-security-scanner scan-configs list`
+- `gcloud alpha web-security-scanner scan-configs update`
+- `gcloud alpha web-security-scanner scan-runs`
+- `gcloud alpha web-security-scanner scan-runs describe`
+- `gcloud alpha web-security-scanner scan-runs findings`
+- `gcloud alpha web-security-scanner scan-runs findings list`
+- `gcloud alpha web-security-scanner scan-runs list`
+- `gcloud alpha web-security-scanner scan-runs list-crawled-urls`
+- `gcloud alpha web-security-scanner scan-runs start`
+- `gcloud alpha web-security-scanner scan-runs stop`
+
+## workload-identity
+
+- `gcloud alpha workload-identity`
+- `gcloud alpha workload-identity service-agents`
+- `gcloud alpha workload-identity service-agents generate`
+
+## workstations
+
+- `gcloud alpha workstations`
+- `gcloud alpha workstations clusters`
+- `gcloud alpha workstations clusters create`
+- `gcloud alpha workstations clusters delete`
+- `gcloud alpha workstations clusters describe`
+- `gcloud alpha workstations clusters list`
+- `gcloud alpha workstations clusters update`
+- `gcloud alpha workstations configs`
+- `gcloud alpha workstations configs create`
+- `gcloud alpha workstations configs delete`
+- `gcloud alpha workstations configs describe`
+- `gcloud alpha workstations configs get-iam-policy`
+- `gcloud alpha workstations configs list`
+- `gcloud alpha workstations configs set-iam-policy`
+- `gcloud alpha workstations configs update`
+- `gcloud alpha workstations create`
+- `gcloud alpha workstations delete`
+- `gcloud alpha workstations describe`
+- `gcloud alpha workstations get-iam-policy`
+- `gcloud alpha workstations list`
+- `gcloud alpha workstations list-usable`
+- `gcloud alpha workstations set-iam-policy`
+- `gcloud alpha workstations ssh`
+- `gcloud alpha workstations start`
+- `gcloud alpha workstations start-tcp-tunnel`
+- `gcloud alpha workstations stop`
+
+## zone-management
+
+- `gcloud alpha zone-management`
+- `gcloud alpha zone-management auth`
+- `gcloud alpha zone-management auth print-identity-token`
+- `gcloud alpha zone-management identity-providers`
+- `gcloud alpha zone-management identity-providers create`
+- `gcloud alpha zone-management identity-providers delete`
+- `gcloud alpha zone-management identity-providers describe`
+- `gcloud alpha zone-management identity-providers list`
+- `gcloud alpha zone-management projects`
+- `gcloud alpha zone-management projects describe`
+- `gcloud alpha zone-management projects enable`
+- `gcloud alpha zone-management projects list`
+- `gcloud alpha zone-management service-accounts`
+- `gcloud alpha zone-management service-accounts create`
+- `gcloud alpha zone-management service-accounts delete`
+- `gcloud alpha zone-management service-accounts describe`
+- `gcloud alpha zone-management service-accounts keys`
+- `gcloud alpha zone-management service-accounts keys create`
+- `gcloud alpha zone-management service-accounts list`
+- `gcloud alpha zone-management services`
+- `gcloud alpha zone-management services describe`
+- `gcloud alpha zone-management services enable`
+- `gcloud alpha zone-management services list`
+- `gcloud alpha zone-management zones`
+- `gcloud alpha zone-management zones describe`
+- `gcloud alpha zone-management zones get-iam-policy`
+- `gcloud alpha zone-management zones list`
+- `gcloud alpha zone-management zones set-iam-policy`
