@@ -1,12 +1,13 @@
-# Generated gcloud Command Indexes
+# Generated gcloud Command References
 
-Generated: **2026-09-22 05:34 UTC**  
+Generated: **2026-09-28 10:56 UTC**  
 CLI: **Google Cloud SDK 568.0.0**
 
-- [GA](gcloud-ga.md) — 6,629 command/group entries
-- [Beta](gcloud-beta.md) — 5,634 command/group entries
-- [Alpha](gcloud-alpha.md) — 6,758 command/group entries
+Every command entry includes a short 'What it does' explanation derived from the built-in help for this CLI release.
 
-For command-specific syntax, use gcloud COMMAND --help or the [official reference](https://cloud.google.com/sdk/gcloud/reference).
+- [GA](gcloud-ga.md) — 6,628 commands
+- [Beta](gcloud-beta.md) — 5,634 commands
+- [Alpha](gcloud-alpha.md) — 6,758 commands
+- [Preview](gcloud-preview.md) — 850 commands
 
-The checked-in files list command and group names. Descriptions are available through built-in `--help`; generated per-command summaries are not included in this snapshot.
+For full syntax and flags, use gcloud COMMAND --help or the [official reference](https://cloud.google.com/sdk/gcloud/reference).
