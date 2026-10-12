@@ -1,6 +1,6 @@
 # Generated gcloud Command References
 
-Generated: **2026-10-05 11:31 UTC**  
+Generated: **2026-10-12 12:02 UTC**  
 CLI: **Google Cloud SDK 568.0.0**
 
 Every command entry includes a short 'What it does' explanation derived from the built-in help for this CLI release.
