@@ -1,6 +1,6 @@
 # Complete gcloud Preview Command Reference
 
-> Generated: **2026-10-12 12:02 UTC**  
+> Generated: **2026-10-19 09:56 UTC**  
 > CLI: **Google Cloud SDK 568.0.0**  
 > Source: installed Google Cloud CLI command tree and built-in `--help` text
 
