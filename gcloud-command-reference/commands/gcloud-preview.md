@@ -1,14 +1,14 @@
 # Complete gcloud Preview Command Reference
 
-> Generated: **2026-10-26 10:09 UTC**  
-> CLI: **Google Cloud SDK 568.0.0**  
+> Generated: **2026-11-02 12:26 UTC**  
+> CLI: **Google Cloud SDK 591.0.0**  
 > Source: installed Google Cloud CLI command tree and built-in `--help` text
 
 Each entry includes the command and a short explanation taken from the same installed CLI release.
 
 Official reference: https://cloud.google.com/sdk/gcloud/reference
 
-**Commands in this snapshot: 850**
+**Commands in this snapshot: 941**
 
 ## (root)
 
@@ -25,6 +25,54 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** create and manipulate Compute Engine resources.
 
 **Usage help:** `gcloud preview compute --help`
+
+### `gcloud preview compute accelerator-interconnects`
+
+**What it does:** read and manipulate.
+
+**Usage help:** `gcloud preview compute accelerator-interconnects --help`
+
+### `gcloud preview compute accelerator-interconnects create`
+
+**What it does:** create a Compute.
+
+**Usage help:** `gcloud preview compute accelerator-interconnects create --help`
+
+### `gcloud preview compute accelerator-interconnects delete`
+
+**What it does:** delete a Compute.
+
+**Usage help:** `gcloud preview compute accelerator-interconnects delete --help`
+
+### `gcloud preview compute accelerator-interconnects describe`
+
+**What it does:** describe a.
+
+**Usage help:** `gcloud preview compute accelerator-interconnects describe --help`
+
+### `gcloud preview compute accelerator-interconnects list`
+
+**What it does:** list Compute Engine.
+
+**Usage help:** `gcloud preview compute accelerator-interconnects list --help`
+
+### `gcloud preview compute accelerator-interconnects member-instances`
+
+**What it does:** manage.
+
+**Usage help:** `gcloud preview compute accelerator-interconnects member-instances --help`
+
+### `gcloud preview compute accelerator-interconnects member-instances list`
+
+**What it does:** (PREVIEW) gcloud preview compute accelerator-interconnects member-instances list lists the member VM instances participating in a specified accelerator interconnect.
+
+**Usage help:** `gcloud preview compute accelerator-interconnects member-instances list --help`
+
+### `gcloud preview compute accelerator-interconnects query-formability`
+
+**What it does:** query.
+
+**Usage help:** `gcloud preview compute accelerator-interconnects query-formability --help`
 
 ### `gcloud preview compute accelerator-types`
 
@@ -158,6 +206,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud preview compute backend-buckets set-iam-policy --help`
 
+### `gcloud preview compute backend-buckets test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud preview compute backend-buckets test-iam-permissions --help`
+
 ### `gcloud preview compute backend-buckets update`
 
 **What it does:** update a backend bucket.
@@ -283,6 +337,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** set the IAM policy.
 
 **Usage help:** `gcloud preview compute backend-services set-iam-policy --help`
+
+### `gcloud preview compute backend-services test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud preview compute backend-services test-iam-permissions --help`
 
 ### `gcloud preview compute backend-services update`
 
@@ -422,6 +482,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud preview compute disks bulk create --help`
 
+### `gcloud preview compute disks bulk set-labels`
+
+**What it does:** add or remove labels on.
+
+**Usage help:** `gcloud preview compute disks bulk set-labels --help`
+
 ### `gcloud preview compute disks convert`
 
 **What it does:** convert a Compute Engine Persistent.
@@ -518,6 +584,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud preview compute disks stop-group-async-replication --help`
 
+### `gcloud preview compute disks test-iam-permissions`
+
+**What it does:** test IAM permissions.
+
+**Usage help:** `gcloud preview compute disks test-iam-permissions --help`
+
 ### `gcloud preview compute disks update`
 
 **What it does:** update a Compute Engine Hyperdisk or.
@@ -559,6 +631,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Google Compute.
 
 **Usage help:** `gcloud preview compute external-vpn-gateways list --help`
+
+### `gcloud preview compute external-vpn-gateways test-iam-permissions`
+
+**What it does:** test.
+
+**Usage help:** `gcloud preview compute external-vpn-gateways test-iam-permissions --help`
 
 ### `gcloud preview compute external-vpn-gateways update`
 
@@ -626,6 +704,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud preview compute firewall-policies export-rules --help`
 
+### `gcloud preview compute firewall-policies get-iam-policy`
+
+**What it does:** get the IAM.
+
+**Usage help:** `gcloud preview compute firewall-policies get-iam-policy --help`
+
 ### `gcloud preview compute firewall-policies import-rules`
 
 **What it does:** import Compute.
@@ -680,6 +764,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud preview compute firewall-policies rules update --help`
 
+### `gcloud preview compute firewall-policies set-iam-policy`
+
+**What it does:** set the IAM.
+
+**Usage help:** `gcloud preview compute firewall-policies set-iam-policy --help`
+
+### `gcloud preview compute firewall-policies test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud preview compute firewall-policies test-iam-permissions --help`
+
 ### `gcloud preview compute firewall-policies update`
 
 **What it does:** update a Compute Engine.
@@ -721,6 +817,66 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update a firewall rule.
 
 **Usage help:** `gcloud preview compute firewall-rules update --help`
+
+### `gcloud preview compute folder-rollout-plans`
+
+**What it does:** read and manipulate Compute.
+
+**Usage help:** `gcloud preview compute folder-rollout-plans --help`
+
+### `gcloud preview compute folder-rollout-plans create`
+
+**What it does:** create a folder.
+
+**Usage help:** `gcloud preview compute folder-rollout-plans create --help`
+
+### `gcloud preview compute folder-rollout-plans delete`
+
+**What it does:** delete a folder.
+
+**Usage help:** `gcloud preview compute folder-rollout-plans delete --help`
+
+### `gcloud preview compute folder-rollout-plans describe`
+
+**What it does:** describe a folder.
+
+**Usage help:** `gcloud preview compute folder-rollout-plans describe --help`
+
+### `gcloud preview compute folder-rollout-plans list`
+
+**What it does:** list Google Compute.
+
+**Usage help:** `gcloud preview compute folder-rollout-plans list --help`
+
+### `gcloud preview compute folder-rollouts`
+
+**What it does:** read and manipulate Compute Engine.
+
+**Usage help:** `gcloud preview compute folder-rollouts --help`
+
+### `gcloud preview compute folder-rollouts cancel`
+
+**What it does:** cancel a folder rollout.
+
+**Usage help:** `gcloud preview compute folder-rollouts cancel --help`
+
+### `gcloud preview compute folder-rollouts delete`
+
+**What it does:** delete a folder rollout.
+
+**Usage help:** `gcloud preview compute folder-rollouts delete --help`
+
+### `gcloud preview compute folder-rollouts describe`
+
+**What it does:** describe a folder rollout.
+
+**Usage help:** `gcloud preview compute folder-rollouts describe --help`
+
+### `gcloud preview compute folder-rollouts list`
+
+**What it does:** list Google Compute Engine.
+
+**Usage help:** `gcloud preview compute folder-rollouts list --help`
 
 ### `gcloud preview compute forwarding-rules`
 
@@ -818,6 +974,60 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud preview compute future-reservations update --help`
 
+### `gcloud preview compute global-vm-extension-policies`
+
+**What it does:** compute Engine global.
+
+**Usage help:** `gcloud preview compute global-vm-extension-policies --help`
+
+### `gcloud preview compute global-vm-extension-policies create`
+
+**What it does:** create a.
+
+**Usage help:** `gcloud preview compute global-vm-extension-policies create --help`
+
+### `gcloud preview compute global-vm-extension-policies delete`
+
+**What it does:** delete a.
+
+**Usage help:** `gcloud preview compute global-vm-extension-policies delete --help`
+
+### `gcloud preview compute global-vm-extension-policies describe`
+
+**What it does:** describe a.
+
+**Usage help:** `gcloud preview compute global-vm-extension-policies describe --help`
+
+### `gcloud preview compute global-vm-extension-policies extensions`
+
+**What it does:** read only.
+
+**Usage help:** `gcloud preview compute global-vm-extension-policies extensions --help`
+
+### `gcloud preview compute global-vm-extension-policies extensions describe`
+
+**What it does:** (PREVIEW) Describe a vm extension at the global level.
+
+**Usage help:** `gcloud preview compute global-vm-extension-policies extensions describe --help`
+
+### `gcloud preview compute global-vm-extension-policies extensions list`
+
+**What it does:** list.
+
+**Usage help:** `gcloud preview compute global-vm-extension-policies extensions list --help`
+
+### `gcloud preview compute global-vm-extension-policies list`
+
+**What it does:** list Compute.
+
+**Usage help:** `gcloud preview compute global-vm-extension-policies list --help`
+
+### `gcloud preview compute global-vm-extension-policies update`
+
+**What it does:** update a.
+
+**Usage help:** `gcloud preview compute global-vm-extension-policies update --help`
+
 ### `gcloud preview compute health-checks`
 
 **What it does:** read and manipulate health checks.
@@ -889,6 +1099,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Google Compute Engine.
 
 **Usage help:** `gcloud preview compute health-checks list --help`
+
+### `gcloud preview compute health-checks test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud preview compute health-checks test-iam-permissions --help`
 
 ### `gcloud preview compute health-checks update`
 
@@ -967,6 +1183,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Google Compute Engine.
 
 **Usage help:** `gcloud preview compute http-health-checks list --help`
+
+### `gcloud preview compute http-health-checks test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud preview compute http-health-checks test-iam-permissions --help`
 
 ### `gcloud preview compute http-health-checks update`
 
@@ -1099,6 +1321,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** set the IAM policy for a.
 
 **Usage help:** `gcloud preview compute images set-iam-policy --help`
+
+### `gcloud preview compute images test-iam-permissions`
+
+**What it does:** test IAM permissions.
+
+**Usage help:** `gcloud preview compute images test-iam-permissions --help`
 
 ### `gcloud preview compute images update`
 
@@ -1520,11 +1748,23 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud preview compute instance-templates describe --help`
 
+### `gcloud preview compute instance-templates export`
+
+**What it does:** export an instance.
+
+**Usage help:** `gcloud preview compute instance-templates export --help`
+
 ### `gcloud preview compute instance-templates get-iam-policy`
 
 **What it does:** get the IAM.
 
 **Usage help:** `gcloud preview compute instance-templates get-iam-policy --help`
+
+### `gcloud preview compute instance-templates import`
+
+**What it does:** import an instance.
+
+**Usage help:** `gcloud preview compute instance-templates import --help`
 
 ### `gcloud preview compute instance-templates list`
 
@@ -1543,6 +1783,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** set the IAM.
 
 **Usage help:** `gcloud preview compute instance-templates set-iam-policy --help`
+
+### `gcloud preview compute instance-templates test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud preview compute instance-templates test-iam-permissions --help`
 
 ### `gcloud preview compute instances`
 
@@ -1687,6 +1933,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Compute Engine instances.
 
 **Usage help:** `gcloud preview compute instances list --help`
+
+### `gcloud preview compute instances list-referrers`
+
+**What it does:** list referrers to a.
+
+**Usage help:** `gcloud preview compute instances list-referrers --help`
 
 ### `gcloud preview compute instances network-interfaces`
 
@@ -1850,6 +2102,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud preview compute instances set-iam-policy --help`
 
+### `gcloud preview compute instances set-machine-resources`
+
+**What it does:** set machine.
+
+**Usage help:** `gcloud preview compute instances set-machine-resources --help`
+
 ### `gcloud preview compute instances set-machine-type`
 
 **What it does:** set machine type for.
@@ -1903,6 +2161,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** periodically.
 
 **Usage help:** `gcloud preview compute instances tail-serial-port-output --help`
+
+### `gcloud preview compute instances test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud preview compute instances test-iam-permissions --help`
 
 ### `gcloud preview compute instances update`
 
@@ -1963,6 +2227,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Google Compute Engine.
 
 **Usage help:** `gcloud preview compute instant-snapshots list --help`
+
+### `gcloud preview compute instant-snapshots set-iam-policy`
+
+**What it does:** set the IAM.
+
+**Usage help:** `gcloud preview compute instant-snapshots set-iam-policy --help`
+
+### `gcloud preview compute instant-snapshots test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud preview compute instant-snapshots test-iam-permissions --help`
 
 ### `gcloud preview compute interconnects`
 
@@ -2095,6 +2371,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** (PREVIEW) gcloud preview compute interconnects attachments groups remove-members is used to remove member interconnect attachments from an interconnect attachment group.
 
 **Usage help:** `gcloud preview compute interconnects attachments groups remove-members --help`
+
+### `gcloud preview compute interconnects attachments groups set-iam-policy`
+
+**What it does:** (PREVIEW) Sets the IAM policy for the given interconnect attachment group as defined in a JSON or YAML file.
+
+**Usage help:** `gcloud preview compute interconnects attachments groups set-iam-policy --help`
+
+### `gcloud preview compute interconnects attachments groups test-iam-permissions`
+
+**What it does:** test IAM permissions for a Compute Engine.
+
+**Usage help:** `gcloud preview compute interconnects attachments groups test-iam-permissions --help`
 
 ### `gcloud preview compute interconnects attachments groups update`
 
@@ -2288,6 +2576,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud preview compute interconnects groups remove-members --help`
 
+### `gcloud preview compute interconnects groups set-iam-policy`
+
+**What it does:** set the IAM.
+
+**Usage help:** `gcloud preview compute interconnects groups set-iam-policy --help`
+
 ### `gcloud preview compute interconnects groups update`
 
 **What it does:** update a Compute.
@@ -2371,6 +2665,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Google.
 
 **Usage help:** `gcloud preview compute interconnects remote-locations list --help`
+
+### `gcloud preview compute interconnects set-name`
+
+**What it does:** set the name of a Compute.
+
+**Usage help:** `gcloud preview compute interconnects set-name --help`
 
 ### `gcloud preview compute interconnects update`
 
@@ -2498,6 +2798,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud preview compute machine-images set-iam-policy --help`
 
+### `gcloud preview compute machine-images test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud preview compute machine-images test-iam-permissions --help`
+
 ### `gcloud preview compute machine-types`
 
 **What it does:** read Compute Engine virtual machine.
@@ -2545,6 +2851,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Google Compute.
 
 **Usage help:** `gcloud preview compute network-attachments list --help`
+
+### `gcloud preview compute network-attachments set-iam-policy`
+
+**What it does:** set the IAM.
+
+**Usage help:** `gcloud preview compute network-attachments set-iam-policy --help`
+
+### `gcloud preview compute network-attachments test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud preview compute network-attachments test-iam-permissions --help`
 
 ### `gcloud preview compute network-attachments update`
 
@@ -2654,6 +2972,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud preview compute network-firewall-policies associations delete --help`
 
+### `gcloud preview compute network-firewall-policies associations update`
+
+**What it does:** (PREVIEW) gcloud preview compute network-firewall-policies associations update is used to update network firewall policy associations. A network firewall policy is a set of rules that controls access to various resources.
+
+**Usage help:** `gcloud preview compute network-firewall-policies associations update --help`
+
 ### `gcloud preview compute network-firewall-policies clone-rules`
 
 **What it does:** replace the.
@@ -2689,6 +3013,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** (PREVIEW) gcloud preview compute network-firewall-policies get-effective-firewalls is used to get the effective firewalls applied to the network, including regional firewalls in a specified region.
 
 **Usage help:** `gcloud preview compute network-firewall-policies get-effective-firewalls --help`
+
+### `gcloud preview compute network-firewall-policies get-iam-policy`
+
+**What it does:** get the.
+
+**Usage help:** `gcloud preview compute network-firewall-policies get-iam-policy --help`
 
 ### `gcloud preview compute network-firewall-policies import-rules`
 
@@ -2761,6 +3091,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** updates a.
 
 **Usage help:** `gcloud preview compute network-firewall-policies rules update --help`
+
+### `gcloud preview compute network-firewall-policies set-iam-policy`
+
+**What it does:** set the.
+
+**Usage help:** `gcloud preview compute network-firewall-policies set-iam-policy --help`
+
+### `gcloud preview compute network-firewall-policies test-iam-permissions`
+
+**What it does:** (PREVIEW) Returns permissions that a caller has on the specified network firewall policy.
+
+**Usage help:** `gcloud preview compute network-firewall-policies test-iam-permissions --help`
 
 ### `gcloud preview compute network-firewall-policies update`
 
@@ -2929,6 +3271,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** set the IAM policy.
 
 **Usage help:** `gcloud preview compute networks subnets set-iam-policy --help`
+
+### `gcloud preview compute networks subnets test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud preview compute networks subnets test-iam-permissions --help`
 
 ### `gcloud preview compute networks subnets update`
 
@@ -3182,6 +3530,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud preview compute packet-mirrorings list --help`
 
+### `gcloud preview compute packet-mirrorings test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud preview compute packet-mirrorings test-iam-permissions --help`
+
 ### `gcloud preview compute packet-mirrorings update`
 
 **What it does:** update a Compute Engine.
@@ -3410,6 +3764,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud preview compute reservations blocks perform-maintenance --help`
 
+### `gcloud preview compute reservations blocks set-iam-policy`
+
+**What it does:** set the IAM.
+
+**Usage help:** `gcloud preview compute reservations blocks set-iam-policy --help`
+
 ### `gcloud preview compute reservations create`
 
 **What it does:** create a Compute Engine.
@@ -3506,6 +3866,24 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud preview compute reservations sub-blocks report-subblock-as-faulty --help`
 
+### `gcloud preview compute reservations sub-blocks set-iam-policy`
+
+**What it does:** set the IAM.
+
+**Usage help:** `gcloud preview compute reservations sub-blocks set-iam-policy --help`
+
+### `gcloud preview compute reservations sub-blocks test-iam-permissions`
+
+**What it does:** test.
+
+**Usage help:** `gcloud preview compute reservations sub-blocks test-iam-permissions --help`
+
+### `gcloud preview compute reservations test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud preview compute reservations test-iam-permissions --help`
+
 ### `gcloud preview compute reservations update`
 
 **What it does:** update Compute Engine.
@@ -3590,6 +3968,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud preview compute resource-policies set-iam-policy --help`
 
+### `gcloud preview compute resource-policies test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud preview compute resource-policies test-iam-permissions --help`
+
 ### `gcloud preview compute resource-policies update`
 
 **What it does:** update Compute Engine.
@@ -3626,6 +4010,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud preview compute routers add-interface --help`
 
+### `gcloud preview compute routers add-named-set`
+
+**What it does:** add an empty named set to a.
+
+**Usage help:** `gcloud preview compute routers add-named-set --help`
+
+### `gcloud preview compute routers add-named-set-element`
+
+**What it does:** adds an element to.
+
+**Usage help:** `gcloud preview compute routers add-named-set-element --help`
+
 ### `gcloud preview compute routers add-route-policy`
 
 **What it does:** add an empty route policy.
@@ -3656,11 +4052,23 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud preview compute routers describe --help`
 
+### `gcloud preview compute routers download-named-set`
+
+**What it does:** download a named set.
+
+**Usage help:** `gcloud preview compute routers download-named-set --help`
+
 ### `gcloud preview compute routers download-route-policy`
 
 **What it does:** download a route.
 
 **Usage help:** `gcloud preview compute routers download-route-policy --help`
+
+### `gcloud preview compute routers get-named-set`
+
+**What it does:** get a named set from a.
+
+**Usage help:** `gcloud preview compute routers get-named-set --help`
 
 ### `gcloud preview compute routers get-nat-ip-info`
 
@@ -3697,6 +4105,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list routes advertised and.
 
 **Usage help:** `gcloud preview compute routers list-bgp-routes --help`
+
+### `gcloud preview compute routers list-named-sets`
+
+**What it does:** list named sets from a.
+
+**Usage help:** `gcloud preview compute routers list-named-sets --help`
 
 ### `gcloud preview compute routers list-route-policies`
 
@@ -3788,6 +4202,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud preview compute routers remove-interface --help`
 
+### `gcloud preview compute routers remove-named-set`
+
+**What it does:** remove a named set from a.
+
+**Usage help:** `gcloud preview compute routers remove-named-set --help`
+
+### `gcloud preview compute routers remove-named-set-element`
+
+**What it does:** remove an element.
+
+**Usage help:** `gcloud preview compute routers remove-named-set-element --help`
+
 ### `gcloud preview compute routers remove-route-policy`
 
 **What it does:** remove a route policy.
@@ -3823,6 +4249,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** updates a term of.
 
 **Usage help:** `gcloud preview compute routers update-route-policy-term --help`
+
+### `gcloud preview compute routers upload-named-set`
+
+**What it does:** upload a named set into a.
+
+**Usage help:** `gcloud preview compute routers upload-named-set --help`
 
 ### `gcloud preview compute routers upload-route-policy`
 
@@ -4016,6 +4448,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud preview compute service-attachments list --help`
 
+### `gcloud preview compute service-attachments set-iam-policy`
+
+**What it does:** set the IAM.
+
+**Usage help:** `gcloud preview compute service-attachments set-iam-policy --help`
+
 ### `gcloud preview compute service-attachments update`
 
 **What it does:** update a Google Compute.
@@ -4178,6 +4616,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud preview compute snapshots set-iam-policy --help`
 
+### `gcloud preview compute snapshots test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud preview compute snapshots test-iam-permissions --help`
+
 ### `gcloud preview compute snapshots update`
 
 **What it does:** update a Compute Engine snapshot.
@@ -4268,6 +4712,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud preview compute sole-tenancy node-groups simulate-maintenance-event --help`
 
+### `gcloud preview compute sole-tenancy node-groups test-iam-permissions`
+
+**What it does:** test.
+
+**Usage help:** `gcloud preview compute sole-tenancy node-groups test-iam-permissions --help`
+
 ### `gcloud preview compute sole-tenancy node-groups update`
 
 **What it does:** update a Compute.
@@ -4327,6 +4777,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** set the.
 
 **Usage help:** `gcloud preview compute sole-tenancy node-templates set-iam-policy --help`
+
+### `gcloud preview compute sole-tenancy node-templates test-iam-permissions`
+
+**What it does:** (PREVIEW) Returns permissions that a caller has on the specified node template.
+
+**Usage help:** `gcloud preview compute sole-tenancy node-templates test-iam-permissions --help`
 
 ### `gcloud preview compute sole-tenancy node-types`
 
@@ -4496,6 +4952,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud preview compute storage-pools set-iam-policy --help`
 
+### `gcloud preview compute storage-pools test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud preview compute storage-pools test-iam-permissions --help`
+
 ### `gcloud preview compute storage-pools update`
 
 **What it does:** update a storage pool.
@@ -4621,6 +5083,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Google Compute.
 
 **Usage help:** `gcloud preview compute target-https-proxies list --help`
+
+### `gcloud preview compute target-https-proxies set-quic-override`
+
+**What it does:** set the.
+
+**Usage help:** `gcloud preview compute target-https-proxies set-quic-override --help`
 
 ### `gcloud preview compute target-https-proxies update`
 
@@ -4766,6 +5234,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud preview compute target-ssl-proxies list --help`
 
+### `gcloud preview compute target-ssl-proxies test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud preview compute target-ssl-proxies test-iam-permissions --help`
+
 ### `gcloud preview compute target-ssl-proxies update`
 
 **What it does:** update a target SSL.
@@ -4801,6 +5275,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Google Compute Engine.
 
 **Usage help:** `gcloud preview compute target-tcp-proxies list --help`
+
+### `gcloud preview compute target-tcp-proxies test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud preview compute target-tcp-proxies test-iam-permissions --help`
 
 ### `gcloud preview compute target-tcp-proxies update`
 
@@ -4928,6 +5408,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud preview compute url-maps set-default-service --help`
 
+### `gcloud preview compute url-maps test-iam-permissions`
+
+**What it does:** test IAM permissions.
+
+**Usage help:** `gcloud preview compute url-maps test-iam-permissions --help`
+
 ### `gcloud preview compute url-maps validate`
 
 **What it does:** validate a URL map.
@@ -4970,6 +5456,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud preview compute vpn-gateways list --help`
 
+### `gcloud preview compute vpn-gateways test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud preview compute vpn-gateways test-iam-permissions --help`
+
 ### `gcloud preview compute vpn-gateways update`
 
 **What it does:** update a Compute Engine Highly.
@@ -5005,6 +5497,60 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Google Compute Engine VPN.
 
 **Usage help:** `gcloud preview compute vpn-tunnels list --help`
+
+### `gcloud preview compute zone-vm-extension-policies`
+
+**What it does:** compute Engine zone VM.
+
+**Usage help:** `gcloud preview compute zone-vm-extension-policies --help`
+
+### `gcloud preview compute zone-vm-extension-policies create`
+
+**What it does:** create a Compute.
+
+**Usage help:** `gcloud preview compute zone-vm-extension-policies create --help`
+
+### `gcloud preview compute zone-vm-extension-policies delete`
+
+**What it does:** delete a Compute.
+
+**Usage help:** `gcloud preview compute zone-vm-extension-policies delete --help`
+
+### `gcloud preview compute zone-vm-extension-policies describe`
+
+**What it does:** describe a.
+
+**Usage help:** `gcloud preview compute zone-vm-extension-policies describe --help`
+
+### `gcloud preview compute zone-vm-extension-policies extensions`
+
+**What it does:** read only.
+
+**Usage help:** `gcloud preview compute zone-vm-extension-policies extensions --help`
+
+### `gcloud preview compute zone-vm-extension-policies extensions describe`
+
+**What it does:** (PREVIEW) Describe a vm extension for a given zone.
+
+**Usage help:** `gcloud preview compute zone-vm-extension-policies extensions describe --help`
+
+### `gcloud preview compute zone-vm-extension-policies extensions list`
+
+**What it does:** list Vm.
+
+**Usage help:** `gcloud preview compute zone-vm-extension-policies extensions list --help`
+
+### `gcloud preview compute zone-vm-extension-policies list`
+
+**What it does:** list Compute.
+
+**Usage help:** `gcloud preview compute zone-vm-extension-policies list --help`
+
+### `gcloud preview compute zone-vm-extension-policies update`
+
+**What it does:** update a Compute.
+
+**Usage help:** `gcloud preview compute zone-vm-extension-policies update --help`
 
 ### `gcloud preview compute zones`
 

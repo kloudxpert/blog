@@ -1,14 +1,14 @@
 # Complete gcloud Beta Command Reference
 
-> Generated: **2026-10-26 10:09 UTC**  
-> CLI: **Google Cloud SDK 568.0.0**  
+> Generated: **2026-11-02 12:26 UTC**  
+> CLI: **Google Cloud SDK 591.0.0**  
 > Source: installed Google Cloud CLI command tree and built-in `--help` text
 
 Each entry includes the command and a short explanation taken from the same installed CLI release.
 
 Official reference: https://cloud.google.com/sdk/gcloud/reference
 
-**Commands in this snapshot: 5,634**
+**Commands in this snapshot: 6,064**
 
 ## (root)
 
@@ -147,6 +147,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** (BETA)
 
 **Usage help:** `gcloud beta access-context-manager levels update --help`
+
+### `gcloud beta access-context-manager lookup-configured-perimeter`
+
+**What it does:** look up.
+
+**Usage help:** `gcloud beta access-context-manager lookup-configured-perimeter --help`
 
 ### `gcloud beta access-context-manager perimeters`
 
@@ -593,6 +599,194 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update a Managed Microsoft.
 
 **Usage help:** `gcloud beta active-directory peerings update --help`
+
+## agent-identity
+
+### `gcloud beta agent-identity`
+
+**What it does:** manage Agent Identity resources.
+
+**Usage help:** `gcloud beta agent-identity --help`
+
+### `gcloud beta agent-identity access-summaries`
+
+**What it does:** manage Access Summary.
+
+**Usage help:** `gcloud beta agent-identity access-summaries --help`
+
+### `gcloud beta agent-identity access-summaries describe`
+
+**What it does:** describe an access.
+
+**Usage help:** `gcloud beta agent-identity access-summaries describe --help`
+
+### `gcloud beta agent-identity access-summaries list`
+
+**What it does:** list access summaries.
+
+**Usage help:** `gcloud beta agent-identity access-summaries list --help`
+
+### `gcloud beta agent-identity auth-providers`
+
+**What it does:** manage Auth Provider resources.
+
+**Usage help:** `gcloud beta agent-identity auth-providers --help`
+
+### `gcloud beta agent-identity auth-providers add-iam-policy-binding`
+
+**What it does:** add IAM.
+
+**Usage help:** `gcloud beta agent-identity auth-providers add-iam-policy-binding --help`
+
+### `gcloud beta agent-identity auth-providers authorizations`
+
+**What it does:** manage.
+
+**Usage help:** `gcloud beta agent-identity auth-providers authorizations --help`
+
+### `gcloud beta agent-identity auth-providers authorizations add-iam-policy-binding`
+
+**What it does:** add IAM policy binding to an Agent Identity.
+
+**Usage help:** `gcloud beta agent-identity auth-providers authorizations add-iam-policy-binding --help`
+
+### `gcloud beta agent-identity auth-providers authorizations delete`
+
+**What it does:** delete an.
+
+**Usage help:** `gcloud beta agent-identity auth-providers authorizations delete --help`
+
+### `gcloud beta agent-identity auth-providers authorizations describe`
+
+**What it does:** (BETA) Get details of a single authorization.
+
+**Usage help:** `gcloud beta agent-identity auth-providers authorizations describe --help`
+
+### `gcloud beta agent-identity auth-providers authorizations get-iam-policy`
+
+**What it does:** (BETA) This command gets the IAM policy for an authorization.
+
+**Usage help:** `gcloud beta agent-identity auth-providers authorizations get-iam-policy --help`
+
+### `gcloud beta agent-identity auth-providers authorizations list`
+
+**What it does:** list.
+
+**Usage help:** `gcloud beta agent-identity auth-providers authorizations list --help`
+
+### `gcloud beta agent-identity auth-providers authorizations remove-iam-policy-binding`
+
+**What it does:** remove IAM policy binding from an Agent.
+
+**Usage help:** `gcloud beta agent-identity auth-providers authorizations remove-iam-policy-binding --help`
+
+### `gcloud beta agent-identity auth-providers authorizations set-iam-policy`
+
+**What it does:** (BETA) This command replaces the existing IAM policy for an authorization, given an authorization and a file encoded in JSON or YAML that contains the IAM policy.
+
+**Usage help:** `gcloud beta agent-identity auth-providers authorizations set-iam-policy --help`
+
+### `gcloud beta agent-identity auth-providers authorizations test-iam-permissions`
+
+**What it does:** test IAM permissions for an Agent Identity.
+
+**Usage help:** `gcloud beta agent-identity auth-providers authorizations test-iam-permissions --help`
+
+### `gcloud beta agent-identity auth-providers create`
+
+**What it does:** create an auth provider.
+
+**Usage help:** `gcloud beta agent-identity auth-providers create --help`
+
+### `gcloud beta agent-identity auth-providers delete`
+
+**What it does:** delete an auth provider.
+
+**Usage help:** `gcloud beta agent-identity auth-providers delete --help`
+
+### `gcloud beta agent-identity auth-providers describe`
+
+**What it does:** describe an auth.
+
+**Usage help:** `gcloud beta agent-identity auth-providers describe --help`
+
+### `gcloud beta agent-identity auth-providers disable`
+
+**What it does:** disable an auth.
+
+**Usage help:** `gcloud beta agent-identity auth-providers disable --help`
+
+### `gcloud beta agent-identity auth-providers enable`
+
+**What it does:** enable an auth provider.
+
+**Usage help:** `gcloud beta agent-identity auth-providers enable --help`
+
+### `gcloud beta agent-identity auth-providers get-iam-policy`
+
+**What it does:** get the IAM.
+
+**Usage help:** `gcloud beta agent-identity auth-providers get-iam-policy --help`
+
+### `gcloud beta agent-identity auth-providers list`
+
+**What it does:** list auth providers.
+
+**Usage help:** `gcloud beta agent-identity auth-providers list --help`
+
+### `gcloud beta agent-identity auth-providers query`
+
+**What it does:** query auth providers used.
+
+**Usage help:** `gcloud beta agent-identity auth-providers query --help`
+
+### `gcloud beta agent-identity auth-providers query-workloads`
+
+**What it does:** query workloads.
+
+**Usage help:** `gcloud beta agent-identity auth-providers query-workloads --help`
+
+### `gcloud beta agent-identity auth-providers remove-iam-policy-binding`
+
+**What it does:** (BETA) Remove an IAM policy binding from the IAM policy of an Agent Identity authProvider. One binding consists of a member, and a role.
+
+**Usage help:** `gcloud beta agent-identity auth-providers remove-iam-policy-binding --help`
+
+### `gcloud beta agent-identity auth-providers resolve-authorization`
+
+**What it does:** resolve.
+
+**Usage help:** `gcloud beta agent-identity auth-providers resolve-authorization --help`
+
+### `gcloud beta agent-identity auth-providers revoke-authorization`
+
+**What it does:** revoke.
+
+**Usage help:** `gcloud beta agent-identity auth-providers revoke-authorization --help`
+
+### `gcloud beta agent-identity auth-providers set-iam-policy`
+
+**What it does:** set the IAM.
+
+**Usage help:** `gcloud beta agent-identity auth-providers set-iam-policy --help`
+
+### `gcloud beta agent-identity auth-providers test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud beta agent-identity auth-providers test-iam-permissions --help`
+
+### `gcloud beta agent-identity auth-providers undelete`
+
+**What it does:** undelete an auth.
+
+**Usage help:** `gcloud beta agent-identity auth-providers undelete --help`
+
+### `gcloud beta agent-identity auth-providers update`
+
+**What it does:** update an auth provider.
+
+**Usage help:** `gcloud beta agent-identity auth-providers update --help`
 
 ## ai
 
@@ -1094,6 +1288,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta ai semantic-governance-policy-engine --help`
 
+### `gcloud beta ai semantic-governance-policy-engine deprovision`
+
+**What it does:** deprovision.
+
+**Usage help:** `gcloud beta ai semantic-governance-policy-engine deprovision --help`
+
 ### `gcloud beta ai semantic-governance-policy-engine describe`
 
 **What it does:** describe the.
@@ -1255,6 +1455,36 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update an existing Vertex AI.
 
 **Usage help:** `gcloud beta ai tensorboards update --help`
+
+### `gcloud beta ai tuning-jobs`
+
+**What it does:** manage Vertex AI tuning jobs.
+
+**Usage help:** `gcloud beta ai tuning-jobs --help`
+
+### `gcloud beta ai tuning-jobs cancel`
+
+**What it does:** cancel a running tuning job.
+
+**Usage help:** `gcloud beta ai tuning-jobs cancel --help`
+
+### `gcloud beta ai tuning-jobs create`
+
+**What it does:** create a supervised fine-tuning job.
+
+**Usage help:** `gcloud beta ai tuning-jobs create --help`
+
+### `gcloud beta ai tuning-jobs describe`
+
+**What it does:** get detail information about the.
+
+**Usage help:** `gcloud beta ai tuning-jobs describe --help`
+
+### `gcloud beta ai tuning-jobs list`
+
+**What it does:** list existing tuning jobs.
+
+**Usage help:** `gcloud beta ai tuning-jobs list --help`
 
 ## ai-platform
 
@@ -1607,6 +1837,42 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** connect to an AlloyDB instance using the.
 
 **Usage help:** `gcloud beta alloydb connect --help`
+
+### `gcloud beta alloydb endpoints`
+
+**What it does:** provide commands for managing AlloyDB.
+
+**Usage help:** `gcloud beta alloydb endpoints --help`
+
+### `gcloud beta alloydb endpoints create`
+
+**What it does:** creates a new AlloyDB endpoint.
+
+**Usage help:** `gcloud beta alloydb endpoints create --help`
+
+### `gcloud beta alloydb endpoints delete`
+
+**What it does:** deletes an AlloyDB endpoint.
+
+**Usage help:** `gcloud beta alloydb endpoints delete --help`
+
+### `gcloud beta alloydb endpoints describe`
+
+**What it does:** describe an AlloyDB endpoint in a.
+
+**Usage help:** `gcloud beta alloydb endpoints describe --help`
+
+### `gcloud beta alloydb endpoints list`
+
+**What it does:** list AlloyDB endpoints in a given.
+
+**Usage help:** `gcloud beta alloydb endpoints list --help`
+
+### `gcloud beta alloydb endpoints update`
+
+**What it does:** update an AlloyDB endpoint.
+
+**Usage help:** `gcloud beta alloydb endpoints update --help`
 
 ### `gcloud beta alloydb instances`
 
@@ -1974,41 +2240,17 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta api-registry mcp --help`
 
-### `gcloud beta api-registry mcp disable`
-
-**What it does:** disables MCP server for a given.
-
-**Usage help:** `gcloud beta api-registry mcp disable --help`
-
-### `gcloud beta api-registry mcp enable`
-
-**What it does:** enables MCP server for a given.
-
-**Usage help:** `gcloud beta api-registry mcp enable --help`
-
 ### `gcloud beta api-registry mcp servers`
 
 **What it does:** manage Cloud API Registry MCP.
 
 **Usage help:** `gcloud beta api-registry mcp servers --help`
 
-### `gcloud beta api-registry mcp servers list`
-
-**What it does:** list MCP servers.
-
-**Usage help:** `gcloud beta api-registry mcp servers list --help`
-
 ### `gcloud beta api-registry mcp tools`
 
 **What it does:** manage Cloud API Registry MCP tools.
 
 **Usage help:** `gcloud beta api-registry mcp tools --help`
-
-### `gcloud beta api-registry mcp tools list`
-
-**What it does:** list MCP tools.
-
-**Usage help:** `gcloud beta api-registry mcp tools list --help`
 
 ## apigee
 
@@ -2024,9 +2266,15 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta apigee apis --help`
 
+### `gcloud beta apigee apis delete`
+
+**What it does:** delete an Apigee API proxy.
+
+**Usage help:** `gcloud beta apigee apis delete --help`
+
 ### `gcloud beta apigee apis deploy`
 
-**What it does:** deploy an API proxy to an environment.
+**What it does:** deploy an Apigee API proxy to an.
 
 **Usage help:** `gcloud beta apigee apis deploy --help`
 
@@ -2035,6 +2283,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** describe an Apigee API proxy.
 
 **Usage help:** `gcloud beta apigee apis describe --help`
+
+### `gcloud beta apigee apis import`
+
+**What it does:** import an Apigee API proxy from local.
+
+**Usage help:** `gcloud beta apigee apis import --help`
 
 ### `gcloud beta apigee apis list`
 
@@ -2804,19 +3058,19 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud beta app-lifecycle-manager releases create`
 
-**What it does:** create a Release.
+**What it does:** create a release.
 
 **Usage help:** `gcloud beta app-lifecycle-manager releases create --help`
 
 ### `gcloud beta app-lifecycle-manager releases delete`
 
-**What it does:** delete a Release.
+**What it does:** delete a release.
 
 **Usage help:** `gcloud beta app-lifecycle-manager releases delete --help`
 
 ### `gcloud beta app-lifecycle-manager releases describe`
 
-**What it does:** describe a Release.
+**What it does:** describe a release.
 
 **Usage help:** `gcloud beta app-lifecycle-manager releases describe --help`
 
@@ -2828,7 +3082,7 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud beta app-lifecycle-manager releases update`
 
-**What it does:** update a Release.
+**What it does:** update a release.
 
 **Usage help:** `gcloud beta app-lifecycle-manager releases update --help`
 
@@ -2840,31 +3094,31 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud beta app-lifecycle-manager rollout-kinds create`
 
-**What it does:** create a Rollout.
+**What it does:** create a rollout.
 
 **Usage help:** `gcloud beta app-lifecycle-manager rollout-kinds create --help`
 
 ### `gcloud beta app-lifecycle-manager rollout-kinds delete`
 
-**What it does:** delete a Rollout.
+**What it does:** delete a rollout.
 
 **Usage help:** `gcloud beta app-lifecycle-manager rollout-kinds delete --help`
 
 ### `gcloud beta app-lifecycle-manager rollout-kinds describe`
 
-**What it does:** describe Rollout.
+**What it does:** describe a.
 
 **Usage help:** `gcloud beta app-lifecycle-manager rollout-kinds describe --help`
 
 ### `gcloud beta app-lifecycle-manager rollout-kinds list`
 
-**What it does:** list Rollout Kinds.
+**What it does:** list rollout kinds.
 
 **Usage help:** `gcloud beta app-lifecycle-manager rollout-kinds list --help`
 
 ### `gcloud beta app-lifecycle-manager rollout-kinds update`
 
-**What it does:** update a Rollout.
+**What it does:** update a rollout.
 
 **Usage help:** `gcloud beta app-lifecycle-manager rollout-kinds update --help`
 
@@ -2876,67 +3130,67 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud beta app-lifecycle-manager rollouts create`
 
-**What it does:** create a Rollout.
+**What it does:** create a rollout.
 
 **Usage help:** `gcloud beta app-lifecycle-manager rollouts create --help`
 
 ### `gcloud beta app-lifecycle-manager rollouts delete`
 
-**What it does:** delete a Rollout.
+**What it does:** delete a rollout.
 
 **Usage help:** `gcloud beta app-lifecycle-manager rollouts delete --help`
 
 ### `gcloud beta app-lifecycle-manager rollouts describe`
 
-**What it does:** describe a Rollout.
+**What it does:** describe a rollout.
 
 **Usage help:** `gcloud beta app-lifecycle-manager rollouts describe --help`
 
 ### `gcloud beta app-lifecycle-manager rollouts list`
 
-**What it does:** list Rollouts.
+**What it does:** list rollouts.
 
 **Usage help:** `gcloud beta app-lifecycle-manager rollouts list --help`
 
 ### `gcloud beta app-lifecycle-manager rollouts update`
 
-**What it does:** update a Rollout.
+**What it does:** update a rollout.
 
 **Usage help:** `gcloud beta app-lifecycle-manager rollouts update --help`
 
 ### `gcloud beta app-lifecycle-manager saas`
 
-**What it does:** manage App Lifecycle Manager saas.
+**What it does:** manage App Lifecycle Manager SaaS.
 
 **Usage help:** `gcloud beta app-lifecycle-manager saas --help`
 
 ### `gcloud beta app-lifecycle-manager saas create`
 
-**What it does:** create a SaaS.
+**What it does:** create a SaaS offering.
 
 **Usage help:** `gcloud beta app-lifecycle-manager saas create --help`
 
 ### `gcloud beta app-lifecycle-manager saas delete`
 
-**What it does:** delete a SaaS.
+**What it does:** delete a SaaS offering.
 
 **Usage help:** `gcloud beta app-lifecycle-manager saas delete --help`
 
 ### `gcloud beta app-lifecycle-manager saas describe`
 
-**What it does:** describe a SaaS.
+**What it does:** describe a SaaS offering.
 
 **Usage help:** `gcloud beta app-lifecycle-manager saas describe --help`
 
 ### `gcloud beta app-lifecycle-manager saas list`
 
-**What it does:** list SaaS.
+**What it does:** list SaaS offerings.
 
 **Usage help:** `gcloud beta app-lifecycle-manager saas list --help`
 
 ### `gcloud beta app-lifecycle-manager saas update`
 
-**What it does:** update a SaaS.
+**What it does:** update a SaaS offering.
 
 **Usage help:** `gcloud beta app-lifecycle-manager saas update --help`
 
@@ -2948,31 +3202,31 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud beta app-lifecycle-manager tenants create`
 
-**What it does:** create a Tenant.
+**What it does:** create a tenant.
 
 **Usage help:** `gcloud beta app-lifecycle-manager tenants create --help`
 
 ### `gcloud beta app-lifecycle-manager tenants delete`
 
-**What it does:** delete a Tenant.
+**What it does:** delete a tenant.
 
 **Usage help:** `gcloud beta app-lifecycle-manager tenants delete --help`
 
 ### `gcloud beta app-lifecycle-manager tenants describe`
 
-**What it does:** describe a Tenant.
+**What it does:** describe a tenant.
 
 **Usage help:** `gcloud beta app-lifecycle-manager tenants describe --help`
 
 ### `gcloud beta app-lifecycle-manager tenants list`
 
-**What it does:** list Tenants.
+**What it does:** list tenants.
 
 **Usage help:** `gcloud beta app-lifecycle-manager tenants list --help`
 
 ### `gcloud beta app-lifecycle-manager tenants update`
 
-**What it does:** update tenants.
+**What it does:** update a tenant.
 
 **Usage help:** `gcloud beta app-lifecycle-manager tenants update --help`
 
@@ -2984,31 +3238,31 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud beta app-lifecycle-manager unit-kinds create`
 
-**What it does:** create a Unit Kind.
+**What it does:** create a unit kind.
 
 **Usage help:** `gcloud beta app-lifecycle-manager unit-kinds create --help`
 
 ### `gcloud beta app-lifecycle-manager unit-kinds delete`
 
-**What it does:** delete a Unit Kind.
+**What it does:** delete a unit kind.
 
 **Usage help:** `gcloud beta app-lifecycle-manager unit-kinds delete --help`
 
 ### `gcloud beta app-lifecycle-manager unit-kinds describe`
 
-**What it does:** describe a Unit.
+**What it does:** describe a unit.
 
 **Usage help:** `gcloud beta app-lifecycle-manager unit-kinds describe --help`
 
 ### `gcloud beta app-lifecycle-manager unit-kinds list`
 
-**What it does:** list Unit Kinds.
+**What it does:** list unit kinds.
 
 **Usage help:** `gcloud beta app-lifecycle-manager unit-kinds list --help`
 
 ### `gcloud beta app-lifecycle-manager unit-kinds update`
 
-**What it does:** update a Unit Kind.
+**What it does:** update a unit kind.
 
 **Usage help:** `gcloud beta app-lifecycle-manager unit-kinds update --help`
 
@@ -3020,13 +3274,13 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud beta app-lifecycle-manager unit-operations create`
 
-**What it does:** create a Unit.
+**What it does:** create a unit.
 
 **Usage help:** `gcloud beta app-lifecycle-manager unit-operations create --help`
 
 ### `gcloud beta app-lifecycle-manager unit-operations delete`
 
-**What it does:** delete a Unit.
+**What it does:** delete a unit.
 
 **Usage help:** `gcloud beta app-lifecycle-manager unit-operations delete --help`
 
@@ -3038,13 +3292,13 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud beta app-lifecycle-manager unit-operations list`
 
-**What it does:** list Unit.
+**What it does:** list unit.
 
 **Usage help:** `gcloud beta app-lifecycle-manager unit-operations list --help`
 
 ### `gcloud beta app-lifecycle-manager unit-operations update`
 
-**What it does:** update a Unit.
+**What it does:** update a unit.
 
 **Usage help:** `gcloud beta app-lifecycle-manager unit-operations update --help`
 
@@ -3056,31 +3310,31 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud beta app-lifecycle-manager units create`
 
-**What it does:** create a Unit.
+**What it does:** create a unit.
 
 **Usage help:** `gcloud beta app-lifecycle-manager units create --help`
 
 ### `gcloud beta app-lifecycle-manager units delete`
 
-**What it does:** delete a Unit.
+**What it does:** delete a unit.
 
 **Usage help:** `gcloud beta app-lifecycle-manager units delete --help`
 
 ### `gcloud beta app-lifecycle-manager units describe`
 
-**What it does:** describe a Unit.
+**What it does:** describe a unit.
 
 **Usage help:** `gcloud beta app-lifecycle-manager units describe --help`
 
 ### `gcloud beta app-lifecycle-manager units list`
 
-**What it does:** list Units.
+**What it does:** list units.
 
 **Usage help:** `gcloud beta app-lifecycle-manager units list --help`
 
 ### `gcloud beta app-lifecycle-manager units update`
 
-**What it does:** update a Unit.
+**What it does:** update a unit.
 
 **Usage help:** `gcloud beta app-lifecycle-manager units update --help`
 
@@ -3127,6 +3381,74 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** reads an existing AppOptimize.
 
 **Usage help:** `gcloud beta app-optimize reports read --help`
+
+## app-topology
+
+### `gcloud beta app-topology`
+
+**What it does:** manage App Topology resources and query topology.
+
+**Usage help:** `gcloud beta app-topology --help`
+
+### `gcloud beta app-topology domains`
+
+**What it does:** view App Topology domains.
+
+**Usage help:** `gcloud beta app-topology domains --help`
+
+### `gcloud beta app-topology domains describe`
+
+**What it does:** describe an App Topology domain.
+
+**Usage help:** `gcloud beta app-topology domains describe --help`
+
+### `gcloud beta app-topology domains list`
+
+**What it does:** list App Topology domains.
+
+**Usage help:** `gcloud beta app-topology domains list --help`
+
+### `gcloud beta app-topology domains schema`
+
+**What it does:** view App Topology domain schemas.
+
+**Usage help:** `gcloud beta app-topology domains schema --help`
+
+### `gcloud beta app-topology domains schema describe`
+
+**What it does:** describe the schema for.
+
+**Usage help:** `gcloud beta app-topology domains schema describe --help`
+
+### `gcloud beta app-topology locations`
+
+**What it does:** view App Topology locations.
+
+**Usage help:** `gcloud beta app-topology locations --help`
+
+### `gcloud beta app-topology locations describe`
+
+**What it does:** describe an App Topology.
+
+**Usage help:** `gcloud beta app-topology locations describe --help`
+
+### `gcloud beta app-topology locations list`
+
+**What it does:** list App Topology locations.
+
+**Usage help:** `gcloud beta app-topology locations list --help`
+
+### `gcloud beta app-topology resources-graph`
+
+**What it does:** query and generate resource.
+
+**Usage help:** `gcloud beta app-topology resources-graph --help`
+
+### `gcloud beta app-topology resources-graph generate`
+
+**What it does:** generate a resource.
+
+**Usage help:** `gcloud beta app-topology resources-graph generate --help`
 
 ## artifacts
 
@@ -3906,6 +4228,84 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta backup-dr --help`
 
+### `gcloud beta backup-dr applied-auto-protection-policies`
+
+**What it does:** manage Backup and.
+
+**Usage help:** `gcloud beta backup-dr applied-auto-protection-policies --help`
+
+### `gcloud beta backup-dr applied-auto-protection-policies list`
+
+**What it does:** list Backup.
+
+**Usage help:** `gcloud beta backup-dr applied-auto-protection-policies list --help`
+
+### `gcloud beta backup-dr auto-protection-bindings`
+
+**What it does:** manage Backup and DR auto.
+
+**Usage help:** `gcloud beta backup-dr auto-protection-bindings --help`
+
+### `gcloud beta backup-dr auto-protection-bindings create`
+
+**What it does:** create a Backup and.
+
+**Usage help:** `gcloud beta backup-dr auto-protection-bindings create --help`
+
+### `gcloud beta backup-dr auto-protection-bindings delete`
+
+**What it does:** delete a Backup and.
+
+**Usage help:** `gcloud beta backup-dr auto-protection-bindings delete --help`
+
+### `gcloud beta backup-dr auto-protection-bindings describe`
+
+**What it does:** describe a Backup.
+
+**Usage help:** `gcloud beta backup-dr auto-protection-bindings describe --help`
+
+### `gcloud beta backup-dr auto-protection-bindings list`
+
+**What it does:** list Backup and DR.
+
+**Usage help:** `gcloud beta backup-dr auto-protection-bindings list --help`
+
+### `gcloud beta backup-dr auto-protection-policies`
+
+**What it does:** manage Backup and DR.
+
+**Usage help:** `gcloud beta backup-dr auto-protection-policies --help`
+
+### `gcloud beta backup-dr auto-protection-policies create`
+
+**What it does:** create a Backup and.
+
+**Usage help:** `gcloud beta backup-dr auto-protection-policies create --help`
+
+### `gcloud beta backup-dr auto-protection-policies delete`
+
+**What it does:** delete a Backup and.
+
+**Usage help:** `gcloud beta backup-dr auto-protection-policies delete --help`
+
+### `gcloud beta backup-dr auto-protection-policies describe`
+
+**What it does:** describe a Backup.
+
+**Usage help:** `gcloud beta backup-dr auto-protection-policies describe --help`
+
+### `gcloud beta backup-dr auto-protection-policies list`
+
+**What it does:** list Backup and DR.
+
+**Usage help:** `gcloud beta backup-dr auto-protection-policies list --help`
+
+### `gcloud beta backup-dr auto-protection-policies update`
+
+**What it does:** update a Backup and.
+
+**Usage help:** `gcloud beta backup-dr auto-protection-policies update --help`
+
 ### `gcloud beta backup-dr backup-plan-associations`
 
 **What it does:** manage Backup and DR.
@@ -4097,6 +4497,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update the specified Backup.
 
 **Usage help:** `gcloud beta backup-dr backups update --help`
+
+### `gcloud beta backup-dr binding-matching-resources`
+
+**What it does:** manage Backup and DR.
+
+**Usage help:** `gcloud beta backup-dr binding-matching-resources --help`
+
+### `gcloud beta backup-dr binding-matching-resources list`
+
+**What it does:** list Backup and DR.
+
+**Usage help:** `gcloud beta backup-dr binding-matching-resources list --help`
 
 ### `gcloud beta backup-dr data-source-references`
 
@@ -4661,6 +5073,156 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** create and manage Google Cloud BigLake resources.
 
 **Usage help:** `gcloud beta biglake --help`
+
+### `gcloud beta biglake hive`
+
+**What it does:** biglake Hive Catalogs.
+
+**Usage help:** `gcloud beta biglake hive --help`
+
+### `gcloud beta biglake hive catalogs`
+
+**What it does:** manage BigLake Hive catalogs.
+
+**Usage help:** `gcloud beta biglake hive catalogs --help`
+
+### `gcloud beta biglake hive catalogs create`
+
+**What it does:** create a BigLake Hive catalog.
+
+**Usage help:** `gcloud beta biglake hive catalogs create --help`
+
+### `gcloud beta biglake hive catalogs delete`
+
+**What it does:** delete a BigLake Hive catalog.
+
+**Usage help:** `gcloud beta biglake hive catalogs delete --help`
+
+### `gcloud beta biglake hive catalogs describe`
+
+**What it does:** describe a BigLake Hive.
+
+**Usage help:** `gcloud beta biglake hive catalogs describe --help`
+
+### `gcloud beta biglake hive catalogs get-iam-policy`
+
+**What it does:** get the IAM policy for a.
+
+**Usage help:** `gcloud beta biglake hive catalogs get-iam-policy --help`
+
+### `gcloud beta biglake hive catalogs list`
+
+**What it does:** list BigLake Hive catalogs.
+
+**Usage help:** `gcloud beta biglake hive catalogs list --help`
+
+### `gcloud beta biglake hive catalogs set-iam-policy`
+
+**What it does:** set the IAM policy for a.
+
+**Usage help:** `gcloud beta biglake hive catalogs set-iam-policy --help`
+
+### `gcloud beta biglake hive catalogs update`
+
+**What it does:** update a BigLake Hive catalog.
+
+**Usage help:** `gcloud beta biglake hive catalogs update --help`
+
+### `gcloud beta biglake hive databases`
+
+**What it does:** manage BigLake Hive databases.
+
+**Usage help:** `gcloud beta biglake hive databases --help`
+
+### `gcloud beta biglake hive databases create`
+
+**What it does:** creates a BigLake Hive database.
+
+**Usage help:** `gcloud beta biglake hive databases create --help`
+
+### `gcloud beta biglake hive databases delete`
+
+**What it does:** deletes a BigLake Hive database.
+
+**Usage help:** `gcloud beta biglake hive databases delete --help`
+
+### `gcloud beta biglake hive databases describe`
+
+**What it does:** describes a BigLake Hive.
+
+**Usage help:** `gcloud beta biglake hive databases describe --help`
+
+### `gcloud beta biglake hive databases get-iam-policy`
+
+**What it does:** get the IAM policy for.
+
+**Usage help:** `gcloud beta biglake hive databases get-iam-policy --help`
+
+### `gcloud beta biglake hive databases list`
+
+**What it does:** list BigLake Hive databases in a.
+
+**Usage help:** `gcloud beta biglake hive databases list --help`
+
+### `gcloud beta biglake hive databases set-iam-policy`
+
+**What it does:** set the IAM policy for.
+
+**Usage help:** `gcloud beta biglake hive databases set-iam-policy --help`
+
+### `gcloud beta biglake hive databases update`
+
+**What it does:** updates a BigLake Hive database.
+
+**Usage help:** `gcloud beta biglake hive databases update --help`
+
+### `gcloud beta biglake hive tables`
+
+**What it does:** manage BigLake Hive catalog tables.
+
+**Usage help:** `gcloud beta biglake hive tables --help`
+
+### `gcloud beta biglake hive tables create`
+
+**What it does:** create a BigLake Hive table.
+
+**Usage help:** `gcloud beta biglake hive tables create --help`
+
+### `gcloud beta biglake hive tables delete`
+
+**What it does:** deletes a BigLake Hive table.
+
+**Usage help:** `gcloud beta biglake hive tables delete --help`
+
+### `gcloud beta biglake hive tables describe`
+
+**What it does:** describes a BigLake Hive table.
+
+**Usage help:** `gcloud beta biglake hive tables describe --help`
+
+### `gcloud beta biglake hive tables get-iam-policy`
+
+**What it does:** get the IAM policy for a.
+
+**Usage help:** `gcloud beta biglake hive tables get-iam-policy --help`
+
+### `gcloud beta biglake hive tables list`
+
+**What it does:** list BigLake Hive tables in a.
+
+**Usage help:** `gcloud beta biglake hive tables list --help`
+
+### `gcloud beta biglake hive tables set-iam-policy`
+
+**What it does:** set the IAM policy for a.
+
+**Usage help:** `gcloud beta biglake hive tables set-iam-policy --help`
+
+### `gcloud beta biglake hive tables update`
+
+**What it does:** update a BigLake Hive table.
+
+**Usage help:** `gcloud beta biglake hive tables update --help`
 
 ### `gcloud beta biglake iceberg`
 
@@ -5263,6 +5825,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** describe a Bigtable memory.
 
 **Usage help:** `gcloud beta bigtable memory-layers describe --help`
+
+### `gcloud beta bigtable memory-layers list`
+
+**What it does:** list Bigtable memory layers.
+
+**Usage help:** `gcloud beta bigtable memory-layers list --help`
 
 ### `gcloud beta bigtable memory-layers update`
 
@@ -6274,7 +6842,7 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud beta cluster-director clusters`
 
-**What it does:** manage Cluster Director cluster.
+**What it does:** deploy and manage large-scale AI.
 
 **Usage help:** `gcloud beta cluster-director clusters --help`
 
@@ -6310,7 +6878,7 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud beta cluster-director locations`
 
-**What it does:** view Locations resources.
+**What it does:** view supported locations.
 
 **Usage help:** `gcloud beta cluster-director locations --help`
 
@@ -6596,6 +7164,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta composer environments fetch-database-properties --help`
 
+### `gcloud beta composer environments hibernate`
+
+**What it does:** hibernate a Cloud Composer.
+
+**Usage help:** `gcloud beta composer environments hibernate --help`
+
 ### `gcloud beta composer environments list`
 
 **What it does:** list the Cloud Composer.
@@ -6625,6 +7199,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** restart web server.
 
 **Usage help:** `gcloud beta composer environments restart-web-server --help`
+
+### `gcloud beta composer environments resume`
+
+**What it does:** resume a Cloud Composer.
+
+**Usage help:** `gcloud beta composer environments resume --help`
 
 ### `gcloud beta composer environments run`
 
@@ -6934,6 +7514,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta compute advice calendar-mode --help`
 
+### `gcloud beta compute advice capacity`
+
+**What it does:** get capacity advice for Compute.
+
+**Usage help:** `gcloud beta compute advice capacity --help`
+
+### `gcloud beta compute advice capacity-history`
+
+**What it does:** show historical data on Spot.
+
+**Usage help:** `gcloud beta compute advice capacity-history --help`
+
 ### `gcloud beta compute backend-buckets`
 
 **What it does:** read and manipulate backend buckets.
@@ -6999,6 +7591,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** set the IAM policy.
 
 **Usage help:** `gcloud beta compute backend-buckets set-iam-policy --help`
+
+### `gcloud beta compute backend-buckets test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud beta compute backend-buckets test-iam-permissions --help`
 
 ### `gcloud beta compute backend-buckets update`
 
@@ -7132,6 +7730,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta compute backend-services set-iam-policy --help`
 
+### `gcloud beta compute backend-services test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud beta compute backend-services test-iam-permissions --help`
+
 ### `gcloud beta compute backend-services update`
 
 **What it does:** update a backend service.
@@ -7221,6 +7825,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list composite health.
 
 **Usage help:** `gcloud beta compute composite-health-checks list --help`
+
+### `gcloud beta compute composite-health-checks test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud beta compute composite-health-checks test-iam-permissions --help`
 
 ### `gcloud beta compute composite-health-checks update`
 
@@ -7336,6 +7946,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta compute disks bulk create --help`
 
+### `gcloud beta compute disks bulk set-labels`
+
+**What it does:** add or remove labels on.
+
+**Usage help:** `gcloud beta compute disks bulk set-labels --help`
+
 ### `gcloud beta compute disks convert`
 
 **What it does:** convert a Compute Engine Persistent.
@@ -7432,6 +8048,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta compute disks stop-group-async-replication --help`
 
+### `gcloud beta compute disks test-iam-permissions`
+
+**What it does:** test IAM permissions for a.
+
+**Usage help:** `gcloud beta compute disks test-iam-permissions --help`
+
 ### `gcloud beta compute disks update`
 
 **What it does:** update a Compute Engine persistent disk.
@@ -7473,6 +8095,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Google Compute Engine.
 
 **Usage help:** `gcloud beta compute external-vpn-gateways list --help`
+
+### `gcloud beta compute external-vpn-gateways test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud beta compute external-vpn-gateways test-iam-permissions --help`
 
 ### `gcloud beta compute external-vpn-gateways update`
 
@@ -7539,6 +8167,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** export Compute Engine.
 
 **Usage help:** `gcloud beta compute firewall-policies export-rules --help`
+
+### `gcloud beta compute firewall-policies get-iam-policy`
+
+**What it does:** get the IAM policy.
+
+**Usage help:** `gcloud beta compute firewall-policies get-iam-policy --help`
 
 ### `gcloud beta compute firewall-policies import-rules`
 
@@ -7623,6 +8257,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** updates a Compute.
 
 **Usage help:** `gcloud beta compute firewall-policies rules update --help`
+
+### `gcloud beta compute firewall-policies set-iam-policy`
+
+**What it does:** set the IAM policy.
+
+**Usage help:** `gcloud beta compute firewall-policies set-iam-policy --help`
+
+### `gcloud beta compute firewall-policies test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud beta compute firewall-policies test-iam-permissions --help`
 
 ### `gcloud beta compute firewall-policies update`
 
@@ -7912,6 +8558,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta compute health-checks list --help`
 
+### `gcloud beta compute health-checks test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud beta compute health-checks test-iam-permissions --help`
+
 ### `gcloud beta compute health-checks update`
 
 **What it does:** update health checks for load.
@@ -7996,11 +8648,41 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta compute health-sources list --help`
 
+### `gcloud beta compute health-sources test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud beta compute health-sources test-iam-permissions --help`
+
 ### `gcloud beta compute health-sources update`
 
 **What it does:** update a health source.
 
 **Usage help:** `gcloud beta compute health-sources update --help`
+
+### `gcloud beta compute hosts`
+
+**What it does:** read Compute Engine hosts.
+
+**Usage help:** `gcloud beta compute hosts --help`
+
+### `gcloud beta compute hosts describe`
+
+**What it does:** describe a Google Compute Engine host.
+
+**Usage help:** `gcloud beta compute hosts describe --help`
+
+### `gcloud beta compute hosts get-version`
+
+**What it does:** get software versions for a Compute.
+
+**Usage help:** `gcloud beta compute hosts get-version --help`
+
+### `gcloud beta compute hosts list`
+
+**What it does:** list Google Compute Engine hosts.
+
+**Usage help:** `gcloud beta compute hosts list --help`
 
 ### `gcloud beta compute http-health-checks`
 
@@ -8031,6 +8713,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Google Compute Engine.
 
 **Usage help:** `gcloud beta compute http-health-checks list --help`
+
+### `gcloud beta compute http-health-checks test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud beta compute http-health-checks test-iam-permissions --help`
 
 ### `gcloud beta compute http-health-checks update`
 
@@ -8073,6 +8761,24 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update a legacy HTTPS.
 
 **Usage help:** `gcloud beta compute https-health-checks update --help`
+
+### `gcloud beta compute image-views`
+
+**What it does:** read image-view resources with regional.
+
+**Usage help:** `gcloud beta compute image-views --help`
+
+### `gcloud beta compute image-views describe`
+
+**What it does:** describe a Compute Engine.
+
+**Usage help:** `gcloud beta compute image-views describe --help`
+
+### `gcloud beta compute image-views list`
+
+**What it does:** list Compute Engine image-view.
+
+**Usage help:** `gcloud beta compute image-views list --help`
 
 ### `gcloud beta compute images`
 
@@ -8164,6 +8870,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta compute images set-iam-policy --help`
 
+### `gcloud beta compute images test-iam-permissions`
+
+**What it does:** test IAM permissions for.
+
+**Usage help:** `gcloud beta compute images test-iam-permissions --help`
+
 ### `gcloud beta compute images update`
 
 **What it does:** update a Compute Engine image.
@@ -8211,6 +8923,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** abandon.
 
 **Usage help:** `gcloud beta compute instance-groups managed abandon-instances --help`
+
+### `gcloud beta compute instance-groups managed adopt-instances`
+
+**What it does:** adopt.
+
+**Usage help:** `gcloud beta compute instance-groups managed adopt-instances --help`
 
 ### `gcloud beta compute instance-groups managed all-instances-config`
 
@@ -8596,11 +9314,23 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta compute instance-templates describe --help`
 
+### `gcloud beta compute instance-templates export`
+
+**What it does:** export an instance template.
+
+**Usage help:** `gcloud beta compute instance-templates export --help`
+
 ### `gcloud beta compute instance-templates get-iam-policy`
 
 **What it does:** get the IAM policy.
 
 **Usage help:** `gcloud beta compute instance-templates get-iam-policy --help`
+
+### `gcloud beta compute instance-templates import`
+
+**What it does:** import an instance template.
+
+**Usage help:** `gcloud beta compute instance-templates import --help`
 
 ### `gcloud beta compute instance-templates list`
 
@@ -8619,6 +9349,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** set the IAM policy.
 
 **Usage help:** `gcloud beta compute instance-templates set-iam-policy --help`
+
+### `gcloud beta compute instance-templates test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud beta compute instance-templates test-iam-permissions --help`
 
 ### `gcloud beta compute instances`
 
@@ -8758,6 +9494,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta compute instances get-shielded-identity --help`
 
+### `gcloud beta compute instances get-vm-extension-state`
+
+**What it does:** get the VM Extension.
+
+**Usage help:** `gcloud beta compute instances get-vm-extension-state --help`
+
 ### `gcloud beta compute instances import`
 
 **What it does:** create Compute Engine virtual.
@@ -8769,6 +9511,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Compute Engine instances.
 
 **Usage help:** `gcloud beta compute instances list --help`
+
+### `gcloud beta compute instances list-referrers`
+
+**What it does:** list referrers to a Compute.
+
+**Usage help:** `gcloud beta compute instances list-referrers --help`
+
+### `gcloud beta compute instances list-vm-extension-states`
+
+**What it does:** list VM extension.
+
+**Usage help:** `gcloud beta compute instances list-vm-extension-states --help`
 
 ### `gcloud beta compute instances network-interfaces`
 
@@ -8944,6 +9698,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta compute instances set-iam-policy --help`
 
+### `gcloud beta compute instances set-machine-resources`
+
+**What it does:** set machine resources.
+
+**Usage help:** `gcloud beta compute instances set-machine-resources --help`
+
 ### `gcloud beta compute instances set-machine-type`
 
 **What it does:** set machine type for.
@@ -8967,6 +9727,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** set scopes and service account.
 
 **Usage help:** `gcloud beta compute instances set-scopes --help`
+
+### `gcloud beta compute instances set-shielded-vm-integrity-policy`
+
+**What it does:** set the.
+
+**Usage help:** `gcloud beta compute instances set-shielded-vm-integrity-policy --help`
 
 ### `gcloud beta compute instances simulate-maintenance-event`
 
@@ -8997,6 +9763,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** periodically fetch.
 
 **Usage help:** `gcloud beta compute instances tail-serial-port-output --help`
+
+### `gcloud beta compute instances test-iam-permissions`
+
+**What it does:** test IAM permissions.
+
+**Usage help:** `gcloud beta compute instances test-iam-permissions --help`
 
 ### `gcloud beta compute instances update`
 
@@ -9052,6 +9824,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta compute instant-snapshot-groups list --help`
 
+### `gcloud beta compute instant-snapshot-groups set-iam-policy`
+
+**What it does:** set the IAM.
+
+**Usage help:** `gcloud beta compute instant-snapshot-groups set-iam-policy --help`
+
+### `gcloud beta compute instant-snapshot-groups test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud beta compute instant-snapshot-groups test-iam-permissions --help`
+
 ### `gcloud beta compute instant-snapshots`
 
 **What it does:** create, list and delete Compute.
@@ -9087,6 +9871,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Google Compute Engine.
 
 **Usage help:** `gcloud beta compute instant-snapshots list --help`
+
+### `gcloud beta compute instant-snapshots set-iam-policy`
+
+**What it does:** set the IAM policy.
+
+**Usage help:** `gcloud beta compute instant-snapshots set-iam-policy --help`
+
+### `gcloud beta compute instant-snapshots test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud beta compute instant-snapshots test-iam-permissions --help`
 
 ### `gcloud beta compute interconnects`
 
@@ -9219,6 +10015,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** (BETA) gcloud beta compute interconnects attachments groups remove-members is used to remove member interconnect attachments from an interconnect attachment group.
 
 **Usage help:** `gcloud beta compute interconnects attachments groups remove-members --help`
+
+### `gcloud beta compute interconnects attachments groups set-iam-policy`
+
+**What it does:** set.
+
+**Usage help:** `gcloud beta compute interconnects attachments groups set-iam-policy --help`
+
+### `gcloud beta compute interconnects attachments groups test-iam-permissions`
+
+**What it does:** (BETA) Returns permissions that a caller has on the specified interconnect attachment group.
+
+**Usage help:** `gcloud beta compute interconnects attachments groups test-iam-permissions --help`
 
 ### `gcloud beta compute interconnects attachments groups update`
 
@@ -9412,6 +10220,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta compute interconnects groups remove-members --help`
 
+### `gcloud beta compute interconnects groups set-iam-policy`
+
+**What it does:** set the IAM.
+
+**Usage help:** `gcloud beta compute interconnects groups set-iam-policy --help`
+
 ### `gcloud beta compute interconnects groups update`
 
 **What it does:** update a Compute Engine.
@@ -9495,6 +10309,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Google.
 
 **Usage help:** `gcloud beta compute interconnects remote-locations list --help`
+
+### `gcloud beta compute interconnects set-name`
+
+**What it does:** set the name of a Compute.
+
+**Usage help:** `gcloud beta compute interconnects set-name --help`
+
+### `gcloud beta compute interconnects test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud beta compute interconnects test-iam-permissions --help`
 
 ### `gcloud beta compute interconnects update`
 
@@ -9622,6 +10448,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta compute machine-images set-iam-policy --help`
 
+### `gcloud beta compute machine-images test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud beta compute machine-images test-iam-permissions --help`
+
 ### `gcloud beta compute machine-types`
 
 **What it does:** read Compute Engine virtual machine.
@@ -9639,6 +10471,24 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Google Compute Engine machine.
 
 **Usage help:** `gcloud beta compute machine-types list --help`
+
+### `gcloud beta compute managed-rulesets`
+
+**What it does:** read Cloud Armor managed rulesets.
+
+**Usage help:** `gcloud beta compute managed-rulesets --help`
+
+### `gcloud beta compute managed-rulesets describe`
+
+**What it does:** describe a Cloud Armor.
+
+**Usage help:** `gcloud beta compute managed-rulesets describe --help`
+
+### `gcloud beta compute managed-rulesets list`
+
+**What it does:** list pre-configured Cloud Armor.
+
+**Usage help:** `gcloud beta compute managed-rulesets list --help`
 
 ### `gcloud beta compute network-attachments`
 
@@ -9669,6 +10519,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Google Compute Engine.
 
 **Usage help:** `gcloud beta compute network-attachments list --help`
+
+### `gcloud beta compute network-attachments set-iam-policy`
+
+**What it does:** set the IAM policy.
+
+**Usage help:** `gcloud beta compute network-attachments set-iam-policy --help`
+
+### `gcloud beta compute network-attachments test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud beta compute network-attachments test-iam-permissions --help`
 
 ### `gcloud beta compute network-attachments update`
 
@@ -9778,6 +10640,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta compute network-firewall-policies associations delete --help`
 
+### `gcloud beta compute network-firewall-policies associations update`
+
+**What it does:** update.
+
+**Usage help:** `gcloud beta compute network-firewall-policies associations update --help`
+
 ### `gcloud beta compute network-firewall-policies clone-rules`
 
 **What it does:** replace the.
@@ -9813,6 +10681,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** get.
 
 **Usage help:** `gcloud beta compute network-firewall-policies get-effective-firewalls --help`
+
+### `gcloud beta compute network-firewall-policies get-iam-policy`
+
+**What it does:** get the IAM.
+
+**Usage help:** `gcloud beta compute network-firewall-policies get-iam-policy --help`
 
 ### `gcloud beta compute network-firewall-policies import-rules`
 
@@ -9885,6 +10759,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** updates a.
 
 **Usage help:** `gcloud beta compute network-firewall-policies rules update --help`
+
+### `gcloud beta compute network-firewall-policies set-iam-policy`
+
+**What it does:** set the IAM.
+
+**Usage help:** `gcloud beta compute network-firewall-policies set-iam-policy --help`
+
+### `gcloud beta compute network-firewall-policies test-iam-permissions`
+
+**What it does:** test.
+
+**Usage help:** `gcloud beta compute network-firewall-policies test-iam-permissions --help`
 
 ### `gcloud beta compute network-firewall-policies update`
 
@@ -10150,6 +11036,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta compute networks subnets set-iam-policy --help`
 
+### `gcloud beta compute networks subnets test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud beta compute networks subnets test-iam-permissions --help`
+
 ### `gcloud beta compute networks subnets update`
 
 **What it does:** updates properties of an.
@@ -10251,6 +11143,66 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Compute Engine operations.
 
 **Usage help:** `gcloud beta compute operations list --help`
+
+### `gcloud beta compute org-rollout-plans`
+
+**What it does:** read and manipulate Compute Engine.
+
+**Usage help:** `gcloud beta compute org-rollout-plans --help`
+
+### `gcloud beta compute org-rollout-plans create`
+
+**What it does:** create an organization.
+
+**Usage help:** `gcloud beta compute org-rollout-plans create --help`
+
+### `gcloud beta compute org-rollout-plans delete`
+
+**What it does:** delete an organization.
+
+**Usage help:** `gcloud beta compute org-rollout-plans delete --help`
+
+### `gcloud beta compute org-rollout-plans describe`
+
+**What it does:** describe an organization.
+
+**Usage help:** `gcloud beta compute org-rollout-plans describe --help`
+
+### `gcloud beta compute org-rollout-plans list`
+
+**What it does:** list Google Compute Engine.
+
+**Usage help:** `gcloud beta compute org-rollout-plans list --help`
+
+### `gcloud beta compute org-rollouts`
+
+**What it does:** read and manipulate Compute Engine.
+
+**Usage help:** `gcloud beta compute org-rollouts --help`
+
+### `gcloud beta compute org-rollouts cancel`
+
+**What it does:** cancel an organization rollout.
+
+**Usage help:** `gcloud beta compute org-rollouts cancel --help`
+
+### `gcloud beta compute org-rollouts delete`
+
+**What it does:** delete an organization rollout.
+
+**Usage help:** `gcloud beta compute org-rollouts delete --help`
+
+### `gcloud beta compute org-rollouts describe`
+
+**What it does:** describe an organization.
+
+**Usage help:** `gcloud beta compute org-rollouts describe --help`
+
+### `gcloud beta compute org-rollouts list`
+
+**What it does:** list Google Compute Engine.
+
+**Usage help:** `gcloud beta compute org-rollouts list --help`
 
 ### `gcloud beta compute org-security-policies`
 
@@ -10630,6 +11582,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta compute packet-mirrorings list --help`
 
+### `gcloud beta compute packet-mirrorings test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud beta compute packet-mirrorings test-iam-permissions --help`
+
 ### `gcloud beta compute packet-mirrorings update`
 
 **What it does:** update a Compute Engine.
@@ -10689,6 +11647,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update a Compute Engine project.
 
 **Usage help:** `gcloud beta compute project-info update --help`
+
+### `gcloud beta compute project-views`
+
+**What it does:** read project views with regional.
+
+**Usage help:** `gcloud beta compute project-views --help`
+
+### `gcloud beta compute project-views describe`
+
+**What it does:** describe the Compute Engine.
+
+**Usage help:** `gcloud beta compute project-views describe --help`
 
 ### `gcloud beta compute project-zonal-metadata`
 
@@ -10804,6 +11774,48 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta compute public-delegated-prefixes update --help`
 
+### `gcloud beta compute recoverable-snapshots`
+
+**What it does:** recover, list, describe and.
+
+**Usage help:** `gcloud beta compute recoverable-snapshots --help`
+
+### `gcloud beta compute recoverable-snapshots delete`
+
+**What it does:** delete Compute Engine.
+
+**Usage help:** `gcloud beta compute recoverable-snapshots delete --help`
+
+### `gcloud beta compute recoverable-snapshots describe`
+
+**What it does:** describe a Compute.
+
+**Usage help:** `gcloud beta compute recoverable-snapshots describe --help`
+
+### `gcloud beta compute recoverable-snapshots list`
+
+**What it does:** list Google Compute Engine.
+
+**Usage help:** `gcloud beta compute recoverable-snapshots list --help`
+
+### `gcloud beta compute recoverable-snapshots recover`
+
+**What it does:** recovers a Compute.
+
+**Usage help:** `gcloud beta compute recoverable-snapshots recover --help`
+
+### `gcloud beta compute recoverable-snapshots set-iam-policy`
+
+**What it does:** set the IAM.
+
+**Usage help:** `gcloud beta compute recoverable-snapshots set-iam-policy --help`
+
+### `gcloud beta compute recoverable-snapshots test-iam-permissions`
+
+**What it does:** test the.
+
+**Usage help:** `gcloud beta compute recoverable-snapshots test-iam-permissions --help`
+
 ### `gcloud beta compute regions`
 
 **What it does:** list Compute Engine regions.
@@ -10858,6 +11870,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta compute reservations blocks perform-maintenance --help`
 
+### `gcloud beta compute reservations blocks set-iam-policy`
+
+**What it does:** set the IAM policy.
+
+**Usage help:** `gcloud beta compute reservations blocks set-iam-policy --help`
+
+### `gcloud beta compute reservations blocks test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud beta compute reservations blocks test-iam-permissions --help`
+
 ### `gcloud beta compute reservations create`
 
 **What it does:** create a Compute Engine.
@@ -10881,6 +11905,30 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** get the IAM policy for a.
 
 **Usage help:** `gcloud beta compute reservations get-iam-policy --help`
+
+### `gcloud beta compute reservations hosts`
+
+**What it does:** read Compute Engine reservation.
+
+**Usage help:** `gcloud beta compute reservations hosts --help`
+
+### `gcloud beta compute reservations hosts describe`
+
+**What it does:** describe a Google Compute.
+
+**Usage help:** `gcloud beta compute reservations hosts describe --help`
+
+### `gcloud beta compute reservations hosts get-version`
+
+**What it does:** get software versions.
+
+**Usage help:** `gcloud beta compute reservations hosts get-version --help`
+
+### `gcloud beta compute reservations hosts list`
+
+**What it does:** list Google Compute Engine.
+
+**Usage help:** `gcloud beta compute reservations hosts list --help`
 
 ### `gcloud beta compute reservations list`
 
@@ -10917,6 +11965,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** describe a Compute Engine.
 
 **Usage help:** `gcloud beta compute reservations slots describe --help`
+
+### `gcloud beta compute reservations slots get-health`
+
+**What it does:** get the health of a.
+
+**Usage help:** `gcloud beta compute reservations slots get-health --help`
 
 ### `gcloud beta compute reservations slots get-version`
 
@@ -10965,6 +12019,24 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** (BETA) Report a sub-block within a reservation as faulty.
 
 **Usage help:** `gcloud beta compute reservations sub-blocks report-subblock-as-faulty --help`
+
+### `gcloud beta compute reservations sub-blocks set-iam-policy`
+
+**What it does:** set the IAM.
+
+**Usage help:** `gcloud beta compute reservations sub-blocks set-iam-policy --help`
+
+### `gcloud beta compute reservations sub-blocks test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud beta compute reservations sub-blocks test-iam-permissions --help`
+
+### `gcloud beta compute reservations test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud beta compute reservations test-iam-permissions --help`
 
 ### `gcloud beta compute reservations update`
 
@@ -11055,6 +12127,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** set the IAM policy.
 
 **Usage help:** `gcloud beta compute resource-policies set-iam-policy --help`
+
+### `gcloud beta compute resource-policies test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud beta compute resource-policies test-iam-permissions --help`
 
 ### `gcloud beta compute resource-policies update`
 
@@ -11368,6 +12446,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta compute routers remove-route-policy-term --help`
 
+### `gcloud beta compute routers test-iam-permissions`
+
+**What it does:** test IAM permissions for.
+
+**Usage help:** `gcloud beta compute routers test-iam-permissions --help`
+
 ### `gcloud beta compute routers update`
 
 **What it does:** update a Compute Engine router.
@@ -11590,6 +12674,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta compute service-attachments list --help`
 
+### `gcloud beta compute service-attachments set-iam-policy`
+
+**What it does:** set the IAM policy.
+
+**Usage help:** `gcloud beta compute service-attachments set-iam-policy --help`
+
+### `gcloud beta compute service-attachments test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud beta compute service-attachments test-iam-permissions --help`
+
 ### `gcloud beta compute service-attachments update`
 
 **What it does:** update a Google Compute.
@@ -11668,6 +12764,24 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta compute sign-url --help`
 
+### `gcloud beta compute snapshot-recycle-bin-policy`
+
+**What it does:** update and describe.
+
+**Usage help:** `gcloud beta compute snapshot-recycle-bin-policy --help`
+
+### `gcloud beta compute snapshot-recycle-bin-policy describe`
+
+**What it does:** describe the.
+
+**Usage help:** `gcloud beta compute snapshot-recycle-bin-policy describe --help`
+
+### `gcloud beta compute snapshot-recycle-bin-policy update`
+
+**What it does:** update the.
+
+**Usage help:** `gcloud beta compute snapshot-recycle-bin-policy update --help`
+
 ### `gcloud beta compute snapshot-settings`
 
 **What it does:** describe and update Compute Engine.
@@ -11722,6 +12836,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta compute snapshots describe --help`
 
+### `gcloud beta compute snapshots get-effective-recycle-bin-rule`
+
+**What it does:** returns the.
+
+**Usage help:** `gcloud beta compute snapshots get-effective-recycle-bin-rule --help`
+
 ### `gcloud beta compute snapshots get-iam-policy`
 
 **What it does:** get the IAM policy for a.
@@ -11751,6 +12871,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** set the IAM policy for a.
 
 **Usage help:** `gcloud beta compute snapshots set-iam-policy --help`
+
+### `gcloud beta compute snapshots test-iam-permissions`
+
+**What it does:** test IAM permissions.
+
+**Usage help:** `gcloud beta compute snapshots test-iam-permissions --help`
 
 ### `gcloud beta compute snapshots update`
 
@@ -11842,6 +12968,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta compute sole-tenancy node-groups simulate-maintenance-event --help`
 
+### `gcloud beta compute sole-tenancy node-groups test-iam-permissions`
+
+**What it does:** test.
+
+**Usage help:** `gcloud beta compute sole-tenancy node-groups test-iam-permissions --help`
+
 ### `gcloud beta compute sole-tenancy node-groups update`
 
 **What it does:** update a Compute.
@@ -11901,6 +13033,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** set the.
 
 **Usage help:** `gcloud beta compute sole-tenancy node-templates set-iam-policy --help`
+
+### `gcloud beta compute sole-tenancy node-templates test-iam-permissions`
+
+**What it does:** test.
+
+**Usage help:** `gcloud beta compute sole-tenancy node-templates test-iam-permissions --help`
 
 ### `gcloud beta compute sole-tenancy node-types`
 
@@ -11962,6 +13100,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta compute ssl-policies --help`
 
+### `gcloud beta compute ssl-policies add-iam-policy-binding`
+
+**What it does:** add an IAM policy.
+
+**Usage help:** `gcloud beta compute ssl-policies add-iam-policy-binding --help`
+
 ### `gcloud beta compute ssl-policies create`
 
 **What it does:** create a new Compute Engine SSL.
@@ -11980,6 +13124,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta compute ssl-policies describe --help`
 
+### `gcloud beta compute ssl-policies get-iam-policy`
+
+**What it does:** get the IAM policy for a.
+
+**Usage help:** `gcloud beta compute ssl-policies get-iam-policy --help`
+
 ### `gcloud beta compute ssl-policies list`
 
 **What it does:** list Google Compute Engine SSL.
@@ -11991,6 +13141,24 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list available.
 
 **Usage help:** `gcloud beta compute ssl-policies list-available-features --help`
+
+### `gcloud beta compute ssl-policies remove-iam-policy-binding`
+
+**What it does:** remove an IAM.
+
+**Usage help:** `gcloud beta compute ssl-policies remove-iam-policy-binding --help`
+
+### `gcloud beta compute ssl-policies set-iam-policy`
+
+**What it does:** set the IAM policy for a.
+
+**Usage help:** `gcloud beta compute ssl-policies set-iam-policy --help`
+
+### `gcloud beta compute ssl-policies test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud beta compute ssl-policies test-iam-permissions --help`
 
 ### `gcloud beta compute ssl-policies update`
 
@@ -12069,6 +13237,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** set the IAM policy of.
 
 **Usage help:** `gcloud beta compute storage-pools set-iam-policy --help`
+
+### `gcloud beta compute storage-pools test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud beta compute storage-pools test-iam-permissions --help`
 
 ### `gcloud beta compute storage-pools update`
 
@@ -12195,6 +13369,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Google Compute Engine.
 
 **Usage help:** `gcloud beta compute target-https-proxies list --help`
+
+### `gcloud beta compute target-https-proxies set-quic-override`
+
+**What it does:** set the QUIC.
+
+**Usage help:** `gcloud beta compute target-https-proxies set-quic-override --help`
 
 ### `gcloud beta compute target-https-proxies update`
 
@@ -12340,6 +13520,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta compute target-ssl-proxies list --help`
 
+### `gcloud beta compute target-ssl-proxies test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud beta compute target-ssl-proxies test-iam-permissions --help`
+
 ### `gcloud beta compute target-ssl-proxies update`
 
 **What it does:** update a target SSL proxy.
@@ -12375,6 +13561,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Google Compute Engine.
 
 **Usage help:** `gcloud beta compute target-tcp-proxies list --help`
+
+### `gcloud beta compute target-tcp-proxies test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud beta compute target-tcp-proxies test-iam-permissions --help`
 
 ### `gcloud beta compute target-tcp-proxies update`
 
@@ -12568,6 +13760,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta compute url-maps set-default-service --help`
 
+### `gcloud beta compute url-maps test-iam-permissions`
+
+**What it does:** test IAM permissions.
+
+**Usage help:** `gcloud beta compute url-maps test-iam-permissions --help`
+
 ### `gcloud beta compute url-maps validate`
 
 **What it does:** validate a URL map.
@@ -12609,6 +13807,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Google Compute Engine Highly.
 
 **Usage help:** `gcloud beta compute vpn-gateways list --help`
+
+### `gcloud beta compute vpn-gateways test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud beta compute vpn-gateways test-iam-permissions --help`
 
 ### `gcloud beta compute vpn-gateways update`
 
@@ -13718,6 +14922,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta container fleet config-management unmanage --help`
 
+### `gcloud beta container fleet config-management update`
+
+**What it does:** update the Config.
+
+**Usage help:** `gcloud beta container fleet config-management update --help`
+
 ### `gcloud beta container fleet config-management upgrade`
 
 **What it does:** upgrade the version.
@@ -14374,9 +15584,21 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud beta container fleet rollouts`
 
-**What it does:** create and manage rollouts.
+**What it does:** manage rollouts.
 
 **Usage help:** `gcloud beta container fleet rollouts --help`
+
+### `gcloud beta container fleet rollouts cancel`
+
+**What it does:** cancel a rollout.
+
+**Usage help:** `gcloud beta container fleet rollouts cancel --help`
+
+### `gcloud beta container fleet rollouts delete`
+
+**What it does:** delete a rollout resource.
+
+**Usage help:** `gcloud beta container fleet rollouts delete --help`
 
 ### `gcloud beta container fleet rollouts describe`
 
@@ -14384,11 +15606,29 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta container fleet rollouts describe --help`
 
+### `gcloud beta container fleet rollouts force-complete-stage`
+
+**What it does:** force-complete.
+
+**Usage help:** `gcloud beta container fleet rollouts force-complete-stage --help`
+
 ### `gcloud beta container fleet rollouts list`
 
 **What it does:** list all fleet rollouts.
 
 **Usage help:** `gcloud beta container fleet rollouts list --help`
+
+### `gcloud beta container fleet rollouts pause`
+
+**What it does:** pause a rollout resource.
+
+**Usage help:** `gcloud beta container fleet rollouts pause --help`
+
+### `gcloud beta container fleet rollouts resume`
+
+**What it does:** resume a rollout resource.
+
+**Usage help:** `gcloud beta container fleet rollouts resume --help`
 
 ### `gcloud beta container fleet rolloutsequences`
 
@@ -14425,6 +15665,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update a rollout.
 
 **Usage help:** `gcloud beta container fleet rolloutsequences update --help`
+
+### `gcloud beta container fleet rolloutsequences upgrade`
+
+**What it does:** upgrade the clusters.
+
+**Usage help:** `gcloud beta container fleet rolloutsequences upgrade --help`
 
 ### `gcloud beta container fleet scopes`
 
@@ -14737,6 +15983,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** remove the Config.
 
 **Usage help:** `gcloud beta container hub config-management unmanage --help`
+
+### `gcloud beta container hub config-management update`
+
+**What it does:** update the Config.
+
+**Usage help:** `gcloud beta container hub config-management update --help`
 
 ### `gcloud beta container hub config-management upgrade`
 
@@ -15394,9 +16646,21 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud beta container hub rollouts`
 
-**What it does:** create and manage rollouts.
+**What it does:** manage rollouts.
 
 **Usage help:** `gcloud beta container hub rollouts --help`
+
+### `gcloud beta container hub rollouts cancel`
+
+**What it does:** cancel a rollout.
+
+**Usage help:** `gcloud beta container hub rollouts cancel --help`
+
+### `gcloud beta container hub rollouts delete`
+
+**What it does:** delete a rollout resource.
+
+**Usage help:** `gcloud beta container hub rollouts delete --help`
 
 ### `gcloud beta container hub rollouts describe`
 
@@ -15404,11 +16668,29 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta container hub rollouts describe --help`
 
+### `gcloud beta container hub rollouts force-complete-stage`
+
+**What it does:** force-complete a.
+
+**Usage help:** `gcloud beta container hub rollouts force-complete-stage --help`
+
 ### `gcloud beta container hub rollouts list`
 
 **What it does:** list all fleet rollouts.
 
 **Usage help:** `gcloud beta container hub rollouts list --help`
+
+### `gcloud beta container hub rollouts pause`
+
+**What it does:** pause a rollout resource.
+
+**Usage help:** `gcloud beta container hub rollouts pause --help`
+
+### `gcloud beta container hub rollouts resume`
+
+**What it does:** resume a rollout resource.
+
+**Usage help:** `gcloud beta container hub rollouts resume --help`
 
 ### `gcloud beta container hub rolloutsequences`
 
@@ -15445,6 +16727,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update a rollout.
 
 **Usage help:** `gcloud beta container hub rolloutsequences update --help`
+
+### `gcloud beta container hub rolloutsequences upgrade`
+
+**What it does:** upgrade the clusters.
+
+**Usage help:** `gcloud beta container hub rolloutsequences upgrade --help`
 
 ### `gcloud beta container hub scopes`
 
@@ -16538,6 +17826,134 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta dataflow yaml run --help`
 
+## datalineage
+
+### `gcloud beta datalineage`
+
+**What it does:** manage Google Cloud Data Lineage resources.
+
+**Usage help:** `gcloud beta datalineage --help`
+
+### `gcloud beta datalineage config`
+
+**What it does:** manage Data Lineage configurations.
+
+**Usage help:** `gcloud beta datalineage config --help`
+
+### `gcloud beta datalineage config describe`
+
+**What it does:** describe Data Lineage.
+
+**Usage help:** `gcloud beta datalineage config describe --help`
+
+### `gcloud beta datalineage config update`
+
+**What it does:** update Data Lineage configuration.
+
+**Usage help:** `gcloud beta datalineage config update --help`
+
+### `gcloud beta datalineage lineage-events`
+
+**What it does:** manage Data Lineage events.
+
+**Usage help:** `gcloud beta datalineage lineage-events --help`
+
+### `gcloud beta datalineage lineage-events create`
+
+**What it does:** create a Data Lineage event.
+
+**Usage help:** `gcloud beta datalineage lineage-events create --help`
+
+### `gcloud beta datalineage lineage-events delete`
+
+**What it does:** delete a Data Lineage event.
+
+**Usage help:** `gcloud beta datalineage lineage-events delete --help`
+
+### `gcloud beta datalineage lineage-events describe`
+
+**What it does:** describe a Data Lineage.
+
+**Usage help:** `gcloud beta datalineage lineage-events describe --help`
+
+### `gcloud beta datalineage lineage-events list`
+
+**What it does:** list Data Lineage events.
+
+**Usage help:** `gcloud beta datalineage lineage-events list --help`
+
+### `gcloud beta datalineage processes`
+
+**What it does:** manage Data Lineage processes.
+
+**Usage help:** `gcloud beta datalineage processes --help`
+
+### `gcloud beta datalineage processes create`
+
+**What it does:** create a Data Lineage process.
+
+**Usage help:** `gcloud beta datalineage processes create --help`
+
+### `gcloud beta datalineage processes delete`
+
+**What it does:** delete a Data Lineage process.
+
+**Usage help:** `gcloud beta datalineage processes delete --help`
+
+### `gcloud beta datalineage processes describe`
+
+**What it does:** describe a Data Lineage.
+
+**Usage help:** `gcloud beta datalineage processes describe --help`
+
+### `gcloud beta datalineage processes list`
+
+**What it does:** list Data Lineage processes.
+
+**Usage help:** `gcloud beta datalineage processes list --help`
+
+### `gcloud beta datalineage processes update`
+
+**What it does:** update a data lineage process.
+
+**Usage help:** `gcloud beta datalineage processes update --help`
+
+### `gcloud beta datalineage runs`
+
+**What it does:** manage Data Lineage runs.
+
+**Usage help:** `gcloud beta datalineage runs --help`
+
+### `gcloud beta datalineage runs create`
+
+**What it does:** create a data lineage run.
+
+**Usage help:** `gcloud beta datalineage runs create --help`
+
+### `gcloud beta datalineage runs delete`
+
+**What it does:** delete a Data Lineage run.
+
+**Usage help:** `gcloud beta datalineage runs delete --help`
+
+### `gcloud beta datalineage runs describe`
+
+**What it does:** describe a Data Lineage run.
+
+**Usage help:** `gcloud beta datalineage runs describe --help`
+
+### `gcloud beta datalineage runs list`
+
+**What it does:** list Data Lineage runs.
+
+**Usage help:** `gcloud beta datalineage runs list --help`
+
+### `gcloud beta datalineage runs update`
+
+**What it does:** update a data lineage run.
+
+**Usage help:** `gcloud beta datalineage runs update --help`
+
 ## datapipelines
 
 ### `gcloud beta datapipelines`
@@ -16703,6 +18119,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** submit a PySpark batch job.
 
 **Usage help:** `gcloud beta dataproc batches submit pyspark --help`
+
+### `gcloud beta dataproc batches submit pyspark-notebook`
+
+**What it does:** submit a PySpark.
+
+**Usage help:** `gcloud beta dataproc batches submit pyspark-notebook --help`
 
 ### `gcloud beta dataproc batches submit spark`
 
@@ -18136,6 +19558,42 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta developer-connect --help`
 
+### `gcloud beta developer-connect account-connectors`
+
+**What it does:** manage Account Connector.
+
+**Usage help:** `gcloud beta developer-connect account-connectors --help`
+
+### `gcloud beta developer-connect account-connectors create`
+
+**What it does:** create.
+
+**Usage help:** `gcloud beta developer-connect account-connectors create --help`
+
+### `gcloud beta developer-connect account-connectors delete`
+
+**What it does:** delete.
+
+**Usage help:** `gcloud beta developer-connect account-connectors delete --help`
+
+### `gcloud beta developer-connect account-connectors describe`
+
+**What it does:** describe.
+
+**Usage help:** `gcloud beta developer-connect account-connectors describe --help`
+
+### `gcloud beta developer-connect account-connectors list`
+
+**What it does:** list.
+
+**Usage help:** `gcloud beta developer-connect account-connectors list --help`
+
+### `gcloud beta developer-connect account-connectors update`
+
+**What it does:** update.
+
+**Usage help:** `gcloud beta developer-connect account-connectors update --help`
+
 ### `gcloud beta developer-connect connections`
 
 **What it does:** manage connection resources.
@@ -18201,12 +19659,6 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list.
 
 **Usage help:** `gcloud beta developer-connect connections git-repository-links list --help`
-
-### `gcloud beta developer-connect connections git-repository-links update`
-
-**What it does:** (BETA) Update a git repository link to enable metrics collection.
-
-**Usage help:** `gcloud beta developer-connect connections git-repository-links update --help`
 
 ### `gcloud beta developer-connect connections list`
 
@@ -18291,6 +19743,130 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** wait operations.
 
 **Usage help:** `gcloud beta developer-connect operations wait --help`
+
+## developer-knowledge
+
+### `gcloud beta developer-knowledge`
+
+**What it does:** manage Developer Knowledge resources and.
+
+**Usage help:** `gcloud beta developer-knowledge --help`
+
+### `gcloud beta developer-knowledge answer-query`
+
+**What it does:** answer a natural language.
+
+**Usage help:** `gcloud beta developer-knowledge answer-query --help`
+
+### `gcloud beta developer-knowledge documents`
+
+**What it does:** explore and search Developer.
+
+**Usage help:** `gcloud beta developer-knowledge documents --help`
+
+### `gcloud beta developer-knowledge documents describe`
+
+**What it does:** retrieve a single.
+
+**Usage help:** `gcloud beta developer-knowledge documents describe --help`
+
+### `gcloud beta developer-knowledge documents search-chunks`
+
+**What it does:** search for.
+
+**Usage help:** `gcloud beta developer-knowledge documents search-chunks --help`
+
+## device-run
+
+### `gcloud beta device-run`
+
+**What it does:** manage automation sessions and jobs on devices.
+
+**Usage help:** `gcloud beta device-run --help`
+
+### `gcloud beta device-run devices`
+
+**What it does:** manage Device Run devices.
+
+**Usage help:** `gcloud beta device-run devices --help`
+
+### `gcloud beta device-run devices describe`
+
+**What it does:** describe a Device Run device.
+
+**Usage help:** `gcloud beta device-run devices describe --help`
+
+### `gcloud beta device-run devices list`
+
+**What it does:** list available Device Run devices.
+
+**Usage help:** `gcloud beta device-run devices list --help`
+
+### `gcloud beta device-run sessions`
+
+**What it does:** manage Device Run sessions.
+
+**Usage help:** `gcloud beta device-run sessions --help`
+
+### `gcloud beta device-run sessions cancel`
+
+**What it does:** cancel a Device Run session.
+
+**Usage help:** `gcloud beta device-run sessions cancel --help`
+
+### `gcloud beta device-run sessions describe`
+
+**What it does:** describe a Device Run session.
+
+**Usage help:** `gcloud beta device-run sessions describe --help`
+
+### `gcloud beta device-run sessions list`
+
+**What it does:** list all Device Run sessions.
+
+**Usage help:** `gcloud beta device-run sessions list --help`
+
+### `gcloud beta device-run sessions submit`
+
+**What it does:** submit automation sessions with.
+
+**Usage help:** `gcloud beta device-run sessions submit --help`
+
+### `gcloud beta device-run sessions submit android-executable`
+
+**What it does:** submit a Device.
+
+**Usage help:** `gcloud beta device-run sessions submit android-executable --help`
+
+### `gcloud beta device-run sessions submit instrumentation`
+
+**What it does:** submit a Device.
+
+**Usage help:** `gcloud beta device-run sessions submit instrumentation --help`
+
+### `gcloud beta device-run sessions wait`
+
+**What it does:** wait for a Device Run session to.
+
+**Usage help:** `gcloud beta device-run sessions wait --help`
+
+### `gcloud beta device-run software-versions`
+
+**What it does:** manage Device Run software.
+
+**Usage help:** `gcloud beta device-run software-versions --help`
+
+### `gcloud beta device-run software-versions describe`
+
+**What it does:** describe a Device Run.
+
+**Usage help:** `gcloud beta device-run software-versions describe --help`
+
+### `gcloud beta device-run software-versions list`
+
+**What it does:** list available Device Run.
+
+**Usage help:** `gcloud beta device-run software-versions list --help`
 
 ## dns
 
@@ -18383,6 +19959,42 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Cloud DNS operations.
 
 **Usage help:** `gcloud beta dns operations list --help`
+
+### `gcloud beta dns outbound-endpoints`
+
+**What it does:** manage your Cloud DNS outbound.
+
+**Usage help:** `gcloud beta dns outbound-endpoints --help`
+
+### `gcloud beta dns outbound-endpoints create`
+
+**What it does:** creates a new Cloud DNS.
+
+**Usage help:** `gcloud beta dns outbound-endpoints create --help`
+
+### `gcloud beta dns outbound-endpoints delete`
+
+**What it does:** deletes a Cloud DNS outbound.
+
+**Usage help:** `gcloud beta dns outbound-endpoints delete --help`
+
+### `gcloud beta dns outbound-endpoints describe`
+
+**What it does:** describes a Cloud DNS.
+
+**Usage help:** `gcloud beta dns outbound-endpoints describe --help`
+
+### `gcloud beta dns outbound-endpoints list`
+
+**What it does:** lists Cloud DNS outbound.
+
+**Usage help:** `gcloud beta dns outbound-endpoints list --help`
+
+### `gcloud beta dns outbound-endpoints update`
+
+**What it does:** updates an existing Cloud DNS.
+
+**Usage help:** `gcloud beta dns outbound-endpoints update --help`
 
 ### `gcloud beta dns policies`
 
@@ -19705,6 +21317,36 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** bulk delete Cloud Firestore documents.
 
 **Usage help:** `gcloud beta firestore bulk-delete --help`
+
+### `gcloud beta firestore change-streams`
+
+**What it does:** manage Cloud Firestore ChangeStreams.
+
+**Usage help:** `gcloud beta firestore change-streams --help`
+
+### `gcloud beta firestore change-streams create`
+
+**What it does:** create a Cloud Firestore.
+
+**Usage help:** `gcloud beta firestore change-streams create --help`
+
+### `gcloud beta firestore change-streams delete`
+
+**What it does:** delete a Cloud Firestore.
+
+**Usage help:** `gcloud beta firestore change-streams delete --help`
+
+### `gcloud beta firestore change-streams describe`
+
+**What it does:** describe a Cloud Firestore.
+
+**Usage help:** `gcloud beta firestore change-streams describe --help`
+
+### `gcloud beta firestore change-streams list`
+
+**What it does:** list change streams under a.
+
+**Usage help:** `gcloud beta firestore change-streams list --help`
 
 ### `gcloud beta firestore databases`
 
@@ -21078,6 +22720,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta iam workforce-pools providers create-oidc --help`
 
+### `gcloud beta iam workforce-pools providers create-saml`
+
+**What it does:** create a new SAML.
+
+**Usage help:** `gcloud beta iam workforce-pools providers create-saml --help`
+
 ### `gcloud beta iam workforce-pools providers delete`
 
 **What it does:** delete a workforce pool.
@@ -21245,6 +22893,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update an OIDC.
 
 **Usage help:** `gcloud beta iam workforce-pools providers update-oidc --help`
+
+### `gcloud beta iam workforce-pools providers update-saml`
+
+**What it does:** update a new SAML.
+
+**Usage help:** `gcloud beta iam workforce-pools providers update-saml --help`
 
 ### `gcloud beta iam workforce-pools undelete`
 
@@ -21476,6 +23130,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta iap tcp --help`
 
+### `gcloud beta iap tcp add-iam-policy-binding`
+
+**What it does:** add IAM policy binding to an.
+
+**Usage help:** `gcloud beta iap tcp add-iam-policy-binding --help`
+
 ### `gcloud beta iap tcp dest-groups`
 
 **What it does:** manage IAP TCP Destination Group.
@@ -21535,6 +23195,24 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update the IAP TCP Destination.
 
 **Usage help:** `gcloud beta iap tcp dest-groups update --help`
+
+### `gcloud beta iap tcp get-iam-policy`
+
+**What it does:** get IAM policy for an IAP TCP IAM.
+
+**Usage help:** `gcloud beta iap tcp get-iam-policy --help`
+
+### `gcloud beta iap tcp remove-iam-policy-binding`
+
+**What it does:** remove IAM policy binding.
+
+**Usage help:** `gcloud beta iap tcp remove-iam-policy-binding --help`
+
+### `gcloud beta iap tcp set-iam-policy`
+
+**What it does:** set the IAM policy for an IAP TCP IAM.
+
+**Usage help:** `gcloud beta iap tcp set-iam-policy --help`
 
 ### `gcloud beta iap web`
 
@@ -21782,13 +23460,13 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud beta kms autokey-config show-effective-config`
 
-**What it does:** gets the effective.
+**What it does:** get the effective.
 
 **Usage help:** `gcloud beta kms autokey-config show-effective-config --help`
 
 ### `gcloud beta kms autokey-config update`
 
-**What it does:** updates the AutokeyConfig for a.
+**What it does:** update the AutokeyConfig for a.
 
 **Usage help:** `gcloud beta kms autokey-config update --help`
 
@@ -22056,6 +23734,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta kms keyrings create --help`
 
+### `gcloud beta kms keyrings delete`
+
+**What it does:** delete a keyring.
+
+**Usage help:** `gcloud beta kms keyrings delete --help`
+
 ### `gcloud beta kms keyrings describe`
 
 **What it does:** get metadata for a keyring.
@@ -22206,6 +23890,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta kms keys versions enable --help`
 
+### `gcloud beta kms keys versions export-trusted-key-wrapped`
+
+**What it does:** export a trusted.
+
+**Usage help:** `gcloud beta kms keys versions export-trusted-key-wrapped --help`
+
 ### `gcloud beta kms keys versions get-certificate-chain`
 
 **What it does:** get a certificate.
@@ -22223,6 +23913,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** import a version into an existing.
 
 **Usage help:** `gcloud beta kms keys versions import --help`
+
+### `gcloud beta kms keys versions import-trusted-key-wrapped`
+
+**What it does:** import a trusted.
+
+**Usage help:** `gcloud beta kms keys versions import-trusted-key-wrapped --help`
 
 ### `gcloud beta kms keys versions list`
 
@@ -23126,6 +24822,24 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta memorystore acl-policies list --help`
 
+### `gcloud beta memorystore acl-policies revisions`
+
+**What it does:** manage Acl Policy Revision.
+
+**Usage help:** `gcloud beta memorystore acl-policies revisions --help`
+
+### `gcloud beta memorystore acl-policies revisions describe`
+
+**What it does:** describe.
+
+**Usage help:** `gcloud beta memorystore acl-policies revisions describe --help`
+
+### `gcloud beta memorystore acl-policies revisions list`
+
+**What it does:** list.
+
+**Usage help:** `gcloud beta memorystore acl-policies revisions list --help`
+
 ### `gcloud beta memorystore acl-policies update`
 
 **What it does:** update aclPolicies.
@@ -23742,7 +25456,7 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud beta metastore services migrations start`
 
-**What it does:** start the migration on a.
+**What it does:** start the migration from.
 
 **Usage help:** `gcloud beta metastore services migrations start --help`
 
@@ -24866,13 +26580,13 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud beta netapp storage-pools list-backup-configs`
 
-**What it does:** a command to list.
+**What it does:** list backup.
 
 **Usage help:** `gcloud beta netapp storage-pools list-backup-configs --help`
 
 ### `gcloud beta netapp storage-pools restore-volume`
 
-**What it does:** restores a backup to a.
+**What it does:** restore a backup to a.
 
 **Usage help:** `gcloud beta netapp storage-pools restore-volume --help`
 
@@ -24890,7 +26604,7 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud beta netapp storage-pools update-backup-config`
 
-**What it does:** a command to update.
+**What it does:** update backup.
 
 **Usage help:** `gcloud beta netapp storage-pools update-backup-config --help`
 
@@ -24929,6 +26643,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** establish peering for Cache.
 
 **Usage help:** `gcloud beta netapp volumes establish-peering --help`
+
+### `gcloud beta netapp volumes get-split-status`
+
+**What it does:** retrieves the split status of.
+
+**Usage help:** `gcloud beta netapp volumes get-split-status --help`
 
 ### `gcloud beta netapp volumes list`
 
@@ -25085,6 +26805,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update a Cloud NetApp Volume.
 
 **Usage help:** `gcloud beta netapp volumes snapshots update --help`
+
+### `gcloud beta netapp volumes start-split`
+
+**What it does:** starts splitting a Cloud NetApp.
+
+**Usage help:** `gcloud beta netapp volumes start-split --help`
 
 ### `gcloud beta netapp volumes update`
 
@@ -26100,6 +27826,30 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta network-security firewall-endpoints update --help`
 
+### `gcloud beta network-security firewall-endpoints wildfire-verdict-change-requests`
+
+**What it does:** manage WildFire Verdict Change.
+
+**Usage help:** `gcloud beta network-security firewall-endpoints wildfire-verdict-change-requests --help`
+
+### `gcloud beta network-security firewall-endpoints wildfire-verdict-change-requests create`
+
+**What it does:** create a WildFire Verdict.
+
+**Usage help:** `gcloud beta network-security firewall-endpoints wildfire-verdict-change-requests create --help`
+
+### `gcloud beta network-security firewall-endpoints wildfire-verdict-change-requests get`
+
+**What it does:** get a WildFire Verdict Change.
+
+**Usage help:** `gcloud beta network-security firewall-endpoints wildfire-verdict-change-requests get --help`
+
+### `gcloud beta network-security firewall-endpoints wildfire-verdict-change-requests list`
+
+**What it does:** list WildFire Verdict Change.
+
+**Usage help:** `gcloud beta network-security firewall-endpoints wildfire-verdict-change-requests list --help`
+
 ### `gcloud beta network-security gateway-security-policies`
 
 **What it does:** manage Network.
@@ -26448,6 +28198,42 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta network-security mirroring-endpoint-groups update --help`
 
+### `gcloud beta network-security mirroring-endpoints`
+
+**What it does:** manage Mirroring.
+
+**Usage help:** `gcloud beta network-security mirroring-endpoints --help`
+
+### `gcloud beta network-security operations`
+
+**What it does:** manage Network Security.
+
+**Usage help:** `gcloud beta network-security operations --help`
+
+### `gcloud beta network-security operations cancel`
+
+**What it does:** cancel a Network Security.
+
+**Usage help:** `gcloud beta network-security operations cancel --help`
+
+### `gcloud beta network-security operations describe`
+
+**What it does:** show details of a.
+
+**Usage help:** `gcloud beta network-security operations describe --help`
+
+### `gcloud beta network-security operations list`
+
+**What it does:** list all Network Security.
+
+**Usage help:** `gcloud beta network-security operations list --help`
+
+### `gcloud beta network-security operations wait`
+
+**What it does:** poll a Network Security long.
+
+**Usage help:** `gcloud beta network-security operations wait --help`
+
 ### `gcloud beta network-security org-address-groups`
 
 **What it does:** manage Network Security.
@@ -26507,6 +28293,42 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update an address.
 
 **Usage help:** `gcloud beta network-security org-address-groups update --help`
+
+### `gcloud beta network-security rate-limit-policies`
+
+**What it does:** manage Rate Limit Policy.
+
+**Usage help:** `gcloud beta network-security rate-limit-policies --help`
+
+### `gcloud beta network-security rate-limit-policies delete`
+
+**What it does:** delete a.
+
+**Usage help:** `gcloud beta network-security rate-limit-policies delete --help`
+
+### `gcloud beta network-security rate-limit-policies describe`
+
+**What it does:** describe a.
+
+**Usage help:** `gcloud beta network-security rate-limit-policies describe --help`
+
+### `gcloud beta network-security rate-limit-policies export`
+
+**What it does:** export a.
+
+**Usage help:** `gcloud beta network-security rate-limit-policies export --help`
+
+### `gcloud beta network-security rate-limit-policies import`
+
+**What it does:** import a.
+
+**Usage help:** `gcloud beta network-security rate-limit-policies import --help`
+
+### `gcloud beta network-security rate-limit-policies list`
+
+**What it does:** list.
+
+**Usage help:** `gcloud beta network-security rate-limit-policies list --help`
 
 ### `gcloud beta network-security secure-access-connect`
 
@@ -26802,11 +28624,107 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta network-security security-profiles url-filtering list --help`
 
+### `gcloud beta network-security security-profiles wildfire-analysis`
+
+**What it does:** manage.
+
+**Usage help:** `gcloud beta network-security security-profiles wildfire-analysis --help`
+
+### `gcloud beta network-security security-profiles wildfire-analysis add-inline-cloud-analysis-rule`
+
+**What it does:** add a WildFire inline cloud analysis.
+
+**Usage help:** `gcloud beta network-security security-profiles wildfire-analysis add-inline-cloud-analysis-rule --help`
+
+### `gcloud beta network-security security-profiles wildfire-analysis add-inline-ml-exception`
+
+**What it does:** add a WildFire inline machine learning.
+
+**Usage help:** `gcloud beta network-security security-profiles wildfire-analysis add-inline-ml-exception --help`
+
+### `gcloud beta network-security security-profiles wildfire-analysis add-override`
+
+**What it does:** add an override to a WildFire Analysis Profile.
+
+**Usage help:** `gcloud beta network-security security-profiles wildfire-analysis add-override --help`
+
+### `gcloud beta network-security security-profiles wildfire-analysis add-submission-rule`
+
+**What it does:** add a WildFire submission rule to a WildFire.
+
+**Usage help:** `gcloud beta network-security security-profiles wildfire-analysis add-submission-rule --help`
+
+### `gcloud beta network-security security-profiles wildfire-analysis create`
+
+**What it does:** (BETA) Create a new WildFire Analysis Security Profile.
+
+**Usage help:** `gcloud beta network-security security-profiles wildfire-analysis create --help`
+
+### `gcloud beta network-security security-profiles wildfire-analysis delete`
+
+**What it does:** (BETA) Delete the specified Security Profile.
+
+**Usage help:** `gcloud beta network-security security-profiles wildfire-analysis delete --help`
+
+### `gcloud beta network-security security-profiles wildfire-analysis delete-inline-cloud-analysis-rule`
+
+**What it does:** delete a WildFire inline cloud.
+
+**Usage help:** `gcloud beta network-security security-profiles wildfire-analysis delete-inline-cloud-analysis-rule --help`
+
+### `gcloud beta network-security security-profiles wildfire-analysis delete-inline-ml-exception`
+
+**What it does:** delete a WildFire inline machine learning.
+
+**Usage help:** `gcloud beta network-security security-profiles wildfire-analysis delete-inline-ml-exception --help`
+
+### `gcloud beta network-security security-profiles wildfire-analysis delete-override`
+
+**What it does:** delete an override from a WildFire Analysis Profile.
+
+**Usage help:** `gcloud beta network-security security-profiles wildfire-analysis delete-override --help`
+
+### `gcloud beta network-security security-profiles wildfire-analysis delete-submission-rule`
+
+**What it does:** delete a WildFire submission rule from a.
+
+**Usage help:** `gcloud beta network-security security-profiles wildfire-analysis delete-submission-rule --help`
+
+### `gcloud beta network-security security-profiles wildfire-analysis describe`
+
+**What it does:** (BETA) Describe a WildFire Analysis Security Profile.
+
+**Usage help:** `gcloud beta network-security security-profiles wildfire-analysis describe --help`
+
+### `gcloud beta network-security security-profiles wildfire-analysis list`
+
+**What it does:** (BETA) List WildFire Analysis Security Profiles.
+
+**Usage help:** `gcloud beta network-security security-profiles wildfire-analysis list --help`
+
+### `gcloud beta network-security security-profiles wildfire-analysis update`
+
+**What it does:** (BETA) Update a security profile of type WildFire Analysis.
+
+**Usage help:** `gcloud beta network-security security-profiles wildfire-analysis update --help`
+
+### `gcloud beta network-security security-profiles wildfire-analysis update-override`
+
+**What it does:** update an override in a WildFire Analysis Profile.
+
+**Usage help:** `gcloud beta network-security security-profiles wildfire-analysis update-override --help`
+
 ### `gcloud beta network-security server-tls-policies`
 
 **What it does:** manage Network Security.
 
 **Usage help:** `gcloud beta network-security server-tls-policies --help`
+
+### `gcloud beta network-security server-tls-policies create`
+
+**What it does:** create a.
+
+**Usage help:** `gcloud beta network-security server-tls-policies create --help`
 
 ### `gcloud beta network-security server-tls-policies delete`
 
@@ -26838,6 +28756,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta network-security server-tls-policies list --help`
 
+### `gcloud beta network-security server-tls-policies update`
+
+**What it does:** update a.
+
+**Usage help:** `gcloud beta network-security server-tls-policies update --help`
+
 ### `gcloud beta network-security tls-inspection-policies`
 
 **What it does:** manage Network.
@@ -26867,6 +28791,30 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list TLS.
 
 **Usage help:** `gcloud beta network-security tls-inspection-policies list --help`
+
+### `gcloud beta network-security ull-mirroring-collectors`
+
+**What it does:** manage Ull.
+
+**Usage help:** `gcloud beta network-security ull-mirroring-collectors --help`
+
+### `gcloud beta network-security ull-mirroring-collectors rules`
+
+**What it does:** manage Ull.
+
+**Usage help:** `gcloud beta network-security ull-mirroring-collectors rules --help`
+
+### `gcloud beta network-security ull-mirroring-engines`
+
+**What it does:** manage Ull Mirroring.
+
+**Usage help:** `gcloud beta network-security ull-mirroring-engines --help`
+
+### `gcloud beta network-security ull-mirroring-engines list-networks`
+
+**What it does:** list.
+
+**Usage help:** `gcloud beta network-security ull-mirroring-engines list-networks --help`
 
 ### `gcloud beta network-security url-lists`
 
@@ -26905,6 +28853,42 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** manage Network Services resources.
 
 **Usage help:** `gcloud beta network-services --help`
+
+### `gcloud beta network-services agent-connectivity-templates`
+
+**What it does:** manage Network.
+
+**Usage help:** `gcloud beta network-services agent-connectivity-templates --help`
+
+### `gcloud beta network-services agent-connectivity-templates delete`
+
+**What it does:** delete.
+
+**Usage help:** `gcloud beta network-services agent-connectivity-templates delete --help`
+
+### `gcloud beta network-services agent-connectivity-templates describe`
+
+**What it does:** (BETA) Show details of an Agent Connectivity Template.
+
+**Usage help:** `gcloud beta network-services agent-connectivity-templates describe --help`
+
+### `gcloud beta network-services agent-connectivity-templates export`
+
+**What it does:** export.
+
+**Usage help:** `gcloud beta network-services agent-connectivity-templates export --help`
+
+### `gcloud beta network-services agent-connectivity-templates import`
+
+**What it does:** import.
+
+**Usage help:** `gcloud beta network-services agent-connectivity-templates import --help`
+
+### `gcloud beta network-services agent-connectivity-templates list`
+
+**What it does:** list Agent.
+
+**Usage help:** `gcloud beta network-services agent-connectivity-templates list --help`
 
 ### `gcloud beta network-services agent-gateways`
 
@@ -27428,6 +29412,42 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta network-services service-lb-policies update --help`
 
+### `gcloud beta network-services telemetry-policies`
+
+**What it does:** manage Network Services.
+
+**Usage help:** `gcloud beta network-services telemetry-policies --help`
+
+### `gcloud beta network-services telemetry-policies delete`
+
+**What it does:** delete a.
+
+**Usage help:** `gcloud beta network-services telemetry-policies delete --help`
+
+### `gcloud beta network-services telemetry-policies describe`
+
+**What it does:** describe a.
+
+**Usage help:** `gcloud beta network-services telemetry-policies describe --help`
+
+### `gcloud beta network-services telemetry-policies export`
+
+**What it does:** export a.
+
+**Usage help:** `gcloud beta network-services telemetry-policies export --help`
+
+### `gcloud beta network-services telemetry-policies import`
+
+**What it does:** import a.
+
+**Usage help:** `gcloud beta network-services telemetry-policies import --help`
+
+### `gcloud beta network-services telemetry-policies list`
+
+**What it does:** list.
+
+**Usage help:** `gcloud beta network-services telemetry-policies list --help`
+
 ## notebooks
 
 ### `gcloud beta notebooks`
@@ -27590,13 +29610,19 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud beta observability buckets`
 
-**What it does:** manage Bucket resources.
+**What it does:** commands to create, read, update, and.
 
 **Usage help:** `gcloud beta observability buckets --help`
 
+### `gcloud beta observability buckets create`
+
+**What it does:** create a bucket.
+
+**Usage help:** `gcloud beta observability buckets create --help`
+
 ### `gcloud beta observability buckets datasets`
 
-**What it does:** manage Dataset resources.
+**What it does:** commands to create, read,.
 
 **Usage help:** `gcloud beta observability buckets datasets --help`
 
@@ -27608,7 +29634,7 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud beta observability buckets datasets links`
 
-**What it does:** manage Link resources.
+**What it does:** commands to create,.
 
 **Usage help:** `gcloud beta observability buckets datasets links --help`
 
@@ -27650,7 +29676,7 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud beta observability buckets datasets views`
 
-**What it does:** manage View resources.
+**What it does:** commands to read Views.
 
 **Usage help:** `gcloud beta observability buckets datasets views --help`
 
@@ -27677,6 +29703,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list buckets.
 
 **Usage help:** `gcloud beta observability buckets list --help`
+
+### `gcloud beta observability buckets update`
+
+**What it does:** update a bucket.
+
+**Usage help:** `gcloud beta observability buckets update --help`
 
 ### `gcloud beta observability scopes`
 
@@ -27716,7 +29748,7 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud beta observability trace-scopes`
 
-**What it does:** manage Trace Scope resources.
+**What it does:** commands to create, read, update,.
 
 **Usage help:** `gcloud beta observability trace-scopes --help`
 
@@ -27749,6 +29781,110 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update traceScopes.
 
 **Usage help:** `gcloud beta observability trace-scopes update --help`
+
+## orchestration-pipelines
+
+### `gcloud beta orchestration-pipelines`
+
+**What it does:** manage Orchestration Pipelines.
+
+**Usage help:** `gcloud beta orchestration-pipelines --help`
+
+### `gcloud beta orchestration-pipelines delete`
+
+**What it does:** delete a pipelines bundle from.
+
+**Usage help:** `gcloud beta orchestration-pipelines delete --help`
+
+### `gcloud beta orchestration-pipelines deploy`
+
+**What it does:** deploy a pipelines bundle.
+
+**Usage help:** `gcloud beta orchestration-pipelines deploy --help`
+
+### `gcloud beta orchestration-pipelines describe`
+
+**What it does:** get details about an.
+
+**Usage help:** `gcloud beta orchestration-pipelines describe --help`
+
+### `gcloud beta orchestration-pipelines info`
+
+**What it does:** show info about an orchestration.
+
+**Usage help:** `gcloud beta orchestration-pipelines info --help`
+
+### `gcloud beta orchestration-pipelines init`
+
+**What it does:** initialize an orchestration.
+
+**Usage help:** `gcloud beta orchestration-pipelines init --help`
+
+### `gcloud beta orchestration-pipelines init-demo`
+
+**What it does:** initialize a demo.
+
+**Usage help:** `gcloud beta orchestration-pipelines init-demo --help`
+
+### `gcloud beta orchestration-pipelines list`
+
+**What it does:** list orchestration pipelines in.
+
+**Usage help:** `gcloud beta orchestration-pipelines list --help`
+
+### `gcloud beta orchestration-pipelines pause`
+
+**What it does:** pause an orchestration pipeline.
+
+**Usage help:** `gcloud beta orchestration-pipelines pause --help`
+
+### `gcloud beta orchestration-pipelines resource-types`
+
+**What it does:** discover supported.
+
+**Usage help:** `gcloud beta orchestration-pipelines resource-types --help`
+
+### `gcloud beta orchestration-pipelines resource-types list`
+
+**What it does:** list supported.
+
+**Usage help:** `gcloud beta orchestration-pipelines resource-types list --help`
+
+### `gcloud beta orchestration-pipelines runs`
+
+**What it does:** manage Orchestration Pipelines.
+
+**Usage help:** `gcloud beta orchestration-pipelines runs --help`
+
+### `gcloud beta orchestration-pipelines runs describe`
+
+**What it does:** describe an.
+
+**Usage help:** `gcloud beta orchestration-pipelines runs describe --help`
+
+### `gcloud beta orchestration-pipelines runs list`
+
+**What it does:** list orchestration pipeline.
+
+**Usage help:** `gcloud beta orchestration-pipelines runs list --help`
+
+### `gcloud beta orchestration-pipelines trigger`
+
+**What it does:** trigger an orchestration.
+
+**Usage help:** `gcloud beta orchestration-pipelines trigger --help`
+
+### `gcloud beta orchestration-pipelines unpause`
+
+**What it does:** unpause an orchestration.
+
+**Usage help:** `gcloud beta orchestration-pipelines unpause --help`
+
+### `gcloud beta orchestration-pipelines validate`
+
+**What it does:** validate orchestration.
+
+**Usage help:** `gcloud beta orchestration-pipelines validate --help`
 
 ## organizations
 
@@ -27970,11 +30106,175 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta pam settings update --help`
 
+## parametermanager
+
+### `gcloud beta parametermanager`
+
+**What it does:** parameter Manager is a single source of.
+
+**Usage help:** `gcloud beta parametermanager --help`
+
+### `gcloud beta parametermanager parameters`
+
+**What it does:** manage Parameter Manager.
+
+**Usage help:** `gcloud beta parametermanager parameters --help`
+
+### `gcloud beta parametermanager parameters create`
+
+**What it does:** creates a Parameter.
+
+**Usage help:** `gcloud beta parametermanager parameters create --help`
+
+### `gcloud beta parametermanager parameters delete`
+
+**What it does:** deletes a single Parameter.
+
+**Usage help:** `gcloud beta parametermanager parameters delete --help`
+
+### `gcloud beta parametermanager parameters describe`
+
+**What it does:** gets a single Parameter.
+
+**Usage help:** `gcloud beta parametermanager parameters describe --help`
+
+### `gcloud beta parametermanager parameters list`
+
+**What it does:** lists Parameter Manager.
+
+**Usage help:** `gcloud beta parametermanager parameters list --help`
+
+### `gcloud beta parametermanager parameters update`
+
+**What it does:** updates the metadata of an.
+
+**Usage help:** `gcloud beta parametermanager parameters update --help`
+
+### `gcloud beta parametermanager parameters versions`
+
+**What it does:** manage Parameter Manager.
+
+**Usage help:** `gcloud beta parametermanager parameters versions --help`
+
+### `gcloud beta parametermanager parameters versions create`
+
+**What it does:** creates an.
+
+**Usage help:** `gcloud beta parametermanager parameters versions create --help`
+
+### `gcloud beta parametermanager parameters versions delete`
+
+**What it does:** deletes a single.
+
+**Usage help:** `gcloud beta parametermanager parameters versions delete --help`
+
+### `gcloud beta parametermanager parameters versions describe`
+
+**What it does:** gets a single.
+
+**Usage help:** `gcloud beta parametermanager parameters versions describe --help`
+
+### `gcloud beta parametermanager parameters versions list`
+
+**What it does:** list Parameter.
+
+**Usage help:** `gcloud beta parametermanager parameters versions list --help`
+
+### `gcloud beta parametermanager parameters versions render`
+
+**What it does:** gets a single.
+
+**Usage help:** `gcloud beta parametermanager parameters versions render --help`
+
+### `gcloud beta parametermanager parameters versions update`
+
+**What it does:** updates the.
+
+**Usage help:** `gcloud beta parametermanager parameters versions update --help`
+
+### `gcloud beta parametermanager templates`
+
+**What it does:** manage Parameter Manager template.
+
+**Usage help:** `gcloud beta parametermanager templates --help`
+
+### `gcloud beta parametermanager templates create`
+
+**What it does:** create a Parameter Manager.
+
+**Usage help:** `gcloud beta parametermanager templates create --help`
+
+### `gcloud beta parametermanager templates delete`
+
+**What it does:** delete a single Parameter.
+
+**Usage help:** `gcloud beta parametermanager templates delete --help`
+
+### `gcloud beta parametermanager templates describe`
+
+**What it does:** get a single Parameter.
+
+**Usage help:** `gcloud beta parametermanager templates describe --help`
+
+### `gcloud beta parametermanager templates list`
+
+**What it does:** list Parameter Manager.
+
+**Usage help:** `gcloud beta parametermanager templates list --help`
+
+### `gcloud beta parametermanager templates update`
+
+**What it does:** update the metadata of a.
+
+**Usage help:** `gcloud beta parametermanager templates update --help`
+
+### `gcloud beta parametermanager templates versions`
+
+**What it does:** manage Parameter Manager.
+
+**Usage help:** `gcloud beta parametermanager templates versions --help`
+
+### `gcloud beta parametermanager templates versions create`
+
+**What it does:** create a Parameter.
+
+**Usage help:** `gcloud beta parametermanager templates versions create --help`
+
+### `gcloud beta parametermanager templates versions delete`
+
+**What it does:** delete a single.
+
+**Usage help:** `gcloud beta parametermanager templates versions delete --help`
+
+### `gcloud beta parametermanager templates versions describe`
+
+**What it does:** get a single.
+
+**Usage help:** `gcloud beta parametermanager templates versions describe --help`
+
+### `gcloud beta parametermanager templates versions list`
+
+**What it does:** list Parameter.
+
+**Usage help:** `gcloud beta parametermanager templates versions list --help`
+
+### `gcloud beta parametermanager templates versions render`
+
+**What it does:** render a Parameter.
+
+**Usage help:** `gcloud beta parametermanager templates versions render --help`
+
+### `gcloud beta parametermanager templates versions update`
+
+**What it does:** update the.
+
+**Usage help:** `gcloud beta parametermanager templates versions update --help`
+
 ## policy-intelligence
 
 ### `gcloud beta policy-intelligence`
 
-**What it does:** a platform to help better understand,.
+**What it does:** a platform to help administrators better.
 
 **Usage help:** `gcloud beta policy-intelligence --help`
 
@@ -28796,6 +31096,24 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta redis acl-policies list --help`
 
+### `gcloud beta redis acl-policies revisions`
+
+**What it does:** manage ACL policies revisions of.
+
+**Usage help:** `gcloud beta redis acl-policies revisions --help`
+
+### `gcloud beta redis acl-policies revisions describe`
+
+**What it does:** show metadata for a.
+
+**Usage help:** `gcloud beta redis acl-policies revisions describe --help`
+
+### `gcloud beta redis acl-policies revisions list`
+
+**What it does:** list Redis ACL Policy.
+
+**Usage help:** `gcloud beta redis acl-policies revisions list --help`
+
 ### `gcloud beta redis acl-policies update`
 
 **What it does:** update aclPolicies.
@@ -29166,6 +31484,60 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta resource-manager --help`
 
+### `gcloud beta resource-manager boundaries`
+
+**What it does:** manage Resource Manager.
+
+**Usage help:** `gcloud beta resource-manager boundaries --help`
+
+### `gcloud beta resource-manager boundaries create`
+
+**What it does:** create a new boundary.
+
+**Usage help:** `gcloud beta resource-manager boundaries create --help`
+
+### `gcloud beta resource-manager boundaries delete`
+
+**What it does:** delete a boundary.
+
+**Usage help:** `gcloud beta resource-manager boundaries delete --help`
+
+### `gcloud beta resource-manager boundaries describe`
+
+**What it does:** describe a boundary.
+
+**Usage help:** `gcloud beta resource-manager boundaries describe --help`
+
+### `gcloud beta resource-manager boundaries list`
+
+**What it does:** list boundaries.
+
+**Usage help:** `gcloud beta resource-manager boundaries list --help`
+
+### `gcloud beta resource-manager boundaries update`
+
+**What it does:** update a boundary.
+
+**Usage help:** `gcloud beta resource-manager boundaries update --help`
+
+### `gcloud beta resource-manager boundary-configs`
+
+**What it does:** manage Resource Manager.
+
+**Usage help:** `gcloud beta resource-manager boundary-configs --help`
+
+### `gcloud beta resource-manager boundary-configs describe`
+
+**What it does:** describe a.
+
+**Usage help:** `gcloud beta resource-manager boundary-configs describe --help`
+
+### `gcloud beta resource-manager boundary-configs update`
+
+**What it does:** update a boundary.
+
+**Usage help:** `gcloud beta resource-manager boundary-configs update --help`
+
 ### `gcloud beta resource-manager capabilities`
 
 **What it does:** manage Cloud Folder.
@@ -29183,6 +31555,42 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update a folder.
 
 **Usage help:** `gcloud beta resource-manager capabilities update --help`
+
+### `gcloud beta resource-manager capability-configs`
+
+**What it does:** manage Cloud Resource.
+
+**Usage help:** `gcloud beta resource-manager capability-configs --help`
+
+### `gcloud beta resource-manager capability-configs create`
+
+**What it does:** create a.
+
+**Usage help:** `gcloud beta resource-manager capability-configs create --help`
+
+### `gcloud beta resource-manager capability-configs delete`
+
+**What it does:** delete a.
+
+**Usage help:** `gcloud beta resource-manager capability-configs delete --help`
+
+### `gcloud beta resource-manager capability-configs describe`
+
+**What it does:** describe a.
+
+**Usage help:** `gcloud beta resource-manager capability-configs describe --help`
+
+### `gcloud beta resource-manager capability-configs list`
+
+**What it does:** list.
+
+**Usage help:** `gcloud beta resource-manager capability-configs list --help`
+
+### `gcloud beta resource-manager capability-configs update`
+
+**What it does:** update a.
+
+**Usage help:** `gcloud beta resource-manager capability-configs update --help`
 
 ### `gcloud beta resource-manager folders`
 
@@ -29546,6 +31954,126 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta run domain-mappings list --help`
 
+### `gcloud beta run instances`
+
+**What it does:** view and manage your Cloud Run instances.
+
+**Usage help:** `gcloud beta run instances --help`
+
+### `gcloud beta run instances add-iam-policy-binding`
+
+**What it does:** add IAM policy binding.
+
+**Usage help:** `gcloud beta run instances add-iam-policy-binding --help`
+
+### `gcloud beta run instances create`
+
+**What it does:** create a Cloud Run instance.
+
+**Usage help:** `gcloud beta run instances create --help`
+
+### `gcloud beta run instances delete`
+
+**What it does:** delete an instance.
+
+**Usage help:** `gcloud beta run instances delete --help`
+
+### `gcloud beta run instances deploy`
+
+**What it does:** deploy a Cloud Run instance.
+
+**Usage help:** `gcloud beta run instances deploy --help`
+
+### `gcloud beta run instances describe`
+
+**What it does:** obtain details about instances.
+
+**Usage help:** `gcloud beta run instances describe --help`
+
+### `gcloud beta run instances dev`
+
+**What it does:** commands for development on Cloud Run.
+
+**Usage help:** `gcloud beta run instances dev --help`
+
+### `gcloud beta run instances get-iam-policy`
+
+**What it does:** get the IAM policy for a Cloud.
+
+**Usage help:** `gcloud beta run instances get-iam-policy --help`
+
+### `gcloud beta run instances list`
+
+**What it does:** list instances.
+
+**Usage help:** `gcloud beta run instances list --help`
+
+### `gcloud beta run instances logs`
+
+**What it does:** read logs for Cloud Run instances.
+
+**Usage help:** `gcloud beta run instances logs --help`
+
+### `gcloud beta run instances logs read`
+
+**What it does:** read logs for a Cloud Run instance.
+
+**Usage help:** `gcloud beta run instances logs read --help`
+
+### `gcloud beta run instances proxy`
+
+**What it does:** proxy an instance to localhost.
+
+**Usage help:** `gcloud beta run instances proxy --help`
+
+### `gcloud beta run instances remove-iam-policy-binding`
+
+**What it does:** remove IAM policy.
+
+**Usage help:** `gcloud beta run instances remove-iam-policy-binding --help`
+
+### `gcloud beta run instances replace`
+
+**What it does:** create or replace an instance from a.
+
+**Usage help:** `gcloud beta run instances replace --help`
+
+### `gcloud beta run instances restart`
+
+**What it does:** restart an instance.
+
+**Usage help:** `gcloud beta run instances restart --help`
+
+### `gcloud beta run instances set-iam-policy`
+
+**What it does:** set the IAM policy for a.
+
+**Usage help:** `gcloud beta run instances set-iam-policy --help`
+
+### `gcloud beta run instances ssh`
+
+**What it does:** SSH into an instance.
+
+**Usage help:** `gcloud beta run instances ssh --help`
+
+### `gcloud beta run instances start`
+
+**What it does:** start a stopped instance.
+
+**Usage help:** `gcloud beta run instances start --help`
+
+### `gcloud beta run instances stop`
+
+**What it does:** stop a running instance.
+
+**Usage help:** `gcloud beta run instances stop --help`
+
+### `gcloud beta run instances update`
+
+**What it does:** update a Cloud Run instance.
+
+**Usage help:** `gcloud beta run instances update --help`
+
 ### `gcloud beta run jobs`
 
 **What it does:** view and manage your Cloud Run jobs.
@@ -29611,6 +32139,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** obtain details about executions.
 
 **Usage help:** `gcloud beta run jobs executions describe --help`
+
+### `gcloud beta run jobs executions describe-latest`
+
+**What it does:** obtain details about the.
+
+**Usage help:** `gcloud beta run jobs executions describe-latest --help`
 
 ### `gcloud beta run jobs executions list`
 
@@ -29876,6 +32410,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta run services set-iam-policy --help`
 
+### `gcloud beta run services ssh`
+
+**What it does:** SSH into a service instance.
+
+**Usage help:** `gcloud beta run services ssh --help`
+
 ### `gcloud beta run services update`
 
 **What it does:** update Cloud Run environment variables.
@@ -30123,458 +32663,6 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** wait for a waiter to end.
 
 **Usage help:** `gcloud beta runtime-config configs waiters wait --help`
-
-## saas-runtime
-
-### `gcloud beta saas-runtime`
-
-**What it does:** commands for App Lifecycle Manager.
-
-**Usage help:** `gcloud beta saas-runtime --help`
-
-### `gcloud beta saas-runtime flags`
-
-**What it does:** manage App Lifecycle Manager Flags.
-
-**Usage help:** `gcloud beta saas-runtime flags --help`
-
-### `gcloud beta saas-runtime flags attributes`
-
-**What it does:** manage App Lifecycle Manager.
-
-**Usage help:** `gcloud beta saas-runtime flags attributes --help`
-
-### `gcloud beta saas-runtime flags attributes create`
-
-**What it does:** create a Flag Attribute.
-
-**Usage help:** `gcloud beta saas-runtime flags attributes create --help`
-
-### `gcloud beta saas-runtime flags attributes delete`
-
-**What it does:** delete Flag Attribute.
-
-**Usage help:** `gcloud beta saas-runtime flags attributes delete --help`
-
-### `gcloud beta saas-runtime flags attributes describe`
-
-**What it does:** describe Flag.
-
-**Usage help:** `gcloud beta saas-runtime flags attributes describe --help`
-
-### `gcloud beta saas-runtime flags attributes list`
-
-**What it does:** list Flags Attributes.
-
-**Usage help:** `gcloud beta saas-runtime flags attributes list --help`
-
-### `gcloud beta saas-runtime flags attributes update`
-
-**What it does:** update Flag Attribute.
-
-**Usage help:** `gcloud beta saas-runtime flags attributes update --help`
-
-### `gcloud beta saas-runtime flags create`
-
-**What it does:** create Flag.
-
-**Usage help:** `gcloud beta saas-runtime flags create --help`
-
-### `gcloud beta saas-runtime flags delete`
-
-**What it does:** delete Flag.
-
-**Usage help:** `gcloud beta saas-runtime flags delete --help`
-
-### `gcloud beta saas-runtime flags describe`
-
-**What it does:** describe Flag.
-
-**Usage help:** `gcloud beta saas-runtime flags describe --help`
-
-### `gcloud beta saas-runtime flags list`
-
-**What it does:** list Flags.
-
-**Usage help:** `gcloud beta saas-runtime flags list --help`
-
-### `gcloud beta saas-runtime flags pull`
-
-**What it does:** create a JSON manifest file using the.
-
-**Usage help:** `gcloud beta saas-runtime flags pull --help`
-
-### `gcloud beta saas-runtime flags push`
-
-**What it does:** create Flags from a JSON manifest.
-
-**Usage help:** `gcloud beta saas-runtime flags push --help`
-
-### `gcloud beta saas-runtime flags releases`
-
-**What it does:** manage App Lifecycle Manager.
-
-**Usage help:** `gcloud beta saas-runtime flags releases --help`
-
-### `gcloud beta saas-runtime flags releases create`
-
-**What it does:** create Flag Release.
-
-**Usage help:** `gcloud beta saas-runtime flags releases create --help`
-
-### `gcloud beta saas-runtime flags releases delete`
-
-**What it does:** delete Flag Release.
-
-**Usage help:** `gcloud beta saas-runtime flags releases delete --help`
-
-### `gcloud beta saas-runtime flags releases describe`
-
-**What it does:** describe Flag Release.
-
-**Usage help:** `gcloud beta saas-runtime flags releases describe --help`
-
-### `gcloud beta saas-runtime flags releases list`
-
-**What it does:** list Flag Releases.
-
-**Usage help:** `gcloud beta saas-runtime flags releases list --help`
-
-### `gcloud beta saas-runtime flags releases update`
-
-**What it does:** update a Flag Release.
-
-**Usage help:** `gcloud beta saas-runtime flags releases update --help`
-
-### `gcloud beta saas-runtime flags revisions`
-
-**What it does:** manage App Lifecycle Manager.
-
-**Usage help:** `gcloud beta saas-runtime flags revisions --help`
-
-### `gcloud beta saas-runtime flags revisions create`
-
-**What it does:** create Flag Revision.
-
-**Usage help:** `gcloud beta saas-runtime flags revisions create --help`
-
-### `gcloud beta saas-runtime flags revisions delete`
-
-**What it does:** delete Flag Revision.
-
-**Usage help:** `gcloud beta saas-runtime flags revisions delete --help`
-
-### `gcloud beta saas-runtime flags revisions describe`
-
-**What it does:** describe Flag Revision.
-
-**Usage help:** `gcloud beta saas-runtime flags revisions describe --help`
-
-### `gcloud beta saas-runtime flags revisions list`
-
-**What it does:** list Flag Revisions.
-
-**Usage help:** `gcloud beta saas-runtime flags revisions list --help`
-
-### `gcloud beta saas-runtime flags revisions update`
-
-**What it does:** update Flag Revision.
-
-**Usage help:** `gcloud beta saas-runtime flags revisions update --help`
-
-### `gcloud beta saas-runtime flags update`
-
-**What it does:** update Flag.
-
-**Usage help:** `gcloud beta saas-runtime flags update --help`
-
-### `gcloud beta saas-runtime releases`
-
-**What it does:** manage App Lifecycle Manager releases.
-
-**Usage help:** `gcloud beta saas-runtime releases --help`
-
-### `gcloud beta saas-runtime releases create`
-
-**What it does:** create a Release.
-
-**Usage help:** `gcloud beta saas-runtime releases create --help`
-
-### `gcloud beta saas-runtime releases delete`
-
-**What it does:** delete a Release.
-
-**Usage help:** `gcloud beta saas-runtime releases delete --help`
-
-### `gcloud beta saas-runtime releases describe`
-
-**What it does:** describe a Release.
-
-**Usage help:** `gcloud beta saas-runtime releases describe --help`
-
-### `gcloud beta saas-runtime releases list`
-
-**What it does:** list releases.
-
-**Usage help:** `gcloud beta saas-runtime releases list --help`
-
-### `gcloud beta saas-runtime releases update`
-
-**What it does:** update a Release.
-
-**Usage help:** `gcloud beta saas-runtime releases update --help`
-
-### `gcloud beta saas-runtime rollout-kinds`
-
-**What it does:** manage App Lifecycle Manager.
-
-**Usage help:** `gcloud beta saas-runtime rollout-kinds --help`
-
-### `gcloud beta saas-runtime rollout-kinds create`
-
-**What it does:** create a Rollout Kind.
-
-**Usage help:** `gcloud beta saas-runtime rollout-kinds create --help`
-
-### `gcloud beta saas-runtime rollout-kinds delete`
-
-**What it does:** delete a Rollout Kind.
-
-**Usage help:** `gcloud beta saas-runtime rollout-kinds delete --help`
-
-### `gcloud beta saas-runtime rollout-kinds describe`
-
-**What it does:** describe Rollout Kind.
-
-**Usage help:** `gcloud beta saas-runtime rollout-kinds describe --help`
-
-### `gcloud beta saas-runtime rollout-kinds list`
-
-**What it does:** list Rollout Kinds.
-
-**Usage help:** `gcloud beta saas-runtime rollout-kinds list --help`
-
-### `gcloud beta saas-runtime rollout-kinds update`
-
-**What it does:** update a Rollout Kind.
-
-**Usage help:** `gcloud beta saas-runtime rollout-kinds update --help`
-
-### `gcloud beta saas-runtime rollouts`
-
-**What it does:** manage App Lifecycle Manager rollouts.
-
-**Usage help:** `gcloud beta saas-runtime rollouts --help`
-
-### `gcloud beta saas-runtime rollouts create`
-
-**What it does:** create a Rollout.
-
-**Usage help:** `gcloud beta saas-runtime rollouts create --help`
-
-### `gcloud beta saas-runtime rollouts delete`
-
-**What it does:** delete a Rollout.
-
-**Usage help:** `gcloud beta saas-runtime rollouts delete --help`
-
-### `gcloud beta saas-runtime rollouts describe`
-
-**What it does:** describe a Rollout.
-
-**Usage help:** `gcloud beta saas-runtime rollouts describe --help`
-
-### `gcloud beta saas-runtime rollouts list`
-
-**What it does:** list Rollouts.
-
-**Usage help:** `gcloud beta saas-runtime rollouts list --help`
-
-### `gcloud beta saas-runtime rollouts update`
-
-**What it does:** update a Rollout.
-
-**Usage help:** `gcloud beta saas-runtime rollouts update --help`
-
-### `gcloud beta saas-runtime saas`
-
-**What it does:** manage App Lifecycle Manager saas.
-
-**Usage help:** `gcloud beta saas-runtime saas --help`
-
-### `gcloud beta saas-runtime saas create`
-
-**What it does:** create a SaaS.
-
-**Usage help:** `gcloud beta saas-runtime saas create --help`
-
-### `gcloud beta saas-runtime saas delete`
-
-**What it does:** delete a SaaS.
-
-**Usage help:** `gcloud beta saas-runtime saas delete --help`
-
-### `gcloud beta saas-runtime saas describe`
-
-**What it does:** describe a SaaS.
-
-**Usage help:** `gcloud beta saas-runtime saas describe --help`
-
-### `gcloud beta saas-runtime saas list`
-
-**What it does:** list SaaS.
-
-**Usage help:** `gcloud beta saas-runtime saas list --help`
-
-### `gcloud beta saas-runtime saas update`
-
-**What it does:** update a SaaS.
-
-**Usage help:** `gcloud beta saas-runtime saas update --help`
-
-### `gcloud beta saas-runtime tenants`
-
-**What it does:** manage App Lifecycle Manager tenants.
-
-**Usage help:** `gcloud beta saas-runtime tenants --help`
-
-### `gcloud beta saas-runtime tenants create`
-
-**What it does:** create a Tenant.
-
-**Usage help:** `gcloud beta saas-runtime tenants create --help`
-
-### `gcloud beta saas-runtime tenants delete`
-
-**What it does:** delete a Tenant.
-
-**Usage help:** `gcloud beta saas-runtime tenants delete --help`
-
-### `gcloud beta saas-runtime tenants describe`
-
-**What it does:** describe a Tenant.
-
-**Usage help:** `gcloud beta saas-runtime tenants describe --help`
-
-### `gcloud beta saas-runtime tenants list`
-
-**What it does:** list Tenants.
-
-**Usage help:** `gcloud beta saas-runtime tenants list --help`
-
-### `gcloud beta saas-runtime tenants update`
-
-**What it does:** update tenants.
-
-**Usage help:** `gcloud beta saas-runtime tenants update --help`
-
-### `gcloud beta saas-runtime unit-kinds`
-
-**What it does:** manage App Lifecycle Manager.
-
-**Usage help:** `gcloud beta saas-runtime unit-kinds --help`
-
-### `gcloud beta saas-runtime unit-kinds create`
-
-**What it does:** create a Unit Kind.
-
-**Usage help:** `gcloud beta saas-runtime unit-kinds create --help`
-
-### `gcloud beta saas-runtime unit-kinds delete`
-
-**What it does:** delete a Unit Kind.
-
-**Usage help:** `gcloud beta saas-runtime unit-kinds delete --help`
-
-### `gcloud beta saas-runtime unit-kinds describe`
-
-**What it does:** describe a Unit Kind.
-
-**Usage help:** `gcloud beta saas-runtime unit-kinds describe --help`
-
-### `gcloud beta saas-runtime unit-kinds list`
-
-**What it does:** list Unit Kinds.
-
-**Usage help:** `gcloud beta saas-runtime unit-kinds list --help`
-
-### `gcloud beta saas-runtime unit-kinds update`
-
-**What it does:** update a Unit Kind.
-
-**Usage help:** `gcloud beta saas-runtime unit-kinds update --help`
-
-### `gcloud beta saas-runtime unit-operations`
-
-**What it does:** manage App Lifecycle Manager.
-
-**Usage help:** `gcloud beta saas-runtime unit-operations --help`
-
-### `gcloud beta saas-runtime unit-operations create`
-
-**What it does:** create a Unit Operation.
-
-**Usage help:** `gcloud beta saas-runtime unit-operations create --help`
-
-### `gcloud beta saas-runtime unit-operations delete`
-
-**What it does:** delete a Unit Operation.
-
-**Usage help:** `gcloud beta saas-runtime unit-operations delete --help`
-
-### `gcloud beta saas-runtime unit-operations describe`
-
-**What it does:** describe a Unit.
-
-**Usage help:** `gcloud beta saas-runtime unit-operations describe --help`
-
-### `gcloud beta saas-runtime unit-operations list`
-
-**What it does:** list Unit Operations.
-
-**Usage help:** `gcloud beta saas-runtime unit-operations list --help`
-
-### `gcloud beta saas-runtime unit-operations update`
-
-**What it does:** update a Unit Operation.
-
-**Usage help:** `gcloud beta saas-runtime unit-operations update --help`
-
-### `gcloud beta saas-runtime units`
-
-**What it does:** manage App Lifecycle Manager units.
-
-**Usage help:** `gcloud beta saas-runtime units --help`
-
-### `gcloud beta saas-runtime units create`
-
-**What it does:** create a Unit.
-
-**Usage help:** `gcloud beta saas-runtime units create --help`
-
-### `gcloud beta saas-runtime units delete`
-
-**What it does:** delete a Unit.
-
-**Usage help:** `gcloud beta saas-runtime units delete --help`
-
-### `gcloud beta saas-runtime units describe`
-
-**What it does:** describe a Unit.
-
-**Usage help:** `gcloud beta saas-runtime units describe --help`
-
-### `gcloud beta saas-runtime units list`
-
-**What it does:** list Units.
-
-**Usage help:** `gcloud beta saas-runtime units list --help`
-
-### `gcloud beta saas-runtime units update`
-
-**What it does:** update a Unit.
-
-**Usage help:** `gcloud beta saas-runtime units update --help`
 
 ## scc
 
@@ -31240,6 +33328,78 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta service-extensions authz-extensions list --help`
 
+### `gcloud beta service-extensions cdn-edge-extensions`
+
+**What it does:** manage Service.
+
+**Usage help:** `gcloud beta service-extensions cdn-edge-extensions --help`
+
+### `gcloud beta service-extensions cdn-edge-extensions delete`
+
+**What it does:** delete a.
+
+**Usage help:** `gcloud beta service-extensions cdn-edge-extensions delete --help`
+
+### `gcloud beta service-extensions cdn-edge-extensions describe`
+
+**What it does:** describe a.
+
+**Usage help:** `gcloud beta service-extensions cdn-edge-extensions describe --help`
+
+### `gcloud beta service-extensions cdn-edge-extensions import`
+
+**What it does:** import a.
+
+**Usage help:** `gcloud beta service-extensions cdn-edge-extensions import --help`
+
+### `gcloud beta service-extensions cdn-edge-extensions list`
+
+**What it does:** list.
+
+**Usage help:** `gcloud beta service-extensions cdn-edge-extensions list --help`
+
+### `gcloud beta service-extensions extension-bindings`
+
+**What it does:** manage Extension.
+
+**Usage help:** `gcloud beta service-extensions extension-bindings --help`
+
+### `gcloud beta service-extensions extension-bindings create`
+
+**What it does:** create.
+
+**Usage help:** `gcloud beta service-extensions extension-bindings create --help`
+
+### `gcloud beta service-extensions extension-bindings delete`
+
+**What it does:** delete.
+
+**Usage help:** `gcloud beta service-extensions extension-bindings delete --help`
+
+### `gcloud beta service-extensions extension-bindings describe`
+
+**What it does:** describe.
+
+**Usage help:** `gcloud beta service-extensions extension-bindings describe --help`
+
+### `gcloud beta service-extensions extension-bindings import`
+
+**What it does:** import.
+
+**Usage help:** `gcloud beta service-extensions extension-bindings import --help`
+
+### `gcloud beta service-extensions extension-bindings list`
+
+**What it does:** list.
+
+**Usage help:** `gcloud beta service-extensions extension-bindings list --help`
+
+### `gcloud beta service-extensions extension-bindings update`
+
+**What it does:** update.
+
+**Usage help:** `gcloud beta service-extensions extension-bindings update --help`
+
 ### `gcloud beta service-extensions lb-edge-extensions`
 
 **What it does:** manage Service.
@@ -31586,54 +33746,6 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta services list --help`
 
-### `gcloud beta services mcp`
-
-**What it does:** list, enable and disable MCP endpoints.
-
-**Usage help:** `gcloud beta services mcp --help`
-
-### `gcloud beta services mcp content-security`
-
-**What it does:** get/add/remove MCP content.
-
-**Usage help:** `gcloud beta services mcp content-security --help`
-
-### `gcloud beta services mcp content-security add`
-
-**What it does:** add MCP content security.
-
-**Usage help:** `gcloud beta services mcp content-security add --help`
-
-### `gcloud beta services mcp content-security get`
-
-**What it does:** get MCP content security.
-
-**Usage help:** `gcloud beta services mcp content-security get --help`
-
-### `gcloud beta services mcp content-security remove`
-
-**What it does:** remove MCP content.
-
-**Usage help:** `gcloud beta services mcp content-security remove --help`
-
-### `gcloud beta services mcp disable`
-
-**What it does:** disable a service for MCP on a project,.
-
-**Usage help:** `gcloud beta services mcp disable --help`
-
-### `gcloud beta services mcp enable`
-
-**What it does:** enable a service for MCP on a project,.
-
-**Usage help:** `gcloud beta services mcp enable --help`
-
-### `gcloud beta services mcp list`
-
-**What it does:** list MCP services for a project, folder or.
-
-**Usage help:** `gcloud beta services mcp list --help`
-
 ### `gcloud beta services operations`
 
 **What it does:** manage Operation for various services.
@@ -31684,7 +33796,7 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud beta services policies get`
 
-**What it does:** get consumer policy for a project,.
+**What it does:** get the consumer policy for a project,.
 
 **Usage help:** `gcloud beta services policies get --help`
 
@@ -31702,7 +33814,7 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud beta services policies update`
 
-**What it does:** update consumer policy for a.
+**What it does:** update the consumer policy for a.
 
 **Usage help:** `gcloud beta services policies update --help`
 
@@ -31860,6 +33972,78 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta source-manager --help`
 
+### `gcloud beta source-manager branch-rules`
+
+**What it does:** manage Secure Source Manager.
+
+**Usage help:** `gcloud beta source-manager branch-rules --help`
+
+### `gcloud beta source-manager branch-rules create`
+
+**What it does:** create a Secure Source.
+
+**Usage help:** `gcloud beta source-manager branch-rules create --help`
+
+### `gcloud beta source-manager branch-rules delete`
+
+**What it does:** delete a Secure Source.
+
+**Usage help:** `gcloud beta source-manager branch-rules delete --help`
+
+### `gcloud beta source-manager branch-rules describe`
+
+**What it does:** describe a Secure Source.
+
+**Usage help:** `gcloud beta source-manager branch-rules describe --help`
+
+### `gcloud beta source-manager branch-rules list`
+
+**What it does:** list Secure Source Manager.
+
+**Usage help:** `gcloud beta source-manager branch-rules list --help`
+
+### `gcloud beta source-manager branch-rules update`
+
+**What it does:** update a Secure Source.
+
+**Usage help:** `gcloud beta source-manager branch-rules update --help`
+
+### `gcloud beta source-manager hooks`
+
+**What it does:** manage Secure Source Manager hooks.
+
+**Usage help:** `gcloud beta source-manager hooks --help`
+
+### `gcloud beta source-manager hooks create`
+
+**What it does:** create a Secure Source Manager.
+
+**Usage help:** `gcloud beta source-manager hooks create --help`
+
+### `gcloud beta source-manager hooks delete`
+
+**What it does:** delete a Secure Source Manager.
+
+**Usage help:** `gcloud beta source-manager hooks delete --help`
+
+### `gcloud beta source-manager hooks describe`
+
+**What it does:** describe a Secure Source.
+
+**Usage help:** `gcloud beta source-manager hooks describe --help`
+
+### `gcloud beta source-manager hooks list`
+
+**What it does:** list Secure Source Manager hooks.
+
+**Usage help:** `gcloud beta source-manager hooks list --help`
+
+### `gcloud beta source-manager hooks update`
+
+**What it does:** update a Secure Source Manager.
+
+**Usage help:** `gcloud beta source-manager hooks update --help`
+
 ### `gcloud beta source-manager instances`
 
 **What it does:** manage Secure Source Manager.
@@ -31914,6 +34098,90 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta source-manager instances set-iam-policy --help`
 
+### `gcloud beta source-manager issues`
+
+**What it does:** manage Secure Source Manager issues.
+
+**Usage help:** `gcloud beta source-manager issues --help`
+
+### `gcloud beta source-manager issues close`
+
+**What it does:** close a Secure Source Manager.
+
+**Usage help:** `gcloud beta source-manager issues close --help`
+
+### `gcloud beta source-manager issues comments`
+
+**What it does:** manage Secure Source Manager.
+
+**Usage help:** `gcloud beta source-manager issues comments --help`
+
+### `gcloud beta source-manager issues comments create`
+
+**What it does:** create a Secure Source.
+
+**Usage help:** `gcloud beta source-manager issues comments create --help`
+
+### `gcloud beta source-manager issues comments delete`
+
+**What it does:** delete a Secure Source.
+
+**Usage help:** `gcloud beta source-manager issues comments delete --help`
+
+### `gcloud beta source-manager issues comments describe`
+
+**What it does:** describe a Secure.
+
+**Usage help:** `gcloud beta source-manager issues comments describe --help`
+
+### `gcloud beta source-manager issues comments list`
+
+**What it does:** list Secure Source.
+
+**Usage help:** `gcloud beta source-manager issues comments list --help`
+
+### `gcloud beta source-manager issues comments update`
+
+**What it does:** update a Secure Source.
+
+**Usage help:** `gcloud beta source-manager issues comments update --help`
+
+### `gcloud beta source-manager issues create`
+
+**What it does:** create a Secure Source Manager.
+
+**Usage help:** `gcloud beta source-manager issues create --help`
+
+### `gcloud beta source-manager issues delete`
+
+**What it does:** delete a Secure Source Manager.
+
+**Usage help:** `gcloud beta source-manager issues delete --help`
+
+### `gcloud beta source-manager issues describe`
+
+**What it does:** describe a Secure Source.
+
+**Usage help:** `gcloud beta source-manager issues describe --help`
+
+### `gcloud beta source-manager issues list`
+
+**What it does:** list Secure Source Manager issues.
+
+**Usage help:** `gcloud beta source-manager issues list --help`
+
+### `gcloud beta source-manager issues open`
+
+**What it does:** open a Secure Source Manager issue.
+
+**Usage help:** `gcloud beta source-manager issues open --help`
+
+### `gcloud beta source-manager issues update`
+
+**What it does:** update a Secure Source Manager.
+
+**Usage help:** `gcloud beta source-manager issues update --help`
+
 ### `gcloud beta source-manager locations`
 
 **What it does:** manage Secure Source Manager.
@@ -31943,6 +34211,114 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Secure Source Manager.
 
 **Usage help:** `gcloud beta source-manager operations list --help`
+
+### `gcloud beta source-manager pull-requests`
+
+**What it does:** manage Secure Source Manager.
+
+**Usage help:** `gcloud beta source-manager pull-requests --help`
+
+### `gcloud beta source-manager pull-requests close`
+
+**What it does:** close a Secure Source.
+
+**Usage help:** `gcloud beta source-manager pull-requests close --help`
+
+### `gcloud beta source-manager pull-requests comments`
+
+**What it does:** manage Secure Source.
+
+**Usage help:** `gcloud beta source-manager pull-requests comments --help`
+
+### `gcloud beta source-manager pull-requests comments batch-create`
+
+**What it does:** batch.
+
+**Usage help:** `gcloud beta source-manager pull-requests comments batch-create --help`
+
+### `gcloud beta source-manager pull-requests comments create`
+
+**What it does:** create a Secure.
+
+**Usage help:** `gcloud beta source-manager pull-requests comments create --help`
+
+### `gcloud beta source-manager pull-requests comments delete`
+
+**What it does:** delete a Secure.
+
+**Usage help:** `gcloud beta source-manager pull-requests comments delete --help`
+
+### `gcloud beta source-manager pull-requests comments describe`
+
+**What it does:** describe a.
+
+**Usage help:** `gcloud beta source-manager pull-requests comments describe --help`
+
+### `gcloud beta source-manager pull-requests comments list`
+
+**What it does:** list Secure Source.
+
+**Usage help:** `gcloud beta source-manager pull-requests comments list --help`
+
+### `gcloud beta source-manager pull-requests comments resolve`
+
+**What it does:** resolve Secure.
+
+**Usage help:** `gcloud beta source-manager pull-requests comments resolve --help`
+
+### `gcloud beta source-manager pull-requests comments unresolve`
+
+**What it does:** unresolve.
+
+**Usage help:** `gcloud beta source-manager pull-requests comments unresolve --help`
+
+### `gcloud beta source-manager pull-requests comments update`
+
+**What it does:** update a Secure.
+
+**Usage help:** `gcloud beta source-manager pull-requests comments update --help`
+
+### `gcloud beta source-manager pull-requests create`
+
+**What it does:** create a Secure Source.
+
+**Usage help:** `gcloud beta source-manager pull-requests create --help`
+
+### `gcloud beta source-manager pull-requests describe`
+
+**What it does:** describe a Secure.
+
+**Usage help:** `gcloud beta source-manager pull-requests describe --help`
+
+### `gcloud beta source-manager pull-requests list`
+
+**What it does:** list Secure Source Manager.
+
+**Usage help:** `gcloud beta source-manager pull-requests list --help`
+
+### `gcloud beta source-manager pull-requests list-file-diffs`
+
+**What it does:** list Secure.
+
+**Usage help:** `gcloud beta source-manager pull-requests list-file-diffs --help`
+
+### `gcloud beta source-manager pull-requests merge`
+
+**What it does:** merge a Secure Source.
+
+**Usage help:** `gcloud beta source-manager pull-requests merge --help`
+
+### `gcloud beta source-manager pull-requests open`
+
+**What it does:** open a Secure Source.
+
+**Usage help:** `gcloud beta source-manager pull-requests open --help`
+
+### `gcloud beta source-manager pull-requests update`
+
+**What it does:** update a Secure Source.
+
+**Usage help:** `gcloud beta source-manager pull-requests update --help`
 
 ### `gcloud beta source-manager repos`
 
@@ -32560,6 +34936,42 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta sql backups restore --help`
 
+### `gcloud beta sql blue-green-deployments`
+
+**What it does:** provide commands for managing.
+
+**Usage help:** `gcloud beta sql blue-green-deployments --help`
+
+### `gcloud beta sql blue-green-deployments create`
+
+**What it does:** creates a Cloud SQL.
+
+**Usage help:** `gcloud beta sql blue-green-deployments create --help`
+
+### `gcloud beta sql blue-green-deployments delete`
+
+**What it does:** deletes a Cloud SQL.
+
+**Usage help:** `gcloud beta sql blue-green-deployments delete --help`
+
+### `gcloud beta sql blue-green-deployments describe`
+
+**What it does:** retrieves information.
+
+**Usage help:** `gcloud beta sql blue-green-deployments describe --help`
+
+### `gcloud beta sql blue-green-deployments list`
+
+**What it does:** lists Cloud SQL blue-green.
+
+**Usage help:** `gcloud beta sql blue-green-deployments list --help`
+
+### `gcloud beta sql blue-green-deployments switchover`
+
+**What it does:** performs switchover for.
+
+**Usage help:** `gcloud beta sql blue-green-deployments switchover --help`
+
 ### `gcloud beta sql connect`
 
 **What it does:** connects to a Cloud SQL instance.
@@ -33064,6 +35476,62 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta sql users set-password-policy --help`
 
+## support
+
+### `gcloud beta support`
+
+**What it does:** manage Support resources.
+
+**Usage help:** `gcloud beta support --help`
+
+### `gcloud beta support support-event-subscriptions`
+
+**What it does:** manage Support Event.
+
+**Usage help:** `gcloud beta support support-event-subscriptions --help`
+
+### `gcloud beta support support-event-subscriptions create`
+
+**What it does:** create a support.
+
+**Usage help:** `gcloud beta support support-event-subscriptions create --help`
+
+### `gcloud beta support support-event-subscriptions delete`
+
+**What it does:** delete.
+
+**Usage help:** `gcloud beta support support-event-subscriptions delete --help`
+
+### `gcloud beta support support-event-subscriptions describe`
+
+**What it does:** describe.
+
+**Usage help:** `gcloud beta support support-event-subscriptions describe --help`
+
+### `gcloud beta support support-event-subscriptions expunge`
+
+**What it does:** expunge.
+
+**Usage help:** `gcloud beta support support-event-subscriptions expunge --help`
+
+### `gcloud beta support support-event-subscriptions list`
+
+**What it does:** list.
+
+**Usage help:** `gcloud beta support support-event-subscriptions list --help`
+
+### `gcloud beta support support-event-subscriptions undelete`
+
+**What it does:** undelete.
+
+**Usage help:** `gcloud beta support support-event-subscriptions undelete --help`
+
+### `gcloud beta support support-event-subscriptions update`
+
+**What it does:** update.
+
+**Usage help:** `gcloud beta support support-event-subscriptions update --help`
+
 ## survey
 
 ### `gcloud beta survey`
@@ -33079,6 +35547,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** manage Cloud Tasks queues and tasks.
 
 **Usage help:** `gcloud beta tasks --help`
+
+### `gcloud beta tasks batch-create`
+
+**What it does:** create multiple tasks from a file in a.
+
+**Usage help:** `gcloud beta tasks batch-create --help`
 
 ### `gcloud beta tasks buffer`
 
@@ -33118,7 +35592,7 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud beta tasks delete`
 
-**What it does:** delete a task from a queue.
+**What it does:** delete a task or multiple tasks from a queue.
 
 **Usage help:** `gcloud beta tasks delete --help`
 
@@ -33890,6 +36364,116 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud beta workload-identity service-agents generate --help`
 
+## workspace-key-access
+
+### `gcloud beta workspace-key-access`
+
+**What it does:** manage Workspace Key Access endpoints.
+
+**Usage help:** `gcloud beta workspace-key-access --help`
+
+### `gcloud beta workspace-key-access configs`
+
+**What it does:** manage Workspace Key Access.
+
+**Usage help:** `gcloud beta workspace-key-access configs --help`
+
+### `gcloud beta workspace-key-access configs create`
+
+**What it does:** create a Workspace Key.
+
+**Usage help:** `gcloud beta workspace-key-access configs create --help`
+
+### `gcloud beta workspace-key-access configs delete`
+
+**What it does:** delete a Workspace Key.
+
+**Usage help:** `gcloud beta workspace-key-access configs delete --help`
+
+### `gcloud beta workspace-key-access configs describe`
+
+**What it does:** describe a Workspace.
+
+**Usage help:** `gcloud beta workspace-key-access configs describe --help`
+
+### `gcloud beta workspace-key-access configs list`
+
+**What it does:** list Workspace Key Access.
+
+**Usage help:** `gcloud beta workspace-key-access configs list --help`
+
+### `gcloud beta workspace-key-access configs update`
+
+**What it does:** update a Workspace Key.
+
+**Usage help:** `gcloud beta workspace-key-access configs update --help`
+
+### `gcloud beta workspace-key-access endpoints`
+
+**What it does:** manage Workspace Key Access.
+
+**Usage help:** `gcloud beta workspace-key-access endpoints --help`
+
+### `gcloud beta workspace-key-access endpoints create`
+
+**What it does:** create a Workspace Key.
+
+**Usage help:** `gcloud beta workspace-key-access endpoints create --help`
+
+### `gcloud beta workspace-key-access endpoints describe`
+
+**What it does:** describe a Workspace.
+
+**Usage help:** `gcloud beta workspace-key-access endpoints describe --help`
+
+### `gcloud beta workspace-key-access endpoints list`
+
+**What it does:** list Workspace Key Access.
+
+**Usage help:** `gcloud beta workspace-key-access endpoints list --help`
+
+### `gcloud beta workspace-key-access endpoints update`
+
+**What it does:** update a Workspace Key.
+
+**Usage help:** `gcloud beta workspace-key-access endpoints update --help`
+
+### `gcloud beta workspace-key-access operations`
+
+**What it does:** manage Operation resources.
+
+**Usage help:** `gcloud beta workspace-key-access operations --help`
+
+### `gcloud beta workspace-key-access operations cancel`
+
+**What it does:** cancel operations.
+
+**Usage help:** `gcloud beta workspace-key-access operations cancel --help`
+
+### `gcloud beta workspace-key-access operations delete`
+
+**What it does:** delete operations.
+
+**Usage help:** `gcloud beta workspace-key-access operations delete --help`
+
+### `gcloud beta workspace-key-access operations describe`
+
+**What it does:** describe operations.
+
+**Usage help:** `gcloud beta workspace-key-access operations describe --help`
+
+### `gcloud beta workspace-key-access operations list`
+
+**What it does:** list operations.
+
+**Usage help:** `gcloud beta workspace-key-access operations list --help`
+
+### `gcloud beta workspace-key-access operations wait`
+
+**What it does:** wait operations.
+
+**Usage help:** `gcloud beta workspace-key-access operations wait --help`
+
 ## workstations
 
 ### `gcloud beta workstations`
@@ -34047,3 +36631,15 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** stop a workstation.
 
 **Usage help:** `gcloud beta workstations stop --help`
+
+### `gcloud beta workstations suspend`
+
+**What it does:** suspend a workstation to reduce costs.
+
+**Usage help:** `gcloud beta workstations suspend --help`
+
+### `gcloud beta workstations update`
+
+**What it does:** update a workstation.
+
+**Usage help:** `gcloud beta workstations update --help`

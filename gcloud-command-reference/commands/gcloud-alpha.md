@@ -1,14 +1,14 @@
 # Complete gcloud Alpha Command Reference
 
-> Generated: **2026-10-26 10:09 UTC**  
-> CLI: **Google Cloud SDK 568.0.0**  
+> Generated: **2026-11-02 12:26 UTC**  
+> CLI: **Google Cloud SDK 591.0.0**  
 > Source: installed Google Cloud CLI command tree and built-in `--help` text
 
 Each entry includes the command and a short explanation taken from the same installed CLI release.
 
 Official reference: https://cloud.google.com/sdk/gcloud/reference
 
-**Commands in this snapshot: 6,758**
+**Commands in this snapshot: 7,352**
 
 ## (root)
 
@@ -231,6 +231,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** (ALPHA)
 
 **Usage help:** `gcloud alpha access-context-manager levels update --help`
+
+### `gcloud alpha access-context-manager lookup-configured-perimeter`
+
+**What it does:** look up.
+
+**Usage help:** `gcloud alpha access-context-manager lookup-configured-perimeter --help`
 
 ### `gcloud alpha access-context-manager perimeters`
 
@@ -728,6 +734,186 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha agent-identity access-events list --help`
 
+### `gcloud alpha agent-identity access-summaries`
+
+**What it does:** manage Access Summary.
+
+**Usage help:** `gcloud alpha agent-identity access-summaries --help`
+
+### `gcloud alpha agent-identity access-summaries describe`
+
+**What it does:** describe an access.
+
+**Usage help:** `gcloud alpha agent-identity access-summaries describe --help`
+
+### `gcloud alpha agent-identity access-summaries list`
+
+**What it does:** list access summaries.
+
+**Usage help:** `gcloud alpha agent-identity access-summaries list --help`
+
+### `gcloud alpha agent-identity auth-providers`
+
+**What it does:** manage Auth Provider resources.
+
+**Usage help:** `gcloud alpha agent-identity auth-providers --help`
+
+### `gcloud alpha agent-identity auth-providers add-iam-policy-binding`
+
+**What it does:** add IAM.
+
+**Usage help:** `gcloud alpha agent-identity auth-providers add-iam-policy-binding --help`
+
+### `gcloud alpha agent-identity auth-providers authorizations`
+
+**What it does:** manage.
+
+**Usage help:** `gcloud alpha agent-identity auth-providers authorizations --help`
+
+### `gcloud alpha agent-identity auth-providers authorizations add-iam-policy-binding`
+
+**What it does:** add IAM policy binding to an Agent Identity.
+
+**Usage help:** `gcloud alpha agent-identity auth-providers authorizations add-iam-policy-binding --help`
+
+### `gcloud alpha agent-identity auth-providers authorizations delete`
+
+**What it does:** delete.
+
+**Usage help:** `gcloud alpha agent-identity auth-providers authorizations delete --help`
+
+### `gcloud alpha agent-identity auth-providers authorizations describe`
+
+**What it does:** (ALPHA) Get details of a single authorization.
+
+**Usage help:** `gcloud alpha agent-identity auth-providers authorizations describe --help`
+
+### `gcloud alpha agent-identity auth-providers authorizations get-iam-policy`
+
+**What it does:** (ALPHA) This command gets the IAM policy for an authorization.
+
+**Usage help:** `gcloud alpha agent-identity auth-providers authorizations get-iam-policy --help`
+
+### `gcloud alpha agent-identity auth-providers authorizations list`
+
+**What it does:** list.
+
+**Usage help:** `gcloud alpha agent-identity auth-providers authorizations list --help`
+
+### `gcloud alpha agent-identity auth-providers authorizations remove-iam-policy-binding`
+
+**What it does:** remove IAM policy binding from an Agent.
+
+**Usage help:** `gcloud alpha agent-identity auth-providers authorizations remove-iam-policy-binding --help`
+
+### `gcloud alpha agent-identity auth-providers authorizations set-iam-policy`
+
+**What it does:** (ALPHA) This command replaces the existing IAM policy for an authorization, given an authorization and a file encoded in JSON or YAML that contains the IAM policy.
+
+**Usage help:** `gcloud alpha agent-identity auth-providers authorizations set-iam-policy --help`
+
+### `gcloud alpha agent-identity auth-providers authorizations test-iam-permissions`
+
+**What it does:** test IAM permissions for an Agent Identity.
+
+**Usage help:** `gcloud alpha agent-identity auth-providers authorizations test-iam-permissions --help`
+
+### `gcloud alpha agent-identity auth-providers create`
+
+**What it does:** create an auth provider.
+
+**Usage help:** `gcloud alpha agent-identity auth-providers create --help`
+
+### `gcloud alpha agent-identity auth-providers delete`
+
+**What it does:** delete an auth provider.
+
+**Usage help:** `gcloud alpha agent-identity auth-providers delete --help`
+
+### `gcloud alpha agent-identity auth-providers describe`
+
+**What it does:** describe an auth.
+
+**Usage help:** `gcloud alpha agent-identity auth-providers describe --help`
+
+### `gcloud alpha agent-identity auth-providers disable`
+
+**What it does:** disable an auth.
+
+**Usage help:** `gcloud alpha agent-identity auth-providers disable --help`
+
+### `gcloud alpha agent-identity auth-providers enable`
+
+**What it does:** enable an auth provider.
+
+**Usage help:** `gcloud alpha agent-identity auth-providers enable --help`
+
+### `gcloud alpha agent-identity auth-providers get-iam-policy`
+
+**What it does:** get the IAM.
+
+**Usage help:** `gcloud alpha agent-identity auth-providers get-iam-policy --help`
+
+### `gcloud alpha agent-identity auth-providers list`
+
+**What it does:** list auth providers.
+
+**Usage help:** `gcloud alpha agent-identity auth-providers list --help`
+
+### `gcloud alpha agent-identity auth-providers query`
+
+**What it does:** query auth providers.
+
+**Usage help:** `gcloud alpha agent-identity auth-providers query --help`
+
+### `gcloud alpha agent-identity auth-providers query-workloads`
+
+**What it does:** query.
+
+**Usage help:** `gcloud alpha agent-identity auth-providers query-workloads --help`
+
+### `gcloud alpha agent-identity auth-providers remove-iam-policy-binding`
+
+**What it does:** (ALPHA) Remove an IAM policy binding from the IAM policy of an Agent Identity authProvider. One binding consists of a member, and a role.
+
+**Usage help:** `gcloud alpha agent-identity auth-providers remove-iam-policy-binding --help`
+
+### `gcloud alpha agent-identity auth-providers resolve-authorization`
+
+**What it does:** resolve.
+
+**Usage help:** `gcloud alpha agent-identity auth-providers resolve-authorization --help`
+
+### `gcloud alpha agent-identity auth-providers revoke-authorization`
+
+**What it does:** revoke.
+
+**Usage help:** `gcloud alpha agent-identity auth-providers revoke-authorization --help`
+
+### `gcloud alpha agent-identity auth-providers set-iam-policy`
+
+**What it does:** set the IAM.
+
+**Usage help:** `gcloud alpha agent-identity auth-providers set-iam-policy --help`
+
+### `gcloud alpha agent-identity auth-providers test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha agent-identity auth-providers test-iam-permissions --help`
+
+### `gcloud alpha agent-identity auth-providers undelete`
+
+**What it does:** undelete an auth.
+
+**Usage help:** `gcloud alpha agent-identity auth-providers undelete --help`
+
+### `gcloud alpha agent-identity auth-providers update`
+
+**What it does:** update an auth provider.
+
+**Usage help:** `gcloud alpha agent-identity auth-providers update --help`
+
 ### `gcloud alpha agent-identity connectors`
 
 **What it does:** manage Connector resources.
@@ -858,7 +1044,7 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud alpha agent-registry agents describe`
 
-**What it does:** describe agents.
+**What it does:** get details of an agent.
 
 **Usage help:** `gcloud alpha agent-registry agents describe --help`
 
@@ -870,7 +1056,7 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud alpha agent-registry agents search`
 
-**What it does:** search agents.
+**What it does:** search for agents matching a.
 
 **Usage help:** `gcloud alpha agent-registry agents search --help`
 
@@ -882,19 +1068,19 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud alpha agent-registry bindings create`
 
-**What it does:** create bindings.
+**What it does:** create a new binding.
 
 **Usage help:** `gcloud alpha agent-registry bindings create --help`
 
 ### `gcloud alpha agent-registry bindings delete`
 
-**What it does:** delete bindings.
+**What it does:** delete a binding connection.
 
 **Usage help:** `gcloud alpha agent-registry bindings delete --help`
 
 ### `gcloud alpha agent-registry bindings describe`
 
-**What it does:** describe bindings.
+**What it does:** retrieve binding details.
 
 **Usage help:** `gcloud alpha agent-registry bindings describe --help`
 
@@ -912,7 +1098,7 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud alpha agent-registry bindings update`
 
-**What it does:** update bindings.
+**What it does:** modify binding parameters.
 
 **Usage help:** `gcloud alpha agent-registry bindings update --help`
 
@@ -924,15 +1110,33 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud alpha agent-registry endpoints describe`
 
-**What it does:** describe endpoints.
+**What it does:** retrieve endpoint details.
 
 **Usage help:** `gcloud alpha agent-registry endpoints describe --help`
 
 ### `gcloud alpha agent-registry endpoints list`
 
-**What it does:** list endpoints.
+**What it does:** enumerate service endpoints.
 
 **Usage help:** `gcloud alpha agent-registry endpoints list --help`
+
+### `gcloud alpha agent-registry findings`
+
+**What it does:** manage Finding resources.
+
+**Usage help:** `gcloud alpha agent-registry findings --help`
+
+### `gcloud alpha agent-registry findings describe`
+
+**What it does:** get details of a finding.
+
+**Usage help:** `gcloud alpha agent-registry findings describe --help`
+
+### `gcloud alpha agent-registry findings list`
+
+**What it does:** list findings.
+
+**Usage help:** `gcloud alpha agent-registry findings list --help`
 
 ### `gcloud alpha agent-registry mcp-servers`
 
@@ -942,19 +1146,19 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud alpha agent-registry mcp-servers describe`
 
-**What it does:** describe mcpServers.
+**What it does:** get details of an MCP.
 
 **Usage help:** `gcloud alpha agent-registry mcp-servers describe --help`
 
 ### `gcloud alpha agent-registry mcp-servers list`
 
-**What it does:** list mcpServers.
+**What it does:** list MCP servers.
 
 **Usage help:** `gcloud alpha agent-registry mcp-servers list --help`
 
 ### `gcloud alpha agent-registry mcp-servers search`
 
-**What it does:** search mcpServers.
+**What it does:** search MCP servers.
 
 **Usage help:** `gcloud alpha agent-registry mcp-servers search --help`
 
@@ -964,6 +1168,24 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha agent-registry operations --help`
 
+### `gcloud alpha agent-registry publishers`
+
+**What it does:** manage Publisher resources.
+
+**Usage help:** `gcloud alpha agent-registry publishers --help`
+
+### `gcloud alpha agent-registry publishers describe`
+
+**What it does:** describe publishers.
+
+**Usage help:** `gcloud alpha agent-registry publishers describe --help`
+
+### `gcloud alpha agent-registry publishers list`
+
+**What it does:** list publishers.
+
+**Usage help:** `gcloud alpha agent-registry publishers list --help`
+
 ### `gcloud alpha agent-registry services`
 
 **What it does:** manage Service resources.
@@ -972,33 +1194,135 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud alpha agent-registry services create`
 
-**What it does:** create services.
+**What it does:** register a new service.
 
 **Usage help:** `gcloud alpha agent-registry services create --help`
 
 ### `gcloud alpha agent-registry services delete`
 
-**What it does:** delete services.
+**What it does:** remove a registered service.
 
 **Usage help:** `gcloud alpha agent-registry services delete --help`
 
 ### `gcloud alpha agent-registry services describe`
 
-**What it does:** describe services.
+**What it does:** get details of a registered.
 
 **Usage help:** `gcloud alpha agent-registry services describe --help`
 
 ### `gcloud alpha agent-registry services list`
 
-**What it does:** list services.
+**What it does:** list registered services.
 
 **Usage help:** `gcloud alpha agent-registry services list --help`
 
 ### `gcloud alpha agent-registry services update`
 
-**What it does:** update services.
+**What it does:** modify service parameters.
 
 **Usage help:** `gcloud alpha agent-registry services update --help`
+
+### `gcloud alpha agent-registry skills`
+
+**What it does:** manage Skill resources.
+
+**Usage help:** `gcloud alpha agent-registry skills --help`
+
+### `gcloud alpha agent-registry skills add-iam-policy-binding`
+
+**What it does:** add IAM policy.
+
+**Usage help:** `gcloud alpha agent-registry skills add-iam-policy-binding --help`
+
+### `gcloud alpha agent-registry skills create`
+
+**What it does:** create skills.
+
+**Usage help:** `gcloud alpha agent-registry skills create --help`
+
+### `gcloud alpha agent-registry skills delete`
+
+**What it does:** delete skills.
+
+**Usage help:** `gcloud alpha agent-registry skills delete --help`
+
+### `gcloud alpha agent-registry skills describe`
+
+**What it does:** describe skills.
+
+**Usage help:** `gcloud alpha agent-registry skills describe --help`
+
+### `gcloud alpha agent-registry skills get-iam-policy`
+
+**What it does:** get the IAM policy for.
+
+**Usage help:** `gcloud alpha agent-registry skills get-iam-policy --help`
+
+### `gcloud alpha agent-registry skills list`
+
+**What it does:** list skills.
+
+**Usage help:** `gcloud alpha agent-registry skills list --help`
+
+### `gcloud alpha agent-registry skills remove-iam-policy-binding`
+
+**What it does:** remove IAM.
+
+**Usage help:** `gcloud alpha agent-registry skills remove-iam-policy-binding --help`
+
+### `gcloud alpha agent-registry skills revisions`
+
+**What it does:** manage Skill Revision.
+
+**Usage help:** `gcloud alpha agent-registry skills revisions --help`
+
+### `gcloud alpha agent-registry skills revisions create`
+
+**What it does:** create skillRevisions.
+
+**Usage help:** `gcloud alpha agent-registry skills revisions create --help`
+
+### `gcloud alpha agent-registry skills revisions delete`
+
+**What it does:** delete skillRevisions.
+
+**Usage help:** `gcloud alpha agent-registry skills revisions delete --help`
+
+### `gcloud alpha agent-registry skills revisions describe`
+
+**What it does:** describe.
+
+**Usage help:** `gcloud alpha agent-registry skills revisions describe --help`
+
+### `gcloud alpha agent-registry skills revisions download`
+
+**What it does:** download the.
+
+**Usage help:** `gcloud alpha agent-registry skills revisions download --help`
+
+### `gcloud alpha agent-registry skills revisions list`
+
+**What it does:** list skillRevisions.
+
+**Usage help:** `gcloud alpha agent-registry skills revisions list --help`
+
+### `gcloud alpha agent-registry skills search`
+
+**What it does:** search skills.
+
+**Usage help:** `gcloud alpha agent-registry skills search --help`
+
+### `gcloud alpha agent-registry skills set-iam-policy`
+
+**What it does:** set the IAM policy for.
+
+**Usage help:** `gcloud alpha agent-registry skills set-iam-policy --help`
+
+### `gcloud alpha agent-registry skills update`
+
+**What it does:** update skills.
+
+**Usage help:** `gcloud alpha agent-registry skills update --help`
 
 ## ai
 
@@ -1608,6 +1932,36 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha ai tensorboards update --help`
 
+### `gcloud alpha ai tuning-jobs`
+
+**What it does:** manage Vertex AI tuning jobs.
+
+**Usage help:** `gcloud alpha ai tuning-jobs --help`
+
+### `gcloud alpha ai tuning-jobs cancel`
+
+**What it does:** cancel a running tuning job.
+
+**Usage help:** `gcloud alpha ai tuning-jobs cancel --help`
+
+### `gcloud alpha ai tuning-jobs create`
+
+**What it does:** create a supervised fine-tuning job.
+
+**Usage help:** `gcloud alpha ai tuning-jobs create --help`
+
+### `gcloud alpha ai tuning-jobs describe`
+
+**What it does:** get detail information about the.
+
+**Usage help:** `gcloud alpha ai tuning-jobs describe --help`
+
+### `gcloud alpha ai tuning-jobs list`
+
+**What it does:** list existing tuning jobs.
+
+**Usage help:** `gcloud alpha ai tuning-jobs list --help`
+
 ## ai-platform
 
 ### `gcloud alpha ai-platform`
@@ -1977,6 +2331,42 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** connect to an AlloyDB instance using the.
 
 **Usage help:** `gcloud alpha alloydb connect --help`
+
+### `gcloud alpha alloydb endpoints`
+
+**What it does:** provide commands for managing AlloyDB.
+
+**Usage help:** `gcloud alpha alloydb endpoints --help`
+
+### `gcloud alpha alloydb endpoints create`
+
+**What it does:** creates a new AlloyDB endpoint.
+
+**Usage help:** `gcloud alpha alloydb endpoints create --help`
+
+### `gcloud alpha alloydb endpoints delete`
+
+**What it does:** deletes an AlloyDB endpoint.
+
+**Usage help:** `gcloud alpha alloydb endpoints delete --help`
+
+### `gcloud alpha alloydb endpoints describe`
+
+**What it does:** describe an AlloyDB endpoint in a.
+
+**Usage help:** `gcloud alpha alloydb endpoints describe --help`
+
+### `gcloud alpha alloydb endpoints list`
+
+**What it does:** list AlloyDB endpoints in a given.
+
+**Usage help:** `gcloud alpha alloydb endpoints list --help`
+
+### `gcloud alpha alloydb endpoints update`
+
+**What it does:** update an AlloyDB endpoint.
+
+**Usage help:** `gcloud alpha alloydb endpoints update --help`
 
 ### `gcloud alpha alloydb instances`
 
@@ -2416,41 +2806,17 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha api-registry mcp --help`
 
-### `gcloud alpha api-registry mcp disable`
-
-**What it does:** disables MCP server for a given.
-
-**Usage help:** `gcloud alpha api-registry mcp disable --help`
-
-### `gcloud alpha api-registry mcp enable`
-
-**What it does:** enables MCP server for a given.
-
-**Usage help:** `gcloud alpha api-registry mcp enable --help`
-
 ### `gcloud alpha api-registry mcp servers`
 
 **What it does:** manage Cloud API Registry MCP.
 
 **Usage help:** `gcloud alpha api-registry mcp servers --help`
 
-### `gcloud alpha api-registry mcp servers list`
-
-**What it does:** list MCP servers.
-
-**Usage help:** `gcloud alpha api-registry mcp servers list --help`
-
 ### `gcloud alpha api-registry mcp tools`
 
 **What it does:** manage Cloud API Registry MCP tools.
 
 **Usage help:** `gcloud alpha api-registry mcp tools --help`
-
-### `gcloud alpha api-registry mcp tools list`
-
-**What it does:** list MCP tools.
-
-**Usage help:** `gcloud alpha api-registry mcp tools list --help`
 
 ## apigee
 
@@ -2466,9 +2832,15 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha apigee apis --help`
 
+### `gcloud alpha apigee apis delete`
+
+**What it does:** delete an Apigee API proxy.
+
+**Usage help:** `gcloud alpha apigee apis delete --help`
+
 ### `gcloud alpha apigee apis deploy`
 
-**What it does:** deploy an API proxy to an environment.
+**What it does:** deploy an Apigee API proxy to an.
 
 **Usage help:** `gcloud alpha apigee apis deploy --help`
 
@@ -2477,6 +2849,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** describe an Apigee API proxy.
 
 **Usage help:** `gcloud alpha apigee apis describe --help`
+
+### `gcloud alpha apigee apis import`
+
+**What it does:** import an Apigee API proxy from local.
+
+**Usage help:** `gcloud alpha apigee apis import --help`
 
 ### `gcloud alpha apigee apis list`
 
@@ -3134,6 +3512,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha apihub host-project-registrations list --help`
 
+### `gcloud alpha apihub locations`
+
+**What it does:** location-scoped operations for API Hub.
+
+**Usage help:** `gcloud alpha apihub locations --help`
+
+### `gcloud alpha apihub locations configure-and-deploy-server`
+
+**What it does:** configure and.
+
+**Usage help:** `gcloud alpha apihub locations configure-and-deploy-server --help`
+
 ### `gcloud alpha apihub operations`
 
 **What it does:** manage Operation resources.
@@ -3381,6 +3771,74 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** updates an App Engine application.
 
 **Usage help:** `gcloud alpha app update --help`
+
+## app-topology
+
+### `gcloud alpha app-topology`
+
+**What it does:** manage App Topology resources and query.
+
+**Usage help:** `gcloud alpha app-topology --help`
+
+### `gcloud alpha app-topology domains`
+
+**What it does:** view App Topology domains.
+
+**Usage help:** `gcloud alpha app-topology domains --help`
+
+### `gcloud alpha app-topology domains describe`
+
+**What it does:** describe an App Topology.
+
+**Usage help:** `gcloud alpha app-topology domains describe --help`
+
+### `gcloud alpha app-topology domains list`
+
+**What it does:** list App Topology domains.
+
+**Usage help:** `gcloud alpha app-topology domains list --help`
+
+### `gcloud alpha app-topology domains schema`
+
+**What it does:** view App Topology domain schemas.
+
+**Usage help:** `gcloud alpha app-topology domains schema --help`
+
+### `gcloud alpha app-topology domains schema describe`
+
+**What it does:** describe the schema for.
+
+**Usage help:** `gcloud alpha app-topology domains schema describe --help`
+
+### `gcloud alpha app-topology locations`
+
+**What it does:** view App Topology locations.
+
+**Usage help:** `gcloud alpha app-topology locations --help`
+
+### `gcloud alpha app-topology locations describe`
+
+**What it does:** describe an App Topology.
+
+**Usage help:** `gcloud alpha app-topology locations describe --help`
+
+### `gcloud alpha app-topology locations list`
+
+**What it does:** list App Topology locations.
+
+**Usage help:** `gcloud alpha app-topology locations list --help`
+
+### `gcloud alpha app-topology resources-graph`
+
+**What it does:** query and generate resource.
+
+**Usage help:** `gcloud alpha app-topology resources-graph --help`
+
+### `gcloud alpha app-topology resources-graph generate`
+
+**What it does:** generate a resource.
+
+**Usage help:** `gcloud alpha app-topology resources-graph generate --help`
 
 ## apphub
 
@@ -4340,6 +4798,36 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha audit-manager audit-reports generate --help`
 
+### `gcloud alpha audit-manager audit-schedules`
+
+**What it does:** command group for Audit.
+
+**Usage help:** `gcloud alpha audit-manager audit-schedules --help`
+
+### `gcloud alpha audit-manager audit-schedules create`
+
+**What it does:** create Audit Schedule.
+
+**Usage help:** `gcloud alpha audit-manager audit-schedules create --help`
+
+### `gcloud alpha audit-manager audit-schedules describe`
+
+**What it does:** describe Audit.
+
+**Usage help:** `gcloud alpha audit-manager audit-schedules describe --help`
+
+### `gcloud alpha audit-manager audit-schedules list`
+
+**What it does:** list Audit Schedules.
+
+**Usage help:** `gcloud alpha audit-manager audit-schedules list --help`
+
+### `gcloud alpha audit-manager audit-schedules update`
+
+**What it does:** update Audit Schedule.
+
+**Usage help:** `gcloud alpha audit-manager audit-schedules update --help`
+
 ### `gcloud alpha audit-manager audit-scopes`
 
 **What it does:** command group for Audit Manager.
@@ -4493,6 +4981,84 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** manage Backup and DR resources.
 
 **Usage help:** `gcloud alpha backup-dr --help`
+
+### `gcloud alpha backup-dr applied-auto-protection-policies`
+
+**What it does:** manage Backup and.
+
+**Usage help:** `gcloud alpha backup-dr applied-auto-protection-policies --help`
+
+### `gcloud alpha backup-dr applied-auto-protection-policies list`
+
+**What it does:** list Backup.
+
+**Usage help:** `gcloud alpha backup-dr applied-auto-protection-policies list --help`
+
+### `gcloud alpha backup-dr auto-protection-bindings`
+
+**What it does:** manage Backup and DR auto.
+
+**Usage help:** `gcloud alpha backup-dr auto-protection-bindings --help`
+
+### `gcloud alpha backup-dr auto-protection-bindings create`
+
+**What it does:** create a Backup.
+
+**Usage help:** `gcloud alpha backup-dr auto-protection-bindings create --help`
+
+### `gcloud alpha backup-dr auto-protection-bindings delete`
+
+**What it does:** delete a Backup.
+
+**Usage help:** `gcloud alpha backup-dr auto-protection-bindings delete --help`
+
+### `gcloud alpha backup-dr auto-protection-bindings describe`
+
+**What it does:** describe a.
+
+**Usage help:** `gcloud alpha backup-dr auto-protection-bindings describe --help`
+
+### `gcloud alpha backup-dr auto-protection-bindings list`
+
+**What it does:** list Backup and DR.
+
+**Usage help:** `gcloud alpha backup-dr auto-protection-bindings list --help`
+
+### `gcloud alpha backup-dr auto-protection-policies`
+
+**What it does:** manage Backup and DR.
+
+**Usage help:** `gcloud alpha backup-dr auto-protection-policies --help`
+
+### `gcloud alpha backup-dr auto-protection-policies create`
+
+**What it does:** create a Backup.
+
+**Usage help:** `gcloud alpha backup-dr auto-protection-policies create --help`
+
+### `gcloud alpha backup-dr auto-protection-policies delete`
+
+**What it does:** delete a Backup.
+
+**Usage help:** `gcloud alpha backup-dr auto-protection-policies delete --help`
+
+### `gcloud alpha backup-dr auto-protection-policies describe`
+
+**What it does:** describe a.
+
+**Usage help:** `gcloud alpha backup-dr auto-protection-policies describe --help`
+
+### `gcloud alpha backup-dr auto-protection-policies list`
+
+**What it does:** list Backup and DR.
+
+**Usage help:** `gcloud alpha backup-dr auto-protection-policies list --help`
+
+### `gcloud alpha backup-dr auto-protection-policies update`
+
+**What it does:** update a Backup.
+
+**Usage help:** `gcloud alpha backup-dr auto-protection-policies update --help`
 
 ### `gcloud alpha backup-dr backup-plan-associations`
 
@@ -4685,6 +5251,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update the specified Backup.
 
 **Usage help:** `gcloud alpha backup-dr backups update --help`
+
+### `gcloud alpha backup-dr binding-matching-resources`
+
+**What it does:** manage Backup and DR.
+
+**Usage help:** `gcloud alpha backup-dr binding-matching-resources --help`
+
+### `gcloud alpha backup-dr binding-matching-resources list`
+
+**What it does:** list Backup and DR.
+
+**Usage help:** `gcloud alpha backup-dr binding-matching-resources list --help`
 
 ### `gcloud alpha backup-dr data-source-references`
 
@@ -5022,6 +5600,102 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha biglake --help`
 
+### `gcloud alpha biglake data-product-sharing`
+
+**What it does:** manage sharing of Knowledge.
+
+**Usage help:** `gcloud alpha biglake data-product-sharing --help`
+
+### `gcloud alpha biglake data-product-sharing publish`
+
+**What it does:** publish a Knowledge.
+
+**Usage help:** `gcloud alpha biglake data-product-sharing publish --help`
+
+### `gcloud alpha biglake data-product-sharing unpublish`
+
+**What it does:** unpublish a Knowledge.
+
+**Usage help:** `gcloud alpha biglake data-product-sharing unpublish --help`
+
+### `gcloud alpha biglake delta-sharing`
+
+**What it does:** biglake Delta Sharing Catalogs.
+
+**Usage help:** `gcloud alpha biglake delta-sharing --help`
+
+### `gcloud alpha biglake delta-sharing catalogs`
+
+**What it does:** biglake Delta Sharing.
+
+**Usage help:** `gcloud alpha biglake delta-sharing catalogs --help`
+
+### `gcloud alpha biglake delta-sharing catalogs create`
+
+**What it does:** create a BigLake Delta.
+
+**Usage help:** `gcloud alpha biglake delta-sharing catalogs create --help`
+
+### `gcloud alpha biglake delta-sharing catalogs delete`
+
+**What it does:** delete a BigLake Delta.
+
+**Usage help:** `gcloud alpha biglake delta-sharing catalogs delete --help`
+
+### `gcloud alpha biglake delta-sharing catalogs describe`
+
+**What it does:** describe a BigLake.
+
+**Usage help:** `gcloud alpha biglake delta-sharing catalogs describe --help`
+
+### `gcloud alpha biglake delta-sharing catalogs list`
+
+**What it does:** list BigLake Delta.
+
+**Usage help:** `gcloud alpha biglake delta-sharing catalogs list --help`
+
+### `gcloud alpha biglake delta-sharing catalogs update`
+
+**What it does:** update a BigLake Delta.
+
+**Usage help:** `gcloud alpha biglake delta-sharing catalogs update --help`
+
+### `gcloud alpha biglake delta-sharing schemas`
+
+**What it does:** biglake Delta Sharing Schemas.
+
+**Usage help:** `gcloud alpha biglake delta-sharing schemas --help`
+
+### `gcloud alpha biglake delta-sharing schemas list`
+
+**What it does:** list BigLake Delta.
+
+**Usage help:** `gcloud alpha biglake delta-sharing schemas list --help`
+
+### `gcloud alpha biglake delta-sharing shares`
+
+**What it does:** biglake Delta Sharing Shares.
+
+**Usage help:** `gcloud alpha biglake delta-sharing shares --help`
+
+### `gcloud alpha biglake delta-sharing shares list`
+
+**What it does:** list BigLake Delta Sharing.
+
+**Usage help:** `gcloud alpha biglake delta-sharing shares list --help`
+
+### `gcloud alpha biglake delta-sharing tables`
+
+**What it does:** biglake Delta Sharing Tables.
+
+**Usage help:** `gcloud alpha biglake delta-sharing tables --help`
+
+### `gcloud alpha biglake delta-sharing tables list`
+
+**What it does:** list BigLake Delta Sharing.
+
+**Usage help:** `gcloud alpha biglake delta-sharing tables list --help`
+
 ### `gcloud alpha biglake hive`
 
 **What it does:** biglake Hive Catalogs.
@@ -5130,6 +5804,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha biglake hive tables --help`
 
+### `gcloud alpha biglake hive tables create`
+
+**What it does:** create a BigLake Hive table.
+
+**Usage help:** `gcloud alpha biglake hive tables create --help`
+
 ### `gcloud alpha biglake hive tables delete`
 
 **What it does:** deletes a BigLake Hive table.
@@ -5159,6 +5839,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** set the IAM policy for a.
 
 **Usage help:** `gcloud alpha biglake hive tables set-iam-policy --help`
+
+### `gcloud alpha biglake hive tables update`
+
+**What it does:** update a BigLake Hive table.
+
+**Usage help:** `gcloud alpha biglake hive tables update --help`
 
 ### `gcloud alpha biglake iceberg`
 
@@ -5536,7 +6222,7 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud alpha bigtable clusters update`
 
-**What it does:** update a Bigtable cluster's number.
+**What it does:** update a Cloud Bigtable cluster's.
 
 **Usage help:** `gcloud alpha bigtable clusters update --help`
 
@@ -5797,6 +6483,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** describe a Bigtable memory.
 
 **Usage help:** `gcloud alpha bigtable memory-layers describe --help`
+
+### `gcloud alpha bigtable memory-layers list`
+
+**What it does:** list Bigtable memory layers.
+
+**Usage help:** `gcloud alpha bigtable memory-layers list --help`
 
 ### `gcloud alpha bigtable memory-layers update`
 
@@ -6202,19 +6894,19 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud alpha blockchain-validator blockchain-validator-configs create`
 
-**What it does:** (ALPHA) Create a blockchain validator configuration on a blockchain node managed by Blockchain Node Engine.
+**What it does:** (ALPHA) (DEPRECATED) The gcloud blockchain-validator command group is deprecated and will be removed in a future release.
 
 **Usage help:** `gcloud alpha blockchain-validator blockchain-validator-configs create --help`
 
 ### `gcloud alpha blockchain-validator blockchain-validator-configs delete`
 
-**What it does:** (ALPHA) Delete a single blockchain validator configuration from a blockchain node.
+**What it does:** (ALPHA) (DEPRECATED) The gcloud blockchain-validator command group is deprecated and will be removed in a future release.
 
 **Usage help:** `gcloud alpha blockchain-validator blockchain-validator-configs delete --help`
 
 ### `gcloud alpha blockchain-validator blockchain-validator-configs describe`
 
-**What it does:** (ALPHA) Get details of a single blockchain validator configuration.
+**What it does:** (ALPHA) (DEPRECATED) The gcloud blockchain-validator command group is deprecated and will be removed in a future release.
 
 **Usage help:** `gcloud alpha blockchain-validator blockchain-validator-configs describe --help`
 
@@ -6226,7 +6918,7 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud alpha blockchain-validator blockchain-validator-configs update`
 
-**What it does:** (ALPHA) Update the configuration of a single blockchain validator.
+**What it does:** (ALPHA) (DEPRECATED) The gcloud blockchain-validator command group is deprecated and will be removed in a future release.
 
 **Usage help:** `gcloud alpha blockchain-validator blockchain-validator-configs update --help`
 
@@ -6708,6 +7400,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha bq migration-workflows list --help`
 
+### `gcloud alpha bq query`
+
+**What it does:** execute a BigQuery SQL query.
+
+**Usage help:** `gcloud alpha bq query --help`
+
 ### `gcloud alpha bq tables`
 
 **What it does:** interact with and manage Google BigQuery tables.
@@ -6780,11 +7478,35 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha bq translation --help`
 
+### `gcloud alpha bq translation describe`
+
+**What it does:** get the details or status of a.
+
+**Usage help:** `gcloud alpha bq translation describe --help`
+
+### `gcloud alpha bq translation generate-source-ddl`
+
+**What it does:** generates source DDL.
+
+**Usage help:** `gcloud alpha bq translation generate-source-ddl --help`
+
 ### `gcloud alpha bq translation translate`
 
 **What it does:** translate a SQL query from a source.
 
 **Usage help:** `gcloud alpha bq translation translate --help`
+
+### `gcloud alpha bq translation translate-batch`
+
+**What it does:** translates a batch of SQL.
+
+**Usage help:** `gcloud alpha bq translation translate-batch --help`
+
+### `gcloud alpha bq translation translate-metadata`
+
+**What it does:** translates metadata from.
+
+**Usage help:** `gcloud alpha bq translation translate-metadata --help`
 
 ## builds
 
@@ -7003,42 +7725,6 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update github.
 
 **Usage help:** `gcloud alpha builds enterprise-config github update --help`
-
-### `gcloud alpha builds enterprise-config gitlab`
-
-**What it does:** manage GitLab Enterprise.
-
-**Usage help:** `gcloud alpha builds enterprise-config gitlab --help`
-
-### `gcloud alpha builds enterprise-config gitlab create`
-
-**What it does:** create a GitLab.
-
-**Usage help:** `gcloud alpha builds enterprise-config gitlab create --help`
-
-### `gcloud alpha builds enterprise-config gitlab delete`
-
-**What it does:** delete a GitLab.
-
-**Usage help:** `gcloud alpha builds enterprise-config gitlab delete --help`
-
-### `gcloud alpha builds enterprise-config gitlab describe`
-
-**What it does:** describe a GitLab.
-
-**Usage help:** `gcloud alpha builds enterprise-config gitlab describe --help`
-
-### `gcloud alpha builds enterprise-config gitlab list`
-
-**What it does:** list all GitLab.
-
-**Usage help:** `gcloud alpha builds enterprise-config gitlab list --help`
-
-### `gcloud alpha builds enterprise-config gitlab update`
-
-**What it does:** update a GitLab.
-
-**Usage help:** `gcloud alpha builds enterprise-config gitlab update --help`
 
 ### `gcloud alpha builds get-default-service-account`
 
@@ -7644,7 +8330,7 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud alpha cluster-director clusters`
 
-**What it does:** manage Cluster Director cluster.
+**What it does:** deploy and manage large-scale AI.
 
 **Usage help:** `gcloud alpha cluster-director clusters --help`
 
@@ -7680,7 +8366,7 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud alpha cluster-director locations`
 
-**What it does:** view Locations resources.
+**What it does:** view supported locations.
 
 **Usage help:** `gcloud alpha cluster-director locations --help`
 
@@ -7778,6 +8464,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha composer environments fetch-database-properties --help`
 
+### `gcloud alpha composer environments hibernate`
+
+**What it does:** hibernate a Cloud Composer.
+
+**Usage help:** `gcloud alpha composer environments hibernate --help`
+
 ### `gcloud alpha composer environments list`
 
 **What it does:** list the Cloud Composer.
@@ -7807,6 +8499,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** restart web server.
 
 **Usage help:** `gcloud alpha composer environments restart-web-server --help`
+
+### `gcloud alpha composer environments resume`
+
+**What it does:** resume a Cloud Composer.
+
+**Usage help:** `gcloud alpha composer environments resume --help`
 
 ### `gcloud alpha composer environments run`
 
@@ -8098,6 +8796,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute addresses describe --help`
 
+### `gcloud alpha compute addresses get-owner-instance`
+
+**What it does:** get the owner instance.
+
+**Usage help:** `gcloud alpha compute addresses get-owner-instance --help`
+
 ### `gcloud alpha compute addresses list`
 
 **What it does:** list addresses.
@@ -8109,6 +8813,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** move an address to another project.
 
 **Usage help:** `gcloud alpha compute addresses move --help`
+
+### `gcloud alpha compute addresses test-iam-permissions`
+
+**What it does:** test IAM permissions.
+
+**Usage help:** `gcloud alpha compute addresses test-iam-permissions --help`
 
 ### `gcloud alpha compute addresses update`
 
@@ -8217,6 +8927,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** set the IAM policy.
 
 **Usage help:** `gcloud alpha compute backend-buckets set-iam-policy --help`
+
+### `gcloud alpha compute backend-buckets test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute backend-buckets test-iam-permissions --help`
 
 ### `gcloud alpha compute backend-buckets update`
 
@@ -8356,6 +9072,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute backend-services set-security-policy --help`
 
+### `gcloud alpha compute backend-services test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute backend-services test-iam-permissions --help`
+
 ### `gcloud alpha compute backend-services update`
 
 **What it does:** update a backend service.
@@ -8373,6 +9095,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** manage Compute Engine commitments.
 
 **Usage help:** `gcloud alpha compute commitments --help`
+
+### `gcloud alpha compute commitments calculate-cancellation-fee`
+
+**What it does:** calculate the.
+
+**Usage help:** `gcloud alpha compute commitments calculate-cancellation-fee --help`
 
 ### `gcloud alpha compute commitments create`
 
@@ -8397,6 +9125,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Compute Engine commitments.
 
 **Usage help:** `gcloud alpha compute commitments list --help`
+
+### `gcloud alpha compute commitments test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute commitments test-iam-permissions --help`
 
 ### `gcloud alpha compute commitments update`
 
@@ -8446,6 +9180,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute composite-health-checks list --help`
 
+### `gcloud alpha compute composite-health-checks test-iam-permissions`
+
+**What it does:** test.
+
+**Usage help:** `gcloud alpha compute composite-health-checks test-iam-permissions --help`
+
 ### `gcloud alpha compute composite-health-checks update`
 
 **What it does:** update a composite.
@@ -8475,6 +9215,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** debugging tools for Compute Engine virtual.
 
 **Usage help:** `gcloud alpha compute diagnose --help`
+
+### `gcloud alpha compute diagnose boot`
+
+**What it does:** analyze a VM's serial console output.
+
+**Usage help:** `gcloud alpha compute diagnose boot --help`
 
 ### `gcloud alpha compute diagnose export-logs`
 
@@ -8559,6 +9305,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** create multiple Compute Engine.
 
 **Usage help:** `gcloud alpha compute disks bulk create --help`
+
+### `gcloud alpha compute disks bulk set-labels`
+
+**What it does:** add or remove labels on.
+
+**Usage help:** `gcloud alpha compute disks bulk set-labels --help`
 
 ### `gcloud alpha compute disks config`
 
@@ -8674,6 +9426,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute disks stop-group-async-replication --help`
 
+### `gcloud alpha compute disks test-iam-permissions`
+
+**What it does:** test IAM permissions for.
+
+**Usage help:** `gcloud alpha compute disks test-iam-permissions --help`
+
 ### `gcloud alpha compute disks update`
 
 **What it does:** update a Compute Engine persistent disk.
@@ -8721,6 +9479,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Google Compute.
 
 **Usage help:** `gcloud alpha compute external-vpn-gateways list --help`
+
+### `gcloud alpha compute external-vpn-gateways test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute external-vpn-gateways test-iam-permissions --help`
 
 ### `gcloud alpha compute external-vpn-gateways update`
 
@@ -8793,6 +9557,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** (ALPHA) Starts a new rollout of organization firewall policy.
 
 **Usage help:** `gcloud alpha compute firewall-policies force-start-progressive-rollout --help`
+
+### `gcloud alpha compute firewall-policies get-iam-policy`
+
+**What it does:** get the IAM policy.
+
+**Usage help:** `gcloud alpha compute firewall-policies get-iam-policy --help`
 
 ### `gcloud alpha compute firewall-policies import-rules`
 
@@ -8878,6 +9648,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute firewall-policies rules update --help`
 
+### `gcloud alpha compute firewall-policies set-iam-policy`
+
+**What it does:** set the IAM policy.
+
+**Usage help:** `gcloud alpha compute firewall-policies set-iam-policy --help`
+
+### `gcloud alpha compute firewall-policies test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute firewall-policies test-iam-permissions --help`
+
 ### `gcloud alpha compute firewall-policies update`
 
 **What it does:** update a Compute Engine.
@@ -8932,11 +9714,77 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute firewall-rules migrate --help`
 
+### `gcloud alpha compute firewall-rules test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute firewall-rules test-iam-permissions --help`
+
 ### `gcloud alpha compute firewall-rules update`
 
 **What it does:** update a firewall rule.
 
 **Usage help:** `gcloud alpha compute firewall-rules update --help`
+
+### `gcloud alpha compute folder-rollout-plans`
+
+**What it does:** read and manipulate Compute.
+
+**Usage help:** `gcloud alpha compute folder-rollout-plans --help`
+
+### `gcloud alpha compute folder-rollout-plans create`
+
+**What it does:** create a folder rollout.
+
+**Usage help:** `gcloud alpha compute folder-rollout-plans create --help`
+
+### `gcloud alpha compute folder-rollout-plans delete`
+
+**What it does:** delete a folder rollout.
+
+**Usage help:** `gcloud alpha compute folder-rollout-plans delete --help`
+
+### `gcloud alpha compute folder-rollout-plans describe`
+
+**What it does:** describe a folder.
+
+**Usage help:** `gcloud alpha compute folder-rollout-plans describe --help`
+
+### `gcloud alpha compute folder-rollout-plans list`
+
+**What it does:** list Google Compute Engine.
+
+**Usage help:** `gcloud alpha compute folder-rollout-plans list --help`
+
+### `gcloud alpha compute folder-rollouts`
+
+**What it does:** read and manipulate Compute Engine.
+
+**Usage help:** `gcloud alpha compute folder-rollouts --help`
+
+### `gcloud alpha compute folder-rollouts cancel`
+
+**What it does:** cancel a folder rollout.
+
+**Usage help:** `gcloud alpha compute folder-rollouts cancel --help`
+
+### `gcloud alpha compute folder-rollouts delete`
+
+**What it does:** delete a folder rollout.
+
+**Usage help:** `gcloud alpha compute folder-rollouts delete --help`
+
+### `gcloud alpha compute folder-rollouts describe`
+
+**What it does:** describe a folder rollout.
+
+**Usage help:** `gcloud alpha compute folder-rollouts describe --help`
+
+### `gcloud alpha compute folder-rollouts list`
+
+**What it does:** list Google Compute Engine.
+
+**Usage help:** `gcloud alpha compute folder-rollouts list --help`
 
 ### `gcloud alpha compute forwarding-rules`
 
@@ -8997,6 +9845,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** modify a forwarding rule.
 
 **Usage help:** `gcloud alpha compute forwarding-rules set-target --help`
+
+### `gcloud alpha compute forwarding-rules test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute forwarding-rules test-iam-permissions --help`
 
 ### `gcloud alpha compute forwarding-rules update`
 
@@ -9208,6 +10062,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute health-checks list --help`
 
+### `gcloud alpha compute health-checks test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute health-checks test-iam-permissions --help`
+
 ### `gcloud alpha compute health-checks update`
 
 **What it does:** update health checks for load.
@@ -9292,6 +10152,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute health-sources list --help`
 
+### `gcloud alpha compute health-sources test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute health-sources test-iam-permissions --help`
+
 ### `gcloud alpha compute health-sources update`
 
 **What it does:** update a health source.
@@ -9352,6 +10218,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute http-health-checks list --help`
 
+### `gcloud alpha compute http-health-checks test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute http-health-checks test-iam-permissions --help`
+
 ### `gcloud alpha compute http-health-checks update`
 
 **What it does:** update a legacy HTTP.
@@ -9388,11 +10260,35 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute https-health-checks list --help`
 
+### `gcloud alpha compute https-health-checks test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute https-health-checks test-iam-permissions --help`
+
 ### `gcloud alpha compute https-health-checks update`
 
 **What it does:** update a legacy HTTPS.
 
 **Usage help:** `gcloud alpha compute https-health-checks update --help`
+
+### `gcloud alpha compute image-views`
+
+**What it does:** read image-view resources with regional.
+
+**Usage help:** `gcloud alpha compute image-views --help`
+
+### `gcloud alpha compute image-views describe`
+
+**What it does:** describe a Compute Engine.
+
+**Usage help:** `gcloud alpha compute image-views describe --help`
+
+### `gcloud alpha compute image-views list`
+
+**What it does:** list Compute Engine image-view.
+
+**Usage help:** `gcloud alpha compute image-views list --help`
 
 ### `gcloud alpha compute images`
 
@@ -9502,6 +10398,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute images set-iam-policy --help`
 
+### `gcloud alpha compute images test-iam-permissions`
+
+**What it does:** test IAM permissions for.
+
+**Usage help:** `gcloud alpha compute images test-iam-permissions --help`
+
 ### `gcloud alpha compute images update`
 
 **What it does:** update a Compute Engine image.
@@ -9568,6 +10470,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute instance-groups managed abandon-instances --help`
 
+### `gcloud alpha compute instance-groups managed adopt-instances`
+
+**What it does:** adopt.
+
+**Usage help:** `gcloud alpha compute instance-groups managed adopt-instances --help`
+
 ### `gcloud alpha compute instance-groups managed all-instances-config`
 
 **What it does:** (ALPHA) Override instance template settings for all instances in a managed instance group.
@@ -9585,6 +10493,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** (ALPHA) gcloud alpha compute instance-groups managed all-instances-config update updates the group's all-instances configuration and applies it only to new instances that are added to the group.
 
 **Usage help:** `gcloud alpha compute instance-groups managed all-instances-config update --help`
+
+### `gcloud alpha compute instance-groups managed configure-accelerator-topologies`
+
+**What it does:** configure accelerator topologies of.
+
+**Usage help:** `gcloud alpha compute instance-groups managed configure-accelerator-topologies --help`
 
 ### `gcloud alpha compute instance-groups managed create`
 
@@ -9627,6 +10541,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** export.
 
 **Usage help:** `gcloud alpha compute instance-groups managed export-autoscaling --help`
+
+### `gcloud alpha compute instance-groups managed get-available-accelerator-topologies`
+
+**What it does:** get available accelerator.
+
+**Usage help:** `gcloud alpha compute instance-groups managed get-available-accelerator-topologies --help`
 
 ### `gcloud alpha compute instance-groups managed get-named-ports`
 
@@ -9826,6 +10746,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute instance-groups managed suspend-instances --help`
 
+### `gcloud alpha compute instance-groups managed test-iam-permissions`
+
+**What it does:** test.
+
+**Usage help:** `gcloud alpha compute instance-groups managed test-iam-permissions --help`
+
 ### `gcloud alpha compute instance-groups managed update`
 
 **What it does:** update a Compute.
@@ -9861,6 +10787,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** sets the list of.
 
 **Usage help:** `gcloud alpha compute instance-groups set-named-ports --help`
+
+### `gcloud alpha compute instance-groups ssh`
+
+**What it does:** SSH into instances of a Compute.
+
+**Usage help:** `gcloud alpha compute instance-groups ssh --help`
+
+### `gcloud alpha compute instance-groups test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute instance-groups test-iam-permissions --help`
 
 ### `gcloud alpha compute instance-groups unmanaged`
 
@@ -9958,11 +10896,23 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute instance-templates describe --help`
 
+### `gcloud alpha compute instance-templates export`
+
+**What it does:** export an instance.
+
+**Usage help:** `gcloud alpha compute instance-templates export --help`
+
 ### `gcloud alpha compute instance-templates get-iam-policy`
 
 **What it does:** get the IAM policy.
 
 **Usage help:** `gcloud alpha compute instance-templates get-iam-policy --help`
+
+### `gcloud alpha compute instance-templates import`
+
+**What it does:** import an instance.
+
+**Usage help:** `gcloud alpha compute instance-templates import --help`
 
 ### `gcloud alpha compute instance-templates list`
 
@@ -9981,6 +10931,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** set the IAM policy.
 
 **Usage help:** `gcloud alpha compute instance-templates set-iam-policy --help`
+
+### `gcloud alpha compute instance-templates test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute instance-templates test-iam-permissions --help`
 
 ### `gcloud alpha compute instances`
 
@@ -10126,6 +11082,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute instances get-shielded-identity --help`
 
+### `gcloud alpha compute instances get-vm-extension-state`
+
+**What it does:** get the VM.
+
+**Usage help:** `gcloud alpha compute instances get-vm-extension-state --help`
+
 ### `gcloud alpha compute instances import`
 
 **What it does:** create Compute Engine virtual.
@@ -10137,6 +11099,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Compute Engine instances.
 
 **Usage help:** `gcloud alpha compute instances list --help`
+
+### `gcloud alpha compute instances list-referrers`
+
+**What it does:** list referrers to a Compute.
+
+**Usage help:** `gcloud alpha compute instances list-referrers --help`
+
+### `gcloud alpha compute instances list-vm-extension-states`
+
+**What it does:** list VM extension.
+
+**Usage help:** `gcloud alpha compute instances list-vm-extension-states --help`
 
 ### `gcloud alpha compute instances network-interfaces`
 
@@ -10312,6 +11286,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute instances set-iam-policy --help`
 
+### `gcloud alpha compute instances set-machine-resources`
+
+**What it does:** set machine.
+
+**Usage help:** `gcloud alpha compute instances set-machine-resources --help`
+
 ### `gcloud alpha compute instances set-machine-type`
 
 **What it does:** set machine type for.
@@ -10342,6 +11322,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute instances set-scopes --help`
 
+### `gcloud alpha compute instances set-shielded-vm-integrity-policy`
+
+**What it does:** set the.
+
+**Usage help:** `gcloud alpha compute instances set-shielded-vm-integrity-policy --help`
+
 ### `gcloud alpha compute instances simulate-maintenance-event`
 
 **What it does:** simulate host.
@@ -10371,6 +11357,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** periodically fetch.
 
 **Usage help:** `gcloud alpha compute instances tail-serial-port-output --help`
+
+### `gcloud alpha compute instances test-iam-permissions`
+
+**What it does:** test IAM permissions.
+
+**Usage help:** `gcloud alpha compute instances test-iam-permissions --help`
 
 ### `gcloud alpha compute instances update`
 
@@ -10438,6 +11430,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute instant-snapshot-groups list --help`
 
+### `gcloud alpha compute instant-snapshot-groups set-iam-policy`
+
+**What it does:** set the IAM.
+
+**Usage help:** `gcloud alpha compute instant-snapshot-groups set-iam-policy --help`
+
+### `gcloud alpha compute instant-snapshot-groups test-iam-permissions`
+
+**What it does:** test.
+
+**Usage help:** `gcloud alpha compute instant-snapshot-groups test-iam-permissions --help`
+
 ### `gcloud alpha compute instant-snapshots`
 
 **What it does:** create, list and delete Compute.
@@ -10473,6 +11477,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Google Compute Engine.
 
 **Usage help:** `gcloud alpha compute instant-snapshots list --help`
+
+### `gcloud alpha compute instant-snapshots set-iam-policy`
+
+**What it does:** set the IAM policy.
+
+**Usage help:** `gcloud alpha compute instant-snapshots set-iam-policy --help`
+
+### `gcloud alpha compute instant-snapshots test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute instant-snapshots test-iam-permissions --help`
 
 ### `gcloud alpha compute interconnects`
 
@@ -10606,6 +11622,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute interconnects attachments groups remove-members --help`
 
+### `gcloud alpha compute interconnects attachments groups set-iam-policy`
+
+**What it does:** set.
+
+**Usage help:** `gcloud alpha compute interconnects attachments groups set-iam-policy --help`
+
+### `gcloud alpha compute interconnects attachments groups test-iam-permissions`
+
+**What it does:** (ALPHA) Returns permissions that a caller has on the specified interconnect attachment group.
+
+**Usage help:** `gcloud alpha compute interconnects attachments groups test-iam-permissions --help`
+
 ### `gcloud alpha compute interconnects attachments groups update`
 
 **What it does:** update a.
@@ -10683,6 +11711,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update a.
 
 **Usage help:** `gcloud alpha compute interconnects attachments partner update --help`
+
+### `gcloud alpha compute interconnects attachments set-iam-policy`
+
+**What it does:** set the IAM.
+
+**Usage help:** `gcloud alpha compute interconnects attachments set-iam-policy --help`
+
+### `gcloud alpha compute interconnects attachments test-iam-permissions`
+
+**What it does:** test.
+
+**Usage help:** `gcloud alpha compute interconnects attachments test-iam-permissions --help`
 
 ### `gcloud alpha compute interconnects create`
 
@@ -10798,6 +11838,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute interconnects groups remove-members --help`
 
+### `gcloud alpha compute interconnects groups set-iam-policy`
+
+**What it does:** set the IAM.
+
+**Usage help:** `gcloud alpha compute interconnects groups set-iam-policy --help`
+
 ### `gcloud alpha compute interconnects groups update`
 
 **What it does:** update a Compute Engine.
@@ -10881,6 +11927,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Google.
 
 **Usage help:** `gcloud alpha compute interconnects remote-locations list --help`
+
+### `gcloud alpha compute interconnects set-name`
+
+**What it does:** set the name of a Compute.
+
+**Usage help:** `gcloud alpha compute interconnects set-name --help`
+
+### `gcloud alpha compute interconnects test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute interconnects test-iam-permissions --help`
 
 ### `gcloud alpha compute interconnects update`
 
@@ -11008,6 +12066,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute machine-images set-iam-policy --help`
 
+### `gcloud alpha compute machine-images test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute machine-images test-iam-permissions --help`
+
 ### `gcloud alpha compute machine-types`
 
 **What it does:** read Compute Engine virtual machine.
@@ -11025,6 +12089,24 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Google Compute Engine.
 
 **Usage help:** `gcloud alpha compute machine-types list --help`
+
+### `gcloud alpha compute managed-rulesets`
+
+**What it does:** read Cloud Armor managed rulesets.
+
+**Usage help:** `gcloud alpha compute managed-rulesets --help`
+
+### `gcloud alpha compute managed-rulesets describe`
+
+**What it does:** describe a Cloud Armor.
+
+**Usage help:** `gcloud alpha compute managed-rulesets describe --help`
+
+### `gcloud alpha compute managed-rulesets list`
+
+**What it does:** list pre-configured Cloud.
+
+**Usage help:** `gcloud alpha compute managed-rulesets list --help`
 
 ### `gcloud alpha compute migration`
 
@@ -11188,6 +12270,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute network-attachments list --help`
 
+### `gcloud alpha compute network-attachments set-iam-policy`
+
+**What it does:** set the IAM.
+
+**Usage help:** `gcloud alpha compute network-attachments set-iam-policy --help`
+
+### `gcloud alpha compute network-attachments test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute network-attachments test-iam-permissions --help`
+
 ### `gcloud alpha compute network-attachments update`
 
 **What it does:** update a Google Compute.
@@ -11296,6 +12390,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute network-firewall-policies associations delete --help`
 
+### `gcloud alpha compute network-firewall-policies associations update`
+
+**What it does:** update.
+
+**Usage help:** `gcloud alpha compute network-firewall-policies associations update --help`
+
 ### `gcloud alpha compute network-firewall-policies clone-rules`
 
 **What it does:** replace the.
@@ -11331,6 +12431,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** (ALPHA) gcloud alpha compute network-firewall-policies get-effective-firewalls is used to get the effective firewalls applied to the network, including regional firewalls in a specified region.
 
 **Usage help:** `gcloud alpha compute network-firewall-policies get-effective-firewalls --help`
+
+### `gcloud alpha compute network-firewall-policies get-iam-policy`
+
+**What it does:** get the IAM.
+
+**Usage help:** `gcloud alpha compute network-firewall-policies get-iam-policy --help`
 
 ### `gcloud alpha compute network-firewall-policies import-rules`
 
@@ -11403,6 +12509,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** updates a.
 
 **Usage help:** `gcloud alpha compute network-firewall-policies rules update --help`
+
+### `gcloud alpha compute network-firewall-policies set-iam-policy`
+
+**What it does:** set the IAM.
+
+**Usage help:** `gcloud alpha compute network-firewall-policies set-iam-policy --help`
+
+### `gcloud alpha compute network-firewall-policies test-iam-permissions`
+
+**What it does:** test.
+
+**Usage help:** `gcloud alpha compute network-firewall-policies test-iam-permissions --help`
 
 ### `gcloud alpha compute network-firewall-policies update`
 
@@ -11692,11 +12810,23 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute networks subnets set-iam-policy --help`
 
+### `gcloud alpha compute networks subnets test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute networks subnets test-iam-permissions --help`
+
 ### `gcloud alpha compute networks subnets update`
 
 **What it does:** updates properties of an.
 
 **Usage help:** `gcloud alpha compute networks subnets update --help`
+
+### `gcloud alpha compute networks test-iam-permissions`
+
+**What it does:** test IAM permissions.
+
+**Usage help:** `gcloud alpha compute networks test-iam-permissions --help`
 
 ### `gcloud alpha compute networks update`
 
@@ -11721,6 +12851,72 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Compute Engine operations.
 
 **Usage help:** `gcloud alpha compute operations list --help`
+
+### `gcloud alpha compute org-rollout-plans`
+
+**What it does:** read and manipulate Compute Engine.
+
+**Usage help:** `gcloud alpha compute org-rollout-plans --help`
+
+### `gcloud alpha compute org-rollout-plans create`
+
+**What it does:** create an organization.
+
+**Usage help:** `gcloud alpha compute org-rollout-plans create --help`
+
+### `gcloud alpha compute org-rollout-plans delete`
+
+**What it does:** delete an organization.
+
+**Usage help:** `gcloud alpha compute org-rollout-plans delete --help`
+
+### `gcloud alpha compute org-rollout-plans describe`
+
+**What it does:** describe an organization.
+
+**Usage help:** `gcloud alpha compute org-rollout-plans describe --help`
+
+### `gcloud alpha compute org-rollout-plans list`
+
+**What it does:** list Google Compute Engine.
+
+**Usage help:** `gcloud alpha compute org-rollout-plans list --help`
+
+### `gcloud alpha compute org-rollouts`
+
+**What it does:** read and manipulate Compute Engine.
+
+**Usage help:** `gcloud alpha compute org-rollouts --help`
+
+### `gcloud alpha compute org-rollouts advance`
+
+**What it does:** advance an organization rollout.
+
+**Usage help:** `gcloud alpha compute org-rollouts advance --help`
+
+### `gcloud alpha compute org-rollouts cancel`
+
+**What it does:** cancel an organization rollout.
+
+**Usage help:** `gcloud alpha compute org-rollouts cancel --help`
+
+### `gcloud alpha compute org-rollouts delete`
+
+**What it does:** delete an organization rollout.
+
+**Usage help:** `gcloud alpha compute org-rollouts delete --help`
+
+### `gcloud alpha compute org-rollouts describe`
+
+**What it does:** describe an organization.
+
+**Usage help:** `gcloud alpha compute org-rollouts describe --help`
+
+### `gcloud alpha compute org-rollouts list`
+
+**What it does:** list Google Compute Engine.
+
+**Usage help:** `gcloud alpha compute org-rollouts list --help`
 
 ### `gcloud alpha compute org-security-policies`
 
@@ -11826,7 +13022,7 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud alpha compute org-security-policies rules remove-preconfig-waf-exclusion`
 
-**What it does:** remove an exclusion configuration for.
+**What it does:** (ALPHA)
 
 **Usage help:** `gcloud alpha compute org-security-policies rules remove-preconfig-waf-exclusion --help`
 
@@ -12112,6 +13308,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute packet-mirrorings list --help`
 
+### `gcloud alpha compute packet-mirrorings test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute packet-mirrorings test-iam-permissions --help`
+
 ### `gcloud alpha compute packet-mirrorings update`
 
 **What it does:** update a Compute Engine.
@@ -12177,6 +13379,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update a Compute Engine project.
 
 **Usage help:** `gcloud alpha compute project-info update --help`
+
+### `gcloud alpha compute project-views`
+
+**What it does:** read project views with regional.
+
+**Usage help:** `gcloud alpha compute project-views --help`
+
+### `gcloud alpha compute project-views describe`
+
+**What it does:** describe the Compute Engine.
+
+**Usage help:** `gcloud alpha compute project-views describe --help`
 
 ### `gcloud alpha compute project-zonal-metadata`
 
@@ -12328,6 +13542,48 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute queued-resources list --help`
 
+### `gcloud alpha compute recoverable-snapshots`
+
+**What it does:** recover, list, describe and.
+
+**Usage help:** `gcloud alpha compute recoverable-snapshots --help`
+
+### `gcloud alpha compute recoverable-snapshots delete`
+
+**What it does:** delete Compute Engine.
+
+**Usage help:** `gcloud alpha compute recoverable-snapshots delete --help`
+
+### `gcloud alpha compute recoverable-snapshots describe`
+
+**What it does:** describe a Compute.
+
+**Usage help:** `gcloud alpha compute recoverable-snapshots describe --help`
+
+### `gcloud alpha compute recoverable-snapshots list`
+
+**What it does:** list Google Compute.
+
+**Usage help:** `gcloud alpha compute recoverable-snapshots list --help`
+
+### `gcloud alpha compute recoverable-snapshots recover`
+
+**What it does:** recovers a Compute.
+
+**Usage help:** `gcloud alpha compute recoverable-snapshots recover --help`
+
+### `gcloud alpha compute recoverable-snapshots set-iam-policy`
+
+**What it does:** set the IAM.
+
+**Usage help:** `gcloud alpha compute recoverable-snapshots set-iam-policy --help`
+
+### `gcloud alpha compute recoverable-snapshots test-iam-permissions`
+
+**What it does:** test the.
+
+**Usage help:** `gcloud alpha compute recoverable-snapshots test-iam-permissions --help`
+
 ### `gcloud alpha compute regions`
 
 **What it does:** list Compute Engine regions.
@@ -12382,6 +13638,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute reservations blocks perform-maintenance --help`
 
+### `gcloud alpha compute reservations consumed-instances`
+
+**What it does:** manage Compute.
+
+**Usage help:** `gcloud alpha compute reservations consumed-instances --help`
+
+### `gcloud alpha compute reservations consumed-instances list`
+
+**What it does:** list Compute.
+
+**Usage help:** `gcloud alpha compute reservations consumed-instances list --help`
+
 ### `gcloud alpha compute reservations create`
 
 **What it does:** create a Compute Engine.
@@ -12405,6 +13673,30 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** get the IAM policy for a.
 
 **Usage help:** `gcloud alpha compute reservations get-iam-policy --help`
+
+### `gcloud alpha compute reservations hosts`
+
+**What it does:** read Compute Engine reservation.
+
+**Usage help:** `gcloud alpha compute reservations hosts --help`
+
+### `gcloud alpha compute reservations hosts describe`
+
+**What it does:** describe a Google.
+
+**Usage help:** `gcloud alpha compute reservations hosts describe --help`
+
+### `gcloud alpha compute reservations hosts get-version`
+
+**What it does:** get software versions.
+
+**Usage help:** `gcloud alpha compute reservations hosts get-version --help`
+
+### `gcloud alpha compute reservations hosts list`
+
+**What it does:** list Google Compute Engine.
+
+**Usage help:** `gcloud alpha compute reservations hosts list --help`
 
 ### `gcloud alpha compute reservations list`
 
@@ -12441,6 +13733,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** describe a Compute.
 
 **Usage help:** `gcloud alpha compute reservations slots describe --help`
+
+### `gcloud alpha compute reservations slots get-health`
+
+**What it does:** get the health of a.
+
+**Usage help:** `gcloud alpha compute reservations slots get-health --help`
 
 ### `gcloud alpha compute reservations slots get-version`
 
@@ -12489,6 +13787,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** (ALPHA) Report a sub-block within a reservation as faulty.
 
 **Usage help:** `gcloud alpha compute reservations sub-blocks report-subblock-as-faulty --help`
+
+### `gcloud alpha compute reservations test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute reservations test-iam-permissions --help`
 
 ### `gcloud alpha compute reservations update`
 
@@ -12604,6 +13908,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute resource-policies set-iam-policy --help`
 
+### `gcloud alpha compute resource-policies test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute resource-policies test-iam-permissions --help`
+
 ### `gcloud alpha compute resource-policies update`
 
 **What it does:** update Compute Engine.
@@ -12657,6 +13967,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** read and manipulate Compute Engine Rollouts.
 
 **Usage help:** `gcloud alpha compute rollouts --help`
+
+### `gcloud alpha compute rollouts advance`
+
+**What it does:** advance a Google Compute Engine.
+
+**Usage help:** `gcloud alpha compute rollouts advance --help`
 
 ### `gcloud alpha compute rollouts cancel`
 
@@ -12916,6 +14232,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute routers remove-route-policy-term --help`
 
+### `gcloud alpha compute routers test-iam-permissions`
+
+**What it does:** test IAM permissions.
+
+**Usage help:** `gcloud alpha compute routers test-iam-permissions --help`
+
 ### `gcloud alpha compute routers update`
 
 **What it does:** update a Compute Engine router.
@@ -12981,6 +14303,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list non-dynamic Google Compute Engine.
 
 **Usage help:** `gcloud alpha compute routes list --help`
+
+### `gcloud alpha compute routes test-iam-permissions`
+
+**What it does:** test IAM permissions for.
+
+**Usage help:** `gcloud alpha compute routes test-iam-permissions --help`
 
 ### `gcloud alpha compute scp`
 
@@ -13138,6 +14466,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute service-attachments list --help`
 
+### `gcloud alpha compute service-attachments set-iam-policy`
+
+**What it does:** set the IAM.
+
+**Usage help:** `gcloud alpha compute service-attachments set-iam-policy --help`
+
+### `gcloud alpha compute service-attachments test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute service-attachments test-iam-permissions --help`
+
 ### `gcloud alpha compute service-attachments update`
 
 **What it does:** update a Google Compute.
@@ -13246,6 +14586,36 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute snapshot-groups list --help`
 
+### `gcloud alpha compute snapshot-groups set-iam-policy`
+
+**What it does:** set the IAM policy.
+
+**Usage help:** `gcloud alpha compute snapshot-groups set-iam-policy --help`
+
+### `gcloud alpha compute snapshot-groups test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute snapshot-groups test-iam-permissions --help`
+
+### `gcloud alpha compute snapshot-recycle-bin-policy`
+
+**What it does:** update and describe.
+
+**Usage help:** `gcloud alpha compute snapshot-recycle-bin-policy --help`
+
+### `gcloud alpha compute snapshot-recycle-bin-policy describe`
+
+**What it does:** describe the.
+
+**Usage help:** `gcloud alpha compute snapshot-recycle-bin-policy describe --help`
+
+### `gcloud alpha compute snapshot-recycle-bin-policy update`
+
+**What it does:** update the.
+
+**Usage help:** `gcloud alpha compute snapshot-recycle-bin-policy update --help`
+
 ### `gcloud alpha compute snapshot-settings`
 
 **What it does:** describe and update Compute Engine.
@@ -13300,6 +14670,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute snapshots describe --help`
 
+### `gcloud alpha compute snapshots get-effective-recycle-bin-rule`
+
+**What it does:** returns the.
+
+**Usage help:** `gcloud alpha compute snapshots get-effective-recycle-bin-rule --help`
+
 ### `gcloud alpha compute snapshots get-iam-policy`
 
 **What it does:** get the IAM policy for a.
@@ -13329,6 +14705,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** set the IAM policy for a.
 
 **Usage help:** `gcloud alpha compute snapshots set-iam-policy --help`
+
+### `gcloud alpha compute snapshots test-iam-permissions`
+
+**What it does:** test IAM permissions.
+
+**Usage help:** `gcloud alpha compute snapshots test-iam-permissions --help`
 
 ### `gcloud alpha compute snapshots update`
 
@@ -13420,6 +14802,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute sole-tenancy node-groups simulate-maintenance-event --help`
 
+### `gcloud alpha compute sole-tenancy node-groups test-iam-permissions`
+
+**What it does:** test.
+
+**Usage help:** `gcloud alpha compute sole-tenancy node-groups test-iam-permissions --help`
+
 ### `gcloud alpha compute sole-tenancy node-groups update`
 
 **What it does:** update a Compute.
@@ -13480,6 +14868,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute sole-tenancy node-templates set-iam-policy --help`
 
+### `gcloud alpha compute sole-tenancy node-templates test-iam-permissions`
+
+**What it does:** (ALPHA) Returns permissions that a caller has on the specified node template.
+
+**Usage help:** `gcloud alpha compute sole-tenancy node-templates test-iam-permissions --help`
+
 ### `gcloud alpha compute sole-tenancy node-types`
 
 **What it does:** read Compute Engine.
@@ -13534,11 +14928,23 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute ssl-certificates list --help`
 
+### `gcloud alpha compute ssl-certificates test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute ssl-certificates test-iam-permissions --help`
+
 ### `gcloud alpha compute ssl-policies`
 
 **What it does:** list, create, delete and update Compute.
 
 **Usage help:** `gcloud alpha compute ssl-policies --help`
+
+### `gcloud alpha compute ssl-policies add-iam-policy-binding`
+
+**What it does:** add an IAM.
+
+**Usage help:** `gcloud alpha compute ssl-policies add-iam-policy-binding --help`
 
 ### `gcloud alpha compute ssl-policies config`
 
@@ -13576,6 +14982,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute ssl-policies export --help`
 
+### `gcloud alpha compute ssl-policies get-iam-policy`
+
+**What it does:** get the IAM policy for a.
+
+**Usage help:** `gcloud alpha compute ssl-policies get-iam-policy --help`
+
 ### `gcloud alpha compute ssl-policies import`
 
 **What it does:** import an SSL policy.
@@ -13593,6 +15005,24 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list available.
 
 **Usage help:** `gcloud alpha compute ssl-policies list-available-features --help`
+
+### `gcloud alpha compute ssl-policies remove-iam-policy-binding`
+
+**What it does:** remove an IAM.
+
+**Usage help:** `gcloud alpha compute ssl-policies remove-iam-policy-binding --help`
+
+### `gcloud alpha compute ssl-policies set-iam-policy`
+
+**What it does:** set the IAM policy for a.
+
+**Usage help:** `gcloud alpha compute ssl-policies set-iam-policy --help`
+
+### `gcloud alpha compute ssl-policies test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute ssl-policies test-iam-permissions --help`
 
 ### `gcloud alpha compute ssl-policies update`
 
@@ -13672,6 +15102,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute storage-pools set-iam-policy --help`
 
+### `gcloud alpha compute storage-pools test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute storage-pools test-iam-permissions --help`
+
 ### `gcloud alpha compute storage-pools update`
 
 **What it does:** update a storage pool.
@@ -13732,6 +15168,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute target-grpc-proxies list --help`
 
+### `gcloud alpha compute target-grpc-proxies test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute target-grpc-proxies test-iam-permissions --help`
+
 ### `gcloud alpha compute target-http-proxies`
 
 **What it does:** list, create, and delete target.
@@ -13785,6 +15227,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Google Compute Engine.
 
 **Usage help:** `gcloud alpha compute target-http-proxies list --help`
+
+### `gcloud alpha compute target-http-proxies test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute target-http-proxies test-iam-permissions --help`
 
 ### `gcloud alpha compute target-http-proxies update`
 
@@ -13846,6 +15294,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute target-https-proxies list --help`
 
+### `gcloud alpha compute target-https-proxies set-quic-override`
+
+**What it does:** set the QUIC.
+
+**Usage help:** `gcloud alpha compute target-https-proxies set-quic-override --help`
+
+### `gcloud alpha compute target-https-proxies test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute target-https-proxies test-iam-permissions --help`
+
 ### `gcloud alpha compute target-https-proxies update`
 
 **What it does:** update a target HTTPS.
@@ -13893,6 +15353,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Google Compute Engine.
 
 **Usage help:** `gcloud alpha compute target-instances list --help`
+
+### `gcloud alpha compute target-instances test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute target-instances test-iam-permissions --help`
 
 ### `gcloud alpha compute target-instances update`
 
@@ -13978,6 +15444,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute target-pools set-backup --help`
 
+### `gcloud alpha compute target-pools test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute target-pools test-iam-permissions --help`
+
 ### `gcloud alpha compute target-pools update`
 
 **What it does:** update a Compute Engine target.
@@ -14025,6 +15497,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Google Compute Engine.
 
 **Usage help:** `gcloud alpha compute target-ssl-proxies list --help`
+
+### `gcloud alpha compute target-ssl-proxies test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute target-ssl-proxies test-iam-permissions --help`
 
 ### `gcloud alpha compute target-ssl-proxies update`
 
@@ -14074,6 +15552,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute target-tcp-proxies list --help`
 
+### `gcloud alpha compute target-tcp-proxies test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute target-tcp-proxies test-iam-permissions --help`
+
 ### `gcloud alpha compute target-tcp-proxies update`
 
 **What it does:** update a target TCP proxy.
@@ -14121,6 +15605,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Google Compute Engine.
 
 **Usage help:** `gcloud alpha compute target-vpn-gateways list --help`
+
+### `gcloud alpha compute target-vpn-gateways test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute target-vpn-gateways test-iam-permissions --help`
 
 ### `gcloud alpha compute target-vpn-gateways update`
 
@@ -14506,6 +15996,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute url-maps set-default-service --help`
 
+### `gcloud alpha compute url-maps test-iam-permissions`
+
+**What it does:** test IAM permissions.
+
+**Usage help:** `gcloud alpha compute url-maps test-iam-permissions --help`
+
 ### `gcloud alpha compute url-maps validate`
 
 **What it does:** validate a URL map.
@@ -14560,6 +16056,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha compute vpn-gateways list --help`
 
+### `gcloud alpha compute vpn-gateways test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute vpn-gateways test-iam-permissions --help`
+
 ### `gcloud alpha compute vpn-gateways update`
 
 **What it does:** update a Compute Engine Highly.
@@ -14607,6 +16109,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Google Compute Engine VPN.
 
 **Usage help:** `gcloud alpha compute vpn-tunnels list --help`
+
+### `gcloud alpha compute vpn-tunnels test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud alpha compute vpn-tunnels test-iam-permissions --help`
 
 ### `gcloud alpha compute vpn-tunnels update`
 
@@ -16918,9 +18426,21 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud alpha container fleet rollouts`
 
-**What it does:** create and manage rollouts.
+**What it does:** manage rollouts.
 
 **Usage help:** `gcloud alpha container fleet rollouts --help`
+
+### `gcloud alpha container fleet rollouts cancel`
+
+**What it does:** cancel a rollout.
+
+**Usage help:** `gcloud alpha container fleet rollouts cancel --help`
+
+### `gcloud alpha container fleet rollouts delete`
+
+**What it does:** delete a rollout resource.
+
+**Usage help:** `gcloud alpha container fleet rollouts delete --help`
 
 ### `gcloud alpha container fleet rollouts describe`
 
@@ -16939,6 +18459,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list all fleet rollouts.
 
 **Usage help:** `gcloud alpha container fleet rollouts list --help`
+
+### `gcloud alpha container fleet rollouts pause`
+
+**What it does:** pause a rollout resource.
+
+**Usage help:** `gcloud alpha container fleet rollouts pause --help`
+
+### `gcloud alpha container fleet rollouts resume`
+
+**What it does:** resume a rollout resource.
+
+**Usage help:** `gcloud alpha container fleet rollouts resume --help`
 
 ### `gcloud alpha container fleet rolloutsequences`
 
@@ -16975,6 +18507,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update a rollout.
 
 **Usage help:** `gcloud alpha container fleet rolloutsequences update --help`
+
+### `gcloud alpha container fleet rolloutsequences upgrade`
+
+**What it does:** upgrade the.
+
+**Usage help:** `gcloud alpha container fleet rolloutsequences upgrade --help`
 
 ### `gcloud alpha container fleet scopes`
 
@@ -18016,9 +19554,21 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud alpha container hub rollouts`
 
-**What it does:** create and manage rollouts.
+**What it does:** manage rollouts.
 
 **Usage help:** `gcloud alpha container hub rollouts --help`
+
+### `gcloud alpha container hub rollouts cancel`
+
+**What it does:** cancel a rollout.
+
+**Usage help:** `gcloud alpha container hub rollouts cancel --help`
+
+### `gcloud alpha container hub rollouts delete`
+
+**What it does:** delete a rollout resource.
+
+**Usage help:** `gcloud alpha container hub rollouts delete --help`
 
 ### `gcloud alpha container hub rollouts describe`
 
@@ -18037,6 +19587,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list all fleet rollouts.
 
 **Usage help:** `gcloud alpha container hub rollouts list --help`
+
+### `gcloud alpha container hub rollouts pause`
+
+**What it does:** pause a rollout resource.
+
+**Usage help:** `gcloud alpha container hub rollouts pause --help`
+
+### `gcloud alpha container hub rollouts resume`
+
+**What it does:** resume a rollout resource.
+
+**Usage help:** `gcloud alpha container hub rollouts resume --help`
 
 ### `gcloud alpha container hub rolloutsequences`
 
@@ -18073,6 +19635,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update a rollout.
 
 **Usage help:** `gcloud alpha container hub rolloutsequences update --help`
+
+### `gcloud alpha container hub rolloutsequences upgrade`
+
+**What it does:** upgrade the clusters.
+
+**Usage help:** `gcloud alpha container hub rolloutsequences upgrade --help`
 
 ### `gcloud alpha container hub scopes`
 
@@ -19184,6 +20752,42 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha dataflow --help`
 
+### `gcloud alpha dataflow config-store-settings`
+
+**What it does:** manage Dataflow ConfigStore.
+
+**Usage help:** `gcloud alpha dataflow config-store-settings --help`
+
+### `gcloud alpha dataflow config-store-settings create`
+
+**What it does:** create a new Dataflow.
+
+**Usage help:** `gcloud alpha dataflow config-store-settings create --help`
+
+### `gcloud alpha dataflow config-store-settings delete`
+
+**What it does:** delete a Dataflow.
+
+**Usage help:** `gcloud alpha dataflow config-store-settings delete --help`
+
+### `gcloud alpha dataflow config-store-settings describe`
+
+**What it does:** describe a Dataflow.
+
+**Usage help:** `gcloud alpha dataflow config-store-settings describe --help`
+
+### `gcloud alpha dataflow config-store-settings list`
+
+**What it does:** list Dataflow.
+
+**Usage help:** `gcloud alpha dataflow config-store-settings list --help`
+
+### `gcloud alpha dataflow config-store-settings resolve`
+
+**What it does:** resolve the effective.
+
+**Usage help:** `gcloud alpha dataflow config-store-settings resolve --help`
+
 ### `gcloud alpha dataflow jobs`
 
 **What it does:** a group of subcommands for working with.
@@ -19213,6 +20817,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** resumes job running.
 
 **Usage help:** `gcloud alpha dataflow jobs resume-unsupported-sdk --help`
+
+### `gcloud alpha dataflow jobs update-options`
+
+**What it does:** update pipeline options.
+
+**Usage help:** `gcloud alpha dataflow jobs update-options --help`
 
 ### `gcloud alpha dataflow logs`
 
@@ -19267,6 +20877,134 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list all Cloud Dataflow snapshots in.
 
 **Usage help:** `gcloud alpha dataflow snapshots list --help`
+
+## datalineage
+
+### `gcloud alpha datalineage`
+
+**What it does:** manage Google Cloud Data Lineage resources.
+
+**Usage help:** `gcloud alpha datalineage --help`
+
+### `gcloud alpha datalineage config`
+
+**What it does:** manage Data Lineage configurations.
+
+**Usage help:** `gcloud alpha datalineage config --help`
+
+### `gcloud alpha datalineage config describe`
+
+**What it does:** describe Data Lineage.
+
+**Usage help:** `gcloud alpha datalineage config describe --help`
+
+### `gcloud alpha datalineage config update`
+
+**What it does:** update Data Lineage configuration.
+
+**Usage help:** `gcloud alpha datalineage config update --help`
+
+### `gcloud alpha datalineage lineage-events`
+
+**What it does:** manage Data Lineage events.
+
+**Usage help:** `gcloud alpha datalineage lineage-events --help`
+
+### `gcloud alpha datalineage lineage-events create`
+
+**What it does:** create a Data Lineage.
+
+**Usage help:** `gcloud alpha datalineage lineage-events create --help`
+
+### `gcloud alpha datalineage lineage-events delete`
+
+**What it does:** delete a Data Lineage.
+
+**Usage help:** `gcloud alpha datalineage lineage-events delete --help`
+
+### `gcloud alpha datalineage lineage-events describe`
+
+**What it does:** describe a Data Lineage.
+
+**Usage help:** `gcloud alpha datalineage lineage-events describe --help`
+
+### `gcloud alpha datalineage lineage-events list`
+
+**What it does:** list Data Lineage events.
+
+**Usage help:** `gcloud alpha datalineage lineage-events list --help`
+
+### `gcloud alpha datalineage processes`
+
+**What it does:** manage Data Lineage processes.
+
+**Usage help:** `gcloud alpha datalineage processes --help`
+
+### `gcloud alpha datalineage processes create`
+
+**What it does:** create a Data Lineage process.
+
+**Usage help:** `gcloud alpha datalineage processes create --help`
+
+### `gcloud alpha datalineage processes delete`
+
+**What it does:** delete a Data Lineage process.
+
+**Usage help:** `gcloud alpha datalineage processes delete --help`
+
+### `gcloud alpha datalineage processes describe`
+
+**What it does:** describe a Data Lineage.
+
+**Usage help:** `gcloud alpha datalineage processes describe --help`
+
+### `gcloud alpha datalineage processes list`
+
+**What it does:** list Data Lineage processes.
+
+**Usage help:** `gcloud alpha datalineage processes list --help`
+
+### `gcloud alpha datalineage processes update`
+
+**What it does:** update a data lineage process.
+
+**Usage help:** `gcloud alpha datalineage processes update --help`
+
+### `gcloud alpha datalineage runs`
+
+**What it does:** manage Data Lineage runs.
+
+**Usage help:** `gcloud alpha datalineage runs --help`
+
+### `gcloud alpha datalineage runs create`
+
+**What it does:** create a data lineage run.
+
+**Usage help:** `gcloud alpha datalineage runs create --help`
+
+### `gcloud alpha datalineage runs delete`
+
+**What it does:** delete a Data Lineage run.
+
+**Usage help:** `gcloud alpha datalineage runs delete --help`
+
+### `gcloud alpha datalineage runs describe`
+
+**What it does:** describe a Data Lineage run.
+
+**Usage help:** `gcloud alpha datalineage runs describe --help`
+
+### `gcloud alpha datalineage runs list`
+
+**What it does:** list Data Lineage runs.
+
+**Usage help:** `gcloud alpha datalineage runs list --help`
+
+### `gcloud alpha datalineage runs update`
+
+**What it does:** update a data lineage run.
+
+**Usage help:** `gcloud alpha datalineage runs update --help`
 
 ## dataplex
 
@@ -19420,6 +21158,102 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha dataplex context lookup --help`
 
+### `gcloud alpha dataplex data-products`
+
+**What it does:** manage Dataplex Data Product.
+
+**Usage help:** `gcloud alpha dataplex data-products --help`
+
+### `gcloud alpha dataplex data-products add-iam-policy-binding`
+
+**What it does:** add IAM policy.
+
+**Usage help:** `gcloud alpha dataplex data-products add-iam-policy-binding --help`
+
+### `gcloud alpha dataplex data-products create`
+
+**What it does:** create a Dataplex data product.
+
+**Usage help:** `gcloud alpha dataplex data-products create --help`
+
+### `gcloud alpha dataplex data-products data-assets`
+
+**What it does:** manage Dataplex Data.
+
+**Usage help:** `gcloud alpha dataplex data-products data-assets --help`
+
+### `gcloud alpha dataplex data-products data-assets create`
+
+**What it does:** create a Dataplex.
+
+**Usage help:** `gcloud alpha dataplex data-products data-assets create --help`
+
+### `gcloud alpha dataplex data-products data-assets delete`
+
+**What it does:** delete a Dataplex.
+
+**Usage help:** `gcloud alpha dataplex data-products data-assets delete --help`
+
+### `gcloud alpha dataplex data-products data-assets describe`
+
+**What it does:** describe a.
+
+**Usage help:** `gcloud alpha dataplex data-products data-assets describe --help`
+
+### `gcloud alpha dataplex data-products data-assets list`
+
+**What it does:** list Dataplex data.
+
+**Usage help:** `gcloud alpha dataplex data-products data-assets list --help`
+
+### `gcloud alpha dataplex data-products data-assets update`
+
+**What it does:** update a Dataplex.
+
+**Usage help:** `gcloud alpha dataplex data-products data-assets update --help`
+
+### `gcloud alpha dataplex data-products delete`
+
+**What it does:** delete a Dataplex Data Product.
+
+**Usage help:** `gcloud alpha dataplex data-products delete --help`
+
+### `gcloud alpha dataplex data-products describe`
+
+**What it does:** describe a Dataplex Data.
+
+**Usage help:** `gcloud alpha dataplex data-products describe --help`
+
+### `gcloud alpha dataplex data-products get-iam-policy`
+
+**What it does:** get the IAM policy for.
+
+**Usage help:** `gcloud alpha dataplex data-products get-iam-policy --help`
+
+### `gcloud alpha dataplex data-products list`
+
+**What it does:** list Dataplex Data Product.
+
+**Usage help:** `gcloud alpha dataplex data-products list --help`
+
+### `gcloud alpha dataplex data-products remove-iam-policy-binding`
+
+**What it does:** remove IAM.
+
+**Usage help:** `gcloud alpha dataplex data-products remove-iam-policy-binding --help`
+
+### `gcloud alpha dataplex data-products set-iam-policy`
+
+**What it does:** set the IAM policy to.
+
+**Usage help:** `gcloud alpha dataplex data-products set-iam-policy --help`
+
+### `gcloud alpha dataplex data-products update`
+
+**What it does:** update a Dataplex data product.
+
+**Usage help:** `gcloud alpha dataplex data-products update --help`
+
 ### `gcloud alpha dataplex datascans`
 
 **What it does:** manage Dataplex Datascan.
@@ -19539,6 +21373,24 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update a Dataplex.
 
 **Usage help:** `gcloud alpha dataplex datascans update data-quality --help`
+
+### `gcloud alpha dataplex dbt`
+
+**What it does:** ingest dbt-core metadata into Dataplex.
+
+**Usage help:** `gcloud alpha dataplex dbt --help`
+
+### `gcloud alpha dataplex dbt metadata-jobs`
+
+**What it does:** manage Dataplex metadata jobs.
+
+**Usage help:** `gcloud alpha dataplex dbt metadata-jobs --help`
+
+### `gcloud alpha dataplex dbt metadata-jobs create`
+
+**What it does:** transform dbt-core.
+
+**Usage help:** `gcloud alpha dataplex dbt metadata-jobs create --help`
 
 ### `gcloud alpha dataplex encryption-config`
 
@@ -21392,6 +23244,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha design-center locations describe --help`
 
+### `gcloud alpha design-center locations fetch-frameworks`
+
+**What it does:** fetch frameworks.
+
+**Usage help:** `gcloud alpha design-center locations fetch-frameworks --help`
+
 ### `gcloud alpha design-center locations list`
 
 **What it does:** list Design Center locations.
@@ -21542,11 +23400,23 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha design-center spaces application-templates describe --help`
 
+### `gcloud alpha design-center spaces application-templates export`
+
+**What it does:** export IaC.
+
+**Usage help:** `gcloud alpha design-center spaces application-templates export --help`
+
 ### `gcloud alpha design-center spaces application-templates generate`
 
 **What it does:** generate.
 
 **Usage help:** `gcloud alpha design-center spaces application-templates generate --help`
+
+### `gcloud alpha design-center spaces application-templates generate-assessment-report`
+
+**What it does:** generate a best practice assessment report.
+
+**Usage help:** `gcloud alpha design-center spaces application-templates generate-assessment-report --help`
 
 ### `gcloud alpha design-center spaces application-templates import`
 
@@ -21559,6 +23429,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** import.
 
 **Usage help:** `gcloud alpha design-center spaces application-templates import-iac --help`
+
+### `gcloud alpha design-center spaces application-templates ingest-iac`
+
+**What it does:** ingest.
+
+**Usage help:** `gcloud alpha design-center spaces application-templates ingest-iac --help`
 
 ### `gcloud alpha design-center spaces application-templates list`
 
@@ -21620,6 +23496,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha design-center spaces application-templates revisions describe --help`
 
+### `gcloud alpha design-center spaces application-templates revisions export`
+
+**What it does:** (ALPHA) Exports Terraform files for an application template revision, with options to configure module references (such as downloading modules locally).
+
+**Usage help:** `gcloud alpha design-center spaces application-templates revisions export --help`
+
 ### `gcloud alpha design-center spaces application-templates revisions generate`
 
 **What it does:** (ALPHA) Generates Terraform files for an application template revision.
@@ -21631,6 +23513,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** (ALPHA) List application template revisions in an application template.
 
 **Usage help:** `gcloud alpha design-center spaces application-templates revisions list --help`
+
+### `gcloud alpha design-center spaces application-templates snapshot`
+
+**What it does:** snapshot.
+
+**Usage help:** `gcloud alpha design-center spaces application-templates snapshot --help`
 
 ### `gcloud alpha design-center spaces application-templates update`
 
@@ -21668,11 +23556,23 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha design-center spaces applications describe --help`
 
+### `gcloud alpha design-center spaces applications export`
+
+**What it does:** export IaC for an.
+
+**Usage help:** `gcloud alpha design-center spaces applications export --help`
+
 ### `gcloud alpha design-center spaces applications generate`
 
 **What it does:** generate IaC for.
 
 **Usage help:** `gcloud alpha design-center spaces applications generate --help`
+
+### `gcloud alpha design-center spaces applications generate-assessment-report`
+
+**What it does:** (ALPHA) Generate assessment report of an application in a space.
+
+**Usage help:** `gcloud alpha design-center spaces applications generate-assessment-report --help`
 
 ### `gcloud alpha design-center spaces applications import-iac`
 
@@ -21691,6 +23591,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** preview a Design.
 
 **Usage help:** `gcloud alpha design-center spaces applications preview --help`
+
+### `gcloud alpha design-center spaces applications recommend-iam-roles`
+
+**What it does:** get.
+
+**Usage help:** `gcloud alpha design-center spaces applications recommend-iam-roles --help`
 
 ### `gcloud alpha design-center spaces applications register`
 
@@ -21824,6 +23730,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha design-center spaces catalogs templates revisions describe --help`
 
+### `gcloud alpha design-center spaces catalogs templates revisions fetch-assessment-report`
+
+**What it does:** fetch the assessment report of a catalog.
+
+**Usage help:** `gcloud alpha design-center spaces catalogs templates revisions fetch-assessment-report --help`
+
 ### `gcloud alpha design-center spaces catalogs templates revisions list`
 
 **What it does:** list.
@@ -21859,6 +23771,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** describe a space.
 
 **Usage help:** `gcloud alpha design-center spaces describe --help`
+
+### `gcloud alpha design-center spaces generate-terraform-assessment-report`
+
+**What it does:** (ALPHA) Generate Terraform assessment report in a space.
+
+**Usage help:** `gcloud alpha design-center spaces generate-terraform-assessment-report --help`
 
 ### `gcloud alpha design-center spaces get-iam-policy`
 
@@ -21919,6 +23837,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** (ALPHA) Describe a shared template revision.
 
 **Usage help:** `gcloud alpha design-center spaces shared-templates revisions describe --help`
+
+### `gcloud alpha design-center spaces shared-templates revisions fetch-assessment-report`
+
+**What it does:** fetch the assessment report of a shared.
+
+**Usage help:** `gcloud alpha design-center spaces shared-templates revisions fetch-assessment-report --help`
 
 ### `gcloud alpha design-center spaces shared-templates revisions list`
 
@@ -22048,12 +23972,6 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha developer-connect connections git-repository-links list --help`
 
-### `gcloud alpha developer-connect connections git-repository-links update`
-
-**What it does:** (ALPHA) Update a git repository link to enable metrics collection.
-
-**Usage help:** `gcloud alpha developer-connect connections git-repository-links update --help`
-
 ### `gcloud alpha developer-connect connections list`
 
 **What it does:** list connections.
@@ -22116,7 +24034,7 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud alpha developer-connect insights-configs update`
 
-**What it does:** update the.
+**What it does:** update command for.
 
 **Usage help:** `gcloud alpha developer-connect insights-configs update --help`
 
@@ -22155,6 +24073,178 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** wait operations.
 
 **Usage help:** `gcloud alpha developer-connect operations wait --help`
+
+## developer-knowledge
+
+### `gcloud alpha developer-knowledge`
+
+**What it does:** manage Developer Knowledge resources and.
+
+**Usage help:** `gcloud alpha developer-knowledge --help`
+
+### `gcloud alpha developer-knowledge answer-query`
+
+**What it does:** answer a natural language.
+
+**Usage help:** `gcloud alpha developer-knowledge answer-query --help`
+
+### `gcloud alpha developer-knowledge documents`
+
+**What it does:** explore and search Developer.
+
+**Usage help:** `gcloud alpha developer-knowledge documents --help`
+
+### `gcloud alpha developer-knowledge documents describe`
+
+**What it does:** retrieve a single.
+
+**Usage help:** `gcloud alpha developer-knowledge documents describe --help`
+
+### `gcloud alpha developer-knowledge documents search-chunks`
+
+**What it does:** search for.
+
+**Usage help:** `gcloud alpha developer-knowledge documents search-chunks --help`
+
+## device-run
+
+### `gcloud alpha device-run`
+
+**What it does:** manage automation sessions and jobs on devices.
+
+**Usage help:** `gcloud alpha device-run --help`
+
+### `gcloud alpha device-run devices`
+
+**What it does:** manage Device Run devices.
+
+**Usage help:** `gcloud alpha device-run devices --help`
+
+### `gcloud alpha device-run devices describe`
+
+**What it does:** describe a Device Run device.
+
+**Usage help:** `gcloud alpha device-run devices describe --help`
+
+### `gcloud alpha device-run devices list`
+
+**What it does:** list available Device Run devices.
+
+**Usage help:** `gcloud alpha device-run devices list --help`
+
+### `gcloud alpha device-run locations`
+
+**What it does:** get information about Device Run.
+
+**Usage help:** `gcloud alpha device-run locations --help`
+
+### `gcloud alpha device-run locations list`
+
+**What it does:** list all Device Run locations.
+
+**Usage help:** `gcloud alpha device-run locations list --help`
+
+### `gcloud alpha device-run operations`
+
+**What it does:** manage long-running operations of.
+
+**Usage help:** `gcloud alpha device-run operations --help`
+
+### `gcloud alpha device-run operations cancel`
+
+**What it does:** cancel a Device Run operation.
+
+**Usage help:** `gcloud alpha device-run operations cancel --help`
+
+### `gcloud alpha device-run operations describe`
+
+**What it does:** describe a Device Run.
+
+**Usage help:** `gcloud alpha device-run operations describe --help`
+
+### `gcloud alpha device-run operations list`
+
+**What it does:** list all Device Run operations.
+
+**Usage help:** `gcloud alpha device-run operations list --help`
+
+### `gcloud alpha device-run operations wait`
+
+**What it does:** wait for asynchronous operation.
+
+**Usage help:** `gcloud alpha device-run operations wait --help`
+
+### `gcloud alpha device-run sessions`
+
+**What it does:** manage Device Run sessions.
+
+**Usage help:** `gcloud alpha device-run sessions --help`
+
+### `gcloud alpha device-run sessions cancel`
+
+**What it does:** cancel a Device Run session.
+
+**Usage help:** `gcloud alpha device-run sessions cancel --help`
+
+### `gcloud alpha device-run sessions describe`
+
+**What it does:** describe a Device Run session.
+
+**Usage help:** `gcloud alpha device-run sessions describe --help`
+
+### `gcloud alpha device-run sessions list`
+
+**What it does:** list all Device Run sessions.
+
+**Usage help:** `gcloud alpha device-run sessions list --help`
+
+### `gcloud alpha device-run sessions submit`
+
+**What it does:** submit automation sessions with.
+
+**Usage help:** `gcloud alpha device-run sessions submit --help`
+
+### `gcloud alpha device-run sessions submit android-executable`
+
+**What it does:** submit a.
+
+**Usage help:** `gcloud alpha device-run sessions submit android-executable --help`
+
+### `gcloud alpha device-run sessions submit instrumentation`
+
+**What it does:** submit a Device.
+
+**Usage help:** `gcloud alpha device-run sessions submit instrumentation --help`
+
+### `gcloud alpha device-run sessions submit xctest`
+
+**What it does:** submit a Device Run.
+
+**Usage help:** `gcloud alpha device-run sessions submit xctest --help`
+
+### `gcloud alpha device-run sessions wait`
+
+**What it does:** wait for a Device Run session to.
+
+**Usage help:** `gcloud alpha device-run sessions wait --help`
+
+### `gcloud alpha device-run software-versions`
+
+**What it does:** manage Device Run software.
+
+**Usage help:** `gcloud alpha device-run software-versions --help`
+
+### `gcloud alpha device-run software-versions describe`
+
+**What it does:** describe a Device Run.
+
+**Usage help:** `gcloud alpha device-run software-versions describe --help`
+
+### `gcloud alpha device-run software-versions list`
+
+**What it does:** list available Device Run.
+
+**Usage help:** `gcloud alpha device-run software-versions list --help`
 
 ## dialogflow
 
@@ -22533,6 +24623,42 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Cloud DNS operations.
 
 **Usage help:** `gcloud alpha dns operations list --help`
+
+### `gcloud alpha dns outbound-endpoints`
+
+**What it does:** manage your Cloud DNS outbound.
+
+**Usage help:** `gcloud alpha dns outbound-endpoints --help`
+
+### `gcloud alpha dns outbound-endpoints create`
+
+**What it does:** creates a new Cloud DNS.
+
+**Usage help:** `gcloud alpha dns outbound-endpoints create --help`
+
+### `gcloud alpha dns outbound-endpoints delete`
+
+**What it does:** deletes a Cloud DNS outbound.
+
+**Usage help:** `gcloud alpha dns outbound-endpoints delete --help`
+
+### `gcloud alpha dns outbound-endpoints describe`
+
+**What it does:** describes a Cloud DNS.
+
+**Usage help:** `gcloud alpha dns outbound-endpoints describe --help`
+
+### `gcloud alpha dns outbound-endpoints list`
+
+**What it does:** lists Cloud DNS outbound.
+
+**Usage help:** `gcloud alpha dns outbound-endpoints list --help`
+
+### `gcloud alpha dns outbound-endpoints update`
+
+**What it does:** updates an existing Cloud DNS.
+
+**Usage help:** `gcloud alpha dns outbound-endpoints update --help`
 
 ### `gcloud alpha dns policies`
 
@@ -23296,36 +25422,6 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha edge-cloud container regions list --help`
 
-### `gcloud alpha edge-cloud container vpn-connections`
-
-**What it does:** manage Edge VPN.
-
-**Usage help:** `gcloud alpha edge-cloud container vpn-connections --help`
-
-### `gcloud alpha edge-cloud container vpn-connections create`
-
-**What it does:** create a VPN.
-
-**Usage help:** `gcloud alpha edge-cloud container vpn-connections create --help`
-
-### `gcloud alpha edge-cloud container vpn-connections delete`
-
-**What it does:** delete a VPN.
-
-**Usage help:** `gcloud alpha edge-cloud container vpn-connections delete --help`
-
-### `gcloud alpha edge-cloud container vpn-connections describe`
-
-**What it does:** show details.
-
-**Usage help:** `gcloud alpha edge-cloud container vpn-connections describe --help`
-
-### `gcloud alpha edge-cloud container vpn-connections list`
-
-**What it does:** list VPN.
-
-**Usage help:** `gcloud alpha edge-cloud container vpn-connections list --help`
-
 ### `gcloud alpha edge-cloud container zones`
 
 **What it does:** inspect Edge Container zones.
@@ -24060,6 +26156,54 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha fault-testing --help`
 
+### `gcloud alpha fault-testing exclusion-windows`
+
+**What it does:** manage Exclusion Window.
+
+**Usage help:** `gcloud alpha fault-testing exclusion-windows --help`
+
+### `gcloud alpha fault-testing exclusion-windows create`
+
+**What it does:** create.
+
+**Usage help:** `gcloud alpha fault-testing exclusion-windows create --help`
+
+### `gcloud alpha fault-testing exclusion-windows delete`
+
+**What it does:** delete.
+
+**Usage help:** `gcloud alpha fault-testing exclusion-windows delete --help`
+
+### `gcloud alpha fault-testing exclusion-windows describe`
+
+**What it does:** describe.
+
+**Usage help:** `gcloud alpha fault-testing exclusion-windows describe --help`
+
+### `gcloud alpha fault-testing exclusion-windows list`
+
+**What it does:** list exclusionWindows.
+
+**Usage help:** `gcloud alpha fault-testing exclusion-windows list --help`
+
+### `gcloud alpha fault-testing exclusion-windows start`
+
+**What it does:** start exclusionWindows.
+
+**Usage help:** `gcloud alpha fault-testing exclusion-windows start --help`
+
+### `gcloud alpha fault-testing exclusion-windows stop`
+
+**What it does:** stop exclusionWindows.
+
+**Usage help:** `gcloud alpha fault-testing exclusion-windows stop --help`
+
+### `gcloud alpha fault-testing exclusion-windows update`
+
+**What it does:** update.
+
+**Usage help:** `gcloud alpha fault-testing exclusion-windows update --help`
+
 ### `gcloud alpha fault-testing experiment-templates`
 
 **What it does:** manage Experiment.
@@ -24406,6 +26550,84 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha firebase --help`
 
+### `gcloud alpha firebase apps`
+
+**What it does:** manage Firebase applications.
+
+**Usage help:** `gcloud alpha firebase apps --help`
+
+### `gcloud alpha firebase apps create`
+
+**What it does:** create a new Firebase application.
+
+**Usage help:** `gcloud alpha firebase apps create --help`
+
+### `gcloud alpha firebase apps list`
+
+**What it does:** list the registered apps of a Firebase.
+
+**Usage help:** `gcloud alpha firebase apps list --help`
+
+### `gcloud alpha firebase apps sdk-config`
+
+**What it does:** get the SDK configuration for a.
+
+**Usage help:** `gcloud alpha firebase apps sdk-config --help`
+
+### `gcloud alpha firebase auth`
+
+**What it does:** manage Firebase Authentication.
+
+**Usage help:** `gcloud alpha firebase auth --help`
+
+### `gcloud alpha firebase auth domains`
+
+**What it does:** manage Firebase Authentication.
+
+**Usage help:** `gcloud alpha firebase auth domains --help`
+
+### `gcloud alpha firebase auth domains list`
+
+**What it does:** list Firebase Authentication.
+
+**Usage help:** `gcloud alpha firebase auth domains list --help`
+
+### `gcloud alpha firebase auth providers`
+
+**What it does:** manage Firebase Authentication.
+
+**Usage help:** `gcloud alpha firebase auth providers --help`
+
+### `gcloud alpha firebase auth providers enable`
+
+**What it does:** enable and configure Google.
+
+**Usage help:** `gcloud alpha firebase auth providers enable --help`
+
+### `gcloud alpha firebase security-rules`
+
+**What it does:** manage Firebase Security Rules.
+
+**Usage help:** `gcloud alpha firebase security-rules --help`
+
+### `gcloud alpha firebase security-rules get`
+
+**What it does:** get a Firebase security rules.
+
+**Usage help:** `gcloud alpha firebase security-rules get --help`
+
+### `gcloud alpha firebase security-rules list`
+
+**What it does:** list Firebase security rules.
+
+**Usage help:** `gcloud alpha firebase security-rules list --help`
+
+### `gcloud alpha firebase security-rules release`
+
+**What it does:** release security rules to a.
+
+**Usage help:** `gcloud alpha firebase security-rules release --help`
+
 ### `gcloud alpha firebase test`
 
 **What it does:** interact with Firebase Test Lab.
@@ -24667,6 +26889,36 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** bulk delete Cloud Firestore documents.
 
 **Usage help:** `gcloud alpha firestore bulk-delete --help`
+
+### `gcloud alpha firestore change-streams`
+
+**What it does:** manage Cloud Firestore.
+
+**Usage help:** `gcloud alpha firestore change-streams --help`
+
+### `gcloud alpha firestore change-streams create`
+
+**What it does:** create a Cloud Firestore.
+
+**Usage help:** `gcloud alpha firestore change-streams create --help`
+
+### `gcloud alpha firestore change-streams delete`
+
+**What it does:** delete a Cloud Firestore.
+
+**Usage help:** `gcloud alpha firestore change-streams delete --help`
+
+### `gcloud alpha firestore change-streams describe`
+
+**What it does:** describe a Cloud Firestore.
+
+**Usage help:** `gcloud alpha firestore change-streams describe --help`
+
+### `gcloud alpha firestore change-streams list`
+
+**What it does:** list change streams under a.
+
+**Usage help:** `gcloud alpha firestore change-streams list --help`
 
 ### `gcloud alpha firestore databases`
 
@@ -25083,56 +27335,6 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** upgrade a 1st gen Cloud Function to the.
 
 **Usage help:** `gcloud alpha functions upgrade --help`
-
-## genomics
-
-### `gcloud alpha genomics`
-
-**What it does:** manage Genomics resources.
-
-**Usage help:** `gcloud alpha genomics --help`
-
-### `gcloud alpha genomics operations`
-
-**What it does:** commands for Genomics operations.
-
-**Usage help:** `gcloud alpha genomics operations --help`
-
-### `gcloud alpha genomics operations cancel`
-
-**What it does:** cancels an operation.
-
-**Usage help:** `gcloud alpha genomics operations cancel --help`
-
-### `gcloud alpha genomics operations describe`
-
-**What it does:** returns details about an.
-
-**Usage help:** `gcloud alpha genomics operations describe --help`
-
-### `gcloud alpha genomics operations list`
-
-**What it does:** list Genomics operations in a.
-
-**Usage help:** `gcloud alpha genomics operations list --help`
-
-### `gcloud alpha genomics operations wait`
-
-**What it does:** waits for an operation to complete.
-
-**Usage help:** `gcloud alpha genomics operations wait --help`
-
-### `gcloud alpha genomics pipelines`
-
-**What it does:** commands for Genomics pipelines.
-
-**Usage help:** `gcloud alpha genomics pipelines --help`
-
-### `gcloud alpha genomics pipelines run`
-
-**What it does:** defines and runs a pipeline.
-
-**Usage help:** `gcloud alpha genomics pipelines run --help`
 
 ## healthcare
 
@@ -26040,6 +28242,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha iam workforce-pools providers create-oidc --help`
 
+### `gcloud alpha iam workforce-pools providers create-saml`
+
+**What it does:** create a new SAML.
+
+**Usage help:** `gcloud alpha iam workforce-pools providers create-saml --help`
+
 ### `gcloud alpha iam workforce-pools providers delete`
 
 **What it does:** delete a workforce pool.
@@ -26142,11 +28350,23 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha iam workforce-pools providers scim-tenants describe --help`
 
+### `gcloud alpha iam workforce-pools providers scim-tenants get-iam-policy`
+
+**What it does:** (ALPHA) Get the IAM policy for a SCIM tenant.
+
+**Usage help:** `gcloud alpha iam workforce-pools providers scim-tenants get-iam-policy --help`
+
 ### `gcloud alpha iam workforce-pools providers scim-tenants list`
 
 **What it does:** list IAM.
 
 **Usage help:** `gcloud alpha iam workforce-pools providers scim-tenants list --help`
+
+### `gcloud alpha iam workforce-pools providers scim-tenants set-iam-policy`
+
+**What it does:** (ALPHA) Set the IAM policy for a SCIM tenant.
+
+**Usage help:** `gcloud alpha iam workforce-pools providers scim-tenants set-iam-policy --help`
 
 ### `gcloud alpha iam workforce-pools providers scim-tenants tokens`
 
@@ -26207,6 +28427,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update an OIDC.
 
 **Usage help:** `gcloud alpha iam workforce-pools providers update-oidc --help`
+
+### `gcloud alpha iam workforce-pools providers update-saml`
+
+**What it does:** update a new SAML.
+
+**Usage help:** `gcloud alpha iam workforce-pools providers update-saml --help`
 
 ### `gcloud alpha iam workforce-pools undelete`
 
@@ -26438,6 +28664,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha iap tcp --help`
 
+### `gcloud alpha iap tcp add-iam-policy-binding`
+
+**What it does:** add IAM policy binding to an.
+
+**Usage help:** `gcloud alpha iap tcp add-iam-policy-binding --help`
+
 ### `gcloud alpha iap tcp dest-groups`
 
 **What it does:** manage IAP TCP Destination Group.
@@ -26497,6 +28729,24 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update the IAP TCP Destination.
 
 **Usage help:** `gcloud alpha iap tcp dest-groups update --help`
+
+### `gcloud alpha iap tcp get-iam-policy`
+
+**What it does:** get IAM policy for an IAP TCP IAM.
+
+**Usage help:** `gcloud alpha iap tcp get-iam-policy --help`
+
+### `gcloud alpha iap tcp remove-iam-policy-binding`
+
+**What it does:** remove IAM policy binding.
+
+**Usage help:** `gcloud alpha iap tcp remove-iam-policy-binding --help`
+
+### `gcloud alpha iap tcp set-iam-policy`
+
+**What it does:** set the IAM policy for an IAP TCP IAM.
+
+**Usage help:** `gcloud alpha iap tcp set-iam-policy --help`
 
 ### `gcloud alpha iap web`
 
@@ -26736,6 +28986,14 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha ids operations wait --help`
 
+## infra-manager
+
+### `gcloud alpha infra-manager`
+
+**What it does:** manage Infra Manager resources.
+
+**Usage help:** `gcloud alpha infra-manager --help`
+
 ## init
 
 ### `gcloud alpha init`
@@ -26786,13 +29044,13 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud alpha kms autokey-config show-effective-config`
 
-**What it does:** gets the effective.
+**What it does:** get the effective.
 
 **Usage help:** `gcloud alpha kms autokey-config show-effective-config --help`
 
 ### `gcloud alpha kms autokey-config update`
 
-**What it does:** updates the AutokeyConfig for a.
+**What it does:** update the AutokeyConfig for a.
 
 **Usage help:** `gcloud alpha kms autokey-config update --help`
 
@@ -27072,6 +29330,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha kms keyrings create --help`
 
+### `gcloud alpha kms keyrings delete`
+
+**What it does:** delete a keyring.
+
+**Usage help:** `gcloud alpha kms keyrings delete --help`
+
 ### `gcloud alpha kms keyrings describe`
 
 **What it does:** get metadata for a keyring.
@@ -27234,6 +29498,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha kms keys versions enable --help`
 
+### `gcloud alpha kms keys versions export-trusted-key-wrapped`
+
+**What it does:** export a.
+
+**Usage help:** `gcloud alpha kms keys versions export-trusted-key-wrapped --help`
+
 ### `gcloud alpha kms keys versions get-certificate-chain`
 
 **What it does:** get a certificate.
@@ -27251,6 +29521,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** import a version into an existing.
 
 **Usage help:** `gcloud alpha kms keys versions import --help`
+
+### `gcloud alpha kms keys versions import-trusted-key-wrapped`
+
+**What it does:** import a.
+
+**Usage help:** `gcloud alpha kms keys versions import-trusted-key-wrapped --help`
 
 ### `gcloud alpha kms keys versions list`
 
@@ -27870,9 +30146,39 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha lustre instances describe --help`
 
+### `gcloud alpha lustre instances directory-policies`
+
+**What it does:** manage Directory Policy.
+
+**Usage help:** `gcloud alpha lustre instances directory-policies --help`
+
+### `gcloud alpha lustre instances directory-policies create`
+
+**What it does:** create.
+
+**Usage help:** `gcloud alpha lustre instances directory-policies create --help`
+
+### `gcloud alpha lustre instances directory-policies delete`
+
+**What it does:** delete.
+
+**Usage help:** `gcloud alpha lustre instances directory-policies delete --help`
+
+### `gcloud alpha lustre instances directory-policies describe`
+
+**What it does:** describe.
+
+**Usage help:** `gcloud alpha lustre instances directory-policies describe --help`
+
+### `gcloud alpha lustre instances directory-policies list`
+
+**What it does:** list.
+
+**Usage help:** `gcloud alpha lustre instances directory-policies list --help`
+
 ### `gcloud alpha lustre instances export-data`
 
-**What it does:** exports data from Managed.
+**What it does:** exports data from a Managed.
 
 **Usage help:** `gcloud alpha lustre instances export-data --help`
 
@@ -27884,13 +30190,49 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud alpha lustre instances list`
 
-**What it does:** list Lustre instances.
+**What it does:** lists Managed Lustre instances.
 
 **Usage help:** `gcloud alpha lustre instances list --help`
 
+### `gcloud alpha lustre instances mirrors`
+
+**What it does:** manage Lustre mirror resources.
+
+**Usage help:** `gcloud alpha lustre instances mirrors --help`
+
+### `gcloud alpha lustre instances mirrors create`
+
+**What it does:** creates a Managed Lustre.
+
+**Usage help:** `gcloud alpha lustre instances mirrors create --help`
+
+### `gcloud alpha lustre instances mirrors delete`
+
+**What it does:** deletes a Managed Lustre.
+
+**Usage help:** `gcloud alpha lustre instances mirrors delete --help`
+
+### `gcloud alpha lustre instances mirrors describe`
+
+**What it does:** gets details of a single.
+
+**Usage help:** `gcloud alpha lustre instances mirrors describe --help`
+
+### `gcloud alpha lustre instances mirrors list`
+
+**What it does:** list Lustre mirrors.
+
+**Usage help:** `gcloud alpha lustre instances mirrors list --help`
+
+### `gcloud alpha lustre instances mirrors update`
+
+**What it does:** updates the parameters of a.
+
+**Usage help:** `gcloud alpha lustre instances mirrors update --help`
+
 ### `gcloud alpha lustre instances reschedule-maintenance`
 
-**What it does:** reschedule instances.
+**What it does:** reschedules a.
 
 **Usage help:** `gcloud alpha lustre instances reschedule-maintenance --help`
 
@@ -27935,86 +30277,6 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** wait operations.
 
 **Usage help:** `gcloud alpha lustre operations wait --help`
-
-## managed-flink
-
-### `gcloud alpha managed-flink`
-
-**What it does:** manage Managed Flink resources.
-
-**Usage help:** `gcloud alpha managed-flink --help`
-
-### `gcloud alpha managed-flink deployments`
-
-**What it does:** manage Managed Flink deployments.
-
-**Usage help:** `gcloud alpha managed-flink deployments --help`
-
-### `gcloud alpha managed-flink deployments create`
-
-**What it does:** create a BigQuery Engine.
-
-**Usage help:** `gcloud alpha managed-flink deployments create --help`
-
-### `gcloud alpha managed-flink deployments delete`
-
-**What it does:** delete a BigQuery Engine.
-
-**Usage help:** `gcloud alpha managed-flink deployments delete --help`
-
-### `gcloud alpha managed-flink deployments describe`
-
-**What it does:** describe a BigQuery.
-
-**Usage help:** `gcloud alpha managed-flink deployments describe --help`
-
-### `gcloud alpha managed-flink deployments list`
-
-**What it does:** list all BigQuery Engine for.
-
-**Usage help:** `gcloud alpha managed-flink deployments list --help`
-
-### `gcloud alpha managed-flink deployments update`
-
-**What it does:** update a BigQuery Engine.
-
-**Usage help:** `gcloud alpha managed-flink deployments update --help`
-
-### `gcloud alpha managed-flink jobs`
-
-**What it does:** manage Managed Flink jobs.
-
-**Usage help:** `gcloud alpha managed-flink jobs --help`
-
-### `gcloud alpha managed-flink jobs create`
-
-**What it does:** create a Flink job from a Java jar.
-
-**Usage help:** `gcloud alpha managed-flink jobs create --help`
-
-### `gcloud alpha managed-flink jobs delete`
-
-**What it does:** delete a BigQuery Engine for.
-
-**Usage help:** `gcloud alpha managed-flink jobs delete --help`
-
-### `gcloud alpha managed-flink jobs describe`
-
-**What it does:** describe a BigQuery Engine for.
-
-**Usage help:** `gcloud alpha managed-flink jobs describe --help`
-
-### `gcloud alpha managed-flink jobs list`
-
-**What it does:** list all BigQuery Engine for Apache.
-
-**Usage help:** `gcloud alpha managed-flink jobs list --help`
-
-### `gcloud alpha managed-flink jobs update`
-
-**What it does:** update the parallelism of a Flink.
-
-**Usage help:** `gcloud alpha managed-flink jobs update --help`
 
 ## managed-kafka
 
@@ -28509,6 +30771,24 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list aclPolicies.
 
 **Usage help:** `gcloud alpha memorystore acl-policies list --help`
+
+### `gcloud alpha memorystore acl-policies revisions`
+
+**What it does:** manage Acl Policy.
+
+**Usage help:** `gcloud alpha memorystore acl-policies revisions --help`
+
+### `gcloud alpha memorystore acl-policies revisions describe`
+
+**What it does:** describe.
+
+**Usage help:** `gcloud alpha memorystore acl-policies revisions describe --help`
+
+### `gcloud alpha memorystore acl-policies revisions list`
+
+**What it does:** list.
+
+**Usage help:** `gcloud alpha memorystore acl-policies revisions list --help`
 
 ### `gcloud alpha memorystore acl-policies update`
 
@@ -29126,7 +31406,7 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud alpha metastore services migrations start`
 
-**What it does:** start the migration on a.
+**What it does:** start the migration from.
 
 **Usage help:** `gcloud alpha metastore services migrations start --help`
 
@@ -29808,6 +32088,24 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha mldiagnostics machine-learning-run update --help`
 
+### `gcloud alpha mldiagnostics monitored-events`
+
+**What it does:** monitored Event resources.
+
+**Usage help:** `gcloud alpha mldiagnostics monitored-events --help`
+
+### `gcloud alpha mldiagnostics monitored-events describe`
+
+**What it does:** display the details.
+
+**Usage help:** `gcloud alpha mldiagnostics monitored-events describe --help`
+
+### `gcloud alpha mldiagnostics monitored-events list`
+
+**What it does:** list monitored events.
+
+**Usage help:** `gcloud alpha mldiagnostics monitored-events list --help`
+
 ### `gcloud alpha mldiagnostics profiler-session`
 
 **What it does:** profiler Session resources.
@@ -30394,7 +32692,7 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud alpha netapp storage-pools list-backup-configs`
 
-**What it does:** a command to list.
+**What it does:** list backup.
 
 **Usage help:** `gcloud alpha netapp storage-pools list-backup-configs --help`
 
@@ -30451,6 +32749,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** establish peering for Cache.
 
 **Usage help:** `gcloud alpha netapp volumes establish-peering --help`
+
+### `gcloud alpha netapp volumes get-split-status`
+
+**What it does:** retrieves the split status.
+
+**Usage help:** `gcloud alpha netapp volumes get-split-status --help`
 
 ### `gcloud alpha netapp volumes list`
 
@@ -30571,6 +32875,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update a Cloud NetApp Volume.
 
 **Usage help:** `gcloud alpha netapp volumes snapshots update --help`
+
+### `gcloud alpha netapp volumes start-split`
+
+**What it does:** starts splitting a Cloud NetApp.
+
+**Usage help:** `gcloud alpha netapp volumes start-split --help`
 
 ### `gcloud alpha netapp volumes update`
 
@@ -31124,6 +33434,30 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha network-security firewall-endpoints update --help`
 
+### `gcloud alpha network-security firewall-endpoints wildfire-verdict-change-requests`
+
+**What it does:** manage WildFire Verdict Change.
+
+**Usage help:** `gcloud alpha network-security firewall-endpoints wildfire-verdict-change-requests --help`
+
+### `gcloud alpha network-security firewall-endpoints wildfire-verdict-change-requests create`
+
+**What it does:** create a WildFire Verdict.
+
+**Usage help:** `gcloud alpha network-security firewall-endpoints wildfire-verdict-change-requests create --help`
+
+### `gcloud alpha network-security firewall-endpoints wildfire-verdict-change-requests get`
+
+**What it does:** get a WildFire Verdict Change.
+
+**Usage help:** `gcloud alpha network-security firewall-endpoints wildfire-verdict-change-requests get --help`
+
+### `gcloud alpha network-security firewall-endpoints wildfire-verdict-change-requests list`
+
+**What it does:** list WildFire Verdict Change.
+
+**Usage help:** `gcloud alpha network-security firewall-endpoints wildfire-verdict-change-requests list --help`
+
 ### `gcloud alpha network-security gateway-security-policies`
 
 **What it does:** manage Network.
@@ -31472,6 +33806,36 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha network-security mirroring-endpoint-groups update --help`
 
+### `gcloud alpha network-security operations`
+
+**What it does:** manage Network Security.
+
+**Usage help:** `gcloud alpha network-security operations --help`
+
+### `gcloud alpha network-security operations cancel`
+
+**What it does:** cancel a Network Security.
+
+**Usage help:** `gcloud alpha network-security operations cancel --help`
+
+### `gcloud alpha network-security operations describe`
+
+**What it does:** show details of a.
+
+**Usage help:** `gcloud alpha network-security operations describe --help`
+
+### `gcloud alpha network-security operations list`
+
+**What it does:** list all Network Security.
+
+**Usage help:** `gcloud alpha network-security operations list --help`
+
+### `gcloud alpha network-security operations wait`
+
+**What it does:** poll a Network Security.
+
+**Usage help:** `gcloud alpha network-security operations wait --help`
+
 ### `gcloud alpha network-security org-address-groups`
 
 **What it does:** manage Network Security.
@@ -31507,6 +33871,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** describe an.
 
 **Usage help:** `gcloud alpha network-security org-address-groups describe --help`
+
+### `gcloud alpha network-security org-address-groups force-start-progressive-rollout`
+
+**What it does:** force start progressive rollout of an.
+
+**Usage help:** `gcloud alpha network-security org-address-groups force-start-progressive-rollout --help`
 
 ### `gcloud alpha network-security org-address-groups list`
 
@@ -31760,11 +34130,107 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha network-security security-profiles url-filtering list --help`
 
+### `gcloud alpha network-security security-profiles wildfire-analysis`
+
+**What it does:** manage.
+
+**Usage help:** `gcloud alpha network-security security-profiles wildfire-analysis --help`
+
+### `gcloud alpha network-security security-profiles wildfire-analysis add-inline-cloud-analysis-rule`
+
+**What it does:** add a WildFire inline cloud analysis.
+
+**Usage help:** `gcloud alpha network-security security-profiles wildfire-analysis add-inline-cloud-analysis-rule --help`
+
+### `gcloud alpha network-security security-profiles wildfire-analysis add-inline-ml-exception`
+
+**What it does:** add a WildFire inline machine learning.
+
+**Usage help:** `gcloud alpha network-security security-profiles wildfire-analysis add-inline-ml-exception --help`
+
+### `gcloud alpha network-security security-profiles wildfire-analysis add-override`
+
+**What it does:** add an override to a WildFire Analysis Profile.
+
+**Usage help:** `gcloud alpha network-security security-profiles wildfire-analysis add-override --help`
+
+### `gcloud alpha network-security security-profiles wildfire-analysis add-submission-rule`
+
+**What it does:** add a WildFire submission rule to a WildFire.
+
+**Usage help:** `gcloud alpha network-security security-profiles wildfire-analysis add-submission-rule --help`
+
+### `gcloud alpha network-security security-profiles wildfire-analysis create`
+
+**What it does:** (ALPHA) Create a new WildFire Analysis Security Profile.
+
+**Usage help:** `gcloud alpha network-security security-profiles wildfire-analysis create --help`
+
+### `gcloud alpha network-security security-profiles wildfire-analysis delete`
+
+**What it does:** (ALPHA) Delete the specified Security Profile.
+
+**Usage help:** `gcloud alpha network-security security-profiles wildfire-analysis delete --help`
+
+### `gcloud alpha network-security security-profiles wildfire-analysis delete-inline-cloud-analysis-rule`
+
+**What it does:** delete a WildFire inline cloud.
+
+**Usage help:** `gcloud alpha network-security security-profiles wildfire-analysis delete-inline-cloud-analysis-rule --help`
+
+### `gcloud alpha network-security security-profiles wildfire-analysis delete-inline-ml-exception`
+
+**What it does:** delete a WildFire inline machine learning.
+
+**Usage help:** `gcloud alpha network-security security-profiles wildfire-analysis delete-inline-ml-exception --help`
+
+### `gcloud alpha network-security security-profiles wildfire-analysis delete-override`
+
+**What it does:** delete an override from a WildFire Analysis Profile.
+
+**Usage help:** `gcloud alpha network-security security-profiles wildfire-analysis delete-override --help`
+
+### `gcloud alpha network-security security-profiles wildfire-analysis delete-submission-rule`
+
+**What it does:** delete a WildFire submission rule from a.
+
+**Usage help:** `gcloud alpha network-security security-profiles wildfire-analysis delete-submission-rule --help`
+
+### `gcloud alpha network-security security-profiles wildfire-analysis describe`
+
+**What it does:** (ALPHA) Describe a WildFire Analysis Security Profile.
+
+**Usage help:** `gcloud alpha network-security security-profiles wildfire-analysis describe --help`
+
+### `gcloud alpha network-security security-profiles wildfire-analysis list`
+
+**What it does:** (ALPHA) List WildFire Analysis Security Profiles.
+
+**Usage help:** `gcloud alpha network-security security-profiles wildfire-analysis list --help`
+
+### `gcloud alpha network-security security-profiles wildfire-analysis update`
+
+**What it does:** (ALPHA) Update a security profile of type WildFire Analysis.
+
+**Usage help:** `gcloud alpha network-security security-profiles wildfire-analysis update --help`
+
+### `gcloud alpha network-security security-profiles wildfire-analysis update-override`
+
+**What it does:** update an override in a WildFire Analysis Profile.
+
+**Usage help:** `gcloud alpha network-security security-profiles wildfire-analysis update-override --help`
+
 ### `gcloud alpha network-security server-tls-policies`
 
 **What it does:** manage Network Security.
 
 **Usage help:** `gcloud alpha network-security server-tls-policies --help`
+
+### `gcloud alpha network-security server-tls-policies create`
+
+**What it does:** create a.
+
+**Usage help:** `gcloud alpha network-security server-tls-policies create --help`
 
 ### `gcloud alpha network-security server-tls-policies delete`
 
@@ -31795,6 +34261,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list.
 
 **Usage help:** `gcloud alpha network-security server-tls-policies list --help`
+
+### `gcloud alpha network-security server-tls-policies update`
+
+**What it does:** update a.
+
+**Usage help:** `gcloud alpha network-security server-tls-policies update --help`
 
 ### `gcloud alpha network-security tls-inspection-policies`
 
@@ -31864,6 +34336,42 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha network-services --help`
 
+### `gcloud alpha network-services agent-connectivity-templates`
+
+**What it does:** manage Network.
+
+**Usage help:** `gcloud alpha network-services agent-connectivity-templates --help`
+
+### `gcloud alpha network-services agent-connectivity-templates delete`
+
+**What it does:** delete.
+
+**Usage help:** `gcloud alpha network-services agent-connectivity-templates delete --help`
+
+### `gcloud alpha network-services agent-connectivity-templates describe`
+
+**What it does:** (ALPHA) Show details of an Agent Connectivity Template.
+
+**Usage help:** `gcloud alpha network-services agent-connectivity-templates describe --help`
+
+### `gcloud alpha network-services agent-connectivity-templates export`
+
+**What it does:** export.
+
+**Usage help:** `gcloud alpha network-services agent-connectivity-templates export --help`
+
+### `gcloud alpha network-services agent-connectivity-templates import`
+
+**What it does:** import.
+
+**Usage help:** `gcloud alpha network-services agent-connectivity-templates import --help`
+
+### `gcloud alpha network-services agent-connectivity-templates list`
+
+**What it does:** list.
+
+**Usage help:** `gcloud alpha network-services agent-connectivity-templates list --help`
+
 ### `gcloud alpha network-services agent-gateways`
 
 **What it does:** manage Network Services.
@@ -31899,6 +34407,42 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list AgentGateways.
 
 **Usage help:** `gcloud alpha network-services agent-gateways list --help`
+
+### `gcloud alpha network-services egress-routings`
+
+**What it does:** manage Egress Routing.
+
+**Usage help:** `gcloud alpha network-services egress-routings --help`
+
+### `gcloud alpha network-services egress-routings create`
+
+**What it does:** create an Egress.
+
+**Usage help:** `gcloud alpha network-services egress-routings create --help`
+
+### `gcloud alpha network-services egress-routings delete`
+
+**What it does:** delete an Egress.
+
+**Usage help:** `gcloud alpha network-services egress-routings delete --help`
+
+### `gcloud alpha network-services egress-routings describe`
+
+**What it does:** get details of an.
+
+**Usage help:** `gcloud alpha network-services egress-routings describe --help`
+
+### `gcloud alpha network-services egress-routings list`
+
+**What it does:** list Egress Routings.
+
+**Usage help:** `gcloud alpha network-services egress-routings list --help`
+
+### `gcloud alpha network-services egress-routings update`
+
+**What it does:** update an Egress.
+
+**Usage help:** `gcloud alpha network-services egress-routings update --help`
 
 ### `gcloud alpha network-services endpoint-policies`
 
@@ -32079,6 +34623,48 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list http routes.
 
 **Usage help:** `gcloud alpha network-services http-routes list --help`
+
+### `gcloud alpha network-services mcp-transcoders`
+
+**What it does:** manage Mcp Transcoder.
+
+**Usage help:** `gcloud alpha network-services mcp-transcoders --help`
+
+### `gcloud alpha network-services mcp-transcoders create`
+
+**What it does:** create an MCP.
+
+**Usage help:** `gcloud alpha network-services mcp-transcoders create --help`
+
+### `gcloud alpha network-services mcp-transcoders delete`
+
+**What it does:** delete an MCP.
+
+**Usage help:** `gcloud alpha network-services mcp-transcoders delete --help`
+
+### `gcloud alpha network-services mcp-transcoders describe`
+
+**What it does:** get details of an.
+
+**Usage help:** `gcloud alpha network-services mcp-transcoders describe --help`
+
+### `gcloud alpha network-services mcp-transcoders list`
+
+**What it does:** list MCP Transcoders.
+
+**Usage help:** `gcloud alpha network-services mcp-transcoders list --help`
+
+### `gcloud alpha network-services mcp-transcoders refresh`
+
+**What it does:** refresh an MCP.
+
+**Usage help:** `gcloud alpha network-services mcp-transcoders refresh --help`
+
+### `gcloud alpha network-services mcp-transcoders update`
+
+**What it does:** update an MCP.
+
+**Usage help:** `gcloud alpha network-services mcp-transcoders update --help`
 
 ### `gcloud alpha network-services meshes`
 
@@ -32296,30 +34882,6 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha network-services multicast-group-consumer-activations update --help`
 
-### `gcloud alpha network-services multicast-group-definitions`
-
-**What it does:** manage Network.
-
-**Usage help:** `gcloud alpha network-services multicast-group-definitions --help`
-
-### `gcloud alpha network-services multicast-group-definitions delete`
-
-**What it does:** delete a.
-
-**Usage help:** `gcloud alpha network-services multicast-group-definitions delete --help`
-
-### `gcloud alpha network-services multicast-group-definitions describe`
-
-**What it does:** (ALPHA) (DEPRECATED) Multicast Group Definition is deprecated. Please use the Multicast Group Range resource instead.
-
-**Usage help:** `gcloud alpha network-services multicast-group-definitions describe --help`
-
-### `gcloud alpha network-services multicast-group-definitions list`
-
-**What it does:** list.
-
-**Usage help:** `gcloud alpha network-services multicast-group-definitions list --help`
-
 ### `gcloud alpha network-services multicast-group-producer-activations`
 
 **What it does:** manage.
@@ -32427,30 +34989,6 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update a.
 
 **Usage help:** `gcloud alpha network-services multicast-group-ranges update --help`
-
-### `gcloud alpha network-services multicast-groups`
-
-**What it does:** manage Network Services.
-
-**Usage help:** `gcloud alpha network-services multicast-groups --help`
-
-### `gcloud alpha network-services multicast-groups delete`
-
-**What it does:** delete a multicast.
-
-**Usage help:** `gcloud alpha network-services multicast-groups delete --help`
-
-### `gcloud alpha network-services multicast-groups describe`
-
-**What it does:** describe a.
-
-**Usage help:** `gcloud alpha network-services multicast-groups describe --help`
-
-### `gcloud alpha network-services multicast-groups list`
-
-**What it does:** list multicast groups.
-
-**Usage help:** `gcloud alpha network-services multicast-groups list --help`
 
 ### `gcloud alpha network-services multicast-producer-associations`
 
@@ -32584,6 +35122,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha network-services regional-multicast-consumer-associations list --help`
 
+### `gcloud alpha network-services regional-multicast-consumer-associations update`
+
+**What it does:** update a regional multicast consumer association.
+
+**Usage help:** `gcloud alpha network-services regional-multicast-consumer-associations update --help`
+
 ### `gcloud alpha network-services regional-multicast-domain-activations`
 
 **What it does:** (ALPHA) Regional Multicast Domain Activations command group.
@@ -32613,6 +35157,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** (ALPHA) List all regional multicast domain activations in the specified location of the current project.
 
 **Usage help:** `gcloud alpha network-services regional-multicast-domain-activations list --help`
+
+### `gcloud alpha network-services regional-multicast-domain-activations update`
+
+**What it does:** (ALPHA) Update a regional multicast domain activation in the specified location of the current project.
+
+**Usage help:** `gcloud alpha network-services regional-multicast-domain-activations update --help`
 
 ### `gcloud alpha network-services regional-multicast-group-consumer-activations`
 
@@ -32644,6 +35194,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha network-services regional-multicast-group-consumer-activations list --help`
 
+### `gcloud alpha network-services regional-multicast-group-consumer-activations update`
+
+**What it does:** update a regional multicast group consumer activation.
+
+**Usage help:** `gcloud alpha network-services regional-multicast-group-consumer-activations update --help`
+
 ### `gcloud alpha network-services regional-multicast-group-producer-activations`
 
 **What it does:** (ALPHA) Regional Multicast Group Producer Activations command group.
@@ -32673,6 +35229,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list regional multicast group producer activations.
 
 **Usage help:** `gcloud alpha network-services regional-multicast-group-producer-activations list --help`
+
+### `gcloud alpha network-services regional-multicast-group-producer-activations update`
+
+**What it does:** update a regional multicast group producer activation.
+
+**Usage help:** `gcloud alpha network-services regional-multicast-group-producer-activations update --help`
 
 ### `gcloud alpha network-services regional-multicast-group-range-activations`
 
@@ -32704,6 +35266,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha network-services regional-multicast-group-range-activations list --help`
 
+### `gcloud alpha network-services regional-multicast-group-range-activations update`
+
+**What it does:** update a regional multicast group range activation.
+
+**Usage help:** `gcloud alpha network-services regional-multicast-group-range-activations update --help`
+
 ### `gcloud alpha network-services regional-multicast-producer-associations`
 
 **What it does:** (ALPHA) Regional Multicast Producer Associations command group.
@@ -32733,6 +35301,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** (ALPHA) List all regional multicast producer associations in the specified location of the current project.
 
 **Usage help:** `gcloud alpha network-services regional-multicast-producer-associations list --help`
+
+### `gcloud alpha network-services regional-multicast-producer-associations update`
+
+**What it does:** update a regional multicast producer association.
+
+**Usage help:** `gcloud alpha network-services regional-multicast-producer-associations update --help`
 
 ### `gcloud alpha network-services route-views`
 
@@ -32883,6 +35457,42 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list tcp routes.
 
 **Usage help:** `gcloud alpha network-services tcp-routes list --help`
+
+### `gcloud alpha network-services telemetry-policies`
+
+**What it does:** manage Network Services.
+
+**Usage help:** `gcloud alpha network-services telemetry-policies --help`
+
+### `gcloud alpha network-services telemetry-policies delete`
+
+**What it does:** delete a.
+
+**Usage help:** `gcloud alpha network-services telemetry-policies delete --help`
+
+### `gcloud alpha network-services telemetry-policies describe`
+
+**What it does:** describe a.
+
+**Usage help:** `gcloud alpha network-services telemetry-policies describe --help`
+
+### `gcloud alpha network-services telemetry-policies export`
+
+**What it does:** export a.
+
+**Usage help:** `gcloud alpha network-services telemetry-policies export --help`
+
+### `gcloud alpha network-services telemetry-policies import`
+
+**What it does:** import a.
+
+**Usage help:** `gcloud alpha network-services telemetry-policies import --help`
+
+### `gcloud alpha network-services telemetry-policies list`
+
+**What it does:** list.
+
+**Usage help:** `gcloud alpha network-services telemetry-policies list --help`
 
 ### `gcloud alpha network-services tls-routes`
 
@@ -33248,6 +35858,36 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha number-registry operations wait --help`
 
+### `gcloud alpha number-registry org-number-registries`
+
+**What it does:** manage org number.
+
+**Usage help:** `gcloud alpha number-registry org-number-registries --help`
+
+### `gcloud alpha number-registry org-number-registries create`
+
+**What it does:** create an org.
+
+**Usage help:** `gcloud alpha number-registry org-number-registries create --help`
+
+### `gcloud alpha number-registry org-number-registries delete`
+
+**What it does:** delete a single.
+
+**Usage help:** `gcloud alpha number-registry org-number-registries delete --help`
+
+### `gcloud alpha number-registry org-number-registries describe`
+
+**What it does:** gets details.
+
+**Usage help:** `gcloud alpha number-registry org-number-registries describe --help`
+
+### `gcloud alpha number-registry org-number-registries list`
+
+**What it does:** list org number.
+
+**Usage help:** `gcloud alpha number-registry org-number-registries list --help`
+
 ### `gcloud alpha number-registry realms`
 
 **What it does:** manage discovered and custom realm.
@@ -33387,6 +36027,26 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update traceScopes.
 
 **Usage help:** `gcloud alpha observability trace-scopes update --help`
+
+## onboarding
+
+### `gcloud alpha onboarding`
+
+**What it does:** manage user onboarding sessions on Google Cloud.
+
+**Usage help:** `gcloud alpha onboarding --help`
+
+### `gcloud alpha onboarding express`
+
+**What it does:** manage express onboarding on Google Cloud.
+
+**Usage help:** `gcloud alpha onboarding express --help`
+
+### `gcloud alpha onboarding express get-project`
+
+**What it does:** get or provision a Starter.
+
+**Usage help:** `gcloud alpha onboarding express get-project --help`
 
 ## organizations
 
@@ -34548,6 +37208,24 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha redis acl-policies list --help`
 
+### `gcloud alpha redis acl-policies revisions`
+
+**What it does:** manage ACL policies revisions.
+
+**Usage help:** `gcloud alpha redis acl-policies revisions --help`
+
+### `gcloud alpha redis acl-policies revisions describe`
+
+**What it does:** show metadata for a.
+
+**Usage help:** `gcloud alpha redis acl-policies revisions describe --help`
+
+### `gcloud alpha redis acl-policies revisions list`
+
+**What it does:** list Redis ACL Policy.
+
+**Usage help:** `gcloud alpha redis acl-policies revisions list --help`
+
 ### `gcloud alpha redis acl-policies update`
 
 **What it does:** update aclPolicies.
@@ -34942,6 +37620,60 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha resource-manager --help`
 
+### `gcloud alpha resource-manager boundaries`
+
+**What it does:** manage Resource Manager.
+
+**Usage help:** `gcloud alpha resource-manager boundaries --help`
+
+### `gcloud alpha resource-manager boundaries create`
+
+**What it does:** create a new boundary.
+
+**Usage help:** `gcloud alpha resource-manager boundaries create --help`
+
+### `gcloud alpha resource-manager boundaries delete`
+
+**What it does:** delete a boundary.
+
+**Usage help:** `gcloud alpha resource-manager boundaries delete --help`
+
+### `gcloud alpha resource-manager boundaries describe`
+
+**What it does:** describe a boundary.
+
+**Usage help:** `gcloud alpha resource-manager boundaries describe --help`
+
+### `gcloud alpha resource-manager boundaries list`
+
+**What it does:** list boundaries.
+
+**Usage help:** `gcloud alpha resource-manager boundaries list --help`
+
+### `gcloud alpha resource-manager boundaries update`
+
+**What it does:** update a boundary.
+
+**Usage help:** `gcloud alpha resource-manager boundaries update --help`
+
+### `gcloud alpha resource-manager boundary-configs`
+
+**What it does:** manage Resource Manager.
+
+**Usage help:** `gcloud alpha resource-manager boundary-configs --help`
+
+### `gcloud alpha resource-manager boundary-configs describe`
+
+**What it does:** describe a.
+
+**Usage help:** `gcloud alpha resource-manager boundary-configs describe --help`
+
+### `gcloud alpha resource-manager boundary-configs update`
+
+**What it does:** update a boundary.
+
+**Usage help:** `gcloud alpha resource-manager boundary-configs update --help`
+
 ### `gcloud alpha resource-manager capabilities`
 
 **What it does:** manage Cloud Folder.
@@ -34959,6 +37691,42 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update a folder.
 
 **Usage help:** `gcloud alpha resource-manager capabilities update --help`
+
+### `gcloud alpha resource-manager capability-configs`
+
+**What it does:** manage Cloud Resource.
+
+**Usage help:** `gcloud alpha resource-manager capability-configs --help`
+
+### `gcloud alpha resource-manager capability-configs create`
+
+**What it does:** create a.
+
+**Usage help:** `gcloud alpha resource-manager capability-configs create --help`
+
+### `gcloud alpha resource-manager capability-configs delete`
+
+**What it does:** delete a.
+
+**Usage help:** `gcloud alpha resource-manager capability-configs delete --help`
+
+### `gcloud alpha resource-manager capability-configs describe`
+
+**What it does:** describe a.
+
+**Usage help:** `gcloud alpha resource-manager capability-configs describe --help`
+
+### `gcloud alpha resource-manager capability-configs list`
+
+**What it does:** list.
+
+**Usage help:** `gcloud alpha resource-manager capability-configs list --help`
+
+### `gcloud alpha resource-manager capability-configs update`
+
+**What it does:** update a.
+
+**Usage help:** `gcloud alpha resource-manager capability-configs update --help`
 
 ### `gcloud alpha resource-manager folders`
 
@@ -35145,6 +37913,78 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** set Organization.
 
 **Usage help:** `gcloud alpha resource-manager org-policies set-policy --help`
+
+### `gcloud alpha resource-manager semantic-tags`
+
+**What it does:** manage Resource Manager.
+
+**Usage help:** `gcloud alpha resource-manager semantic-tags --help`
+
+### `gcloud alpha resource-manager semantic-tags bindings`
+
+**What it does:** manage Semantic Tag.
+
+**Usage help:** `gcloud alpha resource-manager semantic-tags bindings --help`
+
+### `gcloud alpha resource-manager semantic-tags bindings create`
+
+**What it does:** create a.
+
+**Usage help:** `gcloud alpha resource-manager semantic-tags bindings create --help`
+
+### `gcloud alpha resource-manager semantic-tags bindings delete`
+
+**What it does:** delete a.
+
+**Usage help:** `gcloud alpha resource-manager semantic-tags bindings delete --help`
+
+### `gcloud alpha resource-manager semantic-tags bindings list`
+
+**What it does:** list Semantic.
+
+**Usage help:** `gcloud alpha resource-manager semantic-tags bindings list --help`
+
+### `gcloud alpha resource-manager semantic-tags keys`
+
+**What it does:** manage Semantic Tag Keys.
+
+**Usage help:** `gcloud alpha resource-manager semantic-tags keys --help`
+
+### `gcloud alpha resource-manager semantic-tags keys describe`
+
+**What it does:** describe a.
+
+**Usage help:** `gcloud alpha resource-manager semantic-tags keys describe --help`
+
+### `gcloud alpha resource-manager semantic-tags keys list`
+
+**What it does:** list Semantic Tag.
+
+**Usage help:** `gcloud alpha resource-manager semantic-tags keys list --help`
+
+### `gcloud alpha resource-manager semantic-tags values`
+
+**What it does:** manage Semantic Tag.
+
+**Usage help:** `gcloud alpha resource-manager semantic-tags values --help`
+
+### `gcloud alpha resource-manager semantic-tags values create`
+
+**What it does:** create a.
+
+**Usage help:** `gcloud alpha resource-manager semantic-tags values create --help`
+
+### `gcloud alpha resource-manager semantic-tags values describe`
+
+**What it does:** describe a.
+
+**Usage help:** `gcloud alpha resource-manager semantic-tags values describe --help`
+
+### `gcloud alpha resource-manager semantic-tags values list`
+
+**What it does:** list Semantic Tag.
+
+**Usage help:** `gcloud alpha resource-manager semantic-tags values list --help`
 
 ### `gcloud alpha resource-manager semantics-catalog`
 
@@ -35418,6 +38258,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha run instances delete --help`
 
+### `gcloud alpha run instances deploy`
+
+**What it does:** deploy a Cloud Run instance.
+
+**Usage help:** `gcloud alpha run instances deploy --help`
+
 ### `gcloud alpha run instances describe`
 
 **What it does:** obtain details about instances.
@@ -35429,6 +38275,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** commands for development on Cloud Run.
 
 **Usage help:** `gcloud alpha run instances dev --help`
+
+### `gcloud alpha run instances dev sync`
+
+**What it does:** sync into a Cloud Run Instance.
+
+**Usage help:** `gcloud alpha run instances dev sync --help`
 
 ### `gcloud alpha run instances get-iam-policy`
 
@@ -35460,6 +38312,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha run instances logs tail --help`
 
+### `gcloud alpha run instances proxy`
+
+**What it does:** proxy an instance to localhost.
+
+**Usage help:** `gcloud alpha run instances proxy --help`
+
 ### `gcloud alpha run instances remove-iam-policy-binding`
 
 **What it does:** remove IAM policy.
@@ -35472,11 +38330,23 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha run instances replace --help`
 
+### `gcloud alpha run instances restart`
+
+**What it does:** restart an instance.
+
+**Usage help:** `gcloud alpha run instances restart --help`
+
 ### `gcloud alpha run instances set-iam-policy`
 
 **What it does:** set the IAM policy for a.
 
 **Usage help:** `gcloud alpha run instances set-iam-policy --help`
+
+### `gcloud alpha run instances ssh`
+
+**What it does:** SSH into an instance.
+
+**Usage help:** `gcloud alpha run instances ssh --help`
 
 ### `gcloud alpha run instances start`
 
@@ -35489,6 +38359,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** stop a running instance.
 
 **Usage help:** `gcloud alpha run instances stop --help`
+
+### `gcloud alpha run instances update`
+
+**What it does:** update a Cloud Run instance.
+
+**Usage help:** `gcloud alpha run instances update --help`
 
 ### `gcloud alpha run jobs`
 
@@ -35555,6 +38431,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** obtain details about executions.
 
 **Usage help:** `gcloud alpha run jobs executions describe --help`
+
+### `gcloud alpha run jobs executions describe-latest`
+
+**What it does:** obtain details about the.
+
+**Usage help:** `gcloud alpha run jobs executions describe-latest --help`
 
 ### `gcloud alpha run jobs executions list`
 
@@ -35772,6 +38654,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha run services describe --help`
 
+### `gcloud alpha run services dev`
+
+**What it does:** commands for development on Cloud Run.
+
+**Usage help:** `gcloud alpha run services dev --help`
+
 ### `gcloud alpha run services get-iam-policy`
 
 **What it does:** get the IAM policy for a Cloud.
@@ -35825,6 +38713,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** set the IAM policy for a service.
 
 **Usage help:** `gcloud alpha run services set-iam-policy --help`
+
+### `gcloud alpha run services ssh`
+
+**What it does:** SSH into a service instance.
+
+**Usage help:** `gcloud alpha run services ssh --help`
 
 ### `gcloud alpha run services update`
 
@@ -35977,6 +38871,102 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** manage Cloud SCC resources.
 
 **Usage help:** `gcloud alpha scc --help`
+
+### `gcloud alpha scc artifact-guard`
+
+**What it does:** manage Cloud Security Command Center.
+
+**Usage help:** `gcloud alpha scc artifact-guard --help`
+
+### `gcloud alpha scc artifact-guard connectors`
+
+**What it does:** manage Cloud Security Command.
+
+**Usage help:** `gcloud alpha scc artifact-guard connectors --help`
+
+### `gcloud alpha scc artifact-guard connectors create`
+
+**What it does:** create a new artifact.
+
+**Usage help:** `gcloud alpha scc artifact-guard connectors create --help`
+
+### `gcloud alpha scc artifact-guard connectors delete`
+
+**What it does:** delete an artifact.
+
+**Usage help:** `gcloud alpha scc artifact-guard connectors delete --help`
+
+### `gcloud alpha scc artifact-guard connectors describe`
+
+**What it does:** describe an artifact.
+
+**Usage help:** `gcloud alpha scc artifact-guard connectors describe --help`
+
+### `gcloud alpha scc artifact-guard connectors list`
+
+**What it does:** list artifact guard.
+
+**Usage help:** `gcloud alpha scc artifact-guard connectors list --help`
+
+### `gcloud alpha scc artifact-guard images`
+
+**What it does:** manage Artifact Guard image.
+
+**Usage help:** `gcloud alpha scc artifact-guard images --help`
+
+### `gcloud alpha scc artifact-guard images scan`
+
+**What it does:** scan an image with Artifact.
+
+**Usage help:** `gcloud alpha scc artifact-guard images scan --help`
+
+### `gcloud alpha scc artifact-guard operations`
+
+**What it does:** manage Cloud Security Command.
+
+**Usage help:** `gcloud alpha scc artifact-guard operations --help`
+
+### `gcloud alpha scc artifact-guard operations describe`
+
+**What it does:** describe an artifact.
+
+**Usage help:** `gcloud alpha scc artifact-guard operations describe --help`
+
+### `gcloud alpha scc artifact-guard policies`
+
+**What it does:** manage Cloud Security Command.
+
+**Usage help:** `gcloud alpha scc artifact-guard policies --help`
+
+### `gcloud alpha scc artifact-guard policies create`
+
+**What it does:** create a new artifact.
+
+**Usage help:** `gcloud alpha scc artifact-guard policies create --help`
+
+### `gcloud alpha scc artifact-guard policies delete`
+
+**What it does:** delete an artifact guard.
+
+**Usage help:** `gcloud alpha scc artifact-guard policies delete --help`
+
+### `gcloud alpha scc artifact-guard policies describe`
+
+**What it does:** describe an artifact.
+
+**Usage help:** `gcloud alpha scc artifact-guard policies describe --help`
+
+### `gcloud alpha scc artifact-guard policies list`
+
+**What it does:** list artifact guard.
+
+**Usage help:** `gcloud alpha scc artifact-guard policies list --help`
+
+### `gcloud alpha scc artifact-guard policies update`
+
+**What it does:** update an existing.
+
+**Usage help:** `gcloud alpha scc artifact-guard policies update --help`
 
 ### `gcloud alpha scc assets`
 
@@ -37102,6 +40092,78 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha service-extensions --help`
 
+### `gcloud alpha service-extensions cdn-edge-extensions`
+
+**What it does:** manage Service.
+
+**Usage help:** `gcloud alpha service-extensions cdn-edge-extensions --help`
+
+### `gcloud alpha service-extensions cdn-edge-extensions delete`
+
+**What it does:** delete a.
+
+**Usage help:** `gcloud alpha service-extensions cdn-edge-extensions delete --help`
+
+### `gcloud alpha service-extensions cdn-edge-extensions describe`
+
+**What it does:** describe a.
+
+**Usage help:** `gcloud alpha service-extensions cdn-edge-extensions describe --help`
+
+### `gcloud alpha service-extensions cdn-edge-extensions import`
+
+**What it does:** import a.
+
+**Usage help:** `gcloud alpha service-extensions cdn-edge-extensions import --help`
+
+### `gcloud alpha service-extensions cdn-edge-extensions list`
+
+**What it does:** list.
+
+**Usage help:** `gcloud alpha service-extensions cdn-edge-extensions list --help`
+
+### `gcloud alpha service-extensions extension-bindings`
+
+**What it does:** manage Extension.
+
+**Usage help:** `gcloud alpha service-extensions extension-bindings --help`
+
+### `gcloud alpha service-extensions extension-bindings create`
+
+**What it does:** create.
+
+**Usage help:** `gcloud alpha service-extensions extension-bindings create --help`
+
+### `gcloud alpha service-extensions extension-bindings delete`
+
+**What it does:** delete.
+
+**Usage help:** `gcloud alpha service-extensions extension-bindings delete --help`
+
+### `gcloud alpha service-extensions extension-bindings describe`
+
+**What it does:** describe.
+
+**Usage help:** `gcloud alpha service-extensions extension-bindings describe --help`
+
+### `gcloud alpha service-extensions extension-bindings import`
+
+**What it does:** import.
+
+**Usage help:** `gcloud alpha service-extensions extension-bindings import --help`
+
+### `gcloud alpha service-extensions extension-bindings list`
+
+**What it does:** list.
+
+**Usage help:** `gcloud alpha service-extensions extension-bindings list --help`
+
+### `gcloud alpha service-extensions extension-bindings update`
+
+**What it does:** update.
+
+**Usage help:** `gcloud alpha service-extensions extension-bindings update --help`
+
 ### `gcloud alpha service-extensions lb-route-extensions`
 
 **What it does:** manage Service.
@@ -37448,54 +40510,6 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha services list --help`
 
-### `gcloud alpha services mcp`
-
-**What it does:** list, enable and disable MCP endpoints.
-
-**Usage help:** `gcloud alpha services mcp --help`
-
-### `gcloud alpha services mcp content-security`
-
-**What it does:** get/add/remove MCP content.
-
-**Usage help:** `gcloud alpha services mcp content-security --help`
-
-### `gcloud alpha services mcp content-security add`
-
-**What it does:** add MCP content security.
-
-**Usage help:** `gcloud alpha services mcp content-security add --help`
-
-### `gcloud alpha services mcp content-security get`
-
-**What it does:** get MCP content security.
-
-**Usage help:** `gcloud alpha services mcp content-security get --help`
-
-### `gcloud alpha services mcp content-security remove`
-
-**What it does:** remove MCP content.
-
-**Usage help:** `gcloud alpha services mcp content-security remove --help`
-
-### `gcloud alpha services mcp disable`
-
-**What it does:** disable a service for MCP on a project,.
-
-**Usage help:** `gcloud alpha services mcp disable --help`
-
-### `gcloud alpha services mcp enable`
-
-**What it does:** enable a service for MCP on a project,.
-
-**Usage help:** `gcloud alpha services mcp enable --help`
-
-### `gcloud alpha services mcp list`
-
-**What it does:** list MCP services for a project, folder or.
-
-**Usage help:** `gcloud alpha services mcp list --help`
-
 ### `gcloud alpha services operations`
 
 **What it does:** manage Operation for various services.
@@ -37546,7 +40560,7 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud alpha services policies get`
 
-**What it does:** get consumer policy for a project,.
+**What it does:** get the consumer policy for a project,.
 
 **Usage help:** `gcloud alpha services policies get --help`
 
@@ -37564,7 +40578,7 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud alpha services policies update`
 
-**What it does:** update consumer policy for a.
+**What it does:** update the consumer policy for a.
 
 **Usage help:** `gcloud alpha services policies update --help`
 
@@ -37663,6 +40677,134 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update a private service.
 
 **Usage help:** `gcloud alpha services vpc-peerings update --help`
+
+## software-delivery-trust
+
+### `gcloud alpha software-delivery-trust`
+
+**What it does:** manage Software Delivery Trust.
+
+**Usage help:** `gcloud alpha software-delivery-trust --help`
+
+### `gcloud alpha software-delivery-trust attestations`
+
+**What it does:** manage Software.
+
+**Usage help:** `gcloud alpha software-delivery-trust attestations --help`
+
+### `gcloud alpha software-delivery-trust attestations create`
+
+**What it does:** create a.
+
+**Usage help:** `gcloud alpha software-delivery-trust attestations create --help`
+
+### `gcloud alpha software-delivery-trust attestations describe`
+
+**What it does:** get details of.
+
+**Usage help:** `gcloud alpha software-delivery-trust attestations describe --help`
+
+### `gcloud alpha software-delivery-trust attestations list`
+
+**What it does:** list Software.
+
+**Usage help:** `gcloud alpha software-delivery-trust attestations list --help`
+
+### `gcloud alpha software-delivery-trust operations`
+
+**What it does:** manage Operation.
+
+**Usage help:** `gcloud alpha software-delivery-trust operations --help`
+
+### `gcloud alpha software-delivery-trust policies`
+
+**What it does:** manage Software Delivery.
+
+**Usage help:** `gcloud alpha software-delivery-trust policies --help`
+
+### `gcloud alpha software-delivery-trust policies create`
+
+**What it does:** create a Software.
+
+**Usage help:** `gcloud alpha software-delivery-trust policies create --help`
+
+### `gcloud alpha software-delivery-trust policies delete`
+
+**What it does:** delete a Software.
+
+**Usage help:** `gcloud alpha software-delivery-trust policies delete --help`
+
+### `gcloud alpha software-delivery-trust policies describe`
+
+**What it does:** get details of a.
+
+**Usage help:** `gcloud alpha software-delivery-trust policies describe --help`
+
+### `gcloud alpha software-delivery-trust policies list`
+
+**What it does:** list Software Delivery.
+
+**Usage help:** `gcloud alpha software-delivery-trust policies list --help`
+
+### `gcloud alpha software-delivery-trust policies revisions`
+
+**What it does:** inspect immutable.
+
+**Usage help:** `gcloud alpha software-delivery-trust policies revisions --help`
+
+### `gcloud alpha software-delivery-trust policies revisions describe`
+
+**What it does:** get.
+
+**Usage help:** `gcloud alpha software-delivery-trust policies revisions describe --help`
+
+### `gcloud alpha software-delivery-trust policies revisions list`
+
+**What it does:** list.
+
+**Usage help:** `gcloud alpha software-delivery-trust policies revisions list --help`
+
+### `gcloud alpha software-delivery-trust policies update`
+
+**What it does:** update a Software.
+
+**Usage help:** `gcloud alpha software-delivery-trust policies update --help`
+
+### `gcloud alpha software-delivery-trust policies verify`
+
+**What it does:** verify policies.
+
+**Usage help:** `gcloud alpha software-delivery-trust policies verify --help`
+
+### `gcloud alpha software-delivery-trust policy-bindings`
+
+**What it does:** manage Software.
+
+**Usage help:** `gcloud alpha software-delivery-trust policy-bindings --help`
+
+### `gcloud alpha software-delivery-trust policy-bindings create`
+
+**What it does:** create a.
+
+**Usage help:** `gcloud alpha software-delivery-trust policy-bindings create --help`
+
+### `gcloud alpha software-delivery-trust policy-bindings delete`
+
+**What it does:** delete a.
+
+**Usage help:** `gcloud alpha software-delivery-trust policy-bindings delete --help`
+
+### `gcloud alpha software-delivery-trust policy-bindings describe`
+
+**What it does:** get details.
+
+**Usage help:** `gcloud alpha software-delivery-trust policy-bindings describe --help`
+
+### `gcloud alpha software-delivery-trust policy-bindings list`
+
+**What it does:** list Software.
+
+**Usage help:** `gcloud alpha software-delivery-trust policy-bindings list --help`
 
 ## source
 
@@ -37764,6 +40906,78 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha source-manager --help`
 
+### `gcloud alpha source-manager branch-rules`
+
+**What it does:** manage Secure Source Manager.
+
+**Usage help:** `gcloud alpha source-manager branch-rules --help`
+
+### `gcloud alpha source-manager branch-rules create`
+
+**What it does:** create a Secure Source.
+
+**Usage help:** `gcloud alpha source-manager branch-rules create --help`
+
+### `gcloud alpha source-manager branch-rules delete`
+
+**What it does:** delete a Secure Source.
+
+**Usage help:** `gcloud alpha source-manager branch-rules delete --help`
+
+### `gcloud alpha source-manager branch-rules describe`
+
+**What it does:** describe a Secure.
+
+**Usage help:** `gcloud alpha source-manager branch-rules describe --help`
+
+### `gcloud alpha source-manager branch-rules list`
+
+**What it does:** list Secure Source Manager.
+
+**Usage help:** `gcloud alpha source-manager branch-rules list --help`
+
+### `gcloud alpha source-manager branch-rules update`
+
+**What it does:** update a Secure Source.
+
+**Usage help:** `gcloud alpha source-manager branch-rules update --help`
+
+### `gcloud alpha source-manager hooks`
+
+**What it does:** manage Secure Source Manager hooks.
+
+**Usage help:** `gcloud alpha source-manager hooks --help`
+
+### `gcloud alpha source-manager hooks create`
+
+**What it does:** create a Secure Source Manager.
+
+**Usage help:** `gcloud alpha source-manager hooks create --help`
+
+### `gcloud alpha source-manager hooks delete`
+
+**What it does:** delete a Secure Source Manager.
+
+**Usage help:** `gcloud alpha source-manager hooks delete --help`
+
+### `gcloud alpha source-manager hooks describe`
+
+**What it does:** describe a Secure Source.
+
+**Usage help:** `gcloud alpha source-manager hooks describe --help`
+
+### `gcloud alpha source-manager hooks list`
+
+**What it does:** list Secure Source Manager hooks.
+
+**Usage help:** `gcloud alpha source-manager hooks list --help`
+
+### `gcloud alpha source-manager hooks update`
+
+**What it does:** update a Secure Source Manager.
+
+**Usage help:** `gcloud alpha source-manager hooks update --help`
+
 ### `gcloud alpha source-manager instances`
 
 **What it does:** manage Secure Source Manager.
@@ -37818,6 +41032,90 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha source-manager instances set-iam-policy --help`
 
+### `gcloud alpha source-manager issues`
+
+**What it does:** manage Secure Source Manager issues.
+
+**Usage help:** `gcloud alpha source-manager issues --help`
+
+### `gcloud alpha source-manager issues close`
+
+**What it does:** close a Secure Source Manager.
+
+**Usage help:** `gcloud alpha source-manager issues close --help`
+
+### `gcloud alpha source-manager issues comments`
+
+**What it does:** manage Secure Source Manager.
+
+**Usage help:** `gcloud alpha source-manager issues comments --help`
+
+### `gcloud alpha source-manager issues comments create`
+
+**What it does:** create a Secure Source.
+
+**Usage help:** `gcloud alpha source-manager issues comments create --help`
+
+### `gcloud alpha source-manager issues comments delete`
+
+**What it does:** delete a Secure Source.
+
+**Usage help:** `gcloud alpha source-manager issues comments delete --help`
+
+### `gcloud alpha source-manager issues comments describe`
+
+**What it does:** describe a Secure.
+
+**Usage help:** `gcloud alpha source-manager issues comments describe --help`
+
+### `gcloud alpha source-manager issues comments list`
+
+**What it does:** list Secure Source.
+
+**Usage help:** `gcloud alpha source-manager issues comments list --help`
+
+### `gcloud alpha source-manager issues comments update`
+
+**What it does:** update a Secure Source.
+
+**Usage help:** `gcloud alpha source-manager issues comments update --help`
+
+### `gcloud alpha source-manager issues create`
+
+**What it does:** create a Secure Source Manager.
+
+**Usage help:** `gcloud alpha source-manager issues create --help`
+
+### `gcloud alpha source-manager issues delete`
+
+**What it does:** delete a Secure Source Manager.
+
+**Usage help:** `gcloud alpha source-manager issues delete --help`
+
+### `gcloud alpha source-manager issues describe`
+
+**What it does:** describe a Secure Source.
+
+**Usage help:** `gcloud alpha source-manager issues describe --help`
+
+### `gcloud alpha source-manager issues list`
+
+**What it does:** list Secure Source Manager issues.
+
+**Usage help:** `gcloud alpha source-manager issues list --help`
+
+### `gcloud alpha source-manager issues open`
+
+**What it does:** open a Secure Source Manager.
+
+**Usage help:** `gcloud alpha source-manager issues open --help`
+
+### `gcloud alpha source-manager issues update`
+
+**What it does:** update a Secure Source Manager.
+
+**Usage help:** `gcloud alpha source-manager issues update --help`
+
 ### `gcloud alpha source-manager locations`
 
 **What it does:** manage Secure Source Manager.
@@ -37847,6 +41145,114 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Secure Source Manager.
 
 **Usage help:** `gcloud alpha source-manager operations list --help`
+
+### `gcloud alpha source-manager pull-requests`
+
+**What it does:** manage Secure Source Manager.
+
+**Usage help:** `gcloud alpha source-manager pull-requests --help`
+
+### `gcloud alpha source-manager pull-requests close`
+
+**What it does:** close a Secure Source.
+
+**Usage help:** `gcloud alpha source-manager pull-requests close --help`
+
+### `gcloud alpha source-manager pull-requests comments`
+
+**What it does:** manage Secure Source.
+
+**Usage help:** `gcloud alpha source-manager pull-requests comments --help`
+
+### `gcloud alpha source-manager pull-requests comments batch-create`
+
+**What it does:** batch.
+
+**Usage help:** `gcloud alpha source-manager pull-requests comments batch-create --help`
+
+### `gcloud alpha source-manager pull-requests comments create`
+
+**What it does:** create a Secure.
+
+**Usage help:** `gcloud alpha source-manager pull-requests comments create --help`
+
+### `gcloud alpha source-manager pull-requests comments delete`
+
+**What it does:** delete a Secure.
+
+**Usage help:** `gcloud alpha source-manager pull-requests comments delete --help`
+
+### `gcloud alpha source-manager pull-requests comments describe`
+
+**What it does:** describe a.
+
+**Usage help:** `gcloud alpha source-manager pull-requests comments describe --help`
+
+### `gcloud alpha source-manager pull-requests comments list`
+
+**What it does:** list Secure.
+
+**Usage help:** `gcloud alpha source-manager pull-requests comments list --help`
+
+### `gcloud alpha source-manager pull-requests comments resolve`
+
+**What it does:** resolve Secure.
+
+**Usage help:** `gcloud alpha source-manager pull-requests comments resolve --help`
+
+### `gcloud alpha source-manager pull-requests comments unresolve`
+
+**What it does:** unresolve.
+
+**Usage help:** `gcloud alpha source-manager pull-requests comments unresolve --help`
+
+### `gcloud alpha source-manager pull-requests comments update`
+
+**What it does:** update a Secure.
+
+**Usage help:** `gcloud alpha source-manager pull-requests comments update --help`
+
+### `gcloud alpha source-manager pull-requests create`
+
+**What it does:** create a Secure Source.
+
+**Usage help:** `gcloud alpha source-manager pull-requests create --help`
+
+### `gcloud alpha source-manager pull-requests describe`
+
+**What it does:** describe a Secure.
+
+**Usage help:** `gcloud alpha source-manager pull-requests describe --help`
+
+### `gcloud alpha source-manager pull-requests list`
+
+**What it does:** list Secure Source Manager.
+
+**Usage help:** `gcloud alpha source-manager pull-requests list --help`
+
+### `gcloud alpha source-manager pull-requests list-file-diffs`
+
+**What it does:** list Secure.
+
+**Usage help:** `gcloud alpha source-manager pull-requests list-file-diffs --help`
+
+### `gcloud alpha source-manager pull-requests merge`
+
+**What it does:** merge a Secure Source.
+
+**Usage help:** `gcloud alpha source-manager pull-requests merge --help`
+
+### `gcloud alpha source-manager pull-requests open`
+
+**What it does:** open a Secure Source.
+
+**Usage help:** `gcloud alpha source-manager pull-requests open --help`
+
+### `gcloud alpha source-manager pull-requests update`
+
+**What it does:** update a Secure Source.
+
+**Usage help:** `gcloud alpha source-manager pull-requests update --help`
 
 ### `gcloud alpha source-manager repos`
 
@@ -38536,6 +41942,42 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha sql backups restore --help`
 
+### `gcloud alpha sql blue-green-deployments`
+
+**What it does:** provide commands for managing.
+
+**Usage help:** `gcloud alpha sql blue-green-deployments --help`
+
+### `gcloud alpha sql blue-green-deployments create`
+
+**What it does:** creates a Cloud SQL.
+
+**Usage help:** `gcloud alpha sql blue-green-deployments create --help`
+
+### `gcloud alpha sql blue-green-deployments delete`
+
+**What it does:** deletes a Cloud SQL.
+
+**Usage help:** `gcloud alpha sql blue-green-deployments delete --help`
+
+### `gcloud alpha sql blue-green-deployments describe`
+
+**What it does:** retrieves information.
+
+**Usage help:** `gcloud alpha sql blue-green-deployments describe --help`
+
+### `gcloud alpha sql blue-green-deployments list`
+
+**What it does:** lists Cloud SQL blue-green.
+
+**Usage help:** `gcloud alpha sql blue-green-deployments list --help`
+
+### `gcloud alpha sql blue-green-deployments switchover`
+
+**What it does:** performs switchover.
+
+**Usage help:** `gcloud alpha sql blue-green-deployments switchover --help`
+
 ### `gcloud alpha sql connect`
 
 **What it does:** connects to a Cloud SQL instance.
@@ -39072,6 +42514,24 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha storage batch-operations --help`
 
+### `gcloud alpha storage batch-operations bucket-operations`
+
+**What it does:** manage Cloud.
+
+**Usage help:** `gcloud alpha storage batch-operations bucket-operations --help`
+
+### `gcloud alpha storage batch-operations bucket-operations describe`
+
+**What it does:** describe.
+
+**Usage help:** `gcloud alpha storage batch-operations bucket-operations describe --help`
+
+### `gcloud alpha storage batch-operations bucket-operations list`
+
+**What it does:** list bucket.
+
+**Usage help:** `gcloud alpha storage batch-operations bucket-operations list --help`
+
 ### `gcloud alpha storage batch-operations jobs`
 
 **What it does:** manage Cloud Storage batch.
@@ -39149,12 +42609,6 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list all Anywhere Cache.
 
 **Usage help:** `gcloud alpha storage buckets anywhere-caches list --help`
-
-### `gcloud alpha storage buckets anywhere-caches pause`
-
-**What it does:** pause Anywhere Cache.
-
-**Usage help:** `gcloud alpha storage buckets anywhere-caches pause --help`
 
 ### `gcloud alpha storage buckets anywhere-caches resume`
 
@@ -39276,6 +42730,42 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha storage du --help`
 
+### `gcloud alpha storage feature-configs`
+
+**What it does:** manage Google Cloud Storage Smart.
+
+**Usage help:** `gcloud alpha storage feature-configs --help`
+
+### `gcloud alpha storage feature-configs create`
+
+**What it does:** create a new Feature Config.
+
+**Usage help:** `gcloud alpha storage feature-configs create --help`
+
+### `gcloud alpha storage feature-configs delete`
+
+**What it does:** delete a Feature Config.
+
+**Usage help:** `gcloud alpha storage feature-configs delete --help`
+
+### `gcloud alpha storage feature-configs describe`
+
+**What it does:** describe a Feature Config.
+
+**Usage help:** `gcloud alpha storage feature-configs describe --help`
+
+### `gcloud alpha storage feature-configs list`
+
+**What it does:** list Cloud Storage Smart.
+
+**Usage help:** `gcloud alpha storage feature-configs list --help`
+
+### `gcloud alpha storage feature-configs update`
+
+**What it does:** update a Feature Config.
+
+**Usage help:** `gcloud alpha storage feature-configs update --help`
+
 ### `gcloud alpha storage folders`
 
 **What it does:** manage Cloud Storage folders.
@@ -39305,6 +42795,96 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list folders.
 
 **Usage help:** `gcloud alpha storage folders list --help`
+
+### `gcloud alpha storage ftp`
+
+**What it does:** a command group for managing Cloud FTP servers.
+
+**Usage help:** `gcloud alpha storage ftp --help`
+
+### `gcloud alpha storage ftp servers`
+
+**What it does:** manage Cloud FTP server resources.
+
+**Usage help:** `gcloud alpha storage ftp servers --help`
+
+### `gcloud alpha storage ftp servers create`
+
+**What it does:** create a new Cloud FTP server.
+
+**Usage help:** `gcloud alpha storage ftp servers create --help`
+
+### `gcloud alpha storage ftp servers delete`
+
+**What it does:** delete a Cloud FTP server.
+
+**Usage help:** `gcloud alpha storage ftp servers delete --help`
+
+### `gcloud alpha storage ftp servers describe`
+
+**What it does:** describe an existing Cloud FTP.
+
+**Usage help:** `gcloud alpha storage ftp servers describe --help`
+
+### `gcloud alpha storage ftp servers list`
+
+**What it does:** list Cloud FTP servers.
+
+**Usage help:** `gcloud alpha storage ftp servers list --help`
+
+### `gcloud alpha storage ftp servers start`
+
+**What it does:** start a Cloud FTP server.
+
+**Usage help:** `gcloud alpha storage ftp servers start --help`
+
+### `gcloud alpha storage ftp servers stop`
+
+**What it does:** stop a Cloud FTP server.
+
+**Usage help:** `gcloud alpha storage ftp servers stop --help`
+
+### `gcloud alpha storage ftp servers update`
+
+**What it does:** update an existing Cloud FTP.
+
+**Usage help:** `gcloud alpha storage ftp servers update --help`
+
+### `gcloud alpha storage ftp users`
+
+**What it does:** manage Cloud FTP user resources.
+
+**Usage help:** `gcloud alpha storage ftp users --help`
+
+### `gcloud alpha storage ftp users create`
+
+**What it does:** create a new Cloud FTP user.
+
+**Usage help:** `gcloud alpha storage ftp users create --help`
+
+### `gcloud alpha storage ftp users delete`
+
+**What it does:** delete a Cloud FTP user.
+
+**Usage help:** `gcloud alpha storage ftp users delete --help`
+
+### `gcloud alpha storage ftp users describe`
+
+**What it does:** describe an existing Cloud FTP.
+
+**Usage help:** `gcloud alpha storage ftp users describe --help`
+
+### `gcloud alpha storage ftp users list`
+
+**What it does:** list Cloud FTP users.
+
+**Usage help:** `gcloud alpha storage ftp users list --help`
+
+### `gcloud alpha storage ftp users update`
+
+**What it does:** update an existing Cloud FTP user.
+
+**Usage help:** `gcloud alpha storage ftp users update --help`
 
 ### `gcloud alpha storage hash`
 
@@ -39702,6 +43282,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha storage sign-url --help`
 
+### `gcloud alpha storage tail`
+
+**What it does:** outputs the last parts (the tail) of an object.
+
+**Usage help:** `gcloud alpha storage tail --help`
+
 ## survey
 
 ### `gcloud alpha survey`
@@ -39723,6 +43309,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** acknowledge the lease on a task in a pull.
 
 **Usage help:** `gcloud alpha tasks acknowledge --help`
+
+### `gcloud alpha tasks batch-create`
+
+**What it does:** create multiple tasks from a file in a.
+
+**Usage help:** `gcloud alpha tasks batch-create --help`
 
 ### `gcloud alpha tasks buffer`
 
@@ -39774,7 +43366,7 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud alpha tasks delete`
 
-**What it does:** delete a task from a queue.
+**What it does:** delete a task or multiple tasks from a queue.
 
 **Usage help:** `gcloud alpha tasks delete --help`
 
@@ -39927,62 +43519,6 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** force a task to run now.
 
 **Usage help:** `gcloud alpha tasks run --help`
-
-## telco-automation
-
-### `gcloud alpha telco-automation`
-
-**What it does:** manage Telco Automation resources.
-
-**Usage help:** `gcloud alpha telco-automation --help`
-
-### `gcloud alpha telco-automation operations`
-
-**What it does:** command group for working with.
-
-**Usage help:** `gcloud alpha telco-automation operations --help`
-
-### `gcloud alpha telco-automation operations describe`
-
-**What it does:** get description of a.
-
-**Usage help:** `gcloud alpha telco-automation operations describe --help`
-
-### `gcloud alpha telco-automation operations wait`
-
-**What it does:** poll long-running telco.
-
-**Usage help:** `gcloud alpha telco-automation operations wait --help`
-
-### `gcloud alpha telco-automation orchestration-cluster`
-
-**What it does:** manage telco.
-
-**Usage help:** `gcloud alpha telco-automation orchestration-cluster --help`
-
-### `gcloud alpha telco-automation orchestration-cluster create`
-
-**What it does:** create a telco.
-
-**Usage help:** `gcloud alpha telco-automation orchestration-cluster create --help`
-
-### `gcloud alpha telco-automation orchestration-cluster delete`
-
-**What it does:** delete a telco.
-
-**Usage help:** `gcloud alpha telco-automation orchestration-cluster delete --help`
-
-### `gcloud alpha telco-automation orchestration-cluster describe`
-
-**What it does:** show details.
-
-**Usage help:** `gcloud alpha telco-automation orchestration-cluster describe --help`
-
-### `gcloud alpha telco-automation orchestration-cluster list`
-
-**What it does:** list telco.
-
-**Usage help:** `gcloud alpha telco-automation orchestration-cluster list --help`
 
 ## terraform
 
@@ -40282,7 +43818,7 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud alpha transfer authorize`
 
-**What it does:** authorize an account for all Transfer.
+**What it does:** authorize an account for all Storage.
 
 **Usage help:** `gcloud alpha transfer authorize --help`
 
@@ -40500,6 +44036,32 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud alpha workload-identity service-agents generate --help`
 
+## workload-manager
+
+### `gcloud alpha workload-manager`
+
+**What it does:** manage Workload Manager resources.
+
+**Usage help:** `gcloud alpha workload-manager --help`
+
+### `gcloud alpha workload-manager evaluations`
+
+**What it does:** manage Workload Manager.
+
+**Usage help:** `gcloud alpha workload-manager evaluations --help`
+
+### `gcloud alpha workload-manager evaluations describe`
+
+**What it does:** describe a Workload.
+
+**Usage help:** `gcloud alpha workload-manager evaluations describe --help`
+
+### `gcloud alpha workload-manager evaluations list`
+
+**What it does:** list Workload Manager.
+
+**Usage help:** `gcloud alpha workload-manager evaluations list --help`
+
 ## workstations
 
 ### `gcloud alpha workstations`
@@ -40657,6 +44219,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** stop a workstation.
 
 **Usage help:** `gcloud alpha workstations stop --help`
+
+### `gcloud alpha workstations suspend`
+
+**What it does:** suspend a workstation to reduce costs.
+
+**Usage help:** `gcloud alpha workstations suspend --help`
+
+### `gcloud alpha workstations update`
+
+**What it does:** update a workstation.
+
+**Usage help:** `gcloud alpha workstations update --help`
 
 ## zone-management
 

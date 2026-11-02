@@ -1,14 +1,14 @@
 # Complete gcloud GA Command Reference
 
-> Generated: **2026-10-26 10:09 UTC**  
-> CLI: **Google Cloud SDK 568.0.0**  
+> Generated: **2026-11-02 12:26 UTC**  
+> CLI: **Google Cloud SDK 591.0.0**  
 > Source: installed Google Cloud CLI command tree and built-in `--help` text
 
 Each entry includes the command and a short explanation taken from the same installed CLI release.
 
 Official reference: https://cloud.google.com/sdk/gcloud/reference
 
-**Commands in this snapshot: 6,628**
+**Commands in this snapshot: 7,258**
 
 ## access-approval
 
@@ -166,7 +166,7 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud access-context-manager cloud-bindings update`
 
-**What it does:** update a existing.
+**What it does:** update an existing.
 
 **Usage help:** `gcloud access-context-manager cloud-bindings update --help`
 
@@ -223,6 +223,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update an existing access.
 
 **Usage help:** `gcloud access-context-manager levels update --help`
+
+### `gcloud access-context-manager lookup-configured-perimeter`
+
+**What it does:** look up the.
+
+**Usage help:** `gcloud access-context-manager lookup-configured-perimeter --help`
 
 ### `gcloud access-context-manager perimeters`
 
@@ -627,6 +633,478 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update a Managed Microsoft Active.
 
 **Usage help:** `gcloud active-directory peerings update --help`
+
+## agent-identity
+
+### `gcloud agent-identity`
+
+**What it does:** manage Agent Identity resources.
+
+**Usage help:** `gcloud agent-identity --help`
+
+### `gcloud agent-identity access-summaries`
+
+**What it does:** manage Access Summary resources.
+
+**Usage help:** `gcloud agent-identity access-summaries --help`
+
+### `gcloud agent-identity access-summaries describe`
+
+**What it does:** describe an access.
+
+**Usage help:** `gcloud agent-identity access-summaries describe --help`
+
+### `gcloud agent-identity access-summaries list`
+
+**What it does:** list access summaries.
+
+**Usage help:** `gcloud agent-identity access-summaries list --help`
+
+### `gcloud agent-identity auth-providers`
+
+**What it does:** manage Auth Provider resources.
+
+**Usage help:** `gcloud agent-identity auth-providers --help`
+
+### `gcloud agent-identity auth-providers add-iam-policy-binding`
+
+**What it does:** add IAM.
+
+**Usage help:** `gcloud agent-identity auth-providers add-iam-policy-binding --help`
+
+### `gcloud agent-identity auth-providers authorizations`
+
+**What it does:** manage Authorization.
+
+**Usage help:** `gcloud agent-identity auth-providers authorizations --help`
+
+### `gcloud agent-identity auth-providers authorizations delete`
+
+**What it does:** delete an.
+
+**Usage help:** `gcloud agent-identity auth-providers authorizations delete --help`
+
+### `gcloud agent-identity auth-providers authorizations describe`
+
+**What it does:** describe an.
+
+**Usage help:** `gcloud agent-identity auth-providers authorizations describe --help`
+
+### `gcloud agent-identity auth-providers authorizations list`
+
+**What it does:** list.
+
+**Usage help:** `gcloud agent-identity auth-providers authorizations list --help`
+
+### `gcloud agent-identity auth-providers create`
+
+**What it does:** create an auth provider.
+
+**Usage help:** `gcloud agent-identity auth-providers create --help`
+
+### `gcloud agent-identity auth-providers delete`
+
+**What it does:** delete an auth provider.
+
+**Usage help:** `gcloud agent-identity auth-providers delete --help`
+
+### `gcloud agent-identity auth-providers describe`
+
+**What it does:** describe an auth provider.
+
+**Usage help:** `gcloud agent-identity auth-providers describe --help`
+
+### `gcloud agent-identity auth-providers disable`
+
+**What it does:** disable an auth provider.
+
+**Usage help:** `gcloud agent-identity auth-providers disable --help`
+
+### `gcloud agent-identity auth-providers enable`
+
+**What it does:** enable an auth provider.
+
+**Usage help:** `gcloud agent-identity auth-providers enable --help`
+
+### `gcloud agent-identity auth-providers get-iam-policy`
+
+**What it does:** get the IAM policy.
+
+**Usage help:** `gcloud agent-identity auth-providers get-iam-policy --help`
+
+### `gcloud agent-identity auth-providers list`
+
+**What it does:** list auth providers.
+
+**Usage help:** `gcloud agent-identity auth-providers list --help`
+
+### `gcloud agent-identity auth-providers query`
+
+**What it does:** query auth providers used by a.
+
+**Usage help:** `gcloud agent-identity auth-providers query --help`
+
+### `gcloud agent-identity auth-providers query-workloads`
+
+**What it does:** query workloads.
+
+**Usage help:** `gcloud agent-identity auth-providers query-workloads --help`
+
+### `gcloud agent-identity auth-providers remove-iam-policy-binding`
+
+**What it does:** remove IAM.
+
+**Usage help:** `gcloud agent-identity auth-providers remove-iam-policy-binding --help`
+
+### `gcloud agent-identity auth-providers revoke-authorization`
+
+**What it does:** revoke.
+
+**Usage help:** `gcloud agent-identity auth-providers revoke-authorization --help`
+
+### `gcloud agent-identity auth-providers set-iam-policy`
+
+**What it does:** set the IAM policy.
+
+**Usage help:** `gcloud agent-identity auth-providers set-iam-policy --help`
+
+### `gcloud agent-identity auth-providers test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud agent-identity auth-providers test-iam-permissions --help`
+
+### `gcloud agent-identity auth-providers undelete`
+
+**What it does:** undelete an auth provider.
+
+**Usage help:** `gcloud agent-identity auth-providers undelete --help`
+
+### `gcloud agent-identity auth-providers update`
+
+**What it does:** update an auth provider.
+
+**Usage help:** `gcloud agent-identity auth-providers update --help`
+
+## agent-registry
+
+### `gcloud agent-registry`
+
+**What it does:** manage Agent Registry resources.
+
+**Usage help:** `gcloud agent-registry --help`
+
+### `gcloud agent-registry agents`
+
+**What it does:** manage Agent resources.
+
+**Usage help:** `gcloud agent-registry agents --help`
+
+### `gcloud agent-registry agents describe`
+
+**What it does:** get details of an agent.
+
+**Usage help:** `gcloud agent-registry agents describe --help`
+
+### `gcloud agent-registry agents list`
+
+**What it does:** list accessible agents.
+
+**Usage help:** `gcloud agent-registry agents list --help`
+
+### `gcloud agent-registry agents search`
+
+**What it does:** search for agents matching a query.
+
+**Usage help:** `gcloud agent-registry agents search --help`
+
+### `gcloud agent-registry bindings`
+
+**What it does:** manage Binding resources.
+
+**Usage help:** `gcloud agent-registry bindings --help`
+
+### `gcloud agent-registry bindings create`
+
+**What it does:** create a new binding.
+
+**Usage help:** `gcloud agent-registry bindings create --help`
+
+### `gcloud agent-registry bindings delete`
+
+**What it does:** delete a binding connection.
+
+**Usage help:** `gcloud agent-registry bindings delete --help`
+
+### `gcloud agent-registry bindings describe`
+
+**What it does:** retrieve binding details.
+
+**Usage help:** `gcloud agent-registry bindings describe --help`
+
+### `gcloud agent-registry bindings fetch-available`
+
+**What it does:** fetch bindings.
+
+**Usage help:** `gcloud agent-registry bindings fetch-available --help`
+
+### `gcloud agent-registry bindings list`
+
+**What it does:** list bindings.
+
+**Usage help:** `gcloud agent-registry bindings list --help`
+
+### `gcloud agent-registry bindings update`
+
+**What it does:** modify binding parameters.
+
+**Usage help:** `gcloud agent-registry bindings update --help`
+
+### `gcloud agent-registry endpoints`
+
+**What it does:** manage Endpoint resources.
+
+**Usage help:** `gcloud agent-registry endpoints --help`
+
+### `gcloud agent-registry endpoints describe`
+
+**What it does:** retrieve endpoint details.
+
+**Usage help:** `gcloud agent-registry endpoints describe --help`
+
+### `gcloud agent-registry endpoints list`
+
+**What it does:** enumerate service endpoints.
+
+**Usage help:** `gcloud agent-registry endpoints list --help`
+
+### `gcloud agent-registry findings`
+
+**What it does:** manage Finding resources.
+
+**Usage help:** `gcloud agent-registry findings --help`
+
+### `gcloud agent-registry findings describe`
+
+**What it does:** get details of a finding.
+
+**Usage help:** `gcloud agent-registry findings describe --help`
+
+### `gcloud agent-registry findings list`
+
+**What it does:** list findings.
+
+**Usage help:** `gcloud agent-registry findings list --help`
+
+### `gcloud agent-registry mcp-servers`
+
+**What it does:** manage Mcp Server resources.
+
+**Usage help:** `gcloud agent-registry mcp-servers --help`
+
+### `gcloud agent-registry mcp-servers describe`
+
+**What it does:** get details of an MCP server.
+
+**Usage help:** `gcloud agent-registry mcp-servers describe --help`
+
+### `gcloud agent-registry mcp-servers list`
+
+**What it does:** list registered MCP servers.
+
+**Usage help:** `gcloud agent-registry mcp-servers list --help`
+
+### `gcloud agent-registry mcp-servers search`
+
+**What it does:** search MCP servers matching.
+
+**Usage help:** `gcloud agent-registry mcp-servers search --help`
+
+### `gcloud agent-registry operations`
+
+**What it does:** manage Operation resources.
+
+**Usage help:** `gcloud agent-registry operations --help`
+
+### `gcloud agent-registry operations cancel`
+
+**What it does:** cancel operations.
+
+**Usage help:** `gcloud agent-registry operations cancel --help`
+
+### `gcloud agent-registry operations delete`
+
+**What it does:** delete operations.
+
+**Usage help:** `gcloud agent-registry operations delete --help`
+
+### `gcloud agent-registry operations describe`
+
+**What it does:** describe operations.
+
+**Usage help:** `gcloud agent-registry operations describe --help`
+
+### `gcloud agent-registry operations list`
+
+**What it does:** list operations.
+
+**Usage help:** `gcloud agent-registry operations list --help`
+
+### `gcloud agent-registry operations wait`
+
+**What it does:** wait operations.
+
+**Usage help:** `gcloud agent-registry operations wait --help`
+
+### `gcloud agent-registry publishers`
+
+**What it does:** manage Publisher resources.
+
+**Usage help:** `gcloud agent-registry publishers --help`
+
+### `gcloud agent-registry publishers describe`
+
+**What it does:** describe publishers.
+
+**Usage help:** `gcloud agent-registry publishers describe --help`
+
+### `gcloud agent-registry publishers list`
+
+**What it does:** list publishers.
+
+**Usage help:** `gcloud agent-registry publishers list --help`
+
+### `gcloud agent-registry services`
+
+**What it does:** manage Service resources.
+
+**Usage help:** `gcloud agent-registry services --help`
+
+### `gcloud agent-registry services create`
+
+**What it does:** register a new service.
+
+**Usage help:** `gcloud agent-registry services create --help`
+
+### `gcloud agent-registry services delete`
+
+**What it does:** remove a registered service.
+
+**Usage help:** `gcloud agent-registry services delete --help`
+
+### `gcloud agent-registry services describe`
+
+**What it does:** get details of a registered.
+
+**Usage help:** `gcloud agent-registry services describe --help`
+
+### `gcloud agent-registry services list`
+
+**What it does:** list registered services.
+
+**Usage help:** `gcloud agent-registry services list --help`
+
+### `gcloud agent-registry services update`
+
+**What it does:** modify service parameters.
+
+**Usage help:** `gcloud agent-registry services update --help`
+
+### `gcloud agent-registry skills`
+
+**What it does:** manage Skill resources.
+
+**Usage help:** `gcloud agent-registry skills --help`
+
+### `gcloud agent-registry skills add-iam-policy-binding`
+
+**What it does:** add IAM policy.
+
+**Usage help:** `gcloud agent-registry skills add-iam-policy-binding --help`
+
+### `gcloud agent-registry skills create`
+
+**What it does:** create skills.
+
+**Usage help:** `gcloud agent-registry skills create --help`
+
+### `gcloud agent-registry skills delete`
+
+**What it does:** delete skills.
+
+**Usage help:** `gcloud agent-registry skills delete --help`
+
+### `gcloud agent-registry skills describe`
+
+**What it does:** describe skills.
+
+**Usage help:** `gcloud agent-registry skills describe --help`
+
+### `gcloud agent-registry skills get-iam-policy`
+
+**What it does:** get the IAM policy for a.
+
+**Usage help:** `gcloud agent-registry skills get-iam-policy --help`
+
+### `gcloud agent-registry skills list`
+
+**What it does:** list skills.
+
+**Usage help:** `gcloud agent-registry skills list --help`
+
+### `gcloud agent-registry skills remove-iam-policy-binding`
+
+**What it does:** remove IAM policy.
+
+**Usage help:** `gcloud agent-registry skills remove-iam-policy-binding --help`
+
+### `gcloud agent-registry skills revisions`
+
+**What it does:** manage Skill Revision resources.
+
+**Usage help:** `gcloud agent-registry skills revisions --help`
+
+### `gcloud agent-registry skills revisions create`
+
+**What it does:** create a Skill Revision.
+
+**Usage help:** `gcloud agent-registry skills revisions create --help`
+
+### `gcloud agent-registry skills revisions delete`
+
+**What it does:** delete skillRevisions.
+
+**Usage help:** `gcloud agent-registry skills revisions delete --help`
+
+### `gcloud agent-registry skills revisions describe`
+
+**What it does:** describe skillRevisions.
+
+**Usage help:** `gcloud agent-registry skills revisions describe --help`
+
+### `gcloud agent-registry skills revisions list`
+
+**What it does:** list skillRevisions.
+
+**Usage help:** `gcloud agent-registry skills revisions list --help`
+
+### `gcloud agent-registry skills search`
+
+**What it does:** search skills.
+
+**Usage help:** `gcloud agent-registry skills search --help`
+
+### `gcloud agent-registry skills set-iam-policy`
+
+**What it does:** set the IAM policy for a.
+
+**Usage help:** `gcloud agent-registry skills set-iam-policy --help`
+
+### `gcloud agent-registry skills update`
+
+**What it does:** update skills.
+
+**Usage help:** `gcloud agent-registry skills update --help`
 
 ## ai
 
@@ -1086,6 +1564,66 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud ai persistent-resources reboot --help`
 
+### `gcloud ai semantic-governance-policies`
+
+**What it does:** manage Vertex AI Semantic.
+
+**Usage help:** `gcloud ai semantic-governance-policies --help`
+
+### `gcloud ai semantic-governance-policies create`
+
+**What it does:** create a new semantic.
+
+**Usage help:** `gcloud ai semantic-governance-policies create --help`
+
+### `gcloud ai semantic-governance-policies delete`
+
+**What it does:** delete a semantic.
+
+**Usage help:** `gcloud ai semantic-governance-policies delete --help`
+
+### `gcloud ai semantic-governance-policies describe`
+
+**What it does:** describe a semantic.
+
+**Usage help:** `gcloud ai semantic-governance-policies describe --help`
+
+### `gcloud ai semantic-governance-policies list`
+
+**What it does:** list semantic governance.
+
+**Usage help:** `gcloud ai semantic-governance-policies list --help`
+
+### `gcloud ai semantic-governance-policies update`
+
+**What it does:** update a semantic.
+
+**Usage help:** `gcloud ai semantic-governance-policies update --help`
+
+### `gcloud ai semantic-governance-policy-engine`
+
+**What it does:** manage Vertex AI Semantic.
+
+**Usage help:** `gcloud ai semantic-governance-policy-engine --help`
+
+### `gcloud ai semantic-governance-policy-engine deprovision`
+
+**What it does:** deprovision the.
+
+**Usage help:** `gcloud ai semantic-governance-policy-engine deprovision --help`
+
+### `gcloud ai semantic-governance-policy-engine describe`
+
+**What it does:** describe the.
+
+**Usage help:** `gcloud ai semantic-governance-policy-engine describe --help`
+
+### `gcloud ai semantic-governance-policy-engine update`
+
+**What it does:** update the semantic.
+
+**Usage help:** `gcloud ai semantic-governance-policy-engine update --help`
+
 ### `gcloud ai tensorboards`
 
 **What it does:** manage Vertex AI Tensorboards.
@@ -1121,6 +1659,36 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update an existing Vertex AI Tensorboard.
 
 **Usage help:** `gcloud ai tensorboards update --help`
+
+### `gcloud ai tuning-jobs`
+
+**What it does:** manage Vertex AI tuning jobs.
+
+**Usage help:** `gcloud ai tuning-jobs --help`
+
+### `gcloud ai tuning-jobs cancel`
+
+**What it does:** cancel a running tuning job.
+
+**Usage help:** `gcloud ai tuning-jobs cancel --help`
+
+### `gcloud ai tuning-jobs create`
+
+**What it does:** create a supervised fine-tuning job.
+
+**Usage help:** `gcloud ai tuning-jobs create --help`
+
+### `gcloud ai tuning-jobs describe`
+
+**What it does:** get detail information about the tuning.
+
+**Usage help:** `gcloud ai tuning-jobs describe --help`
+
+### `gcloud ai tuning-jobs list`
+
+**What it does:** list existing tuning jobs.
+
+**Usage help:** `gcloud ai tuning-jobs list --help`
 
 ## ai-platform
 
@@ -1882,9 +2450,15 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud apigee apis --help`
 
+### `gcloud apigee apis delete`
+
+**What it does:** delete an Apigee API proxy.
+
+**Usage help:** `gcloud apigee apis delete --help`
+
 ### `gcloud apigee apis deploy`
 
-**What it does:** deploy an API proxy to an environment.
+**What it does:** deploy an Apigee API proxy to an environment.
 
 **Usage help:** `gcloud apigee apis deploy --help`
 
@@ -1893,6 +2467,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** describe an Apigee API proxy.
 
 **Usage help:** `gcloud apigee apis describe --help`
+
+### `gcloud apigee apis import`
+
+**What it does:** import an Apigee API proxy from local files.
+
+**Usage help:** `gcloud apigee apis import --help`
 
 ### `gcloud apigee apis list`
 
@@ -2478,6 +3058,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud apihub host-project-registrations list --help`
 
+### `gcloud apihub locations`
+
+**What it does:** location-scoped operations for API Hub.
+
+**Usage help:** `gcloud apihub locations --help`
+
+### `gcloud apihub locations configure-and-deploy-server`
+
+**What it does:** configure and deploy.
+
+**Usage help:** `gcloud apihub locations configure-and-deploy-server --help`
+
 ### `gcloud apihub operations`
 
 **What it does:** manage Operation resources.
@@ -2996,6 +3588,74 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud app versions stop --help`
 
+## app-topology
+
+### `gcloud app-topology`
+
+**What it does:** manage App Topology resources and query topology.
+
+**Usage help:** `gcloud app-topology --help`
+
+### `gcloud app-topology domains`
+
+**What it does:** view App Topology domains.
+
+**Usage help:** `gcloud app-topology domains --help`
+
+### `gcloud app-topology domains describe`
+
+**What it does:** describe an App Topology domain.
+
+**Usage help:** `gcloud app-topology domains describe --help`
+
+### `gcloud app-topology domains list`
+
+**What it does:** list App Topology domains.
+
+**Usage help:** `gcloud app-topology domains list --help`
+
+### `gcloud app-topology domains schema`
+
+**What it does:** view App Topology domain schemas.
+
+**Usage help:** `gcloud app-topology domains schema --help`
+
+### `gcloud app-topology domains schema describe`
+
+**What it does:** describe the schema for an.
+
+**Usage help:** `gcloud app-topology domains schema describe --help`
+
+### `gcloud app-topology locations`
+
+**What it does:** view App Topology locations.
+
+**Usage help:** `gcloud app-topology locations --help`
+
+### `gcloud app-topology locations describe`
+
+**What it does:** describe an App Topology location.
+
+**Usage help:** `gcloud app-topology locations describe --help`
+
+### `gcloud app-topology locations list`
+
+**What it does:** list App Topology locations.
+
+**Usage help:** `gcloud app-topology locations list --help`
+
+### `gcloud app-topology resources-graph`
+
+**What it does:** query and generate resource topology.
+
+**Usage help:** `gcloud app-topology resources-graph --help`
+
+### `gcloud app-topology resources-graph generate`
+
+**What it does:** generate a resource topology.
+
+**Usage help:** `gcloud app-topology resources-graph generate --help`
+
 ## apphub
 
 ### `gcloud apphub`
@@ -3462,6 +4122,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud artifacts files update --help`
 
+### `gcloud artifacts files upload`
+
+**What it does:** uploads files to Artifact Registry.
+
+**Usage help:** `gcloud artifacts files upload --help`
+
 ### `gcloud artifacts generic`
 
 **What it does:** manage Artifact Registry generic artifacts.
@@ -3497,6 +4163,36 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** upload a Go module to an artifact repository.
 
 **Usage help:** `gcloud artifacts go upload --help`
+
+### `gcloud artifacts image-streaming-cache`
+
+**What it does:** manage Artifact Registry image.
+
+**Usage help:** `gcloud artifacts image-streaming-cache --help`
+
+### `gcloud artifacts image-streaming-cache create`
+
+**What it does:** initiates the prewarming of.
+
+**Usage help:** `gcloud artifacts image-streaming-cache create --help`
+
+### `gcloud artifacts image-streaming-cache delete`
+
+**What it does:** removes the prewarmed state.
+
+**Usage help:** `gcloud artifacts image-streaming-cache delete --help`
+
+### `gcloud artifacts image-streaming-cache describe`
+
+**What it does:** checks and describes the.
+
+**Usage help:** `gcloud artifacts image-streaming-cache describe --help`
+
+### `gcloud artifacts image-streaming-cache list`
+
+**What it does:** lists artifacts that are.
+
+**Usage help:** `gcloud artifacts image-streaming-cache list --help`
 
 ### `gcloud artifacts locations`
 
@@ -4175,6 +4871,36 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** generate Audit Report.
 
 **Usage help:** `gcloud audit-manager audit-reports generate --help`
+
+### `gcloud audit-manager audit-schedules`
+
+**What it does:** command group for Audit Manager.
+
+**Usage help:** `gcloud audit-manager audit-schedules --help`
+
+### `gcloud audit-manager audit-schedules create`
+
+**What it does:** create Audit Schedule.
+
+**Usage help:** `gcloud audit-manager audit-schedules create --help`
+
+### `gcloud audit-manager audit-schedules describe`
+
+**What it does:** describe Audit Schedule.
+
+**Usage help:** `gcloud audit-manager audit-schedules describe --help`
+
+### `gcloud audit-manager audit-schedules list`
+
+**What it does:** list Audit Schedules.
+
+**Usage help:** `gcloud audit-manager audit-schedules list --help`
+
+### `gcloud audit-manager audit-schedules update`
+
+**What it does:** update Audit Schedule.
+
+**Usage help:** `gcloud audit-manager audit-schedules update --help`
 
 ### `gcloud audit-manager audit-scopes`
 
@@ -4863,6 +5589,246 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** create and manage Google Cloud BigLake resources.
 
 **Usage help:** `gcloud biglake --help`
+
+### `gcloud biglake data-product-sharing`
+
+**What it does:** manage sharing of Knowledge Catalog.
+
+**Usage help:** `gcloud biglake data-product-sharing --help`
+
+### `gcloud biglake data-product-sharing publish`
+
+**What it does:** publish a Knowledge Catalog.
+
+**Usage help:** `gcloud biglake data-product-sharing publish --help`
+
+### `gcloud biglake delta-sharing`
+
+**What it does:** biglake Delta Sharing Catalogs.
+
+**Usage help:** `gcloud biglake delta-sharing --help`
+
+### `gcloud biglake delta-sharing catalogs`
+
+**What it does:** biglake Delta Sharing Catalogs.
+
+**Usage help:** `gcloud biglake delta-sharing catalogs --help`
+
+### `gcloud biglake delta-sharing catalogs create`
+
+**What it does:** create a BigLake Delta.
+
+**Usage help:** `gcloud biglake delta-sharing catalogs create --help`
+
+### `gcloud biglake delta-sharing catalogs delete`
+
+**What it does:** delete a BigLake Delta.
+
+**Usage help:** `gcloud biglake delta-sharing catalogs delete --help`
+
+### `gcloud biglake delta-sharing catalogs describe`
+
+**What it does:** describe a BigLake Delta.
+
+**Usage help:** `gcloud biglake delta-sharing catalogs describe --help`
+
+### `gcloud biglake delta-sharing catalogs list`
+
+**What it does:** list BigLake Delta Sharing.
+
+**Usage help:** `gcloud biglake delta-sharing catalogs list --help`
+
+### `gcloud biglake delta-sharing catalogs update`
+
+**What it does:** update a BigLake Delta.
+
+**Usage help:** `gcloud biglake delta-sharing catalogs update --help`
+
+### `gcloud biglake delta-sharing schemas`
+
+**What it does:** biglake Delta Sharing Schemas.
+
+**Usage help:** `gcloud biglake delta-sharing schemas --help`
+
+### `gcloud biglake delta-sharing schemas list`
+
+**What it does:** list BigLake Delta Sharing.
+
+**Usage help:** `gcloud biglake delta-sharing schemas list --help`
+
+### `gcloud biglake delta-sharing shares`
+
+**What it does:** biglake Delta Sharing Shares.
+
+**Usage help:** `gcloud biglake delta-sharing shares --help`
+
+### `gcloud biglake delta-sharing shares list`
+
+**What it does:** list BigLake Delta Sharing.
+
+**Usage help:** `gcloud biglake delta-sharing shares list --help`
+
+### `gcloud biglake delta-sharing tables`
+
+**What it does:** biglake Delta Sharing Tables.
+
+**Usage help:** `gcloud biglake delta-sharing tables --help`
+
+### `gcloud biglake delta-sharing tables list`
+
+**What it does:** list BigLake Delta Sharing.
+
+**Usage help:** `gcloud biglake delta-sharing tables list --help`
+
+### `gcloud biglake hive`
+
+**What it does:** biglake Hive Catalogs.
+
+**Usage help:** `gcloud biglake hive --help`
+
+### `gcloud biglake hive catalogs`
+
+**What it does:** manage BigLake Hive catalogs.
+
+**Usage help:** `gcloud biglake hive catalogs --help`
+
+### `gcloud biglake hive catalogs create`
+
+**What it does:** create a BigLake Hive catalog.
+
+**Usage help:** `gcloud biglake hive catalogs create --help`
+
+### `gcloud biglake hive catalogs delete`
+
+**What it does:** delete a BigLake Hive catalog.
+
+**Usage help:** `gcloud biglake hive catalogs delete --help`
+
+### `gcloud biglake hive catalogs describe`
+
+**What it does:** describe a BigLake Hive catalog.
+
+**Usage help:** `gcloud biglake hive catalogs describe --help`
+
+### `gcloud biglake hive catalogs get-iam-policy`
+
+**What it does:** get the IAM policy for a.
+
+**Usage help:** `gcloud biglake hive catalogs get-iam-policy --help`
+
+### `gcloud biglake hive catalogs list`
+
+**What it does:** list BigLake Hive catalogs.
+
+**Usage help:** `gcloud biglake hive catalogs list --help`
+
+### `gcloud biglake hive catalogs set-iam-policy`
+
+**What it does:** set the IAM policy for a.
+
+**Usage help:** `gcloud biglake hive catalogs set-iam-policy --help`
+
+### `gcloud biglake hive catalogs update`
+
+**What it does:** update a BigLake Hive catalog.
+
+**Usage help:** `gcloud biglake hive catalogs update --help`
+
+### `gcloud biglake hive databases`
+
+**What it does:** manage BigLake Hive databases.
+
+**Usage help:** `gcloud biglake hive databases --help`
+
+### `gcloud biglake hive databases create`
+
+**What it does:** creates a BigLake Hive database.
+
+**Usage help:** `gcloud biglake hive databases create --help`
+
+### `gcloud biglake hive databases delete`
+
+**What it does:** deletes a BigLake Hive database.
+
+**Usage help:** `gcloud biglake hive databases delete --help`
+
+### `gcloud biglake hive databases describe`
+
+**What it does:** describes a BigLake Hive database.
+
+**Usage help:** `gcloud biglake hive databases describe --help`
+
+### `gcloud biglake hive databases get-iam-policy`
+
+**What it does:** get the IAM policy for a.
+
+**Usage help:** `gcloud biglake hive databases get-iam-policy --help`
+
+### `gcloud biglake hive databases list`
+
+**What it does:** list BigLake Hive databases in a.
+
+**Usage help:** `gcloud biglake hive databases list --help`
+
+### `gcloud biglake hive databases set-iam-policy`
+
+**What it does:** set the IAM policy for a.
+
+**Usage help:** `gcloud biglake hive databases set-iam-policy --help`
+
+### `gcloud biglake hive databases update`
+
+**What it does:** updates a BigLake Hive database.
+
+**Usage help:** `gcloud biglake hive databases update --help`
+
+### `gcloud biglake hive tables`
+
+**What it does:** manage BigLake Hive catalog tables.
+
+**Usage help:** `gcloud biglake hive tables --help`
+
+### `gcloud biglake hive tables create`
+
+**What it does:** create a BigLake Hive table.
+
+**Usage help:** `gcloud biglake hive tables create --help`
+
+### `gcloud biglake hive tables delete`
+
+**What it does:** deletes a BigLake Hive table.
+
+**Usage help:** `gcloud biglake hive tables delete --help`
+
+### `gcloud biglake hive tables describe`
+
+**What it does:** describes a BigLake Hive table.
+
+**Usage help:** `gcloud biglake hive tables describe --help`
+
+### `gcloud biglake hive tables get-iam-policy`
+
+**What it does:** get the IAM policy for a.
+
+**Usage help:** `gcloud biglake hive tables get-iam-policy --help`
+
+### `gcloud biglake hive tables list`
+
+**What it does:** list BigLake Hive tables in a database.
+
+**Usage help:** `gcloud biglake hive tables list --help`
+
+### `gcloud biglake hive tables set-iam-policy`
+
+**What it does:** set the IAM policy for a.
+
+**Usage help:** `gcloud biglake hive tables set-iam-policy --help`
+
+### `gcloud biglake hive tables update`
+
+**What it does:** update a BigLake Hive table.
+
+**Usage help:** `gcloud biglake hive tables update --help`
 
 ### `gcloud biglake iceberg`
 
@@ -6748,6 +7714,80 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud cloudlocationfinder cloud-locations search --help`
 
+## cluster-director
+
+### `gcloud cluster-director`
+
+**What it does:** manage Cluster Director resources.
+
+**Usage help:** `gcloud cluster-director --help`
+
+### `gcloud cluster-director clusters`
+
+**What it does:** deploy and manage large-scale AI and.
+
+**Usage help:** `gcloud cluster-director clusters --help`
+
+### `gcloud cluster-director clusters create`
+
+**What it does:** creates a Cluster Director.
+
+**Usage help:** `gcloud cluster-director clusters create --help`
+
+### `gcloud cluster-director clusters delete`
+
+**What it does:** deletes a Cluster Director.
+
+**Usage help:** `gcloud cluster-director clusters delete --help`
+
+### `gcloud cluster-director clusters describe`
+
+**What it does:** gets details of a Cluster.
+
+**Usage help:** `gcloud cluster-director clusters describe --help`
+
+### `gcloud cluster-director clusters list`
+
+**What it does:** list Cluster Director resources.
+
+**Usage help:** `gcloud cluster-director clusters list --help`
+
+### `gcloud cluster-director clusters update`
+
+**What it does:** updates a Cluster Director.
+
+**Usage help:** `gcloud cluster-director clusters update --help`
+
+### `gcloud cluster-director locations`
+
+**What it does:** view supported locations.
+
+**Usage help:** `gcloud cluster-director locations --help`
+
+### `gcloud cluster-director locations describe`
+
+**What it does:** describe locations.
+
+**Usage help:** `gcloud cluster-director locations describe --help`
+
+### `gcloud cluster-director locations list`
+
+**What it does:** list locations.
+
+**Usage help:** `gcloud cluster-director locations list --help`
+
+### `gcloud cluster-director operations`
+
+**What it does:** manage Operation resources.
+
+**Usage help:** `gcloud cluster-director operations --help`
+
+### `gcloud cluster-director operations describe`
+
+**What it does:** describe operations.
+
+**Usage help:** `gcloud cluster-director operations describe --help`
+
 ## colab
 
 ### `gcloud colab`
@@ -7021,6 +8061,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list framework.
 
 **Usage help:** `gcloud compliance-manager framework-deployments list --help`
+
+### `gcloud compliance-manager framework-deployments update`
+
+**What it does:** update a framework.
+
+**Usage help:** `gcloud compliance-manager framework-deployments update --help`
 
 ### `gcloud compliance-manager frameworks`
 
@@ -7538,6 +8584,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud compute advice calendar-mode --help`
 
+### `gcloud compute advice capacity`
+
+**What it does:** get capacity advice for Compute Engine.
+
+**Usage help:** `gcloud compute advice capacity --help`
+
+### `gcloud compute advice capacity-history`
+
+**What it does:** show historical data on Spot VMs.
+
+**Usage help:** `gcloud compute advice capacity-history --help`
+
 ### `gcloud compute backend-buckets`
 
 **What it does:** read and manipulate backend buckets.
@@ -7603,6 +8661,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** set the IAM policy binding.
 
 **Usage help:** `gcloud compute backend-buckets set-iam-policy --help`
+
+### `gcloud compute backend-buckets test-iam-permissions`
+
+**What it does:** test IAM permissions.
+
+**Usage help:** `gcloud compute backend-buckets test-iam-permissions --help`
 
 ### `gcloud compute backend-buckets update`
 
@@ -7730,6 +8794,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud compute backend-services set-iam-policy --help`
 
+### `gcloud compute backend-services test-iam-permissions`
+
+**What it does:** test IAM permissions.
+
+**Usage help:** `gcloud compute backend-services test-iam-permissions --help`
+
 ### `gcloud compute backend-services update`
 
 **What it does:** update a backend service.
@@ -7813,6 +8883,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list composite health checks.
 
 **Usage help:** `gcloud compute composite-health-checks list --help`
+
+### `gcloud compute composite-health-checks test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud compute composite-health-checks test-iam-permissions --help`
 
 ### `gcloud compute composite-health-checks update`
 
@@ -7910,6 +8986,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud compute disks bulk create --help`
 
+### `gcloud compute disks bulk set-labels`
+
+**What it does:** add or remove labels on multiple.
+
+**Usage help:** `gcloud compute disks bulk set-labels --help`
+
 ### `gcloud compute disks convert`
 
 **What it does:** convert a Compute Engine Persistent Disk.
@@ -8006,6 +9088,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud compute disks stop-group-async-replication --help`
 
+### `gcloud compute disks test-iam-permissions`
+
+**What it does:** test IAM permissions for a.
+
+**Usage help:** `gcloud compute disks test-iam-permissions --help`
+
 ### `gcloud compute disks update`
 
 **What it does:** update a Compute Engine Hyperdisk or.
@@ -8047,6 +9135,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Google Compute Engine.
 
 **Usage help:** `gcloud compute external-vpn-gateways list --help`
+
+### `gcloud compute external-vpn-gateways test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud compute external-vpn-gateways test-iam-permissions --help`
 
 ### `gcloud compute external-vpn-gateways update`
 
@@ -8114,6 +9208,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud compute firewall-policies export-rules --help`
 
+### `gcloud compute firewall-policies get-iam-policy`
+
+**What it does:** get the IAM policy for a.
+
+**Usage help:** `gcloud compute firewall-policies get-iam-policy --help`
+
 ### `gcloud compute firewall-policies import-rules`
 
 **What it does:** import Compute Engine.
@@ -8167,6 +9267,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** updates a Compute Engine.
 
 **Usage help:** `gcloud compute firewall-policies rules update --help`
+
+### `gcloud compute firewall-policies set-iam-policy`
+
+**What it does:** set the IAM policy for a.
+
+**Usage help:** `gcloud compute firewall-policies set-iam-policy --help`
+
+### `gcloud compute firewall-policies test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud compute firewall-policies test-iam-permissions --help`
 
 ### `gcloud compute firewall-policies update`
 
@@ -8450,6 +9562,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud compute health-checks list --help`
 
+### `gcloud compute health-checks test-iam-permissions`
+
+**What it does:** test IAM permissions.
+
+**Usage help:** `gcloud compute health-checks test-iam-permissions --help`
+
 ### `gcloud compute health-checks update`
 
 **What it does:** update health checks for load.
@@ -8534,11 +9652,41 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud compute health-sources list --help`
 
+### `gcloud compute health-sources test-iam-permissions`
+
+**What it does:** test IAM permissions.
+
+**Usage help:** `gcloud compute health-sources test-iam-permissions --help`
+
 ### `gcloud compute health-sources update`
 
 **What it does:** update a health source.
 
 **Usage help:** `gcloud compute health-sources update --help`
+
+### `gcloud compute hosts`
+
+**What it does:** read Compute Engine hosts.
+
+**Usage help:** `gcloud compute hosts --help`
+
+### `gcloud compute hosts describe`
+
+**What it does:** describe a Google Compute Engine host.
+
+**Usage help:** `gcloud compute hosts describe --help`
+
+### `gcloud compute hosts get-version`
+
+**What it does:** get software versions for a Compute.
+
+**Usage help:** `gcloud compute hosts get-version --help`
+
+### `gcloud compute hosts list`
+
+**What it does:** list Google Compute Engine hosts.
+
+**Usage help:** `gcloud compute hosts list --help`
 
 ### `gcloud compute http-health-checks`
 
@@ -8569,6 +9717,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Google Compute Engine health.
 
 **Usage help:** `gcloud compute http-health-checks list --help`
+
+### `gcloud compute http-health-checks test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud compute http-health-checks test-iam-permissions --help`
 
 ### `gcloud compute http-health-checks update`
 
@@ -8611,6 +9765,24 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update a legacy HTTPS health.
 
 **Usage help:** `gcloud compute https-health-checks update --help`
+
+### `gcloud compute image-views`
+
+**What it does:** read image-view resources with regional.
+
+**Usage help:** `gcloud compute image-views --help`
+
+### `gcloud compute image-views describe`
+
+**What it does:** describe a Compute Engine image-view.
+
+**Usage help:** `gcloud compute image-views describe --help`
+
+### `gcloud compute image-views list`
+
+**What it does:** list Compute Engine image-view resources.
+
+**Usage help:** `gcloud compute image-views list --help`
 
 ### `gcloud compute images`
 
@@ -8701,6 +9873,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** set the IAM policy for a Compute.
 
 **Usage help:** `gcloud compute images set-iam-policy --help`
+
+### `gcloud compute images test-iam-permissions`
+
+**What it does:** test IAM permissions for a.
+
+**Usage help:** `gcloud compute images test-iam-permissions --help`
 
 ### `gcloud compute images update`
 
@@ -9122,11 +10300,23 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud compute instance-templates describe --help`
 
+### `gcloud compute instance-templates export`
+
+**What it does:** export an instance template.
+
+**Usage help:** `gcloud compute instance-templates export --help`
+
 ### `gcloud compute instance-templates get-iam-policy`
 
 **What it does:** get the IAM policy for a.
 
 **Usage help:** `gcloud compute instance-templates get-iam-policy --help`
+
+### `gcloud compute instance-templates import`
+
+**What it does:** import an instance template.
+
+**Usage help:** `gcloud compute instance-templates import --help`
 
 ### `gcloud compute instance-templates list`
 
@@ -9145,6 +10335,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** set the IAM policy for a.
 
 **Usage help:** `gcloud compute instance-templates set-iam-policy --help`
+
+### `gcloud compute instance-templates test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud compute instance-templates test-iam-permissions --help`
 
 ### `gcloud compute instances`
 
@@ -9289,6 +10485,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Compute Engine instances.
 
 **Usage help:** `gcloud compute instances list --help`
+
+### `gcloud compute instances list-referrers`
+
+**What it does:** list referrers to a Compute.
+
+**Usage help:** `gcloud compute instances list-referrers --help`
 
 ### `gcloud compute instances network-interfaces`
 
@@ -9452,6 +10654,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud compute instances set-iam-policy --help`
 
+### `gcloud compute instances set-machine-resources`
+
+**What it does:** set machine resources for.
+
+**Usage help:** `gcloud compute instances set-machine-resources --help`
+
 ### `gcloud compute instances set-machine-type`
 
 **What it does:** set machine type for Compute.
@@ -9505,6 +10713,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** periodically fetch new.
 
 **Usage help:** `gcloud compute instances tail-serial-port-output --help`
+
+### `gcloud compute instances test-iam-permissions`
+
+**What it does:** test IAM permissions for a.
+
+**Usage help:** `gcloud compute instances test-iam-permissions --help`
 
 ### `gcloud compute instances update`
 
@@ -9560,6 +10774,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud compute instant-snapshot-groups list --help`
 
+### `gcloud compute instant-snapshot-groups set-iam-policy`
+
+**What it does:** set the IAM policy.
+
+**Usage help:** `gcloud compute instant-snapshot-groups set-iam-policy --help`
+
+### `gcloud compute instant-snapshot-groups test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud compute instant-snapshot-groups test-iam-permissions --help`
+
 ### `gcloud compute instant-snapshots`
 
 **What it does:** create, list and delete Compute Engine.
@@ -9595,6 +10821,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Google Compute Engine instant.
 
 **Usage help:** `gcloud compute instant-snapshots list --help`
+
+### `gcloud compute instant-snapshots set-iam-policy`
+
+**What it does:** set the IAM policy.
+
+**Usage help:** `gcloud compute instant-snapshots set-iam-policy --help`
 
 ### `gcloud compute interconnects`
 
@@ -9727,6 +10959,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** remove.
 
 **Usage help:** `gcloud compute interconnects attachments groups remove-members --help`
+
+### `gcloud compute interconnects attachments groups set-iam-policy`
+
+**What it does:** set the.
+
+**Usage help:** `gcloud compute interconnects attachments groups set-iam-policy --help`
+
+### `gcloud compute interconnects attachments groups test-iam-permissions`
+
+**What it does:** test.
+
+**Usage help:** `gcloud compute interconnects attachments groups test-iam-permissions --help`
 
 ### `gcloud compute interconnects attachments groups update`
 
@@ -9920,6 +11164,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud compute interconnects groups remove-members --help`
 
+### `gcloud compute interconnects groups set-iam-policy`
+
+**What it does:** set the IAM policy for.
+
+**Usage help:** `gcloud compute interconnects groups set-iam-policy --help`
+
 ### `gcloud compute interconnects groups update`
 
 **What it does:** update a Compute Engine.
@@ -10003,6 +11253,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Google Compute.
 
 **Usage help:** `gcloud compute interconnects remote-locations list --help`
+
+### `gcloud compute interconnects set-name`
+
+**What it does:** set the name of a Compute Engine.
+
+**Usage help:** `gcloud compute interconnects set-name --help`
 
 ### `gcloud compute interconnects update`
 
@@ -10130,6 +11386,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud compute machine-images set-iam-policy --help`
 
+### `gcloud compute machine-images test-iam-permissions`
+
+**What it does:** test IAM permissions.
+
+**Usage help:** `gcloud compute machine-images test-iam-permissions --help`
+
 ### `gcloud compute machine-types`
 
 **What it does:** read Compute Engine virtual machine types.
@@ -10147,6 +11409,24 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Google Compute Engine machine.
 
 **Usage help:** `gcloud compute machine-types list --help`
+
+### `gcloud compute managed-rulesets`
+
+**What it does:** read Cloud Armor managed rulesets.
+
+**Usage help:** `gcloud compute managed-rulesets --help`
+
+### `gcloud compute managed-rulesets describe`
+
+**What it does:** describe a Cloud Armor managed.
+
+**Usage help:** `gcloud compute managed-rulesets describe --help`
+
+### `gcloud compute managed-rulesets list`
+
+**What it does:** list pre-configured Cloud Armor.
+
+**Usage help:** `gcloud compute managed-rulesets list --help`
 
 ### `gcloud compute migration`
 
@@ -10256,6 +11536,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud compute network-attachments list --help`
 
+### `gcloud compute network-attachments set-iam-policy`
+
+**What it does:** set the IAM policy for.
+
+**Usage help:** `gcloud compute network-attachments set-iam-policy --help`
+
+### `gcloud compute network-attachments test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud compute network-attachments test-iam-permissions --help`
+
 ### `gcloud compute network-attachments update`
 
 **What it does:** update a Google Compute Engine.
@@ -10364,6 +11656,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud compute network-firewall-policies associations delete --help`
 
+### `gcloud compute network-firewall-policies associations update`
+
+**What it does:** update.
+
+**Usage help:** `gcloud compute network-firewall-policies associations update --help`
+
 ### `gcloud compute network-firewall-policies clone-rules`
 
 **What it does:** replace the rules of.
@@ -10399,6 +11697,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** get the.
 
 **Usage help:** `gcloud compute network-firewall-policies get-effective-firewalls --help`
+
+### `gcloud compute network-firewall-policies get-iam-policy`
+
+**What it does:** get the IAM.
+
+**Usage help:** `gcloud compute network-firewall-policies get-iam-policy --help`
 
 ### `gcloud compute network-firewall-policies import-rules`
 
@@ -10471,6 +11775,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** updates a Compute.
 
 **Usage help:** `gcloud compute network-firewall-policies rules update --help`
+
+### `gcloud compute network-firewall-policies set-iam-policy`
+
+**What it does:** set the IAM.
+
+**Usage help:** `gcloud compute network-firewall-policies set-iam-policy --help`
+
+### `gcloud compute network-firewall-policies test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud compute network-firewall-policies test-iam-permissions --help`
 
 ### `gcloud compute network-firewall-policies update`
 
@@ -10645,6 +11961,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** set the IAM policy for a.
 
 **Usage help:** `gcloud compute networks subnets set-iam-policy --help`
+
+### `gcloud compute networks subnets test-iam-permissions`
+
+**What it does:** test IAM permissions.
+
+**Usage help:** `gcloud compute networks subnets test-iam-permissions --help`
 
 ### `gcloud compute networks subnets update`
 
@@ -11216,6 +12538,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud compute packet-mirrorings list --help`
 
+### `gcloud compute packet-mirrorings test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud compute packet-mirrorings test-iam-permissions --help`
+
 ### `gcloud compute packet-mirrorings update`
 
 **What it does:** update a Compute Engine packet.
@@ -11275,6 +12603,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update a Compute Engine project.
 
 **Usage help:** `gcloud compute project-info update --help`
+
+### `gcloud compute project-views`
+
+**What it does:** read project views with regional context.
+
+**Usage help:** `gcloud compute project-views --help`
+
+### `gcloud compute project-views describe`
+
+**What it does:** describe the Compute Engine.
+
+**Usage help:** `gcloud compute project-views describe --help`
 
 ### `gcloud compute project-zonal-metadata`
 
@@ -11444,6 +12784,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud compute reservations blocks perform-maintenance --help`
 
+### `gcloud compute reservations blocks set-iam-policy`
+
+**What it does:** set the IAM policy for.
+
+**Usage help:** `gcloud compute reservations blocks set-iam-policy --help`
+
 ### `gcloud compute reservations create`
 
 **What it does:** create a Compute Engine reservation.
@@ -11467,6 +12813,30 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** get the IAM policy for a.
 
 **Usage help:** `gcloud compute reservations get-iam-policy --help`
+
+### `gcloud compute reservations hosts`
+
+**What it does:** read Compute Engine reservation hosts.
+
+**Usage help:** `gcloud compute reservations hosts --help`
+
+### `gcloud compute reservations hosts describe`
+
+**What it does:** describe a Google Compute.
+
+**Usage help:** `gcloud compute reservations hosts describe --help`
+
+### `gcloud compute reservations hosts get-version`
+
+**What it does:** get software versions for a.
+
+**Usage help:** `gcloud compute reservations hosts get-version --help`
+
+### `gcloud compute reservations hosts list`
+
+**What it does:** list Google Compute Engine hosts.
+
+**Usage help:** `gcloud compute reservations hosts list --help`
 
 ### `gcloud compute reservations list`
 
@@ -11503,6 +12873,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** describe a Compute Engine.
 
 **Usage help:** `gcloud compute reservations slots describe --help`
+
+### `gcloud compute reservations slots get-health`
+
+**What it does:** get the health of a.
+
+**Usage help:** `gcloud compute reservations slots get-health --help`
 
 ### `gcloud compute reservations slots get-version`
 
@@ -11551,6 +12927,24 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** report a.
 
 **Usage help:** `gcloud compute reservations sub-blocks report-subblock-as-faulty --help`
+
+### `gcloud compute reservations sub-blocks set-iam-policy`
+
+**What it does:** set the IAM policy.
+
+**Usage help:** `gcloud compute reservations sub-blocks set-iam-policy --help`
+
+### `gcloud compute reservations sub-blocks test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud compute reservations sub-blocks test-iam-permissions --help`
+
+### `gcloud compute reservations test-iam-permissions`
+
+**What it does:** test IAM permissions for.
+
+**Usage help:** `gcloud compute reservations test-iam-permissions --help`
 
 ### `gcloud compute reservations update`
 
@@ -11635,6 +13029,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** set the IAM policy for a.
 
 **Usage help:** `gcloud compute resource-policies set-iam-policy --help`
+
+### `gcloud compute resource-policies test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud compute resource-policies test-iam-permissions --help`
 
 ### `gcloud compute resource-policies update`
 
@@ -11732,6 +13132,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud compute routers add-interface --help`
 
+### `gcloud compute routers add-named-set`
+
+**What it does:** add an empty named set to a Compute.
+
+**Usage help:** `gcloud compute routers add-named-set --help`
+
+### `gcloud compute routers add-named-set-element`
+
+**What it does:** adds an element to an.
+
+**Usage help:** `gcloud compute routers add-named-set-element --help`
+
 ### `gcloud compute routers add-route-policy`
 
 **What it does:** add an empty route policy to a.
@@ -11762,11 +13174,23 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud compute routers describe --help`
 
+### `gcloud compute routers download-named-set`
+
+**What it does:** download a named set from a.
+
+**Usage help:** `gcloud compute routers download-named-set --help`
+
 ### `gcloud compute routers download-route-policy`
 
 **What it does:** download a route policy from.
 
 **Usage help:** `gcloud compute routers download-route-policy --help`
+
+### `gcloud compute routers get-named-set`
+
+**What it does:** get a named set from a Compute.
+
+**Usage help:** `gcloud compute routers get-named-set --help`
 
 ### `gcloud compute routers get-nat-ip-info`
 
@@ -11803,6 +13227,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list routes advertised and learned.
 
 **Usage help:** `gcloud compute routers list-bgp-routes --help`
+
+### `gcloud compute routers list-named-sets`
+
+**What it does:** list named sets from a Compute.
+
+**Usage help:** `gcloud compute routers list-named-sets --help`
 
 ### `gcloud compute routers list-route-policies`
 
@@ -11894,6 +13324,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud compute routers remove-interface --help`
 
+### `gcloud compute routers remove-named-set`
+
+**What it does:** remove a named set from a Compute.
+
+**Usage help:** `gcloud compute routers remove-named-set --help`
+
+### `gcloud compute routers remove-named-set-element`
+
+**What it does:** remove an element from a.
+
+**Usage help:** `gcloud compute routers remove-named-set-element --help`
+
 ### `gcloud compute routers remove-route-policy`
 
 **What it does:** remove a route policy from a.
@@ -11929,6 +13371,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** updates a term of an.
 
 **Usage help:** `gcloud compute routers update-route-policy-term --help`
+
+### `gcloud compute routers upload-named-set`
+
+**What it does:** upload a named set into a Compute.
+
+**Usage help:** `gcloud compute routers upload-named-set --help`
 
 ### `gcloud compute routers upload-route-policy`
 
@@ -12122,6 +13570,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud compute service-attachments list --help`
 
+### `gcloud compute service-attachments set-iam-policy`
+
+**What it does:** set the IAM policy for.
+
+**Usage help:** `gcloud compute service-attachments set-iam-policy --help`
+
 ### `gcloud compute service-attachments update`
 
 **What it does:** update a Google Compute Engine.
@@ -12284,6 +13738,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud compute snapshots set-iam-policy --help`
 
+### `gcloud compute snapshots test-iam-permissions`
+
+**What it does:** test IAM permissions for a.
+
+**Usage help:** `gcloud compute snapshots test-iam-permissions --help`
+
 ### `gcloud compute snapshots update`
 
 **What it does:** update a Compute Engine snapshot.
@@ -12374,6 +13834,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud compute sole-tenancy node-groups simulate-maintenance-event --help`
 
+### `gcloud compute sole-tenancy node-groups test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud compute sole-tenancy node-groups test-iam-permissions --help`
+
 ### `gcloud compute sole-tenancy node-groups update`
 
 **What it does:** update a Compute Engine.
@@ -12433,6 +13899,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** set the IAM.
 
 **Usage help:** `gcloud compute sole-tenancy node-templates set-iam-policy --help`
+
+### `gcloud compute sole-tenancy node-templates test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud compute sole-tenancy node-templates test-iam-permissions --help`
 
 ### `gcloud compute sole-tenancy node-types`
 
@@ -12728,6 +14200,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud compute target-https-proxies list --help`
 
+### `gcloud compute target-https-proxies set-quic-override`
+
+**What it does:** set the QUIC.
+
+**Usage help:** `gcloud compute target-https-proxies set-quic-override --help`
+
 ### `gcloud compute target-https-proxies update`
 
 **What it does:** update a target HTTPS proxy.
@@ -12872,6 +14350,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud compute target-ssl-proxies list --help`
 
+### `gcloud compute target-ssl-proxies test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud compute target-ssl-proxies test-iam-permissions --help`
+
 ### `gcloud compute target-ssl-proxies update`
 
 **What it does:** update a target SSL proxy.
@@ -12907,6 +14391,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Google Compute Engine target.
 
 **Usage help:** `gcloud compute target-tcp-proxies list --help`
+
+### `gcloud compute target-tcp-proxies test-iam-permissions`
+
+**What it does:** test IAM.
+
+**Usage help:** `gcloud compute target-tcp-proxies test-iam-permissions --help`
 
 ### `gcloud compute target-tcp-proxies update`
 
@@ -13268,6 +14758,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud compute url-maps set-default-service --help`
 
+### `gcloud compute url-maps test-iam-permissions`
+
+**What it does:** test IAM permissions for a.
+
+**Usage help:** `gcloud compute url-maps test-iam-permissions --help`
+
 ### `gcloud compute url-maps validate`
 
 **What it does:** validate a URL map.
@@ -13309,6 +14805,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Google Compute Engine Highly.
 
 **Usage help:** `gcloud compute vpn-gateways list --help`
+
+### `gcloud compute vpn-gateways test-iam-permissions`
+
+**What it does:** test IAM permissions for.
+
+**Usage help:** `gcloud compute vpn-gateways test-iam-permissions --help`
 
 ### `gcloud compute vpn-gateways update`
 
@@ -14304,6 +15806,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud container clusters check-autopilot-compatibility --help`
 
+### `gcloud container clusters complete-control-plane-upgrade`
+
+**What it does:** complete the.
+
+**Usage help:** `gcloud container clusters complete-control-plane-upgrade --help`
+
 ### `gcloud container clusters create`
 
 **What it does:** create a cluster for running containers.
@@ -14441,6 +15949,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** disable the Config.
 
 **Usage help:** `gcloud container fleet config-management disable --help`
+
+### `gcloud container fleet config-management update`
+
+**What it does:** update the Config.
+
+**Usage help:** `gcloud container fleet config-management update --help`
 
 ### `gcloud container fleet create`
 
@@ -15060,6 +16574,96 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud container fleet rbacrolebindingactuation update --help`
 
+### `gcloud container fleet rollouts`
+
+**What it does:** manage rollouts.
+
+**Usage help:** `gcloud container fleet rollouts --help`
+
+### `gcloud container fleet rollouts cancel`
+
+**What it does:** cancel a rollout.
+
+**Usage help:** `gcloud container fleet rollouts cancel --help`
+
+### `gcloud container fleet rollouts delete`
+
+**What it does:** delete a rollout resource.
+
+**Usage help:** `gcloud container fleet rollouts delete --help`
+
+### `gcloud container fleet rollouts describe`
+
+**What it does:** describe a fleet rollout.
+
+**Usage help:** `gcloud container fleet rollouts describe --help`
+
+### `gcloud container fleet rollouts force-complete-stage`
+
+**What it does:** force-complete a.
+
+**Usage help:** `gcloud container fleet rollouts force-complete-stage --help`
+
+### `gcloud container fleet rollouts list`
+
+**What it does:** list all fleet rollouts.
+
+**Usage help:** `gcloud container fleet rollouts list --help`
+
+### `gcloud container fleet rollouts pause`
+
+**What it does:** pause a rollout resource.
+
+**Usage help:** `gcloud container fleet rollouts pause --help`
+
+### `gcloud container fleet rollouts resume`
+
+**What it does:** resume a rollout resource.
+
+**Usage help:** `gcloud container fleet rollouts resume --help`
+
+### `gcloud container fleet rolloutsequences`
+
+**What it does:** create and manage rollout.
+
+**Usage help:** `gcloud container fleet rolloutsequences --help`
+
+### `gcloud container fleet rolloutsequences create`
+
+**What it does:** create a rollout sequence.
+
+**Usage help:** `gcloud container fleet rolloutsequences create --help`
+
+### `gcloud container fleet rolloutsequences delete`
+
+**What it does:** delete a rollout sequence.
+
+**Usage help:** `gcloud container fleet rolloutsequences delete --help`
+
+### `gcloud container fleet rolloutsequences describe`
+
+**What it does:** describe a rollout.
+
+**Usage help:** `gcloud container fleet rolloutsequences describe --help`
+
+### `gcloud container fleet rolloutsequences list`
+
+**What it does:** list all rollout sequences.
+
+**Usage help:** `gcloud container fleet rolloutsequences list --help`
+
+### `gcloud container fleet rolloutsequences update`
+
+**What it does:** update a rollout sequence.
+
+**Usage help:** `gcloud container fleet rolloutsequences update --help`
+
+### `gcloud container fleet rolloutsequences upgrade`
+
+**What it does:** upgrade the clusters in a.
+
+**Usage help:** `gcloud container fleet rolloutsequences upgrade --help`
+
 ### `gcloud container fleet scopes`
 
 **What it does:** manage scopes of all your GKE fleets.
@@ -15329,6 +16933,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** disable the Config.
 
 **Usage help:** `gcloud container hub config-management disable --help`
+
+### `gcloud container hub config-management update`
+
+**What it does:** update the Config.
+
+**Usage help:** `gcloud container hub config-management update --help`
 
 ### `gcloud container hub create`
 
@@ -15947,6 +17557,96 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update.
 
 **Usage help:** `gcloud container hub rbacrolebindingactuation update --help`
+
+### `gcloud container hub rollouts`
+
+**What it does:** manage rollouts.
+
+**Usage help:** `gcloud container hub rollouts --help`
+
+### `gcloud container hub rollouts cancel`
+
+**What it does:** cancel a rollout.
+
+**Usage help:** `gcloud container hub rollouts cancel --help`
+
+### `gcloud container hub rollouts delete`
+
+**What it does:** delete a rollout resource.
+
+**Usage help:** `gcloud container hub rollouts delete --help`
+
+### `gcloud container hub rollouts describe`
+
+**What it does:** describe a fleet rollout.
+
+**Usage help:** `gcloud container hub rollouts describe --help`
+
+### `gcloud container hub rollouts force-complete-stage`
+
+**What it does:** force-complete a.
+
+**Usage help:** `gcloud container hub rollouts force-complete-stage --help`
+
+### `gcloud container hub rollouts list`
+
+**What it does:** list all fleet rollouts.
+
+**Usage help:** `gcloud container hub rollouts list --help`
+
+### `gcloud container hub rollouts pause`
+
+**What it does:** pause a rollout resource.
+
+**Usage help:** `gcloud container hub rollouts pause --help`
+
+### `gcloud container hub rollouts resume`
+
+**What it does:** resume a rollout resource.
+
+**Usage help:** `gcloud container hub rollouts resume --help`
+
+### `gcloud container hub rolloutsequences`
+
+**What it does:** create and manage rollout sequences.
+
+**Usage help:** `gcloud container hub rolloutsequences --help`
+
+### `gcloud container hub rolloutsequences create`
+
+**What it does:** create a rollout sequence.
+
+**Usage help:** `gcloud container hub rolloutsequences create --help`
+
+### `gcloud container hub rolloutsequences delete`
+
+**What it does:** delete a rollout sequence.
+
+**Usage help:** `gcloud container hub rolloutsequences delete --help`
+
+### `gcloud container hub rolloutsequences describe`
+
+**What it does:** describe a rollout.
+
+**Usage help:** `gcloud container hub rolloutsequences describe --help`
+
+### `gcloud container hub rolloutsequences list`
+
+**What it does:** list all rollout sequences.
+
+**Usage help:** `gcloud container hub rolloutsequences list --help`
+
+### `gcloud container hub rolloutsequences update`
+
+**What it does:** update a rollout sequence.
+
+**Usage help:** `gcloud container hub rolloutsequences update --help`
+
+### `gcloud container hub rolloutsequences upgrade`
+
+**What it does:** upgrade the clusters in a.
+
+**Usage help:** `gcloud container hub rolloutsequences upgrade --help`
 
 ### `gcloud container hub scopes`
 
@@ -17184,6 +18884,42 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud dataflow --help`
 
+### `gcloud dataflow config-store-settings`
+
+**What it does:** manage Dataflow ConfigStore.
+
+**Usage help:** `gcloud dataflow config-store-settings --help`
+
+### `gcloud dataflow config-store-settings create`
+
+**What it does:** create a new Dataflow.
+
+**Usage help:** `gcloud dataflow config-store-settings create --help`
+
+### `gcloud dataflow config-store-settings delete`
+
+**What it does:** delete a Dataflow.
+
+**Usage help:** `gcloud dataflow config-store-settings delete --help`
+
+### `gcloud dataflow config-store-settings describe`
+
+**What it does:** describe a Dataflow.
+
+**Usage help:** `gcloud dataflow config-store-settings describe --help`
+
+### `gcloud dataflow config-store-settings list`
+
+**What it does:** list Dataflow ConfigStore.
+
+**Usage help:** `gcloud dataflow config-store-settings list --help`
+
+### `gcloud dataflow config-store-settings resolve`
+
+**What it does:** resolve the effective value.
+
+**Usage help:** `gcloud dataflow config-store-settings resolve --help`
+
 ### `gcloud dataflow flex-template`
 
 **What it does:** a group of subcommands for working with.
@@ -17237,6 +18973,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** lists all jobs in a particular project,.
 
 **Usage help:** `gcloud dataflow jobs list --help`
+
+### `gcloud dataflow jobs pause`
+
+**What it does:** starts pausing all given jobs.
+
+**Usage help:** `gcloud dataflow jobs pause --help`
+
+### `gcloud dataflow jobs resume`
+
+**What it does:** starts resuming all given jobs.
+
+**Usage help:** `gcloud dataflow jobs resume --help`
 
 ### `gcloud dataflow jobs run`
 
@@ -17297,6 +19045,134 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** runs a job from the specified path.
 
 **Usage help:** `gcloud dataflow yaml run --help`
+
+## datalineage
+
+### `gcloud datalineage`
+
+**What it does:** manage Google Cloud Data Lineage resources.
+
+**Usage help:** `gcloud datalineage --help`
+
+### `gcloud datalineage config`
+
+**What it does:** manage Data Lineage configurations.
+
+**Usage help:** `gcloud datalineage config --help`
+
+### `gcloud datalineage config describe`
+
+**What it does:** describe Data Lineage configuration.
+
+**Usage help:** `gcloud datalineage config describe --help`
+
+### `gcloud datalineage config update`
+
+**What it does:** update Data Lineage configuration.
+
+**Usage help:** `gcloud datalineage config update --help`
+
+### `gcloud datalineage lineage-events`
+
+**What it does:** manage Data Lineage events.
+
+**Usage help:** `gcloud datalineage lineage-events --help`
+
+### `gcloud datalineage lineage-events create`
+
+**What it does:** create a Data Lineage event.
+
+**Usage help:** `gcloud datalineage lineage-events create --help`
+
+### `gcloud datalineage lineage-events delete`
+
+**What it does:** delete a Data Lineage event.
+
+**Usage help:** `gcloud datalineage lineage-events delete --help`
+
+### `gcloud datalineage lineage-events describe`
+
+**What it does:** describe a Data Lineage event.
+
+**Usage help:** `gcloud datalineage lineage-events describe --help`
+
+### `gcloud datalineage lineage-events list`
+
+**What it does:** list Data Lineage events.
+
+**Usage help:** `gcloud datalineage lineage-events list --help`
+
+### `gcloud datalineage processes`
+
+**What it does:** manage Data Lineage processes.
+
+**Usage help:** `gcloud datalineage processes --help`
+
+### `gcloud datalineage processes create`
+
+**What it does:** create a Data Lineage process.
+
+**Usage help:** `gcloud datalineage processes create --help`
+
+### `gcloud datalineage processes delete`
+
+**What it does:** delete a Data Lineage process.
+
+**Usage help:** `gcloud datalineage processes delete --help`
+
+### `gcloud datalineage processes describe`
+
+**What it does:** describe a Data Lineage process.
+
+**Usage help:** `gcloud datalineage processes describe --help`
+
+### `gcloud datalineage processes list`
+
+**What it does:** list Data Lineage processes.
+
+**Usage help:** `gcloud datalineage processes list --help`
+
+### `gcloud datalineage processes update`
+
+**What it does:** update a data lineage process.
+
+**Usage help:** `gcloud datalineage processes update --help`
+
+### `gcloud datalineage runs`
+
+**What it does:** manage Data Lineage runs.
+
+**Usage help:** `gcloud datalineage runs --help`
+
+### `gcloud datalineage runs create`
+
+**What it does:** create a data lineage run.
+
+**Usage help:** `gcloud datalineage runs create --help`
+
+### `gcloud datalineage runs delete`
+
+**What it does:** delete a Data Lineage run.
+
+**Usage help:** `gcloud datalineage runs delete --help`
+
+### `gcloud datalineage runs describe`
+
+**What it does:** describe a Data Lineage run.
+
+**Usage help:** `gcloud datalineage runs describe --help`
+
+### `gcloud datalineage runs list`
+
+**What it does:** list Data Lineage runs.
+
+**Usage help:** `gcloud datalineage runs list --help`
+
+### `gcloud datalineage runs update`
+
+**What it does:** update a data lineage run.
+
+**Usage help:** `gcloud datalineage runs update --help`
 
 ## dataplex
 
@@ -17450,6 +19326,102 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud dataplex context lookup --help`
 
+### `gcloud dataplex data-products`
+
+**What it does:** manage Dataplex Data Product resources.
+
+**Usage help:** `gcloud dataplex data-products --help`
+
+### `gcloud dataplex data-products add-iam-policy-binding`
+
+**What it does:** add IAM policy.
+
+**Usage help:** `gcloud dataplex data-products add-iam-policy-binding --help`
+
+### `gcloud dataplex data-products create`
+
+**What it does:** create a Dataplex data product.
+
+**Usage help:** `gcloud dataplex data-products create --help`
+
+### `gcloud dataplex data-products data-assets`
+
+**What it does:** manage Dataplex Data Asset.
+
+**Usage help:** `gcloud dataplex data-products data-assets --help`
+
+### `gcloud dataplex data-products data-assets create`
+
+**What it does:** create a Dataplex data.
+
+**Usage help:** `gcloud dataplex data-products data-assets create --help`
+
+### `gcloud dataplex data-products data-assets delete`
+
+**What it does:** delete a Dataplex data.
+
+**Usage help:** `gcloud dataplex data-products data-assets delete --help`
+
+### `gcloud dataplex data-products data-assets describe`
+
+**What it does:** describe a Dataplex.
+
+**Usage help:** `gcloud dataplex data-products data-assets describe --help`
+
+### `gcloud dataplex data-products data-assets list`
+
+**What it does:** list Dataplex data asset.
+
+**Usage help:** `gcloud dataplex data-products data-assets list --help`
+
+### `gcloud dataplex data-products data-assets update`
+
+**What it does:** update a Dataplex data.
+
+**Usage help:** `gcloud dataplex data-products data-assets update --help`
+
+### `gcloud dataplex data-products delete`
+
+**What it does:** delete a Dataplex Data Product.
+
+**Usage help:** `gcloud dataplex data-products delete --help`
+
+### `gcloud dataplex data-products describe`
+
+**What it does:** describe a Dataplex Data Product.
+
+**Usage help:** `gcloud dataplex data-products describe --help`
+
+### `gcloud dataplex data-products get-iam-policy`
+
+**What it does:** get the IAM policy for a.
+
+**Usage help:** `gcloud dataplex data-products get-iam-policy --help`
+
+### `gcloud dataplex data-products list`
+
+**What it does:** list Dataplex Data Product resources.
+
+**Usage help:** `gcloud dataplex data-products list --help`
+
+### `gcloud dataplex data-products remove-iam-policy-binding`
+
+**What it does:** remove IAM policy.
+
+**Usage help:** `gcloud dataplex data-products remove-iam-policy-binding --help`
+
+### `gcloud dataplex data-products set-iam-policy`
+
+**What it does:** set the IAM policy to a.
+
+**Usage help:** `gcloud dataplex data-products set-iam-policy --help`
+
+### `gcloud dataplex data-products update`
+
+**What it does:** update a Dataplex data product.
+
+**Usage help:** `gcloud dataplex data-products update --help`
+
 ### `gcloud dataplex datascans`
 
 **What it does:** manage Dataplex Datascan.
@@ -17569,6 +19541,24 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update a Dataplex data.
 
 **Usage help:** `gcloud dataplex datascans update data-quality --help`
+
+### `gcloud dataplex dbt`
+
+**What it does:** ingest dbt-core metadata into Dataplex Knowledge.
+
+**Usage help:** `gcloud dataplex dbt --help`
+
+### `gcloud dataplex dbt metadata-jobs`
+
+**What it does:** manage Dataplex metadata jobs that.
+
+**Usage help:** `gcloud dataplex dbt metadata-jobs --help`
+
+### `gcloud dataplex dbt metadata-jobs create`
+
+**What it does:** transform dbt-core artifacts and.
+
+**Usage help:** `gcloud dataplex dbt metadata-jobs create --help`
 
 ### `gcloud dataplex encryption-config`
 
@@ -18285,6 +20275,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** submit a PySpark batch job.
 
 **Usage help:** `gcloud dataproc batches submit pyspark --help`
+
+### `gcloud dataproc batches submit pyspark-notebook`
+
+**What it does:** submit a PySpark notebook.
+
+**Usage help:** `gcloud dataproc batches submit pyspark-notebook --help`
 
 ### `gcloud dataproc batches submit spark`
 
@@ -19880,6 +21876,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud design-center spaces applications preview --help`
 
+### `gcloud design-center spaces applications recommend-iam-roles`
+
+**What it does:** get.
+
+**Usage help:** `gcloud design-center spaces applications recommend-iam-roles --help`
+
 ### `gcloud design-center spaces applications update`
 
 **What it does:** update an application.
@@ -20116,6 +22118,42 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud developer-connect --help`
 
+### `gcloud developer-connect account-connectors`
+
+**What it does:** manage Account Connector.
+
+**Usage help:** `gcloud developer-connect account-connectors --help`
+
+### `gcloud developer-connect account-connectors create`
+
+**What it does:** create.
+
+**Usage help:** `gcloud developer-connect account-connectors create --help`
+
+### `gcloud developer-connect account-connectors delete`
+
+**What it does:** delete.
+
+**Usage help:** `gcloud developer-connect account-connectors delete --help`
+
+### `gcloud developer-connect account-connectors describe`
+
+**What it does:** describe.
+
+**Usage help:** `gcloud developer-connect account-connectors describe --help`
+
+### `gcloud developer-connect account-connectors list`
+
+**What it does:** list accountConnectors.
+
+**Usage help:** `gcloud developer-connect account-connectors list --help`
+
+### `gcloud developer-connect account-connectors update`
+
+**What it does:** update.
+
+**Usage help:** `gcloud developer-connect account-connectors update --help`
+
 ### `gcloud developer-connect connections`
 
 **What it does:** manage connection resources.
@@ -20212,6 +22250,24 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud developer-connect insights-configs delete --help`
 
+### `gcloud developer-connect insights-configs deployment-events`
+
+**What it does:** manage.
+
+**Usage help:** `gcloud developer-connect insights-configs deployment-events --help`
+
+### `gcloud developer-connect insights-configs deployment-events describe`
+
+**What it does:** Describe a deploymentEvent
+
+**Usage help:** `gcloud developer-connect insights-configs deployment-events describe --help`
+
+### `gcloud developer-connect insights-configs deployment-events list`
+
+**What it does:** list.
+
+**Usage help:** `gcloud developer-connect insights-configs deployment-events list --help`
+
 ### `gcloud developer-connect insights-configs describe`
 
 **What it does:** describe.
@@ -20265,6 +22321,38 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** wait operations.
 
 **Usage help:** `gcloud developer-connect operations wait --help`
+
+## developer-knowledge
+
+### `gcloud developer-knowledge`
+
+**What it does:** manage Developer Knowledge resources and query.
+
+**Usage help:** `gcloud developer-knowledge --help`
+
+### `gcloud developer-knowledge answer-query`
+
+**What it does:** answer a natural language query.
+
+**Usage help:** `gcloud developer-knowledge answer-query --help`
+
+### `gcloud developer-knowledge documents`
+
+**What it does:** explore and search Developer.
+
+**Usage help:** `gcloud developer-knowledge documents --help`
+
+### `gcloud developer-knowledge documents describe`
+
+**What it does:** retrieve a single document.
+
+**Usage help:** `gcloud developer-knowledge documents describe --help`
+
+### `gcloud developer-knowledge documents search-chunks`
+
+**What it does:** search for developer.
+
+**Usage help:** `gcloud developer-knowledge documents search-chunks --help`
 
 ## dns
 
@@ -20936,6 +23024,36 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud edge-cloud --help`
 
+### `gcloud edge-cloud api-keys`
+
+**What it does:** read and manipulate API keys for Google.
+
+**Usage help:** `gcloud edge-cloud api-keys --help`
+
+### `gcloud edge-cloud api-keys create`
+
+**What it does:** create a Google Distributed Cloud API.
+
+**Usage help:** `gcloud edge-cloud api-keys create --help`
+
+### `gcloud edge-cloud api-keys delete`
+
+**What it does:** delete a Google Distributed Cloud API.
+
+**Usage help:** `gcloud edge-cloud api-keys delete --help`
+
+### `gcloud edge-cloud api-keys describe`
+
+**What it does:** describe a Google Distributed Cloud.
+
+**Usage help:** `gcloud edge-cloud api-keys describe --help`
+
+### `gcloud edge-cloud api-keys list`
+
+**What it does:** list Google Distributed Cloud API keys.
+
+**Usage help:** `gcloud edge-cloud api-keys list --help`
+
 ### `gcloud edge-cloud container`
 
 **What it does:** manage Edge Container resources.
@@ -21085,36 +23203,6 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Edge Container regions.
 
 **Usage help:** `gcloud edge-cloud container regions list --help`
-
-### `gcloud edge-cloud container vpn-connections`
-
-**What it does:** manage Edge VPN connections.
-
-**Usage help:** `gcloud edge-cloud container vpn-connections --help`
-
-### `gcloud edge-cloud container vpn-connections create`
-
-**What it does:** create a VPN.
-
-**Usage help:** `gcloud edge-cloud container vpn-connections create --help`
-
-### `gcloud edge-cloud container vpn-connections delete`
-
-**What it does:** delete a VPN.
-
-**Usage help:** `gcloud edge-cloud container vpn-connections delete --help`
-
-### `gcloud edge-cloud container vpn-connections describe`
-
-**What it does:** show details about a.
-
-**Usage help:** `gcloud edge-cloud container vpn-connections describe --help`
-
-### `gcloud edge-cloud container vpn-connections list`
-
-**What it does:** list VPN connections.
-
-**Usage help:** `gcloud edge-cloud container vpn-connections list --help`
 
 ### `gcloud edge-cloud container zones`
 
@@ -21355,6 +23443,156 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** initialize a specified.
 
 **Usage help:** `gcloud edge-cloud networking zones init --help`
+
+### `gcloud edge-cloud projects`
+
+**What it does:** google Distributed Cloud Connected Project.
+
+**Usage help:** `gcloud edge-cloud projects --help`
+
+### `gcloud edge-cloud projects describe`
+
+**What it does:** describe a Google Cloud Platform.
+
+**Usage help:** `gcloud edge-cloud projects describe --help`
+
+### `gcloud edge-cloud projects enable`
+
+**What it does:** enables a Google Cloud Platform project.
+
+**Usage help:** `gcloud edge-cloud projects enable --help`
+
+### `gcloud edge-cloud projects list`
+
+**What it does:** list the Google Cloud Platform projects.
+
+**Usage help:** `gcloud edge-cloud projects list --help`
+
+### `gcloud edge-cloud service-accounts`
+
+**What it does:** google Distributed Cloud Service.
+
+**Usage help:** `gcloud edge-cloud service-accounts --help`
+
+### `gcloud edge-cloud service-accounts create`
+
+**What it does:** creates a Service Account on a.
+
+**Usage help:** `gcloud edge-cloud service-accounts create --help`
+
+### `gcloud edge-cloud service-accounts delete`
+
+**What it does:** deletes a Service Account on a.
+
+**Usage help:** `gcloud edge-cloud service-accounts delete --help`
+
+### `gcloud edge-cloud service-accounts describe`
+
+**What it does:** describes a Service Account.
+
+**Usage help:** `gcloud edge-cloud service-accounts describe --help`
+
+### `gcloud edge-cloud service-accounts keys`
+
+**What it does:** google Distributed Cloud Service.
+
+**Usage help:** `gcloud edge-cloud service-accounts keys --help`
+
+### `gcloud edge-cloud service-accounts keys create`
+
+**What it does:** create service account key.
+
+**Usage help:** `gcloud edge-cloud service-accounts keys create --help`
+
+### `gcloud edge-cloud service-accounts keys describe`
+
+**What it does:** describe a service.
+
+**Usage help:** `gcloud edge-cloud service-accounts keys describe --help`
+
+### `gcloud edge-cloud service-accounts keys disable`
+
+**What it does:** disable a service account.
+
+**Usage help:** `gcloud edge-cloud service-accounts keys disable --help`
+
+### `gcloud edge-cloud service-accounts keys list`
+
+**What it does:** list service account keys.
+
+**Usage help:** `gcloud edge-cloud service-accounts keys list --help`
+
+### `gcloud edge-cloud service-accounts list`
+
+**What it does:** list Service Accounts in a given.
+
+**Usage help:** `gcloud edge-cloud service-accounts list --help`
+
+### `gcloud edge-cloud services`
+
+**What it does:** GDC Connected Service gcloud commands.
+
+**Usage help:** `gcloud edge-cloud services --help`
+
+### `gcloud edge-cloud services describe`
+
+**What it does:** describe a Google Cloud Platform.
+
+**Usage help:** `gcloud edge-cloud services describe --help`
+
+### `gcloud edge-cloud services enable`
+
+**What it does:** enables a Google Cloud Platform service.
+
+**Usage help:** `gcloud edge-cloud services enable --help`
+
+### `gcloud edge-cloud services list`
+
+**What it does:** list Google Cloud Platform services.
+
+**Usage help:** `gcloud edge-cloud services list --help`
+
+### `gcloud edge-cloud zones`
+
+**What it does:** manage zone operations for Google Distributed.
+
+**Usage help:** `gcloud edge-cloud zones --help`
+
+### `gcloud edge-cloud zones describe`
+
+**What it does:** describe a Google Distributed Cloud zone.
+
+**Usage help:** `gcloud edge-cloud zones describe --help`
+
+### `gcloud edge-cloud zones get-iam-policy`
+
+**What it does:** get IAM policy for a project on.
+
+**Usage help:** `gcloud edge-cloud zones get-iam-policy --help`
+
+### `gcloud edge-cloud zones list`
+
+**What it does:** list Google Distributed Cloud zones.
+
+**Usage help:** `gcloud edge-cloud zones list --help`
+
+### `gcloud edge-cloud zones roles`
+
+**What it does:** manage roles for Google Distributed Cloud.
+
+**Usage help:** `gcloud edge-cloud zones roles --help`
+
+### `gcloud edge-cloud zones roles list`
+
+**What it does:** lists the roles for a project on the.
+
+**Usage help:** `gcloud edge-cloud zones roles list --help`
+
+### `gcloud edge-cloud zones set-iam-policy`
+
+**What it does:** set IAM policy for a project on.
+
+**Usage help:** `gcloud edge-cloud zones set-iam-policy --help`
 
 ## emulators
 
@@ -22368,6 +24606,36 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud firestore bulk-delete --help`
 
+### `gcloud firestore change-streams`
+
+**What it does:** manage Cloud Firestore ChangeStreams.
+
+**Usage help:** `gcloud firestore change-streams --help`
+
+### `gcloud firestore change-streams create`
+
+**What it does:** create a Cloud Firestore change.
+
+**Usage help:** `gcloud firestore change-streams create --help`
+
+### `gcloud firestore change-streams delete`
+
+**What it does:** delete a Cloud Firestore change.
+
+**Usage help:** `gcloud firestore change-streams delete --help`
+
+### `gcloud firestore change-streams describe`
+
+**What it does:** describe a Cloud Firestore.
+
+**Usage help:** `gcloud firestore change-streams describe --help`
+
+### `gcloud firestore change-streams list`
+
+**What it does:** list change streams under a.
+
+**Usage help:** `gcloud firestore change-streams list --help`
+
 ### `gcloud firestore databases`
 
 **What it does:** manage Creation of Cloud Firestore in Native.
@@ -22741,6 +25009,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** sets IAM policy for a Google Cloud.
 
 **Usage help:** `gcloud functions set-iam-policy --help`
+
+### `gcloud functions upgrade`
+
+**What it does:** upgrade a 1st gen Cloud Function to the Cloud.
+
+**Usage help:** `gcloud functions upgrade --help`
 
 ## gemini
 
@@ -23854,6 +26128,48 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud iam --help`
 
+### `gcloud iam access-policies`
+
+**What it does:** manage Access Policy resources.
+
+**Usage help:** `gcloud iam access-policies --help`
+
+### `gcloud iam access-policies create`
+
+**What it does:** create AccessPolicy instance.
+
+**Usage help:** `gcloud iam access-policies create --help`
+
+### `gcloud iam access-policies delete`
+
+**What it does:** delete AccessPolicy instance.
+
+**Usage help:** `gcloud iam access-policies delete --help`
+
+### `gcloud iam access-policies describe`
+
+**What it does:** get AccessPolicy instance.
+
+**Usage help:** `gcloud iam access-policies describe --help`
+
+### `gcloud iam access-policies list`
+
+**What it does:** list AccessPolicy instances.
+
+**Usage help:** `gcloud iam access-policies list --help`
+
+### `gcloud iam access-policies search-policy-bindings`
+
+**What it does:** search accessPolicies.
+
+**Usage help:** `gcloud iam access-policies search-policy-bindings --help`
+
+### `gcloud iam access-policies update`
+
+**What it does:** update AccessPolicy instance.
+
+**Usage help:** `gcloud iam access-policies update --help`
+
 ### `gcloud iam list-grantable-roles`
 
 **What it does:** list IAM grantable roles for a resource.
@@ -24537,6 +26853,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** describe a.
 
 **Usage help:** `gcloud iam workforce-pools subjects operations describe --help`
+
+### `gcloud iam workforce-pools subjects revoke-sessions`
+
+**What it does:** revoke all sessions.
+
+**Usage help:** `gcloud iam workforce-pools subjects revoke-sessions --help`
 
 ### `gcloud iam workforce-pools subjects undelete`
 
@@ -25550,13 +27872,13 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud kms autokey-config show-effective-config`
 
-**What it does:** gets the effective Cloud.
+**What it does:** get the effective Cloud.
 
 **Usage help:** `gcloud kms autokey-config show-effective-config --help`
 
 ### `gcloud kms autokey-config update`
 
-**What it does:** updates the AutokeyConfig for a folder.
+**What it does:** update the AutokeyConfig for a folder or.
 
 **Usage help:** `gcloud kms autokey-config update --help`
 
@@ -25788,6 +28110,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud kms keyrings create --help`
 
+### `gcloud kms keyrings delete`
+
+**What it does:** delete a keyring.
+
+**Usage help:** `gcloud kms keyrings delete --help`
+
 ### `gcloud kms keyrings describe`
 
 **What it does:** get metadata for a keyring.
@@ -25938,6 +28266,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud kms keys versions enable --help`
 
+### `gcloud kms keys versions export-trusted-key-wrapped`
+
+**What it does:** export a trusted key.
+
+**Usage help:** `gcloud kms keys versions export-trusted-key-wrapped --help`
+
 ### `gcloud kms keys versions get-certificate-chain`
 
 **What it does:** get a certificate chain.
@@ -25955,6 +28289,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** import a version into an existing crypto.
 
 **Usage help:** `gcloud kms keys versions import --help`
+
+### `gcloud kms keys versions import-trusted-key-wrapped`
+
+**What it does:** import a trusted key.
+
+**Usage help:** `gcloud kms keys versions import-trusted-key-wrapped --help`
 
 ### `gcloud kms keys versions list`
 
@@ -26654,7 +28994,7 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud lustre instances`
 
-**What it does:** manage Instance resources.
+**What it does:** manage Lustre instance resources.
 
 **Usage help:** `gcloud lustre instances --help`
 
@@ -26676,27 +29016,57 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud lustre instances describe --help`
 
+### `gcloud lustre instances directory-policies`
+
+**What it does:** manage Directory Policy.
+
+**Usage help:** `gcloud lustre instances directory-policies --help`
+
+### `gcloud lustre instances directory-policies create`
+
+**What it does:** create.
+
+**Usage help:** `gcloud lustre instances directory-policies create --help`
+
+### `gcloud lustre instances directory-policies delete`
+
+**What it does:** delete.
+
+**Usage help:** `gcloud lustre instances directory-policies delete --help`
+
+### `gcloud lustre instances directory-policies describe`
+
+**What it does:** describe.
+
+**Usage help:** `gcloud lustre instances directory-policies describe --help`
+
+### `gcloud lustre instances directory-policies list`
+
+**What it does:** list directoryPolicies.
+
+**Usage help:** `gcloud lustre instances directory-policies list --help`
+
 ### `gcloud lustre instances export-data`
 
-**What it does:** exports data from Managed Lustre.
+**What it does:** exports data from a Managed Lustre.
 
 **Usage help:** `gcloud lustre instances export-data --help`
 
 ### `gcloud lustre instances import-data`
 
-**What it does:** imports data from Cloud Storage to.
+**What it does:** imports data from Cloud Storage to a.
 
 **Usage help:** `gcloud lustre instances import-data --help`
 
 ### `gcloud lustre instances list`
 
-**What it does:** list Lustre instances.
+**What it does:** lists Managed Lustre instances.
 
 **Usage help:** `gcloud lustre instances list --help`
 
 ### `gcloud lustre instances reschedule-maintenance`
 
-**What it does:** reschedule instances.
+**What it does:** reschedules a planned.
 
 **Usage help:** `gcloud lustre instances reschedule-maintenance --help`
 
@@ -27156,6 +29526,24 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud memorystore acl-policies list --help`
 
+### `gcloud memorystore acl-policies revisions`
+
+**What it does:** manage Acl Policy Revision.
+
+**Usage help:** `gcloud memorystore acl-policies revisions --help`
+
+### `gcloud memorystore acl-policies revisions describe`
+
+**What it does:** describe.
+
+**Usage help:** `gcloud memorystore acl-policies revisions describe --help`
+
+### `gcloud memorystore acl-policies revisions list`
+
+**What it does:** list aclPolicyRevisions.
+
+**Usage help:** `gcloud memorystore acl-policies revisions list --help`
+
 ### `gcloud memorystore acl-policies update`
 
 **What it does:** update aclPolicies.
@@ -27228,6 +29616,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud memorystore instances create --help`
 
+### `gcloud memorystore instances create-token-auth-user`
+
+**What it does:** create token auth.
+
+**Usage help:** `gcloud memorystore instances create-token-auth-user --help`
+
 ### `gcloud memorystore instances delete`
 
 **What it does:** delete a Memorystore instance.
@@ -27239,6 +29633,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** get details of a Memorystore.
 
 **Usage help:** `gcloud memorystore instances describe --help`
+
+### `gcloud memorystore instances finish-migration`
+
+**What it does:** finish migration for a.
+
+**Usage help:** `gcloud memorystore instances finish-migration --help`
 
 ### `gcloud memorystore instances get-certificate-authority`
 
@@ -27263,6 +29663,66 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** reschedule.
 
 **Usage help:** `gcloud memorystore instances reschedule-maintenance --help`
+
+### `gcloud memorystore instances start-migration`
+
+**What it does:** start migration for a.
+
+**Usage help:** `gcloud memorystore instances start-migration --help`
+
+### `gcloud memorystore instances token-auth-users`
+
+**What it does:** manage Token Auth User.
+
+**Usage help:** `gcloud memorystore instances token-auth-users --help`
+
+### `gcloud memorystore instances token-auth-users auth-tokens`
+
+**What it does:** manage Auth.
+
+**Usage help:** `gcloud memorystore instances token-auth-users auth-tokens --help`
+
+### `gcloud memorystore instances token-auth-users auth-tokens delete`
+
+**What it does:** delete.
+
+**Usage help:** `gcloud memorystore instances token-auth-users auth-tokens delete --help`
+
+### `gcloud memorystore instances token-auth-users auth-tokens describe`
+
+**What it does:** Describe an authToken
+
+**Usage help:** `gcloud memorystore instances token-auth-users auth-tokens describe --help`
+
+### `gcloud memorystore instances token-auth-users auth-tokens list`
+
+**What it does:** list.
+
+**Usage help:** `gcloud memorystore instances token-auth-users auth-tokens list --help`
+
+### `gcloud memorystore instances token-auth-users create-auth-token`
+
+**What it does:** create an.
+
+**Usage help:** `gcloud memorystore instances token-auth-users create-auth-token --help`
+
+### `gcloud memorystore instances token-auth-users delete`
+
+**What it does:** delete.
+
+**Usage help:** `gcloud memorystore instances token-auth-users delete --help`
+
+### `gcloud memorystore instances token-auth-users describe`
+
+**What it does:** describe.
+
+**Usage help:** `gcloud memorystore instances token-auth-users describe --help`
+
+### `gcloud memorystore instances token-auth-users list`
+
+**What it does:** list tokenAuthUsers.
+
+**Usage help:** `gcloud memorystore instances token-auth-users list --help`
 
 ### `gcloud memorystore instances update`
 
@@ -27571,6 +30031,36 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list Dataproc Metastore services.
 
 **Usage help:** `gcloud metastore services list --help`
+
+### `gcloud metastore services migrations`
+
+**What it does:** manage the migration to a Dataproc.
+
+**Usage help:** `gcloud metastore services migrations --help`
+
+### `gcloud metastore services migrations delete`
+
+**What it does:** delete a migration.
+
+**Usage help:** `gcloud metastore services migrations delete --help`
+
+### `gcloud metastore services migrations describe`
+
+**What it does:** describe a migration.
+
+**Usage help:** `gcloud metastore services migrations describe --help`
+
+### `gcloud metastore services migrations list`
+
+**What it does:** list migrations for a Dataproc.
+
+**Usage help:** `gcloud metastore services migrations list --help`
+
+### `gcloud metastore services migrations start`
+
+**What it does:** start the migration from a.
+
+**Usage help:** `gcloud metastore services migrations start --help`
 
 ### `gcloud metastore services move-table-to-database`
 
@@ -27981,6 +30471,24 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** manage Cloud Monitoring dashboards.
 
 **Usage help:** `gcloud monitoring --help`
+
+### `gcloud monitoring alerts`
+
+**What it does:** manage Cloud Monitoring alerts.
+
+**Usage help:** `gcloud monitoring alerts --help`
+
+### `gcloud monitoring alerts describe`
+
+**What it does:** describe an alert.
+
+**Usage help:** `gcloud monitoring alerts describe --help`
+
+### `gcloud monitoring alerts list`
+
+**What it does:** list alerts.
+
+**Usage help:** `gcloud monitoring alerts list --help`
 
 ### `gcloud monitoring dashboards`
 
@@ -28476,6 +30984,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud netapp storage-pools list --help`
 
+### `gcloud netapp storage-pools list-backup-configs`
+
+**What it does:** list backup.
+
+**Usage help:** `gcloud netapp storage-pools list-backup-configs --help`
+
+### `gcloud netapp storage-pools restore-volume`
+
+**What it does:** restore a backup to a volume.
+
+**Usage help:** `gcloud netapp storage-pools restore-volume --help`
+
 ### `gcloud netapp storage-pools switch`
 
 **What it does:** switch a Regional Cloud NetApp Flex.
@@ -28487,6 +31007,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update a Cloud NetApp Storage Pool.
 
 **Usage help:** `gcloud netapp storage-pools update --help`
+
+### `gcloud netapp storage-pools update-backup-config`
+
+**What it does:** update backup config of.
+
+**Usage help:** `gcloud netapp storage-pools update-backup-config --help`
 
 ### `gcloud netapp storage-pools validate-directory-service`
 
@@ -28523,6 +31049,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** establish peering for Cache.
 
 **Usage help:** `gcloud netapp volumes establish-peering --help`
+
+### `gcloud netapp volumes get-split-status`
+
+**What it does:** retrieves the split status of a.
+
+**Usage help:** `gcloud netapp volumes get-split-status --help`
 
 ### `gcloud netapp volumes list`
 
@@ -28679,6 +31211,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update a Cloud NetApp Volume.
 
 **Usage help:** `gcloud netapp volumes snapshots update --help`
+
+### `gcloud netapp volumes start-split`
+
+**What it does:** starts splitting a Cloud NetApp clone.
+
+**Usage help:** `gcloud netapp volumes start-split --help`
 
 ### `gcloud netapp volumes update`
 
@@ -29150,6 +31688,54 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud network-connectivity spokes describe --help`
 
+### `gcloud network-connectivity spokes gateways`
+
+**What it does:** manage Gateway spokes.
+
+**Usage help:** `gcloud network-connectivity spokes gateways --help`
+
+### `gcloud network-connectivity spokes gateways advertised-routes`
+
+**What it does:** manage.
+
+**Usage help:** `gcloud network-connectivity spokes gateways advertised-routes --help`
+
+### `gcloud network-connectivity spokes gateways advertised-routes create`
+
+**What it does:** Create a new gateway advertised route with the given name.
+
+**Usage help:** `gcloud network-connectivity spokes gateways advertised-routes create --help`
+
+### `gcloud network-connectivity spokes gateways advertised-routes delete`
+
+**What it does:** Delete the specified advertised route for a gateway spoke.
+
+**Usage help:** `gcloud network-connectivity spokes gateways advertised-routes delete --help`
+
+### `gcloud network-connectivity spokes gateways advertised-routes describe`
+
+**What it does:** Retrieve and display details about a gateway advertised route.
+
+**Usage help:** `gcloud network-connectivity spokes gateways advertised-routes describe --help`
+
+### `gcloud network-connectivity spokes gateways advertised-routes list`
+
+**What it does:** list.
+
+**Usage help:** `gcloud network-connectivity spokes gateways advertised-routes list --help`
+
+### `gcloud network-connectivity spokes gateways create`
+
+**What it does:** create a new Gateway.
+
+**Usage help:** `gcloud network-connectivity spokes gateways create --help`
+
+### `gcloud network-connectivity spokes gateways update`
+
+**What it does:** update a Gateway spoke.
+
+**Usage help:** `gcloud network-connectivity spokes gateways update --help`
+
 ### `gcloud network-connectivity spokes linked-interconnect-attachments`
 
 **What it does:** manage.
@@ -29349,6 +31935,120 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update an existing.
 
 **Usage help:** `gcloud network-management connectivity-tests update --help`
+
+### `gcloud network-management network-monitoring-providers`
+
+**What it does:** a Network.
+
+**Usage help:** `gcloud network-management network-monitoring-providers --help`
+
+### `gcloud network-management network-monitoring-providers create`
+
+**What it does:** create a.
+
+**Usage help:** `gcloud network-management network-monitoring-providers create --help`
+
+### `gcloud network-management network-monitoring-providers delete`
+
+**What it does:** delete a.
+
+**Usage help:** `gcloud network-management network-monitoring-providers delete --help`
+
+### `gcloud network-management network-monitoring-providers describe`
+
+**What it does:** describe.
+
+**Usage help:** `gcloud network-management network-monitoring-providers describe --help`
+
+### `gcloud network-management network-monitoring-providers generate-monitoring-point-config`
+
+**What it does:** generate a monitoring point config.
+
+**Usage help:** `gcloud network-management network-monitoring-providers generate-monitoring-point-config --help`
+
+### `gcloud network-management network-monitoring-providers generate-provider-access-token`
+
+**What it does:** generate a provider access token.
+
+**Usage help:** `gcloud network-management network-monitoring-providers generate-provider-access-token --help`
+
+### `gcloud network-management network-monitoring-providers list`
+
+**What it does:** list Network.
+
+**Usage help:** `gcloud network-management network-monitoring-providers list --help`
+
+### `gcloud network-management network-monitoring-providers monitoring-points`
+
+**What it does:** The Monitoring Point can also be the target.
+
+**Usage help:** `gcloud network-management network-monitoring-providers monitoring-points --help`
+
+### `gcloud network-management network-monitoring-providers monitoring-points describe`
+
+**What it does:** describe a Monitoring Point.
+
+**Usage help:** `gcloud network-management network-monitoring-providers monitoring-points describe --help`
+
+### `gcloud network-management network-monitoring-providers monitoring-points download-install-script`
+
+**What it does:** download an installation script for a.
+
+**Usage help:** `gcloud network-management network-monitoring-providers monitoring-points download-install-script --help`
+
+### `gcloud network-management network-monitoring-providers monitoring-points download-recreate-install-script`
+
+**What it does:** download an installation script for.
+
+**Usage help:** `gcloud network-management network-monitoring-providers monitoring-points download-recreate-install-script --help`
+
+### `gcloud network-management network-monitoring-providers monitoring-points download-server-connect-config`
+
+**What it does:** download the server connect.
+
+**Usage help:** `gcloud network-management network-monitoring-providers monitoring-points download-server-connect-config --help`
+
+### `gcloud network-management network-monitoring-providers monitoring-points list`
+
+**What it does:** list Monitoring Points.
+
+**Usage help:** `gcloud network-management network-monitoring-providers monitoring-points list --help`
+
+### `gcloud network-management network-monitoring-providers network-paths`
+
+**What it does:** a.
+
+**Usage help:** `gcloud network-management network-monitoring-providers network-paths --help`
+
+### `gcloud network-management network-monitoring-providers network-paths describe`
+
+**What it does:** describe a Network Path.
+
+**Usage help:** `gcloud network-management network-monitoring-providers network-paths describe --help`
+
+### `gcloud network-management network-monitoring-providers network-paths list`
+
+**What it does:** List all Network Paths for a given Network Monitoring Provider.
+
+**Usage help:** `gcloud network-management network-monitoring-providers network-paths list --help`
+
+### `gcloud network-management network-monitoring-providers web-paths`
+
+**What it does:** a Web.
+
+**Usage help:** `gcloud network-management network-monitoring-providers web-paths --help`
+
+### `gcloud network-management network-monitoring-providers web-paths describe`
+
+**What it does:** Get details about a specific Web Path.
+
+**Usage help:** `gcloud network-management network-monitoring-providers web-paths describe --help`
+
+### `gcloud network-management network-monitoring-providers web-paths list`
+
+**What it does:** List all Web Paths for a given Network Monitoring Provider.
+
+**Usage help:** `gcloud network-management network-monitoring-providers web-paths list --help`
 
 ### `gcloud network-management operations`
 
@@ -29724,6 +32424,30 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud network-security firewall-endpoints update --help`
 
+### `gcloud network-security firewall-endpoints wildfire-verdict-change-requests`
+
+**What it does:** Manage WildFire Verdict Change Requests.
+
+**Usage help:** `gcloud network-security firewall-endpoints wildfire-verdict-change-requests --help`
+
+### `gcloud network-security firewall-endpoints wildfire-verdict-change-requests create`
+
+**What it does:** create a WildFire Verdict Change Request.
+
+**Usage help:** `gcloud network-security firewall-endpoints wildfire-verdict-change-requests create --help`
+
+### `gcloud network-security firewall-endpoints wildfire-verdict-change-requests get`
+
+**What it does:** get a WildFire Verdict Change Request.
+
+**Usage help:** `gcloud network-security firewall-endpoints wildfire-verdict-change-requests get --help`
+
+### `gcloud network-security firewall-endpoints wildfire-verdict-change-requests list`
+
+**What it does:** list WildFire Verdict Change Requests.
+
+**Usage help:** `gcloud network-security firewall-endpoints wildfire-verdict-change-requests list --help`
+
 ### `gcloud network-security gateway-security-policies`
 
 **What it does:** manage Network Security.
@@ -30072,6 +32796,42 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud network-security mirroring-endpoint-groups update --help`
 
+### `gcloud network-security mirroring-endpoints`
+
+**What it does:** manage Mirroring Endpoint.
+
+**Usage help:** `gcloud network-security mirroring-endpoints --help`
+
+### `gcloud network-security operations`
+
+**What it does:** manage Network Security Operations.
+
+**Usage help:** `gcloud network-security operations --help`
+
+### `gcloud network-security operations cancel`
+
+**What it does:** cancel a Network Security long.
+
+**Usage help:** `gcloud network-security operations cancel --help`
+
+### `gcloud network-security operations describe`
+
+**What it does:** show details of a Network.
+
+**Usage help:** `gcloud network-security operations describe --help`
+
+### `gcloud network-security operations list`
+
+**What it does:** list all Network Security long.
+
+**Usage help:** `gcloud network-security operations list --help`
+
+### `gcloud network-security operations wait`
+
+**What it does:** poll a Network Security long.
+
+**Usage help:** `gcloud network-security operations wait --help`
+
 ### `gcloud network-security org-address-groups`
 
 **What it does:** manage Network Security.
@@ -30131,6 +32891,72 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update an address group.
 
 **Usage help:** `gcloud network-security org-address-groups update --help`
+
+### `gcloud network-security secure-access-connect`
+
+**What it does:** manage Secure Access.
+
+**Usage help:** `gcloud network-security secure-access-connect --help`
+
+### `gcloud network-security secure-access-connect attachments`
+
+**What it does:** manage Secure.
+
+**Usage help:** `gcloud network-security secure-access-connect attachments --help`
+
+### `gcloud network-security secure-access-connect attachments create`
+
+**What it does:** create a.
+
+**Usage help:** `gcloud network-security secure-access-connect attachments create --help`
+
+### `gcloud network-security secure-access-connect attachments delete`
+
+**What it does:** delete a.
+
+**Usage help:** `gcloud network-security secure-access-connect attachments delete --help`
+
+### `gcloud network-security secure-access-connect attachments describe`
+
+**What it does:** Show details for the specified SAC attachment.
+
+**Usage help:** `gcloud network-security secure-access-connect attachments describe --help`
+
+### `gcloud network-security secure-access-connect attachments list`
+
+**What it does:** list SAC.
+
+**Usage help:** `gcloud network-security secure-access-connect attachments list --help`
+
+### `gcloud network-security secure-access-connect realms`
+
+**What it does:** manage Secure Access.
+
+**Usage help:** `gcloud network-security secure-access-connect realms --help`
+
+### `gcloud network-security secure-access-connect realms create`
+
+**What it does:** create a SAC.
+
+**Usage help:** `gcloud network-security secure-access-connect realms create --help`
+
+### `gcloud network-security secure-access-connect realms delete`
+
+**What it does:** delete a SAC.
+
+**Usage help:** `gcloud network-security secure-access-connect realms delete --help`
+
+### `gcloud network-security secure-access-connect realms describe`
+
+**What it does:** describe a.
+
+**Usage help:** `gcloud network-security secure-access-connect realms describe --help`
+
+### `gcloud network-security secure-access-connect realms list`
+
+**What it does:** list SAC realms.
+
+**Usage help:** `gcloud network-security secure-access-connect realms list --help`
 
 ### `gcloud network-security security-profile-groups`
 
@@ -30360,11 +33186,107 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud network-security security-profiles url-filtering list --help`
 
+### `gcloud network-security security-profiles wildfire-analysis`
+
+**What it does:** manage.
+
+**Usage help:** `gcloud network-security security-profiles wildfire-analysis --help`
+
+### `gcloud network-security security-profiles wildfire-analysis add-inline-cloud-analysis-rule`
+
+**What it does:** add a WildFire inline cloud analysis.
+
+**Usage help:** `gcloud network-security security-profiles wildfire-analysis add-inline-cloud-analysis-rule --help`
+
+### `gcloud network-security security-profiles wildfire-analysis add-inline-ml-exception`
+
+**What it does:** add a WildFire inline machine learning.
+
+**Usage help:** `gcloud network-security security-profiles wildfire-analysis add-inline-ml-exception --help`
+
+### `gcloud network-security security-profiles wildfire-analysis add-override`
+
+**What it does:** Add an override to a WildFire Analysis Security Profile.
+
+**Usage help:** `gcloud network-security security-profiles wildfire-analysis add-override --help`
+
+### `gcloud network-security security-profiles wildfire-analysis add-submission-rule`
+
+**What it does:** add a WildFire submission rule to a WildFire.
+
+**Usage help:** `gcloud network-security security-profiles wildfire-analysis add-submission-rule --help`
+
+### `gcloud network-security security-profiles wildfire-analysis create`
+
+**What it does:** create.
+
+**Usage help:** `gcloud network-security security-profiles wildfire-analysis create --help`
+
+### `gcloud network-security security-profiles wildfire-analysis delete`
+
+**What it does:** delete.
+
+**Usage help:** `gcloud network-security security-profiles wildfire-analysis delete --help`
+
+### `gcloud network-security security-profiles wildfire-analysis delete-inline-cloud-analysis-rule`
+
+**What it does:** delete a WildFire inline cloud.
+
+**Usage help:** `gcloud network-security security-profiles wildfire-analysis delete-inline-cloud-analysis-rule --help`
+
+### `gcloud network-security security-profiles wildfire-analysis delete-inline-ml-exception`
+
+**What it does:** delete a WildFire inline machine learning.
+
+**Usage help:** `gcloud network-security security-profiles wildfire-analysis delete-inline-ml-exception --help`
+
+### `gcloud network-security security-profiles wildfire-analysis delete-override`
+
+**What it does:** Delete an override from a WildFire Analysis Security Profile.
+
+**Usage help:** `gcloud network-security security-profiles wildfire-analysis delete-override --help`
+
+### `gcloud network-security security-profiles wildfire-analysis delete-submission-rule`
+
+**What it does:** delete a WildFire submission rule from a.
+
+**Usage help:** `gcloud network-security security-profiles wildfire-analysis delete-submission-rule --help`
+
+### `gcloud network-security security-profiles wildfire-analysis describe`
+
+**What it does:** Describe a WildFire Analysis Security Profile.
+
+**Usage help:** `gcloud network-security security-profiles wildfire-analysis describe --help`
+
+### `gcloud network-security security-profiles wildfire-analysis list`
+
+**What it does:** list.
+
+**Usage help:** `gcloud network-security security-profiles wildfire-analysis list --help`
+
+### `gcloud network-security security-profiles wildfire-analysis update`
+
+**What it does:** update.
+
+**Usage help:** `gcloud network-security security-profiles wildfire-analysis update --help`
+
+### `gcloud network-security security-profiles wildfire-analysis update-override`
+
+**What it does:** Update an override in a WildFire Analysis Security Profile.
+
+**Usage help:** `gcloud network-security security-profiles wildfire-analysis update-override --help`
+
 ### `gcloud network-security server-tls-policies`
 
 **What it does:** manage Network Security.
 
 **Usage help:** `gcloud network-security server-tls-policies --help`
+
+### `gcloud network-security server-tls-policies create`
+
+**What it does:** create a.
+
+**Usage help:** `gcloud network-security server-tls-policies create --help`
 
 ### `gcloud network-security server-tls-policies delete`
 
@@ -30396,6 +33318,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud network-security server-tls-policies list --help`
 
+### `gcloud network-security server-tls-policies update`
+
+**What it does:** update a.
+
+**Usage help:** `gcloud network-security server-tls-policies update --help`
+
 ### `gcloud network-security tls-inspection-policies`
 
 **What it does:** manage Network Security.
@@ -30425,6 +33353,30 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list TLS Inspection.
 
 **Usage help:** `gcloud network-security tls-inspection-policies list --help`
+
+### `gcloud network-security ull-mirroring-collectors`
+
+**What it does:** manage Ull Mirroring.
+
+**Usage help:** `gcloud network-security ull-mirroring-collectors --help`
+
+### `gcloud network-security ull-mirroring-collectors rules`
+
+**What it does:** manage Ull.
+
+**Usage help:** `gcloud network-security ull-mirroring-collectors rules --help`
+
+### `gcloud network-security ull-mirroring-engines`
+
+**What it does:** manage Ull Mirroring Engine.
+
+**Usage help:** `gcloud network-security ull-mirroring-engines --help`
+
+### `gcloud network-security ull-mirroring-engines list-networks`
+
+**What it does:** list networks.
+
+**Usage help:** `gcloud network-security ull-mirroring-engines list-networks --help`
 
 ### `gcloud network-security url-lists`
 
@@ -30463,6 +33415,78 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** manage Network Services resources.
 
 **Usage help:** `gcloud network-services --help`
+
+### `gcloud network-services agent-connectivity-templates`
+
+**What it does:** manage Network.
+
+**Usage help:** `gcloud network-services agent-connectivity-templates --help`
+
+### `gcloud network-services agent-connectivity-templates delete`
+
+**What it does:** delete an.
+
+**Usage help:** `gcloud network-services agent-connectivity-templates delete --help`
+
+### `gcloud network-services agent-connectivity-templates describe`
+
+**What it does:** describe a.
+
+**Usage help:** `gcloud network-services agent-connectivity-templates describe --help`
+
+### `gcloud network-services agent-connectivity-templates export`
+
+**What it does:** export an.
+
+**Usage help:** `gcloud network-services agent-connectivity-templates export --help`
+
+### `gcloud network-services agent-connectivity-templates import`
+
+**What it does:** import an.
+
+**Usage help:** `gcloud network-services agent-connectivity-templates import --help`
+
+### `gcloud network-services agent-connectivity-templates list`
+
+**What it does:** list Agent.
+
+**Usage help:** `gcloud network-services agent-connectivity-templates list --help`
+
+### `gcloud network-services agent-gateways`
+
+**What it does:** manage Network Services.
+
+**Usage help:** `gcloud network-services agent-gateways --help`
+
+### `gcloud network-services agent-gateways delete`
+
+**What it does:** delete an AgentGateway.
+
+**Usage help:** `gcloud network-services agent-gateways delete --help`
+
+### `gcloud network-services agent-gateways describe`
+
+**What it does:** describe a Agent Gateway.
+
+**Usage help:** `gcloud network-services agent-gateways describe --help`
+
+### `gcloud network-services agent-gateways export`
+
+**What it does:** export an AgentGateway.
+
+**Usage help:** `gcloud network-services agent-gateways export --help`
+
+### `gcloud network-services agent-gateways import`
+
+**What it does:** import an AgentGateway.
+
+**Usage help:** `gcloud network-services agent-gateways import --help`
+
+### `gcloud network-services agent-gateways list`
+
+**What it does:** list AgentGateways.
+
+**Usage help:** `gcloud network-services agent-gateways list --help`
 
 ### `gcloud network-services endpoint-policies`
 
@@ -31428,6 +34452,108 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud observability --help`
 
+### `gcloud observability buckets`
+
+**What it does:** commands to create, read, update, and delete.
+
+**Usage help:** `gcloud observability buckets --help`
+
+### `gcloud observability buckets create`
+
+**What it does:** create a bucket.
+
+**Usage help:** `gcloud observability buckets create --help`
+
+### `gcloud observability buckets datasets`
+
+**What it does:** commands to create, read, update,.
+
+**Usage help:** `gcloud observability buckets datasets --help`
+
+### `gcloud observability buckets datasets describe`
+
+**What it does:** describe datasets.
+
+**Usage help:** `gcloud observability buckets datasets describe --help`
+
+### `gcloud observability buckets datasets links`
+
+**What it does:** commands to create, read,.
+
+**Usage help:** `gcloud observability buckets datasets links --help`
+
+### `gcloud observability buckets datasets links create`
+
+**What it does:** create links.
+
+**Usage help:** `gcloud observability buckets datasets links create --help`
+
+### `gcloud observability buckets datasets links delete`
+
+**What it does:** delete links.
+
+**Usage help:** `gcloud observability buckets datasets links delete --help`
+
+### `gcloud observability buckets datasets links describe`
+
+**What it does:** describe links.
+
+**Usage help:** `gcloud observability buckets datasets links describe --help`
+
+### `gcloud observability buckets datasets links list`
+
+**What it does:** list links.
+
+**Usage help:** `gcloud observability buckets datasets links list --help`
+
+### `gcloud observability buckets datasets links update`
+
+**What it does:** update links.
+
+**Usage help:** `gcloud observability buckets datasets links update --help`
+
+### `gcloud observability buckets datasets list`
+
+**What it does:** list datasets.
+
+**Usage help:** `gcloud observability buckets datasets list --help`
+
+### `gcloud observability buckets datasets views`
+
+**What it does:** commands to read Views within.
+
+**Usage help:** `gcloud observability buckets datasets views --help`
+
+### `gcloud observability buckets datasets views describe`
+
+**What it does:** describe views.
+
+**Usage help:** `gcloud observability buckets datasets views describe --help`
+
+### `gcloud observability buckets datasets views list`
+
+**What it does:** list views.
+
+**Usage help:** `gcloud observability buckets datasets views list --help`
+
+### `gcloud observability buckets describe`
+
+**What it does:** describe buckets.
+
+**Usage help:** `gcloud observability buckets describe --help`
+
+### `gcloud observability buckets list`
+
+**What it does:** list buckets.
+
+**Usage help:** `gcloud observability buckets list --help`
+
+### `gcloud observability buckets update`
+
+**What it does:** update a bucket.
+
+**Usage help:** `gcloud observability buckets update --help`
+
 ### `gcloud observability scopes`
 
 **What it does:** manage Scope resources.
@@ -31446,9 +34572,27 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud observability scopes update --help`
 
+### `gcloud observability settings`
+
+**What it does:** manage Observability settings.
+
+**Usage help:** `gcloud observability settings --help`
+
+### `gcloud observability settings describe`
+
+**What it does:** show details of Observability.
+
+**Usage help:** `gcloud observability settings describe --help`
+
+### `gcloud observability settings update`
+
+**What it does:** update Observability settings.
+
+**Usage help:** `gcloud observability settings update --help`
+
 ### `gcloud observability trace-scopes`
 
-**What it does:** manage Trace Scope resources.
+**What it does:** commands to create, read, update, and.
 
 **Usage help:** `gcloud observability trace-scopes --help`
 
@@ -31550,11 +34694,23 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud oracle-database autonomous-databases generate-wallet --help`
 
+### `gcloud oracle-database autonomous-databases get-refreshable-clones`
+
+**What it does:** get.
+
+**Usage help:** `gcloud oracle-database autonomous-databases get-refreshable-clones --help`
+
 ### `gcloud oracle-database autonomous-databases list`
 
 **What it does:** list all.
 
 **Usage help:** `gcloud oracle-database autonomous-databases list --help`
+
+### `gcloud oracle-database autonomous-databases refresh`
+
+**What it does:** refresh an.
+
+**Usage help:** `gcloud oracle-database autonomous-databases refresh --help`
 
 ### `gcloud oracle-database autonomous-databases restart`
 
@@ -31610,6 +34766,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud oracle-database cloud-exadata-infrastructures --help`
 
+### `gcloud oracle-database cloud-exadata-infrastructures configure-exascale`
+
+**What it does:** Configure Exascale Storage for a Cloud Exadata Infrastructure. This operation updates the total storage allocated for Exascale Storage.
+
+**Usage help:** `gcloud oracle-database cloud-exadata-infrastructures configure-exascale --help`
+
 ### `gcloud oracle-database cloud-exadata-infrastructures create`
 
 **What it does:** create a new.
@@ -31645,6 +34807,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list all.
 
 **Usage help:** `gcloud oracle-database cloud-exadata-infrastructures list --help`
+
+### `gcloud oracle-database cloud-exadata-infrastructures update`
+
+**What it does:** update labels.
+
+**Usage help:** `gcloud oracle-database cloud-exadata-infrastructures update --help`
 
 ### `gcloud oracle-database cloud-vm-clusters`
 
@@ -31688,6 +34856,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud oracle-database cloud-vm-clusters list --help`
 
+### `gcloud oracle-database cloud-vm-clusters update`
+
+**What it does:** update labels of a.
+
+**Usage help:** `gcloud oracle-database cloud-vm-clusters update --help`
+
 ### `gcloud oracle-database database-character-sets`
 
 **What it does:** manage Database Character.
@@ -31699,6 +34873,54 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list all.
 
 **Usage help:** `gcloud oracle-database database-character-sets list --help`
+
+### `gcloud oracle-database database-connections`
+
+**What it does:** manage Database Connection.
+
+**Usage help:** `gcloud oracle-database database-connections --help`
+
+### `gcloud oracle-database database-connections create`
+
+**What it does:** create a new.
+
+**Usage help:** `gcloud oracle-database database-connections create --help`
+
+### `gcloud oracle-database database-connections delete`
+
+**What it does:** delete a.
+
+**Usage help:** `gcloud oracle-database database-connections delete --help`
+
+### `gcloud oracle-database database-connections describe`
+
+**What it does:** get details of a.
+
+**Usage help:** `gcloud oracle-database database-connections describe --help`
+
+### `gcloud oracle-database database-connections execute-sql`
+
+**What it does:** execute a SQL.
+
+**Usage help:** `gcloud oracle-database database-connections execute-sql --help`
+
+### `gcloud oracle-database database-connections list`
+
+**What it does:** list all.
+
+**Usage help:** `gcloud oracle-database database-connections list --help`
+
+### `gcloud oracle-database database-connections test`
+
+**What it does:** test connectivity of a.
+
+**Usage help:** `gcloud oracle-database database-connections test --help`
+
+### `gcloud oracle-database database-connections update`
+
+**What it does:** update a.
+
+**Usage help:** `gcloud oracle-database database-connections update --help`
 
 ### `gcloud oracle-database databases`
 
@@ -31772,6 +34994,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud oracle-database db-systems list --help`
 
+### `gcloud oracle-database db-systems update`
+
+**What it does:** update labels of a DbSystem.
+
+**Usage help:** `gcloud oracle-database db-systems update --help`
+
 ### `gcloud oracle-database db-versions`
 
 **What it does:** manage Db Version resources.
@@ -31804,25 +35032,25 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud oracle-database exadb-vm-clusters create`
 
-**What it does:** create exadbVmClusters.
+**What it does:** create a new.
 
 **Usage help:** `gcloud oracle-database exadb-vm-clusters create --help`
 
 ### `gcloud oracle-database exadb-vm-clusters delete`
 
-**What it does:** delete exadbVmClusters.
+**What it does:** delete an ExadbVmCluster.
 
 **Usage help:** `gcloud oracle-database exadb-vm-clusters delete --help`
 
 ### `gcloud oracle-database exadb-vm-clusters describe`
 
-**What it does:** describe.
+**What it does:** get details of a.
 
 **Usage help:** `gcloud oracle-database exadb-vm-clusters describe --help`
 
 ### `gcloud oracle-database exadb-vm-clusters list`
 
-**What it does:** list exadbVmClusters.
+**What it does:** list all ExadbVmClusters.
 
 **Usage help:** `gcloud oracle-database exadb-vm-clusters list --help`
 
@@ -31834,7 +35062,7 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud oracle-database exadb-vm-clusters update`
 
-**What it does:** update exadbVmClusters.
+**What it does:** update an ExadbVmCluster.
 
 **Usage help:** `gcloud oracle-database exadb-vm-clusters update --help`
 
@@ -31846,27 +35074,33 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud oracle-database exascale-db-storage-vaults create`
 
-**What it does:** create.
+**What it does:** create a new.
 
 **Usage help:** `gcloud oracle-database exascale-db-storage-vaults create --help`
 
 ### `gcloud oracle-database exascale-db-storage-vaults delete`
 
-**What it does:** delete.
+**What it does:** delete an.
 
 **Usage help:** `gcloud oracle-database exascale-db-storage-vaults delete --help`
 
 ### `gcloud oracle-database exascale-db-storage-vaults describe`
 
-**What it does:** describe.
+**What it does:** get details of.
 
 **Usage help:** `gcloud oracle-database exascale-db-storage-vaults describe --help`
 
 ### `gcloud oracle-database exascale-db-storage-vaults list`
 
-**What it does:** list.
+**What it does:** list all.
 
 **Usage help:** `gcloud oracle-database exascale-db-storage-vaults list --help`
+
+### `gcloud oracle-database exascale-db-storage-vaults update`
+
+**What it does:** update labels of.
+
+**Usage help:** `gcloud oracle-database exascale-db-storage-vaults update --help`
 
 ### `gcloud oracle-database gi-versions`
 
@@ -31891,6 +35125,180 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list minor.
 
 **Usage help:** `gcloud oracle-database gi-versions minor-versions list --help`
+
+### `gcloud oracle-database goldengate-connection-assignments`
+
+**What it does:** manage.
+
+**Usage help:** `gcloud oracle-database goldengate-connection-assignments --help`
+
+### `gcloud oracle-database goldengate-connection-assignments create`
+
+**What it does:** create a.
+
+**Usage help:** `gcloud oracle-database goldengate-connection-assignments create --help`
+
+### `gcloud oracle-database goldengate-connection-assignments delete`
+
+**What it does:** delete a.
+
+**Usage help:** `gcloud oracle-database goldengate-connection-assignments delete --help`
+
+### `gcloud oracle-database goldengate-connection-assignments describe`
+
+**What it does:** get.
+
+**Usage help:** `gcloud oracle-database goldengate-connection-assignments describe --help`
+
+### `gcloud oracle-database goldengate-connection-assignments list`
+
+**What it does:** list all.
+
+**Usage help:** `gcloud oracle-database goldengate-connection-assignments list --help`
+
+### `gcloud oracle-database goldengate-connection-assignments test`
+
+**What it does:** test a.
+
+**Usage help:** `gcloud oracle-database goldengate-connection-assignments test --help`
+
+### `gcloud oracle-database goldengate-connection-assignments update`
+
+**What it does:** update.
+
+**Usage help:** `gcloud oracle-database goldengate-connection-assignments update --help`
+
+### `gcloud oracle-database goldengate-connection-types`
+
+**What it does:** manage Goldengate.
+
+**Usage help:** `gcloud oracle-database goldengate-connection-types --help`
+
+### `gcloud oracle-database goldengate-connection-types list`
+
+**What it does:** list all.
+
+**Usage help:** `gcloud oracle-database goldengate-connection-types list --help`
+
+### `gcloud oracle-database goldengate-connections`
+
+**What it does:** manage Goldengate.
+
+**Usage help:** `gcloud oracle-database goldengate-connections --help`
+
+### `gcloud oracle-database goldengate-connections create`
+
+**What it does:** create a new.
+
+**Usage help:** `gcloud oracle-database goldengate-connections create --help`
+
+### `gcloud oracle-database goldengate-connections delete`
+
+**What it does:** delete a.
+
+**Usage help:** `gcloud oracle-database goldengate-connections delete --help`
+
+### `gcloud oracle-database goldengate-connections describe`
+
+**What it does:** get details of a.
+
+**Usage help:** `gcloud oracle-database goldengate-connections describe --help`
+
+### `gcloud oracle-database goldengate-connections list`
+
+**What it does:** list all.
+
+**Usage help:** `gcloud oracle-database goldengate-connections list --help`
+
+### `gcloud oracle-database goldengate-connections update`
+
+**What it does:** update labels of a.
+
+**Usage help:** `gcloud oracle-database goldengate-connections update --help`
+
+### `gcloud oracle-database goldengate-deployment-environments`
+
+**What it does:** manage.
+
+**Usage help:** `gcloud oracle-database goldengate-deployment-environments --help`
+
+### `gcloud oracle-database goldengate-deployment-environments list`
+
+**What it does:** list all.
+
+**Usage help:** `gcloud oracle-database goldengate-deployment-environments list --help`
+
+### `gcloud oracle-database goldengate-deployment-types`
+
+**What it does:** manage Goldengate.
+
+**Usage help:** `gcloud oracle-database goldengate-deployment-types --help`
+
+### `gcloud oracle-database goldengate-deployment-types list`
+
+**What it does:** list all.
+
+**Usage help:** `gcloud oracle-database goldengate-deployment-types list --help`
+
+### `gcloud oracle-database goldengate-deployment-versions`
+
+**What it does:** manage Goldengate.
+
+**Usage help:** `gcloud oracle-database goldengate-deployment-versions --help`
+
+### `gcloud oracle-database goldengate-deployment-versions list`
+
+**What it does:** list all.
+
+**Usage help:** `gcloud oracle-database goldengate-deployment-versions list --help`
+
+### `gcloud oracle-database goldengate-deployments`
+
+**What it does:** manage Goldengate.
+
+**Usage help:** `gcloud oracle-database goldengate-deployments --help`
+
+### `gcloud oracle-database goldengate-deployments create`
+
+**What it does:** create a new.
+
+**Usage help:** `gcloud oracle-database goldengate-deployments create --help`
+
+### `gcloud oracle-database goldengate-deployments delete`
+
+**What it does:** delete a.
+
+**Usage help:** `gcloud oracle-database goldengate-deployments delete --help`
+
+### `gcloud oracle-database goldengate-deployments describe`
+
+**What it does:** get details of a.
+
+**Usage help:** `gcloud oracle-database goldengate-deployments describe --help`
+
+### `gcloud oracle-database goldengate-deployments list`
+
+**What it does:** list all.
+
+**Usage help:** `gcloud oracle-database goldengate-deployments list --help`
+
+### `gcloud oracle-database goldengate-deployments start`
+
+**What it does:** start a.
+
+**Usage help:** `gcloud oracle-database goldengate-deployments start --help`
+
+### `gcloud oracle-database goldengate-deployments stop`
+
+**What it does:** stop a.
+
+**Usage help:** `gcloud oracle-database goldengate-deployments stop --help`
+
+### `gcloud oracle-database goldengate-deployments update`
+
+**What it does:** update labels of a.
+
+**Usage help:** `gcloud oracle-database goldengate-deployments update --help`
 
 ### `gcloud oracle-database odb-networks`
 
@@ -31922,6 +35330,36 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud oracle-database odb-networks list --help`
 
+### `gcloud oracle-database odb-networks odb-dns-zones`
+
+**What it does:** manage Odb Dns Zone.
+
+**Usage help:** `gcloud oracle-database odb-networks odb-dns-zones --help`
+
+### `gcloud oracle-database odb-networks odb-dns-zones create`
+
+**What it does:** create a new.
+
+**Usage help:** `gcloud oracle-database odb-networks odb-dns-zones create --help`
+
+### `gcloud oracle-database odb-networks odb-dns-zones delete`
+
+**What it does:** delete an.
+
+**Usage help:** `gcloud oracle-database odb-networks odb-dns-zones delete --help`
+
+### `gcloud oracle-database odb-networks odb-dns-zones describe`
+
+**What it does:** get details of.
+
+**Usage help:** `gcloud oracle-database odb-networks odb-dns-zones describe --help`
+
+### `gcloud oracle-database odb-networks odb-dns-zones list`
+
+**What it does:** list all.
+
+**Usage help:** `gcloud oracle-database odb-networks odb-dns-zones list --help`
+
 ### `gcloud oracle-database odb-networks odb-subnets`
 
 **What it does:** manage Odb Subnet.
@@ -31951,6 +35389,18 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list all OdbSubnets.
 
 **Usage help:** `gcloud oracle-database odb-networks odb-subnets list --help`
+
+### `gcloud oracle-database odb-networks odb-subnets update`
+
+**What it does:** update labels of.
+
+**Usage help:** `gcloud oracle-database odb-networks odb-subnets update --help`
+
+### `gcloud oracle-database odb-networks update`
+
+**What it does:** update an OdbNetwork.
+
+**Usage help:** `gcloud oracle-database odb-networks update --help`
 
 ### `gcloud oracle-database operations`
 
@@ -32256,7 +35706,7 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud parametermanager`
 
-**What it does:** parameter Manager is a single source of truth to.
+**What it does:** parameter Manager is a single source of truth for.
 
 **Usage help:** `gcloud parametermanager --help`
 
@@ -32338,11 +35788,23 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud parametermanager parameters versions update --help`
 
+### `gcloud parametermanager templates`
+
+**What it does:** manage Parameter Manager template.
+
+**Usage help:** `gcloud parametermanager templates --help`
+
+### `gcloud parametermanager templates versions`
+
+**What it does:** manage Parameter Manager.
+
+**Usage help:** `gcloud parametermanager templates versions --help`
+
 ## policy-intelligence
 
 ### `gcloud policy-intelligence`
 
-**What it does:** a platform to help better understand, use, and.
+**What it does:** a platform to help administrators better.
 
 **Usage help:** `gcloud policy-intelligence --help`
 
@@ -33274,6 +36736,86 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud pubsub topics update --help`
 
+## quotas
+
+### `gcloud quotas`
+
+**What it does:** manage Cloud Quotas quota info, quota preferences and quota.
+
+**Usage help:** `gcloud quotas --help`
+
+### `gcloud quotas adjuster`
+
+**What it does:** the command group for Cloud Quotas Adjuster.
+
+**Usage help:** `gcloud quotas adjuster --help`
+
+### `gcloud quotas adjuster settings`
+
+**What it does:** the command group for Cloud Quotas.
+
+**Usage help:** `gcloud quotas adjuster settings --help`
+
+### `gcloud quotas adjuster settings describe`
+
+**What it does:** gets details of the.
+
+**Usage help:** `gcloud quotas adjuster settings describe --help`
+
+### `gcloud quotas adjuster settings update`
+
+**What it does:** update the QuotaAdjusterSettings.
+
+**Usage help:** `gcloud quotas adjuster settings update --help`
+
+### `gcloud quotas info`
+
+**What it does:** manage Cloud Quotas QuotaInfo.
+
+**Usage help:** `gcloud quotas info --help`
+
+### `gcloud quotas info describe`
+
+**What it does:** retrieve the QuotaInfo of a quota for a.
+
+**Usage help:** `gcloud quotas info describe --help`
+
+### `gcloud quotas info list`
+
+**What it does:** list QuotaInfos of all quotas for a given.
+
+**Usage help:** `gcloud quotas info list --help`
+
+### `gcloud quotas preferences`
+
+**What it does:** manage Cloud Quotas QuotaPreferences.
+
+**Usage help:** `gcloud quotas preferences --help`
+
+### `gcloud quotas preferences create`
+
+**What it does:** create a new QuotaPreference that.
+
+**Usage help:** `gcloud quotas preferences create --help`
+
+### `gcloud quotas preferences describe`
+
+**What it does:** get details about a single.
+
+**Usage help:** `gcloud quotas preferences describe --help`
+
+### `gcloud quotas preferences list`
+
+**What it does:** list QuotaPreferences in a given project,.
+
+**Usage help:** `gcloud quotas preferences list --help`
+
+### `gcloud quotas preferences update`
+
+**What it does:** update the parameters of a single.
+
+**Usage help:** `gcloud quotas preferences update --help`
+
 ## recaptcha
 
 ### `gcloud recaptcha`
@@ -33532,6 +37074,24 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud redis acl-policies list --help`
 
+### `gcloud redis acl-policies revisions`
+
+**What it does:** manage ACL policies revisions of.
+
+**Usage help:** `gcloud redis acl-policies revisions --help`
+
+### `gcloud redis acl-policies revisions describe`
+
+**What it does:** show metadata for a.
+
+**Usage help:** `gcloud redis acl-policies revisions describe --help`
+
+### `gcloud redis acl-policies revisions list`
+
+**What it does:** list Redis ACL Policy Revisions.
+
+**Usage help:** `gcloud redis acl-policies revisions list --help`
+
 ### `gcloud redis acl-policies update`
 
 **What it does:** update aclPolicies.
@@ -33610,6 +37170,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud redis clusters create-backup --help`
 
+### `gcloud redis clusters create-token-auth-user`
+
+**What it does:** create a token auth user for.
+
+**Usage help:** `gcloud redis clusters create-token-auth-user --help`
+
 ### `gcloud redis clusters delete`
 
 **What it does:** delete a Memorystore for Redis Cluster.
@@ -33669,6 +37235,60 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** switchover to a secondary cluster.
 
 **Usage help:** `gcloud redis clusters switchover --help`
+
+### `gcloud redis clusters token-auth-users`
+
+**What it does:** manage token auth users of.
+
+**Usage help:** `gcloud redis clusters token-auth-users --help`
+
+### `gcloud redis clusters token-auth-users auth-tokens`
+
+**What it does:** manage auth tokens of.
+
+**Usage help:** `gcloud redis clusters token-auth-users auth-tokens --help`
+
+### `gcloud redis clusters token-auth-users auth-tokens delete`
+
+**What it does:** delete a.
+
+**Usage help:** `gcloud redis clusters token-auth-users auth-tokens delete --help`
+
+### `gcloud redis clusters token-auth-users auth-tokens describe`
+
+**What it does:** show metadata.
+
+**Usage help:** `gcloud redis clusters token-auth-users auth-tokens describe --help`
+
+### `gcloud redis clusters token-auth-users auth-tokens list`
+
+**What it does:** list auth tokens.
+
+**Usage help:** `gcloud redis clusters token-auth-users auth-tokens list --help`
+
+### `gcloud redis clusters token-auth-users create-auth-token`
+
+**What it does:** create an auth.
+
+**Usage help:** `gcloud redis clusters token-auth-users create-auth-token --help`
+
+### `gcloud redis clusters token-auth-users delete`
+
+**What it does:** delete a Memorystore for.
+
+**Usage help:** `gcloud redis clusters token-auth-users delete --help`
+
+### `gcloud redis clusters token-auth-users describe`
+
+**What it does:** show metadata for a.
+
+**Usage help:** `gcloud redis clusters token-auth-users describe --help`
+
+### `gcloud redis clusters token-auth-users list`
+
+**What it does:** list token auth users of a.
+
+**Usage help:** `gcloud redis clusters token-auth-users list --help`
 
 ### `gcloud redis clusters update`
 
@@ -33810,6 +37430,60 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud resource-manager --help`
 
+### `gcloud resource-manager boundaries`
+
+**What it does:** manage Resource Manager boundaries.
+
+**Usage help:** `gcloud resource-manager boundaries --help`
+
+### `gcloud resource-manager boundaries create`
+
+**What it does:** create a new boundary.
+
+**Usage help:** `gcloud resource-manager boundaries create --help`
+
+### `gcloud resource-manager boundaries delete`
+
+**What it does:** delete a boundary.
+
+**Usage help:** `gcloud resource-manager boundaries delete --help`
+
+### `gcloud resource-manager boundaries describe`
+
+**What it does:** describe a boundary.
+
+**Usage help:** `gcloud resource-manager boundaries describe --help`
+
+### `gcloud resource-manager boundaries list`
+
+**What it does:** list boundaries.
+
+**Usage help:** `gcloud resource-manager boundaries list --help`
+
+### `gcloud resource-manager boundaries update`
+
+**What it does:** update a boundary.
+
+**Usage help:** `gcloud resource-manager boundaries update --help`
+
+### `gcloud resource-manager boundary-configs`
+
+**What it does:** manage Resource Manager boundary.
+
+**Usage help:** `gcloud resource-manager boundary-configs --help`
+
+### `gcloud resource-manager boundary-configs describe`
+
+**What it does:** describe a boundary.
+
+**Usage help:** `gcloud resource-manager boundary-configs describe --help`
+
+### `gcloud resource-manager boundary-configs update`
+
+**What it does:** update a boundary.
+
+**Usage help:** `gcloud resource-manager boundary-configs update --help`
+
 ### `gcloud resource-manager capabilities`
 
 **What it does:** manage Cloud Folder Capabilities.
@@ -33827,6 +37501,42 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update a folder capability.
 
 **Usage help:** `gcloud resource-manager capabilities update --help`
+
+### `gcloud resource-manager capability-configs`
+
+**What it does:** manage Cloud Resource Manager.
+
+**Usage help:** `gcloud resource-manager capability-configs --help`
+
+### `gcloud resource-manager capability-configs create`
+
+**What it does:** create a.
+
+**Usage help:** `gcloud resource-manager capability-configs create --help`
+
+### `gcloud resource-manager capability-configs delete`
+
+**What it does:** delete a.
+
+**Usage help:** `gcloud resource-manager capability-configs delete --help`
+
+### `gcloud resource-manager capability-configs describe`
+
+**What it does:** describe a.
+
+**Usage help:** `gcloud resource-manager capability-configs describe --help`
+
+### `gcloud resource-manager capability-configs list`
+
+**What it does:** list CapabilityConfigs.
+
+**Usage help:** `gcloud resource-manager capability-configs list --help`
+
+### `gcloud resource-manager capability-configs update`
+
+**What it does:** update a.
+
+**Usage help:** `gcloud resource-manager capability-configs update --help`
 
 ### `gcloud resource-manager folders`
 
@@ -34255,6 +37965,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** obtain details about executions.
 
 **Usage help:** `gcloud run jobs executions describe --help`
+
+### `gcloud run jobs executions describe-latest`
+
+**What it does:** obtain details about the.
+
+**Usage help:** `gcloud run jobs executions describe-latest --help`
 
 ### `gcloud run jobs executions list`
 
@@ -35396,6 +39112,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud secrets describe --help`
 
+### `gcloud secrets enable-managed-rotation`
+
+**What it does:** enable managed rotation for a.
+
+**Usage help:** `gcloud secrets enable-managed-rotation --help`
+
 ### `gcloud secrets get-iam-policy`
 
 **What it does:** get the IAM policy for the secret.
@@ -35455,6 +39177,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** update a secret replica's metadata.
 
 **Usage help:** `gcloud secrets replication update --help`
+
+### `gcloud secrets rotate-secret`
+
+**What it does:** rotate a secret.
+
+**Usage help:** `gcloud secrets rotate-secret --help`
 
 ### `gcloud secrets set-iam-policy`
 
@@ -37472,6 +41200,24 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud storage batch-operations --help`
 
+### `gcloud storage batch-operations bucket-operations`
+
+**What it does:** manage Cloud Storage.
+
+**Usage help:** `gcloud storage batch-operations bucket-operations --help`
+
+### `gcloud storage batch-operations bucket-operations describe`
+
+**What it does:** describe a.
+
+**Usage help:** `gcloud storage batch-operations bucket-operations describe --help`
+
+### `gcloud storage batch-operations bucket-operations list`
+
+**What it does:** list bucket.
+
+**Usage help:** `gcloud storage batch-operations bucket-operations list --help`
+
 ### `gcloud storage batch-operations jobs`
 
 **What it does:** manage Cloud Storage batch.
@@ -37549,12 +41295,6 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** list all Anywhere Cache.
 
 **Usage help:** `gcloud storage buckets anywhere-caches list --help`
-
-### `gcloud storage buckets anywhere-caches pause`
-
-**What it does:** pause Anywhere Cache.
-
-**Usage help:** `gcloud storage buckets anywhere-caches pause --help`
 
 ### `gcloud storage buckets anywhere-caches resume`
 
@@ -37886,6 +41626,48 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud storage intelligence-configs update --help`
 
+### `gcloud storage intelligence-findings`
+
+**What it does:** findings for Cloud Storage usage.
+
+**Usage help:** `gcloud storage intelligence-findings --help`
+
+### `gcloud storage intelligence-findings describe`
+
+**What it does:** intelligence finding.
+
+**Usage help:** `gcloud storage intelligence-findings describe --help`
+
+### `gcloud storage intelligence-findings list`
+
+**What it does:** intelligence findings list.
+
+**Usage help:** `gcloud storage intelligence-findings list --help`
+
+### `gcloud storage intelligence-findings revisions`
+
+**What it does:** historical revisions of.
+
+**Usage help:** `gcloud storage intelligence-findings revisions --help`
+
+### `gcloud storage intelligence-findings revisions describe`
+
+**What it does:** historical.
+
+**Usage help:** `gcloud storage intelligence-findings revisions describe --help`
+
+### `gcloud storage intelligence-findings revisions list`
+
+**What it does:** historical revisions.
+
+**Usage help:** `gcloud storage intelligence-findings revisions list --help`
+
+### `gcloud storage intelligence-findings summarize`
+
+**What it does:** intelligence findings.
+
+**Usage help:** `gcloud storage intelligence-findings summarize --help`
+
 ### `gcloud storage ls`
 
 **What it does:** list Cloud Storage buckets and objects.
@@ -38035,6 +41817,62 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** generate a URL with embedded authentication that.
 
 **Usage help:** `gcloud storage sign-url --help`
+
+## support
+
+### `gcloud support`
+
+**What it does:** manage Support resources.
+
+**Usage help:** `gcloud support --help`
+
+### `gcloud support support-event-subscriptions`
+
+**What it does:** manage Support Event.
+
+**Usage help:** `gcloud support support-event-subscriptions --help`
+
+### `gcloud support support-event-subscriptions create`
+
+**What it does:** create a support event.
+
+**Usage help:** `gcloud support support-event-subscriptions create --help`
+
+### `gcloud support support-event-subscriptions delete`
+
+**What it does:** delete.
+
+**Usage help:** `gcloud support support-event-subscriptions delete --help`
+
+### `gcloud support support-event-subscriptions describe`
+
+**What it does:** describe.
+
+**Usage help:** `gcloud support support-event-subscriptions describe --help`
+
+### `gcloud support support-event-subscriptions expunge`
+
+**What it does:** expunge.
+
+**Usage help:** `gcloud support support-event-subscriptions expunge --help`
+
+### `gcloud support support-event-subscriptions list`
+
+**What it does:** list.
+
+**Usage help:** `gcloud support support-event-subscriptions list --help`
+
+### `gcloud support support-event-subscriptions undelete`
+
+**What it does:** undelete.
+
+**Usage help:** `gcloud support support-event-subscriptions undelete --help`
+
+### `gcloud support support-event-subscriptions update`
+
+**What it does:** update.
+
+**Usage help:** `gcloud support support-event-subscriptions update --help`
 
 ## survey
 
@@ -38207,62 +42045,6 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** force a task to run now.
 
 **Usage help:** `gcloud tasks run --help`
-
-## telco-automation
-
-### `gcloud telco-automation`
-
-**What it does:** manage Telco Automation resources.
-
-**Usage help:** `gcloud telco-automation --help`
-
-### `gcloud telco-automation operations`
-
-**What it does:** command group for working with telco.
-
-**Usage help:** `gcloud telco-automation operations --help`
-
-### `gcloud telco-automation operations describe`
-
-**What it does:** get description of a.
-
-**Usage help:** `gcloud telco-automation operations describe --help`
-
-### `gcloud telco-automation operations wait`
-
-**What it does:** poll long-running telco.
-
-**Usage help:** `gcloud telco-automation operations wait --help`
-
-### `gcloud telco-automation orchestration-cluster`
-
-**What it does:** manage telco automation.
-
-**Usage help:** `gcloud telco-automation orchestration-cluster --help`
-
-### `gcloud telco-automation orchestration-cluster create`
-
-**What it does:** create a telco.
-
-**Usage help:** `gcloud telco-automation orchestration-cluster create --help`
-
-### `gcloud telco-automation orchestration-cluster delete`
-
-**What it does:** delete a telco.
-
-**Usage help:** `gcloud telco-automation orchestration-cluster delete --help`
-
-### `gcloud telco-automation orchestration-cluster describe`
-
-**What it does:** show details about.
-
-**Usage help:** `gcloud telco-automation orchestration-cluster describe --help`
-
-### `gcloud telco-automation orchestration-cluster list`
-
-**What it does:** list telco automation.
-
-**Usage help:** `gcloud telco-automation orchestration-cluster list --help`
 
 ## topic
 
@@ -38512,7 +42294,7 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 ### `gcloud transfer authorize`
 
-**What it does:** authorize an account for all Transfer Service.
+**What it does:** authorize an account for all Storage Transfer.
 
 **Usage help:** `gcloud transfer authorize --help`
 
@@ -39356,6 +43138,12 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 
 **Usage help:** `gcloud vmware private-clouds management-dns-zone-bindings update --help`
 
+### `gcloud vmware private-clouds migrate-management-vms`
+
+**What it does:** migrate the.
+
+**Usage help:** `gcloud vmware private-clouds migrate-management-vms --help`
+
 ### `gcloud vmware private-clouds nsx`
 
 **What it does:** manage NSX using Google Cloud VMware.
@@ -40043,3 +43831,9 @@ Official reference: https://cloud.google.com/sdk/gcloud/reference
 **What it does:** stop a workstation.
 
 **Usage help:** `gcloud workstations stop --help`
+
+### `gcloud workstations update`
+
+**What it does:** update a workstation.
+
+**Usage help:** `gcloud workstations update --help`
