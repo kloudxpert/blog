@@ -1,8 +1,12 @@
-# KloudXpert gcloud Command Reference
+# KloudXpert field guides and references
 
-Companion command indexes, a practical cheat sheet, and a regeneration script for the [gcloud Commands guide](https://blog.kloudxpert.com/gcloud-commands-guide/).
+Companion command indexes, a practical cheat sheet, and a regeneration script for the [gcloud Commands guide](https://blog.kloudxpert.com/gcloud-commands-guide/?utm_source=github&utm_medium=referral&utm_campaign=kloudxpert_practical_guides&utm_content=gcloud_readme).
 
 **Read the tutorial on the KloudXpert blog.** This repository holds supporting reference material, not a second copy of the article.
+
+## Gemini Enterprise pilot
+
+[Copy the Gemini Enterprise pilot test worksheet](gemini-enterprise/pilot-test-worksheet.md) to test citations, permissions, and read-only behavior with six acceptance cases. The worksheet links to the complete blog walkthrough.
 
 ## Browse the reference
 
