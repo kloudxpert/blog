@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc"><title id="title">Google vs OpenAI vs Anthropic: AI models compared</title><desc id="desc">KloudXpert editorial cover for a November 2026 comparison of model capabilities, API costs and enterprise fit.</desc><rect width="1200" height="630" fill="#fbfcfe"/>
+<rect x="0" y="0" width="1200" height="8" rx="0" fill="#142846"/>
+<rect x="68" y="52" width="7" height="33" rx="3" fill="#168d88"/>
+<text x="91" y="79" font-family="DejaVu Sans,sans-serif" font-size="28" font-weight="700" fill="#142846">KloudXpert</text>
+<text x="936" y="77" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="400" fill="#63748b">November 2026</text>
+<text x="68" y="171" font-family="DejaVu Sans,sans-serif" font-size="19" font-weight="700" fill="#168d88">AI MODELS COMPARED</text>
+<text x="64" y="263" font-family="DejaVu Sans,sans-serif" font-size="66" font-weight="700" fill="#142846">Google vs OpenAI</text>
+<text x="64" y="349" font-family="DejaVu Sans,sans-serif" font-size="66" font-weight="700" fill="#142846">vs Anthropic</text>
+<rect x="68" y="405" width="268" height="54" rx="8" fill="#edf6f5" stroke="#dce9e8"/>
+<text x="90" y="439" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="400" fill="#294c55">Capabilities</text>
+<rect x="354" y="405" width="268" height="54" rx="8" fill="#edf6f5" stroke="#dce9e8"/>
+<text x="376" y="439" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="400" fill="#294c55">API costs</text>
+<rect x="640" y="405" width="326" height="54" rx="8" fill="#edf6f5" stroke="#dce9e8"/>
+<text x="662" y="439" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="400" fill="#294c55">Enterprise fit</text>
+<rect x="68" y="511" width="1064" height="1" rx="0" fill="#dce5ef"/>
+<text x="68" y="562" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="400" fill="#3a506c">Practical enterprise selection guide</text>
+<text x="897" y="562" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="400" fill="#63748b">blog.kloudxpert.com</text>
+</svg>
