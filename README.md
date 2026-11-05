@@ -4,6 +4,12 @@ Companion command indexes, a practical cheat sheet, and a regeneration script fo
 
 **Read the tutorial on the KloudXpert blog.** This repository holds supporting reference material, not a second copy of the article.
 
+## Featured: compare models with evidence
+
+[Google vs OpenAI vs Anthropic: latest AI models compared](https://blog.kloudxpert.com/google-vs-openai-vs-anthropic-model-comparison/?utm_source=github&utm_medium=referral&utm_campaign=ai_models_nov2026&utm_content=readme_feature) covers current capabilities, dated API prices, videos and a practical selection method.
+
+[Copy the model evaluation scorecard](model-comparison/model-evaluation-scorecard.md) to build a 20-case test set and compare accepted results, latency, complete task costs and review effort. Fill in your own evidence; no benchmark results are implied.
+
 ## Gemini Enterprise pilot
 
 [Copy the Gemini Enterprise pilot test worksheet](gemini-enterprise/pilot-test-worksheet.md) to test citations, permissions, and read-only behavior with six acceptance cases. The worksheet links to the complete blog walkthrough.
