@@ -4,6 +4,12 @@ Companion command indexes, a practical cheat sheet, and a regeneration script fo
 
 **Read the tutorial on the KloudXpert blog.** This repository holds supporting reference material, not a second copy of the article.
 
+## Free AI model evaluation workbook
+
+[Use the AI Model Evaluation Toolkit](https://blog.kloudxpert.com/ai-model-evaluation-toolkit/?utm_source=github&utm_medium=referral&utm_campaign=ai_evaluation_toolkit_nov2026&utm_content=readme_toolkit) to compare your own acceptance rate, latency, model spend and review effort. The workbook starts with blank measurement inputs and a separate illustrative example.
+
+[Download the Excel workbook](https://raw.githubusercontent.com/kloudxpert/blog/main/ai-model-evaluation-toolkit/KloudXpert-AI-Evaluation-Workbook.xlsx) · [Workbook instructions](ai-model-evaluation-toolkit/README.md)
+
 ## Featured: compare models with evidence
 
 [Google vs OpenAI vs Anthropic: latest AI models compared](https://blog.kloudxpert.com/google-vs-openai-vs-anthropic-model-comparison/?utm_source=github&utm_medium=referral&utm_campaign=ai_models_nov2026&utm_content=readme_feature) covers current capabilities, dated API prices, videos and a practical selection method.
